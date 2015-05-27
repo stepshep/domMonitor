@@ -9,7 +9,7 @@
 <fieldset>
 <input type="search" placeholder="" name="q" />
 <button type="submit">
-<form method="post" action="default.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<form method="post" action="default.aspx" id="aspnetForm">
 <div>
 <div style="text-align: left" id="writeRepForm">
 <div>
@@ -228,7 +228,7 @@
 <fieldset>
 <legend>
 <div class="fieldContainer">
-<table id="ctl00_ctl14_ReplyChoice">
+<span id="ctl00_ctl14_ReplyChoice">
 <input id="ctl00_ctl14_ReplyChoice_0" type="radio" name="ctl00$ctl14$ReplyChoice" value="Respond" />
 <label for="ctl00_ctl14_ReplyChoice_0">
 <input id="ctl00_ctl14_ReplyChoice_1" type="radio" name="ctl00$ctl14$ReplyChoice" value="Comment" />
@@ -236,11 +236,11 @@
 <div class="fieldContainer">
 <label for="ctl00_ctl14_Subject">
 <span class="header">
-<input name="ctl00$ctl14$Subject" type="text" id="ctl00_ctl14_Subject" style="width:30em;" />
+<input name="ctl00$ctl14$Subject" type="text" id="ctl00_ctl14_Subject" />
 <div class="fieldContainer">
 <label for="ctl00_ctl14_Body">
 <span class="header">
-<textarea name="ctl00$ctl14$Body" rows="15" cols="20" id="ctl00_ctl14_Body" style="width:30em;">
+<textarea name="ctl00$ctl14$Body" rows="15" cols="20" id="ctl00_ctl14_Body">
 <input type="submit" name="ctl00$ctl14$SubmitButton" value="Submit" onclick="if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl14$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ctl14_SubmitButton" class="ContactForm_Submit" />
 <form class="search-form">
 <fieldset>
