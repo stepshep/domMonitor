@@ -1,0 +1,94 @@
+<form action="/Search/results.htm" id="cse-search-box">
+<fieldset>
+<label>
+<span>
+<input type="text" onfocus="this.value=''" value="search" name="q" />
+<input type="submit" name="sa" class="submit" value="" />
+<form action="http://thomas.loc.gov/cgi-bin/query" method="post">
+<fieldset>
+<label>
+<span>
+<input name="docid112" type="text" />
+<input class="submit" type="submit" value=" " />
+<label>
+<span>
+<input name="queryc112" type="text" />
+<input class="submit" type="submit" value=" " />
+<td class="ContentCell">
+<span id="ctl00_ctl12_ctl00_Text" class="middlecopy">
+<form name="contact" id="contactForm" class="zipform" onsubmit="MM_validateForm('required-prefix','Prefix','R','required-first','First Name','R','required-last','Last Name','R','required-address','Street Address','R','required-city','City','R','required-email','Email','RisEmail','required-issue','Issue','R','required-message','Message','R');return document.MM_returnValue" action="/submit-contact.aspx" method="post">
+<table align="center" cellspacing="2" cellpadding="0">
+<tbody>
+<td align="right">
+<strong>
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<strong>
+<strong>
+<strong>
+<strong>
+<small>
+<select name="required-prefix">
+<option selected="selected" value="Mr.">
+<option value="Ms.">
+<option value="Mrs.">
+<option value="Mr. &amp; Mrs.">
+<option value="Dr.">
+<input name="required-first" type="text" size="12" maxlength="90" />
+<input name="required-last" type="text" size="15" maxlength="90" />
+<input name="suffix" type="text" size="10" maxlength="90" />
+<td align="right">
+<strong>
+<input name="required-address" type="text" size="60" maxlength="190" />
+<td align="right">
+<strong>
+<input name="required-city" type="text" maxlength="45" />
+<strong>
+<select name="required-state">
+<option selected="selected">
+<strong>
+<input name="zip5" onkeydown="f(this)" onkeyup="f(this)" type="text" size="5" maxlength="5" />
+<input name="zip4" onkeydown="f(this)" onkeyup="f(this)" type="text" size="4" maxlength="4" />
+<td align="right">
+<strong>
+<input name="phone" type="text" size="60" maxlength="100" />
+<td align="right">
+<strong>
+<input name="required-email" type="text" size="60" maxlength="100" />
+<td align="right">
+<strong>
+<select name="required-issue" size="1">
+<option selected="selected" value="">
+<option value="WEB ANI">
+<option value="WEB AG">
+<option value="WEB BH">
+<option value="WEB BDG">
+<option value="WEB DEF">
+<option value="WEB BUS">
+<option value="WEB ED">
+<option value="WEB EGY">
+<option value="WEB ENV">
+<option value="WEB FA">
+<option value="WEB GR">
+<option value="WEB HE">
+<option value="WEB HOM">
+<option value="WEB IM">
+<option value="WEB JUD">
+<option value="WEB SAT">
+<option value="WEB SSM">
+<option value="WEB TX">
+<option value="WEB TRD">
+<option value="WEB TNS">
+<option value="WEB VA">
+<option value="WEB OTHER">
+<td align="right" valign="top">
+<strong>
+<textarea name="required-message" rows="15" cols="60">
+<td align="right" valign="top">
+<input name="subscribe" type="checkbox" value="subscribe" />
+<td align="right" valign="top">
+<input name="rsp" type="checkbox" value="no" />
+<td colspan="2">
+<center>
+<input type="submit" value="Send Email" />
+<input type="reset" value="Reset" />

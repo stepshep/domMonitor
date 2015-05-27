@@ -1,0 +1,40 @@
+<form class="ajaxForm feedback_form" method="POST" action="/forms/feedbacks">
+<p>
+<label for "email_address">
+<input name="email_address" type="text" class="text" id="email_address" autocomplete="off"/>
+<div class="form-errors">
+<div class="row-fluid padtopmore">
+<div class="span12">
+<label for="feedback_content">
+<textarea class="textarea autogrow" id="feedback_content" name="feedback[content]">
+<div class="row-fluid">
+<div class="span12">
+<label class="checkbox" for="feedback_is_private">
+<input class="checkbox" id="feedback_is_private" name="feedback[is_private]" type="checkbox" value="1" />
+<div class="row-fluid">
+<div class="span6">
+<label for="feedback_first_name">
+<input class="text" id="feedback_first_name" name="feedback[first_name]" type="text" />
+<div class="span6">
+<label for="feedback_last_name">
+<input class="text" id="feedback_last_name" name="feedback[last_name]" type="text" />
+<div class="row-fluid">
+<div class="span6">
+<label for="feedback_email">
+<input class="text" id="feedback_email" name="feedback[email]" type="email" />
+<div class="span6">
+<label for="feedback_mobile_number">
+<input class="text" id="feedback_mobile_number" name="feedback[mobile_number]" type="tel" />
+<div class="row-fluid">
+<div class="span6">
+<label class="checkbox" for="feedback_email_opt_in">
+<input class="checkbox" checked="checked" id="feedback_email_opt_in" name="feedback[email_opt_in]" type="checkbox" value="1" />
+<div class="span6">
+<label class="checkbox" for="feedback_mobile_opt_in">
+<input class="checkbox" checked="checked" id="feedback_mobile_opt_in" name="feedback[mobile_opt_in]" type="checkbox" value="1" />
+<div class="row-fluid">
+<div class="span12">
+<label for="feedback_submitted_address">
+<input class="text" id="feedback_submitted_address" name="feedback[submitted_address]" type="text" />
+<input class="submit-button" type="submit" name="commit" value="Send Email" />
+<div class="form-submit">

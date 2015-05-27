@@ -1,0 +1,211 @@
+<form onsubmit="return checkformsearch(this)" method="get" action="index.cfm?sectionid=2§iontree=">
+<input type="text" value="Search Site" onfocus="iFocus(this)" onblur="iBlur(this)" name="searchkey" class="searchkey text" style="color: rgb(119, 119, 119);"/>
+<input type="submit" value="" class="searchButon button"/>
+<form action="/index.cfm" method="get" onsubmit="return checkformsearch(this)">
+<p>
+<label for="searchkey">
+<span class="requiredfield" id="searchkeyrequired">
+<p>
+<input type="text" name="searchkey" id="searchkey"  />
+<input type="radio" class="radiobutton" name="locale" value="-1" id="entire"
+					checked="checked"/>
+<label for="entire">
+<input type="radio" class="radiobutton" name="locale" value="58" id="this_section"
+					/>
+<label for="this_section">
+<p class="submitbutton">
+<span>
+<input type="submit" value="Search"/>
+<form action="/email-joe1/" id="custom_form24" name="custom_form" class="custom_form" method="post">
+<p class="req">
+<fieldset>
+<legend>
+<div class="formbx">
+<label for="prefix">
+<select name="prefix" id="prefix" class="short">
+<option selected="" value="">
+<option value="Mr. ">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Miss">
+<option value="Dr.">
+<option value="Hon.">
+<option value="Rev.">
+<option value="Rabbi">
+<div class="formbx">
+<label for="req_firstname">
+<span title="required field">
+<input type="text" name="firstname" id="req_firstname" maxlength="100" class="text fn" />
+<div class="formbx">
+<label for="middle">
+<input id="middle" type="text" name="middle" class="text mi" maxlength="2" />
+<div class="formbx">
+<label for="req_lastname">
+<span title="required information">
+<input type="text" name="lastname" id="req_lastname" class="text ln" maxlength="100" />
+<div class="formbx">
+<label for="suffix">
+<input id="suffix" type="text" name="suffix" class="text sfx" maxlength="5"/>
+<div class="formbx">
+<label for="req_street">
+<span title="required information">
+<input type="text" name="street" id="req_street" class="text str" maxlength="100"/>
+<div class="formbx">
+<label for="address2">
+<input id="address2" type="text" name="street2" class="text str" maxlength="100"/>
+<div class="formbx">
+<label for="req_city">
+<span title="required information">
+<input type="text" name="city" id="req_city" class="text ct" maxlength="100"/>
+<div class="formbx">
+<label for="req_state">
+<span title="required information">
+<select name="state" class="short" id="req_state">
+<option selected="" value="">
+<option value="AK">
+<option value="AL">
+<option value="AR">
+<option value="AZ">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DC">
+<option value="DE">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="IA">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="MA">
+<option value="MD">
+<option value="ME">
+<option value="MI">
+<option value="MN">
+<option value="MO">
+<option value="MS">
+<option value="MT">
+<option value="NC">
+<option value="ND">
+<option value="NE">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NV">
+<option value="NY">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="PR">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VA">
+<option value="VT">
+<option value="WA">
+<option value="WI">
+<option value="WV">
+<option value="WY">
+<div class="formbx">
+<label for="req_zip">
+<span title="required information">
+<input type="text" name="zipcode" id="req_zip" class="zip z5" maxlength="5" />
+<div class="formbx">
+<label for="zip4">
+<input type="text" name="zipfour" id="zip4" class="zip z4" maxlength="4" />
+<small>
+<div class="formbx">
+<label for="req_email">
+<span title="required information">
+<input type="text" name="emailaddress" id="req_email" maxlength="100" class="text eml" />
+<div class="formbx">
+<label for="phone">
+<input id="phone" type="text" name="phone" class="text phn" maxlength="20"/>
+<fieldset>
+<legend>
+<div class="formbx">
+<label for="issue">
+<span title="required information">
+<select id="req_issue" name="issue">
+<option selected="selected" value="">
+<option value="AGR">
+<option value="DEF">
+<option value="EDU">
+<option value="ENV">
+<option value="GOV">
+<option value="GUN">
+<option value="HEA">
+<option value="IMM">
+<option value="JUD">
+<option value="LABOR">
+<option value="SCIENCE">
+<option value="SOC">
+<option value="ECO">
+<option value="TRAN">
+<option value="INTL">
+<option value="VET">
+<option value="WEL">
+<option value="CASEWORK">
+<option value="FLAG">
+<option value="MISC">
+<div class="formbx">
+<label for="req_subject">
+<span title="required information">
+<input class="text sbj" id="req_subject" maxlength="100" name="subject" />
+<div class="formbx">
+<label for="req_message">
+<span title="required information">
+<textarea name="message" id="req_message" class="message">
+<div class="formbx">
+<label>
+<select name="response" id="response">
+<option selected="selected" value="Yes">
+<option value="No">
+<fieldset>
+<legend>
+<div class="formbox">
+<p style="font-weight:bold">
+<input type="checkbox" name="newsletter" id="newsletter" value="ENEWS.SUBSCRIBE" />
+<p style="font-weight:bold">
+<input type="checkbox" name="newsletter2" id="newsletter2" value="ENEWS.SENIORS" />
+<p style="font-weight:bold">
+<input type="checkbox" name="newsletter3" id="newsletter3" value="ENEWS.GRANTS" />
+<p>
+<input type="submit" value="Send Email" id="submitButton" class="form_submit_button" />
+<div id="webfooter">
+<div class="moduletable importantlinks">
+<h3>
+<ul class="menu" id="footerlinks">
+<li>
+<span>
+<li>
+<span>
+<li>
+<span>
+<li>
+<span>
+<div class="moduletable thomasbox">
+<h3>
+<p>
+<div id="billSearch">
+<div class="searchform">
+<form action="http://thomas.loc.gov/cgi-bin/query" method="post" name="loc-word" target="_blank">
+<input class="text" id="phrase" maxlength="50" name="queryc112" onblur="iBlur(this)" onfocus="iFocus(this)" type="text" value="Bill Number" />
+<input class="searchbuttons button" name="Submit" type="submit" value="" />
+<div class="searchform">
+<form action="http://thomas.loc.gov/cgi-bin/query" id="billsearch" method="post" target="_blank">
+<input class="text" id="word" name="queryc112" onblur="if(this.value=='')this.value='Word or Phrase'" onfocus="if(this.value=='Word or Phrase')this.value=''" type="text" value="Word or Phrase" />
+<input class="searchbuttons button" name="Submit" type="submit" value="" />
+<div class="moduletable last help-you">
+<h3>
+<ul class="menu">
+<li class="footerlink">
+<div id="privacydiv">
