@@ -72,8 +72,6 @@
 <fieldset>
 <legend>
 <ol>
-<li>
-<ul>
 <li class="required">
 <label for="salutation">
 <abbr title="required">
@@ -92,14 +90,10 @@
 <option label="Dr. and Mr." value="Dr. and Mr.">
 <li class="required">
 <label>
-<ul>
-<li>
 <input type="checkbox" name="military_toggle" id="military_toggle" value="military" onclick="javascript:toggle_military_section();" style="vertical-align: baseline;" />
 <label for="military_toggle" style="display:inline;">
-<li>
 <input type="checkbox" name="ecclesiastical_toggle" id="ecclesiastical_toggle" value="ecclesiastical" onclick="javascript:toggle_ecclesiastical_section();" style="vertical-align: baseline;" />
 <label for="ecclesiastical_toggle" style="display:inline;">
-<ul>
 <li class="required">
 <label for="military_branch">
 <abbr title="required">
@@ -198,7 +192,6 @@
 <option value="">
 <option value="No">
 <option value="Yes">
-<ul>
 <li class="required">
 <label for="ecclesiastical_title">
 <abbr title="required">
@@ -229,7 +222,6 @@
 <fieldset>
 <legend>
 <ol>
-<li>
 <ul class="col two">
 <li class="required">
 <label for="fname">
@@ -265,7 +257,6 @@
 <fieldset>
 <legend>
 <ol>
-<li>
 <ul class="col two">
 <li class="required">
 <label for="email_address">
@@ -275,17 +266,14 @@
 <label for="verify_email">
 <abbr title="Please confirm your email address">
 <input type="text" name="verify_email" id="verify_email" required="required" aria-required="true" class="validate['required'] validate['email'] validate['confirm:email_address']" />
-<li>
 <label for="phone_number">
 <input type="text" name="phone_number" id="phone_number"  />
 <li class="required">
 <label for="mailing_streetAddress1">
 <abbr title="Your street address is a required field">
 <input type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" class="validate['required'] "/>
-<li>
 <label for="mailing_streetAddress2">
 <input type="text" name="mailing_streetAddress2" id="mailing_streetAddress2" />
-<li>
 <ul class="col three">
 <li class="required">
 <label for="mailing_city">
@@ -354,7 +342,6 @@
 <fieldset>
 <legend>
 <ol>
-<li>
 <input type="checkbox" id="newsletter" name="newsletter" value="newsletter" />
 <label for="newsletter" class="full_line">
 <li class="required">
@@ -365,7 +352,6 @@
 <label for="comments">
 <abbr title="Please enter your message">
 <textarea id="comments" name="comments" aria-required="true" class="validate['required','%message']">
-<li>
 <input type="checkbox" id="no_response" name="no_response" value="no_response" />
 <label for="no_response" class="full_line">
 <input class="button" type="submit" id="side-search-btn" value="Send" />
@@ -374,16 +360,10 @@
 <legend>
 <span class="instructions">
 <ol>
-<li>
 <ol class="col two">
-<li>
 <input id="newsletter_firstname" aria-required="true" name="newsletter_firstname" class="cleardefault validate['required']" value="First Name" />
-<li>
 <input id="newsletter_lastname" aria-required="true" name="newsletter_lastname" class="cleardefault validate['required']" value="Last Name" />
-<li>
 <ol class="col two">
-<li>
 <input id="newsletter_email" aria-required="true" name="newsletter_email" class="cleardefault validate['required']" value="Email Address" />
-<li>
 <input id="newsletter_zipcode" aria-required="true" name="newsletter_zipcode" class="cleardefault validate['required']"  value="Zip Code" />
 <button id="sign-up" name="sign-up" type="submit" title="Sign up for Email updates" class="button">
