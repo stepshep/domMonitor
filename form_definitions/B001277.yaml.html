@@ -1,7 +1,7 @@
 <form id="site-search" role="search" method="get" action="http://www.blumenthal.senate.gov/search/">
 <fieldset>
 <legend>
-<input type="search" id="search-field" name="q" placeholder="Search" value="Search this Site"  onclick="this.value='';" />
+<input type="search" id="search-field" name="q" placeholder="Search" value="Search this Site"  onclick="this.value='';" >
 <form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
 <div id="contact-sam-main" class="amend-textarea">
 <h2>
@@ -90,9 +90,9 @@
 <option label="Dr. and Mr." value="Dr. and Mr.">
 <li class="required">
 <label>
-<input type="checkbox" name="military_toggle" id="military_toggle" value="military" onclick="javascript:toggle_military_section();" style="vertical-align: baseline;" />
+<input type="checkbox" name="military_toggle" id="military_toggle" value="military" onclick="javascript:toggle_military_section();" style="vertical-align: baseline;" >
 <label for="military_toggle" style="display:inline;">
-<input type="checkbox" name="ecclesiastical_toggle" id="ecclesiastical_toggle" value="ecclesiastical" onclick="javascript:toggle_ecclesiastical_section();" style="vertical-align: baseline;" />
+<input type="checkbox" name="ecclesiastical_toggle" id="ecclesiastical_toggle" value="ecclesiastical" onclick="javascript:toggle_ecclesiastical_section();" style="vertical-align: baseline;" >
 <label for="ecclesiastical_toggle" style="display:inline;">
 <li class="required">
 <label for="military_branch">
@@ -226,11 +226,11 @@
 <li class="required">
 <label for="fname">
 <abbr title="Your first name is a required field">
-<input type="text" name="fname" id="fname" required="required" aria-required="true" class="validate['required']" />
+<input type="text" name="fname" id="fname" required="required" aria-required="true" class="validate['required']" >
 <li class="required">
 <label for="lname">
 <abbr title="Your last name is a required field">
-<input type="text" name="lname" id="lname" required="required" aria-required="true" class="validate['required']" />
+<input type="text" name="lname" id="lname" required="required" aria-required="true" class="validate['required']" >
 <li class="required">
 <label for="suffix">
 <select id="suffix" name="suffix">
@@ -261,24 +261,24 @@
 <li class="required">
 <label for="email_address">
 <abbr title="Your email address is a required field">
-<input type="text" name="email" id="email_address" required="required" aria-required="true" class="validate['required'] validate['email']" />
+<input type="text" name="email" id="email_address" required="required" aria-required="true" class="validate['required'] validate['email']" >
 <li class="required">
 <label for="verify_email">
 <abbr title="Please confirm your email address">
-<input type="text" name="verify_email" id="verify_email" required="required" aria-required="true" class="validate['required'] validate['email'] validate['confirm:email_address']" />
+<input type="text" name="verify_email" id="verify_email" required="required" aria-required="true" class="validate['required'] validate['email'] validate['confirm:email_address']" >
 <label for="phone_number">
-<input type="text" name="phone_number" id="phone_number"  />
+<input type="text" name="phone_number" id="phone_number"  >
 <li class="required">
 <label for="mailing_streetAddress1">
 <abbr title="Your street address is a required field">
-<input type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" class="validate['required'] "/>
+<input type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" class="validate['required'] ">
 <label for="mailing_streetAddress2">
-<input type="text" name="mailing_streetAddress2" id="mailing_streetAddress2" />
+<input type="text" name="mailing_streetAddress2" id="mailing_streetAddress2" >
 <ul class="col three">
 <li class="required">
 <label for="mailing_city">
 <abbr title="Your city is a required field">
-<input type="text" name="mailing_city" id="mailing_city" required="required" aria-required="true" class="validate['required','%city']" />
+<input type="text" name="mailing_city" id="mailing_city" required="required" aria-required="true" class="validate['required','%city']" >
 <li class="required">
 <label for="mailing_state">
 <abbr title="Your state is a required field">
@@ -338,32 +338,32 @@
 <li class="required">
 <label for="mailing_zipCode">
 <abbr title="Your zip code is a required field">
-<input name="mailing_zipCode" type="text" id="mailing_zipCode" required="required" aria-required="true" class="validate['required','%zipCode']" />
+<input name="mailing_zipCode" type="text" id="mailing_zipCode" required="required" aria-required="true" class="validate['required','%zipCode']" >
 <fieldset>
 <legend>
 <ol>
-<input type="checkbox" id="newsletter" name="newsletter" value="newsletter" />
+<input type="checkbox" id="newsletter" name="newsletter" value="newsletter" >
 <label for="newsletter" class="full_line">
 <li class="required">
 <label for="subject">
 <abbr title="Please enter a subject for your message">
-<input name="subject" type="text" id="subject" required="required" aria-required="true" class="validate['required']" />
+<input name="subject" type="text" id="subject" required="required" aria-required="true" class="validate['required']" >
 <li class="required">
 <label for="comments">
 <abbr title="Please enter your message">
 <textarea id="comments" name="comments" aria-required="true" class="validate['required','%message']">
-<input type="checkbox" id="no_response" name="no_response" value="no_response" />
+<input type="checkbox" id="no_response" name="no_response" value="no_response" >
 <label for="no_response" class="full_line">
-<input class="button" type="submit" id="side-search-btn" value="Send" />
+<input class="button" type="submit" id="side-search-btn" value="Send" >
 <form id="email-sign-up" action="http://www.blumenthal.senate.gov/newsletter/"  method="post" name="email-signup">
 <fieldset>
 <legend>
 <span class="instructions">
 <ol>
 <ol class="col two">
-<input id="newsletter_firstname" aria-required="true" name="newsletter_firstname" class="cleardefault validate['required']" value="First Name" />
-<input id="newsletter_lastname" aria-required="true" name="newsletter_lastname" class="cleardefault validate['required']" value="Last Name" />
+<input id="newsletter_firstname" aria-required="true" name="newsletter_firstname" class="cleardefault validate['required']" value="First Name" >
+<input id="newsletter_lastname" aria-required="true" name="newsletter_lastname" class="cleardefault validate['required']" value="Last Name" >
 <ol class="col two">
-<input id="newsletter_email" aria-required="true" name="newsletter_email" class="cleardefault validate['required']" value="Email Address" />
-<input id="newsletter_zipcode" aria-required="true" name="newsletter_zipcode" class="cleardefault validate['required']"  value="Zip Code" />
+<input id="newsletter_email" aria-required="true" name="newsletter_email" class="cleardefault validate['required']" value="Email Address" >
+<input id="newsletter_zipcode" aria-required="true" name="newsletter_zipcode" class="cleardefault validate['required']"  value="Zip Code" >
 <button id="sign-up" name="sign-up" type="submit" title="Sign up for Email updates" class="button">

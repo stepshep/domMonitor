@@ -5,7 +5,7 @@
 <form id="site-search" role="search" method="get" action="http://www.brown.senate.gov/search/">
 <fieldset>
 <legend>
-<input type="search" id="search-field" name="q" class="cleardefault" value="Search this Site"  onclick="this.value='';" />
+<input type="search" id="search-field" name="q" class="cleardefault" value="Search this Site"  onclick="this.value='';" >
 <form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
 <div id="contact-sam-main" class="amend-textarea">
 <h1>
@@ -118,25 +118,25 @@
 <li class="required">
 <label for="fname">
 <abbr title="Your first name is a required field">
-<input type="text" name="fname" id="fname"  class="validate['required','%firstName']" />
+<input type="text" name="fname" id="fname"  class="validate['required','%firstName']" >
 <li class="required">
 <label for="lname">
 <abbr title="Your last name is a required field">
-<input type="text" name="lname" id="lname" class="validate['required','%lastName']" />
+<input type="text" name="lname" id="lname" class="validate['required','%lastName']" >
 <fieldset>
 <legend>
 <ol>
 <li class="required">
 <label for="mailing_streetAddress1">
 <abbr title="Your street address is a required field">
-<input type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" class="validate['required'] "/>
+<input type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" class="validate['required'] ">
 <label for="mailing_streetAddress2">
-<input type="text" name="mailing_streetAddress2" id="mailing_streetAddress2" />
+<input type="text" name="mailing_streetAddress2" id="mailing_streetAddress2" >
 <ul class="col three">
 <li class="required">
 <label for="mailing_city">
 <abbr title="Your city is a required field">
-<input type="text" name="mailing_city" id="mailing_city" class="validate['required','%city']" />
+<input type="text" name="mailing_city" id="mailing_city" class="validate['required','%city']" >
 <li class="required">
 <label for="mailing_state">
 <abbr title="Your state is a required field">
@@ -199,7 +199,7 @@
 <li class="required">
 <label for="mailing_zipCode">
 <abbr title="Your zip code is a required field">
-<input name="mailing_zipCode" type="text" id="mailing_zipCode" class="validate['required','%zipCode']" />
+<input name="mailing_zipCode" type="text" id="mailing_zipCode" class="validate['required','%zipCode']" >
 <li class="required">
 <label for="county" style="float:left; width:98%;">
 <abbr title="Your county is a required field">
@@ -297,17 +297,17 @@
 <li class="required">
 <label for="email_address">
 <abbr title="Your e-mail address is a required field">
-<input type="text" name="email" id="email_address" title="E-mail Address"class="validate['required'] validate['email']" />
+<input type="text" name="email" id="email_address" title="E-mail Address"class="validate['required'] validate['email']" >
 <li class="required">
 <label for="verify_email">
 <abbr>
-<input type="text" name="verify_email" id="verify_email"  class="validate['confirm:email_address']" />
+<input type="text" name="verify_email" id="verify_email"  class="validate['confirm:email_address']" >
 <label for="phone_number">
-<input type="text" name="phone_number" id="phone_number"  />
+<input type="text" name="phone_number" id="phone_number"  >
 <fieldset>
 <legend>
 <ol>
-<input type="checkbox" id="newsletter" name="newsletter" value="newsletter" />
+<input type="checkbox" id="newsletter" name="newsletter" value="newsletter" >
 <label for="newsletter" class="full_line">
 <li class="required">
 <label for="topic">
@@ -361,5 +361,5 @@
 <label for="comments">
 <abbr title="Please enter your message">
 <textarea id="comments" name="comments" aria-required="true" class="validate['required','%message']">
-<input class="button" type="submit" id="side-search-btn" value="Send" />
+<input class="button" type="submit" id="side-search-btn" value="Send" >
 <form id="send-to-friend-form" action="http://www.brown.senate.gov/email/" method="post">
