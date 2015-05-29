@@ -1,0 +1,216 @@
+<form id="top_search_form" name="googlesearch" method="get" action="/">
+<input class="fancy-input corner" id="top_search_input" type="text" name="q" size="25" value="SEARCH" data-corner="left" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
+<input class="fancy-input sprites corner" id="top_search_submit" type="submit" width="20" height="20" alt="Search" title="Search" value="" data-corner="right" >
+<div class="clear">
+<form id="top_nl_form" name="nl_quick" action="/?p=email_updates&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
+<input class="fancy-input top-nl-input corner" id="top_nl_email" type="text" name="email" value="YOUR EMAIL" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" onclick="show_hide_section('.hiding-field','top_nl_toggler')" data-corner="left" >
+<input class="fancy-input top_nl_input button red-button corner" id="top_nl_submit" type="submit" name="signup" value="GET UPDATES" data-corner="right" >
+<div class="clear">
+<form method="post" action="/?p=email_senator">
+<!-- include extra fields for tracking, etc --->
+<div class="form-group clearfix" id="fld_gen-fieldid-1">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-1" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<select class="select input fancy-input form-fancy-input corner" name="PREFIX" id="gen-fieldid-1" class="ft-select fld-PREFIX" style="width:">
+<option value="null">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Mr. and Mrs.">
+<option value="Miss">
+<option value="Dr.">
+<option value="Dr. and Mrs.">
+<option value="Dr. and Mr.">
+<option value="Admiral">
+<option value="Captain">
+<option value="Chief Master Sergeant">
+<option value="Colonel">
+<option value="Commander">
+<option value="Corporal">
+<option value="Father">
+<option value="Lieutenant">
+<option value="Lieutenant Colonel">
+<option value="Master Sergeant">
+<option value="Reverend">
+<option value="Sergeant">
+<option value="Second Lieutenant">
+<option value="Sergeant Major">
+<option value="Sister">
+<option value="Technical Sergeant">
+<div class="form-group clearfix" id="fld_gen-fieldid-3">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-3" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="FIRST" id="gen-fieldid-3" class="ft-text fld-FIRST" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-5">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-5" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="LAST" id="gen-fieldid-5" class="ft-text fld-LAST" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-7">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-7" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="ADDR1" id="gen-fieldid-7" class="ft-text fld-ADDR1" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-9">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-9" class="control-label">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="ADDR2" id="gen-fieldid-9" class="ft-text fld-ADDR2" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-11">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-11" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="CITY" id="gen-fieldid-11" class="ft-text fld-CITY" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-13">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-13" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<select class="select input fancy-input form-fancy-input corner" name="STATE" id="gen-fieldid-13" class="ft-select fld-STATE" style="width:">
+<option value="AA">
+<option value="AE">
+<option value="AP">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX" selected="selected">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<div class="form-group clearfix" id="fld_gen-fieldid-15">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-15" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="ZIP" id="gen-fieldid-15" class="ft-text fld-ZIP" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-17">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-17" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="PHONE" id="gen-fieldid-17" class="ft-text fld-PHONE" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-19">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-19" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="EMAIL" id="gen-fieldid-19" class="ft-text fld-EMAIL" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-21">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-21" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="vemail" id="gen-fieldid-21" class="ft-text fld-vemail" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-23">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-23" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<select class="select input fancy-input form-fancy-input corner" name="TOPIC" id="gen-fieldid-23" class="ft-select fld-TOPIC" style="width:">
+<option value="null">
+<option value="Agriculture">
+<option value="Animal Welfare">
+<option value="Banking/Housing">
+<option value="Budget/Appropriations">
+<option value="Campaigns/Elections">
+<option value="Constitutional/Civil Rights">
+<option value="Crime">
+<option value="Defense/National Security">
+<option value="Economy/Jobs">
+<option value="Education">
+<option value="Energy">
+<option value="Environment">
+<option value="Foreign Policy">
+<option value="Government Reform/Regulations">
+<option value="Health Care">
+<option value="Immigration">
+<option value="Judiciary">
+<option value="Labor">
+<option value="Monetary Policy">
+<option value="NASA">
+<option value="Science and Technology">
+<option value="Second Amendment">
+<option value="Social Issues">
+<option value="Social Security">
+<option value="Taxes">
+<option value="Telecommunications">
+<option value="Trade">
+<option value="Transportation">
+<option value="Veterans">
+<option value="Welfare">
+<option value="Other">
+<div class="form-group clearfix" id="fld_gen-fieldid-25">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-25" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<input class="input fancy-input form-fancy-input corner" type="text" name="SUBJECT" id="gen-fieldid-25" class="ft-text fld-SUBJECT" style="width:;" value="" >
+<div class="form-group clearfix" id="fld_gen-fieldid-27">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-27" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<textarea class="input fancy-input form-fancy-input corner" name="MSG" id="gen-fieldid-27" class="ft-textarea fld-MSG" style="height:;width:;">
+<div class="form-group clearfix" id="fld_gen-fieldid-29">
+<div class="grid_3 alpha">
+<label for="gen-fieldid-29" class="control-label">
+<span class="req">
+<div class="grid_7 omega">
+<label class="input-radio-label">
+<input type="radio" class="input-radio" name="respond" value="Yes">
+<label class="input-radio-label">
+<input type="radio" class="input-radio" name="respond" value="No" checked="checked">
+<div class="grid_7 prefix_3 alpha omega buttons-bottom">
+<div class="corner button red-button submit">
+<input type="submit" value="Submit" name="formaction">
