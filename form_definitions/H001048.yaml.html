@@ -138,13 +138,19 @@
 <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
 <div class="form-actions form-wrapper" id="edit-actions">
 <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
-<form name="thomasBill" method="post" action="http://thomas.loc.gov/cgi-bin/thomas" target="_blank">
 <p>
-<p class="clearfix">
-<input class="form-text" name="query" value="" title="search bill number">
-<input class="form-submit" name="Enter" type="submit" value="Submit Query">
-<form name="thomasText" method="post" action="http://thomas.loc.gov/cgi-bin/thomas" target="_blank">
+<form method="get" target="_top" role="search" action=" https://congress.gov/search">
+<div id="search-wrapper" class="search_wrapper">
+<div class="search_formats">
+<select id="search-format" name="search-source">
+<option value="current-legislation">
+<option value="legislation">
+<option value="all-sources">
+<option value="--" disabled="disabled">
+<option value="members">
+<option value="congrecord">
+<option value="comreports">
+<option value="nominations">
+<input id="search" type="text" class="locsuggest" name="q" placeholder="Examples: hr5, sres9, &quot;health care&quot;" value="">
+<button class="search_submit" id="search-submit" type="submit">
 <p>
-<p class="clearfix">
-<input class="form-text" name="query" value="" title="search word/phrase">
-<input class="form-submit" name="Enter" type="submit" value="Submit Query">
