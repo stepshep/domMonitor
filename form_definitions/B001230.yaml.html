@@ -1,0 +1,174 @@
+<form id="site-search" role="search" method="get" action="/search" class="form-search pull-right">
+<input type="search" id="search-field" name="q" placeholder="Search&hellip;" value="Search&hellip;"  onclick="this.value='';" >
+<button type="submit" class="btn">
+<i class="icon-search icon-white">
+<form class="form-inline pull-right"  id="newsletter-signup" method="post"  enctype="application/x-www-form-urlencoded" action="/newsletter">
+<input type="text" class="input-medium" placeholder="Email Address" name="email" id="email_address" value="Email Address"  onclick="this.value='';" required>
+<button type="submit" class="btn pull-right">
+<form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
+<fieldset>
+<label for="action">
+<abbr title="Please select an option">
+<select id="topic" class="span8" name="topic" onChange="javascript:getHelp(this.value);">
+<option label="- - Select an Option - -" value="" selected="selected">
+<option label="Help with a federal agency" value="federal_agency">
+<option label="Share your comments or opinion on legislation" value="opinion">
+<option label="Schedule a meeting or invite to an event" value="meeting">
+<option label="Request a tour in Washington, D.C." value="tours">
+<option label="Apply for an internship or academy nomination" value="students">
+<option label="Request a flag to be flown over the Capitol" value="flags">
+<div  id="more-help">
+<fieldset>
+<legend>
+<label class="control-label" for="salutation">
+<abbr title="required">
+<select name="salutation" id="salutation" class="span7">
+<option label="" value="">
+<option label="Mr." value="Mr.">
+<option label="Mrs." value="Mrs.">
+<option label="Ms." value="Ms.">
+<option label="Miss" value="Miss">
+<option label="Mr. and Mrs." value="Mr. and Mrs.">
+<option label="Dr." value="Dr.">
+<option label="Dr. and Mrs." value="Dr. and Mrs.">
+<option label="Dr. and Mr." value="Dr. and Mr.">
+<option label="Mr. and Mr." value="Mr. and Mr.">
+<option label="Mrs. and Mrs." value="Mrs. and Mrs.">
+<option label="Ms. and Ms." value="Ms. and Ms.">
+<option label="Rev." value="Rev.">
+<option label="Sr." value="Sr.">
+<label for="fname">
+<abbr title="required">
+<input class="span7 required" type="text" name="fname" id="fname" aria-required="true" placeholder="Required" required>
+<label for="lname">
+<abbr title="required">
+<input class="span7 required" type="text" name="lname" id="lname" aria-required="true" placeholder="Required" required>
+<legend>
+<label for="mailing_streetAddress1">
+<abbr title="Your street address is a required field">
+<input class="span7 required" type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" aria-required="true" placeholder="Required" required>
+<label for="mailing_streetAddress2">
+<input class="span7" type="text" name="mailing_streetAddress2" id="mailing_streetAddress2">
+<div class="row">
+<div class="span4">
+<label for="mailing_city">
+<abbr title="Your city is a required field">
+<input class="span4 required" type="text" name="mailing_city" id="mailing_city" aria-required="true" placeholder="Required" required>
+<div class="span1">
+<label for="state">
+<select name="state" id="state" class="span1 required">
+<option value="null">
+<option value="AK">
+<option value="AL">
+<option value="AR">
+<option value="AZ">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DC">
+<option value="DE">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="IA">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="MA">
+<option value="MD">
+<option value="ME">
+<option value="MI">
+<option value="MN">
+<option value="MO">
+<option value="MS">
+<option value="MT">
+<option value="NC">
+<option value="ND">
+<option value="NE">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NV">
+<option value="NY">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VA">
+<option value="VT">
+<option value="WA">
+<option value="WI" selected="selected">
+<option value="WV">
+<option value="WY">
+<div class="span2">
+<label for="mailing_zipCode">
+<abbr title="Your zip code is a required field">
+<input class="span2 required" type="number" name="mailing_zipCode"  id="mailing_zipCode" aria-required="true" placeholder="Required" required>
+<label for="home_phone_number">
+<input type="tel" name="home_phone_number" id="home_phone_number" class="span7">
+<label for="work_phone_number">
+<input type="tel" name="work_phone_number" id="work_phone_number" class="span7">
+<label for="email">
+<abbr title="Your e-mail address is a required field">
+<input type="email" name="email_address" aria-required="true" id="email" class="span7 required email" placeholder="Required" required>
+<label for="verify_email">
+<abbr title="Please confirm your e-mail address">
+<input type="email" name="verify_email" id="verify_email" aria-required="true" class="span7" placeholder="Required" required>
+<fieldset>
+<legend>
+<label for="subject">
+<abbr title="Please enter a message topic for your message">
+<select id="subject" class="span8" name="subject" class="validate['required','%subject']">
+<option label="- - Select an Issue - -" value="" selected="selected">
+<option label="Aging and Retirement" value="Aging and Retirement">
+<option label="Agriculture" value="Agriculture">
+<option label="Armed Services and Defense" value="Armed Services and Defense">
+<option label="Arts & Humanities" value="Arts & Humanities">
+<option label="Banking" value="Banking">
+<option label="Budget" value="Budget">
+<option label="Congress and Elections" value="Congress and Elections">
+<option label="Economy and Jobs" value="Economy and Jobs">
+<option label="Education" value="Education">
+<option label="Energy" value="Energy">
+<option label="Environment" value="Environment">
+<option label="Federal Employees" value="Federal Employees">
+<option label="Foreign Relations" value="Foreign Relations">
+<option label="Government Contracting and Federal Grants" value="Government Contracting and Federal Grants">
+<option label="Gun Safety" value="Gun Safety">
+<option label="Healthcare" value="Healthcare">
+<option label="Homeland Security" value="Homeland Security">
+<option label="Housing" value="Housing">
+<option label="Immigration" value="Immigration">
+<option label="Judiciary" value="Judiciary">
+<option label="Labor" value="Labor">
+<option label="LGBT Issues" value="LGBT Issues">
+<option label="Native Americans" value="Native Americans">
+<option label="Natural Resources" value="Natural Resources">
+<option label="Patents/Intellectual Property" value="Patents/Intellectual Property">
+<option label="Pensions" value="Pensions">
+<option label="Postal Service" value="Postal Service">
+<option label="Science and Technology" value="Science and Technology">
+<option label="Small Business" value="Small Business">
+<option label="Social Security" value="Social Security">
+<option label="Sports" value="Sports">
+<option label="Taxes" value="Taxes">
+<option label="Telecommunication" value="Telecommunication">
+<option label="Trade" value="Trade">
+<option label="Transportation" value="Transportation">
+<option label="Veterans" value="Veterans">
+<option label="Womens Issues " value="Womens Issues ">
+<label for="message">
+<abbr title="Please enter your message">
+<textarea id="message" class="span7 required" rows="10" name="message" aria-required="true" placeholder="Required" required>
+<label for="respons_y" class="checkbox">
+<input name="response" id="response_y" value="Y" checked type="checkbox" >
+<input class="btn pull-right" type="submit" id="side-search-btn" value="Send" >

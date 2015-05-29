@@ -1,0 +1,23 @@
+<form class="form-inline" id="site-search" role="search" method="get" action="/search" >
+<input type="search" class="form-control" id="search-field" name="q" placeholder="Search" value="Search"  onclick="this.value='';">
+<button type="submit" class="pull-right">
+<span class="glyphicon glyphicon-search">
+<span class="close glyphicon glyphicon-remove">
+<form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
+<div class="breakout">
+<fieldset class="topicset">
+<h2>
+<div class="form-group">
+<select id="subject" class="form-control contactselector" name="subject" class="validate['required','%subject']" onChange="javascript:getHelp(this.value);">
+<option label="- - Select an Option - -" value="" selected="selected">
+<option label="Get Help" value="request">
+<option label="Federal Agency Help" value="federal_agency">
+<option label="Request a flag to be flown over the Capitol flag" value="flag">
+<option label="Request a greeting or commemorative message" value="message">
+<option label="Schedule a Meeting" value="meeting">
+<option label="Share your opinion or comments on bills or other issues" value="opinion">
+<option label="Sign Up For E-Newsletter Updates" value="newsletter">
+<div  id="more-help">
+<div id="sam-contact-form" class="amend-textarea">
+<div>
+<div id="form-3572B654-E248-A5D9-D70B-8968CF7308EC" class="amend-form-container" data-title="Contact Form">

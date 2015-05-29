@@ -1,0 +1,96 @@
+<td class="ContentCell">
+<span id="ctl00_ctl12_ctl00_Text" class="middlecopy">
+<form name="contact" id="contactForm" class="zipform" onsubmit="MM_validateForm('required-prefix','Prefix','R','required-first','First Name','R','required-last','Last Name','R','required-address','Street Address','R','required-city','City','R','required-email','Email','RisEmail','required-issue','Issue','R','required-message','Message','R');return document.MM_returnValue" action="/contact.aspx" method="post">
+<table align="center" cellspacing="2" cellpadding="0">
+<tbody>
+<td align="right">
+<table cellspacing="0" cellpadding="0">
+<tbody>
+<small>
+<select name="required-prefix">
+<option selected="selected" value="Mr.">
+<option value="Ms.">
+<option value="Mrs.">
+<option value="Mr. &amp; Mrs.">
+<option value="Dr.">
+<input name="required-first" type="text" size="12" maxlength="90" >
+<input name="required-last" type="text" size="15" maxlength="90" >
+<input name="suffix" type="text" size="10" maxlength="90" >
+<td align="right">
+<input name="required-address" type="text" size="60" maxlength="190" >
+<td align="right">
+<input name="required-city" type="text" maxlength="45" >
+<select name="required-state">
+<option selected="selected">
+<input name="zip5" onkeydown="f(this)" onkeyup="f(this)" type="text" size="5" maxlength="5" >
+<td align="right">
+<input name="phone" type="text" size="60" maxlength="100" >
+<td align="right">
+<input name="required-email" type="text" size="60" maxlength="100" >
+<td align="right">
+<select name="required-issue" size="1">
+<option selected="selected">
+<option value="ADOPTION">
+<option value="AG">
+<option value="AN">
+<option value="APPR">
+<option value="ART">
+<option value="BANK">
+<option value="BUD">
+<option value="CAMP">
+<option value="CIVRIG">
+<option value="CRM">
+<option value="DEF">
+<option value="ECON">
+<option value="ED">
+<option value="EN">
+<option value="ENV">
+<option value="ETH">
+<option value="FEMA">
+<option value="GEN">
+<option value="GOV">
+<option value="HE">
+<option value="HOM">
+<option value="HUD">
+<option value="IM">
+<option value="INSR">
+<option value="INT">
+<option value="INT.PR">
+<option value="JUD">
+<option value="JUD-GUN CONTROL">
+<option value="LAB">
+<option value="LGBT">
+<option value="MCAID">
+<option value="MEDICARE">
+<option value="RR">
+<option value="SB">
+<option value="SCI">
+<option value="SPACE">
+<option value="SS">
+<option value="TAX">
+<option value="TEL">
+<option value="TRA">
+<option value="TRAVEL">
+<option value="TRDE">
+<option value="VET">
+<option value="WEL">
+<option value="WOMENS ISSUES">
+<td align="right" valign="top">
+<textarea name="required-message" rows="15" cols="60">
+<td align="right" valign="top">
+<input name="subscribe" type="checkbox" value="subscribe" >
+<td colspan="2">
+<center>
+<input type="submit" value="Send Email" >
+<input type="reset" value="Reset" >
+<form action="/forms/emailsignup/" method="get">
+<fieldset>
+<p>
+<span>
+<input class="clearbox" type="text" placeholder="enter your email address" name="email" >
+<input type="image" src="/images/sign-up.gif" class="button-submit" name="submit" value="true" >
+<form action="/news/documentquery.aspx">
+<fieldset>
+<span>
+<input class="clearbox" type="text" placeholder="Enter search here" name="SearchPhrase" >
+<input type="image" src="/images/search-submit.gif" class="button-submit" >
