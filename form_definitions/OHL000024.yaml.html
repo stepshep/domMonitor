@@ -1,181 +1,106 @@
-There was an error getting a response from http://www.ohiosenate.gov/senate/patton/contact
-System.Net.WebException: The remote server returned an error: (500) Internal Server Error.
-   at System.Net.HttpWebRequest.GetResponse()
-   at Domtron.Program.GetPage(String path, String url) in c:\Users\SShepherd\Documents\GitHub\Domtron\DOMscraper\Program.cs:line 461				<form name='contactFormSubmit' id='contactFormSubmit' action='../members/member-contact-submission?id=24' method='post'>
-									
-					<table class='form'>
-				
-						<tr>
-							<td class='formLeft'>
-								First Name
-							</td>
-							<td class='formRight'>
-								<input id="tbxFirstName" name="tbxFirstName" maxlength="25" type="text" style="width:200px;" />					
-							</td>
-						</tr>	
-						
-						<tr>
-							<td class='formLeft'>
-								Last Name
-							</td>
-							<td class='formRight'>
-								<input id="tbxLastName" name="tbxLastName" maxlength="25" type="text" style="width:200px;" />					
-							</td>
-						</tr>	
-						
-						<tr>
-							<td class='formLeft'>
-								Address
-							</td>
-							<td class='formRight'>
-								<input id="tbxAddress" name="tbxAddress" maxlength="100" type="text" style="width:400px;" />					
-							</td>
-						</tr>	
-						
-						<tr>
-							<td class='formLeft'>
-								City / State / Zip
-							</td>
-							<td class='formRight'>
-								<input id="tbxCity" name="tbxCity" type="text" maxlength="25" style="width:180px;" />&nbsp;
-								
-								<select id="ddlState" name="ddlState" style="width:84px;">
-									<option value="">- Select -</option>
-									<option value="AL">AL</option>
-									<option value="AK">AK</option>
-									<option value="AZ">AZ</option>
-									<option value="AR">AR</option>
-									<option value="CA">CA</option>
-									<option value="CO">CO</option>
-									<option value="CT">CT</option>
-									<option value="DE">DE</option>
-									<option value="DC">DC</option>
-									<option value="FL">FL</option>
-									<option value="GA">GA</option>
-									<option value="HI">HI</option>
-									<option value="ID">ID</option>
-									<option value="IL">IL</option>
-									<option value="IN">IN</option>
-									<option value="IA">IA</option>
-									<option value="KS">KS</option>
-									<option value="KY">KY</option>
-									<option value="LA">LA</option>
-									<option value="ME">ME</option>
-									<option value="MD">MD</option>
-									<option value="MA">MA</option>
-									<option value="MI">MI</option>
-									<option value="MN">MN</option>
-									<option value="MS">MS</option>
-									<option value="MO">MO</option>
-									<option value="MT">MT</option>
-									<option value="NE">NE</option>
-									<option value="NV">NV</option>
-									<option value="NH">NH</option>
-									<option value="NJ">NJ</option>
-									<option value="NM">NM</option>
-									<option value="NY">NY</option>
-									<option value="NC">NC</option>
-									<option value="ND">ND</option>
-									<option value="OH" selected='selected'>OH</option>
-									<option value="OK">OK</option>
-									<option value="OR">OR</option>
-									<option value="PA">PA</option>
-									<option value="RI">RI</option>
-									<option value="SC">SC</option>
-									<option value="SD">SD</option>
-									<option value="TN">TN</option>
-									<option value="TX">TX</option>
-									<option value="UT">UT</option>
-									<option value="VT">VT</option>
-									<option value="VA">VA</option>
-									<option value="WA">WA</option>
-									<option value="WV">WV</option>
-									<option value="WI">WI</option>
-									<option value="WY">WY</option>
-								
-								</select>
-								&nbsp;
-								<input id="tbxZipCode" name="tbxZipCode" type="text" maxlength="10" style="width:74px;" />
-							</td>
-						</tr>
-						
-						<tr>
-							<td class='formLeft'>
-								Phone Number
-							</td>
-							<td class='formRight'>
-								<input id="tbxAreaCode" name="tbxAreaCode" type="text" maxlength="3" style="width:30px;" />-
-								<input id="tbxPrefix" name="tbxPrefix" type="text" maxlength="3" style="width:30px;" />-
-								<input id="tbxLineNumber" name="tbxLineNumber" type="text" maxlength="4" style="width:50px;" />
-							</td>
-						</tr>
-						
-						<tr>
-							<td class='formLeft'>
-								Email
-							</td>
-							<td class='formRight'>
-								<input id="tbxEmail" name="tbxEmail" type="text" maxlength="100" style="width:200px;" />					
-							</td>
-						</tr>
-							
-						<tr>
-							<td class='formLeft'>
-								Subject
-							</td>
-							<td class='formRight'>
-								<select name="ddlSubject">
-									<option value="">- Select -</option>
-									<option value="Agriculture">Agriculture</option>
-									<option value="Animals and Wildlife">Animals and Wildlife</option>
-                                    <option value="Budget and Finance">Budget and Finance</option>
-                                    <option value="Criminal Justice and Prison">Criminal Justice and Prison</option>
-									<option value="Education">Education</option>
-									<option value="Elections">Elections</option>
-									<option value="Energy">Energy</option>
-                                    <option value="Government Oversight and Reform">Government Oversight and Reform</option>
-                                    <option value="Health, Human Services and Aging">Health, Human Services and Aging</option>
-                                    <option value="Highways and Transportation">Highways and Transportation</option>
-									<option value="Insurance and Financial Institutions">Insurance and Financial Institutions</option>
-                                    <option value="Jobs and Economic Development">Jobs and Economic Development</option>
-                                    <option value="Labor">Labor</option>
-                                    <option value="Local Government">Local Government</option>
-                                    <option value="Natural Resources">Natural Resources</option>
-                                    <option value="Public Safety">Public Safety</option>
-                                    <option value="Public Utilities">Public Utilities</option>
-                                    <option value="State Government">State Government</option>
-									<option value="Veterans Affairs">Veterans Affairs</option>
-									<option value="Other">Other</option>
-								</select>
-							</td>
-						</tr>
-						
-						<tr>
-							<td class='formLeft'>
-								Message
-							</td>
-							<td class='formRight'>
-								<textarea id="tbxMessage" name="tbxMessage" rows="14" style="width:500px;" maxlength="2000"></textarea>										
-							</td>
-						</tr>
-
-						
-							
-								
-							
-							
-								
-								
-							
-						
-						
-						<tr>
-							<td class="formLeft"></td>
-							<td class="formRightButton">
-								<input type="image" name="ibtSubmit" id="ibtSubmit" class="formButton" src="../Assets/Global/Buttons/Send.png" />&nbsp;
-								<a class="formButton" href=""><img src="../Assets/Global/Buttons/Clear.png" /></a>
-							</td>
-						</tr>		
-					</table>	
-				
-				</form>
+<form name='contactFormSubmit' id='contactFormSubmit' action='../members/member-contact-submission?id=24' method='post'>
+<table class='form'>
+<td class='formLeft'>
+<td class='formRight'>
+<input id="tbxFirstName" name="tbxFirstName" maxlength="25" type="text" style="width:200px;" >
+<td class='formLeft'>
+<td class='formRight'>
+<input id="tbxLastName" name="tbxLastName" maxlength="25" type="text" style="width:200px;" >
+<td class='formLeft'>
+<td class='formRight'>
+<input id="tbxAddress" name="tbxAddress" maxlength="100" type="text" style="width:400px;" >
+<td class='formLeft'>
+<td class='formRight'>
+<input id="tbxCity" name="tbxCity" type="text" maxlength="25" style="width:180px;" >
+<select id="ddlState" name="ddlState" style="width:84px;">
+<option value="">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH" selected='selected'>
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<input id="tbxZipCode" name="tbxZipCode" type="text" maxlength="10" style="width:74px;" >
+<td class='formLeft'>
+<td class='formRight'>
+<input id="tbxAreaCode" name="tbxAreaCode" type="text" maxlength="3" style="width:30px;" >
+<input id="tbxPrefix" name="tbxPrefix" type="text" maxlength="3" style="width:30px;" >
+<input id="tbxLineNumber" name="tbxLineNumber" type="text" maxlength="4" style="width:50px;" >
+<td class='formLeft'>
+<td class='formRight'>
+<input id="tbxEmail" name="tbxEmail" type="text" maxlength="100" style="width:200px;" >
+<td class='formLeft'>
+<td class='formRight'>
+<select name="ddlSubject">
+<option value="">
+<option value="Agriculture">
+<option value="Animals and Wildlife">
+<option value="Budget and Finance">
+<option value="Criminal Justice and Prison">
+<option value="Education">
+<option value="Elections">
+<option value="Energy">
+<option value="Government Oversight and Reform">
+<option value="Health, Human Services and Aging">
+<option value="Highways and Transportation">
+<option value="Insurance and Financial Institutions">
+<option value="Jobs and Economic Development">
+<option value="Labor">
+<option value="Local Government">
+<option value="Natural Resources">
+<option value="Public Safety">
+<option value="Public Utilities">
+<option value="State Government">
+<option value="Veterans Affairs">
+<option value="Other">
+<td class='formLeft'>
+<td class='formRight'>
+<textarea id="tbxMessage" name="tbxMessage" rows="14" style="width:500px;" maxlength="2000">
+<td class="formLeft">
+<td class="formRightButton">
+<input type="image" name="ibtSubmit" id="ibtSubmit" class="formButton" src="../Assets/Global/Buttons/Send.png" >
