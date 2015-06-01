@@ -205,13 +205,20 @@
 <label class="control-label" for="field_423DB2CF-5A0E-4DDD-9ABF-9C3D7FD2D7D4">
 <div class="controls">
 <textarea name="field_423DB2CF-5A0E-4DDD-9ABF-9C3D7FD2D7D4" class="form-control" id="field_423DB2CF-5A0E-4DDD-9ABF-9C3D7FD2D7D4" >
+<fieldset class="inlineLabels">
+<legend>
 <div class="formcreator_fieldWrapper">
 <div class="ctrlHolder control-group" id="captcha_95CD8B31-5184-42D1-B156-FBC53AE06B99_container">
 <div class="multiField controls">
-<div>
-<p>
-<input type="text" name="captcha_95CD8B31-5184-42D1-B156-FBC53AE06B99" id="captcha_95CD8B31-5184-42D1-B156-FBC53AE06B99" >
-<p class="formHint" id="captcha_info">
-<div class="clear">
+<!--
+		var RecaptchaOptions = {
+		   theme : 'red',
+		   tabindex : 0
+		};
+	//-->
+<noscript>
+<iframe src="http://www.google.com/recaptcha/api/noscript?k="
+	       height="300" width="500" frameborder="0">
+<textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <div class="buttonHolder controls">
 <input type="submit" class="btn btn-primary" value="Submit" >
