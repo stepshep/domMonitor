@@ -1,0 +1,131 @@
+<form id="sitesearchform" name="sitesearchform" action="http://www.leg.state.mn.us/search.aspx" method="get">
+<label for="leg_mainSearch" class="leg_Offscreen">
+<input class="leg_DefaultText" name="mainsearch" type="text" value="Search the MN Legislature" maxlength="200" style="width: 185px;" >
+<input id="leg_mainSearch" class="leg_ButtonSearch" value="Submit" type="submit" >
+<form id="hfsearchform" name="hfsearchform" action="http://www.house.leg.state.mn.us/bills/billnum.asp" method="get">
+<input class="leg_DefaultText" id="Billnumber" name="Billnumber" value="Search HF" type="text" style="width: 100px;" maxlength="7" >
+<input class="leg_ButtonSearch" value="Submit" type="submit" >
+<form id="sfsearchform" name="sfsearchform" action="/bills/billinf.php" method="get">
+<input class="leg_DefaultText" name="billnum" value="Search SF" type="text" style="width: 100px;" maxlength="7" >
+<input class="leg_ButtonSearch" value="Submit" type="submit" >
+<form id="statutesearchform" name="statutesearchform" action="https://www.revisor.mn.gov/statutes/" method="get">
+<input class="leg_DefaultText" name="id" value="Lookup Statute" type="text" style="width: 100px;" maxlength="10" >
+<input class="leg_ButtonSearch" value="Submit" type="submit" >
+<form method="post" action="/bills/billinf.php?ls=89&amp;all_sessions=Y" name="billform">
+<input class="leg_DefaultText" type=text align="top" style="margin-bottom:0px;" name=billnum value="Get bill info" size="15" maxlength="7" onclick="this.value='';" >
+<input type="submit" class="leg_ButtonSearch" title="Get bill info" value="Submit" >
+<!-- Open td for content -->
+<FORM NAME="Emailform" ACTION=/members/member_emailform.php?mem_id=1003&amp;ls=89 METHOD=post>
+<table cellPadding="0" cellSpacing="0" width="100%" id=bio>
+<td style="vertical-align:top;">
+<td style="vertical-align:top;">
+<hr style="height:2pt;background-color:#3353bb;color:#3353bb;" >
+<td style="font-size:10pt;font-weight:bold;vertical-align:top;">
+<td style="vertical-align:top;">
+<hr style="height:2pt;background-color:#3353bb;color:#3353bb;" >
+<td style="vertical-align:top;">
+<table border=0 cellpadding=0>
+<col width="20%" >
+<col width="80%" >
+<td style="vertical-align:top;" rowspan=3>
+<i>
+<td style="vertical-align:top;" class=header>
+<td style="vertical-align:top;" class=detail>
+<td style="vertical-align:top;" class=detail colspan=2>
+<table>
+<td style="vertical-align:top;" class=detail colspan=3>
+<hr style="height:1pt;background-color:#3353bb;color:#3353bb;" >
+<td style="vertical-align:top;" class=detail colspan=3>
+<b>
+<td style="vertical-align:top;" class=detail colspan=3>
+<hr style="height:1pt;background-color:#3353bb;color:#3353bb;" >
+<td style="font-weight:bold;vertical-align:top;" class=detail colspan=3>
+<font style="color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail colspan=3>
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_title">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<select  name="form_title">
+<option value="">
+<option value="Mr.">
+<option value="Miss">
+<option value="Ms.">
+<option value="Mrs.">
+<option value="Mr. and Mrs.">
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_firstname">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_firstname" NAME="form_firstname" SIZE=30 MAXLENGTH="30" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_lastname">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_lastname" NAME="form_lastname" SIZE=30 MAXLENGTH="30" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_middlename">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_middlename" NAME="form_middlename" SIZE=30 MAXLENGTH="30" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_Street1">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_Street1" NAME="form_Street1" SIZE=50 MAXLENGTH="50" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_Street2">
+<td style="vertical-align:top;" class=detail>
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_Street2" NAME="form_Street2" SIZE=50 MAXLENGTH="50" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_City">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_City" NAME="form_City" SIZE=35 MAXLENGTH="35" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_State">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_State" NAME="form_State" SIZE=2 MAXLENGTH="2" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_Zip">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_Zip" NAME="form_Zip" SIZE=10 MAXLENGTH="10" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_PhoneHome">
+<td style="vertical-align:top;" class=detail>
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_PhoneHome" NAME="form_PhoneHome" SIZE=13 MAXLENGTH="13" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_PhoneWork">
+<td style="vertical-align:top;" class=detail>
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_PhoneWork" NAME="form_PhoneWork" SIZE=13 MAXLENGTH="13" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_Email">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_Email" NAME="form_Email" SIZE=40 VALUE="" >
+<td style="vertical-align:top;" class=detail colspan=3>
+<hr style="height:1pt;background-color:#3353bb;color:#3353bb;" >
+<td style="vertical-align:top;" class=detail colspan=3>
+<b>
+<td style="vertical-align:top;" class=detail colspan=3>
+<hr style="height:1pt;background-color:#3353bb;color:#3353bb;" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_Subject">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="text" ID="form_Subject" NAME="form_Subject" SIZE=40 MAXLENGTH="40" VALUE="" >
+<td style="vertical-align:top;" class=header align="right">
+<LABEL FOR="form_Message">
+<td style="vertical-align:top;color:red;font-weight:bold;">
+<td style="vertical-align:top;" class=detail>
+<TEXTAREA ID="form_Message" NAME="form_Message" ROWS="15" COLS="70">
+<td style="vertical-align:top;" class=detail>
+<td style="vertical-align:top;" class=detail>
+<td style="vertical-align:top;" class=detail>
+<INPUT TYPE="submit" VALUE="Submit Information" >
+<INPUT TYPE="reset" VALUE="Reset Form Blank" >
