@@ -9,171 +9,159 @@
 <span id="ctl00_ContentPlaceHolder1_lblLastName" class="white">
 <span id="ctl00_ContentPlaceHolder1_lblSuffix" class="white">
 <table height="100%" cellpadding="0">
+<tbody>
 <tr valign="top">
-<table class="text" cellspacing="0" cellpadding="0"  border="0">
-<td colSpan="2">
-<table cellspacing="0" cellpadding="0"  border="0">
-<td colSpan="2">
-<table id="ctl00_ContentPlaceHolder1_tblSenderDetails" border="0">
-<tr id="ctl00_ContentPlaceHolder1_TableRow1">
-<td id="ctl00_ContentPlaceHolder1_TableCell1">
-<table class="textLarger"  cellpadding="5">
-<td class="textLarger" colspan="3">
-<span class="required">
-<td class="emailheader" style="width: 100px;">
-<span class="required">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtName" type="text" maxlength="75" id="ctl00_ContentPlaceHolder1_txtName" tabindex="1" size="50" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<span class="textHeaderSmallRed">
-<td class="emailheader">
-<span class="required">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtEmailAddress" type="text" maxlength="150" id="ctl00_ContentPlaceHolder1_txtEmailAddress" tabindex="2" size="50" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<span class="textHeaderSmallRed">
-<span class="textHeaderSmallRed">
-<td class="emailheader">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtAddress" type="text" maxlength="75" id="ctl00_ContentPlaceHolder1_txtAddress" tabindex="2" size="50" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<td width=350px>
-<td class="emailheader">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtAddress2" type="text" maxlength="75" id="ctl00_ContentPlaceHolder1_txtAddress2" tabindex="3" size="50" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<td class="emailheader">
-<span class="required">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtCity" type="text" maxlength="75" id="ctl00_ContentPlaceHolder1_txtCity" tabindex="3" size="50" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<span class="textHeaderSmallRed">
-<td class="emailheader">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtState" type="text" maxlength="2" id="ctl00_ContentPlaceHolder1_txtState" tabindex="3" size="2" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<td class="emailheader">
-<td class="text" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtZip" type="text" maxlength="5" id="ctl00_ContentPlaceHolder1_txtZip" tabindex="3" size="5" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<input name="ctl00$ContentPlaceHolder1$txtZip2" type="text" maxlength="4" id="ctl00_ContentPlaceHolder1_txtZip2" tabindex="3" size="4" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<td class="emailheader">
-<td class="textLarger" align="left">
-<input name="ctl00$ContentPlaceHolder1$txtAreaCode" type="text" maxlength="3" id="ctl00_ContentPlaceHolder1_txtAreaCode" tabindex="3" size="3" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<input name="ctl00$ContentPlaceHolder1$txtPhone" type="text" maxlength="3" id="ctl00_ContentPlaceHolder1_txtPhone" tabindex="3" size="3" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<input name="ctl00$ContentPlaceHolder1$txtPhone2" type="text" maxlength="4" id="ctl00_ContentPlaceHolder1_txtPhone2" tabindex="3" size="4" onkeypress="return formSubmit(event, &#39;ctl00_ContentPlaceHolder1_btnSubmitSenderAttri&#39;)" >
-<td class="textLarger" align="left">
-<input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmitSenderAttri" value="Continue" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSubmitSenderAttri&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnSubmitSenderAttri" tabindex="5" >
-<span id="ctl00_ContentPlaceHolder1_lblRequireFieldsMissing" class="textHeaderSmallRed">
-<td colSpan="3" align="left">
-<table cellspacing="0" cellpadding="0"  border="0" width="100%">
-<span id="ctl00_ContentPlaceHolder1_lblErrorMsg" class="textHeaderSmallRed" value="&lt;%=ErrorMessage %>
+<table class="text" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<td colspan="2">
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<td colspan="2">
+<table id="ctl00_ContentPlaceHolder1_tblMessage" class="textLarger" cellpadding="5" border="0">
+<tbody>
+<tr id="ctl00_ContentPlaceHolder1_TableRow2">
+<td id="ctl00_ContentPlaceHolder1_TableCell2">
+<table class="textLarger" cellpadding="5">
+<tbody>
+<td colspan="3" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblToName" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblDistrictNum" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblFromRep" class="textLarger">
+<td colspan="3">
+<hr>
+<td align="left">
+<span id="ctl00_ContentPlaceHolder1_lblName" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblAddress" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblAddress2" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblCityState" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblZip" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblPhone" class="textLarger">
+<span id="ctl00_ContentPlaceHolder1_lblDate" class="textLarger">
+<td valign="bottom" align="right">
+<td align="right" valign="top">
+<td colspan="3" align="left" class="textLarger" valign="top">
+<span id="ctl00_ContentPlaceHolder1_lblToRep" class="textLarger">
+<td colspan="3">
+<textarea name="ctl00$ContentPlaceHolder1$txtMessage" rows="28" cols="20" id="ctl00_ContentPlaceHolder1_txtMessage" class="textLarger" style="width:100%;">
+<td colspan="3" align="left">
+<input type="submit" name="ctl00$ContentPlaceHolder1$btnSubmit" value="Send E-mail" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ContentPlaceHolder1_btnSubmit" tabindex="5" class="textLarger">
+<td colspan="3" align="left">
+<table cellspacing="0" cellpadding="0" border="0" width="100%">
+<tbody>
+<span id="ctl00_ContentPlaceHolder1_lblErrorMsg" class="textHeaderSmallRed" value="&lt;%=ErrorMessage %&gt;">
 <p>
 <h1 class="ribbon">
 <label>
 <span class="small">
 <select id="ddlBillFinderSession" name="ddlBillFinderSession">
-<option value="80" >
-<option value="79" selected>
-<option value="76" >
-<option value="78" >
-<option value="77" >
-<option value="75" >
-<option value="73" >
-<option value="74" >
-<option value="72" >
-<option value="70" >
-<option value="66" >
-<option value="69" >
-<option value="68" >
-<option value="67" >
-<option value="64" >
-<option value="65" >
-<option value="61" >
-<option value="63" >
-<option value="62" >
-<option value="57" >
-<option value="60" >
-<option value="59" >
-<option value="58" >
-<option value="54" >
-<option value="56" >
-<option value="55" >
-<option value="42" >
-<option value="53" >
-<option value="38" >
-<option value="41" >
-<option value="39" >
-<option value="36" >
-<option value="37" >
-<option value="35" >
-<option value="34" >
-<option value="33" >
-<option value="32" >
-<option value="28" >
-<option value="29" >
-<option value="16" >
-<option value="15" >
-<option value="4" >
-<option value="8" >
-<option value="5" >
-<option value="52" >
-<option value="71" >
-<option value="50" >
-<option value="51" >
-<option value="49" >
-<option value="48" >
+<option value="80">
+<option value="79" selected="">
+<option value="76">
+<option value="78">
+<option value="77">
+<option value="75">
+<option value="73">
+<option value="74">
+<option value="72">
+<option value="70">
+<option value="66">
+<option value="69">
+<option value="68">
+<option value="67">
+<option value="64">
+<option value="65">
+<option value="61">
+<option value="63">
+<option value="62">
+<option value="57">
+<option value="60">
+<option value="59">
+<option value="58">
+<option value="54">
+<option value="56">
+<option value="55">
+<option value="42">
+<option value="53">
+<option value="38">
+<option value="41">
+<option value="39">
+<option value="36">
+<option value="37">
+<option value="35">
+<option value="34">
+<option value="33">
+<option value="32">
+<option value="28">
+<option value="29">
+<option value="16">
+<option value="15">
+<option value="4">
+<option value="8">
+<option value="5">
+<option value="52">
+<option value="71">
+<option value="50">
+<option value="51">
+<option value="49">
+<option value="48">
 <label>
 <span class="small">
-<input type="text" name="txtBF_BillNumber" id="txtBF_BillNumber" onkeypress="return formSubmit(event,'btnBillFinder')" >
+<input type="text" name="txtBF_BillNumber" id="txtBF_BillNumber" onkeypress="return formSubmit(event,'btnBillFinder')">
 <button id="btnBillFinder" name="btnBillFinder" type="submit" onkeypress="return formSubmit(event,'btnBillFinder')">
 <h1 class="ribbon">
 <label>
 <span class="small">
 <select id="ddlSearchBillTextSession" name="ddlSearchBillTextSession" class="text">
-<option value="80" >
-<option value="79" selected>
-<option value="76" >
-<option value="78" >
-<option value="77" >
-<option value="75" >
-<option value="73" >
-<option value="74" >
-<option value="72" >
-<option value="70" >
-<option value="66" >
-<option value="69" >
-<option value="68" >
-<option value="67" >
-<option value="64" >
-<option value="65" >
-<option value="61" >
-<option value="63" >
-<option value="62" >
-<option value="57" >
-<option value="60" >
-<option value="59" >
-<option value="58" >
-<option value="54" >
-<option value="56" >
-<option value="55" >
-<option value="42" >
-<option value="53" >
-<option value="38" >
-<option value="41" >
-<option value="39" >
-<option value="36" >
-<option value="37" >
-<option value="35" >
-<option value="34" >
-<option value="33" >
-<option value="32" >
-<option value="28" >
-<option value="29" >
-<option value="16" >
-<option value="15" >
-<option value="4" >
-<option value="8" >
-<option value="5" >
-<option value="52" >
-<option value="71" >
-<option value="50" >
-<option value="51" >
-<option value="49" >
-<option value="48" >
+<option value="80">
+<option value="79" selected="">
+<option value="76">
+<option value="78">
+<option value="77">
+<option value="75">
+<option value="73">
+<option value="74">
+<option value="72">
+<option value="70">
+<option value="66">
+<option value="69">
+<option value="68">
+<option value="67">
+<option value="64">
+<option value="65">
+<option value="61">
+<option value="63">
+<option value="62">
+<option value="57">
+<option value="60">
+<option value="59">
+<option value="58">
+<option value="54">
+<option value="56">
+<option value="55">
+<option value="42">
+<option value="53">
+<option value="38">
+<option value="41">
+<option value="39">
+<option value="36">
+<option value="37">
+<option value="35">
+<option value="34">
+<option value="33">
+<option value="32">
+<option value="28">
+<option value="29">
+<option value="16">
+<option value="15">
+<option value="4">
+<option value="8">
+<option value="5">
+<option value="52">
+<option value="71">
+<option value="50">
+<option value="51">
+<option value="49">
+<option value="48">
 <label>
 <span class="small">
 <select id="ddlSBT_Chamber" name="ddlSBT_Chamber">
@@ -181,6 +169,5 @@
 <option value="Senate">
 <option value="Both">
 <label>
-<input type="text" name="txtSBT_BillText" id="txtSBT_BillText" onkeypress="return formSubmit(event,'btnSearchBillText')" >
-<button id="btnSearchBillText" name="btnSearchBillText" onkeypress="return formSubmit(event,'btnSearchBillText')"
-                            type="submit">
+<input type="text" name="txtSBT_BillText" id="txtSBT_BillText" onkeypress="return formSubmit(event,'btnSearchBillText')">
+<button id="btnSearchBillText" name="btnSearchBillText" onkeypress="return formSubmit(event,'btnSearchBillText')" type="submit">
