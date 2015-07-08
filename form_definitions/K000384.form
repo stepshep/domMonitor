@@ -1,0 +1,240 @@
+<form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
+<fieldset>
+<label for="topic">
+<abbr title="Please enter a message topic for your message">
+<select id="subject" class="span8" name="topic" class="required" onChange="getHelp(this.value);">
+<option label="- - Select an Issue - -" value="" selected="selected">
+<option label="Academy Nominations" value="Academy Nominations">
+<option label="Agriculture" value="Agriculture">
+<option label="Banking & Financial Reform" value="Banking & Financial Reform">
+<option label="Arts & Humanities" value="Arts & Humanities">
+<option label="Budget" value="Budget">
+<option label="Child Welfare" value="Child Welfare">
+<option label="Civil Rights" value="Civil Rights">
+<option label="Condolence Letters" value="Condolence Letters">
+<option label="Congratulatory Letters" value="Congratulatory Letters">
+<option label="Congress & Executive Office Reform" value="Congress & Executive Office Reform">
+<option label="Crime & Law Enforcement" value="Crime & Law Enforcement">
+<option label="Disaster Relief" value="Disaster Relief">
+<option label="Eagle Scouts" value="Eagle Scouts">
+<option label="Economy" value="Economy">
+<option label="Education" value="Education">
+<option label="Election Issues" value="Election Issues">
+<option label="Energy" value="Energy">
+<option label="Environment & Wildlife Protection" value="Environment & Wildlife Protection">
+<option label="Federal Employees" value="Federal Employees">
+<option label="Flag Requests" value="Flag Requests">
+<option label="Foreign Aid" value="Foreign Aid">
+<option label="Foreign Relations" value="Foreign Relations">
+<option label="Foreign Trade" value="Foreign Trade">
+<option label="Girl Scouts" value="Girl Scouts">
+<option label="Grant Information" value="Grant Information">
+<option label="Gun Violence" value="Gun Violence">
+<option label="Health Care & Affordable Care Act" value="Health Care & Affordable Care Act">
+<option label="Help with a Federal Agency" value="Help with a Federal Agency">
+<option label="Homeland Security" value="Homeland Security">
+<option label="Housing" value="Housing">
+<option label="Immigration" value="Immigration">
+<option label="Internships and Senate Page Program" value="Internships and Senate Page Program">
+<option label="Judicial Issues & Nominations" value="Judicial Issues & Nominations">
+<option label="Medicare" value="Medicare">
+<option label="Mental Health" value="Mental Health">
+<option label="Military/Armed Services/Defense" value="Military/Armed Services/Defense">
+<option label="Postal Issues" value="Postal Issues">
+<option label="Public Welfare" value="Public Welfare">
+<option label="Scheduling Request" value="Scheduling Request">
+<option label="Science & Technology" value="Science & Technology">
+<option label="Second Amendment Rights" value="Second Amendment Rights">
+<option label="Small Business" value="Small Business">
+<option label="Social Security" value="Social Security">
+<option label="Special Recognitions and Greetings" value="Special Recognitions and Greetings">
+<option label="Taxes" value="Taxes">
+<option label="Telecommunications & Internet" value="Telecommunications & Internet">
+<option label="Tour Requests" value="Tour Requests">
+<option label="Veterans" value="Veterans">
+<option label="Transportation & Infrastructure" value="Transportation & Infrastructure">
+<option label="Womens Issues" value="Womens Issues">
+<option label="Workforce & Labor" value="Workforce & Labor">
+<fieldset>
+<legend>
+<label class="control-label" for="salutation">
+<abbr title="required">
+<select name="salutation" id="salutation" class="span8 required">
+<option label="" value="">
+<option label="Mr." value="Mr.">
+<option label="Ms." value="Ms.">
+<option label="Mrs." value="Mrs.">
+<option label="Miss" value="Miss">
+<option label="Mr. and Mrs." value="Mr. and Mrs.">
+<option label="Dr." value="Dr.">
+<option label="Prof." value="Prof.">
+<option label="Senator" value="Senator">
+<option label="Gov." value="Gov.">
+<option label="Congressman" value="Congressman">
+<option label="Hon." value="Hon.">
+<option label="Fr." value="Fr.">
+<option label="Sister" value="Sister">
+<option label="Rabbi" value="Rabbi">
+<option label="Reverend" value="Reverend">
+<option label="Fleet Admiral" value="Fleet Admiral">
+<option label="Admiral" value="Admiral">
+<option label="Vice Admiral" value="Vice Admiral">
+<option label="Rear Admiral (upper half)" value="Rear Admiral (upper half)">
+<option label="Rear Admiral (lower half)" value="Rear Admiral (lower half)">
+<option label="Captain" value="Captain">
+<option label="Commander" value="Commander">
+<option label="Lieutenant Commander" value="Lieutenant Commander">
+<option label="Lieutenant" value="Lieutenant">
+<option label="Lieutenant, Junior Grade" value="Lieutenant, Junior Grade">
+<option label="Ensign" value="Ensign">
+<option label="Master Chief Petty Officer of the Navy" value="Master Chief Petty Officer of the Navy">
+<option label="Master Chief Petty Officer" value="Master Chief Petty Officer">
+<option label="Senior Chief Petty Officer" value="Senior Chief Petty Officer">
+<option label="Chief Petty Officer" value="Chief Petty Officer">
+<option label="Petty Officer First Class" value="Petty Officer First Class">
+<option label="Petty Officer Second Class" value="Petty Officer Second Class">
+<option label="Petty Officer Third Class" value="Petty Officer Third Class">
+<option label="Seaman" value="Seaman">
+<option label="Seaman Apprentice" value="Seaman Apprentice">
+<option label="Seaman Recruit" value="Seaman Recruit">
+<option label="Chief Warrant Officer" value="Chief Warrant Officer">
+<option label="Warrant Officer" value="Warrant Officer">
+<option label="Sgt Major Of The Corps" value="Sgt Major Of The Corps">
+<option label="Sergeant Major" value="Sergeant Major">
+<option label="Master Gunnery Sgt" value="Master Gunnery Sgt">
+<option label="First Sergeant" value="First Sergeant">
+<option label="Master Sergeant" value="Master Sergeant">
+<option label="Gunnery Sergeant" value="Gunnery Sergeant">
+<option label="Staff Sergeant" value="Staff Sergeant">
+<option label="Sergeant" value="Sergeant">
+<option label="Corporal" value="Corporal">
+<option label="Lance Corporal" value="Lance Corporal">
+<option label="Private First Class" value="Private First Class">
+<option label="Private" value="Private">
+<option label="General of the Air Force" value="General of the Air Force">
+<option label="General" value="General">
+<option label="Lieutenant General" value="Lieutenant General">
+<option label="Major General" value="Major General">
+<option label="Brigadier General" value="Brigadier General">
+<option label="Colonel" value="Colonel">
+<option label="Lieutenant Colonel" value="Lieutenant Colonel">
+<option label="Major" value="Major">
+<option label="First Lieutenant" value="First Lieutenant">
+<option label="Second Lieutenant" value="Second Lieutenant">
+<option label="Chief Master Sergeant of the Air Force" value="Chief Master Sergeant of the Air Force">
+<option label="Command  Chief Master Sergeant" value="Command  Chief Master Sergeant">
+<option label="Chief Master Sergeant" value="Chief Master Sergeant">
+<option label="Senior Master Sergeant" value="Senior Master Sergeant">
+<option label="Technical Sergeant" value="Technical Sergeant">
+<option label="Senior Airman" value="Senior Airman">
+<option label="Airman First Class" value="Airman First Class">
+<option label="Airman" value="Airman">
+<label for="fname">
+<abbr title="required">
+<input class="span3 required" type="text" name="fname" id="fname" aria-required="true" placeholder="Required" required>
+<label for="mname">
+<input class="span2" type="text" name="mname" id="mname">
+<label for="lname">
+<abbr title="required">
+<input class="span3 required" type="text" name="lname" id="lname" aria-required="true" placeholder="Required" required>
+<label for="suffix">
+<input class="span8" type="text" name="suffix" id="suffix">
+<label for="prefname">
+<input class="span8" type="text" name="prefname" id="prefname">
+<fieldset>
+<legend>
+<label for="mailing_streetAddress1">
+<abbr title="Your street address is a required field">
+<input class="span8 required" type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" aria-required="true" placeholder="Required" required>
+<label for="mailing_streetAddress2">
+<input class="span8" type="text" name="mailing_streetAddress2" id="mailing_streetAddress2">
+<label for="mailing_city">
+<abbr title="Your city is a required field">
+<input class="span4 required" type="text" name="mailing_city" id="mailing_city" aria-required="true" placeholder="Required" required>
+<label for="state">
+<select name="mailing_state" id="mailing_state" class="span2 required">
+<option value="null">
+<option value="AK">
+<option value="AL">
+<option value="AR">
+<option value="AZ">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DC">
+<option value="DE">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="IA">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="MA">
+<option value="MD">
+<option value="ME">
+<option value="MI">
+<option value="MN">
+<option value="MO">
+<option value="MS">
+<option value="MT">
+<option value="NC">
+<option value="ND">
+<option value="NE">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NV">
+<option value="NY">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VA" selected="selected">
+<option value="VT">
+<option value="WA">
+<option value="WI">
+<option value="WV">
+<option value="WY">
+<label for="mailing_zipCode">
+<abbr title="Your zip code is a required field">
+<input class="span2 required" type="number" name="mailing_zipCode"  id="mailing_zipCode" aria-required="true" placeholder="Required" required>
+<label for="phone_number">
+<abbr title="Your phone number is a required field">
+<input type="tel" name="phone_number" id="phone_number" class="span8 required" placeholder="Required" required>
+<label for="email">
+<abbr title="Your e-mail address is a required field">
+<input type="email" name="email_address" aria-required="true" id="email" class="span8 required email" placeholder="Required" required>
+<label for="verify_email">
+<abbr title="Please confirm your e-mail address">
+<input type="email" name="verify_email" id="verify_email" aria-required="true" class="span8" placeholder="Required" required>
+<fieldset>
+<legend>
+<label for="subject">
+<abbr title="Please enter a subject">
+<input class="span8 required" type="text" name="subject" id="subject" aria-required="true" placeholder="Required" required>
+<label for="message">
+<abbr title="Please enter your message">
+<textarea id="message" class="span8 required" rows="10" name="message" aria-required="true">
+<label for="response">
+<abbr title="Select wether you would like a response from the Senator">
+<select name="response" id="response" class="span4 required" aria-required="true" required>
+<option value="">
+<option value="yes">
+<option value="no">
+<label for="newsletter">
+<abbr title="Select wether you would like to sign up for email updates">
+<select name="newsletter" id="newsletter" class="span4 required" aria-required="true" required>
+<option value="">
+<option value="yes">
+<option value="no">
+<input class="btn pull-right" type="submit"  value="Submit" >

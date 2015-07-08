@@ -1,0 +1,220 @@
+<form id="form" method="post" action="shareyourviews.php" data-abide="ajax">
+<p>
+<i>
+<label>
+<select id="prefix" name="prefix">
+<option value="" selected>
+<option value="">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Miss">
+<option value="Ms.">
+<option value="Dr.">
+<option value="Mr. and Mrs.">
+<option value="Dr. and Mrs.">
+<option value="Dr. and Mr.">
+<option value="Dr. and Dr.">
+<option value="Mr. and Mr.">
+<option value="Ms. and Ms.">
+<option value="Brother">
+<option value="Father">
+<option value="Imam">
+<option value="Pastor">
+<option value="Professor">
+<option value="Rabbi">
+<option value="Reverend">
+<option value="Sister">
+<option value="">
+<option value="General">
+<option value="Admiral">
+<option value="Lt General">
+<option value="Vice Admiral">
+<option value="Maj General">
+<option value="Rear Admiral">
+<option value="Brig General">
+<option value="Colonel">
+<option value="Captain">
+<option value="Lt Colonel">
+<option value="Commander">
+<option value="Major">
+<option value="Lt Commander">
+<option value="Captain">
+<option value="Lieutenant">
+<option value="1st Lieutenant">
+<option value="Lieutenant JG">
+<option value="2nd Lieutenant">
+<option value="Ensign">
+<option value="Warrant Officer">
+<option value="Cmd Sgt Major">
+<option value="Force/Fleet Cmd Master Sgt">
+<option value="Cmd Chief Master Sgt">
+<option value="Sgt Major">
+<option value="Chief Master SGT">
+<option value="Master Gunnery SGT">
+<option value="Master CPO">
+<option value="Master Sergeant">
+<option value="1st Sergeant">
+<option value="Sr Master Sergeant">
+<option value="Sr CPO">
+<option value="Sergeant 1st Class">
+<option value="Gunnery Sergeant">
+<option value="CPO">
+<option value="Staff Sergeant">
+<option value="Technical Sgt">
+<option value="PO 1st Class">
+<option value="Sergeant">
+<option value="PO 2nd Class">
+<option value="Corporal">
+<option value="PO 3rd Class">
+<option value="Specialist">
+<option value="Sr Airman">
+<option value="Private 1st Class">
+<option value="Airman 1st Class">
+<option value="Lance Corporal">
+<option value="Seaman">
+<option value="Private">
+<option value="Airman">
+<option value="Private 1st Class">
+<option value="Seaman Apprentice">
+<option value="Private (Recruit)">
+<option value="Airman Basic">
+<option value="Private">
+<option value="Seaman Recruit">
+<label>
+<input type="text" id="firstName" name="firstName" required>
+<small class="error">
+<label>
+<input type="text" id="lastName" name="lastName" required>
+<small class="error">
+<label>
+<input type="text" id="suffix" name="suffix">
+<label>
+<input type="text" id="address1" name="address1" required>
+<small class="error">
+<label>
+<input type="text" id="address2" name="address2">
+<label>
+<input type="text" id="city" name="city" required>
+<small class="error">
+<label>
+<select id="state" name="state">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA" selected>
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<label>
+<input type="text" id="zip" name="zip" pattern="zip" required>
+<small class="error">
+<p>
+<label>
+<input type="tel" id="phone" name="phone" pattern="phone_number" required>
+<small class="error">
+<label>
+<input type="email" id="email" name="email" required>
+<small class="error">
+<label>
+<input type="email" id="email_confirmation" name="email_confirmation" data-equalto="email" required>
+<small class="error">
+<label>
+<select id="topic" name="topic">
+<option value="">
+<option value="ABORTION">
+<option value="AFGHANISTAN">
+<option value="AGRICULTURE">
+<option value="ANIMAL WELFARE">
+<option value="BANKING FINANCE">
+<option value="BUSINESS">
+<option value="CHILDREN">
+<option value="CIVIL RIGHTS">
+<option value="CRIME">
+<option value="DEFENSE">
+<option value="DISABILITY ISSUES">
+<option value="ECONOMY">
+<option value="EDUCATION">
+<option value="ENERGY">
+<option value="ENVIRONMENT">
+<option value="FEDERAL BUDGET">
+<option value="FOREIGN AFFAIRS">
+<option value="ENERGY">
+<option value="HEALTH">
+<option value="HOMELAND SECURITY">
+<option value="HOUSING">
+<option value="IMMIGRATION">
+<option value="IRAQ">
+<option value="JUDICIARY">
+<option value="LABOR">
+<option value="MEDICARE MEDICAID">
+<option value="FOREIGN AFFAIRS">
+<option value="NATIVE AMERICANS">
+<option value="NATURAL DISASTERS">
+<option value="PRESCRIPTION DRUGS">
+<option value="POLITICS">
+<option value="SCIENCE">
+<option value="SENIORS">
+<option value="CRIME">
+<option value="SOCIAL SECURITY">
+<option value="SPACE">
+<option value="TAXES">
+<option value="TECHNOLOGY">
+<option value="TELECOMMUNICATIONS">
+<option value="TRADE">
+<option value="TRANSPORTATION">
+<option value="VETERANS">
+<option value="WELFARE">
+<option value="WOMEN">
+<label>
+<input type="text" id="msubject" name="msubject" required>
+<small class="error">
+<label>
+<textarea placeholder="Please type your message here." name="message" id="message" rows="15" required>
+<small class="error">
+<p>
+<b>
+<button id="submit" type="submit" name="submit" value="Send" class="button expand">

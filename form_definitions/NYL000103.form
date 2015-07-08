@@ -1,0 +1,76 @@
+<form method="Post" action="http://assembly.state.ny.us/mem/Herman-D-Farrell-Jr/send_mail">
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_fname" SIZE="20" MAXLENGTH="30" TABINDEX="1">
+<INPUT TYPE="TEXT" NAME="form_mid" SIZE="5" MAXLENGTH="1" TABINDEX="2">
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_lname" SIZE="20" MAXLENGTH="50" TABINDEX="3">
+<INPUT TYPE="TEXT" NAME="form_org" SIZE="50" MAXLENGTH="500" TABINDEX="4">
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_addr1" SIZE="50" MAXLENGTH="255" TABINDEX="5">
+<INPUT TYPE="TEXT" NAME="form_addr2" SIZE="50" MAXLENGTH="255" TABINDEX="6">
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_city" SIZE="50" MAXLENGTH="255" TABINDEX="7">
+<span class="reqfield">
+<SELECT NAME="form_state" TABINDEX="8">
+<OPTION VALUE="New York" SELECTED>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<OPTION>
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_zip" SIZE="10" MAXLENGTH="10" TABINDEX="9">
+<INPUT TYPE="TEXT" NAME="form_phone" SIZE="50" MAXLENGTH="255" TABINDEX="10">
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_email" SIZE="50" MAXLENGTH="255" TABINDEX="11">
+<span class="reqfield">
+<INPUT TYPE="TEXT" NAME="form_subject" SIZE="50" MAXLENGTH="255" TABINDEX="12">
+<span class="reqfield">
+<TEXTAREA NAME="form_message" COLS="60" ROWS="10" WRAP="PHYSICAL" TABINDEX="13">
+<INPUT TYPE="SUBMIT" VALUE="Send Message">
+<p>
+<span class="reqfield">

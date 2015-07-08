@@ -1,0 +1,152 @@
+<form action="/apps/widgets/nys-connects/contactForm.cfm" method="post" id="editCitizenForm" accept-charset="UTF-8">
+<label for="edit-submitted-name">
+<span class="form-required" title="This field is required.">
+<select name="iaddress" id="iaddress" size="1" class="form-select required">
+<option value="Mr.">
+<option value="Ms.">
+<option value="Mrs.">
+<option value="Mr. &amp; Mrs.">
+<label for="edit-submitted-name">
+<span class="form-required" title="This field is required.">
+<input type="text" id="first_name" name="first_name" size="60" maxlength="80" class="form-text required" required="true" value="">
+<label for="edit-submitted-name">
+<span class="form-required" title="This field is required.">
+<input type="text" id="last_name" name="last_name" size="60" maxlength="80" class="form-text required" required="true" value="">
+<label for="edit-submitted-email">
+<span class="form-required" title="This field is required.">
+<input class="email form-text form-email required" type="email" id="email" name="primary_email" size="60" maxlength="80" required="true" value="">
+<label for="edit-submitted-address">
+<span class="form-required" title="This field is required.">
+<input type="text" id="primary_address_1" name="primary_address_1" size="60" maxlength="80" class="form-text required" required="true" value="">
+<label for="primary-city">
+<span class="form-required" title="This field is required.">
+<input type="text" id="edit-submitted-city" name="primary_city" size="60" maxlength="80" class="form-text required" required="true" value="">
+<label for="edit-submitted-state">
+<span class="form-required" title="This field is required.">
+<select id="primary_state" name="primary_state" class="form-select required" required="true">
+<option value="" selected="selected">
+<option value="AL">
+<option value="AK">
+<option value="AS">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="GU">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MH">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="MP">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PW">
+<option value="PA">
+<option value="PR">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VI">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<label for="edit-submitted-zip-code">
+<span class="form-required" title="This field is required.">
+<input type="text" id="primary_zip" name="primary_zip" size="60" maxlength="10" class="form-text form-zip-code required" required="true" value="">
+<label for="edit-submitted-topic">
+<span class="form-required" title="This field is required.">
+<select id="topic" name="topic" class="form-select required" required="true">
+<option value="" selected="selected">
+<option value="Agriculture">
+<option value="Albany/Upper Hudson Valley">
+<option value="Amtrak">
+<option value="Animals/Endangered Species">
+<option value="Banking">
+<option value="Binghamton/Southern Tier">
+<option value="Bioterrorism">
+<option value="Budget Suggestions">
+<option value="Buffalo/Western New York">
+<option value="Casework">
+<option value="Children's Issues">
+<option value="Civil Rights">
+<option value="Cloning/Stem Cell Research">
+<option value="Correctional Services">
+<option value="Crime">
+<option value="Disability Assistance">
+<option value="The Economic Crisis">
+<option value="Economy">
+<option value="Economic Development">
+<option value="Education">
+<option value="Energy Issues">
+<option value="Environmental Concerns">
+<option value="Health Care">
+<option value="Homeland Security">
+<option value="Housing">
+<option value="Immigration">
+<option value="Insurance">
+<option value="Labor">
+<option value="Legislation">
+<option value="Long Island">
+<option value="Lower Hudson Valley">
+<option value="Military">
+<option value="MWBE">
+<option value="New York City">
+<option value="North Country">
+<option value="Nuclear Power Plants">
+<option value="Racing/Lottery/Liquor license">
+<option value="Reproductive Choice">
+<option value="Rochester/Finger Lakes">
+<option value="Seniors">
+<option value="Syracuse/Central New York">
+<option value="Tax Reform">
+<option value="Telecommunications">
+<option value="Terrorism">
+<option value="Transportation">
+<option value="Unemployment Issues">
+<option value="Upstate Economy">
+<option value="Utica/Mohawk Valley">
+<option value="Veteran's Issues">
+<option value="Western Southern Tier">
+<option value="Women's Issues">
+<option value="World Trade Center">
+<option value="Other">
+<label for="edit-submitted-subject">
+<span class="form-required" title="This field is required.">
+<input type="text" id="subject" name="subject" size="60" maxlength="80" class="form-text required" required="true" value="">
+<label for="edit-submitted-message">
+<span class="form-required" title="This field is required.">
+<textarea id="govemail" name="govemail" cols="60" rows="5" class="form-textarea required" required="true" maxlength="2500">
+<input class="webform-submit button-primary form-submit" id="contact-submit" type="submit" name="op" value="Submit">

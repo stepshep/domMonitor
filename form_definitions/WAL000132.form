@@ -1,0 +1,124 @@
+<form action="/PBC/MemberEmail/38/2" id="mainForm" method="post">
+<span class="headerText">
+<span class="validationred">
+<span class="span1 labelStreet">
+<label class="labelForOverride" for="Address_Street">
+<span class="validationred">
+<span class="txtBox span4">
+<input class="AddressField" data-mini="true" data-val="true" data-val-required="Street is required." id="Address_Street" name="Address.Street" type="text" value="" >
+<span id="streetValidationMessage" class="row-fluid validationred">
+<span class="field-validation-valid" data-valmsg-for="Address.Street" data-valmsg-replace="true">
+<span class="label span1">
+<label class="labelForOverride" for="Address_City">
+<span class="validationred">
+<span class="txtBoxCity span2">
+<input class="AddressField" data-mini="true" data-val="true" data-val-required="City is required." id="Address_City" name="Address.City" type="text" value="" >
+<span id="cityValidationMessage" class="row-fluid validationred">
+<span class="field-validation-valid" data-valmsg-for="Address.City" data-valmsg-replace="true">
+<span class="span1 labelState">
+<label class="labelForOverride" for="Address_State">
+<span class="validationred">
+<span class="span1 stateTextBox">
+<input class="AddressField" data-mini="true" data-val="true" data-val-required="State is required." id="Address_State" name="Address.State" type="text" value="WA" >
+<span id="stateValidationMessage" class="row-fluid validationred">
+<span class="field-validation-valid" data-valmsg-for="Address.State" data-valmsg-replace="true">
+<span class="label span1">
+<label class="labelForOverride" for="Address_Zip">
+<span class="validationred">
+<span class="span1 zipTextBox">
+<input class="AddressField" data-mini="true" data-val="true" data-val-regex="Invalid Zip" data-val-regex-pattern="^\d{5}(-\d{4})?$" data-val-required="Zip is required." id="Address_Zip" name="Address.Zip" type="text" value="" >
+<span id="zipValidationMessage" class="row-fluid validationred">
+<span class="field-validation-valid" data-valmsg-for="Address.Zip" data-valmsg-replace="true">
+<input type="button" value="Verify District" id="ValidateAddressButton" data-role="button" data-mini="true" >
+<span class="validationred">
+<span class="field-validation-valid" data-valmsg-for="Address.IsValidated" data-valmsg-replace="true">
+<span id="DistrictLabel">
+<span id="mayContinueMessageContainer">
+<span class="addressValidationMessage">
+<span id="mayContinueMessage">
+<span id="DistrictLegislators">
+<span class="span12 helpSubHeaderText">
+<span class="span2 labelContact">
+<label class="labelForOverride" for="FirstName">
+<span class="validationred">
+<span class="span4">
+<input data-mini="true" data-val="true" data-val-required="First Name is required." id="FirstName" name="FirstName" type="text" value="" >
+<span id="firstNameValidationMessage" class="validationred">
+<span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true">
+<span class="span2 labelContact">
+<label class="labelForOverride" for="LastName">
+<span class="validationred">
+<span class="span4">
+<input data-mini="true" data-val="true" data-val-required="Last Name is required." id="LastName" name="LastName" type="text" value="" >
+<span id="lastNameValidationMessage" class="validationred">
+<span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true">
+<span class="span2 labelContact">
+<label class="labelForOverride" for="Email">
+<span class="validationred">
+<span class="span4">
+<input data-mini="true" data-val="true" data-val-email="Email address must be properly formatted." data-val-required="Email address is required." id="Email" name="Email" type="text" value="" >
+<span id="emailValidationMessage" class="validationred">
+<span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true">
+<span class="span2 labelContact">
+<label class="labelForOverride" for="ConfirmEmail">
+<span class="validationred">
+<span class="span4">
+<input data-mini="true" data-val="true" data-val-equalto="Email and confirm email do not match." data-val-equalto-other="*.Email" id="ConfirmEmail" name="ConfirmEmail" type="text" value="" >
+<span id="confirmEmailValidationMessage" class="validationred">
+<span class="field-validation-valid" data-valmsg-for="ConfirmEmail" data-valmsg-replace="true">
+<span class="span2 labelContact">
+<label class="labelForOverride" for="PhoneNumber">
+<span class="span4">
+<input data-mini="true" data-val="true" data-val-regex="Entered phone format is not valid." data-val-regex-pattern="^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$" id="PhoneNumber" name="PhoneNumber" type="text" value="" >
+<span id="phoneValidationMessage" class="validationred">
+<span class="field-validation-valid" data-valmsg-for="PhoneNumber" data-valmsg-replace="true">
+<span class="span6 phoneExample">
+<em>
+<table>
+<label class="labelForOverride" for="BillNumber">
+<td class="smallExample">
+<span id="billTextBox">
+<input data-mini="true" data-val="true" data-val-regex="Invalid Bill Number" data-val-regex-pattern="^\d{3,4}$" id="BillNumber" name="BillNumber" type="text" value="" >
+<input type="button" id="EditBillButton" value="Find Bill" data-role="button" data-mini="true">
+<span class="validationred">
+<span class="field-validation-valid" data-valmsg-for="BillNumber" data-valmsg-replace="true">
+<label for="RadioPositions">
+<span id="dynamicPosition" class="smallExample">
+<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+<input data-model="Support" data-val="true" data-val-number="The field SelectedPositionId must be a number." data-val-requiredif="Position is required to comment on a bill." data-val-requiredif-comparisonvalue="" data-val-requiredif-condition="2" data-val-requiredif-metconditiononserver="0" data-val-requiredif-propertyname="BillNumber" id="Support" name="SelectedPositionId" type="radio" value="1" >
+<label for="Support">
+<input data-model="Oppose" id="Oppose" name="SelectedPositionId" type="radio" value="2" >
+<label for="Oppose">
+<input data-model="Neutral" id="Neutral" name="SelectedPositionId" type="radio" value="3" >
+<label for="Neutral">
+<span class="validationred">
+<span class="field-validation-valid" data-valmsg-for="SelectedPositionId" data-valmsg-replace="true">
+<label class="labelForOverride" for="CommentSubject">
+<span class="validationred">
+<span class="smallExample">
+<input data-val="true" data-val-requiredif="Subject is required." data-val-requiredif-comparisonvalue="" data-val-requiredif-condition="2" data-val-requiredif-metconditiononserver="1" data-val-requiredif-propertyname="PrimaryResponseMember" id="CommentSubject" maxlength="100" name="CommentSubject" type="text" value="" >
+<span class="validationred">
+<span class="field-validation-valid" data-valmsg-for="CommentSubject" data-valmsg-replace="true">
+<label class="labelForOverride" for="Comment">
+<span class="validationred">
+<span class="smallExample">
+<span id="charactersRemaining">
+<textarea cols="20" data-val="true" data-val-required="Message is required." id="Comment" maxLength="1000" name="Comment" rows="2">
+<span class="validationred">
+<span class="field-validation-valid" data-valmsg-for="Comment" data-valmsg-replace="true">
+<span class="validationred">
+<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true" id="RRControlGroupEmailForm">
+<input data-val="true" data-val-requiredif="Response selection is required." data-val-requiredif-comparisonvalue="MemberEmail" data-val-requiredif-condition="3" data-val-requiredif-metconditiononserver="0" data-val-requiredif-propertyname="Notification" id="ResponseRequested_True" name="ResponseRequested" type="radio" value="True" >
+<label for="ResponseRequested_True">
+<input id="ResponseRequested_False" name="ResponseRequested" type="radio" value="False" >
+<label for="ResponseRequested_False">
+<span class="validationred">
+<span class="field-validation-valid" data-valmsg-for="ResponseRequested" data-valmsg-replace="true">
+<fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+<input data-val="true" data-val-required="The SecondaryResponseRequested field is required." id="SecondaryResponseRequested_True" name="SecondaryResponseRequested" type="radio" value="True" >
+<label for="SecondaryResponseRequested_True">
+<input checked="checked" id="SecondaryResponseRequested_False" name="SecondaryResponseRequested" type="radio" value="False" >
+<label for="SecondaryResponseRequested_False">
+<span class="span3">
+<input type="submit" value="Submit Form" id="FormSubmitButton" >
+<span class="span9">

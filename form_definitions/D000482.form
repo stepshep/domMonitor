@@ -1,0 +1,8 @@
+<form action="/contact-me/email-me-zip-authenticated?fromFormProc" method="post" id="search-block-form" accept-charset="UTF-8">
+<h2 class="element-invisible">
+<label class="element-invisible" for="edit-search-block-form--2">
+<input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text">
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+<form name="newsletter_signup_form" action="/htbin/formproc/newsletter-subscribe.txt&amp;display=/contact-me/newsletter-subscribe-thankyou&amp;nobase&amp;fpGetVer=2">
+<input type="text" maxlength="128" name="required-valid-email" id="edit-signup-theme-form-1" size="15" value="your@email.com" title="Enter your email address." class="form-text search-field" onfocus="this.value=''">
+<input type="submit" id="edit-submit" value="submit" class="form-submit">

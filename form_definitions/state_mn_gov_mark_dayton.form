@@ -1,0 +1,155 @@
+<form id="contact" name="contact" action="http://mn.gov/gov-stat/cgi-bin/TFMail.cgi" accept-charset="utf-8" method="post">
+<p>
+<table>
+<tbody>
+<td width="120" class="tabletext">
+<label for="prefix">
+<td class="tabletext">
+<input id="prefix" maxlength="20" size="7" name="PREFIX">
+<td class="tabletext">
+<label for="first">
+<td class="tabletext">
+<input id="first" maxlength="30" name="FIRST">
+<td class="tabletext">
+<label for="last">
+<td class="tabletext">
+<input id="last" maxlength="30" name="LAST">
+<td class="tabletext">
+<label for="address1">
+<td class="tabletext">
+<input id="address1" maxlength="50" name="ADDR1">
+<td class="tabletext">
+<label for="address2">
+<td class="tabletext">
+<input id="address2" maxlength="50" name="ADDR2">
+<td class="tabletext">
+<label for="city">
+<td class="tabletext">
+<input id="city" maxlength="30" name="CITY">
+<td class="tabletext">
+<label for="STATE">
+<td class="tabletext">
+<select name="STATE" size="1" id="STATE">
+<option value="">
+<option value="MN">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<td class="tabletext">
+<label for="zip">
+<td class="tabletext">
+<input type="text" id="zip" maxlength="5" name="ZIP">
+<td class="tabletext">
+<label for="phone">
+<td class="tabletext">
+<input id="phone" maxlength="40" name="PHONE" onBlur="validatePhone(this)">
+<td class="tabletext">
+<label for="email">
+<td class="tabletext">
+<input id="email" maxlength="40" name="EMAIL" value="" >
+<td class="tabletext">
+<label for="contactGov">
+<td class="tabletext">
+<input type="radio" name="CONTACT" id="contactGov" value="Governor" checked="checked">
+<input type="radio" name="CONTACT" id="contactLtGov" value="Lt. Governor">
+<td class="tabletext">
+<label for="required-issue1">
+<td class="tabletext">
+<select name="ISSUE1" size="1" id="required-issue1">
+<option value="">
+<option value="AG">
+<option value="BUD">
+<option value="BSP">
+<option value="COMM">
+<option value="EDHI">
+<option value="EDK12">
+<option value="ELE">
+<option value="ENGY">
+<option value="ENV">
+<option value="FED">
+<option value="GAM">
+<option value="HHS">
+<option value="HINS">
+<option value="HO">
+<option value="HR">
+<option value="JOBS">
+<option value="LAI">
+<option value="MA">
+<option value="PS">
+<option value="SEN">
+<option value="STP">
+<option value="TAX">
+<option value="TEL">
+<option value="TRAN">
+<option value="VA">
+<option value="OTHR">
+<td class="tabletext">
+<label for="subject">
+<td class="tabletext">
+<input id="subject" maxlength="40" name="SUBJECT">
+<td class="tabletext">
+<label for="message">
+<em>
+<span class="tabletext">
+<textarea id="message" name="MSG" rows="15" wrap="VIRTUAL" cols="35">
+<td class="tabletext">
+<td class="tabletext">
+<label for="required-response">
+<td class="tabletext">
+<select name="RSP" size="1" id="required-response">
+<option value="">
+<option value="NO">
+<option value="YES">
+<td class="tabletext" colspan="2">
+<input type="checkbox" id="subscribe" >
+<label for="subscribe" class="labelformat">
+<span id="response">
+<td colspan="2">
+<input type="button" id="contactbutton" value="Submit Information" name="contactbutton">
+<input type="reset" value="Clear Form" name="reset">

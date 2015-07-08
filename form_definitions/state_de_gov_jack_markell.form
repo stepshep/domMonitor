@@ -1,0 +1,17 @@
+<form onsubmit="javascript:return validateFields('contact');" name="contact" id="contact" method="post" action="/cgi-bin/mailer.php">
+<label for="formName" class="grid1">
+<input name="formName" id="formName" type="text" placeholder="Your Name" class="grid_input">
+<label for="formAddress" class="grid1">
+<input name="formAddress" id="formAddress" type="text" placeholder="Your Street Address" class="grid_input">
+<label for="formCity" class="grid1">
+<input name="formCity" id="formCity" type="text" placeholder="Your City, State, Zip" class="grid1_5">
+<label for="formTelephone" class="grid1">
+<input name="formTelephone" id="formTelephone" type="tel" placeholder="(302) 555-5555" class="grid1_5">
+<label for="formEmail" class="grid1">
+<input name="formEmail" id="formEmail" type="email" placeholder="your@domain.com" class="grid1_5">
+<label for="formComment" class="grid1">
+<span class="required">
+<textarea id="formComment" name="formComment" class="grid_input grid2_5h">
+<input type="submit" name="Submit" value="Submit">
+<input type="reset" name="Clear" value="Clear">
+<input type="text" class="noshow" id="sendto" name="sendto" value="">

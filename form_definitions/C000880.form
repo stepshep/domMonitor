@@ -1,0 +1,154 @@
+<form name="thisForm" id="thisForm" action="webformActionIAV1.cfm" method="post" class="form-horizontal" onsubmit="return _CF_checkthisForm(this)">
+<fieldset>
+<legend>
+<label class="control-label" for="Subject">
+<SELECT NAME="Subject" id="Subject" class="required">
+<OPTION VALUE="CWM1" SELECTED>
+<OPTION VALUE="AG">
+<OPTION VALUE="BN">
+<OPTION VALUE="BU">
+<OPTION VALUE="CM">
+<OPTION VALUE="CG">
+<OPTION VALUE="ED">
+<OPTION VALUE="EN">
+<OPTION VALUE="EV">
+<OPTION VALUE="FA">
+<OPTION VALUE="HC">
+<OPTION VALUE="HS">
+<OPTION VALUE="JU">
+<OPTION VALUE="NA">
+<OPTION VALUE="MD">
+<OPTION VALUE="EMAIL">
+<label class="control-label" for="Subsubject">
+<SELECT NAME="Subsubject" id="Subsubject" class="required">
+<label class="control-label" for="Prefix">
+<SELECT NAME="Prefix" class="required">
+<OPTION VALUE="" selected>
+<OPTION VALUE="Mr.">
+<OPTION VALUE="Mrs.">
+<OPTION VALUE="Ms.">
+<OPTION VALUE="Mr. and Mrs.">
+<OPTION VALUE="Dr.">
+<OPTION VALUE="Reverend">
+<OPTION VALUE="Sister">
+<OPTION VALUE="Pastor">
+<OPTION VALUE="The Honorable">
+<OPTION VALUE="Representative">
+<OPTION VALUE="Senator">
+<label class="control-label" for="firstName">
+<input name="firstName" id="firstName"  type="text" maxlength="30"  size="30"  class="required"  >
+<label class="control-label" for="lastName">
+<input name="lastName" id="lastName"  type="text" maxlength="30"  size="30"  class="required"  >
+<label class="control-label" for="Address1">
+<input name="Address1" id="Address1"  type="text" maxlength="50"  size="30"  class="required"  >
+<label class="control-label" for="Address2">
+<input name="Address2" id="Address2"  type="text" maxlength="50"  size="30"  >
+<label class="control-label" for="city">
+<input name="city" id="city"  type="text" maxlength="40"  size="30"  class="required"  >
+<label class="control-label" for="State">
+<SELECT NAME="State" class="required">
+<OPTION VALUE=" ">
+<OPTION VALUE="AA">
+<OPTION VALUE="AE">
+<OPTION VALUE="AP">
+<OPTION VALUE=" ">
+<OPTION VALUE="AL">
+<OPTION VALUE="AK">
+<OPTION VALUE="AZ">
+<OPTION VALUE="AR">
+<OPTION VALUE="CA">
+<OPTION VALUE="CO">
+<OPTION VALUE="CT">
+<OPTION VALUE="DE">
+<OPTION VALUE="DC">
+<OPTION VALUE="FL">
+<OPTION VALUE="GA">
+<OPTION VALUE="HI">
+<OPTION VALUE="ID" SELECTED>
+<OPTION VALUE="IL">
+<OPTION VALUE="IN">
+<OPTION VALUE="IA">
+<OPTION VALUE="KS">
+<OPTION VALUE="KY">
+<OPTION VALUE="LA">
+<OPTION VALUE="ME">
+<OPTION VALUE="MD">
+<OPTION VALUE="MA">
+<OPTION VALUE="MI">
+<OPTION VALUE="MN">
+<OPTION VALUE="MS">
+<OPTION VALUE="MO">
+<OPTION VALUE="MT">
+<OPTION VALUE="NE">
+<OPTION VALUE="NV">
+<OPTION VALUE="NH">
+<OPTION VALUE="NJ">
+<OPTION VALUE="NM">
+<OPTION VALUE="NY">
+<OPTION VALUE="NC">
+<OPTION VALUE="ND">
+<OPTION VALUE="OH">
+<OPTION VALUE="OK">
+<OPTION VALUE="OR">
+<OPTION VALUE="PA">
+<OPTION VALUE="RI">
+<OPTION VALUE="SC">
+<OPTION VALUE="SD">
+<OPTION VALUE="TN">
+<OPTION VALUE="TX">
+<OPTION VALUE="UT">
+<OPTION VALUE="VT">
+<OPTION VALUE="VA">
+<OPTION VALUE="WA">
+<OPTION VALUE="WV">
+<OPTION VALUE="WI">
+<OPTION VALUE="WY">
+<label class="control-label" for="zip">
+<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  class="required"  >
+<label class="control-label" for="homePhone">
+<input name="homePhone" id="homePhone"  type="text" maxlength="30"  size="30"  >
+<label class="control-label" for="workPhone">
+<input name="workPhone" id="workPhone"  type="text" maxlength="30"  size="30"  >
+<label class="control-label" for="email">
+<input name="email" id="email"  type="text" maxlength="40"  size="30"  class="required"  >
+<fieldset>
+<legend>
+<label class="control-label" for="messageSubject">
+<input name="messageSubject" id="messageSubject"  type="text" maxlength="75"  size="30"  class="required"  >
+<label class="control-label">
+<TEXTAREA
+					NAME="MessageBody"
+					ROWS="10"
+					WRAP="virtual"
+					CLASS="textarea span5 required"
+					onkeyup="textCounter(this,'remChar',5000)">
+<small>
+<span id="remChar">
+<fieldset>
+<legend>
+<p>
+<span class="spanpadtop">
+<label class="radio inline">
+<INPUT NAME="Response" TYPE="radio" value="CWM1" checked="checked">
+<label class="radio inline">
+<INPUT NAME="Response" TYPE="radio" value="CRNR">
+<span class="spanpadtop">
+<label class="radio inline">
+<INPUT NAME="IDResident" TYPE="radio" value="yes" checked="checked">
+<label class="radio inline">
+<INPUT NAME="IDResident" TYPE="radio" value="no">
+<select name="lastcontact">
+<option value="LCN - Never">
+<option value="LC0 - In the last week">
+<option value="LC1 - In the last month">
+<option value="LC6 - In the last six months">
+<option value="LC12 - In the last year">
+<option value="LCM - More than one year ago">
+<fieldset>
+<legend>
+<small class="text-center">
+<label class="control-label" for="captcha_code">
+<input name="captcha_code" id="captcha_code"  type="text" class="span2 required"  >
+<small>
+<INPUT TYPE="submit" VALUE="Submit Information" class="btn btn-primary">
+<INPUT TYPE="reset" VALUE="Reset Form" class="btn">

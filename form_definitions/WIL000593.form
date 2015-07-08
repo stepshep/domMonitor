@@ -1,0 +1,83 @@
+<form action="/senate/21/wanggaard/request-assistance/" enctype="multipart/form-data" method="post">
+<h4 class="contourPageName">
+<fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
+<label for="5e190b99-d25f-4d0a-ebd7-1a8db4458abe" class="fieldLabel">
+<span class="contourIndicator">
+<input type="email" name="5e190b99-d25f-4d0a-ebd7-1a8db4458abe" id="5e190b99-d25f-4d0a-ebd7-1a8db4458abe" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="Email Address is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="5e190b99-d25f-4d0a-ebd7-1a8db4458abe" data-valmsg-replace="true">
+<label for="283fa884-0337-487b-9c1a-22ec7e705ac9" class="fieldLabel">
+<span class="contourIndicator">
+<input type="text" name="283fa884-0337-487b-9c1a-22ec7e705ac9" id="283fa884-0337-487b-9c1a-22ec7e705ac9" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="Name is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="283fa884-0337-487b-9c1a-22ec7e705ac9" data-valmsg-replace="true">
+<label for="e6478e3c-4c68-4b61-ab05-b8cb96b0e720" class="fieldLabel">
+<span class="contourIndicator">
+<input type="text" name="e6478e3c-4c68-4b61-ab05-b8cb96b0e720" id="e6478e3c-4c68-4b61-ab05-b8cb96b0e720" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="Address is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="e6478e3c-4c68-4b61-ab05-b8cb96b0e720" data-valmsg-replace="true">
+<label for="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" class="fieldLabel">
+<span class="contourIndicator">
+<input type="text" name="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" id="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="City/State/Zip Code is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" data-valmsg-replace="true">
+<label for="ae7ef6e7-2c8e-4631-e37c-019f9964217a" class="fieldLabel">
+<span class="contourIndicator">
+<input type="tel" name="ae7ef6e7-2c8e-4631-e37c-019f9964217a" id="ae7ef6e7-2c8e-4631-e37c-019f9964217a" class="text" data-rule-phoneUS="true" pattern='[\(]?\d{3}[\)]?[\-. ]?\d{3}[\-. ]?\d{4}' value="" maxlength="500"
+    data-val="true"
+ required data-val-required="Phone (home): is mandatory"
+
+    title ="Phone (home): is not valid"
+>
+<span class="field-validation-valid" data-valmsg-for="ae7ef6e7-2c8e-4631-e37c-019f9964217a" data-valmsg-replace="true">
+<label for="62844f96-fe06-491c-cace-528db3b7edb2" class="fieldLabel">
+<input type="tel" name="62844f96-fe06-491c-cace-528db3b7edb2" id="62844f96-fe06-491c-cace-528db3b7edb2" class="text" data-rule-phoneUS="true" pattern='[\(]?\d{3}[\)]?[\-. ]?\d{3}[\-. ]?\d{4}' value="" maxlength="500"
+    
+
+
+    title ="Phone (work): is not valid"
+>
+<span class="field-validation-valid" data-valmsg-for="62844f96-fe06-491c-cace-528db3b7edb2" data-valmsg-replace="true">
+<label for="ff8f0ba0-ad79-4c6a-8b74-bff6ad2af360" class="fieldLabel">
+<input type="tel" name="ff8f0ba0-ad79-4c6a-8b74-bff6ad2af360" id="ff8f0ba0-ad79-4c6a-8b74-bff6ad2af360" class="text" data-rule-phoneUS="true" pattern='[\(]?\d{3}[\)]?[\-. ]?\d{3}[\-. ]?\d{4}' value="" maxlength="500"
+    
+
+
+    title ="Phone (cell): is not valid"
+>
+<span class="field-validation-valid" data-valmsg-for="ff8f0ba0-ad79-4c6a-8b74-bff6ad2af360" data-valmsg-replace="true">
+<label for="a0791727-9f5f-4483-92ed-60a87468f366" class="fieldLabel">
+<input type="text" name="a0791727-9f5f-4483-92ed-60a87468f366" id="a0791727-9f5f-4483-92ed-60a87468f366" class="text" value="" maxlength="500"
+
+
+
+>
+<span class="field-validation-valid" data-valmsg-for="a0791727-9f5f-4483-92ed-60a87468f366" data-valmsg-replace="true">
+<label for="19f183d6-bbc1-475e-f090-6acf1187aa35" class="fieldLabel">
+<textarea name="19f183d6-bbc1-475e-f090-6acf1187aa35" id="19f183d6-bbc1-475e-f090-6acf1187aa35" rows="2" cols="20"
+
+
+
+>
+<span class="field-validation-valid" data-valmsg-for="19f183d6-bbc1-475e-f090-6acf1187aa35" data-valmsg-replace="true">
+<label for="0ab65746-3ad1-4be7-b43d-feb3ee48c03d" class="fieldLabel">
+<textarea name="0ab65746-3ad1-4be7-b43d-feb3ee48c03d" id="0ab65746-3ad1-4be7-b43d-feb3ee48c03d" rows="2" cols="20"
+
+
+
+>
+<span class="field-validation-valid" data-valmsg-for="0ab65746-3ad1-4be7-b43d-feb3ee48c03d" data-valmsg-replace="true">
+<input type="text" name="7a804d0185554c7bb41c88a315078c9a" >
+<input type="submit" class="btn primary" value="Submit Case" name="submit">

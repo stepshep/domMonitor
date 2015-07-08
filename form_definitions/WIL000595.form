@@ -1,0 +1,42 @@
+<form action="/assembly/45/spreitzer/share-your-thoughts/" enctype="multipart/form-data" method="post">
+<h4 class="contourPageName">
+<fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
+<label for="f5679156-8d89-44ef-b8e6-7b6b7f7dc928" class="fieldLabel">
+<span class="contourIndicator">
+<input type="text" name="f5679156-8d89-44ef-b8e6-7b6b7f7dc928" id="f5679156-8d89-44ef-b8e6-7b6b7f7dc928" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="Name is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="f5679156-8d89-44ef-b8e6-7b6b7f7dc928" data-valmsg-replace="true">
+<label for="42345a62-73c5-40d1-9b5b-bf4894a0590b" class="fieldLabel">
+<span class="contourIndicator">
+<input type="text" name="42345a62-73c5-40d1-9b5b-bf4894a0590b" id="42345a62-73c5-40d1-9b5b-bf4894a0590b" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="Address, City, Zip is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="42345a62-73c5-40d1-9b5b-bf4894a0590b" data-valmsg-replace="true">
+<label for="88ad3e7b-8969-497e-8ba4-bdce26a69a77" class="fieldLabel">
+<span class="contourIndicator">
+<input type="text" name="88ad3e7b-8969-497e-8ba4-bdce26a69a77" id="88ad3e7b-8969-497e-8ba4-bdce26a69a77" class="text" value="" maxlength="500"
+data-val="true"
+ data-val-required="Email is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="88ad3e7b-8969-497e-8ba4-bdce26a69a77" data-valmsg-replace="true">
+<label for="94214ea5-78a3-4b9a-81d1-7b14989f1e3c" class="fieldLabel">
+<span class="contourIndicator">
+<textarea name="94214ea5-78a3-4b9a-81d1-7b14989f1e3c" id="94214ea5-78a3-4b9a-81d1-7b14989f1e3c" rows="2" cols="20"
+data-val="true"
+ data-val-required="Comment is mandatory"
+
+>
+<span class="field-validation-valid" data-valmsg-for="94214ea5-78a3-4b9a-81d1-7b14989f1e3c" data-valmsg-replace="true">
+<label for="818b88aa-5dae-40f0-a55f-4cdc6e2f281e" class="fieldLabel">
+<input type="checkbox" name="818b88aa-5dae-40f0-a55f-4cdc6e2f281e" id="818b88aa-5dae-40f0-a55f-4cdc6e2f281e" 
+        checked="checked"                                                                                                         
+    >
+<span class="field-validation-valid" data-valmsg-for="818b88aa-5dae-40f0-a55f-4cdc6e2f281e" data-valmsg-replace="true">
+<input type="text" name="11989350ce8e4242a4c0ec60f227a528" >
+<input type="submit" class="btn primary" value="Submit" name="submit">
