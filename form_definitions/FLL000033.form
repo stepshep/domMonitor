@@ -17,7 +17,7 @@
 <span class="field-validation-valid" data-valmsg-for="Topic" data-valmsg-replace="true">
 <label for="Comment" class="control-label">
 <span class="required">
-<textarea class="input-xxlarge" cols="20" data-val="true" data-val-length="You cannot exceed 4,000 characters." data-val-length-max="4000" data-val-required="The Your Comment or Question field is required." data-validation-required-message="The Your Comment or Question field is required." id="Comment" name="Comment" required="required" rows="10">
+<textarea class="input-xxlarge valid" cols="20" data-val="true" data-val-length="You cannot exceed 4,000 characters." data-val-length-max="4000" data-val-required="The Your Comment or Question field is required." data-validation-required-message="The Your Comment or Question field is required." id="Comment" name="Comment" required="required" rows="10">
 <p id="Comment_Countdown_Dec" style="">
 <span id="Comment_Countdown">
 <p class="help-block redtext">
@@ -36,7 +36,7 @@
 <span class="field-validation-valid" data-valmsg-for="WayToRespond" data-valmsg-replace="true">
 <label for="FirstName" class="control-label">
 <span class="required">
-<input class="input-large" data-val="true" data-val-required="The First Name field is required." data-validation-required-message="The First Name field is required." id="FirstName" maxlength="255" name="FirstName" required="required" type="text" value="">
+<input class="input-large valid" data-val="true" data-val-required="The First Name field is required." data-validation-required-message="The First Name field is required." id="FirstName" maxlength="255" name="FirstName" required="required" type="text" value="">
 <p class="help-block redtext">
 <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true">
 <label for="LastName" class="control-label">
