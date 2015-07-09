@@ -1,33 +1,18 @@
-<form action="feedout.php" method="post" name="Contact" id="Contact">
+<form action="emailup.php" method="post" name="EmailUp" id="EmailUp">
 <?php
 $ipi = getenv("REMOTE_ADDR"); 
 $httprefi = getenv ("HTTP_REFERER");
 $httpagenti = getenv ("HTTP_USER_AGENT");
 ?>
-<span class="hdoheader">
+<fieldset>
+<legend>
 <p>
-<label for="nameis">
-<input name="nameis" type="text" id="nameis" size="40">
-<p>
+<label for="firstname">
+<input name="firstname" type="text" id="firstname" size="28">
+<label for="lastname">
+<input name="lastname" type="text" id="lastname" size="28">
 <label for="visitormail">
-<input name="visitormail" type="email" required="required" id="visitormail" size="40">
-<p>
-<label for="address">
-<input name="address" type="text" id="address" size="40">
-<table border="0">
-<p>
-<label for="city">
-<input name="city" type="text" id="city" size="25">
-<p>
-<label for="state">
-<input name="state" id="state" type="text" size="5">
-<p>
+<input name="visitormail" type="email" required="required" id="visitormail" size="28">
 <label for="zip">
 <input name="zip" type="text" required="required" id="zip" size="10">
-<p>
-<label for="comments">
-<textarea name="comments" cols="80" rows="10" id="comments">
-<p>
-<input name="EmailUpdates" id="EmailUpdates" type="checkbox" value="yes">
-<p>
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" >

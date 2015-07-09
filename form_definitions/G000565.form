@@ -1,159 +1,20 @@
-<form method="post" action="?zip5=86303&amp;zip4=4712" id="aspnetForm">
-<span class="pageHeader">
-<span style="">
-<fieldset>
-<legend>
-<table cellpadding="3" cellspacing="0" border="0">
-<tbody>
-<tr class="wyr-prefix">
-<td width="90">
-<label for="ctl00_ctl24_PrefixList">
-<span class="header">
-<select name="ctl00$ctl24$PrefixList" id="ctl00_ctl24_PrefixList">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Rev.">
-<option value="Dr.">
-<tr class="wyr-firstname">
-<label for="ctl00_ctl24_FirstName">
-<span class="header">
-<input name="ctl00$ctl24$FirstName" type="text" id="ctl00_ctl24_FirstName" class="textBox">
-<tr class="wyr-lastname">
-<label for="ctl00_ctl24_LastName">
-<span class="header">
-<input name="ctl00$ctl24$LastName" type="text" id="ctl00_ctl24_LastName" class="textBox">
-<tr class="wyr-street">
-<label for="ctl00_ctl24_Street">
-<span class="header">
-<input name="ctl00$ctl24$Street" type="text" id="ctl00_ctl24_Street" class="textBox">
-<tr class="wyr-city">
-<label for="ctl00_ctl24_City">
-<span class="header">
-<input name="ctl00$ctl24$City" type="text" id="ctl00_ctl24_City" class="textBox">
-<tr class="wyr-state">
-<label for="ctl00_ctl24_State">
-<span class="header">
-<select name="ctl00$ctl24$State" id="ctl00_ctl24_State">
-<option value="AL">
-<option value="AK">
-<option selected="selected" value="AZ">
-<option value="AR">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DE">
-<option value="DC">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="IA">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="ME">
-<option value="MD">
-<option value="MA">
-<option value="MI">
-<option value="MN">
-<option value="MS">
-<option value="MO">
-<option value="MT">
-<option value="NE">
-<option value="NV">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NY">
-<option value="NC">
-<option value="ND">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VT">
-<option value="VA">
-<option value="WA">
-<option value="WV">
-<option value="WI">
-<option value="WY">
-<option value="AA">
-<option value="AE">
-<option value="AP">
-<option value="FM">
-<option value="GU">
-<option value="MH">
-<option value="MP">
-<option value="PR">
-<option value="VI">
-<tr class="wyr-zip">
-<label for="ctl00_ctl24_Zip">
-<span class="header">
-<input name="ctl00$ctl24$Zip" type="text" id="ctl00_ctl24_Zip" class="textBox">
-<tr class="wyr-phone">
-<label for="ctl00_ctl24_Phone">
-<span class="header">
-<input name="ctl00$ctl24$Phone" type="text" id="ctl00_ctl24_Phone" class="textBox">
-<fieldset>
-<legend>
-<table cellpadding="3" cellspacing="0" border="0">
-<tbody>
-<tr class="wyr-email">
-<td width="90">
-<label for="ctl00_ctl24_Email">
-<span class="header">
-<input name="ctl00$ctl24$Email" type="text" id="ctl00_ctl24_Email" class="textBox">
-<fieldset>
-<legend>
-<input id="ctl00_ctl24_SubscribeChoice" type="checkbox" name="ctl00$ctl24$SubscribeChoice">
-<span class="ContactForm_Subscribe">
-<fieldset>
-<legend>
-<select name="ctl00$ctl24$IssuesList" id="ctl00_ctl24_IssuesList">
-<option value="">
-<option value="14819">
-<option value="14820">
-<option value="14821">
-<option value="14822">
-<option value="14823">
-<option value="14824">
-<option value="14825">
-<option value="14826">
-<option value="14827">
-<option value="14828">
-<option value="14829">
-<option value="14830">
-<option value="14831">
-<option value="14832">
-<option value="14833">
-<option value="14834">
-<option value="14836">
-<option value="14835">
-<option value="14837">
-<option value="14838">
-<option value="14839">
-<option value="14840">
-<fieldset>
-<legend>
-<table id="ctl00_ctl24_ReplyChoice">
-<tbody>
-<input id="ctl00_ctl24_ReplyChoice_0" type="radio" name="ctl00$ctl24$ReplyChoice" value="Respond" checked="checked">
-<label for="ctl00_ctl24_ReplyChoice_0">
-<input id="ctl00_ctl24_ReplyChoice_1" type="radio" name="ctl00$ctl24$ReplyChoice" value="Comment">
-<label for="ctl00_ctl24_ReplyChoice_1">
-<label for="ctl00_ctl24_Subject">
-<span class="header">
-<input name="ctl00$ctl24$Subject" type="text" id="ctl00_ctl24_Subject">
-<label for="ctl00_ctl24_Body">
-<span class="header">
-<textarea name="ctl00$ctl24$Body" rows="15" cols="20" id="ctl00_ctl24_Body">
-<input type="submit" name="ctl00$ctl24$SubmitButton" value="Submit" onclick="if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl24$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ctl24_SubmitButton" class="ContactForm_Submit">
+<form action="/htbin/formproc/newsletter-subscribe.txt&amp;display=/contact-me/newsletter-subscribe-thankyou&amp;nobase&amp;fpGetVer=2" method="post" name="house_enews_popup" id="house_enews_popup">
+<label for="required-valid-email">
+<p style="padding-bottom: 10px;">
+<input id="contact_0" name="contact" type="radio" value="Phone">
+<input id="contact_1" name="contact" type="radio" value="Email">
+<input id="contact_2" name="contact" type="radio" value="Direct Mail">
+<p style="padding-bottom: 10px;">
+<p>
+<input type="text" title="First Name" name="first" id="required-valid-email" size="15" maxlength="50" value="First Name" onfocus="if(this.value=='First Name') this.value='';" onblur="if(this.value=='') this.value='First Name';">
+<input type="text" title="Last Name" name="last" id="required-valid-email" size="22" maxlength="50" value="Last Name" onfocus="if(this.value=='Last Name') this.value='';" onblur="if(this.value=='') this.value='Last Name';">
+<p>
+<input type="text" title="Full Address" name="address" id="required-valid-email" size="37" maxlength="50" value="Full Address" onfocus="if(this.value=='Full Address') this.value='';" onblur="if(this.value=='') this.value='Full Address';">
+<input type="text" title="City" name="city" id="required-valid-email" size="15" maxlength="50" value="City" onfocus="if(this.value=='City') this.value='';" onblur="if(this.value=='') this.value='City';">
+<input type="text" title="State" name="state" id="required-valid-email" size="3" maxlength="3" value="State" onfocus="if(this.value=='State') this.value='';" onblur="if(this.value=='') this.value='State';">
+<input type="text" title="Zip" name="zip" id="required-valid-email" size="10" maxlength="10" value="Zip" onfocus="if(this.value=='Zip') this.value='';" onblur="if(this.value=='') this.value='Zip';">
+<p style="padding-bottom: 10px;">
+<input type="text" title="Phone Number" name="phone" id="required-valid-email" size="15" maxlength="50" value="Phone Number" onfocus="if(this.value=='Phone Number') this.value='';" onblur="if(this.value=='') this.value='Phone Number';">
+<input type="text" title="Enter email address" name="required-valid-email" id="required-valid-email" size="22" maxlength="50" value="Enter email address" onfocus="if(this.value=='Enter email address') this.value='';" onblur="if(this.value=='') this.value='Enter email address';">
+<input value="Sign up" type="submit" class="form-submit" id="form-enews-submit">
+<input value="No thanks" type="submit" class="form-submit" id="form-enews-cancel">

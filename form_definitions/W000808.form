@@ -1,152 +1,17 @@
-<form action="/contact-form/" id="custom_form6" name="custom_form" class="custom_form" method="post">
-<style type="text/css" media="all" title="main css">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<td colspan="5" height="38">
+<td align="center" id="footerfont" style="padding-left: 15px;" valign="top" width="23%">
+<td align="center" id="footerfont" valign="top" width="20%">
+<td align="center" id="footerfont" valign="top" width="22%">
+<td align="center" id="footerfont" valign="top" width="20%">
+<td align="center" id="footerfont" valign="top" width="20%">
 <p>
-<p class="req">
-<h2>
-<p>
-<label>
-<input type="text" name="prefix" maxlength="5" class="text1">
-<p>
-<label>
-<input type="text" name="firstname" id="req_firstname" maxlength="90" class="text">
-<p>
-<label>
-<input type="text" name="middle" class="text" style="width:15px;" maxlength="2">
-<p>
-<label>
-<input type="text" name="lastname" id="req_lastname" class="text" maxlength="90">
-<p>
-<label>
-<input type="text" name="suffix" class="text1" maxlength="5">
-<p>
-<label>
-<input type="text" name="street" id="req_street" class="text" maxlength="190">
-<p>
-<label>
-<input type="text" name="street2" class="text" maxlength="190">
-<p>
-<label>
-<input type="text" name="city" id="req_city" class="text" maxlength="100">
-<p>
-<label>
-<select name="state" id="req_state">
-<option selected="FL" value="FL">
-<option value="NC">
-<option value="AK">
-<option value="AL">
-<option value="AR">
-<option value="AZ">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DC">
-<option value="DE">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="IA">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="MA">
-<option value="MD">
-<option value="ME">
-<option value="MI">
-<option value="MN">
-<option value="MO">
-<option value="MS">
-<option value="MT">
-<option value="ND">
-<option value="NE">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NV">
-<option value="NY">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="PR">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VA">
-<option value="VT">
-<option value="WA">
-<option value="WI">
-<option value="WV">
-<option value="WY">
-<p>
-<label>
-<input value="33169" class="zip" id="req_zip" maxlength="5" name="zipcode" type="text">
-<input value="4525" class="zip" id="zip2" maxlength="4" name="zipfour" type="text">
-<small>
-<p>
-<label>
-<input type="text" name="emailaddress" id="req_email" maxlength="150" class="text">
-<p>
-<label>
-<input type="text" name="phone" class="text" maxlength="14">
-<p>
-<label>
-<select size="1" name="subject" id="req_subject">
-<option selected="" value="">
-<option value="CW">
-<option value="GRANTS">
-<option value="MILAPS">
-<option value="ABORT">
-<option value="ANIMALS">
-<option value="BUDGET">
-<option value="CHILDREN">
-<option value="CIV_LIB">
-<option value="CIV_RTS">
-<option value="CONGRATS">
-<option value="CONG_EXEC">
-<option value="CRIME">
-<option value="DEFENSE">
-<option value="ECONOMY">
-<option value="EDDUCATION">
-<option value="ENERGY">
-<option value="ENVIRONMENT">
-<option value="FOREIGN_AFFFAIRS">
-<option value="GUN_CONTROL">
-<option value="HEALTH">
-<option value="HOMELAND_SECURITY">
-<option value="IMMIGRATION">
-<option value="IRAQ">
-<option value="JUDICIARY">
-<option value="LABOR">
-<option value="OTHER">
-<option value="PENSION">
-<option value="SCI">
-<option value="SMALL BUS">
-<option value="SS">
-<option value="TAXES">
-<option value="TELECOM">
-<option value="THANK_YOU">
-<option value="TRANSPO">
-<option value="TRD">
-<option value="VET">
-<option value="WELF">
-<p>
-<label>
-<textarea name="message" id="req_message" class="message">
-<p>
-<label class="align">
-<span class="align">
-<input type="radio" value="Y" name="aff1">
-<input type="radio" value="N" name="aff1">
-<p>
-<label>
-<select size="1" name="response" id="req_response">
-<option selected="" value="">
-<option value="NO_RESPONSE_REQUIRED">
-<option value="Yes">
-<input type="submit" value="Submit" id="submitButton" class="form_submit_button">
+<td width="15%">
+<form action="index.cfm?sectionid=2" method="get" onsubmit="return checkformsearch(this)">
+<input class="text" id="searchkey" name="searchkey" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76);" type="text" value="Search Site">
+<input checked="checked" class="radiobutton" id="entire" name="location" type="radio" value="-1">
+<label for="entire">
+<input class="radiobutton" id="this_section" name="location" type="radio" value="1">
+<label for="this_section">
+<input class="searchButon" type="submit" value="Search">

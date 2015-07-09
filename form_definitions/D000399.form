@@ -1,6 +1,3 @@
-<form action="index.php" method="post">
-<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox" size="20" value="Site Search" onblur="if(this.value=='') this.value='Site Search';" onfocus="if(this.value=='Site Search') this.value='';" type="text">
-<input value="Search" class="button" onclick="this.form.searchword.focus();" type="submit">
 <FORM METHOD=POST 
 
 

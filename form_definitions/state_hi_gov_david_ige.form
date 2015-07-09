@@ -1,6 +1,6 @@
 <form action="http://governor.hawaii.gov">
 <label for="s">
-<input type="text" name="s" id="s" value="" >
+<input type="text" name="s" id="s" value="">
 <button type="submit" class="custom_color_bg_hover">
 <i class="icon-search">
 <span class="search-button-text">

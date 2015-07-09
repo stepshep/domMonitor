@@ -1,9 +1,3 @@
-<form action="http://www.sessions.senate.gov/public/" method="get">
-<label for="q">
-<input type="text" name="q" value="">
-<input type="submit" value="Go">
-<form action="http://www.sessions.senate.gov/public/" class="navbar-search pull-right">
-<input name="q" type="text" class="search-query" placeholder="Search">
 <form method="post" class="uniForm form-horizontal" id="form_38AFC425-4C4C-44C3-B74B-1BFDDBBB3AE6">
 <p>
 <p>

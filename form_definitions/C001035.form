@@ -99,5 +99,5 @@
 <textarea name="field_4390dd78-cb0e-4eca-9543-55f2c71aecbc" id="field_4390dd78-cb0e-4eca-9543-55f2c71aecbc" >
 <p class="formHint">
 <label for="field_85fa87a8-5628-4823-a806-3a5b0b14223a_1" class="inlineLabel">
-<input type="checkbox" name="field_85fa87a8-5628-4823-a806-3a5b0b14223a" id="field_85fa87a8-5628-4823-a806-3a5b0b14223a_1" value="ENEWS.SUBSCRIBE" >
+<input type="checkbox" name="field_85fa87a8-5628-4823-a806-3a5b0b14223a" id="field_85fa87a8-5628-4823-a806-3a5b0b14223a_1" value="ENEWS.SUBSCRIBE" checked="checked" >
 <input type="submit" value="Submit" >
