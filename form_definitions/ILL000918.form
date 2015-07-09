@@ -1,24 +1,2 @@
-<form method="post"  id="userForm" enctype="multipart/form-data" action="http://senatortomcullerton.com/index.php/contact-us">
-<fieldset class="formFieldset">
-<legend>
-<ol class="formContainer" id="rsform_4_page_0">
-<li class="rsform-block rsform-block-firstname">
-<strong class="formRequired">
-<input type="text" value="" size="20" maxlength="60" name="form[firstName]" id="firstName"  class="rsform-input-box">
-<span class="formClr">
-<span id="component40" class="formNoError">
-<li class="rsform-block rsform-block-lastname">
-<strong class="formRequired">
-<input type="text" value="" size="20" maxlength="60" name="form[lastName]" id="lastName"  class="rsform-input-box">
-<span class="formClr">
-<span id="component39" class="formNoError">
-<li class="rsform-block rsform-block-email">
-<strong class="formRequired">
-<input type="text" value="" size="20"  name="form[email]" id="email"  class="rsform-input-box">
-<span class="formClr">
-<span id="component37" class="formNoError">
-<li class="rsform-block rsform-block-send">
-<input type="submit" value="Send" name="form[Send]" id="Send"  class="rsform-submit-button" >
-<span class="formClr">
-<li class="rsform-block rsform-block-note">
-<span class="formClr">
+<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://senatortomcullerton.com/" method="get">
+<input id="roksearch_search_str" name="searchword" type="text" class="inputbox roksearch_search_str" placeholder="Search..." >

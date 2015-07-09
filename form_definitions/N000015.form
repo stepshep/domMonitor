@@ -130,11 +130,3 @@
 <small>
 <u>
 <small>
-<form method="post" action="http://email.capitolhillnewsonline.com/q/sdkYUrJgadUuyD4-5LX0d9pAcq0tKbVsIq">
-<input alt="email" name="email" size="12" maxlength="50" value="E-mail" onfocus="if(this.value==&#39;E-mail&#39;)this.value=&#39;&#39;" onblur="if(this.value==&#39;&#39;)this.value=&#39;E-mail&#39;" type="text">
-<input name="Profile.Zip" alt="zip" size="2" maxlength="5" value="Zip" onfocus="if(this.value==&#39;Zip&#39;)this.value=&#39;&#39;" onblur="if(this.value==&#39;&#39;)this.value=&#39;Zip&#39;" type="text">
-<input id="submit" value="Go" type="submit">
-<form method="post" action="http://email.capitolhillnewsonline.com/q/sdkYUrJgadUuyD4-5LX0d9pAcq0tKbVsIq">
-<input alt="email" name="email" size="12" maxlength="50" value="E-mail" onFocus="if(this.value=='E-mail')this.value=''" onBlur="if(this.value=='')this.value='E-mail'" type="text" >
-<input name="Profile.Zip" alt="zip" size="2" maxlength="5" value="Zip" onFocus="if(this.value=='Zip')this.value=''" onBlur="if(this.value=='')this.value='Zip'" type="text" >
-<input id="submit" value="Go" type="submit" >

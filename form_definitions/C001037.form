@@ -1,136 +1,64 @@
-<form action="/htbin/formproc.pl?/capuano/contact/contact_file.txt&amp;display=/capuano/contact/contact_thank_you.htm&amp;nobase" method="post">
-<table border="0" cellpadding="5" cellspacing="0" width="600">
-<tbody>
-<td align="right">
-<p>
-<label for="prefix">
-<p>
-<select name="required-prefix" id="prefix">
-<option value="" selected="">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<td align="right">
-<p>
-<input value="Chester" name="required-first" id="firstname" type="text" size="20" maxlength="50">
-<td align="right">
-<p>
-<input name="middle" id="middle" type="text" size="5" maxlength="20">
-<td align="right">
-<p>
-<input value="Tester" name="required-last" id="lastname" type="text" size="20" maxlength="50">
-<td align="right">
-<p>
-<input name="suffix" id="suffix" type="text" size="10" maxlength="20">
-<td align="right">
-<p>
-<input name="required-address" id="address" type="text" size="40" maxlength="200">
-<td align="right">
-<p>
-<input name="required-city" id="city" type="text" size="25" maxlength="50">
-<td align="right">
-<p>
-<select name="required-state" id="state">
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option selected="">
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<option>
-<td align="right">
-<p>
-<p>
-<td align="right">
-<p>
-<input name="required-valid-email" id="email" type="text" size="27" maxlength="200">
-<td align="right">
-<p>
-<select name="required-issue" size="1" id="topic">
-<option value="" selected="">
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEF">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBINT">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBHUD">
-<option value="WEBIMM">
-<option value="WEBJUD">
-<option value="WEBLABOR">
-<option value="WEBRSC">
-<option value="WEBSCI">
-<option value="WEBSBUS">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTEL">
-<option value="WEBTAX">
-<option value="WEBTRA">
-<option value="WEBVET">
-<option value="WEBWEL">
-<option value="WEBOTH">
-<td align="right">
-<p>
-<textarea name="required-message" id="message" cols="45" rows="4">
-<td align="right">
-<p>
-<p>
-<input type="radio" name="affl1" value="subscribe E-UPDATE-113-MA07" id="subscribe" checked="">
-<input type="radio" name="affl1" value="" id="noaction">
-<td colspan="2" align="center">
-<input name="Submit" type="submit" value="Send my message">
-<input name="Reset" type="reset" value="Clear form">
-<td align="right">
+<form style="float:left; margin: 0px 0px 0px 0px; padding:0px 0px 0px 0px;" id="gt-form" action="http://translate.google.com/" name="text_form" method="post" enctype="application/x-www-form-urlencoded">
+<label for="gt-tl" id="gt-lang-tgt-lbl">
+<select id="gt-tl" name="tl" tabindex="0">
+<option selected="" value="">
+<option value="af">
+<option value="sq">
+<option value="ar">
+<option value="hy">
+<option value="az">
+<option value="eu">
+<option value="be">
+<option value="bg">
+<option value="ca">
+<option value="zh-CN">
+<option value="zh-TW">
+<option value="hr">
+<option value="cs">
+<option value="da">
+<option value="nl">
+<option value="en">
+<option value="et">
+<option value="tl">
+<option value="fi">
+<option value="fr">
+<option value="gl">
+<option value="ka">
+<option value="de">
+<option value="el">
+<option value="ht">
+<option value="iw">
+<option value="hi">
+<option value="hu">
+<option value="is">
+<option value="id">
+<option value="ga">
+<option value="it">
+<option value="ja">
+<option value="ko">
+<option value="la">
+<option value="lv">
+<option value="lt">
+<option value="mk">
+<option value="ms">
+<option value="mt">
+<option value="no">
+<option value="fa">
+<option value="pl">
+<option value="pt">
+<option value="ro">
+<option value="ru">
+<option value="sr">
+<option value="sk">
+<option value="sl">
+<option value="es">
+<option value="sw">
+<option value="sv">
+<option value="th">
+<option value="tr">
+<option value="uk">
+<option value="ur">
+<option value="vi">
+<option value="cy">
+<option value="yi">
+<input type="submit" id="gt-submit" value="Translate" tabindex="0" class="goog-button">

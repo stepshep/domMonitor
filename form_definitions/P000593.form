@@ -1,5 +1,3 @@
-<form action="http://perlmutter.house.gov/index.php" method="post">
-<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox" type="text" size="15" value="search..." onblur="if(this.value==&#39;&#39;) this.value=&#39;search...&#39;;" onfocus="if(this.value==&#39;search...&#39;) this.value=&#39;&#39;;">
 <form method="post" action="https://forms.house.gov/htbin/formproc_za/perlmutter/webforms/issue_subscribe_parm.txt&form=/perlmutter/webforms/issue_subscribe_verify.html">
 <table cellspacing=0 cellpadding=4>
 <td colspan="2" valign=bottom style="color:#FF0000">
@@ -146,7 +144,3 @@
 <small>
 <u>
 <small>
-<form method="post" action="http://email.capitolhillnewsonline.com/m/c42KqQE7_xK76GyCdv0NOzhWs2Q">
-<input alt="email" name="email" size="6" maxlength="50" value="E-mail" type="text">
-<input name="Profile.Zip" alt="zip" size="2" maxlength="5" value="Zip" type="text">
-<input id="submit" value="Go" type="submit">

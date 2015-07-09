@@ -1,14 +1,3 @@
-<h2>
-<p>
-<u>
-<p>
-<u>
-<cite>
-<p>
-<u>
-<p>
-<u>
-<p class="form-info">
 <form action="/htbin/formproc/email-me.txt%26display%3D/contact/email-me/email-me-thank-you%26nobase%26fpGetVer%3D2" class="validate wsbform" id="contactForm" method="post" name="contactForm">
 <fieldset>
 <legend>
@@ -84,14 +73,9 @@
 <input class="validate[required] is-required" id="required-subject" maxlength="100" name="required-subject" placeholder="Message Subject" >
 <label for="required-message">
 <textarea class="validate[required] is-required" cols="68" id="required-message" name="required-message" placeholder="Text of Message" rows="5">
-<input id="subscribe" name="subscribe" type="checkbox" value="Email.Optin" >
-<label class="is-inline" for="subscribe">
 <label class="is-inline" for="required-response">
 <select class="validate[required] is-required" id="required-response" name="required-response" size="1">
 <option selected="selected" value="">
 <option value="Y">
 <option value="N">
 <input class="submit" id="submit" name="submit" role="button" type="submit" value="Send Email" >
-<p>
-<p>
-<span class="tel">

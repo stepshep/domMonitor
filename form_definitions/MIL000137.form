@@ -1,10 +1,3 @@
-<form role="search" method="get" id="searchform" class="searchform" action="http://gophouse.org/">
-<label class="screen-reader-text" for="s">
-<input type="text" value="" name="s" id="s" >
-<input type="submit" id="searchsubmit" value="Search" >
-<input type='text' name='widget-2-name' id='widget-2-name' value='' placeholder='Name:' class='text'>
-<input type='text' name='widget-2-email' id='widget-2-email' value='' placeholder='Email:' class='text'>
-<input type='submit' value='Subscribe' class='churchope_button'>
 <input type='text' name='609-name' id='609-name' value='' placeholder='Name:' class='text'>
 <input type='text' name='609-street-address' id='609-street-address' value='' placeholder='Street Address:' class='text'>
 <input type='text' name='609-city' id='609-city' value='' placeholder='City:' class='text'>

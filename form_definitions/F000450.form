@@ -36,6 +36,7 @@
 <option value="Trooper">
 <option value="Lt. Col. &amp; Mrs.">
 <option value="Hon. &amp; Mrs.">
+<option value="SgtCdr.">
 <tr class="wyr-firstname">
 <label for="ctl00_ctl12_FirstName">
 <span class="header">

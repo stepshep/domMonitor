@@ -156,7 +156,7 @@
 <option value="106001">
 <fieldset>
 <legend>
-<span id="ctl00_ctl16_ReplyChoice">
+<table id="ctl00_ctl16_ReplyChoice">
 <input id="ctl00_ctl16_ReplyChoice_0" type="radio" name="ctl00$ctl16$ReplyChoice" value="Respond" checked="checked" >
 <label for="ctl00_ctl16_ReplyChoice_0">
 <input id="ctl00_ctl16_ReplyChoice_1" type="radio" name="ctl00$ctl16$ReplyChoice" value="Comment" >

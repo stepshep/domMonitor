@@ -1,5 +1,3 @@
-<form id="billsearch" action="http://thomas.loc.gov/cgi-bin/query" method="post" style="padding: 0px; margin: 0px">
-<form action="http://mcdermott.house.gov/index.php" method="post">
 <form method="post" action="https://forms.house.gov/htbin/formproc_za/mcdermott/webforms/new/issue_subscribe_parm.txt&form=/mcdermott/webforms/new/issue_subscribe_verify.html">
 <table cellspacing=0 cellpadding=4>
 <td align=right>

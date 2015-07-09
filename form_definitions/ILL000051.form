@@ -1,5 +1,3 @@
-<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://www.senatormartinsandoval.com/" method="get">
-<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Search..." >
 <form action="/index.php/contact-us" method="post" name="emailForm" id="emailForm" class="form-validate">
 <fieldset>
 <legend>
