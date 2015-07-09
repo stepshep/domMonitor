@@ -1,3 +1,10 @@
+<form id="search_form" name="googlesearch" method="get" action="/">
+<input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" >
+<input id="go" type="image" src="/images/clear.gif" width="20" height="20" alt="" title="Search" >
+<form id="nl_quick" name="nl_quick" action="/?p=newsletter&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
+<input type="input" name="email" value="Email" class="input-field nlq-email swap_value" >
+<input 
+		type="input" name="zip" value="ZIP" class="input-field nlq-zip swap_value" >
 <form name="thisForm" id="thisForm" action="/?p=comment_on_legislation&clear_cache=1" method="post" class="form-contact" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <span class="req">

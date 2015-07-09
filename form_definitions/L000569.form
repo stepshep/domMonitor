@@ -1,4 +1,168 @@
-<form target="_blank" action="http://thomas.loc.gov/cgi-bin/query" class="bill-search-form" method="post">
+<form method="post" action="" id="aspnetForm">
+<span class="pageHeader">
+<span style="">
 <fieldset>
-<input class="text" placeholder="Keyword" title="Keyword or Phrase" type="text" name="queryc114" >
-<input  type="submit" class="btn-go" value="go">
+<legend>
+<table cellpadding="3" cellspacing="0" border="0">
+<tr class="wyr-prefix">
+<td width="90">
+<label for="ctl00_ctl09_PrefixList">
+<span class="header">
+<select name="ctl00$ctl09$PrefixList" id="ctl00_ctl09_PrefixList">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Mr. and Mrs.">
+<option value="Dr.">
+<option value="Ms.">
+<tr class="wyr-firstname">
+<label for="ctl00_ctl09_FirstName">
+<span class="header">
+<input name="ctl00$ctl09$FirstName" type="text" id="ctl00_ctl09_FirstName" class="textBox" >
+<tr class="wyr-lastname">
+<label for="ctl00_ctl09_LastName">
+<span class="header">
+<input name="ctl00$ctl09$LastName" type="text" id="ctl00_ctl09_LastName" class="textBox" >
+<tr class="wyr-street">
+<label for="ctl00_ctl09_Street">
+<span class="header">
+<input name="ctl00$ctl09$Street" type="text" id="ctl00_ctl09_Street" class="textBox" >
+<tr class="wyr-city">
+<label for="ctl00_ctl09_City">
+<span class="header">
+<input name="ctl00$ctl09$City" type="text" id="ctl00_ctl09_City" class="textBox" >
+<tr class="wyr-state">
+<label for="ctl00_ctl09_State">
+<span class="header">
+<select name="ctl00$ctl09$State" id="ctl00_ctl09_State">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option selected="selected" value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<option value="AA">
+<option value="AE">
+<option value="AP">
+<option value="FM">
+<option value="GU">
+<option value="MH">
+<option value="MP">
+<option value="PR">
+<option value="VI">
+<tr class="wyr-zip">
+<label for="ctl00_ctl09_Zip">
+<span class="header">
+<input name="ctl00$ctl09$Zip" type="text" id="ctl00_ctl09_Zip" class="textBox" >
+<tr class="wyr-phone">
+<label for="ctl00_ctl09_Phone">
+<span class="header">
+<input name="ctl00$ctl09$Phone" type="text" id="ctl00_ctl09_Phone" class="textBox" >
+<fieldset>
+<legend>
+<table cellpadding="3" cellspacing="0" border="0">
+<tr class="wyr-email">
+<td width="90">
+<label for="ctl00_ctl09_Email">
+<span class="header">
+<input name="ctl00$ctl09$Email" type="text" id="ctl00_ctl09_Email" class="textBox" >
+<fieldset>
+<legend>
+<input id="ctl00_ctl09_SubscribeChoice" type="checkbox" name="ctl00$ctl09$SubscribeChoice" >
+<span class="ContactForm_Subscribe">
+<fieldset>
+<legend>
+<select name="ctl00$ctl09$IssuesList" id="ctl00_ctl09_IssuesList">
+<option value="">
+<option value="48446">
+<option value="49045">
+<option value="52883">
+<option value="48314">
+<option value="49046">
+<option value="52884">
+<option value="56733">
+<option value="48246">
+<option value="47883">
+<option value="52885">
+<option value="48214">
+<option value="52886">
+<option value="47882">
+<option value="48451">
+<option value="48444">
+<option value="48063">
+<option value="48053">
+<option value="48445">
+<option value="48449">
+<option value="48033">
+<option value="48098">
+<option value="48093">
+<option value="52879">
+<option value="48145">
+<option value="52882">
+<option value="52887">
+<option value="47880">
+<option value="48331">
+<option value="47941">
+<option value="47931">
+<option value="47956">
+<option value="52888">
+<option value="47879">
+<option value="47896">
+<fieldset>
+<legend>
+<table id="ctl00_ctl09_ReplyChoice">
+<input id="ctl00_ctl09_ReplyChoice_0" type="radio" name="ctl00$ctl09$ReplyChoice" value="Respond" checked="checked" >
+<label for="ctl00_ctl09_ReplyChoice_0">
+<input id="ctl00_ctl09_ReplyChoice_1" type="radio" name="ctl00$ctl09$ReplyChoice" value="Comment" >
+<label for="ctl00_ctl09_ReplyChoice_1">
+<label for="ctl00_ctl09_Subject">
+<span class="header">
+<input name="ctl00$ctl09$Subject" type="text" id="ctl00_ctl09_Subject" >
+<label for="ctl00_ctl09_Body">
+<span class="header">
+<textarea name="ctl00$ctl09$Body" rows="15" cols="20" id="ctl00_ctl09_Body">
+<input type="submit" name="ctl00$ctl09$SubmitButton" value="Submit" onclick="if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl09$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_ctl09_SubmitButton" class="ContactForm_Submit" >

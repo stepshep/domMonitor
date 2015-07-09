@@ -1,9 +1,169 @@
-<hr>
-<form class="content" method="post" action="complete.php">
-<table>
-<tbody>
-<input type="radio" name="position" value="2">
-<input type="radio" name="position" value="1">
-<input type="text" name="newsubject" value="" size="50">
-<textarea name="message" rows="20" cols="100">
-<input type="submit" name="submit" value="Send Email">
+<form id="local_form" action="http://www.google.com/cse">
+<input type="text" name="q" id="search_local_textfield" size="40" value="Search" onfocus="if(this.value=='Search')this.value=''" onblur="if(this.value=='')this.value='Search'" >
+<input type="image" alt="Search" title="Search" name="submit" src="images/jb01/header_search_submitbutton.png" >
+<form class="content" method="post" action="webmail.php" target="_parent">
+<p>
+<input type="radio" name="comment" value="opinion" >
+<input type="radio" name="comment" value="help" >
+<label for="fname">
+<input name="fname" type="text" id="fname" value="" style="width:300px;" size="36" >
+<label for="lname">
+<input name="lname" type="text" id="lname" value="" style="width:300px;" size="36" >
+<label for="email">
+<input name="email" type="text" id="email" value="" style="width:300px;" size="36" >
+<label for="subject">
+<select name="subject" id="subject" style="width:300px;">
+<option value="1">
+<option value="6154">
+<option value="5511">
+<option value="56719">
+<option value="5541">
+<option value="38184">
+<option value="56644">
+<option value="22912">
+<option value="38182">
+<option value="6286">
+<option value="54536">
+<option value="6159">
+<option value="5653">
+<option value="40848">
+<option value="6151">
+<option value="5680">
+<option value="6298">
+<option value="6287">
+<option value="38193">
+<option value="5734">
+<option value="5743">
+<option value="5997">
+<option value="29174">
+<option value="5773">
+<option value="38192">
+<option value="6157">
+<option value="5824">
+<option value="1">
+<option value="44283">
+<option value="54336">
+<option value="38196">
+<option value="34661">
+<option value="41011">
+<option value="38183">
+<option value="38195">
+<option value="38197">
+<option value="5585">
+<option value="34805">
+<option value="32380">
+<option value="49360">
+<option value="5784">
+<option value="6301">
+<option value="6096">
+<option value="38188">
+<option value="6127">
+<option value="51906">
+<option value="51868">
+<option value="52053">
+<option value="52047">
+<option value="52116">
+<option value="52160">
+<option value="52159">
+<option value="52171">
+<option value="52212">
+<option value="52277">
+<option value="52291">
+<option value="52321">
+<option value="52410">
+<option value="52398">
+<option value="52465">
+<option value="52512">
+<option value="52498">
+<option value="52497">
+<option value="52568">
+<option value="52563">
+<option value="52623">
+<option value="52622">
+<option value="52616">
+<option value="52604">
+<option value="52601">
+<option value="52702">
+<option value="52701">
+<option value="52924">
+<option value="52921">
+<option value="52892">
+<option value="52877">
+<option value="52833">
+<option value="52828">
+<option value="52823">
+<option value="52822">
+<option value="53304">
+<option value="53301">
+<option value="53257">
+<option value="53247">
+<option value="53232">
+<option value="53195">
+<option value="53188">
+<option value="53184">
+<option value="53168">
+<option value="53147">
+<option value="53143">
+<option value="53140">
+<option value="53094">
+<option value="54098">
+<option value="54087">
+<option value="54074">
+<option value="53994">
+<option value="53992">
+<option value="53988">
+<option value="53977">
+<option value="53971">
+<option value="53930">
+<option value="53896">
+<option value="53894">
+<option value="53886">
+<option value="53875">
+<option value="53866">
+<option value="53831">
+<option value="53830">
+<option value="53828">
+<option value="53775">
+<option value="53726">
+<option value="53712">
+<option value="53709">
+<option value="53671">
+<option value="53604">
+<option value="54213">
+<option value="54557">
+<option value="54555">
+<option value="54584">
+<option value="54581">
+<option value="54592">
+<option value="54615">
+<option value="52094">
+<option value="53091">
+<option value="54255">
+<option value="54272">
+<option value="54290">
+<option value="54329">
+<option value="54345">
+<option value="54372">
+<option value="54371">
+<option value="54380">
+<option value="54647">
+<option value="52221">
+<option value="52246">
+<option value="54289">
+<option value="51846">
+<option value="52244">
+<option value="52380">
+<option value="52431">
+<option value="52656">
+<option value="52798">
+<option value="52786">
+<option value="52778">
+<option value="53086">
+<option value="53082">
+<option value="53540">
+<option value="53483">
+<option value="53396">
+<option value="54326">
+<label for="reply">
+<input type="checkbox" id="reply" name="reply" value="1" >
+<input type="submit" name="Submit" value="Continue" style="width:150px;" >

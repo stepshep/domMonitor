@@ -1,7 +1,110 @@
-<form id="" action="http://speier.house.gov/index.cfm?sectionid=57&amp;sectiontree=56,57" method="post">
+<FORM METHOD=POST ACTION="/htbin/formproc/speier/webforms/email-jackie.txt&display=thank-you.shtml">
+<style type="text/css" media="all" title="main css">
 <p>
-<input class="text" maxlength="255" name="email" id="form_4_email" value="atoure@dcspolitics.com" type="text">
 <p>
-<input id="form_submit_button_4" name="submitform" class="form_submit_button" value="Sign Up " type="submit">
+<u>
+<u>
 <p>
-<font size="1">
+<u>
+<u>
+<p>
+<u>
+<p>
+<u>
+<u>
+<p>
+<u>
+<u>
+<hr >
+<p class="req">
+<p>
+<label>
+<input type="text" name="required-prefix" class="text1" >
+<p>
+<label>
+<input type="text" name="required-first-name" id="firstname" class="text" >
+<p>
+<label>
+<input type="text" name="middle" class="text" style="width:22px;" maxlength="1" >
+<p>
+<label>
+<input type="text" name="required-last-name" id="lastname" class="text" >
+<p>
+<label>
+<input type="text" name="suffix" class="text1" >
+<p>
+<label>
+<input type="text" name="required-address" id="addr1" class="text" >
+<p>
+<label>
+<input type="text" name="addr2" class="text" >
+<p>
+<label>
+<input type="text" name="required-city" id="city" class="text" value="" >
+<p>
+<label>
+<select name="required-state" id="required-state" value="CA">
+<option value="CA">
+<p>
+<label>
+<input type="text" name="zip5" id="zip5" class="zip" value="">
+<input name="zip4" type="text" class="zip" id="zip4" size="7" value="" style="width: 30px;" >
+<p>
+<label>
+<input type="text" name="required-email" id="email" class="text" value="">
+<p>
+<label>
+<input type="text" name="required-phone" id="required-phone" class="text" >
+<p>
+<label>
+<select name="required-issue" value="">
+<option value="selected">
+<option value="AGR">
+<option value="ANI">
+<option value="ART">
+<option value="BUD">
+<option value="CAS">
+<option value="CIV ">
+<option value="CRE">
+<option value="DEF">
+<option value="ECO">
+<option value="EDU">
+<option value="ELE">
+<option value="ENE">
+<option value="ENV">
+<option value="FOR">
+<option value="GOV">
+<option value="HEA">
+<option value="HOM">
+<option value="HOU">
+<option value="IMM">
+<option value="JUD">
+<option value="LAB">
+<option value="POS">
+<option value="SCI">
+<option value="SMB">
+<option value="SOC">
+<option value="TEL">
+<option value="TAX">
+<option value="TOU">
+<option value="TRD">
+<option value="TRA">
+<option value="VET">
+<option value="WOM">
+<option value="OTH">
+<p>
+<label>
+<select name="required-rsp">
+<option value="">
+<option value="Y">
+<option value="no">
+<p>
+<label>
+<textarea name="required-message" id="required-message" value="" class="msg" style=" width:350px; height:250px;">
+<p align="center">
+<p align="center">
+<input type="radio" name="affl1" value="" checked="checked" >
+<input type="radio" name="affl1" value="&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt;" >
+<input type="radio" name="affl1" value="&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt;" >
+<input name="submit" type="submit" value="Submit" >
+<b>

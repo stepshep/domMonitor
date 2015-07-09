@@ -1,3 +1,6 @@
+<form method="get" action="http://www.google.com/search">
+<input type="text" name="q" size="25" maxlength="255" value="Site Search"  style="font-family:Arial, Helvetica, sans-serif; font-size:14px; background-color:#C0C6DD" >
+<input name="btnG" type="submit" class="gobutton" value="GO" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; background-color:#C0C6DD; height: 1.8em;" >
 <form action="emailup.php" method="post" name="EmailUp" id="EmailUp">
 <?php
 $ipi = getenv("REMOTE_ADDR"); 

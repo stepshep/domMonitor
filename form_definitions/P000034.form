@@ -1,5 +1,78 @@
-<form name="thomasText" method="post" action="http://thomas.loc.gov/cgi-bin/thomas" target="_blank">
-<p>
-<p class="clearfix">
-<input class="form-text" name="query" value="" title="search word/phrase">
-<input class="form-submit" name="Enter" type="submit" value="Submit Query">
+<form action="/htbin/formproc/email-me-ic.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2" class="validate wsbform" method="post" name="contactForm" id="contactForm">
+<fieldset>
+<legend>
+<label for="prefix">
+<input id="prefix" maxlength="100" name="prefix" size="2">
+<label for="required-first">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" id="required-first" maxlength="100" name="required-first" size="15">
+<label for="middle">
+<input id="middle" maxlength="100" name="middle" size="2">
+<label for="required-last">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" id="required-last" maxlength="100" name="required-last" size="31">
+<label for="suffix">
+<input id="suffix" maxlength="100" name="suffix" size="2">
+<label for="required-address">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" id="required-address" maxlength="100" name="required-address" size="90">
+<label for="required-address">
+<input id="address2" maxlength="100" name="address2" size="90">
+<label for="required-city">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" id="required-city" maxlength="100" name="required-city" size="37">
+<label for="required-state">
+<span class="required-field" title="required information">
+<label for="required-zip5">
+<span class="required-field" title="required information">
+<label for="zip4">
+<label for="required-valid-email">
+<span class="required-field" title="required information">
+<input class="validate[required,custom[email]] is-required" id="required-valid-email" maxlength="100" name="required-valid-email" size="90">
+<fieldset>
+<legend>
+<label for="phone">
+<input id="phone" maxlength="20" name="phone" size="32">
+<fieldset>
+<legend>
+<label for="required-issue">
+<span class="required-field" title="required information">
+<select class="validate[required] is-required" id="required-issue" name="required-issue" size="1">
+<option selected="selected" value="">
+<option value="Academy_Applicants">
+<option value="Agriculture">
+<option value="Animal_Rights">
+<option value="Arts">
+<option value="Budget">
+<option value="Casework">
+<option value="Civil_Rights">
+<option value="Defense_and_Military">
+<option value="Education">
+<option value="Election_Reform">
+<option value="Energy">
+<option value="Environment">
+<option value="Flags">
+<option value="Foreign_Affairs">
+<option value="Government_Reform">
+<option value="Health">
+<option value="Housing">
+<option value="Immigration">
+<option value="Judiciary">
+<option value="Labor">
+<option value="Small_Business">
+<option value="Social_Security">
+<option value="Taxes">
+<option value="Telecommunications">
+<option value="Tours">
+<option value="Trade">
+<option value="Transportation">
+<option value="Veterans_Affairs">
+<option value="Other">
+<label for="required-RadioGroup1">
+<span class="required-field" title="required information">
+<input class="is-inline validate[required] is-required" id="RadioGroup1_0" name="required-RadioGroup1" type="radio" value="Y">
+<input class="is-inline" id="RadioGroup1_1" name="required-RadioGroup1" type="radio" value="N">
+<label for="required-message">
+<span class="required-field" title="required information">
+<textarea class="validate[required] is-required" cols="68" id="required-message" name="required-message" rows="5">
+<input class="submit" id="submit" name="submit" type="submit" value="Send Email">
