@@ -1,4 +1,4 @@
-<form method=post action=default.aspx id=aspnetForm>
+<form method=post action=default.aspx onsubmit=javascript:return WebForm_OnSubmit(); id=aspnetForm>
 <span class=pageHeader>
 <span style=>
 <fieldset>
@@ -142,15 +142,15 @@
 <option value=4913>
 <fieldset>
 <legend>
-<span id=ctl00_ctl11_ReplyChoice>
+<table id=ctl00_ctl11_ReplyChoice>
 <input id=ctl00_ctl11_ReplyChoice_0 type=radio name=ctl00$ctl11$ReplyChoice value=Respond >
 <label for=ctl00_ctl11_ReplyChoice_0>
 <input id=ctl00_ctl11_ReplyChoice_1 type=radio name=ctl00$ctl11$ReplyChoice value=Comment >
 <label for=ctl00_ctl11_ReplyChoice_1>
 <label for=ctl00_ctl11_Subject>
 <span class=header>
-<input name=ctl00$ctl11$Subject type=text id=ctl00_ctl11_Subject >
+<input name=ctl00$ctl11$Subject type=text id=ctl00_ctl11_Subject style=width:30em; >
 <label for=ctl00_ctl11_Body>
 <span class=header>
-<textarea name=ctl00$ctl11$Body rows=15 cols=20 id=ctl00_ctl11_Body>
+<textarea name=ctl00$ctl11$Body rows=15 cols=20 id=ctl00_ctl11_Body style=width:30em;>
 <input type=submit name=ctl00$ctl11$SubmitButton value=Submit onclick=if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl11$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_ctl11_SubmitButton class=ContactForm_Submit >

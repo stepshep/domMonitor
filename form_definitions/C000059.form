@@ -1,4 +1,4 @@
-<form method=post action= onsubmit=javascript:return WebForm_OnSubmit(); id=ctl00>
+<form method=post action= id=ctl00>
 <table cellpadding=0 cellspacing=0 align=center>
 <tbody>
 <td align=right valign=bottom>
