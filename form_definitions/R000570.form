@@ -1,4 +1,4 @@
-<form method=post action=/send/ onsubmit=mm_validateform(required-first,first name,r,required-last,last name,r,required-address,street address,r,required-city,city,r,required-email,email,risemail,r,required-message,message,r);return document.mm_returnvalue name=contact class=zipform>
+<form method=post action=/send/ onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,R,required-message,Message,R);return document.MM_returnValue name=contact class=zipform>
 <table cellspacing=2 cellpadding=0 align=center>
 <tbody>
 <td align=right>
@@ -25,80 +25,80 @@
 <input type=text name=required-email size=60 maxlength=100>
 <td align=right>
 <select name=required-issue size=1>
-<option value=ag>
-<option value=bd>
-<option value=bk>
-<option value=bn>
-<option value=cm>
-<option value=cr>
-<option value=df>
-<option value=ed>
-<option value=eg>
-<option value=en>
-<option value=fa>
-<option value=he>
-<option value=hs>
-<option value=ho>
-<option value=im>
-<option value=jd>
-<option value=lb>
-<option value=sc>
-<option value=si>
-<option value=ss>
-<option value=tx>
-<option value=td>
-<option value=tp>
-<option value=vt>
+<option value=AG>
+<option value=BD>
+<option value=BK>
+<option value=BN>
+<option value=CM>
+<option value=CR>
+<option value=DF>
+<option value=ED>
+<option value=EG>
+<option value=EN>
+<option value=FA>
+<option value=HE>
+<option value=HS>
+<option value=HO>
+<option value=IM>
+<option value=JD>
+<option value=LB>
+<option value=SC>
+<option value=SI>
+<option value=SS>
+<option value=TX>
+<option value=TD>
+<option value=TP>
+<option value=VT>
 <select name=required-issue size=1>
-<option value=ag>
-<option value=bd>
-<option value=bk>
-<option value=bn>
-<option value=cm>
-<option value=cr>
-<option value=df>
-<option value=ed>
-<option value=eg>
-<option value=en>
-<option value=fa>
-<option value=he>
-<option value=hs>
-<option value=ho>
-<option value=im>
-<option value=jd>
-<option value=lb>
-<option value=sc>
-<option value=si>
-<option value=ss>
-<option value=tx>
-<option value=td>
-<option value=tp>
-<option value=vt>
+<option value=AG>
+<option value=BD>
+<option value=BK>
+<option value=BN>
+<option value=CM>
+<option value=CR>
+<option value=DF>
+<option value=ED>
+<option value=EG>
+<option value=EN>
+<option value=FA>
+<option value=HE>
+<option value=HS>
+<option value=HO>
+<option value=IM>
+<option value=JD>
+<option value=LB>
+<option value=SC>
+<option value=SI>
+<option value=SS>
+<option value=TX>
+<option value=TD>
+<option value=TP>
+<option value=VT>
 <select name=required-issue size=1>
-<option value=ag>
-<option value=bd>
-<option value=bk>
-<option value=bn>
-<option value=cm>
-<option value=cr>
-<option value=df>
-<option value=ed>
-<option value=eg>
-<option value=en>
-<option value=fa>
-<option value=he>
-<option value=hs>
-<option value=ho>
-<option value=im>
-<option value=jd>
-<option value=lb>
-<option value=sc>
-<option value=si>
-<option value=ss>
-<option value=tx>
-<option value=td>
-<option value=tp>
-<option value=vt>
+<option value=AG>
+<option value=BD>
+<option value=BK>
+<option value=BN>
+<option value=CM>
+<option value=CR>
+<option value=DF>
+<option value=ED>
+<option value=EG>
+<option value=EN>
+<option value=FA>
+<option value=HE>
+<option value=HS>
+<option value=HO>
+<option value=IM>
+<option value=JD>
+<option value=LB>
+<option value=SC>
+<option value=SI>
+<option value=SS>
+<option value=TX>
+<option value=TD>
+<option value=TP>
+<option value=VT>
 <b>
 <td valign=top align=right>
 <textarea cols=60 rows=15 name=required-message>
@@ -109,5 +109,5 @@
 <input type=checkbox name=subscribe value=subscribe>
 <td colspan=2>
 <center>
-<input type=submit value=send email>
-<input type=reset value=reset>
+<input type=submit value=Send Email>
+<input type=reset value=Reset>

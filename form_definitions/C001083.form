@@ -3,23 +3,23 @@
 <legend>
 <span class=style2>
 <table width=600 border=0>
-<span class=formboxl>
+<span class=formboxL>
 <label for=label>
-<span class=formboxl>
+<span class=formboxL>
 <label for=label>
 <span class=required-field style1 title=required information>
-<span class=formboxl>
+<span class=formboxL>
 <label for=label>
 <span class=required-field style1>
-<span class=formboxl>
+<span class=formboxL>
 <input id=prefix maxlength=100 name=prefix size=2 >
-<span class=formboxl>
+<span class=formboxL>
 <input class=validate[required] is-required id=required-first maxlength=100 name=required-first size=26 >
-<span class=formboxl>
+<span class=formboxL>
 <input id=middle maxlength=100 name=middle size=2 >
-<span class=formboxl>
+<span class=formboxL>
 <input class=validate[required] is-required id=required-last maxlength=100 name=required-last size=31 >
-<span class=formboxl>
+<span class=formboxL>
 <input id=suffix maxlength=100 name=suffix size=4 >
 <p>
 <label for=required-address>
@@ -47,11 +47,11 @@
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32 >
-<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice >
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=Voice >
 <label for=speech_0>
-<input class=is-inline id=speech_1 name=speech type=radio value=vp >
+<input class=is-inline id=speech_1 name=speech type=radio value=VP >
 <label for=speech_1>
-<input class=is-inline id=speech_2 name=speech type=radio value=ttd >
+<input class=is-inline id=speech_2 name=speech type=radio value=TTD >
 <label for=speech_2>
 <fieldset>
 <legend>
@@ -62,28 +62,28 @@
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
 <option value=--->
-<option value=agr>
-<option value=bud>
-<option value=def>
-<option value=edu>
-<option value=ene>
-<option value=env>
-<option value=gov>
-<option value=hea>
-<option value=hom>
-<option value=imm>
-<option value=int>
-<option value=jud>
-<option value=lab>
-<option value=soc>
-<option value=ssec>
-<option value=tax>
-<option value=tel>
-<option value=tra>
-<option value=trade>
-<option value=vet>
-<option value=wel>
-<option value=oth>
+<option value=AGR>
+<option value=BUD>
+<option value=DEF>
+<option value=EDU>
+<option value=ENE>
+<option value=ENV>
+<option value=GOV>
+<option value=HEA>
+<option value=HOM>
+<option value=IMM>
+<option value=INT>
+<option value=JUD>
+<option value=LAB>
+<option value=SOC>
+<option value=SSEC>
+<option value=TAX>
+<option value=TEL>
+<option value=TRA>
+<option value=TRADE>
+<option value=VET>
+<option value=WEL>
+<option value=OTH>
 <label for=required-subject>
 <span class=required-field style1>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90 >
@@ -91,10 +91,10 @@
 <span class=required-field style1>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
 <label>
-<input type=radio class=radio value=<affl>
-<input type=radio class=radio value=<affl_del>
+<input type=radio class=radio value=<AFFL>
+<input type=radio class=radio value=<AFFL_DEL>
 <label>
 <select size=1 name=response id=response>
-<option value=rn>
-<option selected=selected value=nrn>
-<input class=submit id=submit name=submit type=submit value=send email >
+<option value=RN>
+<option selected=selected value=NRN>
+<input class=submit id=submit name=submit type=submit value=Send Email >

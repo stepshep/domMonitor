@@ -1,4 +1,4 @@
-<form action= method=post id=formbuilder name=myform >
+<form action= method=POST id=formbuilder name=myForm >
 <table width=100%>
 <td colspan=2 class=formbuilder_both>
 <h1 style=border-bottom-width: 0px;>
@@ -6,112 +6,112 @@
 <td colspan=2 class=formbuilder_both>
 <td colspan=2 class=formbuilder_both>
 <td colspan=2 class=formbuilder_both >
-<label for=name>
+<label for=Name>
 <span style=color: red;>
-<input type=text id=name name=name size=30 maxlength=99 value= tabindex=1>
+<input type=text id=Name name=Name size=30 maxlength=99 value= tabindex=1>
 <td colspan=2 class=formbuilder_both >
-<label for=email>
+<label for=Email>
 <span style=color: red;>
-<input type=text id=email name=email size=30 maxlength=75 value= tabindex=2>
+<input type=text id=Email name=Email size=30 maxlength=75 value= tabindex=2>
 <td colspan=2 class=formbuilder_both >
-<label for=phone>
+<label for=Phone>
 <span style=font-size:80%;>
-<input type=text id=phone name=phone size=30 maxlength=10 value= tabindex=3>
+<input type=text id=Phone name=Phone size=30 maxlength=10 value= tabindex=3>
 <td colspan=2 class=formbuilder_both >
-<label for=address>
+<label for=Address>
 <span style=color: red;>
-<textarea onkeydown=limittext(this,1000); onkeyup=limittext(this,1000); id=address name=address rows=3 cols=60 tabindex=4>
+<textarea onKeyDown=limitText(this,1000); onKeyUp=limitText(this,1000); id=Address name=Address rows=3 cols=60 tabindex=4>
 <td colspan=2 class=formbuilder_both >
-<label for=city>
+<label for=City>
 <span style=color: red;>
-<input type=text id=city name=city size=30 maxlength=75 value= tabindex=5>
+<input type=text id=City name=City size=30 maxlength=75 value= tabindex=5>
 <td colspan=2 class=formbuilder_both >
-<label for=state>
+<label for=State>
 <span style=color: red;>
-<select id=state name=state size=1 tabindex=6>
-<option value=  selected >
-<option value=aa >
-<option value=ae >
-<option value=ak >
-<option value=al >
-<option value=ao >
-<option value=ap >
-<option value=ar >
-<option value=as >
-<option value=az >
-<option value=ca >
-<option value=co >
-<option value=ct >
-<option value=dc >
-<option value=de >
-<option value=fl >
-<option value=ga >
-<option value=gu >
-<option value=hi >
-<option value=ia >
-<option value=id >
-<option value=il >
-<option value=in >
-<option value=jp >
-<option value=ks >
-<option value=ky >
-<option value=la >
-<option value=ma >
-<option value=md >
-<option value=me >
-<option value=mi >
-<option value=mn >
-<option value=mo >
-<option value=mp >
-<option value=ms >
-<option value=mt >
-<option value=nc >
-<option value=nd >
-<option value=ne >
-<option value=nh >
-<option value=nj >
-<option value=nm >
-<option value=nv >
-<option value=ny >
-<option value=oh >
-<option value=ok >
-<option value=or >
-<option value=pa >
-<option value=pr >
-<option value=ri >
-<option value=sc >
-<option value=sd >
-<option value=tn >
-<option value=tx >
-<option value=ue >
-<option value=ut >
-<option value=va >
-<option value=vi >
-<option value=vt >
-<option value=wa >
-<option value=wi >
-<option value=wv >
-<option value=wy >
+<select id=State name=State size=1 tabindex=6>
+<OPTION value=  selected >
+<OPTION value=AA >
+<OPTION value=AE >
+<OPTION value=AK >
+<OPTION value=AL >
+<OPTION value=AO >
+<OPTION value=AP >
+<OPTION value=AR >
+<OPTION value=AS >
+<OPTION value=AZ >
+<OPTION value=CA >
+<OPTION value=CO >
+<OPTION value=CT >
+<OPTION value=DC >
+<OPTION value=DE >
+<OPTION value=FL >
+<OPTION value=GA >
+<OPTION value=GU >
+<OPTION value=HI >
+<OPTION value=IA >
+<OPTION value=ID >
+<OPTION value=IL >
+<OPTION value=IN >
+<OPTION value=JP >
+<OPTION value=KS >
+<OPTION value=KY >
+<OPTION value=LA >
+<OPTION value=MA >
+<OPTION value=MD >
+<OPTION value=ME >
+<OPTION value=MI >
+<OPTION value=MN >
+<OPTION value=MO >
+<OPTION value=MP >
+<OPTION value=MS >
+<OPTION value=MT >
+<OPTION value=NC >
+<OPTION value=ND >
+<OPTION value=NE >
+<OPTION value=NH >
+<OPTION value=NJ >
+<OPTION value=NM >
+<OPTION value=NV >
+<OPTION value=NY >
+<OPTION value=OH >
+<OPTION value=OK >
+<OPTION value=OR >
+<OPTION value=PA >
+<OPTION value=PR >
+<OPTION value=RI >
+<OPTION value=SC >
+<OPTION value=SD >
+<OPTION value=TN >
+<OPTION value=TX >
+<OPTION value=UE >
+<OPTION value=UT >
+<OPTION value=VA >
+<OPTION value=VI >
+<OPTION value=VT >
+<OPTION value=WA >
+<OPTION value=WI >
+<OPTION value=WV >
+<OPTION value=WY >
 <td colspan=2 class=formbuilder_both >
-<label for=zipcode>
+<label for=Zipcode>
 <span style=color: red;>
 <span style=font-size:80%;>
-<input type=text id=zipcode name=zipcode size=30 maxlength=9 value= tabindex=7>
+<input type=text id=Zipcode name=Zipcode size=30 maxlength=9 value= tabindex=7>
 <td colspan=2 class=formbuilder_both >
-<label for=subject>
+<label for=Subject>
 <span style=color: red;>
-<input type=text id=subject name=subject size=30 maxlength=75 value= tabindex=8>
+<input type=text id=Subject name=Subject size=30 maxlength=75 value= tabindex=8>
 <td colspan=2 class=formbuilder_both >
-<label for=message>
+<label for=Message>
 <span style=color: red;>
-<textarea onkeydown=limittext(this,1000); onkeyup=limittext(this,1000); id=message name=message rows=3 cols=60 tabindex=9>
+<textarea onKeyDown=limitText(this,1000); onKeyUp=limitText(this,1000); id=Message name=Message rows=3 cols=60 tabindex=9>
 <td colspan=2 class=formbuilder_both >
-<label for=reply_requested>
+<label for=Reply_requested>
 <span style=color: red;>
-<select   id=reply_requested name=reply_requested size=1 tabindex=10>
+<select   id=Reply_requested name=Reply_requested size=1 tabindex=10>
 <option value=>
-<option value=yes>
-<option value=no>
+<option value=Yes>
+<option value=No>
 <td colspan=2 >
 <label for=confirm_email>
 <input type=text id=confirm_email name=confirm_email size=50 maxlength=50 value= tabindex=12>
@@ -126,7 +126,7 @@
 <em>
 <label for=captcha>
 <span class=required>
-<input name=captchain type=text id=captcha size=21 maxlength=5 tabindex=11>
+<input name=CaptchaIN type=text id=captcha size=21 maxlength=5 tabindex=11>
 <td colspan=2 class=formbuilder_both >
-<input type=submit class=button alt=submit button name=submit value=submit tabindex=13>
-<input type=submit class=button alt=cancel button name=cancel value=cancel tabindex=14>
+<input type=submit class=button alt=Submit button name=submit value=Submit tabindex=13>
+<input type=submit class=button alt=Cancel button name=cancel value=Cancel tabindex=14>

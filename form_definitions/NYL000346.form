@@ -1,264 +1,264 @@
-<form action=/senator/michael-venditto/contact  accept-charset=utf-8 method=post id=nyss-contact-mail-senator>
+<form action=/senator/michael-venditto/contact  accept-charset=UTF-8 method=post id=nyss-contact-mail-senator>
 <label>
 <label for=edit-first-name>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=50 name=first_name id=edit-first-name size=33 value= class=form-text required >
 <label for=edit-last-name>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=50 name=last_name id=edit-last-name size=33 value= class=form-text required >
 <label for=edit-from-email>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=50 name=from_email id=edit-from-email size=33 value= class=form-text required >
 <label for=edit-guest-address>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=128 name=guest_address id=edit-guest-address size=25 value= class=form-text required >
 <label for=edit-guest-address2>
 <input type=text maxlength=128 name=guest_address2 id=edit-guest-address2 size=5 value= class=form-text >
 <label for=edit-city>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=128 name=city id=edit-city size=25 value= class=form-text required >
 <label for=edit-state>
-<span class=form-required title=this field is required.>
-<input type=text maxlength=128 name=state id=edit-state size=16 value=ny class=form-text required >
+<span class=form-required title=This field is required.>
+<input type=text maxlength=128 name=state id=edit-state size=16 value=NY class=form-text required >
 <label for=edit-zip>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=128 name=zip id=edit-zip size=10 value= class=form-text required >
 <label for=edit-phone>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=128 name=phone id=edit-phone size=10 value= class=form-text required >
 <label for=edit-issue>
 <select name=issue[] multiple=multiple  class=form-select id=edit-issue >
 <option value= selected=selected>
-<option value=abduction>
-<option value=absentee voting>
-<option value=adoption>
-<option value=agencies>
-<option value=aging>
-<option value=agriculture>
-<option value=aids/hiv>
-<option value=air or airplane>
-<option value=alcohol>
-<option value=alternative transport>
-<option value=appellate>
-<option value=arson>
-<option value=arts and culture>
-<option value=attorney general>
-<option value=authorities and commissions>
-<option value=bailouts>
-<option value=bankruptcy>
-<option value=banks>
-<option value=broadband>
-<option value=budget>
-<option value=building or inspections>
-<option value=campaign finance>
-<option value=cell phones>
-<option value=census>
-<option value=child molestation>
-<option value=children>
-<option value=cities>
-<option value=civil>
-<option value=civil rights>
-<option value=civil service  and pensions>
-<option value=climate change>
-<option value=coast guard>
-<option value=codes>
-<option value=community development>
-<option value=community reinvestment>
-<option value=commuter tax>
-<option value=congress>
-<option value=constituents corner>
-<option value=construction>
-<option value=consumer protection>
-<option value=continuing education>
-<option value=controlled substances>
-<option value=corporate tax>
-<option value=corporations>
-<option value=correctional>
-<option value=courts>
-<option value=credit>
-<option value=crime>
-<option value=criminal>
-<option value=cuny (city university of new york)>
-<option value=dairy>
-<option value=death penalty>
-<option value=deficit>
-<option value=developmental disabilities>
-<option value=disability>
-<option value=dmv (department of motor vehicles)>
-<option value=domestic violence>
-<option value=drugs>
-<option value=drunk driving>
-<option value=earth day>
-<option value=earthquakes>
-<option value=economic development>
-<option value=education>
-<option value=eitc (earned income tax credit)>
-<option value=elections>
-<option value=electricity>
-<option value=emergency services or fema>
-<option value=energy>
-<option value=energy for small business>
-<option value=environment>
-<option value=epic (elderly pharmaceutical insurance coverage program)>
-<option value=esdc (empire state development corporation)>
-<option value=ethics>
-<option value=executive>
-<option value=families>
-<option value=family>
-<option value=federal programs>
-<option value=federal stimulus>
-<option value=finance>
-<option value=financial aid>
-<option value=firefighters>
-<option value=food stamps>
-<option value=foreclosure>
-<option value=foster care>
-<option value=gaming>
-<option value=general>
-<option value=going green>
-<option value=government operations>
-<option value=green cards>
-<option value=green jobs>
-<option value=gun control>
-<option value=hava (help america vote act)>
-<option value=hazardous waste>
-<option value=hazards>
-<option value=health>
-<option value=health care>
-<option value=heating>
-<option value=higher education>
-<option value=highways>
-<option value=historical preservation>
-<option value=homeland security>
-<option value=hospitals>
-<option value=housing>
-<option value=human rights>
-<option value=hunting and fishing>
-<option value=hurricanes>
-<option value=immigration>
-<option value=income tax>
-<option value=initiatives &amp; referendums>
-<option value=insurance>
-<option value=insurance fraud>
-<option value=internet>
-<option value=investigations>
-<option value=jobs &amp; employment>
-<option value=job training or trades>
-<option value=judges or judicial>
-<option value=judiciary>
-<option value=jury duty or selection>
-<option value=juvenile criminal justice>
-<option value=labor>
-<option value=landlines>
-<option value=landmarks>
-<option value=law>
-<option value=legal aid or legal services>
-<option value=legislature>
-<option value=livestock>
-<option value=loans>
-<option value=local government>
-<option value=medicaid>
-<option value=medicare>
-<option value=men&#039;s health>
-<option value=mental health>
-<option value=military>
-<option value=military affairs>
-<option value=minimum wage>
-<option value=miscellaneous>
-<option value=mta (metropolitan transportation authority)>
-<option value=murder or homicide>
-<option value=mwbe (division of minority and women business development)>
-<option value=national disasters>
-<option value=national guard>
-<option value=native americans>
-<option value=new york city>
-<option value=new york state power authority>
-<option value=nuclear>
-<option value=nutrition>
-<option value=nyc housing development corporation>
-<option value=organic farming>
-<option value=osha>
-<option value=panynj (port authority of new york and new jersey)>
-<option value=paramedics>
-<option value=payroll tax>
-<option value=permits>
-<option value=police>
-<option value=pollution>
-<option value=predatory lending>
-<option value=prescribed drugs or prescriptions>
-<option value=primaries>
-<option value=property tax>
-<option value=public assistance>
-<option value=racing>
-<option value=racing and wagering>
-<option value=rape>
-<option value=recreation and tourism>
-<option value=redistricting>
-<option value=renewable energy>
-<option value=reservations>
-<option value=rules>
-<option value=safe sex or contraceptives/ion>
-<option value=sales tax>
-<option value=sea or boat>
-<option value=senior centers>
-<option value=seniors>
-<option value=session>
-<option value=shelters>
-<option value=small business>
-<option value=social security>
-<option value=social services>
-<option value=solar>
-<option value=special education>
-<option value=special elections>
-<option value=star (school tax relief program)>
-<option value=state parks>
-<option value=storms>
-<option value=suny (state university of new york)>
-<option value=supreme>
-<option value=surplus>
-<option value=surrogate>
-<option value=taxes>
-<option value=telecommunications>
-<option value=terrorism>
-<option value=thruway authority>
-<option value=tobacco>
-<option value=towns or counties>
-<option value=transportation>
-<option value=tribal>
-<option value=troops>
-<option value=tunnels>
-<option value=unemployment>
-<option value=unions>
-<option value=utilities>
-<option value=veterans>
-<option value=victims>
-<option value=villages>
-<option value=violations>
-<option value=volunteers/ing>
-<option value=voter protection>
-<option value=voter registration>
-<option value=water>
-<option value=wind>
-<option value=wireless>
-<option value=women>
-<option value=women&#039;s health>
-<option value=workers comp.>
-<option value=youth>
+<option value=Abduction>
+<option value=Absentee Voting>
+<option value=Adoption>
+<option value=Agencies>
+<option value=Aging>
+<option value=Agriculture>
+<option value=AIDS/HIV>
+<option value=Air or Airplane>
+<option value=Alcohol>
+<option value=Alternative Transport>
+<option value=Appellate>
+<option value=Arson>
+<option value=Arts and Culture>
+<option value=Attorney General>
+<option value=Authorities and Commissions>
+<option value=Bailouts>
+<option value=Bankruptcy>
+<option value=Banks>
+<option value=Broadband>
+<option value=Budget>
+<option value=Building or Inspections>
+<option value=Campaign Finance>
+<option value=Cell Phones>
+<option value=Census>
+<option value=Child Molestation>
+<option value=Children>
+<option value=Cities>
+<option value=Civil>
+<option value=Civil Rights>
+<option value=Civil Service  and Pensions>
+<option value=Climate Change>
+<option value=Coast Guard>
+<option value=Codes>
+<option value=Community Development>
+<option value=Community Reinvestment>
+<option value=Commuter Tax>
+<option value=Congress>
+<option value=Constituents Corner>
+<option value=Construction>
+<option value=Consumer Protection>
+<option value=Continuing Education>
+<option value=Controlled Substances>
+<option value=Corporate Tax>
+<option value=Corporations>
+<option value=Correctional>
+<option value=Courts>
+<option value=Credit>
+<option value=Crime>
+<option value=Criminal>
+<option value=CUNY (City University of New York)>
+<option value=Dairy>
+<option value=Death Penalty>
+<option value=Deficit>
+<option value=Developmental Disabilities>
+<option value=Disability>
+<option value=DMV (Department of Motor Vehicles)>
+<option value=Domestic Violence>
+<option value=Drugs>
+<option value=Drunk Driving>
+<option value=Earth Day>
+<option value=Earthquakes>
+<option value=Economic Development>
+<option value=Education>
+<option value=EITC (Earned Income Tax Credit)>
+<option value=Elections>
+<option value=Electricity>
+<option value=Emergency Services or FEMA>
+<option value=Energy>
+<option value=Energy for Small Business>
+<option value=Environment>
+<option value=EPIC (Elderly Pharmaceutical Insurance Coverage Program)>
+<option value=ESDC (Empire State Development Corporation)>
+<option value=Ethics>
+<option value=Executive>
+<option value=Families>
+<option value=Family>
+<option value=Federal Programs>
+<option value=Federal Stimulus>
+<option value=Finance>
+<option value=Financial Aid>
+<option value=Firefighters>
+<option value=Food Stamps>
+<option value=Foreclosure>
+<option value=Foster Care>
+<option value=Gaming>
+<option value=General>
+<option value=Going Green>
+<option value=Government Operations>
+<option value=Green Cards>
+<option value=Green Jobs>
+<option value=Gun Control>
+<option value=HAVA (Help America Vote Act)>
+<option value=Hazardous Waste>
+<option value=Hazards>
+<option value=Health>
+<option value=Health Care>
+<option value=Heating>
+<option value=Higher Education>
+<option value=Highways>
+<option value=Historical Preservation>
+<option value=Homeland Security>
+<option value=Hospitals>
+<option value=Housing>
+<option value=Human Rights>
+<option value=Hunting and Fishing>
+<option value=Hurricanes>
+<option value=Immigration>
+<option value=Income Tax>
+<option value=Initiatives &amp; Referendums>
+<option value=Insurance>
+<option value=Insurance Fraud>
+<option value=Internet>
+<option value=Investigations>
+<option value=Jobs &amp; Employment>
+<option value=Job Training or Trades>
+<option value=Judges or Judicial>
+<option value=Judiciary>
+<option value=Jury Duty or Selection>
+<option value=Juvenile Criminal Justice>
+<option value=Labor>
+<option value=Landlines>
+<option value=Landmarks>
+<option value=Law>
+<option value=Legal Aid or Legal Services>
+<option value=Legislature>
+<option value=Livestock>
+<option value=Loans>
+<option value=Local Government>
+<option value=Medicaid>
+<option value=Medicare>
+<option value=Men&#039;s Health>
+<option value=Mental Health>
+<option value=Military>
+<option value=Military Affairs>
+<option value=Minimum Wage>
+<option value=Miscellaneous>
+<option value=MTA (Metropolitan Transportation Authority)>
+<option value=Murder or Homicide>
+<option value=MWBE (Division of Minority and Women Business Development)>
+<option value=National Disasters>
+<option value=National Guard>
+<option value=Native Americans>
+<option value=New York City>
+<option value=New York State Power Authority>
+<option value=Nuclear>
+<option value=Nutrition>
+<option value=NYC Housing Development Corporation>
+<option value=Organic Farming>
+<option value=OSHA>
+<option value=PANYNJ (Port Authority of New York and New Jersey)>
+<option value=Paramedics>
+<option value=Payroll Tax>
+<option value=Permits>
+<option value=Police>
+<option value=Pollution>
+<option value=Predatory Lending>
+<option value=Prescribed drugs or Prescriptions>
+<option value=Primaries>
+<option value=Property Tax>
+<option value=Public Assistance>
+<option value=Racing>
+<option value=Racing and Wagering>
+<option value=Rape>
+<option value=Recreation and Tourism>
+<option value=Redistricting>
+<option value=Renewable Energy>
+<option value=Reservations>
+<option value=Rules>
+<option value=Safe Sex or Contraceptives/ion>
+<option value=Sales Tax>
+<option value=Sea or Boat>
+<option value=Senior Centers>
+<option value=Seniors>
+<option value=Session>
+<option value=Shelters>
+<option value=Small Business>
+<option value=Social Security>
+<option value=Social Services>
+<option value=Solar>
+<option value=Special Education>
+<option value=Special Elections>
+<option value=STAR (School Tax Relief Program)>
+<option value=State Parks>
+<option value=Storms>
+<option value=SUNY (State University of New York)>
+<option value=Supreme>
+<option value=Surplus>
+<option value=Surrogate>
+<option value=Taxes>
+<option value=Telecommunications>
+<option value=Terrorism>
+<option value=Thruway Authority>
+<option value=Tobacco>
+<option value=Towns or Counties>
+<option value=Transportation>
+<option value=Tribal>
+<option value=Troops>
+<option value=Tunnels>
+<option value=Unemployment>
+<option value=Unions>
+<option value=Utilities>
+<option value=Veterans>
+<option value=Victims>
+<option value=Villages>
+<option value=Violations>
+<option value=Volunteers/ing>
+<option value=Voter Protection>
+<option value=Voter Registration>
+<option value=Water>
+<option value=Wind>
+<option value=Wireless>
+<option value=Women>
+<option value=Women&#039;s Health>
+<option value=Workers Comp.>
+<option value=Youth>
 <label for=edit-subject>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=50 name=subject id=edit-subject size=33 value= class=form-text required >
 <label for=edit-message>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <textarea cols=60 rows=15 name=message id=edit-message  class=form-textarea resizable required>
 <label>
-<span class=form-required title=this field is required.>
-<label class=option for=edit-voteregistered-registered-at-this-address>
-<input type=radio id=edit-voteregistered-registered-at-this-address name=voteregistered value=registered at this address   class=form-radio >
-<label class=option for=edit-voteregistered-not-registered-at-this-address>
-<input type=radio id=edit-voteregistered-not-registered-at-this-address name=voteregistered value=not registered at this address   class=form-radio >
+<span class=form-required title=This field is required.>
+<label class=option for=edit-voteregistered-Registered-at-this-Address>
+<input type=radio id=edit-voteregistered-Registered-at-this-Address name=voteregistered value=Registered at this Address   class=form-radio >
+<label class=option for=edit-voteregistered-Not-Registered-at-this-Address>
+<input type=radio id=edit-voteregistered-Not-Registered-at-this-Address name=voteregistered value=Not Registered at this Address   class=form-radio >
 <fieldset class=captcha>
 <legend>
 <noscript>
-<iframe src=https://www.google.com/recaptcha/api/noscript?k=6ldq2guaaaaaap0du9g7wpgjtf4aj1omhmuo6nnx height=300 width=500 frameborder=0>
+<iframe src=https://www.google.com/recaptcha/api/noscript?k=6Ldq2gUAAAAAAP0Du9G7WpGjTF4aJ1omhMUo6nnX height=300 width=500 frameborder=0>
 <textarea name=recaptcha_challenge_field rows=3 cols=40>
-<input type=submit name=op id=edit-submit value=send e-mail  class=form-submit >
+<input type=submit name=op id=edit-submit value=Send e-mail  class=form-submit >

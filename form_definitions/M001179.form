@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -34,11 +34,11 @@
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32>
-<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice>
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=Voice>
 <label for=speech_0>
-<input class=is-inline id=speech_1 name=speech type=radio value=vp>
+<input class=is-inline id=speech_1 name=speech type=radio value=VP>
 <label for=speech_1>
-<input class=is-inline id=speech_2 name=speech type=radio value=ttd>
+<input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
 <p>
 <fieldset>
@@ -47,33 +47,33 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
-<option value=webagr>
-<option value=webbud>
-<option value=webdef>
-<option value=webedu>
-<option value=webene>
-<option value=webenv>
-<option value=webgov>
-<option value=webhea>
-<option value=webhom>
-<option value=webimm>
-<option value=webint>
-<option value=webjud>
-<option value=weblab>
-<option value=websoc>
-<option value=webssec>
-<option value=webtax>
-<option value=webtel>
-<option value=webtra>
-<option value=webtrade>
-<option value=webvet>
-<option value=webwel>
-<option value=weboth>
+<option value=WEBAGR>
+<option value=WEBBUD>
+<option value=WEBDEF>
+<option value=WEBEDU>
+<option value=WEBENE>
+<option value=WEBENV>
+<option value=WEBGOV>
+<option value=WEBHEA>
+<option value=WEBHOM>
+<option value=WEBIMM>
+<option value=WEBINT>
+<option value=WEBJUD>
+<option value=WEBLAB>
+<option value=WEBSOC>
+<option value=WEBSSEC>
+<option value=WEBTAX>
+<option value=WEBTEL>
+<option value=WEBTRA>
+<option value=WEBTRADE>
+<option value=WEBVET>
+<option value=WEBWEL>
+<option value=WEBOTH>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90>
 <label for=required-message>
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
-<input class=submit id=submit name=submit type=submit value=send email>
+<input class=submit id=submit name=submit type=submit value=Send Email>
 <p>

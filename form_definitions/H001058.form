@@ -1,4 +1,4 @@
-<form id=contactform class=validate wsbform onsubmit=mm_validateform(prefix,prefix,r,required-first,first name,r,required-last,last name,r,required-address,street address,r,required-city,city,r,required-valid-email,email,risemail,required-subject,subject,r,required-message,message,r);return document.mm_returnvalue method=post name=contactform action=/submit-contact.aspx>
+<form id=contactForm class=validate wsbform onsubmit=MM_validateForm(prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-valid-email,Email,RisEmail,required-subject,Subject,R,required-message,Message,R);return document.MM_returnValue method=post name=contactForm action=/submit-contact.aspx>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -24,7 +24,7 @@
 <input id=required-city class=validate[required] is-required maxlength=100 size=47 type=text name=required-city>
 <label for=required-state>
 <span class=required-field title=required information>
-<input disabled=true value=michigan size=7 type=text>
+<input disabled=true value=Michigan size=7 type=text>
 <label for=required-zip5>
 <span class=required-field title=required information>
 <input id=required-zip5 maxlength=5 size=6 type=text name=required-zip5>
@@ -37,11 +37,11 @@
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 size=32 type=text name=phone>
-<input id=speech_0 class=is-inline value=voice checked=true type=radio name=speech>
+<input id=speech_0 class=is-inline value=Voice checked=true type=radio name=speech>
 <label for=speech_0>
-<input id=speech_1 class=is-inline value=vp type=radio name=speech>
+<input id=speech_1 class=is-inline value=VP type=radio name=speech>
 <label for=speech_1>
-<input id=speech_2 class=is-inline value=ttd type=radio name=speech>
+<input id=speech_2 class=is-inline value=TTD type=radio name=speech>
 <label for=speech_2>
 <fieldset>
 <legend>
@@ -49,42 +49,42 @@
 <span class=required-field title=required information>
 <select id=required-issue class=validate[required] is-required size=1 name=required-issue>
 <option selected=true>
-<option value=ag>
-<option value=art>
-<option value=bank>
-<option value=bud>
-<option value=cfr>
-<option value=cong>
-<option value=def>
-<option value=ed>
-<option value=en>
-<option value=env>
-<option value=fed>
-<option value=fr>
-<option value=he>
-<option value=im>
-<option value=jud>
-<option value=lab>
-<option value=sci>
-<option value=seniors>
-<option value=ss>
-<option value=soc.services>
-<option value=tax>
-<option value=comm>
-<option value=tran>
-<option value=trd>
-<option value=vet>
-<option value=women>
-<option value=other>
+<option value=AG>
+<option value=ART>
+<option value=BANK>
+<option value=BUD>
+<option value=CFR>
+<option value=CONG>
+<option value=DEF>
+<option value=ED>
+<option value=EN>
+<option value=ENV>
+<option value=FED>
+<option value=FR>
+<option value=HE>
+<option value=IM>
+<option value=JUD>
+<option value=LAB>
+<option value=SCI>
+<option value=SENIORS>
+<option value=SS>
+<option value=SOC.SERVICES>
+<option value=TAX>
+<option value=COMM>
+<option value=TRAN>
+<option value=TRD>
+<option value=VET>
+<option value=WOMEN>
+<option value=OTHER>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input id=required-subject class=validate[required] is-required maxlength=100 size=90 type=text name=required-subject>
 <label for=required-message>
 <span class=required-field title=required information>
 <textarea id=required-message class=validate[required] is-required rows=5 cols=68 name=required-message>
-<input style=display: inline; id=noresponce value=response not required type=checkbox name=noresponce>
+<input style=display: inline; id=noresponce value=Response Not Required type=checkbox name=noresponce>
 <label for=noresponce>
 <u>
 <input style=display: inline; id=subscribe value=subscribe type=checkbox name=subscribe>
 <label for=subscribe>
-<input id=submit class=submit value=send email type=submit name=submit>
+<input id=submit class=submit value=Send Email type=submit name=submit>

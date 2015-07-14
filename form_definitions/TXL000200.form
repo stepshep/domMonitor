@@ -1,4 +1,4 @@
-<form style=line-height: 150% method=post action=http://www.senate.state.tx.us/bin/distemail.php class=memform>
+<form style=line-height: 150% method=post action=http://www.senate.state.tx.us/bin/distemail.php class=memForm>
 <label for=sender>
 <span class=req>
 <input type=text name=sender id=sender size=40 maxlength=100 >
@@ -25,9 +25,9 @@
 <input type=text name=address1 id=address1 size=40 maxlength=100 >
 <label for=address2>
 <input type=text name=address2 id=address2 size=40 maxlength=100 >
-<label for=city>
-<label for=state>
-<label for=zipcode>
+<LABEL for=city>
+<LABEL for=state>
+<LABEL for=zipcode>
 <span class=req>
 <input type=text name=city id=city size=20 maxlength=50 >
 <input type=text name=state id=state size=10 maxlength=50 >
@@ -37,6 +37,6 @@
 <input type=text name=subject id=subject size=40 maxlength=50 >
 <label for=message>
 <span class=req>
-<textarea name=message id=message rows=10 cols=50 wrap=hard>
-<input style=font-weight: bold; font-size: 1em type=submit value=send message >
-<input style=font-size: 1em type=reset value=reset >
+<textarea name=message id=message rows=10 cols=50 wrap=HARD>
+<input style=font-weight: bold; font-size: 1em type=submit value=SEND MESSAGE >
+<input style=font-size: 1em type=reset value=Reset >

@@ -1,4 +1,4 @@
-<form action=email.php method=post name=govcontact id=govcontact onsubmit=return formvalidator()>
+<form action=email.php method=post name=govContact id=govContact onsubmit=return formValidator()>
 <label>
 <span class=req>
 <fieldset>
@@ -20,4 +20,4 @@
 <label>
 <span class=req>
 <textarea id=message name=message cols=50 rows=10 required=required>
-<input id=submitcontact type=submit value=submit >
+<input id=submitcontact type=submit value=Submit >

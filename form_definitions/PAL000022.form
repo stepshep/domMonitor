@@ -3,13 +3,13 @@
 <li id=li-10-1 class=>
 <label for=cf10_field_1>
 <select name=cf10_field_1 id=cf10_field_1 class=cformselect>
-<option value=select...>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
-<option value=dr.>
-<option value=hon.>
+<option value=Select...>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Hon.>
 <li id=li-10-2 class=>
 <label for=cf10_field_2>
 <input type=text name=cf10_field_2 id=cf10_field_2 class=single fldrequired value=>
@@ -33,65 +33,65 @@
 <label for=cf10_field_7>
 <select name=cf10_field_7 id=cf10_field_7 class=cformselect>
 <option value=->
-<option value=alabama (al)>
-<option value=alaska (ak)>
-<option value=american samoa (as)>
-<option value=arizona (az)>
-<option value=arkansas (ar)>
-<option value=california (ca)>
-<option value=colorado (co)>
-<option value=connecticut (ct)>
-<option value=delaware (de)>
-<option value=district of columbia (dc)>
-<option value=federated states of micronesia (fm)>
-<option value=florida (fl)>
-<option value=georgia (ga)>
-<option value=guam (gu)>
-<option value=hawaii (hi)>
-<option value=idaho (id)>
-<option value=illinois (il)>
-<option value=indiana (in)>
-<option value=iowa (ia)>
-<option value=kansas (ks)>
-<option value=kentucky (ky)>
-<option value=louisiana (la)>
-<option value=maine (me)>
-<option value=marshall islands (mh)>
-<option value=maryland (md)>
-<option value=massachusetts (ma)>
-<option value=michigan (mi)>
-<option value=minnesota (mn)>
-<option value=mississippi (ms)>
-<option value=missouri (mo)>
-<option value=montana (mt)>
-<option value=nebraska (ne)>
-<option value=nevada (nv)>
-<option value=new hampshire (nh)>
-<option value=new jersey (nj)>
-<option value=new mexico (nm)>
-<option value=new york (ny)>
-<option value=north carolina (nc)>
-<option value=north dakota (nd)>
-<option value=northern mariana islands (mp)>
-<option value=ohio (oh)>
-<option value=oklahoma (ok)>
-<option value=oregon (or)>
-<option value=palau (pw)>
-<option value=pennsylvania (pa) selected=selected>
-<option value=puerto rico (pr)>
-<option value=rhode island (ri)>
-<option value=south carolina (sc)>
-<option value=south dakota (sd)>
-<option value=tennessee (tn)>
-<option value=texas (tx)>
-<option value=utah (ut)>
-<option value=vermont (vt)>
-<option value=virgin islands (vi)>
-<option value=virginia (va)>
-<option value=washington (wa)>
-<option value=west virginia (wv)>
-<option value=wisconsin (wi)>
-<option value=wisconsin (wi)>
+<option value=ALABAMA (AL)>
+<option value=ALASKA (AK)>
+<option value=AMERICAN SAMOA (AS)>
+<option value=ARIZONA (AZ)>
+<option value=ARKANSAS (AR)>
+<option value=CALIFORNIA (CA)>
+<option value=COLORADO (CO)>
+<option value=CONNECTICUT (CT)>
+<option value=DELAWARE (DE)>
+<option value=DISTRICT OF COLUMBIA (DC)>
+<option value=FEDERATED STATES OF MICRONESIA (FM)>
+<option value=FLORIDA (FL)>
+<option value=GEORGIA (GA)>
+<option value=GUAM (GU)>
+<option value=HAWAII (HI)>
+<option value=IDAHO (ID)>
+<option value=ILLINOIS (IL)>
+<option value=INDIANA (IN)>
+<option value=IOWA (IA)>
+<option value=KANSAS (KS)>
+<option value=KENTUCKY (KY)>
+<option value=LOUISIANA (LA)>
+<option value=MAINE (ME)>
+<option value=MARSHALL ISLANDS (MH)>
+<option value=MARYLAND (MD)>
+<option value=MASSACHUSETTS (MA)>
+<option value=MICHIGAN (MI)>
+<option value=MINNESOTA (MN)>
+<option value=MISSISSIPPI (MS)>
+<option value=MISSOURI (MO)>
+<option value=MONTANA (MT)>
+<option value=NEBRASKA (NE)>
+<option value=NEVADA (NV)>
+<option value=NEW HAMPSHIRE (NH)>
+<option value=NEW JERSEY (NJ)>
+<option value=NEW MEXICO (NM)>
+<option value=NEW YORK (NY)>
+<option value=NORTH CAROLINA (NC)>
+<option value=NORTH DAKOTA (ND)>
+<option value=NORTHERN MARIANA ISLANDS (MP)>
+<option value=OHIO (OH)>
+<option value=OKLAHOMA (OK)>
+<option value=OREGON (OR)>
+<option value=PALAU (PW)>
+<option value=PENNSYLVANIA (PA) selected=selected>
+<option value=PUERTO RICO (PR)>
+<option value=RHODE ISLAND (RI)>
+<option value=SOUTH CAROLINA (SC)>
+<option value=SOUTH DAKOTA (SD)>
+<option value=TENNESSEE (TN)>
+<option value=TEXAS (TX)>
+<option value=UTAH (UT)>
+<option value=VERMONT (VT)>
+<option value=VIRGIN ISLANDS (VI)>
+<option value=VIRGINIA (VA)>
+<option value=WASHINGTON (WA)>
+<option value=WEST VIRGINIA (WV)>
+<option value=WISCONSIN (WI)>
+<option value=WISCONSIN (WI)>
 <li id=li-10-8 class=>
 <label for=cf10_field_8>
 <input type=text name=cf10_field_8 id=cf10_field_8 class=single fldrequired value=>
@@ -108,4 +108,4 @@
 <input type=text name=cforms_captcha10 id=cforms_captcha10 class=secinput value=>
 <legend>
 <p class=cf-sb>
-<input type=submit name=sendbutton10 id=sendbutton10 class=sendbutton value=submit>
+<input type=submit name=sendbutton10 id=sendbutton10 class=sendbutton value=Submit>

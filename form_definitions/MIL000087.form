@@ -1,75 +1,8 @@
-<form method=post action= class=sd-contact>
-<label for=name>
-<input id=fname type=text name=fname class=fname required=>
-<label for=name>
-<input id=lname type=text name=lname class=lname required=>
-<label for=email>
-<input id=email type=email name=email class=email required=>
-<label for=address>
-<input id=address type=text name=address class=address required=>
-<label for=city>
-<input id=city type=text name=city class=city required=>
-<label for=state>
-<select name=state id=state class=state required=>
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi selected=selected>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
-<label for=zip>
-<input id=zip type=zip name=zip class=zip required=>
-<label for=phone>
-<input id=phone type=phone name=phone class=phone>
-<label for=subject>
-<input id=subject type=text name=subject class=subject required=>
-<label for=message>
-<textarea id=message name=message class=message required=>
-<input type=checkbox id=subscribe name=subscribe checked>
-<label for=subscribe>
-<input type=submit class=submit alignright value=send>
+<form method=POST action= class=sd-subscribe>
+<input name=fname placeholder=First Name>
+<input name=lname placeholder=Last Name>
+<input name=email placeholder=Email Address>
+<input name=zip placeholder=Zipcode>
+<input type=submit class=submit value=Subscribe>
+<label class=subscribe-ok>
+<label class=subscribe-error>

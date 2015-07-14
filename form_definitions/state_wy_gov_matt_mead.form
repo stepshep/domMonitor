@@ -5,7 +5,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=first_name title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=10000 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=first_name title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=10000 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -13,7 +13,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=last_name title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=last_name title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -21,7 +21,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=address title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=address title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -29,7 +29,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=city title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=city title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -37,7 +37,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=state title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=state title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -45,7 +45,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=zip_code title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=zip_code title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -54,7 +54,7 @@
 <span class=is_required glyphicon glyphicon-star btn-xs style=color: rgb(98, 98, 98);>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=email title= class=error_message svg_ready the_input_element text pre-format form-control required email id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message=invalid e-mail format data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=email title= class=error_message svg_ready the_input_element text pre-format form-control required email id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message=Invalid e-mail format data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -63,7 +63,7 @@
 <span class=is_required glyphicon glyphicon-star btn-xs style=color: rgb(98, 98, 98);>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=phone title= class=error_message svg_ready the_input_element text pre-format form-control required id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(0, 0, 0); outline-width: 1px; type=text maxlength=200 placeholder= value= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=phone title= class=error_message svg_ready the_input_element text pre-format form-control required id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(0, 0, 0); outline-width: 1px; type=text maxlength=200 placeholder= value= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-minus>
@@ -71,7 +71,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=subject title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<input name=subject title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon-align-justify>
@@ -79,7 +79,7 @@
 <label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
 <span class=the_label style_bold style=color: rgb(98, 98, 98);>
 <small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<textarea name=message title= class=error_message svg_ready the_input_element textarea pre-format form-control id=textarea style=background: rgb(255, 255, 255); border-color: rgb(204, 204, 204); height: 147px; color: rgb(85, 85, 85); margin-top: 0px; margin-bottom: 0px; outline-width: 1px; outline-offset: 0px; placeholder= data-original-title= data-placement=bottom data-content=please enter a value data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
+<textarea name=message title= class=error_message svg_ready the_input_element textarea pre-format form-control id=textarea style=background: rgb(255, 255, 255); border-color: rgb(204, 204, 204); height: 147px; color: rgb(85, 85, 85); margin-top: 0px; margin-bottom: 0px; outline-width: 1px; outline-offset: 0px; placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
 <i class=glyphicon glyphicon-pencil>
 <i class=glyphicon glyphicon-remove>
 <i class= glyphicon glyphicon glyphicon-send>

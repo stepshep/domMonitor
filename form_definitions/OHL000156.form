@@ -1,85 +1,85 @@
-<form name=contactformsubmit id=contactformsubmit action=../members/member-contact-submission?id=15 method=post>
+<form name=contactFormSubmit id=contactFormSubmit action=../members/member-contact-submission?id=15 method=post>
 <table class=form>
-<td class=formleft>
-<td class=formright>
-<input id=tbxfirstname name=tbxfirstname maxlength=25 type=text style=width:200px; >
-<td class=formleft>
-<td class=formright>
-<input id=tbxlastname name=tbxlastname maxlength=25 type=text style=width:200px; >
-<td class=formleft>
-<td class=formright>
-<input id=tbxaddress name=tbxaddress maxlength=100 type=text style=width:400px; >
-<td class=formleft>
-<td class=formright>
-<input id=tbxcity name=tbxcity type=text maxlength=25 style=width:180px; >
-<select id=ddlstate name=ddlstate style=width:84px;>
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxFirstName name=tbxFirstName maxlength=25 type=text style=width:200px; >
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxLastName name=tbxLastName maxlength=25 type=text style=width:200px; >
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxAddress name=tbxAddress maxlength=100 type=text style=width:400px; >
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxCity name=tbxCity type=text maxlength=25 style=width:180px; >
+<select id=ddlState name=ddlState style=width:84px;>
 <option value=>
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh selected=selected>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
-<input id=tbxzipcode name=tbxzipcode type=text maxlength=10 style=width:74px; >
-<td class=formleft>
-<td class=formright>
-<input id=tbxareacode name=tbxareacode type=text maxlength=3 style=width:30px; >
-<input id=tbxprefix name=tbxprefix type=text maxlength=3 style=width:30px; >
-<input id=tbxlinenumber name=tbxlinenumber type=text maxlength=4 style=width:50px; >
-<td class=formleft>
-<td class=formright>
-<input id=tbxemail name=tbxemail type=text maxlength=100 style=width:200px; >
-<td class=formleft>
-<td class=formright>
-<input id=tbxsubject name=tbxsubject type=text maxlength=200 style=width:400px; >
-<td class=formleft>
-<td class=formright>
-<textarea id=tbxmessage name=tbxmessage rows=14 style=width:500px; maxlength=2000>
-<td class=formleft>
-<td class=formrightbutton>
-<input type=image name=ibtsubmit id=ibtsubmit class=formbutton src=../assets/global/buttons/send.png >
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH selected=selected>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
+<input id=tbxZipCode name=tbxZipCode type=text maxlength=10 style=width:74px; >
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxAreaCode name=tbxAreaCode type=text maxlength=3 style=width:30px; >
+<input id=tbxPrefix name=tbxPrefix type=text maxlength=3 style=width:30px; >
+<input id=tbxLineNumber name=tbxLineNumber type=text maxlength=4 style=width:50px; >
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxEmail name=tbxEmail type=text maxlength=100 style=width:200px; >
+<td class=formLeft>
+<td class=formRight>
+<input id=tbxSubject name=tbxSubject type=text maxlength=200 style=width:400px; >
+<td class=formLeft>
+<td class=formRight>
+<textarea id=tbxMessage name=tbxMessage rows=14 style=width:500px; maxlength=2000>
+<td class=formLeft>
+<td class=formRightButton>
+<input type=image name=ibtSubmit id=ibtSubmit class=formButton src=../Assets/Global/Buttons/Send.png >

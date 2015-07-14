@@ -16,4 +16,4 @@
 <span class=wpcf7-form-control-wrap captcha-794>
 <input type=text name=captcha-794 value= size=40 class=wpcf7-form-control wpcf7-captchar aria-invalid=false >
 <p>
-<input type=submit value=send class=wpcf7-form-control wpcf7-submit >
+<input type=submit value=Send class=wpcf7-form-control wpcf7-submit >

@@ -7,14 +7,14 @@
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option selected=selected value=>
-<option value=mr. >
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
-<option value=dr.>
-<option value=hon.>
-<option value=rev.>
-<option value=rabbi>
+<option value=Mr. >
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Hon.>
+<option value=Rev.>
+<option value=Rabbi>
 <p>
 <label>
 <input type=text name=firstname id=req_firstname maxlength=90 class=text>
@@ -39,7 +39,7 @@
 <p>
 <label>
 <select name=state id=req_state>
-<option selected= value=mo>
+<option selected= value=MO>
 <p>
 <label>
 <input type=text name=zip id=req_zip class=zip maxlength=5>
@@ -55,27 +55,27 @@
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected=selected value=>
-<option selected=selected value=agriculture>
-<option value=budget>
-<option value=defense>
-<option value=economy>
-<option value=educationandlabor>
-<option value=energy>
-<option value=environmental>
-<option value=governmentreform>
-<option value=health>
-<option value=homelandsecurity>
-<option value=immigration>
-<option value=internationalrelations>
-<option value=judicial>
-<option value=socialissues>
-<option value=socialsecurity>
-<option value=taxesandtrade>
-<option value=telecommunications>
-<option value=transportation>
-<option value=veterans>
-<option value=welfare>
-<option value=other>
+<option selected=selected value=Agriculture>
+<option value=Budget>
+<option value=Defense>
+<option value=Economy>
+<option value=EducationandLabor>
+<option value=Energy>
+<option value=Environmental>
+<option value=GovernmentReform>
+<option value=Health>
+<option value=HomelandSecurity>
+<option value=Immigration>
+<option value=InternationalRelations>
+<option value=Judicial>
+<option value=SocialIssues>
+<option value=SocialSecurity>
+<option value=TaxesandTrade>
+<option value=Telecommunications>
+<option value=Transportation>
+<option value=Veterans>
+<option value=Welfare>
+<option value=Other>
 <p>
 <label>
 <textarea name=message id=req_message class=message>
@@ -83,6 +83,6 @@
 <label>
 <select size=1 name=response id=req_response>
 <option selected= value=>
-<option value=n>
-<option value=y>
-<input type=button size=20 value=submit id=submitbutton class=form_submit_button>
+<option value=N>
+<option value=Y>
+<input type=button size=20 value=Submit id=submitButton class=form_submit_button>

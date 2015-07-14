@@ -1,4 +1,4 @@
-<form class=webform-client-form webform-client-form-78 enctype=multipart/form-data action=/content/contact-mike method=post id=webform-client-form-78 accept-charset=utf-8>
+<form class=webform-client-form webform-client-form-78 enctype=multipart/form-data action=/content/contact-mike method=post id=webform-client-form-78 accept-charset=UTF-8>
 <p>
 <span style=color: red; line-height: 1.6;>
 <span style=line-height: 1.6;>
@@ -8,145 +8,145 @@
 <legend>
 <span class=fieldset-legend>
 <label for=edit-submitted-constituent-information-prefix>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <select id=edit-submitted-constituent-information-prefix name=submitted[constituent_information][prefix] class=form-select required>
 <option value= selected=selected>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=mr. and mrs.>
-<option value=dr.>
-<option value=dr. and mrs.>
-<option value=reverend>
-<option value=sister>
-<option value=pastor>
-<option value=the honorable>
-<option value=representative>
-<option value=senator>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Mr. and Mrs.>
+<option value=Dr.>
+<option value=Dr. and Mrs.>
+<option value=Reverend>
+<option value=Sister>
+<option value=Pastor>
+<option value=The Honorable>
+<option value=Representative>
+<option value=Senator>
 <label for=edit-submitted-constituent-information-first-name>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-submitted-constituent-information-first-name name=submitted[constituent_information][first_name] value= size=30 maxlength=100 class=form-text required >
 <label for=edit-submitted-constituent-information-last-name>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-submitted-constituent-information-last-name name=submitted[constituent_information][last_name] value= size=30 maxlength=100 class=form-text required >
 <label for=edit-submitted-constituent-information-address-1>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-submitted-constituent-information-address-1 name=submitted[constituent_information][address_1] value= size=50 maxlength=200 class=form-text required >
 <label for=edit-submitted-constituent-information-address-2>
 <input type=text id=edit-submitted-constituent-information-address-2 name=submitted[constituent_information][address_2] value= size=50 maxlength=200 class=form-text >
 <label for=edit-submitted-constituent-information-city>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-submitted-constituent-information-city name=submitted[constituent_information][city] value= size=40 maxlength=50 class=form-text required >
 <label for=edit-submitted-constituent-information-state>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <select id=edit-submitted-constituent-information-state name=submitted[constituent_information][state] class=form-select required>
-<option value=aa>
-<option value=ae>
-<option value=ap>
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd selected=selected>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
+<option value=AA>
+<option value=AE>
+<option value=AP>
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD selected=selected>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
 <label for=edit-submitted-constituent-information-zip>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input placeholder=12345 or 12345-1234 type=text id=edit-submitted-constituent-information-zip name=submitted[constituent_information][zip] value= size=20 maxlength=20 class=form-text required >
 <label for=edit-submitted-constituent-information-phone>
 <input placeholder=123-456-7890 type=text id=edit-submitted-constituent-information-phone name=submitted[constituent_information][phone] value= size=20 maxlength=30 class=form-text >
 <label for=edit-submitted-constituent-information-email>
-<span class=form-required title=this field is required.>
-<input class=email form-text form-email required placeholder=email format &quot;john@example.com&quot; type=email id=edit-submitted-constituent-information-email name=submitted[constituent_information][email] size=50 >
+<span class=form-required title=This field is required.>
+<input class=email form-text form-email required placeholder=Email Format &quot;John@example.com&quot; type=email id=edit-submitted-constituent-information-email name=submitted[constituent_information][email] size=50 >
 <fieldset class=webform-component-fieldset webform-component--message-details form-wrapper>
 <legend>
 <span class=fieldset-legend>
 <label for=edit-submitted-message-details-topic>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <select id=edit-submitted-message-details-topic name=submitted[message_details][topic] class=form-select required>
 <option value= selected=selected>
-<option value=aging>
-<option value=agriculture>
-<option value=banking, housing, and urban affairs>
-<option value=budget>
-<option value=crime, drugs, and law enforcement>
-<option value=cyber security>
-<option value=economy>
-<option value=education>
-<option value=energy &amp; environment>
-<option value=environmental protection agency and army corp. of engineers>
-<option value=family issues>
-<option value=flag requests>
-<option value=foreign affairs>
-<option value=health>
-<option value=help with a federal agency>
-<option value=interior and national parks>
-<option value=judicial>
-<option value=labor>
-<option value=life issues>
-<option value=medicare and medicaid>
-<option value=military and defense>
-<option value=nasa>
-<option value=native american policy>
-<option value=other>
-<option value=scheduling request - d.c.>
-<option value=scheduling request - sd>
-<option value=science, technology, and telecom>
-<option value=second amendment>
-<option value=small business>
-<option value=social security>
-<option value=taxes>
-<option value=tour requests>
-<option value=trade>
-<option value=transportation>
-<option value=veterans>
+<option value=Aging>
+<option value=Agriculture>
+<option value=Banking, Housing, and Urban Affairs>
+<option value=Budget>
+<option value=Crime, Drugs, and Law Enforcement>
+<option value=Cyber Security>
+<option value=Economy>
+<option value=Education>
+<option value=Energy &amp; Environment>
+<option value=Environmental Protection Agency and Army Corp. of Engineers>
+<option value=Family Issues>
+<option value=Flag Requests>
+<option value=Foreign Affairs>
+<option value=Health>
+<option value=Help with a Federal Agency>
+<option value=Interior and National Parks>
+<option value=Judicial>
+<option value=Labor>
+<option value=Life Issues>
+<option value=Medicare and Medicaid>
+<option value=Military and Defense>
+<option value=NASA>
+<option value=Native American Policy>
+<option value=Other>
+<option value=Scheduling Request - D.C.>
+<option value=Scheduling Request - SD>
+<option value=Science, Technology, and Telecom>
+<option value=Second Amendment>
+<option value=Small Business>
+<option value=Social Security>
+<option value=Taxes>
+<option value=Tour Requests>
+<option value=Trade>
+<option value=Transportation>
+<option value=Veterans>
 <label for=edit-submitted-message-details-please-type-the-subject-of-your-message>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-submitted-message-details-please-type-the-subject-of-your-message name=submitted[message_details][please_type_the_subject_of_your_message] value= size=75 maxlength=75 class=form-text required >
 <label for=edit-submitted-message-details-message>
 <textarea id=edit-submitted-message-details-message name=submitted[message_details][message] cols=50 rows=15 class=form-textarea>
-<input class=webform-submit button-primary btn btn-primary form-submit type=submit name=op value=submit >
+<input class=webform-submit button-primary btn btn-primary form-submit type=submit name=op value=Submit >

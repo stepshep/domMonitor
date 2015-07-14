@@ -1,3 +1,6 @@
+<form action="http://hurt.house.gov/index.cfm/search" method="get">
+<input type="text" class="text" name="q" value="Search" >
+<input type="submit" class="submit" value="Go" >
 <form method="post" class="uniForm">
 <fieldset class="blockLabels">
 <p class="legend">
@@ -83,3 +86,6 @@
 						checked="checked" 
 						value="1" >
 <input type="submit" value="Submit" >
+<form action="https://hurt.house.gov/index.cfm/newsletter-subscribe" method="GET">
+<input type="text" name="EmailAddress" value="" >
+<input type="submit" value="Go" >

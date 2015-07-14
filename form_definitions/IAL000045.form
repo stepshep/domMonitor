@@ -3,8 +3,8 @@
 <span class=wpcf7-form-control-wrap your-name>
 <input type=text name=your-name value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
 <p>
-<span class=wpcf7-form-control-wrap address>
-<input type=text name=address value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
+<span class=wpcf7-form-control-wrap Address>
+<input type=text name=Address value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
 <p>
 <span class=wpcf7-form-control-wrap your-email>
 <input type=email name=your-email value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email aria-required=true aria-invalid=false >
@@ -18,4 +18,4 @@
 <span class=wpcf7-form-control-wrap captcha-500>
 <input type=text name=captcha-500 value= size=40 class=wpcf7-form-control wpcf7-captchar aria-invalid=false >
 <p>
-<input type=submit value=send class=wpcf7-form-control wpcf7-submit >
+<input type=submit value=Send class=wpcf7-form-control wpcf7-submit >

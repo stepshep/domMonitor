@@ -1,9 +1,9 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
 <fieldset>
 <legend>
 <label for=required-prefix>
 <span class=required-field title=required information>
-<input class=validate[required] is-required id=required-prefix maxlength=10 name=required-prefix size=2 title=name prefix, ex. mr. or mrs. type=text>
+<input class=validate[required] is-required id=required-prefix maxlength=10 name=required-prefix size=2 title=Name prefix, ex. Mr. or Mrs. type=text>
 <label for=required-first>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-first maxlength=100 name=required-first size=22 type=text>
@@ -24,7 +24,7 @@
 <input class=validate[required] is-required id=required-city maxlength=100 name=required-city size=42 type=text>
 <label for=required-state>
 <span class=required-field title=required information>
-<input class=validate[required] is-required id=required-state maxlength=2 name=required-state size=2 type=text value=ct>
+<input class=validate[required] is-required id=required-state maxlength=2 name=required-state size=2 type=text value=CT>
 <label for=required-zip5>
 <span class=required-field title=required information>
 <input value=06901 class=validate[required,custom[zip5]] is-required id=required-zip5 maxlength=5 name=required-zip5 size=10 type=text>
@@ -42,36 +42,36 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option value=>
-<option value=agr>
-<option value=bud>
-<option value=def>
-<option value=econ>
-<option value=edu>
-<option value=ene>
-<option value=env>
-<option value=gov>
-<option value=jud.guns.opp>
-<option value=hea>
-<option value=hom>
-<option value=imm>
-<option value=int>
-<option value=jud>
-<option value=labor>
-<option value=soc>
-<option value=ssec>
-<option value=tax>
-<option value=tel>
-<option value=tran>
-<option value=trade>
-<option value=vet>
-<option value=welfare>
-<option value=other issues>
+<option value=AGR>
+<option value=BUD>
+<option value=DEF>
+<option value=ECON>
+<option value=EDU>
+<option value=ENE>
+<option value=ENV>
+<option value=GOV>
+<option value=JUD.GUNS.OPP>
+<option value=HEA>
+<option value=HOM>
+<option value=IMM>
+<option value=INT>
+<option value=JUD>
+<option value=LABOR>
+<option value=SOC>
+<option value=SSEC>
+<option value=TAX>
+<option value=TEL>
+<option value=TRAN>
+<option value=TRADE>
+<option value=VET>
+<option value=WELFARE>
+<option value=OTHER ISSUES>
 <label for=required-message>
 <span class=small-text>
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
-<input class=is-inline id=newsletter-subscribe name=newsletter-subscribe type=checkbox value=email.optin>
+<input class=is-inline id=newsletter-subscribe name=newsletter-subscribe type=checkbox value=EMAIL.OPTIN>
 <label for=newsletter-subscribe>
 <b>
-<input class=submit id=submit name=submit type=submit value=submit message>
+<input class=submit id=submit name=submit type=submit value=Submit Message>
 <p>

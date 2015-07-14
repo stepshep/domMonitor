@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt%26display%3d/contact-me/email-me-thankyou%26nobase%26fpgetver%3d2 id=contactform method=post class=ideal-form novalidate=novalidate style=visibility: visible;>
+<form action=/htbin/formproc/email-me.txt%26display%3D/contact-me/email-me-thankyou%26nobase%26fpGetVer%3D2 id=contactForm method=post class=ideal-form novalidate=novalidate style=visibility: visible;>
 <span class=ideal-heading first-child>
 <h2>
 <label for=required-prefix class=ideal-label style=width: 109px;>
@@ -32,7 +32,7 @@
 <i class=ideal-icon ideal-icon-valid style=display: block;>
 <label for=required-state class=ideal-label style=width: 109px;>
 <span class=ideal-field valid>
-<input data-ideal=required id=required-state name=required-state type=text value=ca autocomplete=on>
+<input data-ideal=required id=required-state name=required-state type=text value=CA autocomplete=on>
 <i class=ideal-icon ideal-icon-valid style=display: block;>
 <label for=required-zip5 class=ideal-label style=width: 109px;>
 <span class=ideal-field valid>
@@ -54,29 +54,29 @@
 <span class=ideal-field ideal-field-focus valid>
 <select data-ideal=required id=required-issue name=required-issue autocomplete=off style=position: absolute; left: -9999px;>
 <option selected=selected value=>
-<option value=webag>
-<option value=webcrime>
-<option value=webbed>
-<option value=weben>
-<option value=webenv>
-<option value=webhea>
-<option value=webhomsec>
-<option value=webimm>
-<option value=webvet>
-<option value=webtrade>
-<option value=webtax>
-<option value=webtele>
-<option value=websocsec>
-<option value=webret>
-<option value=webfor>
-<option value=webfam>
-<option value=webtran>
-<option value=webwork>
-<option value=webfin>
-<option value=webhou>
-<option value=webdef>
-<option value=webreq>
-<option value=weboth>
+<option value=Webag>
+<option value=Webcrime>
+<option value=Webbed>
+<option value=Weben>
+<option value=Webenv>
+<option value=Webhea>
+<option value=Webhomsec>
+<option value=Webimm>
+<option value=Webvet>
+<option value=Webtrade>
+<option value=Webtax>
+<option value=Webtele>
+<option value=Websocsec>
+<option value=Webret>
+<option value=Webfor>
+<option value=Webfam>
+<option value=Webtran>
+<option value=Webwork>
+<option value=Webfin>
+<option value=Webhou>
+<option value=Webdef>
+<option value=Webreq>
+<option value=Weboth>
 <ul class=ideal-select required-issue ideal-select-focus ideal-select-menu style=min-width: 20.399999618530273px;>
 <span class=ideal-select-title>
 <li class=ideal-select-item style=>

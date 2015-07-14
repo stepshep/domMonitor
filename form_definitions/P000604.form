@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -33,11 +33,11 @@
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32>
-<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice>
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=Voice>
 <label for=speech_0>
-<input class=is-inline id=speech_1 name=speech type=radio value=vp>
+<input class=is-inline id=speech_1 name=speech type=radio value=VP>
 <label for=speech_1>
-<input class=is-inline id=speech_2 name=speech type=radio value=ttd>
+<input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
 <fieldset>
 <legend>
@@ -45,31 +45,31 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
-<option value=ab>
-<option value=ag>
-<option value=ar>
-<option value=appro>
-<option value=bud>
-<option value=def>
-<option value=ed>
-<option value=en>
-<option value=env>
-<option value=fac>
-<option value=fr>
-<option value=gay and lesbian>
-<option value=gun control>
-<option value=he>
-<option value=he.mcare>
-<option value=hud>
-<option value=imm>
-<option value=internet>
-<option value=jud>
-<option value=lab>
-<option value=ss>
-<option value=terrorism>
-<option value=tran>
-<option value=trd>
-<option value=vet>
+<option value=AB>
+<option value=AG>
+<option value=AR>
+<option value=APPRO>
+<option value=BUD>
+<option value=DEF>
+<option value=ED>
+<option value=EN>
+<option value=ENV>
+<option value=FAC>
+<option value=FR>
+<option value=GAY AND LESBIAN>
+<option value=GUN CONTROL>
+<option value=HE>
+<option value=HE.MCARE>
+<option value=HUD>
+<option value=IMM>
+<option value=INTERNET>
+<option value=JUD>
+<option value=LAB>
+<option value=SS>
+<option value=TERRORISM>
+<option value=TRAN>
+<option value=TRD>
+<option value=VET>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90>
@@ -80,8 +80,8 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-response name=required-response size=1>
 <option selected=selected value=>
-<option value=n>
-<option value=y>
+<option value=N>
+<option value=Y>
 <label for=subscribe>
-<input class=is-inline id=subscribe name=subscribe type=checkbox value=optin>
-<input class=submit id=submit name=submit type=submit value=send email>
+<input class=is-inline id=subscribe name=subscribe type=checkbox value=OPTIN>
+<input class=submit id=submit name=submit type=submit value=Send Email>

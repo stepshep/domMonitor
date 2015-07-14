@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=required-prefix>
@@ -35,14 +35,14 @@
 <label for=required-phone>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-phone maxlength=20 name=required-phone size=32>
-<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice>
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=Voice>
 <label for=speech_0>
-<input class=is-inline id=speech_1 name=speech type=radio value=vp>
+<input class=is-inline id=speech_1 name=speech type=radio value=VP>
 <label for=speech_1>
-<abbr title=video phone>
-<input class=is-inline id=speech_2 name=speech type=radio value=ttd>
+<abbr title=Video Phone>
+<input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
-<abbr title=telecommunications device for the deaf>
+<abbr title=Telecommunications Device for the Deaf>
 <fieldset>
 <legend>
 <label for=required-subject>
@@ -59,9 +59,9 @@
 <td align=center>
 <td align=center>
 <td align=center width=33%>
-<input checked=checked name=affl21 type=radio value=&lt;affl&gt;email.optin&lt;/affl&gt;>
+<input checked=checked name=affl21 type=radio value=&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt;>
 <td align=center width=33%>
-<input name=affl21 type=radio value=&lt;affl_del&gt;email.optin&lt;/affl_del&gt;>
+<input name=affl21 type=radio value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt;>
 <td align=center width=33%>
 <input name=affl21 type=radio value=>
 <table cellpadding=0 cellspacing=0 width=500px>
@@ -71,47 +71,47 @@
 <p>
 <td align=center colspan=2>
 <label>
-<input class=input-inline name=cb0 type=checkbox value=everythingoptin>
+<input class=input-inline name=cb0 type=checkbox value=EVERYTHINGOPTIN>
 <td height=270 width=250>
 <label>
-<input class=input-inline name=cb1 type=checkbox value=agricultureoptin>
+<input class=input-inline name=cb1 type=checkbox value=AGRICULTUREOPTIN>
 <label>
-<input class=input-inline name=cb2 type=checkbox value=budgetoptin>
+<input class=input-inline name=cb2 type=checkbox value=BUDGETOPTIN>
 <label>
-<input class=input-inline name=cb3 type=checkbox value=educationoptin>
+<input class=input-inline name=cb3 type=checkbox value=EDUCATIONOPTIN>
 <label>
-<input class=input-inline name=cb4 type=checkbox value=energyoptin>
+<input class=input-inline name=cb4 type=checkbox value=ENERGYOPTIN>
 <label>
-<input class=input-inline name=cb5 type=checkbox value=environmentoptin>
+<input class=input-inline name=cb5 type=checkbox value=ENVIRONMENTOPTIN>
 <label>
-<input class=input-inline name=cb6 type=checkbox value=faith/famoptin>
+<input class=input-inline name=cb6 type=checkbox value=FAITH/FAMOPTIN>
 <label>
-<input class=input-inline name=cb7 type=checkbox value=financialoptin>
+<input class=input-inline name=cb7 type=checkbox value=FINANCIALOPTIN>
 <label>
-<input class=input-inline name=cb8 type=checkbox value=foreignaffairsoptin>
+<input class=input-inline name=cb8 type=checkbox value=FOREIGNAFFAIRSOPTIN>
 <label>
-<input class=input-inline name=cb9 type=checkbox value=govtreformoptin>
+<input class=input-inline name=cb9 type=checkbox value=GOVTREFORMOPTIN>
 <label>
-<input class=input-inline name=cb10 type=checkbox value=hea/medicareoptin>
+<input class=input-inline name=cb10 type=checkbox value=HEA/MEDICAREOPTIN>
 <td height=270 width=250>
 <label>
-<input class=input-inline name=cb11 type=checkbox value=homelandoptin>
+<input class=input-inline name=cb11 type=checkbox value=HOMELANDOPTIN>
 <label>
-<input class=input-inline name=cb12 type=checkbox value=immigrationoptin>
+<input class=input-inline name=cb12 type=checkbox value=IMMIGRATIONOPTIN>
 <label>
-<input class=input-inline name=cb13 type=checkbox value=ruraloptin>
+<input class=input-inline name=cb13 type=checkbox value=RURALOPTIN>
 <label>
-<input class=input-inline name=cb14 type=checkbox value=secondamendmentoptin>
+<input class=input-inline name=cb14 type=checkbox value=SECONDAMENDMENTOPTIN>
 <label>
-<input class=input-inline name=cb15 type=checkbox value=senioroptin>
+<input class=input-inline name=cb15 type=checkbox value=SENIOROPTIN>
 <label>
-<input class=input-inline name=cb16 type=checkbox value=telecomoptin>
+<input class=input-inline name=cb16 type=checkbox value=TELECOMOPTIN>
 <label>
-<input class=input-inline name=cb17 type=checkbox value=tradeoptin>
+<input class=input-inline name=cb17 type=checkbox value=TRADEOPTIN>
 <label>
-<input class=input-inline name=cb18 type=checkbox value=transportationoptin>
+<input class=input-inline name=cb18 type=checkbox value=TRANSPORTATIONOPTIN>
 <label>
-<input class=input-inline name=cb19 type=checkbox value=veteransoptin>
+<input class=input-inline name=cb19 type=checkbox value=VETERANSOPTIN>
 <fieldset>
-<input class=submit id=submit name=submit type=submit value=send email>
+<input class=submit id=submit name=submit type=submit value=Send Email>
 <span class=tel>

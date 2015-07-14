@@ -1,9 +1,9 @@
-<form action=/htbin/formproc/contact.txt&amp;display=/contact-mike/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post>
+<form action=/htbin/formproc/contact.txt&amp;display=/contact-mike/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post>
 <fieldset>
 <legend>
 <label for=prefix>
 <span class=required-field title=required information>
-<input class=validate[required] is-required id=prefix maxlength=10 name=required-prefix size=2 title=name prefix, ex. mr. or mrs. type=text>
+<input class=validate[required] is-required id=prefix maxlength=10 name=required-prefix size=2 title=Name prefix, ex. Mr. or Mrs. type=text>
 <label for=first name>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=first name maxlength=100 name=required-first size=32 type=text>
@@ -20,7 +20,7 @@
 <input class=validate[required] is-required id=city maxlength=100 name=required-city size=42 type=text>
 <label for=state>
 <span class=required-field title=required information>
-<input id=state name=required-state readonly=readonly size=2 type=text value=al>
+<input id=state name=required-state readonly=readonly size=2 type=text value=AL>
 <label for=zip code>
 <span class=required-field title=required information>
 <input class=validate[required,custom[zip5]] is-required id=zip code maxlength=5 name=required-zip5 size=10 type=text>
@@ -38,52 +38,52 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=issue name=required-issue>
 <option value=>
-<option value=ag>
-<option value=an>
-<option value=art>
-<option value=bank>
-<option value=bud>
-<option value=case>
-<option value=community>
-<option value=cong>
-<option value=cmrc>
-<option value=crime>
-<option value=he.disease>
-<option value=econ>
-<option value=ed>
-<option value=ener>
-<option value=env>
-<option value=eth>
-<option value=food>
-<option value=gen>
-<option value=jud.guns>
-<option value=he>
-<option value=home>
-<option value=hud>
-<option value=jud.im>
-<option value=ir>
-<option value=jud>
-<option value=lab>
-<option value=he>
-<option value=med>
-<option value=def>
-<option value=post>
-<option value=jud.ab>
-<option value=sche>
-<option value=sci>
-<option value=smbu>
-<option value=ss>
-<option value=tax>
-<option value=comm>
-<option value=trade>
-<option value=tran>
-<option value=def.mil.ben>
-<option value=vet>
-<option value=welf>
-<option value=women>
+<option value=AG>
+<option value=AN>
+<option value=ART>
+<option value=BANK>
+<option value=BUD>
+<option value=CASE>
+<option value=COMMUNITY>
+<option value=CONG>
+<option value=CMRC>
+<option value=CRIME>
+<option value=HE.DISEASE>
+<option value=ECON>
+<option value=ED>
+<option value=ENER>
+<option value=ENV>
+<option value=ETH>
+<option value=FOOD>
+<option value=GEN>
+<option value=JUD.GUNS>
+<option value=HE>
+<option value=HOME>
+<option value=HUD>
+<option value=JUD.IM>
+<option value=IR>
+<option value=JUD>
+<option value=LAB>
+<option value=HE>
+<option value=MED>
+<option value=DEF>
+<option value=POST>
+<option value=JUD.AB>
+<option value=SCHE>
+<option value=SCI>
+<option value=SMBU>
+<option value=SS>
+<option value=TAX>
+<option value=COMM>
+<option value=TRADE>
+<option value=TRAN>
+<option value=DEF.MIL.BEN>
+<option value=VET>
+<option value=WELF>
+<option value=WOMEN>
 <label for=message>
 <em>
 <textarea cols=68 id=message name=msg rows=5>
-<input class=submit name=submit type=submit value=submit information>
-<input class=reset name=reset type=reset value=clear form>
+<input class=submit name=submit type=submit value=Submit Information>
+<input class=reset name=reset type=reset value=Clear Form>
 <p>

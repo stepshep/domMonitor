@@ -45,7 +45,7 @@
 <h2>
 <table border=0 cellspacing=4 cellpadding=0>
 <td width=159 align=right>
-<label class=contactform for=req_issue>
+<label class=contactForm for=req_issue>
 <td width=329>
 <input type=text name=subjectline id=req_subjectline class=text >
 <td valign=top align=right>
@@ -53,5 +53,5 @@
 <p class=spanit style=margin:10px 0 10px 27%; padding:0 0 0 5px;>
 <input type=checkbox name=enews value=enews class=enews >
 <p align=center>
-<input name=reset type=reset value=clear form fields class=searchbuttons >
-<input id=submitbutton type=submit value=send email class=searchbuttons >
+<input name=RESET type=reset value=Clear Form Fields class=searchbuttons >
+<input id=submitButton type=submit value=Send Email class=searchbuttons >

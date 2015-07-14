@@ -8,14 +8,14 @@
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option value=  disabled=  selected= >
-<option value=mr. >
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
-<option value=dr.>
-<option value=hon.>
-<option value=rev.>
-<option value=rabbi>
+<option value=Mr. >
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Hon.>
+<option value=Rev.>
+<option value=Rabbi>
 <p>
 <label>
 <input type=text name=firstname id=req_firstname maxlength=90 class=text>
@@ -40,7 +40,7 @@
 <p>
 <label>
 <select name=state id=req_state>
-<option selected= value=il>
+<option selected= value=IL>
 <p>
 <label>
 <input type=text name=zip id=req_zip class=zip maxlength=5>
@@ -56,31 +56,31 @@
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected= value=>
-<option value=animals>
-<option value=case>
-<option value=grant>
-<option value=agriculture>
-<option value=budget>
-<option value=defense>
-<option value=econ>
-<option value=education>
-<option value=energy>
-<option value=environment>
-<option value=ir>
-<option value=gr>
-<option value=health>
-<option value=homeland_sec>
-<option value=immigration>
-<option value=econ>
-<option value=judicial>
-<option value=labor>
-<option value=welfare>
-<option value=ss>
-<option value=telecom>
-<option value=taxes>
-<option value=transportation>
-<option value=veterans>
-<option value=other>
+<option value=ANIMALS>
+<option value=CASE>
+<option value=GRANT>
+<option value=AGRICULTURE>
+<option value=BUDGET>
+<option value=DEFENSE>
+<option value=ECON>
+<option value=EDUCATION>
+<option value=ENERGY>
+<option value=ENVIRONMENT>
+<option value=IR>
+<option value=GR>
+<option value=HEALTH>
+<option value=HOMELAND_SEC>
+<option value=IMMIGRATION>
+<option value=ECON>
+<option value=JUDICIAL>
+<option value=LABOR>
+<option value=WELFARE>
+<option value=SS>
+<option value=TELECOM>
+<option value=TAXES>
+<option value=TRANSPORTATION>
+<option value=VETERANS>
+<option value=OTHER>
 <p>
 <label>
 <textarea name=message id=req_message class=message>
@@ -88,6 +88,6 @@
 <label>
 <select size=1 name=response id=req_response>
 <option selected= value=>
-<option value=n>
-<option value=y>
-<input type=button size=20 value=submit id=submitbutton class=form_submit_button>
+<option value=N>
+<option value=Y>
+<input type=button size=20 value=Submit id=submitButton class=form_submit_button>

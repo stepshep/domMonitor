@@ -6,15 +6,15 @@
 <label for=prefix>
 <select name=prefix id=prefix class=short filled>
 <option selected= value=>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=dr.>
-<option value=rev.>
-<option value=prof.>
-<option value=maj.>
-<option value=col.>
-<option value=fr.>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Dr.>
+<option value=Rev.>
+<option value=Prof.>
+<option value=Maj.>
+<option value=Col.>
+<option value=Fr.>
 <label for=req_firstname>
 <span title=required field>
 <input type=text name=firstname id=req_firstname maxlength=100 class=text fn filled>
@@ -35,58 +35,58 @@
 <span title=required information>
 <select name=state class=short filled id=req_state>
 <option value=>
-<option value=ak>
-<option value=al>
-<option value=ar>
-<option value=az>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=dc>
-<option value=de>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=ia>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=ma>
-<option value=md>
-<option value=me>
-<option value=mi>
-<option value=mn>
-<option value=mo>
-<option value=ms>
-<option value=mt>
-<option value=nc>
-<option value=nd>
-<option value=ne>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=nv>
-<option value=ny>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=pr>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=va>
-<option value=vt selected=selected>
-<option value=wa>
-<option value=wi>
-<option value=wv>
-<option value=wy>
+<option value=AK>
+<option value=AL>
+<option value=AR>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=IA>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=MA>
+<option value=MD>
+<option value=ME>
+<option value=MI>
+<option value=MN>
+<option value=MO>
+<option value=MS>
+<option value=MT>
+<option value=NC>
+<option value=ND>
+<option value=NE>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NV>
+<option value=NY>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=PR>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VA>
+<option value=VT selected=selected>
+<option value=WA>
+<option value=WI>
+<option value=WV>
+<option value=WY>
 <label for=req_zip>
 <span title=required information>
 <input value=05401 class=zip z5 filled id=req_zip maxlength=5 name=zipcode type=text>
@@ -108,8 +108,8 @@
 <legend>
 <p style=font-weight:bold>
 <span class=align>
-<input type=radio name=enewssign value=email.optin id=enewsselect class=filled>
+<input type=radio name=enewssign value=EMAIL.OPTIN id=enewsselect class=filled>
 <input type=radio name=enewssign value= checked=checked id=enewsno>
 <p>
 <p>
-<input type=button size=20 value=send email id=submitbutton class=form_submit_button filled>
+<input type=button size=20 value=Send Email id=submitButton class=form_submit_button filled>

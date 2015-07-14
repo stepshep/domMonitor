@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/connect-with-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/connect-with-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -23,7 +23,7 @@
 <input class=validate[required] is-required id=required-city maxlength=100 name=required-city size=35 type=text >
 <label for=required-state>
 <span class=required-field title=required information>
-<input id=required-state maxlength=2 name=required-state size=2 type=text value=ca >
+<input id=required-state maxlength=2 name=required-state size=2 type=text value=CA >
 <label for=required-zip5>
 <span class=required-field title=required information>
 <input id=required-zip5 maxlength=5 name=required-zip5 size=9 type=text >
@@ -41,35 +41,35 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
-<option value=agr>
-<option value=ani>
-<option value=bud>
-<option value=gov>
-<option value=jud>
-<option value=gov>
-<option value=jud>
-<option value=def>
-<option value=econ>
-<option value=edu>
-<option value=ene>
-<option value=env>
-<option value=econ>
-<option value=int>
-<option value=hea>
-<option value=hous>
-<option value=imm>
-<option value=jud>
-<option value=econ>
-<option value=hea>
-<option value=tel>
-<option value=ssec>
-<option value=ssec>
-<option value=tax>
-<option value=tel>
-<option value=econ>
-<option value=tra>
-<option value=vet>
-<option value=gov>
+<option value=AGR>
+<option value=ANI>
+<option value=BUD>
+<option value=GOV>
+<option value=JUD>
+<option value=GOV>
+<option value=JUD>
+<option value=DEF>
+<option value=ECON>
+<option value=EDU>
+<option value=ENE>
+<option value=ENV>
+<option value=ECON>
+<option value=INT>
+<option value=HEA>
+<option value=HOUS>
+<option value=IMM>
+<option value=JUD>
+<option value=ECON>
+<option value=HEA>
+<option value=TEL>
+<option value=SSEC>
+<option value=SSEC>
+<option value=TAX>
+<option value=TEL>
+<option value=ECON>
+<option value=TRA>
+<option value=VET>
+<option value=GOV>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90 type=text >
@@ -78,19 +78,19 @@
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
 <fieldset>
 <legend>
-<input class=is-inline id=affl1_emailoptin name=affl1 type=radio value=email.optin >
+<input class=is-inline id=affl1_emailoptin name=affl1 type=radio value=Email.OPTIN >
 <label for=affl1_emailoptin>
-<input checked=checked class=is-inline id=affl1_emaildecline name=affl1 type=radio value=email.decline >
+<input checked=checked class=is-inline id=affl1_emaildecline name=affl1 type=radio value=Email.decline >
 <label for=affl1_emaildecline>
 <p>
 <fieldset>
 <legend>
-<input checked=checked class=is-inline id=response_yes name=response type=radio value=yes >
+<input checked=checked class=is-inline id=response_yes name=response type=radio value=Yes >
 <label for=response_yes>
-<input class=is-inline id=response_no name=response type=radio value=no >
+<input class=is-inline id=response_no name=response type=radio value=No >
 <label for=response_no>
 <p>
 <p>
 <p>
-<input class=submit id=submit name=submit type=submit value=send email >
+<input class=submit id=submit name=submit type=submit value=Send Email >
 <p>

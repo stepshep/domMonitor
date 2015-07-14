@@ -1,79 +1,79 @@
-<form id=contactform action=/contact/index.cfm method=post enctype=application/x-www-form-urlencoded accept-charset=utf-8 onsubmit=return _cf_checkcfform_1(this)>
+<form id=contactForm action=/contact/index.cfm method=post enctype=application/x-www-form-urlencoded accept-charset=utf-8 onsubmit=return _CF_checkCFForm_1(this)>
 <fieldset>
 <legend>
 <label for=rsalutation>
 <span class=required>
 <select name=salutation id=salutation >
 <option label= value=>
-<option label=admiral value=admiral>
-<option label=airman value=airman>
-<option label=airman first class value=airman first class>
-<option label=brigadier general value=brigadier general>
-<option label=captain value=captain>
-<option label=chief master sergeant value=chief master sergeant>
-<option label=chief master sergeant of the air force value=chief master sergeant of the air force>
-<option label=chief petty officer value=chief petty officer>
-<option label=chief warrant officer value=chief warrant officer>
-<option label=colonel value=colonel>
-<option label=command  chief master sergeant value=command  chief master sergeant>
-<option label=commander value=commander>
-<option label=congressman value=congressman>
-<option label=congresswoman value=congresswoman>
-<option label=corporal value=corporal>
-<option label=dr. value=dr.>
-<option label=ensign value=ensign>
-<option label=first lieutenant value=first lieutenant>
-<option label=first sergeant value=first sergeant>
-<option label=fleet admiral value=fleet admiral>
-<option label=fr. value=fr.>
-<option label=general value=general>
-<option label=general of the air force value=general of the air force>
-<option label=gov. value=gov.>
-<option label=gunnery sergeant value=gunnery sergeant>
-<option label=hon. value=hon.>
-<option label=lance corporal value=lance corporal>
-<option label=lieutenant value=lieutenant>
-<option label=lieutenant colonel value=lieutenant colonel>
-<option label=lieutenant commander value=lieutenant commander>
-<option label=lieutenant general value=lieutenant general>
-<option label=lieutenant, junior grade value=lieutenant, junior grade>
-<option label=major value=major>
-<option label=major general value=major general>
-<option label=master chief petty officer value=master chief petty officer>
-<option label=master chief petty officer of the navy value=master chief petty officer of the navy>
-<option label=master gunnery sgt value=master gunnery sgt>
-<option label=master sergeant value=master sergeant>
-<option label=miss value=miss>
-<option label=mr. value=mr.>
-<option label=mr. and mrs. value=mr. and mrs.>
-<option label=mrs. value=mrs.>
-<option label=ms. value=ms.>
-<option label=petty officer first class value=petty officer first class>
-<option label=petty officer second class value=petty officer second class>
-<option label=petty officer third class value=petty officer third class>
-<option label=private value=private>
-<option label=private first class value=private first class>
-<option label=prof. value=prof.>
-<option label=rabbi value=rabbi>
-<option label=rear admiral (lower half) value=rear admiral (lower half)>
-<option label=rear admiral (upper half) value=rear admiral (upper half)>
-<option label=reverend value=reverend>
-<option label=seaman value=seaman>
-<option label=seaman apprentice value=seaman apprentice>
-<option label=seaman recruit value=seaman recruit>
-<option label=second lieutenant value=second lieutenant>
-<option label=senator value=senator>
-<option label=senior airman value=senior airman>
-<option label=senior chief petty officer value=senior chief petty officer>
-<option label=senior master sergeant value=senior master sergeant>
-<option label=sergeant value=sergeant>
-<option label=sergeant major value=sergeant major>
-<option label=sgt major of the corps value=sgt major of the corps>
-<option label=sister value=sister>
-<option label=staff sergeant value=staff sergeant>
-<option label=technical sergeant value=technical sergeant>
-<option label=vice admiral value=vice admiral>
-<option label=warrant officer value=warrant officer>
+<option label=Admiral value=Admiral>
+<option label=Airman value=Airman>
+<option label=Airman First Class value=Airman First Class>
+<option label=Brigadier General value=Brigadier General>
+<option label=Captain value=Captain>
+<option label=Chief Master Sergeant value=Chief Master Sergeant>
+<option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
+<option label=Chief Petty Officer value=Chief Petty Officer>
+<option label=Chief Warrant Officer value=Chief Warrant Officer>
+<option label=Colonel value=Colonel>
+<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Commander value=Commander>
+<option label=Congressman value=Congressman>
+<option label=Congresswoman value=Congresswoman>
+<option label=Corporal value=Corporal>
+<option label=Dr. value=Dr.>
+<option label=Ensign value=Ensign>
+<option label=First Lieutenant value=First Lieutenant>
+<option label=First Sergeant value=First Sergeant>
+<option label=Fleet Admiral value=Fleet Admiral>
+<option label=Fr. value=Fr.>
+<option label=General value=General>
+<option label=General of the Air Force value=General of the Air Force>
+<option label=Gov. value=Gov.>
+<option label=Gunnery Sergeant value=Gunnery Sergeant>
+<option label=Hon. value=Hon.>
+<option label=Lance Corporal value=Lance Corporal>
+<option label=Lieutenant value=Lieutenant>
+<option label=Lieutenant Colonel value=Lieutenant Colonel>
+<option label=Lieutenant Commander value=Lieutenant Commander>
+<option label=Lieutenant General value=Lieutenant General>
+<option label=Lieutenant, Junior Grade value=Lieutenant, Junior Grade>
+<option label=Major value=Major>
+<option label=Major General value=Major General>
+<option label=Master Chief Petty Officer value=Master Chief Petty Officer>
+<option label=Master Chief Petty Officer of the Navy value=Master Chief Petty Officer of the Navy>
+<option label=Master Gunnery Sgt value=Master Gunnery Sgt>
+<option label=Master Sergeant value=Master Sergeant>
+<option label=Miss value=Miss>
+<option label=Mr. value=Mr.>
+<option label=Mr. and Mrs. value=Mr. and Mrs.>
+<option label=Mrs. value=Mrs.>
+<option label=Ms. value=Ms.>
+<option label=Petty Officer First Class value=Petty Officer First Class>
+<option label=Petty Officer Second Class value=Petty Officer Second Class>
+<option label=Petty Officer Third Class value=Petty Officer Third Class>
+<option label=Private value=Private>
+<option label=Private First Class value=Private First Class>
+<option label=Prof. value=Prof.>
+<option label=Rabbi value=Rabbi>
+<option label=Rear Admiral (lower half) value=Rear Admiral (lower half)>
+<option label=Rear Admiral (upper half) value=Rear Admiral (upper half)>
+<option label=Reverend value=Reverend>
+<option label=Seaman value=Seaman>
+<option label=Seaman Apprentice value=Seaman Apprentice>
+<option label=Seaman Recruit value=Seaman Recruit>
+<option label=Second Lieutenant value=Second Lieutenant>
+<option label=Senator value=Senator>
+<option label=Senior Airman value=Senior Airman>
+<option label=Senior Chief Petty Officer value=Senior Chief Petty Officer>
+<option label=Senior Master Sergeant value=Senior Master Sergeant>
+<option label=Sergeant value=Sergeant>
+<option label=Sergeant Major value=Sergeant Major>
+<option label=Sgt Major Of The Corps value=Sgt Major Of The Corps>
+<option label=Sister value=Sister>
+<option label=Staff Sergeant value=Staff Sergeant>
+<option label=Technical Sergeant value=Technical Sergeant>
+<option label=Vice Admiral value=Vice Admiral>
+<option label=Warrant Officer value=Warrant Officer>
 <label for=requestor-fname>
 <span class=required>
 <input name=fname type=text id=fname  >
@@ -82,9 +82,9 @@
 <input name=lname type=text id=last_name  >
 <label for=requestor-address1>
 <span class=required>
-<input name=mailing_streetaddress1 type=text id=mailing_streetaddress1  >
+<input name=mailing_streetAddress1 type=text id=mailing_streetAddress1  >
 <label for=requestor-address2>
-<input name=mailing_streetaddress2 type=text id=mailing_streetaddress2  >
+<input name=mailing_streetAddress2 type=text id=mailing_streetAddress2  >
 <label for=requestor-city>
 <span class=required>
 <input name=mailing_city type=text id=mailing_city  >
@@ -92,57 +92,57 @@
 <span class=required>
 <select name=state id=state>
 <option value=null>
-<option value=ak>
-<option value=al>
-<option value=ar>
-<option value=az>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=dc>
-<option value=de>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=ia>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=ma>
-<option value=md>
-<option value=me>
-<option value=mi>
-<option value=mn>
-<option value=mo>
-<option value=ms>
-<option value=mt>
-<option value=nc>
-<option value=nd>
-<option value=ne>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=nv>
-<option value=ny selected= selected>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=va>
-<option value=vt>
-<option value=wa>
-<option value=wi>
-<option value=wv>
-<option value=wy>
+<option value=AK>
+<option value=AL>
+<option value=AR>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=IA>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=MA>
+<option value=MD>
+<option value=ME>
+<option value=MI>
+<option value=MN>
+<option value=MO>
+<option value=MS>
+<option value=MT>
+<option value=NC>
+<option value=ND>
+<option value=NE>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NV>
+<option value=NY selected= selected>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VA>
+<option value=VT>
+<option value=WA>
+<option value=WI>
+<option value=WV>
+<option value=WY>
 <label for=requestor-zip>
 <span class=required>
 <input name=mailing_zipcode type=text id=mailing_zipcode  >
@@ -161,40 +161,40 @@
 <fieldset>
 <legend>
 <label for=subject>
-<input name=subject type=radio value=afghanistan id=subject_afghanistan  >
-<input name=subject type=radio value=immigration reform id=subject_immigration reform  >
-<input name=subject type=radio value=agriculture id=subject_agriculture  >
-<input name=subject type=radio value=iraq id=subject_iraq  >
-<input name=subject type=radio value=animals rights id=subject_animals rights  >
-<input name=subject type=radio value=israel id=subject_israel  >
-<input name=subject type=radio value=civil rights id=subject_civil rights  >
-<input name=subject type=radio value=job creation id=subject_job creation  >
-<input name=subject type=radio value=crime and public safety id=subject_crime and public safety  >
-<input name=subject type=radio value=judiciary id=subject_judiciary  >
-<input name=subject type=radio value=economy id=subject_economy  >
-<input name=subject type=radio value=labor and pensions id=subject_labor and pensions  >
-<input name=subject type=radio value=education id=subject_education  >
-<input name=subject type=radio value=lgbt rights id=subject_lgbt rights  >
-<input name=subject type=radio value=energy id=subject_energy  >
-<input name=subject type=radio value=medicare/medicaid id=subject_medicare/medicaid  >
-<input name=subject type=radio value=environment id=subject_environment  >
-<input name=subject type=radio value=national security id=subject_national security  >
-<input name=subject type=radio value=ethics reform id=subject_ethics reform  >
-<input name=subject type=radio value=poverty id=subject_poverty  >
-<input name=subject type=radio value=federal grant applications id=subject_federal grant applications  >
-<input name=subject type=radio value=science/technology id=subject_science/technology  >
-<input name=subject type=radio value=financial services id=subject_financial services  >
-<input name=subject type=radio value=social security id=subject_social security  >
-<input name=subject type=radio value=foreign relations id=subject_foreign relations  >
-<input name=subject type=radio value=taxes id=subject_taxes  >
-<input name=subject type=radio value=gun violence id=subject_gun violence  >
-<input name=subject type=radio value=telecommunications id=subject_telecommunications  >
-<input name=subject type=radio value=health care id=subject_health care  >
+<input name=subject type=radio value=Afghanistan id=subject_Afghanistan  >
+<input name=subject type=radio value=Immigration Reform id=subject_Immigration Reform  >
+<input name=subject type=radio value=Agriculture id=subject_Agriculture  >
+<input name=subject type=radio value=Iraq id=subject_Iraq  >
+<input name=subject type=radio value=Animals Rights id=subject_Animals Rights  >
+<input name=subject type=radio value=Israel id=subject_Israel  >
+<input name=subject type=radio value=Civil Rights id=subject_Civil Rights  >
+<input name=subject type=radio value=Job Creation id=subject_Job Creation  >
+<input name=subject type=radio value=Crime and Public Safety id=subject_Crime and Public Safety  >
+<input name=subject type=radio value=Judiciary id=subject_Judiciary  >
+<input name=subject type=radio value=Economy id=subject_Economy  >
+<input name=subject type=radio value=Labor and Pensions id=subject_Labor and Pensions  >
+<input name=subject type=radio value=Education id=subject_Education  >
+<input name=subject type=radio value=LGBT Rights id=subject_LGBT Rights  >
+<input name=subject type=radio value=Energy id=subject_Energy  >
+<input name=subject type=radio value=Medicare/Medicaid id=subject_Medicare/Medicaid  >
+<input name=subject type=radio value=Environment id=subject_Environment  >
+<input name=subject type=radio value=National Security id=subject_National Security  >
+<input name=subject type=radio value=Ethics Reform id=subject_Ethics Reform  >
+<input name=subject type=radio value=Poverty id=subject_Poverty  >
+<input name=subject type=radio value=Federal Grant Applications id=subject_Federal Grant Applications  >
+<input name=subject type=radio value=Science/Technology id=subject_Science/Technology  >
+<input name=subject type=radio value=Financial Services id=subject_Financial Services  >
+<input name=subject type=radio value=Social Security id=subject_Social Security  >
+<input name=subject type=radio value=Foreign Relations id=subject_Foreign Relations  >
+<input name=subject type=radio value=Taxes id=subject_Taxes  >
+<input name=subject type=radio value=Gun Violence id=subject_Gun Violence  >
+<input name=subject type=radio value=Telecommunications id=subject_Telecommunications  >
+<input name=subject type=radio value=Health Care id=subject_Health Care  >
 <input name=subject type=radio value=tours id=subject_tours  >
-<input name=subject type=radio value=homeland security id=subject_homeland security  >
-<input name=subject type=radio value=veterans id=subject_veterans  >
-<input name=subject type=radio value=housing id=subject_housing  >
-<input name=subject type=radio value=womens issues id=subject_womens issues  >
+<input name=subject type=radio value=Homeland Security id=subject_Homeland Security  >
+<input name=subject type=radio value=Veterans id=subject_Veterans  >
+<input name=subject type=radio value=Housing id=subject_Housing  >
+<input name=subject type=radio value=Womens Issues id=subject_Womens Issues  >
 <label for=comment>
 <textarea cols=30 rows=20 name=comments>
-<input type=image value=submit src=http://www.gillibrand.senate.gov/images/contact/send_your_comments.png alt=send your comments class=rollover >
+<input type=image value=submit src=http://www.gillibrand.senate.gov/images/contact/send_your_comments.png alt=Send Your Comments class=rollover >

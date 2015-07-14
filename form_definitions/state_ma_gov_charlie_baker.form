@@ -47,4 +47,4 @@
 <label for=comments>
 <td colspan=1 rowspan=1>
 <textarea cols=40 id=comments name=comments rows=10>
-<input type=submit value=submit >
+<input type=submit value=Submit >

@@ -1,176 +1,176 @@
-<form id=0ca3c0af-5056-a066-6068-ad712ca6b58a action=https://www.leahy.senate.gov/contact/ method=post>
+<form id=0CA3C0AF-5056-A066-6068-AD712CA6B58A action=https://www.leahy.senate.gov/contact/ method=post>
 <h1>
 <p>
 <fieldset>
 <legend>
 <label class=control-label for=salutations>
 <span class=required>
-<select id=salutations name=input_36c9576f-5056-a066-6022-2cceb276f085 class=validate[required]>
+<select id=salutations name=input_36C9576F-5056-A066-6022-2CCEB276F085 class=validate[required]>
 <option value=>
-<option value=mr.>
-<option value=ms.>
-<option value=mrs.>
-<option value=miss>
-<option value=mr. and mrs.>
-<option value=dr.>
-<option value=dr. and mrs.>
-<option value=dr. and mr.>
-<option value=mr. and mr.>
-<option value=mrs. and mrs.>
-<option value=ms. and ms.>
-<option value=other>
+<option value=Mr.>
+<option value=Ms.>
+<option value=Mrs.>
+<option value=Miss>
+<option value=Mr. and Mrs.>
+<option value=Dr.>
+<option value=Dr. and Mrs.>
+<option value=Dr. and Mr.>
+<option value=Mr. and Mr.>
+<option value=Mrs. and Mrs.>
+<option value=Ms. and Ms.>
+<option value=Other>
 <label class=control-label for=other>
 <span class=required>
-<input id=other name=input_e8922734-5056-a066-6013-55ec384eacb0 class=validate[custom,%window.validate_e8922734_5056_a066_6013_55ec384eacb0] type=text>
-<label class=control-label for=input-36f9116d-5056-a066-6055-b856b7975a8d>
+<input id=other name=input_E8922734-5056-A066-6013-55EC384EACB0 class=validate[custom,%window.validate_E8922734_5056_A066_6013_55EC384EACB0] type=text>
+<label class=control-label for=input-36F9116D-5056-A066-6055-B856B7975A8D>
 <span class=required>
-<input id=input-36f9116d-5056-a066-6055-b856b7975a8d name=input_36f9116d-5056-a066-6055-b856b7975a8d class=validate[required] type=text placeholder=required>
-<label class=control-label for=input-36f9168f-5056-a066-6010-d50b3e4ea5ca>
+<input id=input-36F9116D-5056-A066-6055-B856B7975A8D name=input_36F9116D-5056-A066-6055-B856B7975A8D class=validate[required] type=text placeholder=Required>
+<label class=control-label for=input-36F9168F-5056-A066-6010-D50B3E4EA5CA>
 <span class=required>
-<input id=input-36f9168f-5056-a066-6010-d50b3e4ea5ca name=input_36f9168f-5056-a066-6010-d50b3e4ea5ca class=validate[required] type=text placeholder=required>
+<input id=input-36F9168F-5056-A066-6010-D50B3E4EA5CA name=input_36F9168F-5056-A066-6010-D50B3E4EA5CA class=validate[required] type=text placeholder=Required>
 <fieldset>
 <legend>
-<label class=control-label for=input-36d0d7b4-5056-a066-604b-c5784de1329e>
+<label class=control-label for=input-36D0D7B4-5056-A066-604B-C5784DE1329E>
 <span class=required>
-<input id=input-36d0d7b4-5056-a066-604b-c5784de1329e name=input_36d0d7b4-5056-a066-604b-c5784de1329e class=validate[required] type=text placeholder=required>
-<label class=control-label for=input-36d0d80c-5056-a066-60fd-fac648288307>
-<input id=input-36d0d80c-5056-a066-60fd-fac648288307 name=input_36d0d80c-5056-a066-60fd-fac648288307 type=text>
-<label class=control-label for=input-36d0d8e1-5056-a066-6088-b0e287342b26>
+<input id=input-36D0D7B4-5056-A066-604B-C5784DE1329E name=input_36D0D7B4-5056-A066-604B-C5784DE1329E class=validate[required] type=text placeholder=Required>
+<label class=control-label for=input-36D0D80C-5056-A066-60FD-FAC648288307>
+<input id=input-36D0D80C-5056-A066-60FD-FAC648288307 name=input_36D0D80C-5056-A066-60FD-FAC648288307 type=text>
+<label class=control-label for=input-36D0D8E1-5056-A066-6088-B0E287342B26>
 <span class=required>
-<input id=input-36d0d8e1-5056-a066-6088-b0e287342b26 name=input_36d0d8e1-5056-a066-6088-b0e287342b26 class=validate[required] type=text placeholder=required>
-<label class=control-label for=input-36d0d97f-5056-a066-60f8-e619d2313e31>
+<input id=input-36D0D8E1-5056-A066-6088-B0E287342B26 name=input_36D0D8E1-5056-A066-6088-B0E287342B26 class=validate[required] type=text placeholder=Required>
+<label class=control-label for=input-36D0D97F-5056-A066-60F8-E619D2313E31>
 <span class=required>
-<select id=input-36d0d97f-5056-a066-60f8-e619d2313e31 name=input_36d0d97f-5056-a066-60f8-e619d2313e31 class=validate[required]>
+<select id=input-36D0D97F-5056-A066-60F8-E619D2313E31 name=input_36D0D97F-5056-A066-60F8-E619D2313E31 class=validate[required]>
 <option value=>
-<option value=al>
-<option value=ak>
-<option value=ar>
-<option value=az>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=dc>
-<option value=de>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
-<label class=control-label for=input-36d0da1c-5056-a066-605e-9ca59c0d0e35>
+<option value=AL>
+<option value=AK>
+<option value=AR>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
+<label class=control-label for=input-36D0DA1C-5056-A066-605E-9CA59C0D0E35>
 <span class=required>
-<input id=input-36d0da1c-5056-a066-605e-9ca59c0d0e35 name=input_36d0da1c-5056-a066-605e-9ca59c0d0e35 class=validate[required,%creativengine_forms_builder.validate.zip] type=text placeholder=required>
+<input id=input-36D0DA1C-5056-A066-605E-9CA59C0D0E35 name=input_36D0DA1C-5056-A066-605E-9CA59C0D0E35 class=validate[required,%creativengine_forms_builder.validate.zip] type=text placeholder=Required>
 <fieldset>
 <legend>
 <label class=control-label for=email>
 <span class=required>
-<input id=email name=input_36d667aa-5056-a066-6035-8576d66d00f9 class=validate[required,email] type=text placeholder=required>
-<label class=control-label for=input-36d6681a-5056-a066-60dc-988efd5753d6>
+<input id=email name=input_36D667AA-5056-A066-6035-8576D66D00F9 class=validate[required,email] type=text placeholder=Required>
+<label class=control-label for=input-36D6681A-5056-A066-60DC-988EFD5753D6>
 <span class=required>
-<input id=input-36d6681a-5056-a066-60dc-988efd5753d6 name=input_36d6681a-5056-a066-60dc-988efd5753d6 class=validate[custom,%window.validate_36d6681a_5056_a066_60dc_988efd5753d6] type=text placeholder=required>
-<label class=control-label for=input-36d95985-5056-a066-6035-e42d9cb11a0e>
+<input id=input-36D6681A-5056-A066-60DC-988EFD5753D6 name=input_36D6681A-5056-A066-60DC-988EFD5753D6 class=validate[custom,%window.validate_36D6681A_5056_A066_60DC_988EFD5753D6] type=text placeholder=Required>
+<label class=control-label for=input-36D95985-5056-A066-6035-E42D9CB11A0E>
 <span class=required>
-<input id=input-36d95985-5056-a066-6035-e42d9cb11a0e name=input_36d95985-5056-a066-6035-e42d9cb11a0e class=validate[required,phone] type=text placeholder=required>
+<input id=input-36D95985-5056-A066-6035-E42D9CB11A0E name=input_36D95985-5056-A066-6035-E42D9CB11A0E class=validate[required,phone] type=text placeholder=Required>
 <fieldset>
 <legend>
 <label class=control-label for=issue>
 <span class=required>
-<select id=issue name=input_36e22353-5056-a066-60ea-9a7bce98e4dd class=validate[required]>
+<select id=issue name=input_36E22353-5056-A066-60EA-9A7BCE98E4DD class=validate[required]>
 <option value=>
-<option value=case - sort>
-<option value=afghanistan>
-<option value=agriculture>
-<option value=an>
-<option value=arts>
-<option value=auto industry>
-<option value=bank>
-<option value=budget general>
-<option value=bus>
-<option value=civil_rights>
-<option value=climate change>
-<option value=crime>
-<option value=dairy>
-<option value=defense/military>
-<option value=torture>
-<option value=disabilities>
-<option value=drones>
-<option value=economy>
-<option value=ed>
-<option value=election>
-<option value=lab>
-<option value=en>
-<option value=environment>
-<option value=fr>
-<option value=fossil fuels>
-<option value=geneticengineering>
-<option value=gun control>
-<option value=health care reform>
-<option value=health/disease>
-<option value=hls>
-<option value=housing>
-<option value=fema>
-<option value=immigration>
-<option value=nominations>
-<option value=environment>
-<option value=law enforcement>
-<option value=medicare>
-<option value=other>
-<option value=copyright>
-<option value=prescription drugs>
-<option value=politics>
-<option value=privacy>
-<option value=technology>
-<option value=seniors>
-<option value=small business>
-<option value=ss>
-<option value=nasa>
-<option value=tax>
-<option value=telecomm>
-<option value=trd>
-<option value=trans - general>
-<option value=veterans>
-<option value=vawa>
-<option value=hms>
-<option value=women>
-<option value=scheduling>
-<option value=thank(fan mail)>
-<label class=control-label for=input-36e62f57-5056-a066-60bf-78adf9f5676e>
+<option value=CASE - SORT>
+<option value=AFGHANISTAN>
+<option value=AGRICULTURE>
+<option value=AN>
+<option value=ARTS>
+<option value=AUTO INDUSTRY>
+<option value=BANK>
+<option value=BUDGET GENERAL>
+<option value=BUS>
+<option value=CIVIL_RIGHTS>
+<option value=CLIMATE CHANGE>
+<option value=CRIME>
+<option value=DAIRY>
+<option value=DEFENSE/MILITARY>
+<option value=TORTURE>
+<option value=DISABILITIES>
+<option value=DRONES>
+<option value=ECONOMY>
+<option value=ED>
+<option value=ELECTION>
+<option value=LAB>
+<option value=EN>
+<option value=ENVIRONMENT>
+<option value=FR>
+<option value=FOSSIL FUELS>
+<option value=GENETICENGINEERING>
+<option value=GUN CONTROL>
+<option value=HEALTH CARE REFORM>
+<option value=HEALTH/DISEASE>
+<option value=HLS>
+<option value=HOUSING>
+<option value=FEMA>
+<option value=IMMIGRATION>
+<option value=NOMINATIONS>
+<option value=ENVIRONMENT>
+<option value=LAW ENFORCEMENT>
+<option value=MEDICARE>
+<option value=OTHER>
+<option value=COPYRIGHT>
+<option value=PRESCRIPTION DRUGS>
+<option value=POLITICS>
+<option value=PRIVACY>
+<option value=TECHNOLOGY>
+<option value=SENIORS>
+<option value=SMALL BUSINESS>
+<option value=SS>
+<option value=NASA>
+<option value=TAX>
+<option value=TELECOMM>
+<option value=TRD>
+<option value=TRANS - GENERAL>
+<option value=VETERANS>
+<option value=VAWA>
+<option value=HMS>
+<option value=WOMEN>
+<option value=SCHEDULING>
+<option value=THANK(FAN MAIL)>
+<label class=control-label for=input-36E62F57-5056-A066-60BF-78ADF9F5676E>
 <span class=required>
-<textarea id=input-36e62f57-5056-a066-60bf-78adf9f5676e name=input_36e62f57-5056-a066-60bf-78adf9f5676e class=validate[required]>
-<input type=submit class=btn value=submit>
+<textarea id=input-36E62F57-5056-A066-60BF-78ADF9F5676E name=input_36E62F57-5056-A066-60BF-78ADF9F5676E class=validate[required]>
+<input type=submit class=btn value=Submit>

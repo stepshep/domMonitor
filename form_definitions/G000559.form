@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -33,11 +33,11 @@
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32>
-<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice>
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=Voice>
 <label for=speech_0>
-<input class=is-inline id=speech_1 name=speech type=radio value=vp>
+<input class=is-inline id=speech_1 name=speech type=radio value=VP>
 <label for=speech_1>
-<input class=is-inline id=speech_2 name=speech type=radio value=ttd>
+<input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
 <fieldset>
 <legend>
@@ -45,42 +45,42 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
-<option value=agriculture>
-<option value=anml>
-<option value=arts>
-<option value=fin>
-<option value=budget>
-<option value=campaign_finance>
-<option value=elect>
-<option value=defense>
-<option value=education>
-<option value=enr>
-<option value=env>
-<option value=fed_employees>
-<option value=frn>
-<option value=gun>
-<option value=he>
-<option value=hous>
-<option value=im>
-<option value=jud>
-<option value=lbr>
-<option value=lgbt>
-<option value=post_office>
-<option value=sci>
-<option value=seniors>
-<option value=soc>
-<option value=social_services>
-<option value=tel>
-<option value=comm>
-<option value=trans>
-<option value=trd>
-<option value=vet>
-<option value=wom>
-<option value=other>
+<option value=AGRICULTURE>
+<option value=ANML>
+<option value=ARTS>
+<option value=FIN>
+<option value=BUDGET>
+<option value=CAMPAIGN_FINANCE>
+<option value=ELECT>
+<option value=DEFENSE>
+<option value=EDUCATION>
+<option value=ENR>
+<option value=ENV>
+<option value=FED_EMPLOYEES>
+<option value=FRN>
+<option value=GUN>
+<option value=HE>
+<option value=HOUS>
+<option value=IM>
+<option value=JUD>
+<option value=LBR>
+<option value=LGBT>
+<option value=POST_OFFICE>
+<option value=SCI>
+<option value=SENIORS>
+<option value=SOC>
+<option value=SOCIAL_SERVICES>
+<option value=TEL>
+<option value=COMM>
+<option value=TRANS>
+<option value=TRD>
+<option value=VET>
+<option value=WOM>
+<option value=OTHER>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90>
 <label for=required-message>
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
-<input class=submit id=submit name=submit type=submit value=send email>
+<input class=submit id=submit name=submit type=submit value=Send Email>

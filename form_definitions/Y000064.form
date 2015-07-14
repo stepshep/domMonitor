@@ -10,14 +10,14 @@
 <label for=req_prefix>
 <select name=prefix id=req_prefix size=1>
 <option value= selected=>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
-<option value=dr.>
-<option value=hon.>
-<option value=rev.>
-<option value=rabbi>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Hon.>
+<option value=Rev.>
+<option value=Rabbi>
 <td colspan=3 style=vertical-align:top width=33%>
 <label for=req_firstname>
 <input class=text id=req_firstname maxlength=90 name=firstname type=text>
@@ -42,7 +42,7 @@
 <td style=vertical-align:top width=14%>
 <label for=req_state>
 <select id=req_state name=state>
-<option selected=selected value=in>
+<option selected=selected value=IN>
 <td style=vertical-align:top width=10%>
 <label for=req_zip>
 <input class=text id=req_zip maxlength=5 name=zipcode type=text value=47130>
@@ -59,32 +59,32 @@
 <label for=req_subject>
 <select id=req_subject name=subject size=1>
 <option selected=selected value=>
-<option value=econ>
-<option value=bud>
-<option value=ent>
-<option value=tax>
-<option value=hlth>
-<option value=ag>
-<option value=fam>
-<option value=edu>
-<option value=enr>
-<option value=for>
-<option value=def>
-<option value=imm>
-<option value=jud>
-<option value=ti>
-<option value=vet>
-<option value=oth>
+<option value=ECON>
+<option value=BUD>
+<option value=ENT>
+<option value=TAX>
+<option value=HLTH>
+<option value=AG>
+<option value=FAM>
+<option value=EDU>
+<option value=ENR>
+<option value=FOR>
+<option value=DEF>
+<option value=IMM>
+<option value=JUD>
+<option value=TI>
+<option value=VET>
+<option value=OTH>
 <td colspan=3 style=vertical-align:top width=33%>
 <label for=req_response>
 <select id=req_response name=response size=1>
 <option selected=selected value=>
-<option value=n>
-<option value=y>
+<option value=N>
+<option value=Y>
 <td colspan=9 style=vertical-align:top>
 <label for=req_message>
 <textarea class=message id=req_message name=message>
 <td colspan=3>
 <td colspan=3 style=vertical-align:top;text-align:center;>
-<input type=button size=20 value=submit id=submitbutton class=form_submit_button>
+<input type=button size=20 value=Submit id=submitButton class=form_submit_button>
 <td colspan=3>

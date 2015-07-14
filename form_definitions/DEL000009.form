@@ -1,4 +1,4 @@
-<form enctype=multipart/form-data action=http://www.weebly.com/weebly/apps/formsubmit.php method=post id=form-336033664495588136>
+<form enctype=multipart/form-data action=http://www.weebly.com/weebly/apps/formSubmit.php method=POST id=form-336033664495588136>
 <ul class=formlist id=336033664495588136-form-list>
 <h2 class=wsite-content-title style=text-align:left;>
 <label class=wsite-form-label for=input-244245987466585685>
@@ -19,8 +19,8 @@
 <label class=wsite-form-label for=input-332619955386487893>
 <span class=form-required>
 <select name=_u332619955386487893 class=form-select>
-<option value=yes, please sign me up for caucus emails!>
-<option value=i prefer not to receive email from the senate democrats at this time>
+<option value=Yes, please sign me up for Caucus emails!>
+<option value=I prefer not to receive email from the Senate Democrats at this time>
 <font size=2>
 <input type=text name=wsite_subject >
 <input type=submit style=position:absolute;top:0;left:-9999px;width:1px;height:1px >

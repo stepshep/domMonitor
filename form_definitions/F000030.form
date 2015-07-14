@@ -5,63 +5,63 @@
 <td width=191>
 <font color=red>
 <td width=314>
-<input name=required-prefix id=required-prefix size=30 maxlength=60 >
+<input name=required-PREFIX id=required-PREFIX size=30 maxlength=60 >
 <font color=red>
-<input name=required-firstname id=required-firstname size=30 maxlength=60 >
+<input name=required-FIRSTNAME id=required-FIRSTNAME size=30 maxlength=60 >
 <font color=red>
-<input name=required-lastname id=required-lastname size=30 maxlength=60 >
-<input name=suffix id=suffix size=40 maxlength=100 >
+<input name=required-LASTNAME id=required-LASTNAME size=30 maxlength=60 >
+<input name=SUFFIX id=SUFFIX size=40 maxlength=100 >
 <font color=red>
-<input name=required-addressline1 id=required-addressline1 size=40 maxlength=100 >
+<input name=required-ADDRESSLINE1 id=required-ADDRESSLINE1 size=40 maxlength=100 >
 <font color=red>
-<input name=required-city id=required-city size=30 maxlength=40 >
-<input name=required-state id=required-state size=30 maxlength=40 value=california >
+<input name=required-CITY id=required-CITY size=30 maxlength=40 >
+<input name=required-STATE id=required-STATE size=30 maxlength=40 value=California >
 <font color=red>
 <input name=required-zip5 id=required-zip5 size=5 maxlength=5 >
 <input name=zip4 id=zip4 size=4 maxlength=4 >
-<input name=phone id=phone size=30 maxlength=40 >
+<input name=PHONE id=PHONE size=30 maxlength=40 >
 <font color=red>
-<input name=required-emailaddress id=required-emailaddress size=40 maxlength=100 >
+<input name=required-EMAILADDRESS id=required-EMAILADDRESS size=40 maxlength=100 >
 <font color=red>
-<select name=required-issue size=1 tabindex=13 onchange=fnshowhidetext() id=required-issue>
+<select name=required-ISSUE size=1 tabindex=13 onchange=fnShowHideText() id=required-ISSUE>
 <option value= selected=>
-<option value=ag>
-<option value=animal>
-<option value=arts>
-<option value=bank>
-<option value=children>
-<option value=civil>
-<option value=defense>
-<option value=ed>
-<option value=energy>
-<option value=enviro>
-<option value=fedgov>
-<option value=foreign>
-<option value=health>
-<option value=housing>
-<option value=immig>
-<option value=jud>
-<option value=labor>
-<option value=politics>
-<option value=relig>
-<option value=science>
-<option value=senior.int>
-<option value=smbus>
-<option value=tax>
-<option value=telecom>
-<option value=trade>
-<option value=trans>
-<option value=travel and tourism>
-<option value=vets>
-<option value=volunteer>
-<option value=women>
-<option value=misc>
+<option value=AG>
+<option value=ANIMAL>
+<option value=ARTS>
+<option value=BANK>
+<option value=CHILDREN>
+<option value=CIVIL>
+<option value=DEFENSE>
+<option value=ED>
+<option value=ENERGY>
+<option value=ENVIRO>
+<option value=FEDGOV>
+<option value=FOREIGN>
+<option value=HEALTH>
+<option value=HOUSING>
+<option value=IMMIG>
+<option value=JUD>
+<option value=LABOR>
+<option value=POLITICS>
+<option value=RELIG>
+<option value=SCIENCE>
+<option value=SENIOR.INT>
+<option value=SMBUS>
+<option value=TAX>
+<option value=TELECOM>
+<option value=TRADE>
+<option value=TRANS>
+<option value=Travel and Tourism>
+<option value=VETS>
+<option value=VOLUNTEER>
+<option value=WOMEN>
+<option value=MISC>
 <input name=other id=other size=30 maxlength=40 >
 <td valign=top>
 <font color=red>
-<textarea name=required-message id=required-message rows=8 cols=30>
+<textarea name=required-Message id=required-Message rows=8 cols=30>
 <td colspan=2>
 <input type=checkbox name=email.optin value=email.optin tabindex=15 >
 <td colspan=2>
-<input type=submit value=submit >
-<input type=reset value=clear >
+<input type=submit value=Submit >
+<input type=reset value=Clear >

@@ -15,63 +15,63 @@
 <input type=text class=form-control name=field_c0ccf7df-2f14-4e1c-9a70-7d76feead56a id=field_c0ccf7df-2f14-4e1c-9a70-7d76feead56a value= >
 <label class=control-label for=field_99a9d53f-bc16-428f-8d09-a237c733995d>
 <strong class=required>
-<select class=form-control name=field_99a9d53f-bc16-428f-8d09-a237c733995d id=field_99a9d53f-bc16-428f-8d09-a237c733995d value=ut>
-<option value=----military---- >
-<option value=aa>
-<option value=ae>
-<option value=ap>
+<select class=form-control name=field_99a9d53f-bc16-428f-8d09-a237c733995d id=field_99a9d53f-bc16-428f-8d09-a237c733995d value=UT>
+<option value=----Military---- >
+<option value=AA>
+<option value=AE>
+<option value=AP>
 <option value= >
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut selected=selected>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT selected=selected>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
 <label class=control-label for=field_46120286-e428-43a6-b615-8c2d10c7b85c>
 <strong class=required>
 <input type=text class=form-control name=field_46120286-e428-43a6-b615-8c2d10c7b85c id=field_46120286-e428-43a6-b615-8c2d10c7b85c value= >
@@ -84,37 +84,37 @@
 <strong class=required>
 <select class=form-control name=field_7572e5ca-9879-4ab3-9c06-24514d6b57f4 id=field_7572e5ca-9879-4ab3-9c06-24514d6b57f4 value=>
 <option value=>
-<option value=agriculture & forestry>
-<option value=appropriations>
-<option value=banking>
-<option value=boy scout letter>
-<option value=budget>
-<option value=education>
-<option value=energy>
-<option value=environment>
-<option value=gun rights>
-<option value=healthcare reform>
-<option value=immigration/border security>
-<option value=indian affairs (incl.gaming, sovereignty, health, housing, etc.)>
-<option value=judiciary (judicial nominations)>
-<option value=labor/federal employees/pensions (minimum wage)>
-<option value=anti-terrorism>
-<option value=public lands (anwr, otero mesa, etc.)>
-<option value=small business/economic development>
-<option value=social security>
-<option value=internet issues>
-<option value=trade (nafta, cafta, spp, etc.)>
-<option value=transportation>
-<option value=religious / human rights>
-<option value=nasa>
-<option value=military issues>
+<option value=Agriculture & Forestry>
+<option value=Appropriations>
+<option value=Banking>
+<option value=Boy Scout Letter>
+<option value=Budget>
+<option value=Education>
+<option value=Energy>
+<option value=Environment>
+<option value=Gun Rights>
+<option value=Healthcare Reform>
+<option value=Immigration/Border Security>
+<option value=Indian Affairs (incl.gaming, sovereignty, health, housing, etc.)>
+<option value=Judiciary (judicial nominations)>
+<option value=Labor/Federal Employees/Pensions (minimum wage)>
+<option value=Anti-Terrorism>
+<option value=Public Lands (ANWR, Otero Mesa, etc.)>
+<option value=Small Business/Economic Development>
+<option value=Social Security>
+<option value=Internet Issues>
+<option value=Trade (NAFTA, CAFTA, SPP, etc.)>
+<option value=Transportation>
+<option value=Religious / Human Rights>
+<option value=NASA>
+<option value=Military Issues>
 <label class=control-label for=field_f346ae03-8294-4f38-b762-fce94ed239af>
 <strong class=required>
 <textarea name=field_f346ae03-8294-4f38-b762-fce94ed239af class=form-control id=field_f346ae03-8294-4f38-b762-fce94ed239af >
 <span class=control-label>
 <strong class=required>
 <label for=field_e5d28fe4-5b68-4619-9940-81168686475d_1>
-<input type=radio name=field_e5d28fe4-5b68-4619-9940-81168686475d id=field_e5d28fe4-5b68-4619-9940-81168686475d_1 value=no checked=checked >
+<input type=radio name=field_e5d28fe4-5b68-4619-9940-81168686475d id=field_e5d28fe4-5b68-4619-9940-81168686475d_1 value=No checked=checked >
 <label for=field_e5d28fe4-5b68-4619-9940-81168686475d_2>
-<input type=radio name=field_e5d28fe4-5b68-4619-9940-81168686475d id=field_e5d28fe4-5b68-4619-9940-81168686475d_2 value=yes >
-<input type=submit class=btn btn-primary value=submit >
+<input type=radio name=field_e5d28fe4-5b68-4619-9940-81168686475d id=field_e5d28fe4-5b68-4619-9940-81168686475d_2 value=Yes >
+<input type=submit class=btn btn-primary value=Submit >

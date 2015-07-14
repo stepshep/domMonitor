@@ -1,4 +1,4 @@
-<form name=contact id=contactform class=zipform onsubmit=mm_validateform(required-prefix,prefix,r,required-first,first name,r,required-last,last name,r,required-address,street address,r,required-city,city,r,required-email,email,risemail,required-issue,issue,r,required-message,message,r);return document.mm_returnvalue action=/contact.aspx method=post>
+<form name=contact id=contactForm class=zipform onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,required-issue,Issue,R,required-message,Message,R);return document.MM_returnValue action=/contact.aspx method=post>
 <table align=center cellspacing=2 cellpadding=0>
 <tbody>
 <td align=right>
@@ -6,11 +6,11 @@
 <tbody>
 <small>
 <select name=required-prefix>
-<option selected=selected value=mr.>
-<option value=ms.>
-<option value=mrs.>
-<option value=mr. &amp; mrs.>
-<option value=dr.>
+<option selected=selected value=Mr.>
+<option value=Ms.>
+<option value=Mrs.>
+<option value=Mr. &amp; Mrs.>
+<option value=Dr.>
 <input name=required-first type=text size=12 maxlength=90 >
 <input name=required-last type=text size=15 maxlength=90 >
 <input name=suffix type=text size=10 maxlength=90 >
@@ -28,56 +28,56 @@
 <td align=right>
 <select name=required-issue size=1>
 <option selected=selected>
-<option value=adoption>
-<option value=ag>
-<option value=an>
-<option value=appr>
-<option value=art>
-<option value=bank>
-<option value=bud>
-<option value=camp>
-<option value=civrig>
-<option value=crm>
-<option value=def>
-<option value=econ>
-<option value=ed>
-<option value=en>
-<option value=env>
-<option value=eth>
-<option value=fema>
-<option value=gen>
-<option value=gov>
-<option value=he>
-<option value=hom>
-<option value=hud>
-<option value=im>
-<option value=insr>
-<option value=int>
-<option value=int.pr>
-<option value=jud>
-<option value=jud-gun control>
-<option value=lab>
-<option value=lgbt>
-<option value=mcaid>
-<option value=medicare>
-<option value=rr>
-<option value=sb>
-<option value=sci>
-<option value=space>
-<option value=ss>
-<option value=tax>
-<option value=tel>
-<option value=tra>
-<option value=travel>
-<option value=trde>
-<option value=vet>
-<option value=wel>
-<option value=womens issues>
+<option value=ADOPTION>
+<option value=AG>
+<option value=AN>
+<option value=APPR>
+<option value=ART>
+<option value=BANK>
+<option value=BUD>
+<option value=CAMP>
+<option value=CIVRIG>
+<option value=CRM>
+<option value=DEF>
+<option value=ECON>
+<option value=ED>
+<option value=EN>
+<option value=ENV>
+<option value=ETH>
+<option value=FEMA>
+<option value=GEN>
+<option value=GOV>
+<option value=HE>
+<option value=HOM>
+<option value=HUD>
+<option value=IM>
+<option value=INSR>
+<option value=INT>
+<option value=INT.PR>
+<option value=JUD>
+<option value=JUD-GUN CONTROL>
+<option value=LAB>
+<option value=LGBT>
+<option value=MCAID>
+<option value=MEDICARE>
+<option value=RR>
+<option value=SB>
+<option value=SCI>
+<option value=SPACE>
+<option value=SS>
+<option value=TAX>
+<option value=TEL>
+<option value=TRA>
+<option value=TRAVEL>
+<option value=TRDE>
+<option value=VET>
+<option value=WEL>
+<option value=WOMENS ISSUES>
 <td align=right valign=top>
 <textarea name=required-message rows=15 cols=60>
 <td align=right valign=top>
 <input name=subscribe type=checkbox value=subscribe >
 <td colspan=2>
 <center>
-<input type=submit value=send email >
-<input type=reset value=reset >
+<input type=submit value=Send Email >
+<input type=reset value=Reset >

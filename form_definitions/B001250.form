@@ -87,29 +87,29 @@
 <td align=right>
 <span style=text-decoration: underline;>
 <select size=1 name=required-issue required=required>
-<option value=webag selected=selected>
-<option value=webbud>
-<option value=webcmrc>
-<option value=webcrime>
-<option value=webdef>
-<option value=webed>
-<option value=weben>
-<option value=webenv>
-<option value=webhea>
-<option value=webhud>
-<option value=webimm>
-<option value=webintl>
-<option value=webiraq>
-<option value=webjud>
-<option value=weblab>
-<option value=webmisc>
-<option value=websci>
-<option value=webssa>
-<option value=webtax>
-<option value=webtran>
-<option value=webtrd>
-<option value=webvet>
-<option value=webwelf>
+<option value=webAg selected=selected>
+<option value=webBud>
+<option value=webCMRC>
+<option value=webCrime>
+<option value=webDef>
+<option value=webEd>
+<option value=webEN>
+<option value=webEnv>
+<option value=webHea>
+<option value=webHud>
+<option value=webIMM>
+<option value=webIntl>
+<option value=webIraq>
+<option value=webJud>
+<option value=webLab>
+<option value=webMisc>
+<option value=webSci>
+<option value=webSSA>
+<option value=webTax>
+<option value=webTran>
+<option value=webTrd>
+<option value=webVet>
+<option value=webWelf>
 <td colspan=2 align=left valign=top>
 <span style=text-decoration: underline;>
 <textarea name=required-message rows=8 cols=30 style=width: 95%; required=required>
@@ -120,5 +120,5 @@
 <input type=checkbox name=subscribe value=subscribe >
 <td colspan=2>
 <center>
-<input value=send email type=submit >
-<input value=reset type=reset >
+<input value=Send Email type=submit >
+<input value=Reset type=reset >

@@ -1,19 +1,19 @@
-<form action=http://indianahousedemocrats.org/contact-linda-lawson?chronoform=lawson1&event=submit method=post name=lawson1 id=chronoform-lawson1 class=chronoform form-horizontal>
+<form action=http://indianahousedemocrats.org/contact-linda-lawson?chronoform=Lawson1&event=submit method=post name=Lawson1 id=chronoform-Lawson1 class=chronoform form-horizontal>
 <h1 class=title>
 <label for=text1 class=control-label gcore-label-left>
-<input name=name id=text1 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=Name id=text1 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=text2 class=control-label gcore-label-left>
-<input name=streetaddress id=text2 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=StreetAddress id=text2 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=text3 class=control-label gcore-label-left>
-<input name=city id=text3 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=City id=text3 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=text4 class=control-label gcore-label-left>
-<input name=zip id=text4 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=Zip id=text4 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=text5 class=control-label gcore-label-left>
-<input name=phone id=text5 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=Phone id=text5 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=text6 class=control-label gcore-label-left>
-<input name=email id=text6 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=Email id=text6 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=text10 class=control-label gcore-label-left>
-<input name=subject id=text10 value= placeholder= maxlength= size= class=form-control a title= style= data-inputmask= data-load-state= data-tooltip= type=text >
+<input name=Subject id=text10 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >
 <label for=textarea8 class=control-label gcore-label-left>
-<textarea name=message id=textarea8 placeholder= rows=3 cols=40 class=form-control a title= style= data-wysiwyg=0 data-load-state= data-tooltip=>
-<input name=button9 id=button9 type=submit value=submit class=form-control a style= data-load-state= >
+<textarea name=Message id=textarea8 placeholder= rows=3 cols=40 class=form-control A title= style= data-wysiwyg=0 data-load-state= data-tooltip=>
+<input name=button9 id=button9 type=submit value=Submit class=form-control A style= data-load-state= >

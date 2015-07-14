@@ -134,3 +134,6 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <small>
 <u>
 <small>
+<form action="http://search.house.gov/htbin/search" method="post" target="_blank" >
+<input type="text"  name="q"  onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" title="Search" size="15" maxlength="255" class="searchfield" style="margin-top:3px; height:18px;"  >
+<input name="submit" type="submit" value="Search">

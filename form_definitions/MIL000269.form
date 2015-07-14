@@ -1,6 +1,6 @@
-<input type=text name=32156-name id=32156-name value= placeholder=name: class=text>
-<input type=text name=32156-street-address id=32156-street-address value= placeholder=street address: class=text>
-<input type=text name=32156-city id=32156-city value= placeholder=city: class=text>
+<input type=text name=32156-name id=32156-name value= placeholder=Name: class=text>
+<input type=text name=32156-street-address id=32156-street-address value= placeholder=Street Address: class=text>
+<input type=text name=32156-city id=32156-city value= placeholder=City: class=text>
 <label for=32156 class=select>
 <select name=32156 id=32156 value= class=select>
 <option>
@@ -54,11 +54,11 @@
 <option>
 <option>
 <option>
-<input type=text name=32156-zip id=32156-zip value= placeholder=zip: class=text>
-<input type=text name=32156-email id=32156-email value= placeholder=email: class=text>
-<input type=text name=32156-phone-number id=32156-phone-number value= placeholder=phone number: class=text>
-<input type=checkbox name=32156-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=yes class=checkbox  >
+<input type=text name=32156-zip id=32156-zip value= placeholder=ZIP: class=text>
+<input type=text name=32156-email id=32156-email value= placeholder=Email: class=text>
+<input type=text name=32156-phone-number id=32156-phone-number value= placeholder=Phone Number: class=text>
+<input type=checkbox name=32156-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=Yes class=checkbox  >
 <label for=32156-i-would-like-my-email-added-to-the-district-newsletter-mailing-list class=checkbox>
-<textarea name=32156-message id=contact-form-comment-32156-message placeholder=message: rows=14>
-<input type=submit value=send class=churchope_button>
+<textarea name=32156-message id=contact-form-comment-32156-message placeholder=Message: rows=14>
+<input type=submit value=Send class=churchope_button>
 <p>

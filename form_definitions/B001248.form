@@ -1,4 +1,4 @@
-<form onsubmit=mm_validateform(required-prefix,prefix,r,required-first,first name,r,required-last,last name,r,required-address,street address,r,required-city,city,r,required-state,state,r,required-email,email,risemail,zip5,zip code,r,required-issue,issue,r);return document.mm_returnvalue method=post action=/submit-contact.aspx>
+<form onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-state,State,R,required-email,Email,RisEmail,zip5,Zip Code,R,required-issue,Issue,R);return document.MM_returnValue method=post action=/submit-contact.aspx>
 <table style=background-color: #ffffff; border=0 cellspacing=0 cellpadding=0>
 <tbody>
 <td colspan=2>
@@ -33,7 +33,7 @@
 <span style=font-size: 16px;>
 <span style=color: #ff0000;>
 <select name=required-state>
-<option selected=true value=tx>
+<option selected=true value=TX>
 <span style=font-size: 16px;>
 <span style=color: #ff0000;>
 <span style=text-decoration: underline;>
@@ -51,52 +51,52 @@
 <span style=font-size: 16px;>
 <textarea rows=12 cols=50 name=required-message>
 <td colspan=2 align=center>
-<input type=checkbox value=subscribe name=subscribe>
+<input type=checkbox value=Subscribe name=Subscribe>
 <tr valign=top align=center>
 <td valign=top>
 <td valign=top align=left>
 <table>
 <tbody>
 <td colspan=2>
-<input type=checkbox name=abortion value=web.abortion>
-<input type=checkbox name=agriculture value=web.agriculture>
-<input type=checkbox name=animalwelfare value=web.animal>
-<input type=checkbox name=armedservices value=web.armedservices>
-<input type=checkbox name=artsandhumanities value=web.arts>
-<input type=checkbox name=budget value=web.budget>
-<input type=checkbox name=civilrights value=web.civilrights>
-<input type=checkbox name=consumeraffairs value=web.consumer>
-<input type=checkbox name=crime value=web.crime>
-<input type=checkbox name=economyandjobs value=web.economy>
-<input type=checkbox name=education value=web.education>
-<input type=checkbox name=elections value=web.election>
-<input type=checkbox name=energy value=web.energy>
-<input type=checkbox name=environment value=web.environment>
-<input type=checkbox name=ethics value=web.ethics>
-<input type=checkbox name=familyissues value=web.family>
-<input type=checkbox name=financialservices value=web.financial>
-<input type=checkbox name=foreignaffairs value=web.foreign>
+<input type=checkbox name=Abortion value=web.abortion>
+<input type=checkbox name=Agriculture value=web.agriculture>
+<input type=checkbox name=AnimalWelfare value=web.animal>
+<input type=checkbox name=ArmedServices value=web.armedservices>
+<input type=checkbox name=ArtsandHumanities value=web.arts>
+<input type=checkbox name=Budget value=web.budget>
+<input type=checkbox name=CivilRights value=web.civilrights>
+<input type=checkbox name=ConsumerAffairs value=web.consumer>
+<input type=checkbox name=Crime value=web.crime>
+<input type=checkbox name=EconomyandJobs value=web.economy>
+<input type=checkbox name=Education value=web.education>
+<input type=checkbox name=Elections value=web.election>
+<input type=checkbox name=Energy value=web.energy>
+<input type=checkbox name=Environment value=web.environment>
+<input type=checkbox name=Ethics value=web.ethics>
+<input type=checkbox name=FamilyIssues value=web.family>
+<input type=checkbox name=FinancialServices value=web.financial>
+<input type=checkbox name=ForeignAffairs value=web.foreign>
 <td valign=top>
-<input type=checkbox name=governmentreform value=web.governmentreform>
-<input type=checkbox name=gunrights value=web.gun>
-<input type=checkbox name=health value=web.health>
-<input type=checkbox name=homelandsecurity value=web.homeland>
-<input type=checkbox name=housingandurbandevelopment value=web.housing>
-<input type=checkbox name=humanservices value=web.humanservices>
-<input type=checkbox name=immigration value=web.immigration>
-<input type=checkbox name=intelligence value=web.intelligence>
-<input type=checkbox name=judiciary value=web.judiciary>
-<input type=checkbox name=labor value=web.labor>
-<input type=checkbox name=medicaid value=web.medicare>
-<input type=checkbox name=medicare value=web.medicaid>
-<input type=checkbox name=smallbusiness value=web.smallbusiness>
-<input type=checkbox name=socialsecurity value=web.socialsecurity>
-<input type=checkbox name=taxes value=web.taxes>
-<input type=checkbox name=trade value=web.trade>
-<input type=checkbox name=transportation value=web.transportation>
-<input type=checkbox name=veterans value=web.veterans>
+<input type=checkbox name=GovernmentReform value=web.governmentreform>
+<input type=checkbox name=GunRights value=web.gun>
+<input type=checkbox name=Health value=web.health>
+<input type=checkbox name=HomelandSecurity value=web.homeland>
+<input type=checkbox name=HousingandUrbanDevelopment value=web.housing>
+<input type=checkbox name=HumanServices value=web.humanservices>
+<input type=checkbox name=Immigration value=web.immigration>
+<input type=checkbox name=Intelligence value=web.intelligence>
+<input type=checkbox name=Judiciary value=web.judiciary>
+<input type=checkbox name=Labor value=web.labor>
+<input type=checkbox name=Medicaid value=web.medicare>
+<input type=checkbox name=Medicare value=web.medicaid>
+<input type=checkbox name=SmallBusiness value=web.smallbusiness>
+<input type=checkbox name=SocialSecurity value=web.socialsecurity>
+<input type=checkbox name=Taxes value=web.taxes>
+<input type=checkbox name=Trade value=web.trade>
+<input type=checkbox name=Transportation value=web.transportation>
+<input type=checkbox name=Veterans value=web.veterans>
 <td colspan=2>
 <center>
-<input value=send email type=submit>
-<input value=reset type=reset>
+<input value=Send Email type=submit>
+<input value=Reset type=reset>
 <td valign=top colspan=2>

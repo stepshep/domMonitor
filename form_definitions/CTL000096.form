@@ -1,3 +1,6 @@
+<form method="get" action="http://www.google.com/search">
+<input type="text" name="q" size="25" maxlength="255" value="Site Search"  style="font-family:Arial, Helvetica, sans-serif; font-size:14px; background-color:#C0C6DD" >
+<input name="btnG" type="submit" class="gobutton" value="GO" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; background-color:#C0C6DD; height: 1.8em;" >
 <form action="feedout.php" method="post" name="Contact" id="Contact">
 <?php
 $ipi = getenv("REMOTE_ADDR"); 
@@ -31,3 +34,21 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <input name="EmailUpdates" id="EmailUpdates" type="checkbox" value="yes">
 <p>
 <input type="submit" value="Submit">
+<form action="emailup.php" method="post" name="EmailUp" id="EmailUp">
+<?php
+$ipi = getenv("REMOTE_ADDR"); 
+$httprefi = getenv ("HTTP_REFERER");
+$httpagenti = getenv ("HTTP_USER_AGENT");
+?>
+<fieldset>
+<legend>
+<p>
+<label for="firstname">
+<input name="firstname" type="text" id="firstname" size="28">
+<label for="lastname">
+<input name="lastname" type="text" id="lastname" size="28">
+<label for="visitormail">
+<input name="visitormail" type="email" required="required" id="visitormail" size="28">
+<label for="zip">
+<input name="zip" type="text" required="required" id="zip" size="10">
+<input type="submit" value="Submit" >

@@ -1,3 +1,7 @@
+<form method="GET" action="http://www.maryland.gov/pages/search.aspx">
+<input type="text" id="searchInputBox" name="q" class="mdgov_searchInputBox"
+                                                               value="Search" onblur="if(this.value=='')this.value='Search';"
+                                                               onfocus="if(this.value=='Search')this.value='';" >
 <form class="Contact topLabel" name="form1" method="post">
 <label class="desc" id="title2" for="Field2">
 <input id="Prefix" 

@@ -1,3 +1,7 @@
+<form method="get" action="">
+<label id="searchLabel" for="searchInput">
+<input id="searchInput" type="text" name="q" value="" >
+<input id="searchSubmit" type="submit" value="Go" >
 <form method="post" class="uniForm" action="">
 <p>
 <hr >

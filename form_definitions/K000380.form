@@ -10,7 +10,7 @@
 <label class=gfield_label for=input_6_1>
 <span class=gfield_required>
 <input name=input_1 id=input_6_1 type=text value=48502 class=small tabindex=1>
-<input type=button id=gform_next_button_6_2 class=gform_next_button button value=go to next step tabindex=2 onclick=jquery(&quot;#gform_target_page_number_6&quot;).val(&quot;2&quot;);  jquery(&quot;#gform_6&quot;).trigger(&quot;submit&quot;,[true]); >
+<input type=button id=gform_next_button_6_2 class=gform_next_button button value=Go To Next Step tabindex=2 onclick=jQuery(&quot;#gform_target_page_number_6&quot;).val(&quot;2&quot;);  jQuery(&quot;#gform_6&quot;).trigger(&quot;submit&quot;,[true]); >
 <ul id=gform_fields_6_2 class=gform_fields top_label form_sublabel_below description_above>
 <li id=field_6_3 class=gfield gfield_contains_required field_sublabel_below field_description_above>
 <label class=gfield_label for=input_6_3_2>
@@ -54,13 +54,13 @@
 <label class=gfield_label>
 <ul class=gfield_radio id=input_6_7>
 <li class=gchoice_6_7_0>
-<input name=input_7 type=radio value=voice checked=checked id=choice_6_7_0 tabindex=14>
+<input name=input_7 type=radio value=Voice checked=checked id=choice_6_7_0 tabindex=14>
 <label for=choice_6_7_0 id=label_6_7_0>
 <li class=gchoice_6_7_1>
-<input name=input_7 type=radio value=vp id=choice_6_7_1 tabindex=15>
+<input name=input_7 type=radio value=VP id=choice_6_7_1 tabindex=15>
 <label for=choice_6_7_1 id=label_6_7_1>
 <li class=gchoice_6_7_2>
-<input name=input_7 type=radio value=ttd id=choice_6_7_2 tabindex=16>
+<input name=input_7 type=radio value=TTD id=choice_6_7_2 tabindex=16>
 <label for=choice_6_7_2 id=label_6_7_2>
 <li id=field_6_8 class=gfield gsection field_sublabel_below field_description_above>
 <h2 class=gsection_title>
@@ -68,33 +68,33 @@
 <label class=gfield_label for=input_6_9>
 <select name=input_9 id=input_6_9 class=medium gfield_select tabindex=17>
 <option value=>
-<option value=agra>
-<option value=an>
-<option value=bank>
-<option value=def>
-<option value=edu>
-<option value=cfr>
-<option value=env>
-<option value=foreign>
-<option value=gun>
-<option value=hea>
-<option value=lab>
-<option value=post>
-<option value=soc>
-<option value=ssec>
-<option value=tax>
-<option value=tra>
-<option value=vet>
-<option value=women>
+<option value=AGRA>
+<option value=AN>
+<option value=BANK>
+<option value=DEF>
+<option value=EDU>
+<option value=CFR>
+<option value=ENV>
+<option value=FOREIGN>
+<option value=GUN>
+<option value=HEA>
+<option value=LAB>
+<option value=POST>
+<option value=SOC>
+<option value=SSEC>
+<option value=TAX>
+<option value=TRA>
+<option value=VET>
+<option value=WOMEN>
 <li id=field_6_10 class=gfield field_sublabel_below field_description_above>
 <label class=gfield_label for=input_6_10>
 <select name=input_10 id=input_6_10 class=medium gfield_select tabindex=18>
 <option value=>
-<option value=tour>
-<option value=flag>
-<option value=fed-agency>
-<option value=tribute>
-<option value=fed>
+<option value=TOUR>
+<option value=FLAG>
+<option value=FED-AGENCY>
+<option value=TRIBUTE>
+<option value=FED>
 <li id=field_6_11 class=gfield gfield_contains_required field_sublabel_below field_description_above>
 <label class=gfield_label for=input_6_11>
 <span class=gfield_required>
@@ -107,7 +107,7 @@
 <label class=gfield_label>
 <ul class=gfield_checkbox id=input_6_13>
 <li class=gchoice_6_13_1>
-<input name=input_13.1 type=checkbox value=i would like to subscribe to representative kildees newsletter id=choice_6_13_1 tabindex=21>
+<input name=input_13.1 type=checkbox value=I would like to subscribe to Representative Kildees newsletter id=choice_6_13_1 tabindex=21>
 <label for=choice_6_13_1 id=label_6_13_1>
-<input type=button id=gform_previous_button_6 class=gform_previous_button button value=previous tabindex=22 onclick=jquery(&quot;#gform_target_page_number_6&quot;).val(&quot;1&quot;);  jquery(&quot;#gform_6&quot;).trigger(&quot;submit&quot;,[true]); >
-<input type=submit id=gform_submit_button_6 class=gform_button button value=send email tabindex=23 onclick=if(window[&quot;gf_submitting_6&quot;]){return false;}  window[&quot;gf_submitting_6&quot;]=true;  >
+<input type=button id=gform_previous_button_6 class=gform_previous_button button value=Previous tabindex=22 onclick=jQuery(&quot;#gform_target_page_number_6&quot;).val(&quot;1&quot;);  jQuery(&quot;#gform_6&quot;).trigger(&quot;submit&quot;,[true]); >
+<input type=submit id=gform_submit_button_6 class=gform_button button value=Send Email tabindex=23 onclick=if(window[&quot;gf_submitting_6&quot;]){return false;}  window[&quot;gf_submitting_6&quot;]=true;  >

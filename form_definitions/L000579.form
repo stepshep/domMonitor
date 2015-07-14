@@ -10,22 +10,22 @@
 <input type=text required=required name=required-last size=15 maxlength=90>
 <select name=suffix>
 <option>
-<option value=jr.>
-<option value=sr.>
-<option value=iii>
-<option value=iv>
-<option value=ret.>
-<option value=md>
-<option value=phd>
-<option value=rn>
-<option value=jd>
-<option value=dvm>
+<option value=Jr.>
+<option value=Sr.>
+<option value=III>
+<option value=IV>
+<option value=Ret.>
+<option value=MD>
+<option value=PhD>
+<option value=RN>
+<option value=JD>
+<option value=DVM>
 <td align=right>
 <input type=text required=required name=required-address size=60 maxlength=190>
 <td align=right>
 <input type=text required=required name=required-city maxlength=45>
 <select required=required name=required-state>
-<option value=ca selected=true>
+<option value=CA selected=true>
 <input type=text required=required name=zip5 size=5>
 <input type=text name=zip4 size=4 maxlength=4>
 <span style=font-size: 13px;>
@@ -39,42 +39,42 @@
 <td align=right>
 <select id=subject size=1 name=required-issue>
 <option>
-<option value=abor>
-<option value=agr>
-<option value=animal>
-<option value=bankfin>
-<option value=bud>
-<option value=civil>
-<option value=crime>
-<option value=def>
-<option value=econ>
-<option value=edu>
-<option value=elect>
-<option value=ene>
-<option value=env>
-<option value=fedemp>
-<option value=hea>
-<option value=hom>
-<option value=hud>
-<option value=human>
-<option value=imm>
-<option value=int>
-<option value=lab>
-<option value=lgbt>
-<option value=medic>
-<option value=post>
-<option value=scitech>
-<option value=sbiz>
-<option value=ssec>
-<option value=tax>
-<option value=tel>
-<option value=tra>
-<option value=trade>
-<option value=vet>
-<option value=wel>
-<option value=women>
+<option value=ABOR>
+<option value=AGR>
+<option value=ANIMAL>
+<option value=BANKFIN>
+<option value=BUD>
+<option value=CIVIL>
+<option value=CRIME>
+<option value=DEF>
+<option value=ECON>
+<option value=EDU>
+<option value=ELECT>
+<option value=ENE>
+<option value=ENV>
+<option value=FEDEMP>
+<option value=HEA>
+<option value=HOM>
+<option value=HUD>
+<option value=HUMAN>
+<option value=IMM>
+<option value=INT>
+<option value=LAB>
+<option value=LGBT>
+<option value=MEDIC>
+<option value=POST>
+<option value=SCITECH>
+<option value=SBIZ>
+<option value=SSEC>
+<option value=TAX>
+<option value=TEL>
+<option value=TRA>
+<option value=TRADE>
+<option value=VET>
+<option value=WEL>
+<option value=WOMEN>
 <td align=right>
-<input type=text size=60 maxlength=100 required=required name=required-subject title=subject>
+<input type=text size=60 maxlength=100 required=required name=required-subject title=Subject>
 <td valign=top align=right>
 <textarea required=required name=required-message cols=60 rows=15>
 <td valign=top align=right>
@@ -83,5 +83,5 @@
 <td colspan=2>
 <td colspan=2>
 <center>
-<input type=submit value=send email>
-<input type=reset value=reset>
+<input type=submit value=Send Email>
+<input type=reset value=Reset>

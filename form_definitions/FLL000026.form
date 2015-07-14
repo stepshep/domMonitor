@@ -1,9 +1,9 @@
-<form action=/_email class=form-horizontal data-ajax=true data-ajax-method=post data-ajax-mode=replace data-ajax-update=#emailform-modal id=update-emailform method=post novalidate=novalidate>
+<form action=/_Email class=form-horizontal data-ajax=true data-ajax-method=Post data-ajax-mode=replace data-ajax-update=#emailform-modal id=update-emailform method=post novalidate=novalidate>
 <h1 id=top>
 <span class=required>
-<label for=topic class=control-label>
+<label for=Topic class=control-label>
 <span class=required>
-<select data-val=true data-val-required=the topic field is required. data-validation-required-message=the topic field is required. id=topic name=topic required=required class=valid>
+<select data-val=true data-val-required=The Topic field is required. data-validation-required-message=The Topic field is required. id=Topic name=Topic required=required class=valid>
 <option value=>
 <option value=26>
 <option value=1>
@@ -14,126 +14,124 @@
 <option value=5>
 <option value=0>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=topic data-valmsg-replace=true>
-<label for=comment class=control-label>
+<span class=field-validation-valid data-valmsg-for=Topic data-valmsg-replace=true>
+<label for=Comment class=control-label>
 <span class=required>
-<textarea class=input-xxlarge valid cols=20 data-val=true data-val-length=you cannot exceed 4,000 characters. data-val-length-max=4000 data-val-required=the your comment or question field is required. data-validation-required-message=the your comment or question field is required. id=comment name=comment required=required rows=10>
-<p id=comment_countdown_dec style=>
-<span id=comment_countdown>
+<textarea class=input-xxlarge valid cols=20 data-val=true data-val-length=You cannot exceed 4,000 characters. data-val-length-max=4000 data-val-required=The Your Comment or Question field is required. data-validation-required-message=The Your Comment or Question field is required. id=Comment name=Comment required=required rows=10>
+<p id=Comment_Countdown_Dec style=>
+<span id=Comment_Countdown>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=comment data-valmsg-replace=true>
+<span class=field-validation-valid data-valmsg-for=Comment data-valmsg-replace=true>
 <h2>
 <p>
-<label for=waytorespond class=control-label>
+<label for=WayToRespond class=control-label>
 <span class=required>
-<select data-val=true data-val-required=the preferred response by field is required. data-validation-required-message=the preferred response by field is required. id=waytorespond name=waytorespond required=required class=valid>
+<select data-val=true data-val-required=The Preferred Response by field is required. data-validation-required-message=The Preferred Response by field is required. id=WayToRespond name=WayToRespond required=required class=valid>
 <option selected=selected value=>
-<option value=email>
-<option value=telephone>
-<option value=postal mail>
-<option value=no response needed>
+<option value=Email>
+<option value=Telephone>
+<option value=Postal Mail>
+<option value=No Response Needed>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=waytorespond data-valmsg-replace=true>
-<label for=firstname class=control-label>
+<span class=field-validation-valid data-valmsg-for=WayToRespond data-valmsg-replace=true>
+<label for=FirstName class=control-label>
 <span class=required>
-<input class=input-large valid data-val=true data-val-required=the first name field is required. data-validation-required-message=the first name field is required. id=firstname maxlength=255 name=firstname required=required type=text value=>
+<input class=input-large valid data-val=true data-val-required=The First Name field is required. data-validation-required-message=The First Name field is required. id=FirstName maxlength=255 name=FirstName required=required type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=firstname data-valmsg-replace=true>
-<label for=lastname class=control-label>
+<span class=field-validation-valid data-valmsg-for=FirstName data-valmsg-replace=true>
+<label for=LastName class=control-label>
 <span class=required>
-<input class=input-large valid data-val=true data-val-required=the last name field is required. data-validation-required-message=the last name field is required. id=lastname maxlength=255 name=lastname required=required type=text value=>
+<input class=input-large valid data-val=true data-val-required=The Last Name field is required. data-validation-required-message=The Last Name field is required. id=LastName maxlength=255 name=LastName required=required type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=lastname data-valmsg-replace=true>
-<label for=organization class=control-label>
-<input class=input-large id=organization maxlength=255 name=organization type=text value=>
+<span class=field-validation-valid data-valmsg-for=LastName data-valmsg-replace=true>
+<label for=Organization class=control-label>
+<input class=input-large id=Organization maxlength=255 name=Organization type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=organization data-valmsg-replace=true>
-<label for=emailaddress class=control-label>
+<span class=field-validation-valid data-valmsg-for=Organization data-valmsg-replace=true>
+<label for=EmailAddress class=control-label>
 <span class=required>
-<input class=input-large valid data-val=true data-val-email=not a valid email address data-val-required=the email address field is required. data-validation-required-message=the email address field is required. id=emailaddress maxlength=255 name=emailaddress required=required type=text value=>
+<input class=input-large valid data-val=true data-val-email=Not a valid email address data-val-required=The Email Address field is required. data-validation-required-message=The Email Address field is required. id=EmailAddress maxlength=255 name=EmailAddress required=required type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=emailaddress data-valmsg-replace=true>
-<label for=mailingaddress class=control-label>
-<input class=input-large valid id=mailingaddress maxlength=255 name=mailingaddress type=text value=>
+<span class=field-validation-valid data-valmsg-for=EmailAddress data-valmsg-replace=true>
+<label for=MailingAddress class=control-label>
+<input class=input-large valid id=MailingAddress maxlength=255 name=MailingAddress type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=mailingaddress data-valmsg-replace=true>
-<label for=city class=control-label>
+<span class=field-validation-valid data-valmsg-for=MailingAddress data-valmsg-replace=true>
+<label for=City class=control-label>
 <span class=required>
-<input class=input-large valid data-val=true data-val-required=the city field is required. data-validation-required-message=the city field is required. id=city maxlength=255 name=city required=required type=text value=>
+<input class=input-large valid data-val=true data-val-required=The City field is required. data-validation-required-message=The City field is required. id=City maxlength=255 name=City required=required type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=city data-valmsg-replace=true>
-<label for=state class=control-label>
-<select id=state name=state>
-<option value=al>
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option selected=selected value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
+<span class=field-validation-valid data-valmsg-for=City data-valmsg-replace=true>
+<label for=State class=control-label>
+<select id=State name=State>
+<option value=AL>
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option selected=selected value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=state data-valmsg-replace=true>
-<label for=zip class=control-label>
+<span class=field-validation-valid data-valmsg-for=State data-valmsg-replace=true>
+<label for=Zip class=control-label>
 <span class=required>
-<input class=input-large valid data-val=true data-val-regex=not a valid zip code data-val-regex-pattern=^\d{5}([\-]?\d{4})?$ data-val-required=the zip code field is required. data-validation-required-message=the zip code field is required. id=zip name=zip required=required type=text value=>
+<input class=input-large valid data-val=true data-val-regex=Not a valid zip code data-val-regex-pattern=^\d{5}([\-]?\d{4})?$ data-val-required=The Zip Code field is required. data-validation-required-message=The Zip Code field is required. id=Zip name=Zip required=required type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=zip data-valmsg-replace=true>
-<label for=telephone class=control-label>
-<input class=input-large valid data-val=true data-val-regex=not a valid telephone number data-val-regex-pattern=1?\w*([2-9][0-8][0-9])\w*([2-9][0-9]{2})\w*([0-9]{4})(\se?x?t?(\d*))? id=telephone name=telephone type=text value=>
+<span class=field-validation-valid data-valmsg-for=Zip data-valmsg-replace=true>
+<label for=Telephone class=control-label>
+<input class=input-large valid data-val=true data-val-regex=Not a valid telephone number data-val-regex-pattern=1?\W*([2-9][0-8][0-9])\W*([2-9][0-9]{2})\W*([0-9]{4})(\se?x?t?(\d*))? id=Telephone name=Telephone type=text value=>
 <p class=help-block redtext>
-<span class=field-validation-valid data-valmsg-for=telephone data-valmsg-replace=true>
-<label for=receiveupdates>
-<input id=receiveupdates name=receiveupdates type=checkbox checked=>
+<span class=field-validation-valid data-valmsg-for=Telephone data-valmsg-replace=true>
+<label for=ReceiveUpdates>
+<input id=ReceiveUpdates name=ReceiveUpdates type=checkbox checked=>
 <p>
 <label for=math-test class=control-label>
 <span class=required>
-<input class=input-small data-val=true data-val-remote=please check your math.  your answer was incorrect. data-val-remote-additionalfields=*.mathanswer,*.mathanswerencoded data-val-remote-type=post data-val-remote-url=/validation/validatemathanswer data-val-required=the 47 + eight field is required. data-validation-required-message=the 47 + eight field is required. id=math-test name=mathanswer required=required type=number value=>
 <p class=help-block pad1em-left redtext>
-<span class=field-validation-valid data-valmsg-for=mathanswer data-valmsg-replace=true>
 <p>
-<input type=submit value=send email class=blue buttonbig round left id=submitemailform>
-<input type=reset value=reset id=reset class=blue buttonbig round right>
+<input type=submit value=Send Email class=blue buttonBig round left id=submitEmailForm>
+<input type=reset value=Reset id=reset class=blue buttonBig round right>

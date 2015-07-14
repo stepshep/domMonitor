@@ -1,4 +1,4 @@
-<form id=contactform  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
 <fieldset>
 <legend>
 <ol>
@@ -8,183 +8,183 @@
 <abbr title=required>
 <select name=salutation id=salutation class=validate[required]>
 <option label= value=>
-<option label=mr. value=mr.>
-<option label=ms. value=ms.>
-<option label=mrs. value=mrs.>
-<option label=miss value=miss>
-<option label=mr. and mrs. value=mr. and mrs.>
-<option label=dr. value=dr.>
-<option label=prof. value=prof.>
-<option label=senator value=senator>
-<option label=gov. value=gov.>
-<option label=congressman value=congressman>
-<option label=hon. value=hon.>
-<option label=fr. value=fr.>
-<option label=sister value=sister>
-<option label=rabbi value=rabbi>
-<option label=reverend value=reverend>
-<option label=fleet admiral value=fleet admiral>
-<option label=admiral value=admiral>
-<option label=vice admiral value=vice admiral>
-<option label=rear admiral (upper half) value=rear admiral (upper half)>
-<option label=rear admiral (lower half) value=rear admiral (lower half)>
-<option label=captain value=captain>
-<option label=commander value=commander>
-<option label=lieutenant commander value=lieutenant commander>
-<option label=lieutenant value=lieutenant>
-<option label=lieutenant, junior grade value=lieutenant, junior grade>
-<option label=ensign value=ensign>
-<option label=master chief petty officer of the navy value=master chief petty officer of the navy>
-<option label=master chief petty officer value=master chief petty officer>
-<option label=senior chief petty officer value=senior chief petty officer>
-<option label=chief petty officer value=chief petty officer>
-<option label=petty officer first class value=petty officer first class>
-<option label=petty officer second class value=petty officer second class>
-<option label=petty officer third class value=petty officer third class>
-<option label=seaman value=seaman>
-<option label=seaman apprentice value=seaman apprentice>
-<option label=seaman recruit value=seaman recruit>
-<option label=chief warrant officer value=chief warrant officer>
-<option label=warrant officer value=warrant officer>
-<option label=sgt major of the corps value=sgt major of the corps>
-<option label=sergeant major value=sergeant major>
-<option label=master gunnery sgt value=master gunnery sgt>
-<option label=first sergeant value=first sergeant>
-<option label=master sergeant value=master sergeant>
-<option label=gunnery sergeant value=gunnery sergeant>
-<option label=staff sergeant value=staff sergeant>
-<option label=sergeant value=sergeant>
-<option label=corporal value=corporal>
-<option label=lance corporal value=lance corporal>
-<option label=private first class value=private first class>
-<option label=private value=private>
-<option label=general of the air force value=general of the air force>
-<option label=general value=general>
-<option label=lieutenant general value=lieutenant general>
-<option label=major general value=major general>
-<option label=brigadier general value=brigadier general>
-<option label=colonel value=colonel>
-<option label=lieutenant colonel value=lieutenant colonel>
-<option label=major value=major>
-<option label=captain value=captain>
-<option label=first lieutenant value=first lieutenant>
-<option label=second lieutenant value=second lieutenant>
-<option label=chief master sergeant of the air force value=chief master sergeant of the air force>
-<option label=command  chief master sergeant value=command  chief master sergeant>
-<option label=chief master sergeant value=chief master sergeant>
-<option label=senior master sergeant value=senior master sergeant>
-<option label=technical sergeant value=technical sergeant>
-<option label=senior airman value=senior airman>
-<option label=airman first class value=airman first class>
-<option label=airman value=airman>
-<option label=brother value=brother>
+<option label=Mr. value=Mr.>
+<option label=Ms. value=Ms.>
+<option label=Mrs. value=Mrs.>
+<option label=Miss value=Miss>
+<option label=Mr. and Mrs. value=Mr. and Mrs.>
+<option label=Dr. value=Dr.>
+<option label=Prof. value=Prof.>
+<option label=Senator value=Senator>
+<option label=Gov. value=Gov.>
+<option label=Congressman value=Congressman>
+<option label=Hon. value=Hon.>
+<option label=Fr. value=Fr.>
+<option label=Sister value=Sister>
+<option label=Rabbi value=Rabbi>
+<option label=Reverend value=Reverend>
+<option label=Fleet Admiral value=Fleet Admiral>
+<option label=Admiral value=Admiral>
+<option label=Vice Admiral value=Vice Admiral>
+<option label=Rear Admiral (upper half) value=Rear Admiral (upper half)>
+<option label=Rear Admiral (lower half) value=Rear Admiral (lower half)>
+<option label=Captain value=Captain>
+<option label=Commander value=Commander>
+<option label=Lieutenant Commander value=Lieutenant Commander>
+<option label=Lieutenant value=Lieutenant>
+<option label=Lieutenant, Junior Grade value=Lieutenant, Junior Grade>
+<option label=Ensign value=Ensign>
+<option label=Master Chief Petty Officer of the Navy value=Master Chief Petty Officer of the Navy>
+<option label=Master Chief Petty Officer value=Master Chief Petty Officer>
+<option label=Senior Chief Petty Officer value=Senior Chief Petty Officer>
+<option label=Chief Petty Officer value=Chief Petty Officer>
+<option label=Petty Officer First Class value=Petty Officer First Class>
+<option label=Petty Officer Second Class value=Petty Officer Second Class>
+<option label=Petty Officer Third Class value=Petty Officer Third Class>
+<option label=Seaman value=Seaman>
+<option label=Seaman Apprentice value=Seaman Apprentice>
+<option label=Seaman Recruit value=Seaman Recruit>
+<option label=Chief Warrant Officer value=Chief Warrant Officer>
+<option label=Warrant Officer value=Warrant Officer>
+<option label=Sgt Major Of The Corps value=Sgt Major Of The Corps>
+<option label=Sergeant Major value=Sergeant Major>
+<option label=Master Gunnery Sgt value=Master Gunnery Sgt>
+<option label=First Sergeant value=First Sergeant>
+<option label=Master Sergeant value=Master Sergeant>
+<option label=Gunnery Sergeant value=Gunnery Sergeant>
+<option label=Staff Sergeant value=Staff Sergeant>
+<option label=Sergeant value=Sergeant>
+<option label=Corporal value=Corporal>
+<option label=Lance Corporal value=Lance Corporal>
+<option label=Private First Class value=Private First Class>
+<option label=Private value=Private>
+<option label=General of the Air Force value=General of the Air Force>
+<option label=General value=General>
+<option label=Lieutenant General value=Lieutenant General>
+<option label=Major General value=Major General>
+<option label=Brigadier General value=Brigadier General>
+<option label=Colonel value=Colonel>
+<option label=Lieutenant Colonel value=Lieutenant Colonel>
+<option label=Major value=Major>
+<option label=Captain value=Captain>
+<option label=First Lieutenant value=First Lieutenant>
+<option label=Second Lieutenant value=Second Lieutenant>
+<option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
+<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Chief Master Sergeant value=Chief Master Sergeant>
+<option label=Senior Master Sergeant value=Senior Master Sergeant>
+<option label=Technical Sergeant value=Technical Sergeant>
+<option label=Senior Airman value=Senior Airman>
+<option label=Airman First Class value=Airman First Class>
+<option label=Airman value=Airman>
+<option label=Brother value=Brother>
 <li class=required>
 <label for=contactfname>
-<abbr title=your first name is a required field>
-<input type=text name=fname id=contactfname  class=validate[required,%firstname] >
+<abbr title=Your first name is a required field>
+<input type=text name=fname id=contactfname  class=validate[required,%firstName] >
 <li class=required>
 <label for=contactlname>
-<abbr title=your last name is a required field>
-<input type=text name=lname id=contactlname  class=validate[required,%lastname] >
+<abbr title=Your last name is a required field>
+<input type=text name=lname id=contactlname  class=validate[required,%lastName] >
 <label for=company>
 <input type=text name=company id=company>
 <fieldset>
 <legend>
 <ol>
 <li class=required>
-<label for=mailing_streetaddress1>
-<abbr title=your street address is a required field>
-<input type=text name=mailing_streetaddress1  id=mailing_streetaddress1 class=validate[required] >
-<label for=mailing_streetaddress2>
-<input type=text name=mailing_streetaddress2 id=mailing_streetaddress2 >
+<label for=mailing_streetAddress1>
+<abbr title=Your street address is a required field>
+<input type=text name=mailing_streetAddress1  id=mailing_streetAddress1 class=validate[required] >
+<label for=mailing_streetAddress2>
+<input type=text name=mailing_streetAddress2 id=mailing_streetAddress2 >
 <ul class=col three>
 <li class=required>
 <label for=mailing_city>
-<abbr title=your city is a required field>
+<abbr title=Your city is a required field>
 <input type=text name=mailing_city id=mailing_city  class=validate[required,%city] >
 <li class=required>
 <label for=state>
-<abbr title=your state is a required field>
+<abbr title=Your state is a required field>
 <select name=state id=state>
 <option value=null>
-<option value=ak>
-<option value=al>
-<option value=ar>
-<option value=az>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=dc>
-<option value=de>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=ia>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=ma>
-<option value=md>
-<option value=me>
-<option value=mi>
-<option value=mn>
-<option value=mo>
-<option value=ms>
-<option value=mt>
-<option value=nc>
-<option value=nd>
-<option value=ne>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=nv>
-<option value=ny>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri selected= selected>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=va>
-<option value=vt>
-<option value=wa>
-<option value=wi>
-<option value=wv>
-<option value=wy>
+<option value=AK>
+<option value=AL>
+<option value=AR>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=IA>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=MA>
+<option value=MD>
+<option value=ME>
+<option value=MI>
+<option value=MN>
+<option value=MO>
+<option value=MS>
+<option value=MT>
+<option value=NC>
+<option value=ND>
+<option value=NE>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NV>
+<option value=NY>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI selected= selected>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VA>
+<option value=VT>
+<option value=WA>
+<option value=WI>
+<option value=WV>
+<option value=WY>
 <li class=required>
-<label for=mailing_zipcode>
-<abbr title=your zip code is a required field>
-<input name=mailing_zipcode type=text id=mailing_zipcode  class=validate[required,%zipcode] >
+<label for=mailing_zipCode>
+<abbr title=Your zip code is a required field>
+<input name=mailing_zipCode type=text id=mailing_zipCode  class=validate[required,%zipCode] >
 <li class=required>
 <ul class=col two>
 <li class=required>
 <label for=email_address>
-<abbr title=your e-mail address is a required field>
-<input type=text name=email id=email_address title=e-mail address class=validate[required] validate[email] >
+<abbr title=Your e-mail address is a required field>
+<input type=text name=email id=email_address title=E-mail Address class=validate[required] validate[email] >
 <li class=required>
 <label for=verify_email>
 <abbr>
 <input type=text name=verify_email id=verify_email   class=validate[confirm:email_address] >
 <li class=required>
 <label for=phone_number>
-<abbr title=please enter a valid phone number>
+<abbr title=Please enter a valid Phone Number>
 <input type=text name=phone_number id=phone_number  class=validate[required] validate[phone] >
 <fieldset>
 <legend>
 <ol>
 <li class=required>
 <label for=subject>
-<abbr title=please enter a message topic for your message>
+<abbr title=Please enter a message topic for your message>
 <input type=text name=subject id=subject  class=validate[required]>
 <li class=required>
 <label for=comments>
-<abbr title=please enter your message>
+<abbr title=Please enter your message>
 <textarea id=comments name=comments aria-required=true class=validate[required,%message]>
-<input class=button type=submit id=side-search-btn value=send >
+<input class=button type=submit id=side-search-btn value=Send >

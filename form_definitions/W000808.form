@@ -30,59 +30,59 @@
 <p>
 <label>
 <select name=state id=req_state>
-<option selected=fl value=fl>
-<option value=nc>
-<option value=ak>
-<option value=al>
-<option value=ar>
-<option value=az>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=dc>
-<option value=de>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=ia>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=ma>
-<option value=md>
-<option value=me>
-<option value=mi>
-<option value=mn>
-<option value=mo>
-<option value=ms>
-<option value=mt>
-<option value=nd>
-<option value=ne>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=nv>
-<option value=ny>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=pr>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=va>
-<option value=vt>
-<option value=wa>
-<option value=wi>
-<option value=wv>
-<option value=wy>
+<option selected=FL value=FL>
+<option value=NC>
+<option value=AK>
+<option value=AL>
+<option value=AR>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=IA>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=MA>
+<option value=MD>
+<option value=ME>
+<option value=MI>
+<option value=MN>
+<option value=MO>
+<option value=MS>
+<option value=MT>
+<option value=ND>
+<option value=NE>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NV>
+<option value=NY>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=PR>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VA>
+<option value=VT>
+<option value=WA>
+<option value=WI>
+<option value=WV>
+<option value=WY>
 <p>
 <label>
 <input value=33169 class=zip id=req_zip maxlength=5 name=zipcode type=text>
@@ -98,55 +98,55 @@
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected= value=>
-<option value=cw>
-<option value=grants>
-<option value=milaps>
-<option value=abort>
-<option value=animals>
-<option value=budget>
-<option value=children>
-<option value=civ_lib>
-<option value=civ_rts>
-<option value=congrats>
-<option value=cong_exec>
-<option value=crime>
-<option value=defense>
-<option value=economy>
-<option value=edducation>
-<option value=energy>
-<option value=environment>
-<option value=foreign_afffairs>
-<option value=gun_control>
-<option value=health>
-<option value=homeland_security>
-<option value=immigration>
-<option value=iraq>
-<option value=judiciary>
-<option value=labor>
-<option value=other>
-<option value=pension>
-<option value=sci>
-<option value=small bus>
-<option value=ss>
-<option value=taxes>
-<option value=telecom>
-<option value=thank_you>
-<option value=transpo>
-<option value=trd>
-<option value=vet>
-<option value=welf>
+<option value=CW>
+<option value=GRANTS>
+<option value=MILAPS>
+<option value=ABORT>
+<option value=ANIMALS>
+<option value=BUDGET>
+<option value=CHILDREN>
+<option value=CIV_LIB>
+<option value=CIV_RTS>
+<option value=CONGRATS>
+<option value=CONG_EXEC>
+<option value=CRIME>
+<option value=DEFENSE>
+<option value=ECONOMY>
+<option value=EDDUCATION>
+<option value=ENERGY>
+<option value=ENVIRONMENT>
+<option value=FOREIGN_AFFFAIRS>
+<option value=GUN_CONTROL>
+<option value=HEALTH>
+<option value=HOMELAND_SECURITY>
+<option value=IMMIGRATION>
+<option value=IRAQ>
+<option value=JUDICIARY>
+<option value=LABOR>
+<option value=OTHER>
+<option value=PENSION>
+<option value=SCI>
+<option value=SMALL BUS>
+<option value=SS>
+<option value=TAXES>
+<option value=TELECOM>
+<option value=THANK_YOU>
+<option value=TRANSPO>
+<option value=TRD>
+<option value=VET>
+<option value=WELF>
 <p>
 <label>
 <textarea name=message id=req_message class=message>
 <p>
 <label class=align>
 <span class=align>
-<input type=radio value=y name=aff1>
-<input type=radio value=n name=aff1>
+<input type=radio value=Y name=aff1>
+<input type=radio value=N name=aff1>
 <p>
 <label>
 <select size=1 name=response id=req_response>
 <option selected= value=>
-<option value=no_response_required>
-<option value=yes>
-<input type=submit value=submit id=submitbutton class=form_submit_button>
+<option value=NO_RESPONSE_REQUIRED>
+<option value=Yes>
+<input type=submit value=Submit id=submitButton class=form_submit_button>

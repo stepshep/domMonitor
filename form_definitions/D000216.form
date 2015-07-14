@@ -1,89 +1,104 @@
 <form method=post action=https://forms.house.gov/htbin/formproc/delauro/webforms/contact_form_email_file.txt&display=/webforms/contact_thanks.shtml>
+<SCRIPT language=JavaScript1.2>
 <table border=0 width=50%>
 <td colspan=2>
 <font size=-1 face=verdana>
 <font size=-1 face=verdana>
 <td colspan=2>
 <select name=required-prefix style=width:55>
-<option value=mr.>
-<option value=mrs.>
-<option value=miss>
-<option value=ms.>
-<input type=text name=required-firstname style=width:438>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Miss>
+<option value=Ms.>
+<SCRIPT language=JavaScript1.2>
+<input type=Text name=required-firstname style=width:438>
+<SCRIPT language=JavaScript1.2>
 <td colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<input type=text name=middlename style=width:500>
+<input type=Text name=middlename style=width:500>
+<SCRIPT language=JavaScript1.2>
 <td width=450>
 <font size=-1 face=verdana>
 <td width=57>
 <font size=-1 face=verdana>
 <td width=450>
-<input type=text name=required-lastname style=width:440>
+<input type=Text name=required-lastname style=width:440>
+<SCRIPT language=JavaScript1.2>
 <td width=57>
 <input type=text name=suffix size=5 style=width:45>
+<SCRIPT language=JavaScript1.2>
 <td valign=top colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<textarea name=required-address cols=53 rows=3 wrap=physical style=width:500>
+<textarea name=required-address cols=53 rows=3 wrap=PHYSICAL style=width:500>
+<SCRIPT language=JavaScript1.2>
 <td colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<input type=text name=required-hcity style=width:320>
-<select name=required-hstate  style=width:100>
-<option value=ct selected>
+<input type=Text name=required-hcity style=width:320>
+<SCRIPT language=JavaScript1.2>
+<SELECT NAME=required-hstate  style=width:100>
+<OPTION VALUE=CT SELECTED>
+<SCRIPT language=JavaScript1.2>
 <input type=text name=required-hzip size=5 maxlength=5>
+<SCRIPT language=JavaScript1.2>
 <td colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<input type=text name=phone_home style=width:500>
+<input type=Text name=phone_home style=width:500>
+<SCRIPT language=JavaScript1.2>
 <td colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<input type=text name=required-email style=width:500>
+<input type=Text name=required-email style=width:500>
+<SCRIPT language=JavaScript1.2>
 <td colspan=3>
+<SCRIPT language=JavaScript1.2>
 <td valign=top colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<select name=required-subject>
-<option value=not listed selected>
-<option value=agriculture>
-<option value=animal rights>
-<option value=budget>
-<option value=civil rights>
-<option value=commerce>
-<option value=crime>
-<option value=defense>
-<option value=disability>
-<option value=economy>
-<option value=education>
-<option value=employment>
-<option value=energy>
-<option value=environment>
-<option value=federal issues>
-<option value=foreign affairs>
-<option value=government>
-<option value=gun violence prevention>
-<option value=health care>
-<option value=housing>
-<option value=human rights>
-<option value=immigration>
-<option value=labor>
-<option value=legislation>
-<option value=public lands>
-<option value=social issues>
-<option value=senior citizens>
-<option value=taxes>
-<option value=technology>
-<option value=trade>
-<option value=transportation>
-<option value=veterans>
-<option value=welfare>
+<SELECT NAME=required-subject>
+<OPTION VALUE=Not listed SELECTED>
+<OPTION VALUE=Agriculture>
+<OPTION VALUE=Animal Rights>
+<OPTION VALUE=Budget>
+<OPTION VALUE=Civil Rights>
+<OPTION VALUE=Commerce>
+<OPTION VALUE=Crime>
+<OPTION VALUE=Defense>
+<OPTION VALUE=Disability>
+<OPTION VALUE=Economy>
+<OPTION VALUE=Education>
+<OPTION VALUE=Employment>
+<OPTION VALUE=Energy>
+<OPTION VALUE=Environment>
+<OPTION VALUE=Federal Issues>
+<OPTION VALUE=Foreign Affairs>
+<OPTION VALUE=Government>
+<OPTION VALUE=Gun Violence Prevention>
+<OPTION VALUE=Health Care>
+<OPTION VALUE=Housing>
+<OPTION VALUE=Human Rights>
+<OPTION VALUE=Immigration>
+<OPTION VALUE=Labor>
+<OPTION VALUE=Legislation>
+<OPTION VALUE=Public Lands>
+<OPTION VALUE=Social Issues>
+<OPTION VALUE=Senior Citizens>
+<OPTION VALUE=Taxes>
+<OPTION VALUE=Technology>
+<OPTION VALUE=Trade>
+<OPTION VALUE=Transportation>
+<OPTION VALUE=Veterans>
+<OPTION VALUE=Welfare>
+<SCRIPT language=JavaScript1.2>
 <td valign=top colspan=2>
 <font size=-1 face=verdana>
 <td colspan=2>
-<textarea name=required-comments cols=53 rows=6 wrap=physical style=width:500>
+<textarea name=required-comments cols=53 rows=6 wrap=PHYSICAL style=width:500>
+<SCRIPT language=JavaScript1.2>
 <td colspan=2>
 <td colspan=2>
-<input type=submit name=submit value=submit>
+<input type=submit name=submit value=Submit>
 <font face=verdana size=-2>

@@ -3,14 +3,14 @@
 <legend>
 <fieldset class=inputs>
 <ol>
-<label for=contact_salutation*>
+<label for=contact_Salutation*>
 <select id=contact_salutation name=contact[salutation]>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=dr.>
-<option value=rev.>
-<option value=other>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Dr.>
+<option value=Rev.>
+<option value=Other>
 <li class=string required id=contact_first_name_input>
 <label for=contact_first_name>
 <abbr title=required>
@@ -53,4 +53,4 @@
 <fieldset class=buttons>
 <ol>
 <li class=commit>
-<input class=create id=contact_submit name=commit type=submit value=send message >
+<input class=create id=contact_submit name=commit type=submit value=Send Message >

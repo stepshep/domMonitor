@@ -1,3 +1,7 @@
+<form action="http://www.sasse.senate.gov/public/">
+<label for="search_input">
+<input type="text" id="search_input" name="q" value="">
+<button type="submit">
 <form method="post" id="form_95CD8B31-5184-42D1-B156-FBC53AE06B99">
 <fieldset class="blockLabels">
 <legend>

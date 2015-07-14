@@ -1,15 +1,15 @@
-<form action=/contact  accept-charset=utf-8 method=post id=contact-mail-page>
+<form action=/Contact  accept-charset=UTF-8 method=post id=contact-mail-page>
 <label for=edit-name>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=255 name=name id=edit-name size=60 value= class=form-text required >
 <label for=edit-mail>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=255 name=mail id=edit-mail size=60 value= class=form-text required >
 <label for=edit-subject>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=255 name=subject id=edit-subject size=60 value= class=form-text required >
 <label for=edit-cid>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <select name=cid class=form-select required id=edit-cid >
 <option value=0>
 <option value=11>
@@ -37,11 +37,11 @@
 <option value=131>
 <option value=136>
 <label for=edit-message>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <textarea cols=60 rows=5 name=message id=edit-message  class=form-textarea resizable required>
 <fieldset class=captcha>
 <legend>
 <label for=edit-captcha-response>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text maxlength=128 name=captcha_response id=edit-captcha-response size=15 value= class=form-text required >
-<input type=submit name=op id=edit-submit value=send e-mail  class=form-submit >
+<input type=submit name=op id=edit-submit value=Send e-mail  class=form-submit >

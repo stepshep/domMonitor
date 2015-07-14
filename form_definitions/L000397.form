@@ -18,24 +18,24 @@
 <input maxlength=90 size=15 type=text name=required-last required=required class=>
 <select name=suffix>
 <option>
-<option value=jr.>
-<option value=sr.>
-<option value=iii>
-<option value=iv>
-<option value=ret.>
-<option value=md>
-<option value=phd>
-<option value=rn>
-<option value=jd>
-<option value=dvm>
+<option value=Jr.>
+<option value=Sr.>
+<option value=III>
+<option value=IV>
+<option value=Ret.>
+<option value=MD>
+<option value=PhD>
+<option value=RN>
+<option value=JD>
+<option value=DVM>
 <td align=right>
 <td class=>
 <input maxlength=190 size=60 type=text name=required-address required=required class=>
 <td align=right>
-<td class=        >
+<td class=       >
 <input maxlength=45 type=text name=required-city required=required class=>
 <select name=required-state required=required>
-<option selected=true value=ca>
+<option selected=true value=CA>
 <input type=text size=5 name=zip5 required=required class=>
 <input type=text maxlength=4 size=4 name=zip4 required=required class=>
 <td align=right>
@@ -49,40 +49,40 @@
 <td align=right>
 <select name=required-issue size=1 id=subject>
 <option>
-<option value=agr>
-<option value=anim>
-<option value=arts>
-<option value=fin.bank>
-<option value=bud>
-<option value=const.law>
-<option value=cri.law>
-<option value=def>
-<option value=econ>
-<option value=edu>
-<option value=employ>
-<option value=elec.camp>
-<option value=ene>
-<option value=env>
-<option value=for>
-<option value=hea.care>
-<option value=hom>
-<option value=hou>
-<option value=human rights>
-<option value=imm>
-<option value=ip.pat.copy>
-<option value=jud>
-<option value=nat.res>
-<option value=sci.nasa>
-<option value=sen>
-<option value=soc>
-<option value=tax>
-<option value=tech>
-<option value=tele.int>
-<option value=trd>
-<option value=trn>
-<option value=vet>
-<option value=wom>
-<option value=other>
+<option value=AGR>
+<option value=ANIM>
+<option value=ARTS>
+<option value=FIN.BANK>
+<option value=BUD>
+<option value=CONST.LAW>
+<option value=CRI.LAW>
+<option value=DEF>
+<option value=ECON>
+<option value=EDU>
+<option value=EMPLOY>
+<option value=ELEC.CAMP>
+<option value=ENE>
+<option value=ENV>
+<option value=FOR>
+<option value=HEA.CARE>
+<option value=HOM>
+<option value=HOU>
+<option value=HUMAN RIGHTS>
+<option value=IMM>
+<option value=IP.PAT.COPY>
+<option value=JUD>
+<option value=NAT.RES>
+<option value=SCI.NASA>
+<option value=SEN>
+<option value=SOC>
+<option value=TAX>
+<option value=TECH>
+<option value=TELE.INT>
+<option value=TRD>
+<option value=TRN>
+<option value=VET>
+<option value=WOM>
+<option value=OTHER>
 <td valign=top align=right>
 <td class=>
 <textarea rows=15 cols=60 name=required-message required=required class=>
@@ -92,5 +92,5 @@
 <td colspan=2>
 <td colspan=2>
 <center>
-<input value=send email type=submit>
-<input value=reset type=reset>
+<input value=Send Email type=submit>
+<input value=Reset type=reset>

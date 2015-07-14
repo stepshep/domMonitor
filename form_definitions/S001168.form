@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me-bill.txt%26display%3d/contact/email-me/email-me-bills-thank-you%26nobase%26fpgetver%3d2 class=validate wsbform id=contactform method=post name=contactform>
+<form action=/htbin/formproc/email-me-bill.txt%26display%3D/contact/email-me/email-me-bills-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -38,38 +38,38 @@
 <label for=required-subject>
 <select class=validate[required] id=required-subject name=required-subject style=width:100%; height: 29px;>
 <option value=>
-<option value=agriculture>
-<option value=budget/economy>
-<option value=campaign finance>
-<option value=chesapeake bay>
-<option value=consumer protection>
-<option value=defense/military>
-<option value=education>
-<option value=energy>
-<option value=environment>
-<option value=federal employee issues>
-<option value=foreign affairs>
-<option value=government reform>
-<option value=health>
-<option value=human rights>
-<option value=immigration>
-<option value=judiciary/crime>
-<option value=labor issues>
-<option value=religious freedom>
-<option value=science &amp; tech>
-<option value=small business issues>
-<option value=retirement security>
-<option value=tax>
-<option value=trade>
-<option value=transportation>
-<option value=veterans affairs>
-<option value=wildlife/animal welfare>
-<option value=womens health>
+<option value=Agriculture>
+<option value=Budget/Economy>
+<option value=Campaign Finance>
+<option value=Chesapeake Bay>
+<option value=Consumer Protection>
+<option value=Defense/Military>
+<option value=Education>
+<option value=Energy>
+<option value=Environment>
+<option value=Federal Employee Issues>
+<option value=Foreign Affairs>
+<option value=Government Reform>
+<option value=Health>
+<option value=Human Rights>
+<option value=Immigration>
+<option value=Judiciary/Crime>
+<option value=Labor Issues>
+<option value=Religious Freedom>
+<option value=Science &amp; Tech>
+<option value=Small Business Issues>
+<option value=Retirement Security>
+<option value=Tax>
+<option value=Trade>
+<option value=Transportation>
+<option value=Veterans Affairs>
+<option value=Wildlife/Animal Welfare>
+<option value=Womens Health>
 <label for=required-message>
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
 <input id=response type=checkbox value=yes>
 <label for=response>
-<input id=subscribe name=subscribe type=checkbox value=email.optin>
+<input id=subscribe name=subscribe type=checkbox value=Email.Optin>
 <label class=is-inline for=subscribe>
-<input class=submit id=submit name=submit role=button type=submit value=send email>
+<input class=submit id=submit name=submit role=button type=submit value=Send Email>

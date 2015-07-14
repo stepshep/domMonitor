@@ -1,5 +1,5 @@
-<form name=emailform action=/members/member_emailform.php?mem_id=1170&amp;ls=89 method=post>
-<table cellpadding=0 cellspacing=0 width=100% id=bio>
+<FORM NAME=Emailform ACTION=/members/member_emailform.php?mem_id=1170&amp;ls=89 METHOD=post>
+<table cellPadding=0 cellSpacing=0 width=100% id=bio>
 <td style=vertical-align:top;>
 <td style=vertical-align:top;>
 <hr style=height:2pt;background-color:#3353bb;color:#3353bb; >
@@ -26,71 +26,71 @@
 <font style=color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail colspan=3>
 <td style=vertical-align:top; class=header align=right>
-<label for=form_title>
+<LABEL FOR=form_title>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
 <select  name=form_title>
 <option value=>
-<option value=mr.>
-<option value=miss>
-<option value=ms.>
-<option value=mrs.>
-<option value=mr. and mrs.>
+<option value=Mr.>
+<option value=Miss>
+<option value=Ms.>
+<option value=Mrs.>
+<option value=Mr. and Mrs.>
 <td style=vertical-align:top; class=header align=right>
-<label for=form_firstname>
+<LABEL FOR=form_firstname>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_firstname name=form_firstname size=30 maxlength=30 value= >
+<INPUT TYPE=text ID=form_firstname NAME=form_firstname SIZE=30 MAXLENGTH=30 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_lastname>
+<LABEL FOR=form_lastname>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_lastname name=form_lastname size=30 maxlength=30 value= >
+<INPUT TYPE=text ID=form_lastname NAME=form_lastname SIZE=30 MAXLENGTH=30 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_middlename>
+<LABEL FOR=form_middlename>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_middlename name=form_middlename size=30 maxlength=30 value= >
+<INPUT TYPE=text ID=form_middlename NAME=form_middlename SIZE=30 MAXLENGTH=30 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_street1>
+<LABEL FOR=form_Street1>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_street1 name=form_street1 size=50 maxlength=50 value= >
+<INPUT TYPE=text ID=form_Street1 NAME=form_Street1 SIZE=50 MAXLENGTH=50 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_street2>
+<LABEL FOR=form_Street2>
 <td style=vertical-align:top; class=detail>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_street2 name=form_street2 size=50 maxlength=50 value= >
+<INPUT TYPE=text ID=form_Street2 NAME=form_Street2 SIZE=50 MAXLENGTH=50 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_city>
+<LABEL FOR=form_City>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_city name=form_city size=35 maxlength=35 value= >
+<INPUT TYPE=text ID=form_City NAME=form_City SIZE=35 MAXLENGTH=35 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_state>
+<LABEL FOR=form_State>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_state name=form_state size=2 maxlength=2 value= >
+<INPUT TYPE=text ID=form_State NAME=form_State SIZE=2 MAXLENGTH=2 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_zip>
+<LABEL FOR=form_Zip>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_zip name=form_zip size=10 maxlength=10 value= >
+<INPUT TYPE=text ID=form_Zip NAME=form_Zip SIZE=10 MAXLENGTH=10 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_phonehome>
+<LABEL FOR=form_PhoneHome>
 <td style=vertical-align:top; class=detail>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_phonehome name=form_phonehome size=13 maxlength=13 value= >
+<INPUT TYPE=text ID=form_PhoneHome NAME=form_PhoneHome SIZE=13 MAXLENGTH=13 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_phonework>
+<LABEL FOR=form_PhoneWork>
 <td style=vertical-align:top; class=detail>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_phonework name=form_phonework size=13 maxlength=13 value= >
+<INPUT TYPE=text ID=form_PhoneWork NAME=form_PhoneWork SIZE=13 MAXLENGTH=13 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_email>
+<LABEL FOR=form_Email>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_email name=form_email size=40 value= >
+<INPUT TYPE=text ID=form_Email NAME=form_Email SIZE=40 VALUE= >
 <td style=vertical-align:top; class=detail colspan=3>
 <hr style=height:1pt;background-color:#3353bb;color:#3353bb; >
 <td style=vertical-align:top; class=detail colspan=3>
@@ -98,17 +98,17 @@
 <td style=vertical-align:top; class=detail colspan=3>
 <hr style=height:1pt;background-color:#3353bb;color:#3353bb; >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_subject>
+<LABEL FOR=form_Subject>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<input type=text id=form_subject name=form_subject size=40 maxlength=40 value= >
+<INPUT TYPE=text ID=form_Subject NAME=form_Subject SIZE=40 MAXLENGTH=40 VALUE= >
 <td style=vertical-align:top; class=header align=right>
-<label for=form_message>
+<LABEL FOR=form_Message>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<textarea id=form_message name=form_message rows=15 cols=70>
+<TEXTAREA ID=form_Message NAME=form_Message ROWS=15 COLS=70>
 <td style=vertical-align:top; class=detail>
 <td style=vertical-align:top; class=detail>
 <td style=vertical-align:top; class=detail>
-<input type=submit value=submit information >
-<input type=reset value=reset form blank >
+<INPUT TYPE=submit VALUE=Submit Information >
+<INPUT TYPE=reset VALUE=Reset Form Blank >

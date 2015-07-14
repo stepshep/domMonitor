@@ -1,14 +1,14 @@
-<form name=emailform method=post action=/members/member-page/email/index.php?district=44&session=84>
+<form name=emailForm method=post action=/members/member-page/email/index.php?district=44&session=84>
 <label for=name_first>
 <em>
 <select name=prefix value= class=rounded>
-<option value=mr>
-<option value=ms>
-<option value=miss>
-<option value=mrs>
-<option value=rev>
-<option value=fr>
-<option value=dr>
+<option value=Mr>
+<option value=Ms>
+<option value=Miss>
+<option value=Mrs>
+<option value=Rev>
+<option value=Fr>
+<option value=Dr>
 <label for=name_first>
 <em>
 <input type=text name=name_first size=34 value= class=rounded>
@@ -47,5 +47,5 @@
 <label for=subject>
 <input type=text name=subject size=44 value= class=rounded>
 <label for=message>
-<textarea name=message rows=14 cols=50 wrap=virtual scrolling=yes class=rounded>
-<input id=email-button type=submit name=submit value=send message >
+<textarea name=message rows=14 cols=50 wrap=VIRTUAL scrolling=yes class=rounded>
+<input id=email-button type=submit name=Submit value=Send Message >

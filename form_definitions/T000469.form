@@ -6,17 +6,17 @@
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option value= selected=selected>
-<option value=mr. >
-<option value=ms.>
-<option value=mrs.>
-<option value=dr.>
-<option value=the reverend>
-<option value=the honorable>
-<option value=father>
-<option value=rabbi>
-<option value=representative>
-<option value=senator>
-<option value=sister>
+<option value=Mr. >
+<option value=Ms.>
+<option value=Mrs.>
+<option value=Dr.>
+<option value=The Reverend>
+<option value=The Honorable>
+<option value=Father>
+<option value=Rabbi>
+<option value=Representative>
+<option value=Senator>
+<option value=Sister>
 <p>
 <label>
 <input type=text name=firstname id=firstname class=text>
@@ -42,7 +42,7 @@
 <label>
 <select name=state id=state>
 <option selected=selected value=>
-<option value=ny>
+<option value=NY>
 <p>
 <label>
 <input value=12305 class=zip id=zipcode name=zipcode style=width:70px; type=text>
@@ -55,7 +55,7 @@
 <span id=emailreq>
 <p>
 <label>
-<input type=checkbox onclick=togglereq(this);>
+<input type=checkbox onclick=toggleReq(this);>
 <p>
 <label>
 <input type=text name=phone class=text phonemask>
@@ -63,39 +63,39 @@
 <label>
 <select name=subject>
 <option value=>
-<option value=webagr>
-<option value=webban>
-<option value=webbud>
-<option value=webcong>
-<option value=webcons>
-<option value=webcri>
-<option value=webdef>
-<option value=webeco>
-<option value=webedu>
-<option value=webene>
-<option value=webenv>
-<option value=webeth>
-<option value=webfai>
-<option value=webfam>
-<option value=webhea>
-<option value=webhom>
-<option value=webhou>
-<option value=webimm>
-<option value=webint>
-<option value=weblab>
-<option value=webssec>
-<option value=webtel>
-<option value=webtra>
-<option value=webtran>
-<option value=webvet>
-<option value=weboth>
+<option value=WEBAGR>
+<option value=WEBBAN>
+<option value=WEBBUD>
+<option value=WEBCONG>
+<option value=WEBCONS>
+<option value=WEBCRI>
+<option value=WEBDEF>
+<option value=WEBECO>
+<option value=WEBEDU>
+<option value=WEBENE>
+<option value=WEBENV>
+<option value=WEBETH>
+<option value=WEBFAI>
+<option value=WEBFAM>
+<option value=WEBHEA>
+<option value=WEBHOM>
+<option value=WEBHOU>
+<option value=WEBIMM>
+<option value=WEBINT>
+<option value=WEBLAB>
+<option value=WEBSSEC>
+<option value=WEBTEL>
+<option value=WEBTRA>
+<option value=WEBTRAN>
+<option value=WEBVET>
+<option value=WEBOTH>
 <p>
 <label>
 <textarea name=message id=message class=message>
 <p>
-<span class=formsubmitmsg>
-<input type=checkbox name=subsc id=subsc class=filled value=subscribe>
+<span class=formSubmitMsg>
+<input type=checkbox name=subsc id=subsc class=filled value=SUBSCRIBE>
 <p>
 <label>
-<input class=button type=submit value=submit onclick=this.disabled=true,this.form.submit();>
+<input class=button type=submit value=Submit onclick=this.disabled=true,this.form.submit();>
 <input class=button type=reset>

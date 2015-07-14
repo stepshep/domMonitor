@@ -33,3 +33,8 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="7d33c19d-2881-425b-a302-d59ff8102b55" data-valmsg-replace="true">
 <input type="text" name="e839dad60092489a9aad837726e1761b" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
+<form class="form-inline" action="/assembly/54/hintz/search-results/" method="GET">
+<input class="form-control" type="text" name="q" >
+<span class="input-group-btn" >
+<button class="btn btn-default" type="button" onclick="submit();">
+<i class="glyphicon glyphicon-search">

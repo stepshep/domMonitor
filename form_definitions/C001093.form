@@ -1,3 +1,22 @@
+<td width="267">
+<form onsubmit="return checkformsearch(this)" method="get" action="/index.cfm?sectionid=2§iontree=">
+<input type="text" value="Search Site" onfocus="iFocus(this)" onblur="iBlur(this)" name="searchkey" class="searchkey text" style="color: #999999;">
+<input type="submit" value=" " class="searchButon">
+<form action="/index.cfm" method="get" onsubmit="return checkformsearch(this)">
+<p>
+<label for="searchkey">
+<span class="requiredfield" id="searchkeyrequired">
+<p>
+<input type="text" name="searchkey" id="searchkey">
+<input type="radio" class="radiobutton" name="locale" value="-1" id="entire" checked="checked">
+<label for="entire">
+<input type="radio" class="radiobutton" name="locale" value="58" id="this_section">
+<label for="this_section">
+<p class="submitbutton">
+<input type="submit" value="Search">
+<form action="https://dougcollins.house.gov/enewssurvey-lightbox" method="post">
+<input class="text" id="form_58_email" maxlength="255" name="email" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102,95,76)" value="Enter E-mail Address">
+<input class="form_submit_button" id="form_submit_button_58" name="submitform" type="submit" value="GO">
 <form action="/email-me/" id="custom_form42" name="custom_form" class="custom_form" method="post">
 <p class="req">
 <fieldset>

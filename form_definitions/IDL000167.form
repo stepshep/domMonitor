@@ -1,3 +1,7 @@
+<form class="sitesearch" method="post" action="http://legislature.search.idaho.gov/search">
+<input class="sitesearch" name="IW_FIELD_TEXT" size="21" value="Search Site" onclick="clickclear(this, 'Search Site')" onblur="clickrecall(this,'Search Site')" type="text">
+<input class="go_button" value="Search" src="/images/go_button.gif" type="image">
+<form action="http://search.state.id.us/search97cgi/s97_cgi.exe" method="GET">
 <h1>
 <form action="contactmembersformaction.cfm" method="POST">
 <em>

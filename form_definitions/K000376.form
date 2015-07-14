@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -34,11 +34,11 @@
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32>
-<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice>
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=Voice>
 <label for=speech_0>
-<input class=is-inline id=speech_1 name=speech type=radio value=vp>
+<input class=is-inline id=speech_1 name=speech type=radio value=VP>
 <label for=speech_1>
-<input class=is-inline id=speech_2 name=speech type=radio value=ttd>
+<input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
 <p>
 <fieldset>
@@ -54,8 +54,8 @@
 <label class=is-inline for=required-response>
 <select class=validate[required] is-required id=required-response name=required-response size=1>
 <option selected=selected value=>
-<option value=y>
-<option value=n>
+<option value=Y>
+<option value=N>
 <p>
-<input class=submit id=submit name=submit type=submit value=send email>
+<input class=submit id=submit name=submit type=submit value=Send Email>
 <p>

@@ -1,21 +1,21 @@
-<form action=/form_process/questions-and-comments-thank-you class=fullform validate id=contactform method=post>
+<form action=/form_process/questions-and-comments-thank-you class=fullform validate id=contactForm method=post>
 <label class=required for=prefix>
 <select id=prefix name=prefix required=>
 <option value=>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
-<option value=dr.>
-<option value=rev.>
-<option value=mr. and mrs.>
-<option value=sister>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Rev.>
+<option value=Mr. and Mrs.>
+<option value=Sister>
 <label class=required for=first>
 <input id=first name=first required= type=text >
 <label class=required for=last>
 <input id=last name=last required= type=text >
 <label class=required for=email>
-<input class=email id=email name=email required= type=text >
+<input class=email id=email name=Email required= type=text >
 <label class=required for=email2>
 <input class=email id=email2 required= type=text >
 <label style=color: red;>
@@ -29,67 +29,67 @@
 <select id=state name=state required=>
 <option value=>
 <option value=>
-<option value=alabama>
-<option value=alaska>
-<option value=arizona>
-<option value=arkansas>
-<option value=armed forces asia>
-<option value=armed forces europe>
-<option value=armed forces pacific>
-<option value=california>
-<option value=colorado>
-<option value=connecticut>
-<option value=delaware>
-<option value=district of columbia>
-<option value=florida>
-<option value=georgia>
-<option value=hawaii>
-<option value=idaho>
-<option value=illinois>
-<option value=indiana>
-<option selected=selected value=iowa>
-<option value=kansas>
-<option value=kentucky>
-<option value=louisiana>
-<option value=maine>
-<option value=maryland>
-<option value=massachusetts>
-<option value=michigan>
-<option value=minnesota>
-<option value=mississippi>
-<option value=missouri>
-<option value=montana>
-<option value=nebraska>
-<option value=nevada>
-<option value=new hampshire>
-<option value=new jersey>
-<option value=new mexico>
-<option value=new york>
-<option value=north carolina>
-<option value=north dakota>
-<option value=ohio>
-<option value=oklahoma>
-<option value=oregon>
-<option value=pennsylvania>
-<option value=rhode island>
-<option value=south carolina>
-<option value=south dakota>
-<option value=tennessee>
-<option value=texas>
-<option value=utah>
-<option value=vermont>
-<option value=virginia>
-<option value=washington>
-<option value=west virginia>
-<option value=wisconsin>
-<option value=wyoming>
+<option value=Alabama>
+<option value=Alaska>
+<option value=Arizona>
+<option value=Arkansas>
+<option value=Armed Forces Asia>
+<option value=Armed Forces Europe>
+<option value=Armed Forces Pacific>
+<option value=California>
+<option value=Colorado>
+<option value=Connecticut>
+<option value=Delaware>
+<option value=District of Columbia>
+<option value=Florida>
+<option value=Georgia>
+<option value=Hawaii>
+<option value=Idaho>
+<option value=Illinois>
+<option value=Indiana>
+<option selected=selected value=Iowa>
+<option value=Kansas>
+<option value=Kentucky>
+<option value=Louisiana>
+<option value=Maine>
+<option value=Maryland>
+<option value=Massachusetts>
+<option value=Michigan>
+<option value=Minnesota>
+<option value=Mississippi>
+<option value=Missouri>
+<option value=Montana>
+<option value=Nebraska>
+<option value=Nevada>
+<option value=New Hampshire>
+<option value=New Jersey>
+<option value=New Mexico>
+<option value=New York>
+<option value=North Carolina>
+<option value=North Dakota>
+<option value=Ohio>
+<option value=Oklahoma>
+<option value=Oregon>
+<option value=Pennsylvania>
+<option value=Rhode Island>
+<option value=South Carolina>
+<option value=South Dakota>
+<option value=Tennessee>
+<option value=Texas>
+<option value=Utah>
+<option value=Vermont>
+<option value=Virginia>
+<option value=Washington>
+<option value=West Virginia>
+<option value=Wisconsin>
+<option value=Wyoming>
 <label class=required for=zip>
 <input id=zip name=zip required= type=text >
 <label for=phone>
-<input class=phoneus id=phone name=phone type=text >
+<input class=phoneUS id=phone name=phone type=text >
 <label class=required for=subject>
 <input id=subject name=subject required= type=text >
 <label class=required for=message>
 <textarea id=message name=message required=>
 <p style=font-size: 10px>
-<input type=submit value=send message >
+<input type=submit value=Send Message >

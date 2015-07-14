@@ -5,4 +5,4 @@
 <input type=radio name=position value=1>
 <input type=text name=newsubject value= size=50>
 <textarea name=message rows=20 cols=100>
-<input type=submit name=submit value=send email>
+<input type=submit name=submit value=Send Email>

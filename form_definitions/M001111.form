@@ -1,4 +1,4 @@
-<form method=post class=uniform>
+<form method=post class=uniForm>
 <p>
 <b>
 <b>
@@ -10,153 +10,153 @@
 <span style=color: #0000ff;>
 <label for=field_b104be44-176d-4cd9-9fda-dbcbaeb5aaf9>
 <strong class=required>
-<select class=selectinput name=field_b104be44-176d-4cd9-9fda-dbcbaeb5aaf9 id=field_b104be44-176d-4cd9-9fda-dbcbaeb5aaf9 value=>
+<select class=selectInput name=field_b104be44-176d-4cd9-9fda-dbcbaeb5aaf9 id=field_b104be44-176d-4cd9-9fda-dbcbaeb5aaf9 value=>
 <option value=>
-<option value=mr.>
-<option value=ms.>
-<option value=mrs.>
-<option value=mr. and mrs.>
-<option value=dr.>
-<option value=dr. and mr. >
-<option value=dr. and mrs.>
-<option value=mr. and dr.>
-<option value=mr. and mr. >
-<option value=mrs. and mrs.>
-<option value=reverend>
-<option value=sister>
-<option value=pastor>
-<option value=the honorable>
-<option value=representative>
-<option value=senator>
+<option value=Mr.>
+<option value=Ms.>
+<option value=Mrs.>
+<option value=Mr. and Mrs.>
+<option value=Dr.>
+<option value=Dr. and Mr. >
+<option value=Dr. and Mrs.>
+<option value=Mr. and Dr.>
+<option value=Mr. and Mr. >
+<option value=Mrs. and Mrs.>
+<option value=Reverend>
+<option value=Sister>
+<option value=Pastor>
+<option value=The Honorable>
+<option value=Representative>
+<option value=Senator>
 <label for=field_d63bdcde-a04c-4ecc-a644-f224be0854f5>
 <strong class=required>
-<input type=text class=textinput name=field_d63bdcde-a04c-4ecc-a644-f224be0854f5 id=field_d63bdcde-a04c-4ecc-a644-f224be0854f5 value= >
+<input type=text class=textInput name=field_d63bdcde-a04c-4ecc-a644-f224be0854f5 id=field_d63bdcde-a04c-4ecc-a644-f224be0854f5 value= >
 <label for=field_ade71885-03e5-482f-a2a9-d7a3436bbd32>
 <strong class=required>
-<input type=text class=textinput name=field_ade71885-03e5-482f-a2a9-d7a3436bbd32 id=field_ade71885-03e5-482f-a2a9-d7a3436bbd32 value= >
+<input type=text class=textInput name=field_ade71885-03e5-482f-a2a9-d7a3436bbd32 id=field_ade71885-03e5-482f-a2a9-d7a3436bbd32 value= >
 <label for=field_cc02a0b7-1663-41b2-8b89-ab05498d3eed>
 <strong class=required>
-<input type=text class=textinput name=field_cc02a0b7-1663-41b2-8b89-ab05498d3eed id=field_cc02a0b7-1663-41b2-8b89-ab05498d3eed value= >
+<input type=text class=textInput name=field_cc02a0b7-1663-41b2-8b89-ab05498d3eed id=field_cc02a0b7-1663-41b2-8b89-ab05498d3eed value= >
 <label for=field_c8f81223-f4a8-4c04-8de5-9530cdc95079>
-<input type=text class=textinput name=field_c8f81223-f4a8-4c04-8de5-9530cdc95079 id=field_c8f81223-f4a8-4c04-8de5-9530cdc95079 value= >
+<input type=text class=textInput name=field_c8f81223-f4a8-4c04-8de5-9530cdc95079 id=field_c8f81223-f4a8-4c04-8de5-9530cdc95079 value= >
 <label for=field_5a2c4a60-5ca8-476b-b29b-414a7f6934fe>
 <strong class=required>
-<input type=text class=textinput name=field_5a2c4a60-5ca8-476b-b29b-414a7f6934fe id=field_5a2c4a60-5ca8-476b-b29b-414a7f6934fe value= >
+<input type=text class=textInput name=field_5a2c4a60-5ca8-476b-b29b-414a7f6934fe id=field_5a2c4a60-5ca8-476b-b29b-414a7f6934fe value= >
 <label for=field_666b0565-90bc-4fba-99bb-1d4ec09fcc6e>
 <strong class=required>
-<select class=selectinput name=field_666b0565-90bc-4fba-99bb-1d4ec09fcc6e id=field_666b0565-90bc-4fba-99bb-1d4ec09fcc6e value=wa>
-<option value=----military---->
-<option value=aa>
-<option value=ae>
-<option value=ap>
-<option value=----states---->
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa selected=selected>
-<option value=wv>
-<option value=wi>
-<option value=wy>
+<select class=selectInput name=field_666b0565-90bc-4fba-99bb-1d4ec09fcc6e id=field_666b0565-90bc-4fba-99bb-1d4ec09fcc6e value=WA>
+<option value=----Military---->
+<option value=AA>
+<option value=AE>
+<option value=AP>
+<option value=----States---->
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA selected=selected>
+<option value=WV>
+<option value=WI>
+<option value=WY>
 <label for=field_53d3b15c-3710-44b7-b6cd-731dab06bc92>
 <strong class=required>
-<input type=text class=textinput name=field_53d3b15c-3710-44b7-b6cd-731dab06bc92 id=field_53d3b15c-3710-44b7-b6cd-731dab06bc92 value= >
+<input type=text class=textInput name=field_53d3b15c-3710-44b7-b6cd-731dab06bc92 id=field_53d3b15c-3710-44b7-b6cd-731dab06bc92 value= >
 <label for=field_5a8cfd28-f121-4b4e-a8e7-bdd361d8bfe4>
-<input type=text class=textinput name=field_5a8cfd28-f121-4b4e-a8e7-bdd361d8bfe4 id=field_5a8cfd28-f121-4b4e-a8e7-bdd361d8bfe4 value= >
+<input type=text class=textInput name=field_5a8cfd28-f121-4b4e-a8e7-bdd361d8bfe4 id=field_5a8cfd28-f121-4b4e-a8e7-bdd361d8bfe4 value= >
 <label for=field_654caeaa-e603-4a35-8210-b2dac7d95e51>
 <strong class=required>
-<input type=text class=textinput name=field_654caeaa-e603-4a35-8210-b2dac7d95e51 id=field_654caeaa-e603-4a35-8210-b2dac7d95e51 value= >
+<input type=text class=textInput name=field_654caeaa-e603-4a35-8210-b2dac7d95e51 id=field_654caeaa-e603-4a35-8210-b2dac7d95e51 value= >
 <label for=field_58409530-3430-4481-9b78-4434bd9620eb>
 <strong class=required>
-<select class=selectinput name=field_58409530-3430-4481-9b78-4434bd9620eb id=field_58409530-3430-4481-9b78-4434bd9620eb value=>
+<select class=selectInput name=field_58409530-3430-4481-9b78-4434bd9620eb id=field_58409530-3430-4481-9b78-4434bd9620eb value=>
 <option value=>
-<option value=nrn>
-<option value=fin>
-<option value=mortgage help>
-<option value=abo>
-<option value=agi>
-<option value=agri>
-<option value=anwe>
-<option value=arts>
-<option value=bank>
-<option value=bud>
-<option value=chldfam>
-<option value=climate>
-<option value=jud>
-<option value=def>
-<option value=edu>
-<option value=elcon>
-<option value=ener>
-<option value=env>
-<option value=fish>
-<option value=for>
-<option value=heca>
-<option value=homeland>
-<option value=hou>
-<option value=imm>
-<option value=iraq>
-<option value=labor>
-<option value=leg>
-<option value=gayrts>
-<option value=medicaid>
-<option value=medicare>
-<option value=postal>
-<option value=socsec>
-<option value=spasci>
-<option value=smbus>
-<option value=tax>
-<option value=tnt>
-<option value=trade>
-<option value=trans>
-<option value=vets>
-<option value=welf>
-<option value=womens>
+<option value=NRN>
+<option value=FIN>
+<option value=MORTGAGE HELP>
+<option value=ABO>
+<option value=AGI>
+<option value=AGRI>
+<option value=ANWE>
+<option value=ARTS>
+<option value=BANK>
+<option value=BUD>
+<option value=CHLDFAM>
+<option value=CLIMATE>
+<option value=JUD>
+<option value=DEF>
+<option value=EDU>
+<option value=ELCON>
+<option value=ENER>
+<option value=ENV>
+<option value=FISH>
+<option value=FOR>
+<option value=HECA>
+<option value=HOMELAND>
+<option value=HOU>
+<option value=IMM>
+<option value=IRAQ>
+<option value=LABOR>
+<option value=LEG>
+<option value=GAYRTS>
+<option value=MEDICAID>
+<option value=MEDICARE>
+<option value=POSTAL>
+<option value=SOCSEC>
+<option value=SPASCI>
+<option value=SMBUS>
+<option value=TAX>
+<option value=TNT>
+<option value=TRADE>
+<option value=TRANS>
+<option value=VETS>
+<option value=WELF>
+<option value=WOMENS>
 <label for=field_250a9cb8-13dc-40f7-94fb-d301593db4c9>
 <strong class=required>
-<input type=text class=textinput name=field_250a9cb8-13dc-40f7-94fb-d301593db4c9 id=field_250a9cb8-13dc-40f7-94fb-d301593db4c9 value= >
+<input type=text class=textInput name=field_250a9cb8-13dc-40f7-94fb-d301593db4c9 id=field_250a9cb8-13dc-40f7-94fb-d301593db4c9 value= >
 <label for=field_5722c424-8601-4abf-a8d1-ac11b9c45f87>
 <textarea name=field_5722c424-8601-4abf-a8d1-ac11b9c45f87 id=field_5722c424-8601-4abf-a8d1-ac11b9c45f87 >
-<input type=submit value=submit >
+<input type=submit value=Submit >

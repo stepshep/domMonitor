@@ -7,19 +7,19 @@
 <p>
 <select name=required-prefix id=prefix>
 <option value= selected=>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
 <td align=right>
 <p>
-<input value=chester name=required-first id=firstname type=text size=20 maxlength=50>
+<input value=Chester name=required-first id=firstname type=text size=20 maxlength=50>
 <td align=right>
 <p>
 <input name=middle id=middle type=text size=5 maxlength=20>
 <td align=right>
 <p>
-<input value=tester name=required-last id=lastname type=text size=20 maxlength=50>
+<input value=Tester name=required-last id=lastname type=text size=20 maxlength=50>
 <td align=right>
 <p>
 <input name=suffix id=suffix type=text size=10 maxlength=20>
@@ -97,40 +97,40 @@
 <p>
 <select name=required-issue size=1 id=topic>
 <option value= selected=>
-<option value=webagr>
-<option value=webbud>
-<option value=webdef>
-<option value=webedu>
-<option value=webene>
-<option value=webenv>
-<option value=webint>
-<option value=webgov>
-<option value=webhea>
-<option value=webhom>
-<option value=webhud>
-<option value=webimm>
-<option value=webjud>
-<option value=weblabor>
-<option value=webrsc>
-<option value=websci>
-<option value=websbus>
-<option value=websoc>
-<option value=webssec>
-<option value=webtel>
-<option value=webtax>
-<option value=webtra>
-<option value=webvet>
-<option value=webwel>
-<option value=weboth>
+<option value=WEBAGR>
+<option value=WEBBUD>
+<option value=WEBDEF>
+<option value=WEBEDU>
+<option value=WEBENE>
+<option value=WEBENV>
+<option value=WEBINT>
+<option value=WEBGOV>
+<option value=WEBHEA>
+<option value=WEBHOM>
+<option value=WEBHUD>
+<option value=WEBIMM>
+<option value=WEBJUD>
+<option value=WEBLABOR>
+<option value=WEBRSC>
+<option value=WEBSCI>
+<option value=WEBSBUS>
+<option value=WEBSOC>
+<option value=WEBSSEC>
+<option value=WEBTEL>
+<option value=WEBTAX>
+<option value=WEBTRA>
+<option value=WEBVET>
+<option value=WEBWEL>
+<option value=WEBOTH>
 <td align=right>
 <p>
 <textarea name=required-message id=message cols=45 rows=4>
 <td align=right>
 <p>
 <p>
-<input type=radio name=affl1 value=subscribe e-update-113-ma07 id=subscribe checked=>
+<input type=radio name=affl1 value=subscribe E-UPDATE-113-MA07 id=subscribe checked=>
 <input type=radio name=affl1 value= id=noaction>
 <td colspan=2 align=center>
-<input name=submit type=submit value=send my message>
-<input name=reset type=reset value=clear form>
+<input name=Submit type=submit value=Send my message>
+<input name=Reset type=reset value=Clear form>
 <td align=right>

@@ -1,4 +1,4 @@
-<form id=contactform action=./ method=post enctype=application/x-www-form-urlencoded class=col66 onsubmit=return _cf_checkcfform_1(this)>
+<form id=contactForm action=./ method=post enctype=application/x-www-form-urlencoded class=col66 onsubmit=return _CF_checkCFForm_1(this)>
 <h1>
 <p>
 <p>
@@ -9,30 +9,30 @@
 <fieldset>
 <label for=topic>
 <select name=subject id=subject >
-<option label=-- select a topic -- value= selected=selected>
-<option label=sequestration value=mailtopseq>
-<option label=agriculture value=mailtopicag>
-<option label=animal rights value=mailtopican>
-<option label=banking and finance value=mailtopbank>
-<option label=budget and economy value=mailtopicbud>
-<option label=business value=mailtopicbs>
-<option label=civil rights value=mailtopiccr>
-<option label=defense and military value=mailtopicdef>
-<option label=education value=mailtopiced>
-<option label=energy value=mailtopicen>
-<option label=environmental issues value=mailtopicenviro>
-<option label=foreign affairs value=mailtopicforeign>
-<option label=gun control value=mailtopicgun>
-<option label=health care value=mailtopichealth>
-<option label=housing value=mailtopichouse>
-<option label=judiciary issues value=mailtopicjudge>
-<option label=pensions and retirement value=mailtopicpension>
-<option label=science and technology value=mailtopicsci>
-<option label=telecommunications value=mailtotelecom>
-<option label=transportation value=mailtopictran>
-<option label=veterans issues value=mailtopicvet>
-<option label=welfare value=mailtopicwelfare>
-<option label=other value=mailtopicother>
+<option label=-- Select a Topic -- value= selected=selected>
+<option label=Sequestration value=mailtopseq>
+<option label=Agriculture value=mailtopicag>
+<option label=Animal Rights value=mailtopican>
+<option label=Banking and Finance value=mailtopbank>
+<option label=Budget and Economy value=mailtopicbud>
+<option label=Business value=mailtopicbs>
+<option label=Civil Rights value=mailtopiccr>
+<option label=Defense and Military value=mailtopicdef>
+<option label=Education value=mailtopiced>
+<option label=Energy value=mailtopicen>
+<option label=Environmental Issues value=mailtopicenviro>
+<option label=Foreign Affairs value=mailtopicforeign>
+<option label=Gun Control value=mailtopicgun>
+<option label=Health Care value=mailtopichealth>
+<option label=Housing value=mailtopichouse>
+<option label=Judiciary Issues value=mailtopicjudge>
+<option label=Pensions and Retirement value=mailtopicpension>
+<option label=Science and Technology value=mailtopicsci>
+<option label=Telecommunications value=mailtotelecom>
+<option label=Transportation value=mailtopictran>
+<option label=Veterans Issues value=mailtopicvet>
+<option label=Welfare value=mailtopicwelfare>
+<option label=Other value=mailtopicother>
 <legend>
 <label for=salutation>
 <input name=salutation type=text id=salutation  >
@@ -54,9 +54,9 @@
 <input name=mailing_streetaddress2 type=text id=mailing_streetaddress2  >
 <label for=mailing_city>
 <input name=mailing_city type=text id=mailing_city  >
-<label for=mailing_zipcode>
+<label for=mailing_zipCode>
 <input name=mailing_zipcode type=text id=mailing_zipcode  >
 <fieldset>
 <label for=comments>
 <textarea id=comments name=comments>
-<input style=width:65px;height:40px;float:right class=button type=submit id=side-search-btn value=send onclick=return ceformcheck() >
+<input style=width:65px;height:40px;float:right class=button type=submit id=side-search-btn value=Send onclick=return ceFormCheck() >

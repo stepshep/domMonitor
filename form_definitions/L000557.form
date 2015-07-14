@@ -1,7 +1,7 @@
-<form method=post id=contactform name=contactform action=https://forms.house.gov/htbin/formproc/larson/contact_form_file.txt&amp;display=/larson/contact_thankyou.html>
+<form method=post id=contactForm name=contactForm action=https://forms.house.gov/htbin/formproc/larson/contact_form_file.txt&amp;display=/larson/contact_thankyou.html>
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
-<span style=color:#ffffff>
+<span style=color:#FFFFFF>
 <td valign=top>
 <label  for=required-prefix>
 <em>
@@ -16,7 +16,7 @@
 <input name=required-last id=required-last type=text value= size=10 maxlength=90 >
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
-<span style=color:#ffffff>
+<span style=color:#FFFFFF>
 <td valign=top>
 <label  for=required-address>
 <em>
@@ -29,7 +29,7 @@
 <input name=required-city id=required-city type=text value= size=10 maxlength=45 >
 <label  for=required-state>
 <em>
-<input name=required-state id=required-state value=ct readonly=readonly size=2>
+<input name=required-state id=required-state value=CT readonly=readonly size=2>
 <label  for=zip5>
 <em>
 <input name=required-zip5 id=zip5 type=text value= size=5 maxlength=5 >
@@ -38,7 +38,7 @@
 <small>
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
-<span style=color:#ffffff>
+<span style=color:#FFFFFF>
 <td valign=top>
 <label  for=required-email>
 <em>
@@ -49,50 +49,50 @@
 <td valign=top>
 <label  for=required-affl>
 <em>
-<input name=affl type=radio value=email.optin >
-<input name=affl type=radio value=email.optout >
+<input name=affl type=radio value=EMAIL.OPTIN >
+<input name=affl type=radio value=EMAIL.OPTOUT >
 <td colspan=2>
-<input name=required-response type=radio value=y >
+<input name=required-response type=radio value=Y >
 <em>
 <td colspan=2>
-<input name=required-response type=radio value=n >
+<input name=required-response type=radio value=N >
 <em>
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
-<span style=color:#ffffff>
+<span style=color:#FFFFFF>
 <td valign=top>
 <label  for=subject>
 <em>
 <select id=required-issue name=required-issue size=1>
 <option selected=selected value=>
-<option value=help with agency>
-<option value=comment on policy>
+<option value=Help With Agency>
+<option value=Comment on Policy>
 <option value= selected>
-<option value=agriculture>
-<option value=budget>
-<option value=casework>
-<option value=defense>
-<option value=economy>
-<option value=education and labor>
-<option value=energy>
-<option value=environmental>
-<option value=government reform>
-<option value=health>
-<option value=homeland security>
-<option value=immigration>
-<option value=international relations>
-<option value=judicial>
-<option value=social issues>
-<option value=social security>
-<option value=taxes and trade>
-<option value=telecommunications>
-<option value=telecommunications>
-<option value=veterans>
-<option value=welfare>
-<option value=other>
+<OPTION VALUE=Agriculture>
+<OPTION VALUE=Budget>
+<OPTION VALUE=Casework>
+<OPTION VALUE=Defense>
+<OPTION VALUE=Economy>
+<OPTION VALUE=Education and Labor>
+<OPTION VALUE=Energy>
+<OPTION VALUE=Environmental>
+<OPTION VALUE=Government Reform>
+<OPTION VALUE=Health>
+<OPTION VALUE=Homeland Security>
+<OPTION VALUE=Immigration>
+<OPTION VALUE=International Relations>
+<OPTION VALUE=Judicial>
+<OPTION VALUE=Social Issues>
+<OPTION VALUE=Social Security>
+<OPTION VALUE=Taxes and Trade>
+<OPTION VALUE=Telecommunications>
+<OPTION VALUE=Telecommunications>
+<OPTION VALUE=Veterans>
+<OPTION VALUE=Welfare>
+<OPTION VALUE=Other>
 <td valign=top>
 <label  for=required-message>
 <em>
 <textarea name=required-message id=required-message rows=11 cols=65>
-<input name=submit2 type=submit value=send email >
-<input name=reset type=reset value=reset >
+<input name=submit2 type=submit value=Send Email >
+<input name=reset type=reset value=Reset >

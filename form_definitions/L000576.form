@@ -1,3 +1,31 @@
+<form action="index.cfm?sectionid=2§iontree=" method="get" onsubmit="return checkformsearch(this)">
+<input class="searchkey text" name="searchkey" onblur="iBlur(this)" onfocus="iFocus(this)" type="text" value="Search Site" >
+<input class="searchButon button" type="submit" value="GO" >
+<form action="/index.cfm" method="get" onsubmit="return checkformsearch(this)">
+<p>
+<label for="searchkey">
+<span class="requiredfield" id="searchkeyrequired">
+<p>
+<input type="text" name="searchkey" id="searchkey"  >
+<input type="radio" class="radiobutton" name="locale" value="-1" id="entire"
+					checked="checked">
+<label for="entire">
+<input type="radio" class="radiobutton" name="locale" value="58" id="this_section"
+					>
+<label for="this_section">
+<p class="submitbutton">
+<input type="submit" value="Search">
+<form action="http://long.house.gov//index.cfm?sectionid=47&amp;sectiontree=" method="post">
+<p class="formQuestion">
+<input class="text" id="form_16_firstname" maxlength="255" name="firstname" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76); position: relative; top: 13px;" type="text" value="First Name" >
+<input class="text" id="form_16_lastname" maxlength="255" name="lastname" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76); position: relative; top: 27px;" type="text" value="Last Name" >
+<input class="text" id="form_16_email" maxlength="255" name="email" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76); position: relative; top: 41px;" type="text" value="E-mail Address" >
+<input class="form_submit_button" id="form_submit_button_4" name="submitform" style="top: 163px;" type="submit" value="GO" >
+<form action="http://thomas.loc.gov/cgi-bin/query" class="bykeyword" method="post" name="loc-word" target="_blank">
+<input class="text" id="phrase" maxlength="50" name="queryc112" onblur="iBlur(this)" onfocus="iFocus(this);" type="text" value="By Keyword" >
+<input class="searchbuttons" id="searchPhrase" name="Submit" type="submit" value="Go" >
+<input class="text" id="bill" maxlength="50" name="docidc112" onblur="iBlur(this)" onfocus="iFocus(this);" type="text" value="By bill #" >
+<input class="searchbuttons" id="searchBill" name="Submit" type="submit" value="GO" >
 <form action="/email-billy/" id="custom_form6" name="custom_form" class="custom_form" method="post">
 <noscript>
 <style type="text/css" media="all" title="main css">

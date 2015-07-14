@@ -34,24 +34,24 @@
 <option selected=selected>
 <td align=right class=tabletext>
 <label for=req_zipcode>
-<input type=text maxlength=5 name=zipcode id=req_zipcode class=zip style=width:70px; onfocus=onlynumbers(this); >
+<input type=text maxlength=5 name=zipcode id=req_zipcode class=zip style=width:70px; onfocus=onlyNumbers(this); >
 <input type=text maxlength=4 name=zipfour id=zipfour class=zip style=width:30px; >
 <td align=right class=tabletext>
 <label for=phone>
-<input type=text name=phone id=req_phone onfocus=formatphone(this) class=text maxlength=14 >
+<input type=text name=phone id=req_phone onfocus=formatPhone(this) class=text maxlength=14 >
 <td align=right class=tabletext>
 <label for=req_email>
-<input type=text maxlength=190 name=emailaddress id=req_email onblur=emailcheck(this) class=text  >
+<input type=text maxlength=190 name=emailaddress id=req_email onblur=emailCheck(this) class=text  >
 <fieldset>
 <legend accesskey=q>
 <p>
-<label class=contactform for=req_issue>
+<label class=contactForm for=req_issue>
 <input type=text maxlength=190 name=subject id=req_subject class=text >
 <p>
-<textarea class=message id=req_message name=msg wrap=virtual cols=50 rows=5>
+<textarea class=message id=req_message name=msg wrap=VIRTUAL cols=50 rows=5>
 <p>
-<input type=radio value=no checked=checked name=affl1 >
-<input type=radio value=yes name=affl1 >
+<input type=radio value=No checked=checked name=affl1 >
+<input type=radio value=Yes name=affl1 >
 <p>
-<input id=submitbutton type=submit value=send email>
-<input name=reset type=reset value=clear form fields>
+<input id=submitButton type=submit value=Send Email>
+<input name=RESET type=reset value=Clear Form Fields>

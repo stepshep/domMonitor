@@ -1,102 +1,11 @@
-<form action=/htbin/formproc/email-me.txt%26display%3d/contact/email-me/email-me-thank-you%26nobase%26fpgetver%3d2 class=validate wsbform id=contactform method=post name=contactform>
-<fieldset>
-<legend>
-<label for=prefix>
-<input id=prefix maxlength=100 name=prefix placeholder=prefix type=text>
-<label for=required-first>
-<span class=required-field title=required information>
-<input class=validate[required] is-required id=required-first maxlength=100 name=required-first placeholder=first name type=text>
-<label for=middle>
-<input id=middle maxlength=100 name=middle placeholder=middle initial type=text>
-<label for=required-last>
-<span class=required-field title=required information>
-<input class=validate[required] is-required id=required-last maxlength=100 name=required-last placeholder=last name type=text>
-<label for=suffix>
-<input id=suffix maxlength=100 name=suffix placeholder=suffix type=text>
-<label for=required-address>
-<span class=required-field title=required information>
-<input class=validate[required] is-required id=required-address maxlength=100 name=required-address placeholder=street address type=text>
-<label for=address2>
-<input id=address2 maxlength=100 name=address2 placeholder=street address continued type=text>
-<label for=required-city>
-<span class=required-field title=required information>
-<input class=validate[required] is-required id=required-city maxlength=100 name=required-city placeholder=city type=text>
-<label for=required-state>
-<label for=required-zip5>
-<label for=zip4>
-<label for=required-valid-email>
-<span class=required-field title=required information>
-<input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email placeholder=email type=text>
-<fieldset>
-<legend>
-<label for=required-phone>
-<span class=required-field title=required information>
-<input class=validate[required] is-required id=required-phone maxlength=80 name=required-phone type=text>
-<input checked=checked id=speech_0 name=speech type=radio value=voice>
-<label class=is-inline for=speech_0>
-<input id=speech_1 name=speech type=radio value=vp>
-<label class=is-inline for=speech_1>
-<input id=speech_2 name=speech type=radio value=ttd>
-<label class=is-inline for=speech_2>
-<p>
-<fieldset>
-<legend>
-<label for=required-issue>
-<span class=required-field title=required information>
-<select class=validate[required] is-required id=required-issue name=required-issue size=1>
-<option selected=selected value=>
-<option value=agr>
-<option value=an>
-<option value=art>
-<option value=bank>
-<option value=bud>
-<option value=cfr>
-<option value=cong>
-<option value=tour>
-<option value=def>
-<option value=econ>
-<option value=edu>
-<option value=ene>
-<option value=env>
-<option value=fed>
-<option value=fr>
-<option value=gov>
-<option value=gun>
-<option value=hea>
-<option value=hom>
-<option value=hud>
-<option value=imm>
-<option value=int>
-<option value=jud>
-<option value=lab>
-<option value=lgbt>
-<option value=nrn>
-<option value=post>
-<option value=sci>
-<option value=soc>
-<option value=seniors>
-<option value=ssec>
-<option value=soc.services>
-<option value=tax>
-<option value=tel>
-<option value=tra>
-<option value=trade>
-<option value=vet>
-<option value=women>
-<option value=wel>
-<option value=other>
-<label for=required-subject>
-<span class=required-field title=required information>
-<input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject placeholder=message subject type=text>
-<label for=required-message>
-<span class=required-field title=required information>
-<textarea class=validate[required] is-required cols=68 id=required-message name=required-message placeholder=text of message rows=5>
-<input id=subscribe name=subscribe type=checkbox value=email.optin>
-<label class=is-inline for=subscribe>
-<label class=is-inline for=required-response>
-<span class=required-field title=required information>
-<select class=validate[required] is-required id=required-response name=required-response size=1>
-<option selected=selected value=>
-<option value=y>
-<option value=n>
-<input class=submit id=submit name=submit role=button type=submit value=send email>
+<form action="/contact/email-me/email-me-zip-authenticated?fromFormProc" method="post" id="search-block-form" accept-charset="UTF-8">
+<h2 class="element-invisible">
+<label class="element-invisible" for="edit-search-block-form--2">
+<input title="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text example">
+<input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+<h2 id="formAction">
+<span class="formAccent">
+<form action="/htbin/formproc/contact/newsletter%26pass" class="validate wsbform" id="newsletter_signup_form" name="newsletter_signup_form">
+<label for="signup-email">
+<input class="form-text example" id="signup-email" maxlength="100" name="signup-email" title="Enter your email address." type="text">
+<input class="form-submit" id="submit" role="button" type="submit" value="submit">

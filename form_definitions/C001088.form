@@ -1,3 +1,15 @@
+<form id="email-signup" action="http://www.coons.senate.gov/newsletter/" method="post">
+<h1>
+<fieldset>
+<legend>
+<input type="text" id="your_email" name="your_email" value="Your Email Address" onClick="this.value='';" >
+<input type="text" id="your_zip_code" name="your_zip_code" value="Your Zip Code" onClick="this.value='';">
+<button id="sign-up" name="sign-up" type="submit" title="Sign Up" class="button">
+<form id="site-search" method="get" action="http://www.coons.senate.gov/search/" autocomplete="off">
+<fieldset>
+<legend>
+<input type="search" name="q" id="search-field" value="Search" onclick="this.value=''" >
+<button id="search-button" name="search-button" type="submit" title="Search" class="button">
 <form id="contactForm" action="./" method="post" enctype="application/x-www-form-urlencoded" onsubmit="return _CF_checkCFForm_1(this)">
 <p>
 <ul class="list" style="width: 45%; float: left;">

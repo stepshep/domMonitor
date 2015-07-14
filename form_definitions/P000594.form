@@ -26,7 +26,7 @@
 <p>
 <label>
 <select name=state id=req_state>
-<option selected= value=mn>
+<option selected= value=MN>
 <p>
 <label>
 <input type=text name=zip id=req_zip class=zip maxlength=5 >
@@ -42,36 +42,36 @@
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected= value=>
-<option value=casework>
-<option value=agri>
-<option value=bud>
-<option value=def>
-<option value=econ>
-<option value=edu>
-<option value=enr>
-<option value=env>
-<option value=gov>
-<option value=hlth>
-<option value=hom>
-<option value=imm>
-<option value=ir>
-<option value=jobs>
-<option value=jud>
-<option value=lab>
-<option value=smbus>
-<option value=soc>
-<option value=ssec>
-<option value=tax>
-<option value=tele>
-<option value=trd>
-<option value=tours>
-<option value=trans>
-<option value=vet>
-<option value=wel>
-<option value=wom>
-<option value=oth>
+<option value=CASEWORK>
+<option value=AGRI>
+<option value=BUD>
+<option value=DEF>
+<option value=ECON>
+<option value=EDU>
+<option value=ENR>
+<option value=ENV>
+<option value=GOV>
+<option value=HLTH>
+<option value=HOM>
+<option value=IMM>
+<option value=IR>
+<option value=JOBS>
+<option value=JUD>
+<option value=LAB>
+<option value=SMBUS>
+<option value=SOC>
+<option value=SSEC>
+<option value=TAX>
+<option value=TELE>
+<option value=TRD>
+<option value=TOURS>
+<option value=TRANS>
+<option value=VET>
+<option value=WEL>
+<option value=WOM>
+<option value=OTH>
 <p>
 <label>
 <textarea name=message id=req_message class=message>
-<input type=button value=submit id=submitbutton class=form_submit_button >
+<input type=button value=Submit id=submitButton class=form_submit_button >
 <p>

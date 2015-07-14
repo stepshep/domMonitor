@@ -1,104 +1,104 @@
-<form class=-validate-form method=post action=/?p=contact name=thisform novalidate=novalidate>
+<form class=-validate-form method=post action=/?p=contact name=thisForm novalidate=novalidate>
 <label for=gen-fieldid-1 class=control-label>
 <span class=req>
-<select class=-required form-control name=prefix id=gen-fieldid-1 class=ft-select fld-prefix required style=width:>
+<select class=-required form-control name=Prefix id=gen-fieldid-1 class=ft-select fld-Prefix required style=width:>
 <option value=null>
-<option value=mr.>
-<option value=mrs.>
-<option value=ms.>
-<option value=mr. and mrs.>
-<option value=miss>
-<option value=dr.>
-<option value=dr. and mrs.>
-<option value=dr. and mr.>
-<option value=admiral>
-<option value=captain>
-<option value=chief master sergeant>
-<option value=colonel>
-<option value=commander>
-<option value=corporal>
-<option value=father>
-<option value=lieutenant>
-<option value=lieutenant colonel>
-<option value=major>
-<option value=master sergeant>
-<option value=reverend>
-<option value=sergeant>
-<option value=second lieutenant>
-<option value=sergeant major>
-<option value=sister>
-<option value=technical sergeant>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Mr. and Mrs.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Dr. and Mrs.>
+<option value=Dr. and Mr.>
+<option value=Admiral>
+<option value=Captain>
+<option value=Chief Master Sergeant>
+<option value=Colonel>
+<option value=Commander>
+<option value=Corporal>
+<option value=Father>
+<option value=Lieutenant>
+<option value=Lieutenant Colonel>
+<option value=Major>
+<option value=Master Sergeant>
+<option value=Reverend>
+<option value=Sergeant>
+<option value=Second Lieutenant>
+<option value=Sergeant Major>
+<option value=Sister>
+<option value=Technical Sergeant>
 <span class=glyphicon glyphicon-chevron-down>
 <label for=gen-fieldid-3 class=control-label>
 <span class=req>
-<input class=-required form-control type=text name=firstname id=gen-fieldid-3 class=ft-text fld-firstname required style=width:; value= >
+<input class=-required form-control type=text name=firstName id=gen-fieldid-3 class=ft-text fld-firstName required style=width:; value= >
 <label for=gen-fieldid-5 class=control-label>
 <span class=req>
-<input class=-required form-control type=text name=lastname id=gen-fieldid-5 class=ft-text fld-lastname required style=width:; value= >
+<input class=-required form-control type=text name=lastName id=gen-fieldid-5 class=ft-text fld-lastName required style=width:; value= >
 <label for=gen-fieldid-7 class=control-label>
 <span class=req>
-<input class=-required form-control type=text name=address1 id=gen-fieldid-7 class=ft-text fld-address1 required style=width:; value= >
+<input class=-required form-control type=text name=Address1 id=gen-fieldid-7 class=ft-text fld-Address1 required style=width:; value= >
 <label for=gen-fieldid-9 class=control-label>
-<input class=form-control type=text name=address2 id=gen-fieldid-9 class=ft-text fld-address2 style=width:; value= >
+<input class=form-control type=text name=Address2 id=gen-fieldid-9 class=ft-text fld-Address2 style=width:; value= >
 <label for=gen-fieldid-11 class=control-label>
 <span class=req>
 <input class=-required form-control type=text name=city id=gen-fieldid-11 class=ft-text fld-city required style=width:; value= >
 <label for=gen-fieldid-13 class=control-label>
 <span class=req>
-<select class=-required form-control name=state id=gen-fieldid-13 class=ft-select fld-state required style=width:>
-<option value=aa>
-<option value=ae>
-<option value=ap>
-<option value=al>
-<option value=ak>
-<option value=az>
-<option value=ar>
-<option value=ca>
-<option value=co selected=selected>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wy>
+<select class=-required form-control name=State id=gen-fieldid-13 class=ft-select fld-State required style=width:>
+<option value=AA>
+<option value=AE>
+<option value=AP>
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO selected=selected>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WY>
 <span class=glyphicon glyphicon-chevron-down>
 <label for=gen-fieldid-15 class=control-label>
 <span class=req>
@@ -114,49 +114,49 @@
 <input class=-required form-control type=text name=vemail id=gen-fieldid-21 class=ft-text fld-vemail required style=width:; value= >
 <label for=gen-fieldid-23 class=control-label>
 <span class=req>
-<select class=-required form-control name=issue id=gen-fieldid-23 class=ft-select fld-issue required style=width:>
+<select class=-required form-control name=Issue id=gen-fieldid-23 class=ft-select fld-Issue required style=width:>
 <option value=null>
-<option value=agriculture>
-<option value=animal rights>
-<option value=banking and financial services>
-<option value=budget and fiscal responsibility>
-<option value=children and families>
-<option value=congratulatory or commemorative letter requests>
-<option value=consumer finance protection bureau>
-<option value=defense and military>
-<option value=economy and commerce>
-<option value=education>
-<option value=energy>
-<option value=environment>
-<option value=finance>
-<option value=foreign policy>
-<option value=government affairs>
-<option value=health care>
-<option value=housing>
-<option value=homeland security>
-<option value=immigration>
-<option value=indian affairs>
-<option value=interior >
-<option value=international trade>
-<option value=judiciary>
-<option value=labor>
-<option value=medicare and medicaid>
-<option value=postal affairs>
-<option value=second amendment>
-<option value=science and technology>
-<option value=small business>
-<option value=social security>
-<option value=taxes>
-<option value=telecommunications>
-<option value=transportation>
-<option value=veterans affairs>
-<option value=u.s. military academies>
-<option value=womens issues>
-<option value=other>
+<option value=Agriculture>
+<option value=Animal Rights>
+<option value=Banking and Financial Services>
+<option value=Budget and Fiscal Responsibility>
+<option value=Children and Families>
+<option value=Congratulatory or Commemorative Letter Requests>
+<option value=Consumer Finance Protection Bureau>
+<option value=Defense and Military>
+<option value=Economy and Commerce>
+<option value=Education>
+<option value=Energy>
+<option value=Environment>
+<option value=Finance>
+<option value=Foreign Policy>
+<option value=Government Affairs>
+<option value=Health Care>
+<option value=Housing>
+<option value=Homeland Security>
+<option value=Immigration>
+<option value=Indian Affairs>
+<option value=Interior >
+<option value=International Trade>
+<option value=Judiciary>
+<option value=Labor>
+<option value=Medicare and Medicaid>
+<option value=Postal Affairs>
+<option value=Second Amendment>
+<option value=Science and Technology>
+<option value=Small Business>
+<option value=Social Security>
+<option value=Taxes>
+<option value=Telecommunications>
+<option value=Transportation>
+<option value=Veterans Affairs>
+<option value=U.S. Military Academies>
+<option value=Womens Issues>
+<option value=Other>
 <span class=glyphicon glyphicon-chevron-down>
 <label for=gen-fieldid-25 class=control-label>
 <span class=req>
-<input class=-required form-control type=text name=subject id=gen-fieldid-25 class=ft-text fld-subject required style=width:; value= >
+<input class=-required form-control type=text name=Subject id=gen-fieldid-25 class=ft-text fld-Subject required style=width:; value= >
 <label for=gen-fieldid-27 class=control-label>
 <span class=req>
 <textarea class=-required form-control name=msg id=gen-fieldid-27 class=ft-textarea fld-msg required style=height:;width:;>
@@ -164,4 +164,4 @@
 <span class=req>
 <input type=radio class=-required input-radio normal-input name=gen-field-30 value=yes checked=checked>
 <input type=radio class=-required input-radio normal-input name=gen-field-30 value=noreplyfromsenator>
-<input class=btn btn-primary type=submit value=submit name=formaction>
+<input class=btn btn-primary type=submit value=Submit name=formaction>

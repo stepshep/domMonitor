@@ -40,3 +40,8 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="818b88aa-5dae-40f0-a55f-4cdc6e2f281e" data-valmsg-replace="true">
 <input type="text" name="11989350ce8e4242a4c0ec60f227a528" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
+<form class="form-inline" action="/assembly/45/spreitzer/search-results/" method="GET">
+<input class="form-control" type="text" name="q" >
+<span class="input-group-btn" >
+<button class="btn btn-default" type="button" onclick="submit();">
+<i class="glyphicon glyphicon-search">

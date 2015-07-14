@@ -1,3 +1,18 @@
+<form id="top-search-form" class="navbar-form navbar-right" role="search" name="googlesearch" method="get" action="/">
+<button class="-toggle btn btn-primary pull-right btn-sm">
+<span class="glyphicon glyphicon-envelope glyphicon-inverse">
+<input required="yes" class="-form-control-search form-control input-sm" id="top_search_input" type="text" name="q" value="" placeholder="Search this site" >
+<span class="input-group-btn">
+<button class="btn btn-primary btn-sm">
+<span class="glyphicon glyphicon-chevron-right glyphicon-inverse">
+<form id="top-nl-form" class="navbar-form navbar-right" role="newsletter" name="nl_quick" action="/?p=email_updates&type=nlQuick" method="post">
+<button class="-toggle btn btn-primary pull-right btn-sm">
+<span class="glyphicon glyphicon-search glyphicon-inverse">
+<input required="yes" class="-form-control-email form-control form-control-email input-sm" type="text" name="email" value="" placeholder="Email" >
+<input required="yes" class="form-control form-control-zip input-sm" type="text" name="zip" value="" placeholder="ZIP" >
+<span class="input-group-btn">
+<button class="btn btn-primary btn-sm">
+<span class="glyphicon glyphicon-chevron-right glyphicon-inverse">
 <FORM class="-validate-form form-contact" method="post" ACTION="/?p=contact&clear_cache=1" name="thisForm">
 <label for="" class="col-sm-3 control-label">
 <span class="req">

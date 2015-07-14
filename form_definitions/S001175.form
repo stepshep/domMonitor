@@ -1,4 +1,4 @@
-<form method=post action=/htbin/formproc/speier/webforms/email-jackie.txt&display=thank-you.shtml>
+<FORM METHOD=POST ACTION=/htbin/formproc/speier/webforms/email-jackie.txt&display=thank-you.shtml>
 <style type=text/css media=all title=main css>
 <p>
 <p>
@@ -43,8 +43,8 @@
 <input type=text name=required-city id=city class=text value= >
 <p>
 <label>
-<select name=required-state id=required-state value=ca>
-<option value=ca>
+<select name=required-state id=required-state value=CA>
+<option value=CA>
 <p>
 <label>
 <input type=text name=zip5 id=zip5 class=zip value=>
@@ -59,44 +59,44 @@
 <label>
 <select name=required-issue value=>
 <option value=selected>
-<option value=agr>
-<option value=ani>
-<option value=art>
-<option value=bud>
-<option value=cas>
-<option value=civ >
-<option value=cre>
-<option value=def>
-<option value=eco>
-<option value=edu>
-<option value=ele>
-<option value=ene>
-<option value=env>
-<option value=for>
-<option value=gov>
-<option value=hea>
-<option value=hom>
-<option value=hou>
-<option value=imm>
-<option value=jud>
-<option value=lab>
-<option value=pos>
-<option value=sci>
-<option value=smb>
-<option value=soc>
-<option value=tel>
-<option value=tax>
-<option value=tou>
-<option value=trd>
-<option value=tra>
-<option value=vet>
-<option value=wom>
-<option value=oth>
+<option value=AGR>
+<option value=ANI>
+<option value=ART>
+<option value=BUD>
+<option value=CAS>
+<option value=CIV >
+<option value=CRE>
+<option value=DEF>
+<option value=ECO>
+<option value=EDU>
+<option value=ELE>
+<option value=ENE>
+<option value=ENV>
+<option value=FOR>
+<option value=GOV>
+<option value=HEA>
+<option value=HOM>
+<option value=HOU>
+<option value=IMM>
+<option value=JUD>
+<option value=LAB>
+<option value=POS>
+<option value=SCI>
+<option value=SMB>
+<option value=SOC>
+<option value=TEL>
+<option value=TAX>
+<option value=TOU>
+<option value=TRD>
+<option value=TRA>
+<option value=VET>
+<option value=WOM>
+<option value=OTH>
 <p>
 <label>
 <select name=required-rsp>
 <option value=>
-<option value=y>
+<option value=Y>
 <option value=no>
 <p>
 <label>
@@ -104,7 +104,7 @@
 <p align=center>
 <p align=center>
 <input type=radio name=affl1 value= checked=checked >
-<input type=radio name=affl1 value=&lt;affl&gt;email.optin&lt;/affl&gt; >
-<input type=radio name=affl1 value=&lt;affl_del&gt;email.optin&lt;/affl_del&gt; >
-<input name=submit type=submit value=submit >
+<input type=radio name=affl1 value=&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt; >
+<input type=radio name=affl1 value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt; >
+<input name=submit type=submit value=Submit >
 <b>

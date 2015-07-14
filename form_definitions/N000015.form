@@ -1,4 +1,4 @@
-<form method=post action=/htbin/formproc/neal/webforms/contact.txt&display=/webforms/contact_form_thank_you.shtml>
+<FORM METHOD=POST ACTION=/htbin/formproc/neal/webforms/contact.txt&display=/webforms/Contact_Form_Thank_You.shtml>
 <p>
 <table cellspacing=0 cellpadding=4>
 <td valign=bottom align=right>
@@ -20,16 +20,16 @@
 <b>
 <font size=-1>
 <small>
-<input name=required-prefix type=text value= size=10 maxlength=90 >
-<input name=required-first type=text value= size=12 maxlength=90 >
-<input name=middle type=text value= size=8 maxlength=90>
-<input name=required-last type=text value= size=15 maxlength=90>
-<input name=suffix type=text value= size=10 maxlength=90>
+<INPUT NAME=required-prefix type=text value= SIZE=10 maxlength=90 >
+<INPUT NAME=required-first type=text value= SIZE=12 maxlength=90 >
+<INPUT NAME=middle type=text value= SIZE=8 maxlength=90>
+<INPUT NAME=required-last type=text value= SIZE=15 maxlength=90>
+<INPUT NAME=suffix type=text value= SIZE=10 maxlength=90>
 <td align=right>
 <b>
 <font size=-1>
 <u>
-<input name=required-address type=text value= size=60 maxlength=190>
+<INPUT NAME=required-address type=text value= SIZE=60 maxlength=190>
 <td align=right>
 <b>
 <font size=-1>
@@ -39,66 +39,66 @@
 <b>
 <font size=-1>
 <u>
-<input name=phone type=text value= size=60 maxlength=190>
+<INPUT NAME=phone type=text value= SIZE=60 maxlength=190>
 <td align=right>
 <b>
 <font size=-1>
 <u>
-<input name=required-city type=text value= size=20 maxlength=45>
+<INPUT NAME=required-city type=text value= SIZE=20 maxlength=45>
 <b>
 <font size=-1>
 <u>
-<input name=required-state type=text value=ma size=20 readonly>
+<INPUT NAME=required-state type=text value=MA SIZE=20 readonly>
 <b>
 <font size=-1>
 <u>
-<input name=required-zip5 type=text value= size=5 maxlength=5>
-<input name=zip4 type=text value= size=4 maxlength=4>
+<INPUT NAME=required-zip5 type=text value= SIZE=5 maxlength=5>
+<INPUT NAME=zip4 type=text value= SIZE=4 maxlength=4>
 <td align=right>
 <b>
 <font size=-1>
 <u>
-<input name=required-email type=text value= size=60 maxlength=100>
+<INPUT NAME=required-email type=text value= SIZE=60 maxlength=100>
 <td align=right>
 <b>
 <font size=-1>
 <u>
-<select name=required-issue size=1>
+<SELECT NAME=required-issue SIZE=1>
 <option value= selected>
-<option value=agriculture>
-<option value=defense>
-<option value=economy>
-<option value=education>
-<option value=energy>
-<option value=environment>
-<option value=foreign>
-<option value=govt>
-<option value=health>
-<option value=medicare>
-<option value=hom>
-<option value=immigration>
-<option value=jud>
-<option value=labor>
-<option value=socsec>
-<option value=transport>
-<option value=trade>
-<option value=veterans>
-<option value=women>
-<option value=other>
+<OPTION VALUE=AGRICULTURE>
+<OPTION VALUE=DEFENSE>
+<OPTION VALUE=ECONOMY>
+<OPTION VALUE=EDUCATION>
+<OPTION VALUE=ENERGY>
+<OPTION VALUE=ENVIRONMENT>
+<OPTION VALUE=FOREIGN>
+<OPTION VALUE=GOVT>
+<OPTION VALUE=HEALTH>
+<OPTION VALUE=MEDICARE>
+<OPTION VALUE=HOM>
+<OPTION VALUE=IMMIGRATION>
+<OPTION VALUE=JUD>
+<OPTION VALUE=LABOR>
+<OPTION VALUE=SOCSEC>
+<OPTION VALUE=TRANSPORT>
+<OPTION VALUE=TRADE>
+<OPTION VALUE=VETERANS>
+<OPTION VALUE=WOMEN>
+<OPTION VALUE=OTHER>
 <font size=-1>
 <td valign=top align=right>
 <b>
 <font size=-1>
 <u>
-<font size=-2 color=#ff0000>
+<font size=-2 color=#FF0000>
 <font size=-1>
-<input type=radio value=n name=required-response checked>
-<input type=radio value=y name=required-response>
+<input type=radio value=N name=required-response checked>
+<input type=radio value=Y name=required-response>
 <td valign=top align=right>
 <b>
 <font size=-1>
 <u>
-<textarea name=required-message rows=10 cols=60>
+<TEXTAREA NAME=required-message ROWS=10 COLS=60>
 <td width=10%>
 <td >
 <table cellspacing=0 cellpadding=0>
@@ -116,13 +116,13 @@
 <td align=center>
 <input type=radio name=affl1 value= checked>
 <td align=center>
-<input type=radio name=affl1 value=subscribe>
+<input type=radio name=affl1 value=SUBSCRIBE>
 <td align=center>
-<input type=radio name=affl1 value=unsubscribe>
+<input type=radio name=affl1 value=UNSUBSCRIBE>
 <td colspan=2>
 <center>
-<input type=reset value=reset>
-<input type=submit value=submit>
+<INPUT TYPE=reset VALUE=Reset>
+<INPUT TYPE=submit VALUE=Submit>
 <td valign=top>
 <hr>
 <td valign=top>

@@ -1,93 +1,93 @@
-<form class=iq-form action=/contact/email-me method=post id=iq-forms-contact-form accept-charset=utf-8>
+<form class=iq-form action=/contact/email-me method=post id=iq-forms-contact-form accept-charset=UTF-8>
 <fieldset class=collapsible form-wrapper id=edit-name-address>
 <legend>
 <span class=fieldset-legend>
 <label for=edit-prefix>
-<abbr title=name prefix, ex. mr. or mrs.>
-<span class=form-required title=this field is required.>
+<abbr title=Name prefix, ex. Mr. or Mrs.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-prefix name=prefix value= size=2 maxlength=128 class=form-text required >
 <label for=edit-first>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-first name=first value= size=19 maxlength=128 class=form-text required >
 <label for=edit-middle>
-<abbr title=middle initial>
+<abbr title=Middle Initial>
 <input type=text id=edit-middle name=middle value= size=2 maxlength=128 class=form-text >
 <label for=edit-last>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-last name=last value= size=19 maxlength=128 class=form-text required >
 <label for=edit-suffix>
 <input type=text id=edit-suffix name=suffix value= size=2 maxlength=128 class=form-text >
 <label for=edit-addr1>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-addr1 name=addr1 value= size=80 maxlength=128 class=form-text required >
 <label for=edit-addr2>
 <input type=text id=edit-addr2 name=addr2 value= size=80 maxlength=128 class=form-text >
 <label for=edit-city>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-city name=city value= size=50 maxlength=128 class=form-text required >
 <label for=edit-state>
-<span class=form-required title=this field is required.>
-<input type=text id=edit-state name=state value=sc size=2 maxlength=128 class=form-text required >
+<span class=form-required title=This field is required.>
+<input type=text id=edit-state name=state value=SC size=2 maxlength=128 class=form-text required >
 <label for=edit-zip>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-zip name=zip value= size=10 maxlength=128 class=form-text required >
 <label for=edit-phone>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-phone name=phone value= size=35 maxlength=128 class=form-text required >
 <label for=edit-email>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <input type=text id=edit-email name=email value= size=36 maxlength=128 class=form-text required >
 <fieldset class=collapsible form-wrapper id=edit-your-message>
 <legend>
 <span class=fieldset-legend>
 <label for=edit-issue>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <select id=edit-issue name=issue class=form-select required>
 <option value= selected=selected>
-<option value=casework>
-<option value=ssec_medicare>
-<option value=agr>
-<option value=fin>
-<option value=bud>
-<option value=econ>
-<option value=soc>
-<option value=gov>
-<option value=def>
-<option value=edu>
-<option value=ene>
-<option value=env>
-<option value=int>
-<option value=gun>
-<option value=hea>
-<option value=hom>
-<option value=hou>
-<option value=imm>
-<option value=ind>
-<option value=jud>
-<option value=lab>
-<option value=medicaid>
-<option value=medicare>
-<option value=nat>
-<option value=ssec>
-<option value=post>
-<option value=sci/tech>
-<option value=tax>
-<option value=tel>
-<option value=trade>
-<option value=tra>
-<option value=vet>
-<option value=greet>
+<option value=CASEWORK>
+<option value=SSEC_MEDICARE>
+<option value=AGR>
+<option value=FIN>
+<option value=BUD>
+<option value=ECON>
+<option value=SOC>
+<option value=GOV>
+<option value=DEF>
+<option value=EDU>
+<option value=ENE>
+<option value=ENV>
+<option value=INT>
+<option value=GUN>
+<option value=HEA>
+<option value=HOM>
+<option value=HOU>
+<option value=IMM>
+<option value=IND>
+<option value=JUD>
+<option value=LAB>
+<option value=MEDICAID>
+<option value=MEDICARE>
+<option value=NAT>
+<option value=SSEC>
+<option value=POST>
+<option value=SCI/TECH>
+<option value=TAX>
+<option value=TEL>
+<option value=TRADE>
+<option value=TRA>
+<option value=VET>
+<option value=GREET>
 <label for=edit-response>
-<span class=form-required title=this field is required.>
-<input type=radio id=edit-response-y name=response value=y class=form-radio >
+<span class=form-required title=This field is required.>
+<input type=radio id=edit-response-y name=response value=Y class=form-radio >
 <label class=option for=edit-response-y>
-<input type=radio id=edit-response-n name=response value=n checked=checked class=form-radio >
+<input type=radio id=edit-response-n name=response value=N checked=checked class=form-radio >
 <label class=option for=edit-response-n>
 <label for=edit-message>
-<span class=form-required title=this field is required.>
+<span class=form-required title=This field is required.>
 <textarea id=edit-message name=message cols=60 rows=5 class=form-textarea required>
 <span style=font-size:11px;>
-<input type=checkbox id=edit-newsletter-subscribe name=newsletter-subscribe value=email.optin class=form-checkbox >
+<input type=checkbox id=edit-newsletter-subscribe name=newsletter-subscribe value=EMAIL.OPTIN class=form-checkbox >
 <label class=option for=edit-newsletter-subscribe>
 <b>
-<input type=submit id=edit-submit name=op value=submit class=form-submit >
+<input type=submit id=edit-submit name=op value=Submit class=form-submit >

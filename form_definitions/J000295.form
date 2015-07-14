@@ -6,15 +6,15 @@
 <span title=required field>
 <select name=prefix id=prefix class=short filled>
 <option selected= value=>
-<option value=mr. >
-<option value=mrs.>
-<option value=ms.>
-<option value=miss>
-<option value=dr.>
-<option value=hon.>
-<option value=rev.>
-<option value=rabbi>
-<option value=other>
+<option value=Mr. >
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Hon.>
+<option value=Rev.>
+<option value=Rabbi>
+<option value=Other>
 <label for=req_firstname>
 <span title=required field>
 <input type=text name=firstname id=req_firstname maxlength=100 class=text fn filled>
@@ -37,58 +37,58 @@
 <span title=required information>
 <select name=state class=short filled id=req_state>
 <option selected= value=>
-<option value=ak>
-<option value=al>
-<option value=ar>
-<option value=az>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=dc>
-<option value=de>
-<option value=fl>
-<option value=ga>
-<option value=hi>
-<option value=ia>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=ma>
-<option value=md>
-<option value=me>
-<option value=mi>
-<option value=mn>
-<option value=mo>
-<option value=ms>
-<option value=mt>
-<option value=nc>
-<option value=nd>
-<option value=ne>
-<option value=nh>
-<option value=nj>
-<option value=nm>
-<option value=nv>
-<option value=ny>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=pr>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=va>
-<option value=vt>
-<option value=wa>
-<option value=wi>
-<option value=wv>
-<option value=wy>
+<option value=AK>
+<option value=AL>
+<option value=AR>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=IA>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=MA>
+<option value=MD>
+<option value=ME>
+<option value=MI>
+<option value=MN>
+<option value=MO>
+<option value=MS>
+<option value=MT>
+<option value=NC>
+<option value=ND>
+<option value=NE>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NV>
+<option value=NY>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=PR>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VA>
+<option value=VT>
+<option value=WA>
+<option value=WI>
+<option value=WV>
+<option value=WY>
 <label for=req_zip>
 <span title=required information>
 <input value=44087 class=zip z5 filled id=req_zip maxlength=5 name=zipcode type=text>
@@ -103,40 +103,40 @@
 <span title=required information>
 <select id=req_issue name=issue class=filled>
 <option selected=selected value=>
-<option value=agri>
-<option value=bud>
-<option value=def>
-<option value=edu>
-<option value=enr>
-<option value=env>
-<option value=faff>
-<option value=gov>
-<option value=hlth>
-<option value=hom>
-<option value=imm>
-<option value=int>
-<option value=jud>
-<option value=lab>
-<option value=gun>
-<option value=soc>
-<option value=tax>
-<option value=tele>
-<option value=tour>
-<option value=trans>
-<option value=trd>
-<option value=vet>
-<option value=wel>
-<option value=oth>
+<option value=AGRI>
+<option value=BUD>
+<option value=DEF>
+<option value=EDU>
+<option value=ENR>
+<option value=ENV>
+<option value=FAFF>
+<option value=GOV>
+<option value=HLTH>
+<option value=HOM>
+<option value=IMM>
+<option value=INT>
+<option value=JUD>
+<option value=LAB>
+<option value=GUN>
+<option value=SOC>
+<option value=TAX>
+<option value=TELE>
+<option value=TOUR>
+<option value=TRANS>
+<option value=TRD>
+<option value=VET>
+<option value=WEL>
+<option value=OTH>
 <label for=req_message>
 <span title=required information>
 <textarea name=message id=req_message class=message filled>
 <label>
 <select name=response id=response class=filled>
-<option selected=selected value=n>
-<option value=y>
+<option selected=selected value=N>
+<option value=Y>
 <fieldset>
 <legend>
 <p style=font-weight:bold>
-<input type=checkbox name=newsletter id=newsletter value=subscriber class=filled>
+<input type=checkbox name=newsletter id=newsletter value=Subscriber class=filled>
 <p>
-<input type=button size=20 value=send email id=submitbutton class=form_submit_button filled>
+<input type=button size=20 value=Send Email id=submitButton class=form_submit_button filled>

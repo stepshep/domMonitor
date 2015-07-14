@@ -1,4 +1,4 @@
-<form id=standard_form onsubmit=return validatestandardform(this) method=post action=/?p=submit>
+<form id=standard_form onSubmit=return validateStandardForm(this) method=post action=/?p=submit>
 <label>
 <span class=req>
 <input  type=text id=prefix name=prefix value= class=input-text required  maxlength=30 >
@@ -21,64 +21,64 @@
 <label>
 <span class=req>
 <select id=state name=state class=input-select required>
-<option value=al>
-<option value=ak>
-<option value=as>
-<option value=az>
-<option value=ar>
-<option value=aa>
-<option value=ae>
-<option value=ap>
-<option value=ca>
-<option value=co>
-<option value=ct>
-<option value=de>
-<option value=dc>
-<option value=fl>
-<option value=ga>
-<option value=gu>
-<option value=hi>
-<option value=id>
-<option value=il>
-<option value=in>
-<option value=ia>
-<option value=ks>
-<option value=ky>
-<option value=la>
-<option value=me>
-<option value=md>
-<option value=ma>
-<option value=mi>
-<option value=mn>
-<option value=ms>
-<option value=mo>
-<option value=mt>
-<option value=ne>
-<option value=nv>
-<option selected=selected value=nh>
-<option value=nj>
-<option value=nm>
-<option value=ny>
-<option value=nc>
-<option value=nd>
-<option value=oh>
-<option value=ok>
-<option value=or>
-<option value=pa>
-<option value=pr>
-<option value=ri>
-<option value=sc>
-<option value=sd>
-<option value=tn>
-<option value=tx>
-<option value=ut>
-<option value=vt>
-<option value=vi>
-<option value=va>
-<option value=wa>
-<option value=wv>
-<option value=wi>
-<option value=wy>
+<option value=AL>
+<option value=AK>
+<option value=AS>
+<option value=AZ>
+<option value=AR>
+<option value=AA>
+<option value=AE>
+<option value=AP>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=GU>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option selected=selected value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=PR>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VI>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
 <label>
 <span class=req>
 <input  type=text id=zip name=zip value= class=input-text required  maxlength=10 >
@@ -94,51 +94,51 @@
 <em>
 <select id=topic name=topic class=input-select required>
 <option value= >
-<option value=abortion / family planning>
-<option value=agriculture>
-<option value=animal welfare>
-<option value=banking / finance>
-<option value=business>
-<option value=defense>
-<option value=education>
-<option value=energy>
-<option value=environment>
-<option value=federal budget>
-<option value=fish / wildlife>
-<option value=foreign relations>
-<option value=government affairs>
-<option value=health care>
-<option value=housing>
-<option value=immigration / border issues>
-<option value=jobs>
-<option value=judiciary>
-<option value=justice>
-<option value=labor>
-<option value=medicare / medicaid>
-<option value=native americans>
-<option value=other - not listed>
-<option value=pensions / retirement>
-<option value=postal service>
-<option value=science / space>
-<option value=second amendment>
-<option value=social security>
-<option value=taxes / irs>
-<option value=telecommunications>
-<option value=terrorism>
-<option value=trade>
-<option value=transportation>
-<option value=veterans affairs>
-<option value=welfare>
-<option value=womens issues>
+<option value=Abortion / Family Planning>
+<option value=Agriculture>
+<option value=Animal Welfare>
+<option value=Banking / Finance>
+<option value=Business>
+<option value=Defense>
+<option value=Education>
+<option value=Energy>
+<option value=Environment>
+<option value=Federal Budget>
+<option value=Fish / Wildlife>
+<option value=Foreign Relations>
+<option value=Government Affairs>
+<option value=Health Care>
+<option value=Housing>
+<option value=Immigration / Border Issues>
+<option value=Jobs>
+<option value=Judiciary>
+<option value=Justice>
+<option value=Labor>
+<option value=Medicare / Medicaid>
+<option value=Native Americans>
+<option value=Other - Not Listed>
+<option value=Pensions / Retirement>
+<option value=Postal Service>
+<option value=Science / Space>
+<option value=Second Amendment>
+<option value=Social Security>
+<option value=Taxes / IRS>
+<option value=Telecommunications>
+<option value=Terrorism>
+<option value=Trade>
+<option value=Transportation>
+<option value=Veterans Affairs>
+<option value=Welfare>
+<option value=Womens Issues>
 <label>
 <span class=req>
 <em>
 <input  type=text id=subject name=subject value= class=input-text required >
 <label>
 <em>
-<textarea id=messagebody name=messagebody class=input-textarea rows=5 cols=40 wrap=virtual>
+<textarea id=messagebody name=messagebody class=input-textarea rows=5 cols=40 wrap=VIRTUAL>
 <label>
 <span class=req>
 <input title= class=input-radio siblings-newsletteraction siblings-2 required name=newsletteraction id=newsletteraction  checked=true  type=radio value=subscribe>
 <input title= class=input-radio siblings-newsletteraction siblings-2 required name=newsletteraction id=newsletteraction  type=radio value=unsubscribe>
-<input class=input-button type=submit name=submit value=submit information >
+<input class=input-button type=submit name=submit value=Submit Information >

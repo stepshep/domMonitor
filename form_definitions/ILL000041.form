@@ -1,24 +1,66 @@
-<form method=post  id=userform enctype=multipart/form-data action=http://senatormulroe.org/contact-me>
-<fieldset class=formfieldset>
-<legend>
-<ol class=formcontainer id=rsform_4_page_0>
-<li class=rsform-block rsform-block-firstname>
-<strong class=formrequired>
-<input type=text value= size=20 maxlength=60 name=form[firstname] id=firstname  class=rsform-input-box>
-<span class=formclr>
-<span id=component40 class=formnoerror>
-<li class=rsform-block rsform-block-lastname>
-<strong class=formrequired>
-<input type=text value= size=20 maxlength=60 name=form[lastname] id=lastname  class=rsform-input-box>
-<span class=formclr>
-<span id=component39 class=formnoerror>
-<li class=rsform-block rsform-block-email>
-<strong class=formrequired>
+<form method=post  id=userForm enctype=multipart/form-data action=http://senatormulroe.org/contact-me>
+<table class=formTableLayout border=0>
+<tr class=rsform-block rsform-block-prefix>
+<input type=text value= size=10  name=form[prefix] id=prefix  class=rsform-input-box>
+<span id=component36 class=formNoError>
+<tr class=rsform-block rsform-block-firstname>
+<input type=text value= size=40 maxlength=60 name=form[firstName] id=firstName  class=rsform-input-box>
+<span id=component31 class=formNoError>
+<tr class=rsform-block rsform-block-lastname>
+<input type=text value= size=40 maxlength=60 name=form[lastName] id=lastName  class=rsform-input-box>
+<span id=component30 class=formNoError>
+<tr class=rsform-block rsform-block-address>
+<input type=text value= size=50  name=form[address] id=address  class=rsform-input-box>
+<span id=component29 class=formNoError>
+<tr class=rsform-block rsform-block-city>
+<input type=text value= size=60  name=form[city] id=city  class=rsform-input-box>
+<span id=component28 class=formNoError>
+<tr class=rsform-block rsform-block-state>
+<input type=text value=IL size=2  name=form[state] id=state  class=rsform-input-box>
+<span id=component27 class=formNoError>
+<tr class=rsform-block rsform-block-zipcode>
+<input type=text value= size=11  name=form[zipCode] id=zipCode  class=rsform-input-box>
+<span id=component26 class=formNoError>
+<tr class=rsform-block rsform-block-phone>
+<input type=text value= size=20  name=form[phone] id=phone  class=rsform-input-box>
+<span id=component25 class=formNoError>
+<tr class=rsform-block rsform-block-email>
 <input type=text value= size=20  name=form[email] id=email  class=rsform-input-box>
-<span class=formclr>
-<span id=component37 class=formnoerror>
-<li class=rsform-block rsform-block-send>
-<input type=submit value=send name=form[send] id=send  class=rsform-submit-button >
-<span class=formclr>
-<li class=rsform-block rsform-block-note>
-<span class=formclr>
+<span id=component35 class=formNoError>
+<tr class=rsform-block rsform-block-issue>
+<select  name=form[issue][]  id=issue  class=rsform-select-box >
+<option  value=--Choose a topic-->
+<option  value=2nd Amendment Issues>
+<option  value=Agriculture>
+<option  value=Budget>
+<option  value=Consumer Issues>
+<option  value=Economic Development>
+<option  value=Education>
+<option  value=Employment>
+<option  value=Energy>
+<option  value=Environment>
+<option  value=Federal Issues>
+<option  value=Healthcare>
+<option  value=Housing>
+<option  value=Human Rights>
+<option  value=Licensing>
+<option  value=Local Government>
+<option  value=Natural Resources>
+<option  value=Other>
+<option  value=Pensions>
+<option  value=Public Safety>
+<option  value=Public Utilities>
+<option  value=Seniors>
+<option  value=Taxes>
+<option  value=Transportation>
+<option  value=Veterans>
+<span id=component24 class=formNoError>
+<tr class=rsform-block rsform-block-essay1>
+<textarea cols=50 rows=20 name=form[essay1] id=essay1  class=rsform-text-box>
+<span id=component33 class=formNoError>
+<tr class=rsform-block rsform-block-note>
+<tr class=rsform-block rsform-block-mulroe>
+<input type=text name=form[mulroe] value= id=captchaTxt23 style=text-align:center;width:75px; class=rsform-captcha-box >
+<span id=component23 class=formNoError>
+<tr class=rsform-block rsform-block-send>
+<input type=submit value=Send name=form[Send] id=Send  class=rsform-submit-button >

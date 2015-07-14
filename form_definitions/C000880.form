@@ -1,3 +1,7 @@
+<form id="searchform" class="navbar-form pull-right" action="/search_results.cfm" name="googlesearch">
+<input type="text" class="span2" name="q" placeholder="Site Search">
+<button class="btn" type="submit" name="submit" value="submit">
+<i class="icon-search">
 <form name="thisForm" id="thisForm" action="webformActionIAV1.cfm" method="post" class="form-horizontal" onsubmit="return _CF_checkthisForm(this)">
 <fieldset>
 <legend>

@@ -24,3 +24,8 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" data-valmsg-replace="true">
 <input type="text" name="821836621cbb4c8bbce3f374b03da112" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
+<form class="form-inline" action="/assembly/87/edming/search-results/" method="GET">
+<input class="form-control" type="text" name="q" >
+<span class="input-group-btn" >
+<button class="btn btn-default" type="button" onclick="submit();">
+<i class="glyphicon glyphicon-search">

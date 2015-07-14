@@ -1,3 +1,6 @@
+<form action="http://sessions.house.gov/" method="get">
+<input type="text" class="text" name="q" value="Search" >
+<input type="submit" class="submit" value="Go" >
 <form method="post" class="uniForm" id="form_A989233D-1B27-4AB7-A270-E7767F58CB9E">
 <label for="field_776EC445-9AA7-4711-84B2-1FE86234EF94">
 <strong class="required">
@@ -120,3 +123,11 @@
 <input type="checkbox" name="TxtOptIn" id="TxtOptIn" value="1">
 <label for="TxtOptIn">
 <input type="submit" value="Submit" >
+<form action="https://sessions.house.gov/index.cfm/quick-newsletter-signup" method="post">
+<label for="subscribeEmail_email" class="label">
+<input id="subscribeEmail_email" type="text" class="text" name="field_b55f9e7d-ca44-462c-ba94-53c1426fcaec" value="Email Address" >
+<input type="submit" class="submit" value="Go" >
+<form action="https://sessions.house.gov/index.cfm/quick-mobile-signup" method="post">
+<label for="subscribeMobile_phone" class="label">
+<input id="subscribeMobile_phone" type="text" class="text" name="field_ecc22717-0db7-4eca-ab21-19c906af4128" value="Phone Number" >
+<input type="submit" class="submit" value="Go" >
