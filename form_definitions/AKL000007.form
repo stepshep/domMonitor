@@ -1,3 +1,8 @@
+<form method=post action=http://alaskasenatedems.com/email.php style= padding:0; margin:0; text-align:right; id=connection>
+<span style=font-size:16px; font-weight:bold;>
+<input name=sender type=text size=15 value= email height=18 style=padding:0px; onfocus=if (this.value ==  email) {this.value = ;} onblur=if (this.value == ) {this.value =  email;}  >
+<input name=zip type=text size=10 value= zip height=18 style=padding:0px; onfocus=if (this.value ==  zip) {this.value = ;} onblur=if (this.value == ) {this.value =  zip;} >
+<input class=select type=submit value=go height=18 style=font-size:100%; margin:0px; padding:2px; color:#ffffff; background-color:#0066ff;>
 <form action=/egan/contact-me/#wpcf7-f65-p66-o1 method=post class=wpcf7-form novalidate=novalidate>
 <p>
 <span class=wpcf7-form-control-wrap your-name>
@@ -21,3 +26,6 @@
 <label>
 <p>
 <input type=submit value=send class=wpcf7-form-control wpcf7-submit >
+<form role=search method=get id=searchform action=http://alaskasenatedems.com/egan>
+<input type=text onfocus=if (this.value == search) {this.value = ;} onblur=if (this.value == ) {this.value = search;}  value=search name=s id=s >
+<input type=submit id=searchsubmit value=search >
