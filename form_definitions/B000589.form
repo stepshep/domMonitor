@@ -1,27 +1,27 @@
-<form method="post" action="/htbin/formproc.pl?/boehner/form_contact.txt&amp;display=/boehner/thank_you_contact.htm">
-<table border="0" cellpadding="4" cellspacing="3">
+<form method=post action=/htbin/formproc.pl?/boehner/form_contact.txt&amp;display=/boehner/thank_you_contact.htm>
+<table border=0 cellpadding=4 cellspacing=3>
 <tbody>
-<td align="right">
-<label for="your_fname">
-<input name="required-firstname1" id="your_fname" size="40" align="left">
-<td align="right">
-<label for="your_lname">
-<input name="required-lastname1" id="your_lname" size="40" align="left">
-<td align="right">
-<label for="your_email">
-<input name="required-valid-email" type="TEXT" size="40" id="your_email" align="left">
-<td align="right">
-<label for="your_phone">
-<input name="phone" type="TEXT" size="40" id="your_phone" align="left">
-<td align="right">
-<label for="your_address">
-<input name="required-address" type="TEXT" size="40" id="your_address" align="left">
-<td align="right">
-<label for="your_city">
-<input name="required-city" type="TEXT" size="40" id="your_city" align="left">
-<td align="right">
-<label for="your_state">
-<select name="state" id="your_state">
+<td align=right>
+<label for=your_fname>
+<input name=required-firstname1 id=your_fname size=40 align=left>
+<td align=right>
+<label for=your_lname>
+<input name=required-lastname1 id=your_lname size=40 align=left>
+<td align=right>
+<label for=your_email>
+<input name=required-valid-email type=text size=40 id=your_email align=left>
+<td align=right>
+<label for=your_phone>
+<input name=phone type=text size=40 id=your_phone align=left>
+<td align=right>
+<label for=your_address>
+<input name=required-address type=text size=40 id=your_address align=left>
+<td align=right>
+<label for=your_city>
+<input name=required-city type=text size=40 id=your_city align=left>
+<td align=right>
+<label for=your_state>
+<select name=state id=your_state>
 <option>
 <option>
 <option>
@@ -56,7 +56,7 @@
 <option>
 <option>
 <option>
-<option selected="selected">
+<option selected=selected>
 <option>
 <option>
 <option>
@@ -72,20 +72,20 @@
 <option>
 <option>
 <option>
-<td align="right">
-<label for="email_updates">
-<input type="checkbox" name="email_updates" value="yes">
-<td align="right">
-<label for="your_comments">
-<textarea name="required-comments" type="TEXTAREA" rows="10" cols="40" id="your_comments" align="left">
-<td align="right">
-<label for="subscriptions">
-<input type="checkbox" name="sub-economy" value="ENEWS.ECONOMY">
-<input type="checkbox" name="sub-education" value="ENEWS.EDUCATION">
-<input type="checkbox" name="sub-crime" value="ENEWS.CRIME">
-<input type="checkbox" name="sub-foreign" value="ENEWS.FOREIGN">
-<input type="checkbox" name="sub-homeland" value="ENEWS.HOMELAND">
-<input type="checkbox" name="sub-health" value="ENEWS.HEALTH">
-<input type="checkbox" name="sub-energy" value="ENEWS.ENERGY">
-<input type="checkbox" name="sub-immigration" value="ENEWS.IMMIGRATION">
-<input type="submit" value="Submit">
+<td align=right>
+<label for=email_updates>
+<input type=checkbox name=email_updates value=yes>
+<td align=right>
+<label for=your_comments>
+<textarea name=required-comments type=textarea rows=10 cols=40 id=your_comments align=left>
+<td align=right>
+<label for=subscriptions>
+<input type=checkbox name=sub-economy value=enews.economy>
+<input type=checkbox name=sub-education value=enews.education>
+<input type=checkbox name=sub-crime value=enews.crime>
+<input type=checkbox name=sub-foreign value=enews.foreign>
+<input type=checkbox name=sub-homeland value=enews.homeland>
+<input type=checkbox name=sub-health value=enews.health>
+<input type=checkbox name=sub-energy value=enews.energy>
+<input type=checkbox name=sub-immigration value=enews.immigration>
+<input type=submit value=submit>

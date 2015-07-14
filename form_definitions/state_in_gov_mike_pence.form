@@ -1,23 +1,210 @@
-<FORM id=gov-delivery-form action=https://public.govdelivery.com/accounts/INGOV/subscribers/qualify target=_blank>
-<DIV>
-<P class=standard>
-<UL class=form>
-<LI>
-<LABEL for=subscription_type>
-<DIV class=input_group>
-<SELECT id=subscription_type name=subscription_type>
-<OPTION selected value=email>
-<OPTION value=phone>
-<LABEL for=phone>
-<IMG class=required alt=Required src="https://public.govdelivery.com/images/required.gif?1215719772">
-<DIV class=input_group>
-<SELECT disabled id=country_code_display title="Country code" name=country_code_display>
-<OPTION selected value=1>
-<INPUT id=phone title="Wireless Number" class=medium name=phone>
-<LI class=email_fields style="DISPLAY: block">
-<LABEL for=email>
-<IMG class=required alt=Required src="https://public.govdelivery.com/images/required.gif?1215719772">
-<BR>
-<INPUT id=email class=long name=email>
-<DIV class=button_panel>
-<INPUT class=form_button type=submit value=Submit name=commit>
+<form action=/apps/afss/afss2 id=govcontact method=post name=govcontact>
+<p>
+<fieldset>
+<legend>
+<label for=subject>
+<select id=subject name=subject>
+<option selected=selected>
+<option value=doa>
+<option value=isda>
+<option value=atc>
+<option value=appeals, court of>
+<option value=attorney general>
+<option value=auditor of state>
+<option value=omb>
+<option value=iedc>
+<option value=dcs>
+<option value=dcs-child support>
+<option value=civil rights commission, indiana>
+<option value=doc>
+<option value=counter terrorism and security council, indiana>
+<option value=cji>
+<option value=dfi>
+<option value=education>
+<option value=election division>
+<option value=dhs>
+<option value=idem>
+<option value=ethics commission, indiana state>
+<option value=excise police, indiana state>
+<option value=isfc>
+<option value=ofbci>
+<option value=fssa>
+<option value=igc>
+<option value=governor, office of the>
+<option value=governor’s planning council for people with disabilities, indiana>
+<option value=grain buyers and warehouse licensing agency, indiana>
+<option value=isdh>
+<option value=iche>
+<option value=higher education telecommunication system, indiana>
+<option value=hispanic/latino affairs, indiana commission on>
+<option value=historical bureau, indiana>
+<option value=dhs>
+<option value=house of representatives>
+<option value=ihcda>
+<option value=inspector general>
+<option value=integrated public safety commission>
+<option value=dol>
+<option value=omb>
+<option value=lottery>
+<option value=bmv>
+<option value=dnr>
+<option value=protection and advocacy services>
+<option value=omb>
+<option value=public records, indiana commission>
+<option value=omb>
+<option value=ocra>
+<option value=rural development council, indiana>
+<option value=secretary of state>
+<option value=senate>
+<option value=social status of black males, indiana commission>
+<option value=omb>
+<option value=isp>
+<option value=omb>
+<option value=iot>
+<option value=isdh-itpc>
+<option value=iotd>
+<option value=treasurer, indiana state>
+<option value=indot>
+<option value=oucc>
+<option value=iurc>
+<option value=dva>
+<option value=dwd - unemp - prob>
+<option value=other>
+<fieldset>
+<legend>
+<label for=prefix>
+<select id=prefix name=prefix>
+<option selected=selected>
+<option value=captain>
+<option value=chief>
+<option value=councilman>
+<option value=councilwoman>
+<option value=dame>
+<option value=doctor>
+<option value=dr.>
+<option value=dr. and mr.>
+<option value=dr. and mrs.>
+<option value=father>
+<option value=friend>
+<option value=friends>
+<option value=miss>
+<option value=monsignor>
+<option value=mr.>
+<option value=mr. and mrs.>
+<option value=mrs.>
+<option value=ms.>
+<option value=pastor>
+<option value=rabbi>
+<option value=rev.>
+<option value=reverend>
+<option value=sir>
+<option value=sister>
+<option value=the honorable>
+<label for=first>
+<input autocomplete=off id=first maxlength=25 name=first size=15 >
+<label for=mi>
+<input autocomplete=off id=mi maxlength=1 name=mi size=1 >
+<label for=last>
+<input autocomplete=off id=last maxlength=25 name=last size=15 >
+<label for=suffix>
+<select id=suffix name=suffix>
+<option selected=selected value=>
+<option value=ii>
+<option value=iii>
+<option value=d.v.m.>
+<option value=d.d.s.>
+<option value=esq.>
+<option value=family>
+<option value=jr.>
+<option value=l.l.d.>
+<option value=m.b.a.>
+<option value=m.d.>
+<option value=ph.d.>
+<option value=r.n.>
+<option value=sr.>
+<p>
+<fieldset>
+<legend>
+<label for=street>
+<input autocomplete=off id=street maxlength=50 name=street size=40 >
+<label for=suite>
+<input id=suite maxlength=20 name=suite >
+<label for=city>
+<input autocomplete=off id=city maxlength=50 name=city size=30 >
+<label for=state>
+<select name=state>
+<option value=al>
+<option value=ak>
+<option value=az>
+<option value=ar>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=dc>
+<option value=de>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=id>
+<option value=il>
+<option selected=selected value=in>
+<option value=ia>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=me>
+<option value=md>
+<option value=ma>
+<option value=mi>
+<option value=mn>
+<option value=mo>
+<option value=ms>
+<option value=mt>
+<option value=ne>
+<option value=nv>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=ny>
+<option value=nc>
+<option value=nd>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=vt>
+<option value=va>
+<option value=wa>
+<option value=wv>
+<option value=wi>
+<option value=wy>
+<option value=as>
+<option value=fm>
+<option value=gu>
+<option value=mh>
+<option value=mp>
+<option value=pr>
+<option value=vi>
+<option value=other>
+<label for=zip>
+<input autocomplete=off id=zip maxlength=5 name=zip size=5 >
+<p>
+<fieldset>
+<legend>
+<input autocomplete=off id=phone name=phone size=15 >
+<p>
+<fieldset>
+<legend>
+<p style=margin-bottom: 5px>
+<p>
+<fieldset>
+<legend>
+<textarea cols=40 id=message name=message rows=12>
+<input type=reset value=clear >
+<input type=submit value=submit >

@@ -1,55 +1,52 @@
-<h2>
-<p class="form-info">
-<form action="/htbin/formproc/email-me.txt%26display%3D/contact/email-me/email-me-thank-you%26nobase%26fpGetVer%3D2" class="validate wsbform" id="contactForm" method="post" name="contactForm">
+<form action=/htbin/formproc/email-me.txt%26display%3d/contact/email-me/email-me-thank-you%26nobase%26fpgetver%3d2 class=validate wsbform id=contactform method=post name=contactform>
 <fieldset>
 <legend>
-<label for="prefix">
-<input id="prefix" maxlength="100" name="prefix" placeholder="Prefix" type="text">
-<label for="required-first">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-first" maxlength="100" name="required-first" placeholder="First Name" type="text">
-<label for="middle">
-<input id="middle" maxlength="100" name="middle" placeholder="Middle Initial" type="text">
-<label for="required-last">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-last" maxlength="100" name="required-last" placeholder="Last Name" type="text">
-<label for="suffix">
-<input id="suffix" maxlength="100" name="suffix" placeholder="Suffix" type="text">
-<label for="required-address">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-address" maxlength="100" name="required-address" placeholder="Street Address" type="text">
-<label for="address2">
-<input id="address2" maxlength="100" name="address2" placeholder="Street Address Continued" type="text">
-<label for="required-city">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-city" maxlength="100" name="required-city" placeholder="City" type="text">
-<label for="required-state">
-<label for="required-zip5">
-<label for="zip4">
-<label for="required-valid-email">
-<span class="required-field" title="required information">
-<input class="validate[required,custom[email]] is-required" id="required-valid-email" maxlength="100" name="required-valid-email" placeholder="Email" type="text">
+<label for=prefix>
+<input id=prefix maxlength=100 name=prefix placeholder=prefix type=text>
+<label for=required-first>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-first maxlength=100 name=required-first placeholder=first name type=text>
+<label for=middle>
+<input id=middle maxlength=100 name=middle placeholder=middle initial type=text>
+<label for=required-last>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-last maxlength=100 name=required-last placeholder=last name type=text>
+<label for=suffix>
+<input id=suffix maxlength=100 name=suffix placeholder=suffix type=text>
+<label for=required-address>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-address maxlength=100 name=required-address placeholder=street address type=text>
+<label for=address2>
+<input id=address2 maxlength=100 name=address2 placeholder=street address continued type=text>
+<label for=required-city>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-city maxlength=100 name=required-city placeholder=city type=text>
+<label for=required-state>
+<label for=required-zip5>
+<label for=zip4>
+<label for=required-valid-email>
+<span class=required-field title=required information>
+<input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email placeholder=email type=text>
 <fieldset>
 <legend>
-<label for="required-phone">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-phone" maxlength="80" name="required-phone" placeholder="Telephone Number" type="text">
-<input checked="checked" id="speech_0" name="speech" type="radio" value="Voice">
-<label class="is-inline" for="speech_0">
-<input id="speech_1" name="speech" type="radio" value="VP">
-<label class="is-inline" for="speech_1">
-<input id="speech_2" name="speech" type="radio" value="TTD">
-<label class="is-inline" for="speech_2">
+<label for=required-phone>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-phone maxlength=80 name=required-phone placeholder=telephone number type=text>
+<input checked=checked id=speech_0 name=speech type=radio value=voice>
+<label class=is-inline for=speech_0>
+<input id=speech_1 name=speech type=radio value=vp>
+<label class=is-inline for=speech_1>
+<input id=speech_2 name=speech type=radio value=ttd>
+<label class=is-inline for=speech_2>
 <p>
 <fieldset>
 <legend>
-<label for="required-subject">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-subject" maxlength="100" name="required-subject" placeholder="Message Subject" type="text">
-<label for="required-message">
-<span class="required-field" title="required information">
-<textarea class="validate[required] is-required" cols="68" id="required-message" name="required-message" placeholder="Text of Message" rows="5">
-<input id="subscribe" name="subscribe" type="checkbox" value="Email.Optin">
-<label class="is-inline" for="subscribe">
-<input class="submit" id="submit" name="submit" role="button" type="submit" value="Send Email">
-<p>
+<label for=required-subject>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject placeholder=message subject type=text>
+<label for=required-message>
+<span class=required-field title=required information>
+<textarea class=validate[required] is-required cols=68 id=required-message name=required-message placeholder=text of message rows=5>
+<input id=subscribe name=subscribe type=checkbox value=email.optin>
+<label class=is-inline for=subscribe>
+<input class=submit id=submit name=submit role=button type=submit value=send email>

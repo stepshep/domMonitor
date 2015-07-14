@@ -1,226 +1,226 @@
-<form method="POST" action="http://assembly.state.ny.us/mem/Karl-Brabenec/send_mail">
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_fname" SIZE="20" MAXLENGTH="30" TABINDEX="1">
-<INPUT TYPE="TEXT" NAME="form_mid" SIZE="5" MAXLENGTH="1" TABINDEX="2">
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_lname" SIZE="20" MAXLENGTH="50" TABINDEX="3">
-<INPUT TYPE="TEXT" NAME="form_org" SIZE="50" MAXLENGTH="500" TABINDEX="4">
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_addr1" SIZE="50" MAXLENGTH="255" TABINDEX="5">
-<INPUT TYPE="TEXT" NAME="form_addr2" SIZE="50" MAXLENGTH="255" TABINDEX="6">
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_city" SIZE="50" MAXLENGTH="255" TABINDEX="7">
-<span class="reqfield">
-<SELECT NAME="form_state" TABINDEX="8">
-<OPTION VALUE="New York" SELECTED>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_zip" SIZE="10" MAXLENGTH="10" TABINDEX="9">
-<INPUT TYPE="TEXT" NAME="form_phone" SIZE="50" MAXLENGTH="255" TABINDEX="10">
-<select name="form_dob_month">
-<OPTION VALUE="0" SELECTED>
-<OPTION VALUE="01">
-<OPTION VALUE="02">
-<OPTION VALUE="03">
-<OPTION VALUE="04">
-<OPTION VALUE="05">
-<OPTION VALUE="06">
-<OPTION VALUE="07">
-<OPTION VALUE="08">
-<OPTION VALUE="09">
-<OPTION VALUE="10">
-<OPTION VALUE="11">
-<OPTION VALUE="12">
-<select name="form_dob_day">
-<OPTION VALUE="0" SELECTED>
-<OPTION VALUE="01">
-<OPTION VALUE="02">
-<OPTION VALUE="03">
-<OPTION VALUE="04">
-<OPTION VALUE="05">
-<OPTION VALUE="06">
-<OPTION VALUE="07">
-<OPTION VALUE="08">
-<OPTION VALUE="09">
-<OPTION VALUE="10">
-<OPTION VALUE="11">
-<OPTION VALUE="12">
-<OPTION VALUE="13">
-<OPTION VALUE="14">
-<OPTION VALUE="15">
-<OPTION VALUE="16">
-<OPTION VALUE="17">
-<OPTION VALUE="18">
-<OPTION VALUE="19">
-<OPTION VALUE="20">
-<OPTION VALUE="21">
-<OPTION VALUE="22">
-<OPTION VALUE="23">
-<OPTION VALUE="24">
-<OPTION VALUE="25">
-<OPTION VALUE="26">
-<OPTION VALUE="27">
-<OPTION VALUE="28">
-<OPTION VALUE="29">
-<OPTION VALUE="30">
-<OPTION VALUE="31">
-<select name="form_dob_year">
-<OPTION VALUE="">
-<OPTION VALUE="2015">
-<OPTION VALUE="2014">
-<OPTION VALUE="2013">
-<OPTION VALUE="2012">
-<OPTION VALUE="2011">
-<OPTION VALUE="2010">
-<OPTION VALUE="2009">
-<OPTION VALUE="2008">
-<OPTION VALUE="2007">
-<OPTION VALUE="2006">
-<OPTION VALUE="2005">
-<OPTION VALUE="2004">
-<OPTION VALUE="2003">
-<OPTION VALUE="2002">
-<OPTION VALUE="2001">
-<OPTION VALUE="2000">
-<OPTION VALUE="1999">
-<OPTION VALUE="1998">
-<OPTION VALUE="1997">
-<OPTION VALUE="1996">
-<OPTION VALUE="1995">
-<OPTION VALUE="1994">
-<OPTION VALUE="1993">
-<OPTION VALUE="1992">
-<OPTION VALUE="1991">
-<OPTION VALUE="1990">
-<OPTION VALUE="1989">
-<OPTION VALUE="1988">
-<OPTION VALUE="1987">
-<OPTION VALUE="1986">
-<OPTION VALUE="1985">
-<OPTION VALUE="1984">
-<OPTION VALUE="1983">
-<OPTION VALUE="1982">
-<OPTION VALUE="1981">
-<OPTION VALUE="1980">
-<OPTION VALUE="1979">
-<OPTION VALUE="1978">
-<OPTION VALUE="1977">
-<OPTION VALUE="1976">
-<OPTION VALUE="1975">
-<OPTION VALUE="1974">
-<OPTION VALUE="1973">
-<OPTION VALUE="1972">
-<OPTION VALUE="1971">
-<OPTION VALUE="1970">
-<OPTION VALUE="1969">
-<OPTION VALUE="1968">
-<OPTION VALUE="1967">
-<OPTION VALUE="1966">
-<OPTION VALUE="1965">
-<OPTION VALUE="1964">
-<OPTION VALUE="1963">
-<OPTION VALUE="1962">
-<OPTION VALUE="1961">
-<OPTION VALUE="1960">
-<OPTION VALUE="1959">
-<OPTION VALUE="1958">
-<OPTION VALUE="1957">
-<OPTION VALUE="1956">
-<OPTION VALUE="1955">
-<OPTION VALUE="1954">
-<OPTION VALUE="1953">
-<OPTION VALUE="1952">
-<OPTION VALUE="1951">
-<OPTION VALUE="1950">
-<OPTION VALUE="1949">
-<OPTION VALUE="1948">
-<OPTION VALUE="1947">
-<OPTION VALUE="1946">
-<OPTION VALUE="1945">
-<OPTION VALUE="1944">
-<OPTION VALUE="1943">
-<OPTION VALUE="1942">
-<OPTION VALUE="1941">
-<OPTION VALUE="1940">
-<OPTION VALUE="1939">
-<OPTION VALUE="1938">
-<OPTION VALUE="1937">
-<OPTION VALUE="1936">
-<OPTION VALUE="1935">
-<OPTION VALUE="1934">
-<OPTION VALUE="1933">
-<OPTION VALUE="1932">
-<OPTION VALUE="1931">
-<OPTION VALUE="1930">
-<OPTION VALUE="1929">
-<OPTION VALUE="1928">
-<OPTION VALUE="1927">
-<OPTION VALUE="1926">
-<OPTION VALUE="1925">
-<OPTION VALUE="1924">
-<OPTION VALUE="1923">
-<OPTION VALUE="1922">
-<OPTION VALUE="1921">
-<OPTION VALUE="1920">
-<OPTION VALUE="1919">
-<OPTION VALUE="1918">
-<OPTION VALUE="1917">
-<OPTION VALUE="1916">
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_email" SIZE="50" MAXLENGTH="255" TABINDEX="12">
-<span class="reqfield">
-<INPUT TYPE="TEXT" NAME="form_subject" SIZE="50" MAXLENGTH="255" TABINDEX="13">
-<span class="reqfield">
-<TEXTAREA NAME="form_message" COLS="60" ROWS="10" WRAP="PHYSICAL" TABINDEX="14">
-<INPUT TYPE="SUBMIT" NAME="form_submit" VALUE="Send Message" TABINDEX="15">
-<p style="text-align:left">
-<span class="reqfield">
+<form method=post action=http://assembly.state.ny.us/mem/karl-brabenec/send_mail>
+<span class=reqfield>
+<input type=text name=form_fname size=20 maxlength=30 tabindex=1>
+<input type=text name=form_mid size=5 maxlength=1 tabindex=2>
+<span class=reqfield>
+<input type=text name=form_lname size=20 maxlength=50 tabindex=3>
+<input type=text name=form_org size=50 maxlength=500 tabindex=4>
+<span class=reqfield>
+<input type=text name=form_addr1 size=50 maxlength=255 tabindex=5>
+<input type=text name=form_addr2 size=50 maxlength=255 tabindex=6>
+<span class=reqfield>
+<input type=text name=form_city size=50 maxlength=255 tabindex=7>
+<span class=reqfield>
+<select name=form_state tabindex=8>
+<option value=new york selected>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<span class=reqfield>
+<input type=text name=form_zip size=10 maxlength=10 tabindex=9>
+<input type=text name=form_phone size=50 maxlength=255 tabindex=10>
+<select name=form_dob_month>
+<option value=0 selected>
+<option value=01>
+<option value=02>
+<option value=03>
+<option value=04>
+<option value=05>
+<option value=06>
+<option value=07>
+<option value=08>
+<option value=09>
+<option value=10>
+<option value=11>
+<option value=12>
+<select name=form_dob_day>
+<option value=0 selected>
+<option value=01>
+<option value=02>
+<option value=03>
+<option value=04>
+<option value=05>
+<option value=06>
+<option value=07>
+<option value=08>
+<option value=09>
+<option value=10>
+<option value=11>
+<option value=12>
+<option value=13>
+<option value=14>
+<option value=15>
+<option value=16>
+<option value=17>
+<option value=18>
+<option value=19>
+<option value=20>
+<option value=21>
+<option value=22>
+<option value=23>
+<option value=24>
+<option value=25>
+<option value=26>
+<option value=27>
+<option value=28>
+<option value=29>
+<option value=30>
+<option value=31>
+<select name=form_dob_year>
+<option value=>
+<option value=2015>
+<option value=2014>
+<option value=2013>
+<option value=2012>
+<option value=2011>
+<option value=2010>
+<option value=2009>
+<option value=2008>
+<option value=2007>
+<option value=2006>
+<option value=2005>
+<option value=2004>
+<option value=2003>
+<option value=2002>
+<option value=2001>
+<option value=2000>
+<option value=1999>
+<option value=1998>
+<option value=1997>
+<option value=1996>
+<option value=1995>
+<option value=1994>
+<option value=1993>
+<option value=1992>
+<option value=1991>
+<option value=1990>
+<option value=1989>
+<option value=1988>
+<option value=1987>
+<option value=1986>
+<option value=1985>
+<option value=1984>
+<option value=1983>
+<option value=1982>
+<option value=1981>
+<option value=1980>
+<option value=1979>
+<option value=1978>
+<option value=1977>
+<option value=1976>
+<option value=1975>
+<option value=1974>
+<option value=1973>
+<option value=1972>
+<option value=1971>
+<option value=1970>
+<option value=1969>
+<option value=1968>
+<option value=1967>
+<option value=1966>
+<option value=1965>
+<option value=1964>
+<option value=1963>
+<option value=1962>
+<option value=1961>
+<option value=1960>
+<option value=1959>
+<option value=1958>
+<option value=1957>
+<option value=1956>
+<option value=1955>
+<option value=1954>
+<option value=1953>
+<option value=1952>
+<option value=1951>
+<option value=1950>
+<option value=1949>
+<option value=1948>
+<option value=1947>
+<option value=1946>
+<option value=1945>
+<option value=1944>
+<option value=1943>
+<option value=1942>
+<option value=1941>
+<option value=1940>
+<option value=1939>
+<option value=1938>
+<option value=1937>
+<option value=1936>
+<option value=1935>
+<option value=1934>
+<option value=1933>
+<option value=1932>
+<option value=1931>
+<option value=1930>
+<option value=1929>
+<option value=1928>
+<option value=1927>
+<option value=1926>
+<option value=1925>
+<option value=1924>
+<option value=1923>
+<option value=1922>
+<option value=1921>
+<option value=1920>
+<option value=1919>
+<option value=1918>
+<option value=1917>
+<option value=1916>
+<span class=reqfield>
+<input type=text name=form_email size=50 maxlength=255 tabindex=12>
+<span class=reqfield>
+<input type=text name=form_subject size=50 maxlength=255 tabindex=13>
+<span class=reqfield>
+<textarea name=form_message cols=60 rows=10 wrap=physical tabindex=14>
+<input type=submit name=form_submit value=send message tabindex=15>
+<p style=text-align:left>
+<span class=reqfield>
 <em>

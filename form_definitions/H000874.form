@@ -1,152 +1,152 @@
-<form action="/email-steny/" id="custom_form24" name="custom_form" class="custom_form" method="post">
-<p class="req">
+<form action=/email-steny/ id=custom_form24 name=custom_form class=custom_form method=post>
+<p class=req>
 <fieldset>
 <legend>
-<label for="prefix">
-<select name="prefix" id="prefix" class="short">
-<option selected="" value="">
-<option value="Mr. ">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Hon.">
-<option value="Rev.">
-<option value="Rabbi">
-<label for="req_firstname">
-<span title="required field">
-<input type="text" name="firstname" id="req_firstname" maxlength="100" class="text fn filled">
-<label for="req_lastname">
-<span title="required information">
-<input type="text" name="lastname" id="req_lastname" class="text ln filled" maxlength="100">
-<label for="suffix">
-<select name="suffix" id="suffix" class="short">
-<option selected="" value="">
-<option value="Sr.">
-<option value="Jr.">
-<option value="II">
-<option value="III">
-<option value="IV">
-<option value="MD">
-<option value="Ph.D">
-<option value="Esq.">
-<option value="DVM">
-<option value="DDS">
-<option value="RN">
-<option value="CPA">
-<label for="req_street">
-<span title="required information">
-<input type="text" name="street" id="req_street" class="text str filled" maxlength="100">
-<label for="req_city">
-<span title="required information">
-<input type="text" name="city" id="req_city" class="text ct filled" maxlength="100">
-<label for="req_state">
-<span title="required information">
-<select name="state" class="short filled" id="req_state">
-<option value="">
-<option value="AK">
-<option value="AL">
-<option value="AR">
-<option value="AZ">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DC">
-<option value="DE">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="IA">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="MA">
-<option value="MD" selected="selected">
-<option value="ME">
-<option value="MI">
-<option value="MN">
-<option value="MO">
-<option value="MS">
-<option value="MT">
-<option value="NC">
-<option value="ND">
-<option value="NE">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NV">
-<option value="NY">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="PR">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VA">
-<option value="VT">
-<option value="WA">
-<option value="WI">
-<option value="WV">
-<option value="WY">
-<label for="req_zip">
-<span title="required information">
-<input value="20602" class="zip z5 filled" id="req_zip" maxlength="5" name="zipcode" type="text">
-<label for="req_email">
-<span title="required information">
-<input type="text" name="emailaddress" id="req_email" maxlength="100" class="text eml filled">
-<label for="req_phone">
-<span title="required information">
-<input id="req_phone" type="text" name="phone" class="text phn phonemask filled" maxlength="20">
+<label for=prefix>
+<select name=prefix id=prefix class=short>
+<option selected= value=>
+<option value=mr. >
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=dr.>
+<option value=hon.>
+<option value=rev.>
+<option value=rabbi>
+<label for=req_firstname>
+<span title=required field>
+<input type=text name=firstname id=req_firstname maxlength=100 class=text fn filled>
+<label for=req_lastname>
+<span title=required information>
+<input type=text name=lastname id=req_lastname class=text ln filled maxlength=100>
+<label for=suffix>
+<select name=suffix id=suffix class=short>
+<option selected= value=>
+<option value=sr.>
+<option value=jr.>
+<option value=ii>
+<option value=iii>
+<option value=iv>
+<option value=md>
+<option value=ph.d>
+<option value=esq.>
+<option value=dvm>
+<option value=dds>
+<option value=rn>
+<option value=cpa>
+<label for=req_street>
+<span title=required information>
+<input type=text name=street id=req_street class=text str filled maxlength=100>
+<label for=req_city>
+<span title=required information>
+<input type=text name=city id=req_city class=text ct filled maxlength=100>
+<label for=req_state>
+<span title=required information>
+<select name=state class=short filled id=req_state>
+<option value=>
+<option value=ak>
+<option value=al>
+<option value=ar>
+<option value=az>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=dc>
+<option value=de>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=ia>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=ma>
+<option value=md selected=selected>
+<option value=me>
+<option value=mi>
+<option value=mn>
+<option value=mo>
+<option value=ms>
+<option value=mt>
+<option value=nc>
+<option value=nd>
+<option value=ne>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=nv>
+<option value=ny>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=pr>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=va>
+<option value=vt>
+<option value=wa>
+<option value=wi>
+<option value=wv>
+<option value=wy>
+<label for=req_zip>
+<span title=required information>
+<input value=20602 class=zip z5 filled id=req_zip maxlength=5 name=zipcode type=text>
+<label for=req_email>
+<span title=required information>
+<input type=text name=emailaddress id=req_email maxlength=100 class=text eml filled>
+<label for=req_phone>
+<span title=required information>
+<input id=req_phone type=text name=phone class=text phn phonemask filled maxlength=20>
 <fieldset>
 <legend>
-<label for="issue">
-<span title="required information">
-<select id="req_issue" name="issue" class="filled">
-<option selected="selected" value="">
-<option value="Abortion_Rep">
-<option value="Agriculture">
-<option value="ANIWEL">
-<option value="Arts">
-<option value="Judic">
-<option value="Crime">
-<option value="Defense">
-<option value="Disease">
-<option value="Economy">
-<option value="Education">
-<option value="Energy">
-<option value="Environment">
-<option value="Budget_Tax">
-<option value="Fed_Empl">
-<option value="First_Responders">
-<option value="Foreign_Affairs">
-<option value="Govt_Reform">
-<option value="Guns">
-<option value="Health">
-<option value="Human_Right">
-<option value="Immigration">
-<option value="Intnl_relat">
-<option value="Labor">
-<option value="Science">
-<option value="Soc_Sec">
-<option value="telecom">
-<option value="Transportation">
-<option value="Veterans">
-<option value="Afghanistan">
-<option value="Iraq">
-<option value="Other">
-<label for="req_message">
-<span title="required information">
-<textarea name="message" id="req_message" class="message filled">
+<label for=issue>
+<span title=required information>
+<select id=req_issue name=issue class=filled>
+<option selected=selected value=>
+<option value=abortion_rep>
+<option value=agriculture>
+<option value=aniwel>
+<option value=arts>
+<option value=judic>
+<option value=crime>
+<option value=defense>
+<option value=disease>
+<option value=economy>
+<option value=education>
+<option value=energy>
+<option value=environment>
+<option value=budget_tax>
+<option value=fed_empl>
+<option value=first_responders>
+<option value=foreign_affairs>
+<option value=govt_reform>
+<option value=guns>
+<option value=health>
+<option value=human_right>
+<option value=immigration>
+<option value=intnl_relat>
+<option value=labor>
+<option value=science>
+<option value=soc_sec>
+<option value=telecom>
+<option value=transportation>
+<option value=veterans>
+<option value=afghanistan>
+<option value=iraq>
+<option value=other>
+<label for=req_message>
+<span title=required information>
+<textarea name=message id=req_message class=message filled>
 <label>
-<select name="response" id="response" class="filled">
-<option selected="selected" value="Y">
-<option value="N">
-<input type="button" size="20" value="Send Email" id="submitButton" class="form_submit_button filled">
+<select name=response id=response class=filled>
+<option selected=selected value=y>
+<option value=n>
+<input type=button size=20 value=send email id=submitbutton class=form_submit_button filled>

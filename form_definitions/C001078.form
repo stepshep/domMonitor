@@ -1,123 +1,123 @@
-<form action="/contact-gerry1/" id="custom_form8" name="custom_form" class="custom_form" method="post">
-<p class="req">
+<form action=/contact-gerry1/ id=custom_form8 name=custom_form class=custom_form method=post>
+<p class=req>
 <h2>
 <p>
 <label>
-<input type="text" name="prefix" id="req_prefix" maxlength="5" class="text" style="width:90px" >
+<input type=text name=prefix id=req_prefix maxlength=5 class=text style=width:90px >
 <p>
 <label>
-<input type="text" name="firstname" id="req_firstname" maxlength="90" class="text" >
+<input type=text name=firstname id=req_firstname maxlength=90 class=text >
 <p>
 <label>
-<input type="text" name="middle" class="text" style="width:15px;" maxlength="2" >
+<input type=text name=middle class=text style=width:15px; maxlength=2 >
 <p>
 <label>
-<input type="text" name="lastname" id="req_lastname" class="text" maxlength="90" >
+<input type=text name=lastname id=req_lastname class=text maxlength=90 >
 <p>
 <label>
-<input type="text" name="suffix" class="text" style="width:90px" maxlength="5" >
+<input type=text name=suffix class=text style=width:90px maxlength=5 >
 <p>
 <label>
-<input type="text" name="street" id="req_street" class="text" maxlength="190" >
+<input type=text name=street id=req_street class=text maxlength=190 >
 <p>
 <label>
-<input type="text" name="street2" class="text" maxlength="190" >
+<input type=text name=street2 class=text maxlength=190 >
 <p>
 <label>
-<input type="text" name="city" id="req_city" class="text" maxlength="100" >
+<input type=text name=city id=req_city class=text maxlength=100 >
 <p>
 <label>
-<select name="state" id="req_state">
-<option value="NC">
-<option value="AK">
-<option value="AL">
-<option value="AR">
-<option value="AZ">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DC">
-<option value="DE">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="IA">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="MA">
-<option value="MD">
-<option value="ME">
-<option value="MI">
-<option value="MN">
-<option value="MO">
-<option value="MS">
-<option value="MT">
-<option value="ND">
-<option value="NE">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NV">
-<option value="NY">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="PR">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option selected="selected" value="VA">
-<option value="VT">
-<option value="WA">
-<option value="WI">
-<option value="WV">
-<option value="WY">
+<select name=state id=req_state>
+<option value=nc>
+<option value=ak>
+<option value=al>
+<option value=ar>
+<option value=az>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=dc>
+<option value=de>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=ia>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=ma>
+<option value=md>
+<option value=me>
+<option value=mi>
+<option value=mn>
+<option value=mo>
+<option value=ms>
+<option value=mt>
+<option value=nd>
+<option value=ne>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=nv>
+<option value=ny>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=pr>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option selected=selected value=va>
+<option value=vt>
+<option value=wa>
+<option value=wi>
+<option value=wv>
+<option value=wy>
 <p>
 <label>
-<input type="text" name="zip" id="req_zip" class="zip" maxlength="5" >
-<input type="text" name="zipfour" id="zip2" class="zip" maxlength="4" >
+<input type=text name=zip id=req_zip class=zip maxlength=5 >
+<input type=text name=zipfour id=zip2 class=zip maxlength=4 >
 <small>
 <p>
 <label>
-<input type="text" name="emailaddress" id="req_email" maxlength="150" class="text" >
+<input type=text name=emailaddress id=req_email maxlength=150 class=text >
 <p>
 <label>
-<input type="text" name="phone" class="text" maxlength="14" >
+<input type=text name=phone class=text maxlength=14 >
 <p>
 <label>
-<select size="1" name="subject" id="req_subject">
-<option selected="selected" value="">
-<option value="AGR">
-<option value="BUD">
-<option value="DEF">
-<option value="ECON">
-<option value="EDU">
-<option value="ENE">
-<option value="ENV">
-<option value="GOV">
-<option value="HEA">
-<option value="HOM">
-<option value="INT">
-<option value="JUD">
-<option value="LAB">
-<option value="SOC">
-<option value="SSEC">
-<option value="TAX">
-<option value="TRADE">
-<option value="TEL">
-<option value="TRA">
-<option value="VET">
-<option value="WEL">
-<option value="WEBOTH">
+<select size=1 name=subject id=req_subject>
+<option selected=selected value=>
+<option value=agr>
+<option value=bud>
+<option value=def>
+<option value=econ>
+<option value=edu>
+<option value=ene>
+<option value=env>
+<option value=gov>
+<option value=hea>
+<option value=hom>
+<option value=int>
+<option value=jud>
+<option value=lab>
+<option value=soc>
+<option value=ssec>
+<option value=tax>
+<option value=trade>
+<option value=tel>
+<option value=tra>
+<option value=vet>
+<option value=wel>
+<option value=weboth>
 <p>
 <label>
-<textarea name="message" id="req_message" class="message text">
-<input type="button" value="Submit" id="submitButton" >
+<textarea name=message id=req_message class=message text>
+<input type=button value=submit id=submitbutton >

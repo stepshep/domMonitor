@@ -1,160 +1,160 @@
-<form method="post" action="/?p=email_senator">
-<label for="gen-fieldid-1" class="control-label">
-<span class="req">
-<select class="select input fancy-input form-fancy-input corner" name="PREFIX" id="gen-fieldid-1" class="ft-select fld-PREFIX" style="width:">
-<option value="null">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Mr. and Mrs.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Dr. and Mrs.">
-<option value="Dr. and Mr.">
-<option value="Admiral">
-<option value="Captain">
-<option value="Chief Master Sergeant">
-<option value="Colonel">
-<option value="Commander">
-<option value="Corporal">
-<option value="Father">
-<option value="Lieutenant">
-<option value="Lieutenant Colonel">
-<option value="Master Sergeant">
-<option value="Reverend">
-<option value="Sergeant">
-<option value="Second Lieutenant">
-<option value="Sergeant Major">
-<option value="Sister">
-<option value="Technical Sergeant">
-<label for="gen-fieldid-3" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="FIRST" id="gen-fieldid-3" class="ft-text fld-FIRST" style="width:;" value="" >
-<label for="gen-fieldid-5" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="LAST" id="gen-fieldid-5" class="ft-text fld-LAST" style="width:;" value="" >
-<label for="gen-fieldid-7" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="ADDR1" id="gen-fieldid-7" class="ft-text fld-ADDR1" style="width:;" value="" >
-<label for="gen-fieldid-9" class="control-label">
-<input class="input fancy-input form-fancy-input corner" type="text" name="ADDR2" id="gen-fieldid-9" class="ft-text fld-ADDR2" style="width:;" value="" >
-<label for="gen-fieldid-11" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="CITY" id="gen-fieldid-11" class="ft-text fld-CITY" style="width:;" value="" >
-<label for="gen-fieldid-13" class="control-label">
-<span class="req">
-<select class="select input fancy-input form-fancy-input corner" name="STATE" id="gen-fieldid-13" class="ft-select fld-STATE" style="width:">
-<option value="AA">
-<option value="AE">
-<option value="AP">
-<option value="AL">
-<option value="AK">
-<option value="AZ">
-<option value="AR">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DE">
-<option value="DC">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="IA">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="ME">
-<option value="MD">
-<option value="MA">
-<option value="MI">
-<option value="MN">
-<option value="MS">
-<option value="MO">
-<option value="MT">
-<option value="NE">
-<option value="NV">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NY">
-<option value="NC">
-<option value="ND">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX" selected="selected">
-<option value="UT">
-<option value="VT">
-<option value="VA">
-<option value="WA">
-<option value="WV">
-<option value="WI">
-<option value="WY">
-<label for="gen-fieldid-15" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="ZIP" id="gen-fieldid-15" class="ft-text fld-ZIP" style="width:;" value="" >
-<label for="gen-fieldid-17" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="PHONE" id="gen-fieldid-17" class="ft-text fld-PHONE" style="width:;" value="" >
-<label for="gen-fieldid-19" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="EMAIL" id="gen-fieldid-19" class="ft-text fld-EMAIL" style="width:;" value="" >
-<label for="gen-fieldid-21" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="vemail" id="gen-fieldid-21" class="ft-text fld-vemail" style="width:;" value="" >
-<label for="gen-fieldid-23" class="control-label">
-<span class="req">
-<select class="select input fancy-input form-fancy-input corner" name="TOPIC" id="gen-fieldid-23" class="ft-select fld-TOPIC" style="width:">
-<option value="null">
-<option value="Agriculture">
-<option value="Animal Welfare">
-<option value="Banking/Housing">
-<option value="Budget/Appropriations">
-<option value="Campaigns/Elections">
-<option value="Constitutional/Civil Rights">
-<option value="Crime">
-<option value="Defense/National Security">
-<option value="Economy/Jobs">
-<option value="Education">
-<option value="Energy">
-<option value="Environment">
-<option value="Foreign Policy">
-<option value="Government Reform/Regulations">
-<option value="Health Care">
-<option value="Immigration">
-<option value="Judiciary">
-<option value="Labor">
-<option value="Monetary Policy">
-<option value="NASA">
-<option value="Science and Technology">
-<option value="Second Amendment">
-<option value="Social Issues">
-<option value="Social Security">
-<option value="Taxes">
-<option value="Telecommunications">
-<option value="Trade">
-<option value="Transportation">
-<option value="Veterans">
-<option value="Welfare">
-<option value="Other">
-<label for="gen-fieldid-25" class="control-label">
-<span class="req">
-<input class="input fancy-input form-fancy-input corner" type="text" name="SUBJECT" id="gen-fieldid-25" class="ft-text fld-SUBJECT" style="width:;" value="" >
-<label for="gen-fieldid-27" class="control-label">
-<span class="req">
-<textarea class="input fancy-input form-fancy-input corner" name="MSG" id="gen-fieldid-27" class="ft-textarea fld-MSG" style="height:;width:;">
-<label for="gen-fieldid-29" class="control-label">
-<span class="req">
-<label class="input-radio-label">
-<input type="radio" class="input-radio" name="respond" value="Yes">
-<label class="input-radio-label">
-<input type="radio" class="input-radio" name="respond" value="No" checked="checked">
-<input type="submit" value="Submit" name="formaction">
+<form method=post action=/?p=email_senator>
+<label for=gen-fieldid-1 class=control-label>
+<span class=req>
+<select class=select input fancy-input form-fancy-input corner name=prefix id=gen-fieldid-1 class=ft-select fld-prefix style=width:>
+<option value=null>
+<option value=mr.>
+<option value=mrs.>
+<option value=ms.>
+<option value=mr. and mrs.>
+<option value=miss>
+<option value=dr.>
+<option value=dr. and mrs.>
+<option value=dr. and mr.>
+<option value=admiral>
+<option value=captain>
+<option value=chief master sergeant>
+<option value=colonel>
+<option value=commander>
+<option value=corporal>
+<option value=father>
+<option value=lieutenant>
+<option value=lieutenant colonel>
+<option value=master sergeant>
+<option value=reverend>
+<option value=sergeant>
+<option value=second lieutenant>
+<option value=sergeant major>
+<option value=sister>
+<option value=technical sergeant>
+<label for=gen-fieldid-3 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=first id=gen-fieldid-3 class=ft-text fld-first style=width:; value= >
+<label for=gen-fieldid-5 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=last id=gen-fieldid-5 class=ft-text fld-last style=width:; value= >
+<label for=gen-fieldid-7 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=addr1 id=gen-fieldid-7 class=ft-text fld-addr1 style=width:; value= >
+<label for=gen-fieldid-9 class=control-label>
+<input class=input fancy-input form-fancy-input corner type=text name=addr2 id=gen-fieldid-9 class=ft-text fld-addr2 style=width:; value= >
+<label for=gen-fieldid-11 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=city id=gen-fieldid-11 class=ft-text fld-city style=width:; value= >
+<label for=gen-fieldid-13 class=control-label>
+<span class=req>
+<select class=select input fancy-input form-fancy-input corner name=state id=gen-fieldid-13 class=ft-select fld-state style=width:>
+<option value=aa>
+<option value=ae>
+<option value=ap>
+<option value=al>
+<option value=ak>
+<option value=az>
+<option value=ar>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=de>
+<option value=dc>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ia>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=me>
+<option value=md>
+<option value=ma>
+<option value=mi>
+<option value=mn>
+<option value=ms>
+<option value=mo>
+<option value=mt>
+<option value=ne>
+<option value=nv>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=ny>
+<option value=nc>
+<option value=nd>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx selected=selected>
+<option value=ut>
+<option value=vt>
+<option value=va>
+<option value=wa>
+<option value=wv>
+<option value=wi>
+<option value=wy>
+<label for=gen-fieldid-15 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=zip id=gen-fieldid-15 class=ft-text fld-zip style=width:; value= >
+<label for=gen-fieldid-17 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=phone id=gen-fieldid-17 class=ft-text fld-phone style=width:; value= >
+<label for=gen-fieldid-19 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=email id=gen-fieldid-19 class=ft-text fld-email style=width:; value= >
+<label for=gen-fieldid-21 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=vemail id=gen-fieldid-21 class=ft-text fld-vemail style=width:; value= >
+<label for=gen-fieldid-23 class=control-label>
+<span class=req>
+<select class=select input fancy-input form-fancy-input corner name=topic id=gen-fieldid-23 class=ft-select fld-topic style=width:>
+<option value=null>
+<option value=agriculture>
+<option value=animal welfare>
+<option value=banking/housing>
+<option value=budget/appropriations>
+<option value=campaigns/elections>
+<option value=constitutional/civil rights>
+<option value=crime>
+<option value=defense/national security>
+<option value=economy/jobs>
+<option value=education>
+<option value=energy>
+<option value=environment>
+<option value=foreign policy>
+<option value=government reform/regulations>
+<option value=health care>
+<option value=immigration>
+<option value=judiciary>
+<option value=labor>
+<option value=monetary policy>
+<option value=nasa>
+<option value=science and technology>
+<option value=second amendment>
+<option value=social issues>
+<option value=social security>
+<option value=taxes>
+<option value=telecommunications>
+<option value=trade>
+<option value=transportation>
+<option value=veterans>
+<option value=welfare>
+<option value=other>
+<label for=gen-fieldid-25 class=control-label>
+<span class=req>
+<input class=input fancy-input form-fancy-input corner type=text name=subject id=gen-fieldid-25 class=ft-text fld-subject style=width:; value= >
+<label for=gen-fieldid-27 class=control-label>
+<span class=req>
+<textarea class=input fancy-input form-fancy-input corner name=msg id=gen-fieldid-27 class=ft-textarea fld-msg style=height:;width:;>
+<label for=gen-fieldid-29 class=control-label>
+<span class=req>
+<label class=input-radio-label>
+<input type=radio class=input-radio name=respond value=yes>
+<label class=input-radio-label>
+<input type=radio class=input-radio name=respond value=no checked=checked>
+<input type=submit value=submit name=formaction>

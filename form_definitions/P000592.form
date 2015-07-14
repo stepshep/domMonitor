@@ -1,90 +1,90 @@
-<form method="post" id="form_D05B44B5-B782-4DC7-BED6-FF0C90951FFF">
+<form method=post id=form_d05b44b5-b782-4dc7-bed6-ff0c90951fff>
 <p>
-<label class="control-label" for="field_DDD852CB-EA6C-45CD-B87C-6CB9F18F22B5">
-<strong class="required">
-<select class="form-control" name="field_DDD852CB-EA6C-45CD-B87C-6CB9F18F22B5" id="field_DDD852CB-EA6C-45CD-B87C-6CB9F18F22B5" value="">
-<option value="">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Hon.">
-<option value="Rev.">
-<option value="Rabbi">
-<label class="control-label" for="field_4B38B3F2-54EA-4E44-9B93-7E7907BCB9B9">
-<strong class="required">
-<input type="text" class="form-control" name="field_4B38B3F2-54EA-4E44-9B93-7E7907BCB9B9" id="field_4B38B3F2-54EA-4E44-9B93-7E7907BCB9B9" value="" >
-<label class="control-label" for="field_955604DB-7F3D-44A1-B22E-3B380D08B269">
-<input type="text" class="form-control" name="field_955604DB-7F3D-44A1-B22E-3B380D08B269" id="field_955604DB-7F3D-44A1-B22E-3B380D08B269" value="" >
-<label class="control-label" for="field_1BE9EC27-FCE6-4BDE-8660-E2FEBD2A30B3">
-<strong class="required">
-<input type="text" class="form-control" name="field_1BE9EC27-FCE6-4BDE-8660-E2FEBD2A30B3" id="field_1BE9EC27-FCE6-4BDE-8660-E2FEBD2A30B3" value="" >
-<label class="control-label" for="field_95ECCC6D-75DF-4940-8CF4-E62CB6603700">
-<input type="text" class="form-control" name="field_95ECCC6D-75DF-4940-8CF4-E62CB6603700" id="field_95ECCC6D-75DF-4940-8CF4-E62CB6603700" value="" >
-<label class="control-label" for="field_8A8553A3-6ED4-424E-8B06-09889653C254">
-<strong class="required">
-<input type="text" class="form-control" name="field_8A8553A3-6ED4-424E-8B06-09889653C254" id="field_8A8553A3-6ED4-424E-8B06-09889653C254" value="" >
-<label class="control-label" for="field_C7676196-3045-4811-B0AE-4C50F63E5A6B">
-<input type="text" class="form-control" name="field_C7676196-3045-4811-B0AE-4C50F63E5A6B" id="field_C7676196-3045-4811-B0AE-4C50F63E5A6B" value="" >
-<label class="control-label" for="field_38FB1B4C-52FE-4A53-96C6-0BAF4FFE769E">
-<strong class="required">
-<input type="text" class="form-control" name="field_38FB1B4C-52FE-4A53-96C6-0BAF4FFE769E" id="field_38FB1B4C-52FE-4A53-96C6-0BAF4FFE769E" value="" >
-<label class="control-label" for="field_BCADCF6C-B42D-47B7-8D71-3A64785728F3">
-<strong class="required">
-<select class="form-control" name="field_BCADCF6C-B42D-47B7-8D71-3A64785728F3" id="field_BCADCF6C-B42D-47B7-8D71-3A64785728F3" value="TX">
-<option value="----Military----">
-<option value="AA">
-<option value="AE">
-<option value="AP">
-<option value="----States----">
-<option value="TX" selected="selected">
-<option value="Other">
-<label class="control-label" for="field_498E00F5-B135-441E-93F5-97ECB965E051">
-<strong class="required">
-<input type="text" class="form-control" name="field_498E00F5-B135-441E-93F5-97ECB965E051" id="field_498E00F5-B135-441E-93F5-97ECB965E051" value="" >
-<label class="control-label" for="field_3A2A6994-B89F-41C9-92A7-06D732A05C98">
-<input type="text" class="form-control" name="field_3A2A6994-B89F-41C9-92A7-06D732A05C98" id="field_3A2A6994-B89F-41C9-92A7-06D732A05C98" value="" >
-<label class="control-label" for="field_205D5753-5944-4F00-8723-5D9BEFD7C48D">
-<strong class="required">
-<input type="text" class="form-control" name="field_205D5753-5944-4F00-8723-5D9BEFD7C48D" id="field_205D5753-5944-4F00-8723-5D9BEFD7C48D" value="" >
-<label class="control-label" for="field_9982FEC2-4791-45E6-863F-A2622820DA95">
-<input type="text" class="form-control" name="field_9982FEC2-4791-45E6-863F-A2622820DA95" id="field_9982FEC2-4791-45E6-863F-A2622820DA95" value="" >
-<label class="control-label" for="field_7B141AF7-8ABE-4637-A83C-3D7A608F7632">
-<strong class="required">
-<select class="form-control" name="field_7B141AF7-8ABE-4637-A83C-3D7A608F7632" id="field_7B141AF7-8ABE-4637-A83C-3D7A608F7632" value="">
-<option value="">
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEF">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBINT">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBIMM">
-<option value="WEBJUD">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTEL">
-<option value="WEBTAX">
-<option value="WEBTRA">
-<option value="WEBVET">
-<option value="WEBVIC">
-<option value="WEBWEL">
-<option value="WEBOTH">
-<label class="control-label" for="field_DF05165B-FB6F-493A-8444-F80D606C8D43">
-<strong class="required">
-<input type="text" class="form-control" name="field_DF05165B-FB6F-493A-8444-F80D606C8D43" id="field_DF05165B-FB6F-493A-8444-F80D606C8D43" value="" >
-<label class="control-label" for="field_077EA4A1-BF28-451C-9BD0-D33DB5A71AD0">
-<strong class="required">
-<textarea name="field_077EA4A1-BF28-451C-9BD0-D33DB5A71AD0" class="form-control" id="field_077EA4A1-BF28-451C-9BD0-D33DB5A71AD0"  style="height: 300px;">
-<label class="control-label" for="field_C131695D-23D6-4C73-BF78-D34B3FF115E3">
-<strong class="required">
-<select class="form-control" name="field_C131695D-23D6-4C73-BF78-D34B3FF115E3" id="field_C131695D-23D6-4C73-BF78-D34B3FF115E3" value="">
-<option value="">
-<option value="N">
-<option value="Y">
-<input type="submit" class="btn btn-primary" value="Submit" >
+<label class=control-label for=field_ddd852cb-ea6c-45cd-b87c-6cb9f18f22b5>
+<strong class=required>
+<select class=form-control name=field_ddd852cb-ea6c-45cd-b87c-6cb9f18f22b5 id=field_ddd852cb-ea6c-45cd-b87c-6cb9f18f22b5 value=>
+<option value=>
+<option value=mr.>
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=dr.>
+<option value=hon.>
+<option value=rev.>
+<option value=rabbi>
+<label class=control-label for=field_4b38b3f2-54ea-4e44-9b93-7e7907bcb9b9>
+<strong class=required>
+<input type=text class=form-control name=field_4b38b3f2-54ea-4e44-9b93-7e7907bcb9b9 id=field_4b38b3f2-54ea-4e44-9b93-7e7907bcb9b9 value= >
+<label class=control-label for=field_955604db-7f3d-44a1-b22e-3b380d08b269>
+<input type=text class=form-control name=field_955604db-7f3d-44a1-b22e-3b380d08b269 id=field_955604db-7f3d-44a1-b22e-3b380d08b269 value= >
+<label class=control-label for=field_1be9ec27-fce6-4bde-8660-e2febd2a30b3>
+<strong class=required>
+<input type=text class=form-control name=field_1be9ec27-fce6-4bde-8660-e2febd2a30b3 id=field_1be9ec27-fce6-4bde-8660-e2febd2a30b3 value= >
+<label class=control-label for=field_95eccc6d-75df-4940-8cf4-e62cb6603700>
+<input type=text class=form-control name=field_95eccc6d-75df-4940-8cf4-e62cb6603700 id=field_95eccc6d-75df-4940-8cf4-e62cb6603700 value= >
+<label class=control-label for=field_8a8553a3-6ed4-424e-8b06-09889653c254>
+<strong class=required>
+<input type=text class=form-control name=field_8a8553a3-6ed4-424e-8b06-09889653c254 id=field_8a8553a3-6ed4-424e-8b06-09889653c254 value= >
+<label class=control-label for=field_c7676196-3045-4811-b0ae-4c50f63e5a6b>
+<input type=text class=form-control name=field_c7676196-3045-4811-b0ae-4c50f63e5a6b id=field_c7676196-3045-4811-b0ae-4c50f63e5a6b value= >
+<label class=control-label for=field_38fb1b4c-52fe-4a53-96c6-0baf4ffe769e>
+<strong class=required>
+<input type=text class=form-control name=field_38fb1b4c-52fe-4a53-96c6-0baf4ffe769e id=field_38fb1b4c-52fe-4a53-96c6-0baf4ffe769e value= >
+<label class=control-label for=field_bcadcf6c-b42d-47b7-8d71-3a64785728f3>
+<strong class=required>
+<select class=form-control name=field_bcadcf6c-b42d-47b7-8d71-3a64785728f3 id=field_bcadcf6c-b42d-47b7-8d71-3a64785728f3 value=tx>
+<option value=----military---->
+<option value=aa>
+<option value=ae>
+<option value=ap>
+<option value=----states---->
+<option value=tx selected=selected>
+<option value=other>
+<label class=control-label for=field_498e00f5-b135-441e-93f5-97ecb965e051>
+<strong class=required>
+<input type=text class=form-control name=field_498e00f5-b135-441e-93f5-97ecb965e051 id=field_498e00f5-b135-441e-93f5-97ecb965e051 value= >
+<label class=control-label for=field_3a2a6994-b89f-41c9-92a7-06d732a05c98>
+<input type=text class=form-control name=field_3a2a6994-b89f-41c9-92a7-06d732a05c98 id=field_3a2a6994-b89f-41c9-92a7-06d732a05c98 value= >
+<label class=control-label for=field_205d5753-5944-4f00-8723-5d9befd7c48d>
+<strong class=required>
+<input type=text class=form-control name=field_205d5753-5944-4f00-8723-5d9befd7c48d id=field_205d5753-5944-4f00-8723-5d9befd7c48d value= >
+<label class=control-label for=field_9982fec2-4791-45e6-863f-a2622820da95>
+<input type=text class=form-control name=field_9982fec2-4791-45e6-863f-a2622820da95 id=field_9982fec2-4791-45e6-863f-a2622820da95 value= >
+<label class=control-label for=field_7b141af7-8abe-4637-a83c-3d7a608f7632>
+<strong class=required>
+<select class=form-control name=field_7b141af7-8abe-4637-a83c-3d7a608f7632 id=field_7b141af7-8abe-4637-a83c-3d7a608f7632 value=>
+<option value=>
+<option value=webagr>
+<option value=webbud>
+<option value=webdef>
+<option value=webedu>
+<option value=webene>
+<option value=webenv>
+<option value=webint>
+<option value=webgov>
+<option value=webhea>
+<option value=webhom>
+<option value=webimm>
+<option value=webjud>
+<option value=websoc>
+<option value=webssec>
+<option value=webtel>
+<option value=webtax>
+<option value=webtra>
+<option value=webvet>
+<option value=webvic>
+<option value=webwel>
+<option value=weboth>
+<label class=control-label for=field_df05165b-fb6f-493a-8444-f80d606c8d43>
+<strong class=required>
+<input type=text class=form-control name=field_df05165b-fb6f-493a-8444-f80d606c8d43 id=field_df05165b-fb6f-493a-8444-f80d606c8d43 value= >
+<label class=control-label for=field_077ea4a1-bf28-451c-9bd0-d33db5a71ad0>
+<strong class=required>
+<textarea name=field_077ea4a1-bf28-451c-9bd0-d33db5a71ad0 class=form-control id=field_077ea4a1-bf28-451c-9bd0-d33db5a71ad0  style=height: 300px;>
+<label class=control-label for=field_c131695d-23d6-4c73-bf78-d34b3ff115e3>
+<strong class=required>
+<select class=form-control name=field_c131695d-23d6-4c73-bf78-d34b3ff115e3 id=field_c131695d-23d6-4c73-bf78-d34b3ff115e3 value=>
+<option value=>
+<option value=n>
+<option value=y>
+<input type=submit class=btn btn-primary value=submit >

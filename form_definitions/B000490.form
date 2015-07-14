@@ -1,143 +1,143 @@
-<form action="/htbin/formproc/email-me.txt%26display%3D/contact/email-me/email-me-thank-you%26nobase%26fpGetVer%3D2" class="validate wsbform" id="contactForm" method="post" name="contactForm">
+<form action=/htbin/formproc/email-me.txt%26display%3d/contact/email-me/email-me-thank-you%26nobase%26fpgetver%3d2 class=validate wsbform id=contactform method=post name=contactform>
 <fieldset>
 <legend>
-<label for="required-prefix">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-prefix" maxlength="100" name="required-prefix" placeholder="Prefix" type="text">
-<label for="required-first">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-first" maxlength="100" name="required-first" placeholder="First Name" type="text">
-<label for="middle">
-<input id="middle" maxlength="100" name="middle" placeholder="Middle Initial" type="text">
-<label for="required-last">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-last" maxlength="100" name="required-last" placeholder="Last Name" type="text">
-<label for="suffix">
-<input id="suffix" maxlength="100" name="suffix" placeholder="Suffix" type="text">
-<label for="required-address">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-address" maxlength="100" name="required-address" placeholder="Street Address" type="text">
-<label for="address2">
-<input id="address2" maxlength="100" name="address2" placeholder="Street Address Continued" type="text">
-<label for="required-city">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-city" maxlength="100" name="required-city" placeholder="City" type="text">
-<label for="required-state">
-<label for="required-zip5">
-<label for="zip4">
-<label for="required-valid-email">
-<span class="required-field" title="required information">
-<input class="validate[required,custom[email]] is-required" id="required-valid-email" maxlength="100" name="required-valid-email" placeholder="Email" type="text">
+<label for=required-prefix>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-prefix maxlength=100 name=required-prefix placeholder=prefix type=text>
+<label for=required-first>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-first maxlength=100 name=required-first placeholder=first name type=text>
+<label for=middle>
+<input id=middle maxlength=100 name=middle placeholder=middle initial type=text>
+<label for=required-last>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-last maxlength=100 name=required-last placeholder=last name type=text>
+<label for=suffix>
+<input id=suffix maxlength=100 name=suffix placeholder=suffix type=text>
+<label for=required-address>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-address maxlength=100 name=required-address placeholder=street address type=text>
+<label for=address2>
+<input id=address2 maxlength=100 name=address2 placeholder=street address continued type=text>
+<label for=required-city>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-city maxlength=100 name=required-city placeholder=city type=text>
+<label for=required-state>
+<label for=required-zip5>
+<label for=zip4>
+<label for=required-valid-email>
+<span class=required-field title=required information>
+<input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email placeholder=email type=text>
 <fieldset>
 <legend>
-<label for="required-phone">
-<span class="required-field" title="required information">
-<input class="validate[required,custom[phone]] is-required" id="required-phone" maxlength="80" name="required-phone" placeholder="Telephone Number" type="text">
-<input checked="checked" id="speech_0" name="speech" value="Voice" type="radio">
-<label class="is-inline" for="speech_0">
-<input id="speech_1" name="speech" value="VP" type="radio">
-<label class="is-inline" for="speech_1">
-<input id="speech_2" name="speech" value="TTD" type="radio">
-<label class="is-inline" for="speech_2">
+<label for=required-phone>
+<span class=required-field title=required information>
+<input class=validate[required,custom[phone]] is-required id=required-phone maxlength=80 name=required-phone placeholder=telephone number type=text>
+<input checked=checked id=speech_0 name=speech value=voice type=radio>
+<label class=is-inline for=speech_0>
+<input id=speech_1 name=speech value=vp type=radio>
+<label class=is-inline for=speech_1>
+<input id=speech_2 name=speech value=ttd type=radio>
+<label class=is-inline for=speech_2>
 <p>
 <fieldset>
 <legend>
-<label for="required-issue">
-<span class="required-field" title="required information">
-<select class="validate[required] is-required" id="required-issue" name="required-issue" size="1">
-<option selected="selected" value="Please select one">
-<option value="11000">
-<option value="10000">
-<option value="12000">
-<option value="14000">
-<option value="20100">
-<option value="15000">
-<option value="16000">
-<option value="17000">
-<option value="18000">
-<option value="CASEWORK">
-<option value="22600">
-<option value="20000">
-<option value="21000">
-<option value="22000">
-<option value="23000">
-<option value="24000">
-<option value="25000">
-<option value="26000">
-<option value="28000">
-<option value="34000">
-<option value="29000">
-<option value="31000">
-<option value="32000">
-<option value="33000">
-<option value="35000">
-<option value="37000">
-<option value="39000">
-<option value="42000">
-<option value="43000">
-<option value="44000">
-<option value="45000">
-<option value="46000">
-<option value="47000">
-<option value="48000">
-<option value="OTHER">
-<label for="required-subject">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-subject" maxlength="100" name="required-subject" placeholder="Message Subject" type="text">
-<label for="required-message">
-<span class="required-field" title="required information">
-<textarea class="validate[required] is-required" cols="68" id="required-message" name="required-message" placeholder="Text of Message" rows="5">
-<input id="newsletter-subscribe" name="newsletter-subscribe" value="NEWSLETTER SUBSCRIBE" type="checkbox">
-<label class="is-inline" for="newsletter-subscribe">
+<label for=required-issue>
+<span class=required-field title=required information>
+<select class=validate[required] is-required id=required-issue name=required-issue size=1>
+<option selected=selected value=please select one>
+<option value=11000>
+<option value=10000>
+<option value=12000>
+<option value=14000>
+<option value=20100>
+<option value=15000>
+<option value=16000>
+<option value=17000>
+<option value=18000>
+<option value=casework>
+<option value=22600>
+<option value=20000>
+<option value=21000>
+<option value=22000>
+<option value=23000>
+<option value=24000>
+<option value=25000>
+<option value=26000>
+<option value=28000>
+<option value=34000>
+<option value=29000>
+<option value=31000>
+<option value=32000>
+<option value=33000>
+<option value=35000>
+<option value=37000>
+<option value=39000>
+<option value=42000>
+<option value=43000>
+<option value=44000>
+<option value=45000>
+<option value=46000>
+<option value=47000>
+<option value=48000>
+<option value=other>
+<label for=required-subject>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject placeholder=message subject type=text>
+<label for=required-message>
+<span class=required-field title=required information>
+<textarea class=validate[required] is-required cols=68 id=required-message name=required-message placeholder=text of message rows=5>
+<input id=newsletter-subscribe name=newsletter-subscribe value=newsletter subscribe type=checkbox>
+<label class=is-inline for=newsletter-subscribe>
 <h2>
-<input id="ESUR_AG" name="ESUR_AG" value="ESUR_AG" type="checkbox">
-<label for="ESUR_AG">
-<input id="ESUR_APPROPS" name="ESUR_APPROPS" value="ESUR_APPROPS" type="checkbox">
-<label for="ESUR_APPROPS">
-<input id="ESUR_DEFENSE" name="ESUR_DEFENSE" value="ESUR_DEFENSE" type="checkbox">
-<label for="ESUR_DEFENSE">
-<input id="ESUR_DISPREP" name="ESUR_DISPREP" value="ESUR_DISPREP" type="checkbox">
-<label for="ESUR_DISPREP">
-<input id="ESUR_ECON" name="ESUR_ECON" value="ESUR_ECON" type="checkbox">
-<label for="ESUR_ECON">
-<input id="ESUR_EDU" name="ESUR_EDU" value="ESUR_EDU" type="checkbox">
-<label for="ESUR_EDU">
-<input id="ESUR_ENR" name="ESUR_ENR" value="ESUR_ENR" type="checkbox">
-<label for="ESUR_ENR">
-<input id="ESUR_FAMVALUES" name="ESUR_FAMVALUES" value="ESUR_FAMVALUES" type="checkbox">
-<label for="ESUR_FAMVALUES">
-<input id="ESUR_FED_BUD" name="ESUR_FED_BUD" value="ESUR_FED_BUD" type="checkbox">
-<label for="ESUR_FED_BUD">
-<input id="ESUR_FOREIGN" name="ESUR_FOREIGN" value="ESUR_FOREIGN" type="checkbox">
-<label for="ESUR_FOREIGN">
-<input id="ESUR_HEALTH" name="ESUR_HEALTH" value="ESUR_HEALTH" type="checkbox">
-<label for="ESUR_HEALTH">
-<input id="ESUR_HEATH_INSUR" name="ESUR_HEATH_INSUR" value="ESUR_HEATH_INSUR" type="checkbox">
-<label for="ESUR_HEATH_INSUR">
-<input id="ESUR_HOUSING" name="ESUR_HOUSING" value="ESUR_HOUSING" type="checkbox">
-<label for="ESUR_HOUSING">
-<input id="ESUR_IMM" name="ESUR_IMM" value="ESUR_IMM" type="checkbox">
-<label for="ESUR_IMM">
-<input id="ESUR_JOBS" name="ESUR_JOBS" value="ESUR_JOBS" type="checkbox">
-<label for="ESUR_JOBS">
-<input id="ESUR_SENIORS" name="ESUR_SENIORS" value="ESUR_SENIORS" type="checkbox">
-<label for="ESUR_SENIORS">
-<input id="ESUR_SMBUS" name="ESUR_SMBUS" value="ESUR_SMBUS" type="checkbox">
-<label for="ESUR_SMBUS">
-<input id="ESUR_TAXES" name="ESUR_TAXES" value="ESUR_TAXES" type="checkbox">
-<label for="ESUR_TAXES">
-<input id="ESUR_TRANS" name="ESUR_TRANS" value="ESUR_TRANS" type="checkbox">
-<label for="ESUR_TRANS">
-<input id="ESUR_VETS" name="ESUR_VETS" value="ESUR_VETS" type="checkbox">
-<label for="ESUR_VETS">
-<input id="ESUR_WAR_IRQ_AFG" name="ESUR_WAR_IRQ_AFG" value="ESUR_WAR_IRQ_AFG" type="checkbox">
-<label for="ESUR_WAR_IRQ_AFG">
-<input id="ESUR_OTHER" name="ESUR_OTHER" value="ESUR_OTHER" type="checkbox">
-<label for="ESUR_OTHER">
-<label class="is-inline" for="required-response">
-<span class="required-field" title="required information">
-<select class="validate[required] is-required" id="required-response" name="required-response" size="1">
-<option selected="selected" value="">
-<option value="Y">
-<option value="N">
-<input class="submit" id="submit" name="submit" role="button" value="Send Email" type="submit">
+<input id=esur_ag name=esur_ag value=esur_ag type=checkbox>
+<label for=esur_ag>
+<input id=esur_approps name=esur_approps value=esur_approps type=checkbox>
+<label for=esur_approps>
+<input id=esur_defense name=esur_defense value=esur_defense type=checkbox>
+<label for=esur_defense>
+<input id=esur_disprep name=esur_disprep value=esur_disprep type=checkbox>
+<label for=esur_disprep>
+<input id=esur_econ name=esur_econ value=esur_econ type=checkbox>
+<label for=esur_econ>
+<input id=esur_edu name=esur_edu value=esur_edu type=checkbox>
+<label for=esur_edu>
+<input id=esur_enr name=esur_enr value=esur_enr type=checkbox>
+<label for=esur_enr>
+<input id=esur_famvalues name=esur_famvalues value=esur_famvalues type=checkbox>
+<label for=esur_famvalues>
+<input id=esur_fed_bud name=esur_fed_bud value=esur_fed_bud type=checkbox>
+<label for=esur_fed_bud>
+<input id=esur_foreign name=esur_foreign value=esur_foreign type=checkbox>
+<label for=esur_foreign>
+<input id=esur_health name=esur_health value=esur_health type=checkbox>
+<label for=esur_health>
+<input id=esur_heath_insur name=esur_heath_insur value=esur_heath_insur type=checkbox>
+<label for=esur_heath_insur>
+<input id=esur_housing name=esur_housing value=esur_housing type=checkbox>
+<label for=esur_housing>
+<input id=esur_imm name=esur_imm value=esur_imm type=checkbox>
+<label for=esur_imm>
+<input id=esur_jobs name=esur_jobs value=esur_jobs type=checkbox>
+<label for=esur_jobs>
+<input id=esur_seniors name=esur_seniors value=esur_seniors type=checkbox>
+<label for=esur_seniors>
+<input id=esur_smbus name=esur_smbus value=esur_smbus type=checkbox>
+<label for=esur_smbus>
+<input id=esur_taxes name=esur_taxes value=esur_taxes type=checkbox>
+<label for=esur_taxes>
+<input id=esur_trans name=esur_trans value=esur_trans type=checkbox>
+<label for=esur_trans>
+<input id=esur_vets name=esur_vets value=esur_vets type=checkbox>
+<label for=esur_vets>
+<input id=esur_war_irq_afg name=esur_war_irq_afg value=esur_war_irq_afg type=checkbox>
+<label for=esur_war_irq_afg>
+<input id=esur_other name=esur_other value=esur_other type=checkbox>
+<label for=esur_other>
+<label class=is-inline for=required-response>
+<span class=required-field title=required information>
+<select class=validate[required] is-required id=required-response name=required-response size=1>
+<option selected=selected value=>
+<option value=y>
+<option value=n>
+<input class=submit id=submit name=submit role=button value=send email type=submit>

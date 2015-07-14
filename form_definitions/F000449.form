@@ -1,81 +1,81 @@
-<form action="/htbin/formproc/contact.txt%26display%3D/contact/email-me/email-me-thank-you%26nobase%26fpGetVer%3D2" class="validate wsbform" id="contactForm" method="post" name="contactForm">
+<form action=/htbin/formproc/contact.txt%26display%3d/contact/email-me/email-me-thank-you%26nobase%26fpgetver%3d2 class=validate wsbform id=contactform method=post name=contactform>
 <fieldset>
 <legend>
-<label for="prefix">
-<input id="prefix" maxlength="100" name="prefix" placeholder="Prefix" type="text">
-<label for="required-first">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-first" maxlength="100" name="required-first" placeholder="First Name" type="text">
-<label for="middle">
-<input id="middle" maxlength="100" name="middle" placeholder="Middle Initial" type="text">
-<label for="required-last">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-last" maxlength="100" name="required-last" placeholder="Last Name" type="text">
-<label for="suffix">
-<input id="suffix" maxlength="100" name="suffix" placeholder="Suffix" type="text">
-<label for="required-address">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-address" maxlength="100" name="required-address" placeholder="Street Address" type="text">
-<label for="address2">
-<input id="address2" maxlength="100" name="address2" placeholder="Street Address Continued" type="text">
-<label for="required-city">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-city" maxlength="100" name="required-city" placeholder="City" type="text">
-<label for="required-state">
-<label for="required-zip5">
-<label for="zip4">
-<label for="required-valid-email">
-<span class="required-field" title="required information">
-<input class="validate[required,custom[email]] is-required" id="required-valid-email" maxlength="100" name="required-valid-email" placeholder="Email" type="text">
-<label for="required-phone">
-<span class="required-field" title="required information">
-<input class="validate[required,custom[phone]] is-required" id="required-phone" maxlength="80" name="required-phone" placeholder="Telephone Number" type="text">
+<label for=prefix>
+<input id=prefix maxlength=100 name=prefix placeholder=prefix type=text>
+<label for=required-first>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-first maxlength=100 name=required-first placeholder=first name type=text>
+<label for=middle>
+<input id=middle maxlength=100 name=middle placeholder=middle initial type=text>
+<label for=required-last>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-last maxlength=100 name=required-last placeholder=last name type=text>
+<label for=suffix>
+<input id=suffix maxlength=100 name=suffix placeholder=suffix type=text>
+<label for=required-address>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-address maxlength=100 name=required-address placeholder=street address type=text>
+<label for=address2>
+<input id=address2 maxlength=100 name=address2 placeholder=street address continued type=text>
+<label for=required-city>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-city maxlength=100 name=required-city placeholder=city type=text>
+<label for=required-state>
+<label for=required-zip5>
+<label for=zip4>
+<label for=required-valid-email>
+<span class=required-field title=required information>
+<input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email placeholder=email type=text>
+<label for=required-phone>
+<span class=required-field title=required information>
+<input class=validate[required,custom[phone]] is-required id=required-phone maxlength=80 name=required-phone placeholder=telephone number type=text>
 <fieldset>
 <legend>
-<label for="required-issue">
-<span class="required-field" title="required information">
-<select class="validate[required] is-required" id="required-issue" name="required-issue">
-<option selected="selected" value="">
-<option value="AG">
-<option value="ANI">
-<option value="ART">
-<option value="BUD">
-<option value="DEF">
-<option value="ECON MISC">
-<option value="ED">
-<option value="EN">
-<option value="ENV">
-<option value="GOV">
-<option value="HEA">
-<option value="HOME.SEC">
-<option value="IMM">
-<option value="IR">
-<option value="JUD">
-<option value="LAB">
-<option value="POSTAL MISC">
-<option value="SOCIAL_ISSUE">
-<option value="SS - MISC">
-<option value="TAX">
-<option value="TELECOM">
-<option value="TRADE MISC">
-<option value="TRAN">
-<option value="TRI_AFFAIRS">
-<option value="VET">
-<option value="WELF">
-<option value="OTHER">
-<label for="required-message">
-<span class="required-field" title="required information">
-<textarea class="validate[required] is-required" cols="68" id="required-message" name="required-message" placeholder="Text of Message" rows="5">
-<label class="is-inline" for="required-response">
-<span class="required-field" title="required information">
-<select class="validate[required] is-required" id="required-response" name="required-response">
-<option selected="selected" value="">
-<option value="Y">
-<option value="N">
-<input class="validate[required]" id="subscribe" name="subscribe" type="radio" value="Email.Optin">
-<label class="is-inline" for="subscribe">
-<input class="validate[required]" id="subscribe_1" name="subscribe" type="radio" value="">
-<label class="is-inline" for="subscribe_1">
-<input class="validate[required]" id="subscribe_2" name="subscribe" type="radio" value="">
-<label class="is-inline" for="subscribe_2">
-<input class="submit" id="submit" name="submit" role="button" type="submit" value="Send Email">
+<label for=required-issue>
+<span class=required-field title=required information>
+<select class=validate[required] is-required id=required-issue name=required-issue>
+<option selected=selected value=>
+<option value=ag>
+<option value=ani>
+<option value=art>
+<option value=bud>
+<option value=def>
+<option value=econ misc>
+<option value=ed>
+<option value=en>
+<option value=env>
+<option value=gov>
+<option value=hea>
+<option value=home.sec>
+<option value=imm>
+<option value=ir>
+<option value=jud>
+<option value=lab>
+<option value=postal misc>
+<option value=social_issue>
+<option value=ss - misc>
+<option value=tax>
+<option value=telecom>
+<option value=trade misc>
+<option value=tran>
+<option value=tri_affairs>
+<option value=vet>
+<option value=welf>
+<option value=other>
+<label for=required-message>
+<span class=required-field title=required information>
+<textarea class=validate[required] is-required cols=68 id=required-message name=required-message placeholder=text of message rows=5>
+<label class=is-inline for=required-response>
+<span class=required-field title=required information>
+<select class=validate[required] is-required id=required-response name=required-response>
+<option selected=selected value=>
+<option value=y>
+<option value=n>
+<input class=validate[required] id=subscribe name=subscribe type=radio value=email.optin>
+<label class=is-inline for=subscribe>
+<input class=validate[required] id=subscribe_1 name=subscribe type=radio value=>
+<label class=is-inline for=subscribe_1>
+<input class=validate[required] id=subscribe_2 name=subscribe type=radio value=>
+<label class=is-inline for=subscribe_2>
+<input class=submit id=submit name=submit role=button type=submit value=send email>

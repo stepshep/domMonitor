@@ -1,64 +1,64 @@
-<form action="/contacts" class="formtastic contact" id="new_contact" method="post">
+<form action=/contacts class=formtastic contact id=new_contact method=post>
 <fieldset>
 <legend>
-<fieldset class="inputs">
+<fieldset class=inputs>
 <ol>
-<label for="contact_salutation">
-<select id="contact_salutation" name="contact[salutation]">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Dr.">
-<option value="Rev.">
-<option value="Other">
-<li class="string required" id="contact_first_name_input">
-<label for="contact_first_name">
-<abbr title="required">
-<input id="contact_first_name" maxlength="255" name="contact[first_name]" size="50" type="text" >
-<li class="string required" id="contact_last_name_input">
-<label for="contact_last_name">
-<abbr title="required">
-<input id="contact_last_name" maxlength="255" name="contact[last_name]" size="50" type="text" >
-<li class="string required" id="contact_address_input">
-<label for="contact_address">
-<abbr title="required">
-<input id="contact_address" maxlength="255" name="contact[address]" size="50" type="text" >
-<li class="string required" id="contact_city_input">
-<label for="contact_city">
-<abbr title="required">
-<input id="contact_city" maxlength="255" name="contact[city]" size="50" type="text" >
-<li class="string required" id="contact_postal_code_input">
-<label for="contact_postal_code">
-<abbr title="required">
-<input id="contact_postal_code" maxlength="255" name="contact[postal_code]" size="50" type="text" >
-<li class="string required" id="contact_primary_phone_input">
-<label for="contact_primary_phone">
-<abbr title="required">
-<input id="contact_primary_phone" maxlength="255" name="contact[primary_phone]" size="50" type="text" >
-<li class="string required" id="contact_email_input">
-<label for="contact_email">
-<abbr title="required">
-<input id="contact_email" maxlength="255" name="contact[email]" size="50" type="text" >
-<li class="string required" id="contact_subject_input">
-<label for="contact_subject">
-<abbr title="required">
-<input id="contact_subject" maxlength="255" name="contact[subject]" size="50" type="text" >
-<li class="select required" id="contact_topic_input">
-<label for="contact_topic">
-<abbr title="required">
-<select id="contact_topic" name="contact[topic]">
-<option value="">
-<option value="Hoosier Solutions">
-<option value="Legislation">
-<option value="Help with Federal Agency">
-<li class="text required" id="contact_message_input">
-<label for="contact_message">
-<abbr title="required">
-<textarea cols="40" id="contact_message" name="contact[message]" rows="8">
-<li class="boolean optional" id="contact_subscribe_input">
-<label for="contact_subscribe">
-<input id="contact_subscribe" name="contact[subscribe]" style="padding-left: 0%" type="checkbox" value="1" >
-<fieldset class="buttons">
+<label for=contact_salutation>
+<select id=contact_salutation name=contact[salutation]>
+<option value=mr.>
+<option value=mrs.>
+<option value=ms.>
+<option value=dr.>
+<option value=rev.>
+<option value=other>
+<li class=string required id=contact_first_name_input>
+<label for=contact_first_name>
+<abbr title=required>
+<input id=contact_first_name maxlength=255 name=contact[first_name] size=50 type=text >
+<li class=string required id=contact_last_name_input>
+<label for=contact_last_name>
+<abbr title=required>
+<input id=contact_last_name maxlength=255 name=contact[last_name] size=50 type=text >
+<li class=string required id=contact_address_input>
+<label for=contact_address>
+<abbr title=required>
+<input id=contact_address maxlength=255 name=contact[address] size=50 type=text >
+<li class=string required id=contact_city_input>
+<label for=contact_city>
+<abbr title=required>
+<input id=contact_city maxlength=255 name=contact[city] size=50 type=text >
+<li class=string required id=contact_postal_code_input>
+<label for=contact_postal_code>
+<abbr title=required>
+<input id=contact_postal_code maxlength=255 name=contact[postal_code] size=50 type=text >
+<li class=string required id=contact_primary_phone_input>
+<label for=contact_primary_phone>
+<abbr title=required>
+<input id=contact_primary_phone maxlength=255 name=contact[primary_phone] size=50 type=text >
+<li class=string required id=contact_email_input>
+<label for=contact_email>
+<abbr title=required>
+<input id=contact_email maxlength=255 name=contact[email] size=50 type=text >
+<li class=string required id=contact_subject_input>
+<label for=contact_subject>
+<abbr title=required>
+<input id=contact_subject maxlength=255 name=contact[subject] size=50 type=text >
+<li class=select required id=contact_topic_input>
+<label for=contact_topic>
+<abbr title=required>
+<select id=contact_topic name=contact[topic]>
+<option value=>
+<option value=hoosier solutions>
+<option value=legislation>
+<option value=help with federal agency>
+<li class=text required id=contact_message_input>
+<label for=contact_message>
+<abbr title=required>
+<textarea cols=40 id=contact_message name=contact[message] rows=8>
+<li class=boolean optional id=contact_subscribe_input>
+<label for=contact_subscribe>
+<input id=contact_subscribe name=contact[subscribe] style=padding-left: 0% type=checkbox value=1 >
+<fieldset class=buttons>
 <ol>
-<li class="commit">
-<input class="create" id="contact_submit" name="commit" type="submit" value="Send Message" >
+<li class=commit>
+<input class=create id=contact_submit name=commit type=submit value=send message >

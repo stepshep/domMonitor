@@ -1,89 +1,89 @@
-<form action="/contact-form/" id="custom_form6" name="custom_form" class="custom_form" method="post">
+<form action=/contact-form/ id=custom_form6 name=custom_form class=custom_form method=post>
 <p>
-<p class="req">
+<p class=req>
 <h2>
 <p>
 <label>
-<select name="prefix" size="1" id="req_prefix">
-<option selected="" value="">
-<option value="Mr. ">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Hon.">
-<option value="Rev.">
-<option value="Rabbi">
+<select name=prefix size=1 id=req_prefix>
+<option selected= value=>
+<option value=mr. >
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=dr.>
+<option value=hon.>
+<option value=rev.>
+<option value=rabbi>
 <p>
 <label>
-<input type="text" name="firstname" id="req_firstname" maxlength="90" class="text">
+<input type=text name=firstname id=req_firstname maxlength=90 class=text>
 <p>
 <label>
-<input type="text" name="middle" class="text" style="width:15px;" maxlength="2">
+<input type=text name=middle class=text style=width:15px; maxlength=2>
 <p>
 <label>
-<input type="text" name="lastname" id="req_lastname" class="text" maxlength="90">
+<input type=text name=lastname id=req_lastname class=text maxlength=90>
 <p>
 <label>
-<input type="text" name="suffix" class="text1" maxlength="5">
+<input type=text name=suffix class=text1 maxlength=5>
 <p>
 <label>
-<input type="text" name="street" id="req_street" class="text" maxlength="190">
+<input type=text name=street id=req_street class=text maxlength=190>
 <p>
 <label>
-<input type="text" name="street2" class="text" maxlength="190">
+<input type=text name=street2 class=text maxlength=190>
 <p>
 <label>
-<input type="text" name="city" id="req_city" class="text" maxlength="100">
+<input type=text name=city id=req_city class=text maxlength=100>
 <p>
 <label>
-<select name="state" id="req_state">
-<option selected="" value="FL">
+<select name=state id=req_state>
+<option selected= value=fl>
 <p>
 <label>
-<input value="32765" class="zip" id="req_zip" maxlength="5" name="zipcode" type="text">
-<input value="4508" class="zip" id="zip2" maxlength="4" name="zipfour" type="text">
+<input value=32765 class=zip id=req_zip maxlength=5 name=zipcode type=text>
+<input value=4508 class=zip id=zip2 maxlength=4 name=zipfour type=text>
 <small>
 <p>
 <label>
-<input type="text" name="emailaddress" id="req_email" maxlength="150" class="text">
+<input type=text name=emailaddress id=req_email maxlength=150 class=text>
 <p>
 <label>
-<input type="text" name="phone" class="text phonemask" maxlength="14">
+<input type=text name=phone class=text phonemask maxlength=14>
 <p>
 <label>
-<select size="1" name="subject" id="req_subject">
-<option selected="" value="">
-<option value="WEBCST">
-<option value="WEBGRT">
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEF">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBINT">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBIMM">
-<option value="WEBJUD">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTEL">
-<option value="WEBTAX">
-<option value="WEBTRA">
-<option value="WEBVET">
-<option value="WEBWEL">
-<option value="WEBOTH">
+<select size=1 name=subject id=req_subject>
+<option selected= value=>
+<option value=webcst>
+<option value=webgrt>
+<option value=webagr>
+<option value=webbud>
+<option value=webdef>
+<option value=webedu>
+<option value=webene>
+<option value=webenv>
+<option value=webint>
+<option value=webgov>
+<option value=webhea>
+<option value=webhom>
+<option value=webimm>
+<option value=webjud>
+<option value=websoc>
+<option value=webssec>
+<option value=webtel>
+<option value=webtax>
+<option value=webtra>
+<option value=webvet>
+<option value=webwel>
+<option value=weboth>
 <p>
 <label>
-<textarea name="message" id="req_message" class="message">
+<textarea name=message id=req_message class=message>
 <p>
 <label>
-<select size="1" name="response" id="req_response">
-<option selected="" value="">
-<option value="N">
-<option value="Y">
+<select size=1 name=response id=req_response>
+<option selected= value=>
+<option value=n>
+<option value=y>
 <p>
-<input type="button" size="20" value="Submit" id="submitButton" class="button">
+<input type=button size=20 value=submit id=submitbutton class=button>

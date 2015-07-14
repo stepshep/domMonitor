@@ -1,174 +1,172 @@
-<td class="ContentCell">
-<span id="ctl00_ctl14_ctl01_Text" class="middlecopy">
-<form method="post" action="/submit-contact-iq.aspx" class="zipform">
-<span class="pageHeader">
+<form method=post action=/submit-contact-iq.aspx class=zipform>
+<span class=pageheader>
 <fieldset>
 <legend>
-<table cellpadding="3" cellspacing="0" border="0">
+<table cellpadding=3 cellspacing=0 border=0>
 <tbody>
-<tr class="wyr-prefix">
-<td style="width: 90px;">
-<label for="ctl00_ctl13_PrefixList">
-<span class="header">
-<select name="required-prefix" id="ctl00_ctl13_PrefixList" required="required">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Mr. &amp; Mrs.">
-<option value="Dr. &amp; Mrs.">
-<option value="Dr. &amp; Mr.">
-<option value="C.O.">
-<option value="Representative">
-<option value="Senator">
-<option value="The Honorable">
-<option value="Col.">
-<tr class="wyr-firstname">
-<label for="ctl00_ctl13_FirstName">
-<span class="header">
-<input name="required-first" type="text" id="ctl00_ctl13_FirstName" class="textBox" required="required">
-<tr class="wyr-lastname">
-<label for="ctl00_ctl13_LastName">
-<span class="header">
-<input name="required-last" type="text" id="ctl00_ctl13_LastName" class="textBox" required="required">
-<tr class="wyr-street">
-<label for="ctl00_ctl13_Street">
-<span class="header">
-<input name="required-address" type="text" id="ctl00_ctl13_Street" class="textBox" required="required">
-<tr class="wyr-city">
-<label for="ctl00_ctl13_City">
-<span class="header">
-<input name="required-city" type="text" id="ctl00_ctl13_City" class="textBox" required="required">
-<tr class="wyr-state">
-<label for="ctl00_ctl13_State">
-<span class="header">
-<select name="required-state" id="ctl00_ctl13_State" required="required">
-<option value="AL">
-<option value="AK">
-<option value="AZ">
-<option selected="selected" value="AR">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DE">
-<option value="DC">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="IA">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="ME">
-<option value="MD">
-<option value="MA">
-<option value="MI">
-<option value="MN">
-<option value="MS">
-<option value="MO">
-<option value="MT">
-<option value="NE">
-<option value="NV">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NY">
-<option value="NC">
-<option value="ND">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VT">
-<option value="VA">
-<option value="WA">
-<option value="WV">
-<option value="WI">
-<option value="WY">
-<option value="AA">
-<option value="AE">
-<option value="AP">
-<option value="FM">
-<option value="GU">
-<option value="MH">
-<option value="MP">
-<option value="PR">
-<option value="VI">
-<tr class="wyr-zip">
-<label for="ctl00_ctl13_Zip">
-<span class="header">
-<input name="zip5" type="text" id="ctl00_ctl13_Zip" width="30" class="textBox" required="required" maxlength="5" pattern="\d{5}">
-<input name="zip4" type="text" id="ctl00_ctl13_Zip4" width="25" class="textBox" required="required" maxlength="4" pattern="\d{4}">
-<tr class="wyr-phone">
-<label for="ctl00_ctl13_Phone">
-<span class="header">
-<input name="phone" type="tel" id="ctl00_ctl13_Phone" class="textBox">
+<tr class=wyr-prefix>
+<td style=width: 90px;>
+<label for=ctl00_ctl13_prefixlist>
+<span class=header>
+<select name=required-prefix id=ctl00_ctl13_prefixlist required=required>
+<option value=mr.>
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=dr.>
+<option value=mr. &amp; mrs.>
+<option value=dr. &amp; mrs.>
+<option value=dr. &amp; mr.>
+<option value=c.o.>
+<option value=representative>
+<option value=senator>
+<option value=the honorable>
+<option value=col.>
+<tr class=wyr-firstname>
+<label for=ctl00_ctl13_firstname>
+<span class=header>
+<input name=required-first type=text id=ctl00_ctl13_firstname class=textbox required=required>
+<tr class=wyr-lastname>
+<label for=ctl00_ctl13_lastname>
+<span class=header>
+<input name=required-last type=text id=ctl00_ctl13_lastname class=textbox required=required>
+<tr class=wyr-street>
+<label for=ctl00_ctl13_street>
+<span class=header>
+<input name=required-address type=text id=ctl00_ctl13_street class=textbox required=required>
+<tr class=wyr-city>
+<label for=ctl00_ctl13_city>
+<span class=header>
+<input name=required-city type=text id=ctl00_ctl13_city class=textbox required=required>
+<tr class=wyr-state>
+<label for=ctl00_ctl13_state>
+<span class=header>
+<select name=required-state id=ctl00_ctl13_state required=required>
+<option value=al>
+<option value=ak>
+<option value=az>
+<option selected=selected value=ar>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=de>
+<option value=dc>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ia>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=me>
+<option value=md>
+<option value=ma>
+<option value=mi>
+<option value=mn>
+<option value=ms>
+<option value=mo>
+<option value=mt>
+<option value=ne>
+<option value=nv>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=ny>
+<option value=nc>
+<option value=nd>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=vt>
+<option value=va>
+<option value=wa>
+<option value=wv>
+<option value=wi>
+<option value=wy>
+<option value=aa>
+<option value=ae>
+<option value=ap>
+<option value=fm>
+<option value=gu>
+<option value=mh>
+<option value=mp>
+<option value=pr>
+<option value=vi>
+<tr class=wyr-zip>
+<label for=ctl00_ctl13_zip>
+<span class=header>
+<input name=zip5 type=text id=ctl00_ctl13_zip width=30 class=textbox required=required maxlength=5 pattern=\d{5}>
+<input name=zip4 type=text id=ctl00_ctl13_zip4 width=25 class=textbox required=required maxlength=4 pattern=\d{4}>
+<tr class=wyr-phone>
+<label for=ctl00_ctl13_phone>
+<span class=header>
+<input name=phone type=tel id=ctl00_ctl13_phone class=textbox>
 <fieldset>
 <legend>
-<table cellpadding="3" cellspacing="0" border="0">
+<table cellpadding=3 cellspacing=0 border=0>
 <tbody>
-<tr class="wyr-email">
-<td style="width: 90px;">
-<label for="ctl00_ctl13_Email">
-<span class="header">
-<input name="required-email" type="email" id="ctl00_ctl13_Email" class="textBox" required="required">
+<tr class=wyr-email>
+<td style=width: 90px;>
+<label for=ctl00_ctl13_email>
+<span class=header>
+<input name=required-email type=email id=ctl00_ctl13_email class=textbox required=required>
 <fieldset>
 <legend>
-<input id="ctl00_ctl13_SubscribeChoice" type="checkbox" name="subscribe" value="subscribe">
-<span class="ContactForm_Subscribe">
+<input id=ctl00_ctl13_subscribechoice type=checkbox name=subscribe value=subscribe>
+<span class=contactform_subscribe>
 <fieldset>
 <legend>
-<select name="required-issue" id="ctl00_ctl13_IssuesList">
+<select name=required-issue id=ctl00_ctl13_issueslist>
 <option>
-<option value="ABORTION">
-<option value="AGR">
-<option value="AN">
-<option value="BANK">
-<option value="BUD">
-<option value="DEF">
-<option value="ECON">
-<option value="EDU">
-<option value="ENE">
-<option value="ENV">
-<option value="GOV">
-<option value="HEA">
-<option value="HOM">
-<option value="HUD">
-<option value="IMM">
-<option value="INT">
-<option value="LAB">
-<option value="OUT-DOOR">
-<option value="POST">
-<option value="GUN">
-<option value="SOC">
-<option value="SSEC">
-<option value="TAX">
-<option value="TEL">
-<option value="TRADE">
-<option value="TRA">
-<option value="VET">
+<option value=abortion>
+<option value=agr>
+<option value=an>
+<option value=bank>
+<option value=bud>
+<option value=def>
+<option value=econ>
+<option value=edu>
+<option value=ene>
+<option value=env>
+<option value=gov>
+<option value=hea>
+<option value=hom>
+<option value=hud>
+<option value=imm>
+<option value=int>
+<option value=lab>
+<option value=out-door>
+<option value=post>
+<option value=gun>
+<option value=soc>
+<option value=ssec>
+<option value=tax>
+<option value=tel>
+<option value=trade>
+<option value=tra>
+<option value=vet>
 <fieldset>
 <legend>
-<table id="ctl00_ctl13_ReplyChoice">
+<table id=ctl00_ctl13_replychoice>
 <tbody>
-<input id="ctl00_ctl13_ReplyChoice_0" type="radio" name="rsp" value="Y" checked="checked">
-<label for="ctl00_ctl13_ReplyChoice_0">
-<input id="ctl00_ctl13_ReplyChoice_1" type="radio" name="rsp" value="N">
-<label for="ctl00_ctl13_ReplyChoice_1">
-<label for="ctl00_ctl13_Subject">
-<span class="header">
-<input name="required-subject" type="text" id="ctl00_ctl13_Subject" style="width: 30em;" required="required">
-<label for="ctl00_ctl13_Body">
-<span class="header">
-<textarea name="required-message" rows="15" cols="20" id="ctl00_ctl13_Body" style="width: 30em;" required="required">
-<input type="submit" value="Submit">
+<input id=ctl00_ctl13_replychoice_0 type=radio name=rsp value=y checked=checked>
+<label for=ctl00_ctl13_replychoice_0>
+<input id=ctl00_ctl13_replychoice_1 type=radio name=rsp value=n>
+<label for=ctl00_ctl13_replychoice_1>
+<label for=ctl00_ctl13_subject>
+<span class=header>
+<input name=required-subject type=text id=ctl00_ctl13_subject style=width: 30em; required=required>
+<label for=ctl00_ctl13_body>
+<span class=header>
+<textarea name=required-message rows=15 cols=20 id=ctl00_ctl13_body style=width: 30em; required=required>
+<input type=submit value=submit>

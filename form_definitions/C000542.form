@@ -1,272 +1,272 @@
-<form id="contactForm" action="./" method="post" enctype="application/x-www-form-urlencoded" onsubmit="return _CF_checkCFForm_1(this)">
+<form id=contactform action=./ method=post enctype=application/x-www-form-urlencoded onsubmit=return _cf_checkcfform_1(this)>
 <h2>
 <fieldset>
 <legend>
 <ol>
-<li class="required">
-<label for="salutation">
-<abbr title="required">
-<select name="salutation" id="salutation">
-<option label="" value="">
-<option label="Mr." value="Mr.">
-<option label="Mrs." value="Mrs.">
-<option label="Mr. and Mrs." value="Mr. and Mrs.">
-<option label="Ms." value="Ms.">
-<option label="Miss" value="Miss">
-<option label="Dr." value="Dr.">
-<option label="Hon." value="Hon.">
-<option label="Prof." value="Prof.">
-<option label="Fr." value="Fr.">
-<option label="Sister" value="Sister">
-<option label="Reverend" value="Reverend">
-<option label="Rabbi" value="Rabbi">
-<option label="Private" value="Private">
-<option label="SR" value="SR">
-<option label="Airman Basic" value="Airman Basic">
-<option label="PV2" value="PV2">
-<option label="SA" value="SA">
-<option label="PFC" value="PFC">
-<option label="Amn" value="Amn">
-<option label="SN" value="SN">
-<option label="LCpl" value="LCpl">
-<option label="A1C" value="A1C">
-<option label="CPL" value="CPL">
-<option label="SPC" value="SPC">
-<option label="PO3" value="PO3">
-<option label="Cpl" value="Cpl">
-<option label="SrA" value="SrA">
-<option label="SGT" value="SGT">
-<option label="PO2" value="PO2">
-<option label="Sgt" value="Sgt">
-<option label="SSgt" value="SSgt">
-<option label="SSG" value="SSG">
-<option label="PO1" value="PO1">
-<option label="TSgt" value="TSgt">
-<option label="SFC" value="SFC">
-<option label="CPO" value="CPO">
-<option label="GySgt" value="GySgt">
-<option label="MSgt" value="MSgt">
-<option label="First Sergeant" value="First Sergeant">
-<option label="MSG" value="MSG">
-<option label="1SG" value="1SG">
-<option label="SCPO" value="SCPO">
-<option label="SMSgt" value="SMSgt">
-<option label="SGM" value="SGM">
-<option label="CSM" value="CSM">
-<option label="MCPO" value="MCPO">
-<option label="MGySgt" value="MGySgt">
-<option label="SgtMaj" value="SgtMaj">
-<option label="CMSgt" value="CMSgt">
-<option label="SMA" value="SMA">
-<option label="MCPON" value="MCPON">
-<option label="MCPOCG" value="MCPOCG">
-<option label="SgtMajMC" value="SgtMajMC">
-<option label="CMSAF" value="CMSAF">
-<option label="WO1" value="WO1">
-<option label="WO" value="WO">
-<option label="CW2" value="CW2">
-<option label="CWO2" value="CWO2">
-<option label="CW3" value="CW3">
-<option label="CWO3" value="CWO3">
-<option label="CW4" value="CW4">
-<option label="CWO4" value="CWO4">
-<option label="CW5" value="CW5">
-<option label="CWO5" value="CWO5">
-<option label="2LT" value="2LT">
-<option label="ENS" value="ENS">
-<option label="2ndLt" value="2ndLt">
-<option label="2d Lt" value="2d Lt">
-<option label="1LT" value="1LT">
-<option label="LTJG" value="LTJG">
-<option label="1stLt" value="1stLt">
-<option label="1st Lt" value="1st Lt">
-<option label="CPT" value="CPT">
-<option label="LT" value="LT">
-<option label="Capt" value="Capt">
-<option label="MAJ" value="MAJ">
-<option label="LCDR" value="LCDR">
-<option label="Maj" value="Maj">
-<option label="LTC" value="LTC">
-<option label="CDR" value="CDR">
-<option label="LtCol" value="LtCol">
-<option label="Lt Col" value="Lt Col">
-<option label="COL" value="COL">
-<option label="CAPT" value="CAPT">
-<option label="Col" value="Col">
-<option label="BG" value="BG">
-<option label="RDML" value="RDML">
-<option label="BGen" value="BGen">
-<option label="Brig Gen" value="Brig Gen">
-<option label="MG" value="MG">
-<option label="RADM" value="RADM">
-<option label="MajGen" value="MajGen">
-<option label="Maj Gen" value="Maj Gen">
-<option label="LTG" value="LTG">
-<option label="VADM" value="VADM">
-<option label="LtGen" value="LtGen">
-<option label="Lt Gen" value="Lt Gen">
-<option label="GEN" value="GEN">
-<option label="ADM" value="ADM">
-<option label="Gen" value="Gen">
-<ul class="col two">
-<li class="required">
-<label for="fname">
-<abbr title="Your first name is a required field">
-<input type="text" name="fname" id="fname" required="required" aria-required="true" class="validate['required','%firstName']" >
-<li class="required">
-<label for="lname">
-<abbr title="Your last name is a required field">
-<input type="text" name="lname" id="lname" required="required" aria-required="true" class="validate['required','%lastName']" >
+<li class=required>
+<label for=salutation>
+<abbr title=required>
+<select name=salutation id=salutation>
+<option label= value=>
+<option label=mr. value=mr.>
+<option label=mrs. value=mrs.>
+<option label=mr. and mrs. value=mr. and mrs.>
+<option label=ms. value=ms.>
+<option label=miss value=miss>
+<option label=dr. value=dr.>
+<option label=hon. value=hon.>
+<option label=prof. value=prof.>
+<option label=fr. value=fr.>
+<option label=sister value=sister>
+<option label=reverend value=reverend>
+<option label=rabbi value=rabbi>
+<option label=private value=private>
+<option label=sr value=sr>
+<option label=airman basic value=airman basic>
+<option label=pv2 value=pv2>
+<option label=sa value=sa>
+<option label=pfc value=pfc>
+<option label=amn value=amn>
+<option label=sn value=sn>
+<option label=lcpl value=lcpl>
+<option label=a1c value=a1c>
+<option label=cpl value=cpl>
+<option label=spc value=spc>
+<option label=po3 value=po3>
+<option label=cpl value=cpl>
+<option label=sra value=sra>
+<option label=sgt value=sgt>
+<option label=po2 value=po2>
+<option label=sgt value=sgt>
+<option label=ssgt value=ssgt>
+<option label=ssg value=ssg>
+<option label=po1 value=po1>
+<option label=tsgt value=tsgt>
+<option label=sfc value=sfc>
+<option label=cpo value=cpo>
+<option label=gysgt value=gysgt>
+<option label=msgt value=msgt>
+<option label=first sergeant value=first sergeant>
+<option label=msg value=msg>
+<option label=1sg value=1sg>
+<option label=scpo value=scpo>
+<option label=smsgt value=smsgt>
+<option label=sgm value=sgm>
+<option label=csm value=csm>
+<option label=mcpo value=mcpo>
+<option label=mgysgt value=mgysgt>
+<option label=sgtmaj value=sgtmaj>
+<option label=cmsgt value=cmsgt>
+<option label=sma value=sma>
+<option label=mcpon value=mcpon>
+<option label=mcpocg value=mcpocg>
+<option label=sgtmajmc value=sgtmajmc>
+<option label=cmsaf value=cmsaf>
+<option label=wo1 value=wo1>
+<option label=wo value=wo>
+<option label=cw2 value=cw2>
+<option label=cwo2 value=cwo2>
+<option label=cw3 value=cw3>
+<option label=cwo3 value=cwo3>
+<option label=cw4 value=cw4>
+<option label=cwo4 value=cwo4>
+<option label=cw5 value=cw5>
+<option label=cwo5 value=cwo5>
+<option label=2lt value=2lt>
+<option label=ens value=ens>
+<option label=2ndlt value=2ndlt>
+<option label=2d lt value=2d lt>
+<option label=1lt value=1lt>
+<option label=ltjg value=ltjg>
+<option label=1stlt value=1stlt>
+<option label=1st lt value=1st lt>
+<option label=cpt value=cpt>
+<option label=lt value=lt>
+<option label=capt value=capt>
+<option label=maj value=maj>
+<option label=lcdr value=lcdr>
+<option label=maj value=maj>
+<option label=ltc value=ltc>
+<option label=cdr value=cdr>
+<option label=ltcol value=ltcol>
+<option label=lt col value=lt col>
+<option label=col value=col>
+<option label=capt value=capt>
+<option label=col value=col>
+<option label=bg value=bg>
+<option label=rdml value=rdml>
+<option label=bgen value=bgen>
+<option label=brig gen value=brig gen>
+<option label=mg value=mg>
+<option label=radm value=radm>
+<option label=majgen value=majgen>
+<option label=maj gen value=maj gen>
+<option label=ltg value=ltg>
+<option label=vadm value=vadm>
+<option label=ltgen value=ltgen>
+<option label=lt gen value=lt gen>
+<option label=gen value=gen>
+<option label=adm value=adm>
+<option label=gen value=gen>
+<ul class=col two>
+<li class=required>
+<label for=fname>
+<abbr title=your first name is a required field>
+<input type=text name=fname id=fname required=required aria-required=true class=validate[required,%firstname] >
+<li class=required>
+<label for=lname>
+<abbr title=your last name is a required field>
+<input type=text name=lname id=lname required=required aria-required=true class=validate[required,%lastname] >
 <fieldset>
 <legend>
 <ol>
-<ul class="col two">
-<li class="required">
-<label for="email_address">
-<abbr title="Your email address is a required field">
-<input type="text" name="email" id="email_address" required="required" aria-required="true" class="validate['required'] validate['email']" >
-<li class="required">
-<label for="verify_email">
-<abbr title="Please confirm your email address">
-<input type="text" name="verify_email" id="verify_email" required="required" aria-required="true" class="validate['required'] validate['email'] validate['confirm:email_address']" >
-<label for="phone_number">
-<input type="text" name="phone_number" id="phone_number"  >
-<li class="required">
-<label for="mailing_streetAddress1">
-<abbr title="Your street address is a required field">
-<input type="text" name="mailing_streetAddress1" required="required" aria-required="true" class="validate['required']" id="mailing_streetAddress1">
-<label for="mailing_streetAddress2">
-<input type="text" name="mailing_streetAddress2" id="mailing_streetAddress2" >
-<ul class="col three">
-<li class="required">
-<label for="mailing_city">
-<abbr title="Your city is a required field">
-<input type="text" name="mailing_city" id="mailing_city" required="required" aria-required="true" class="validate['required','%city']" >
-<li class="required">
-<label for="mailing_state">
-<abbr title="Your state is a required field">
-<select name="mailing_state" class="validate['required','%state']" id="mailing_state" >
-<option value="null">
-<option value="AK">
-<option value="AL">
-<option value="APO AA">
-<option value="APO AE">
-<option value="APO AP">
-<option value="AR">
-<option value="AZ">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DC">
-<option value="DE">
-<option value="DPO AA">
-<option value="DPO AE">
-<option value="DPO AP">
-<option value="FL">
-<option value="FPO AA">
-<option value="FPO AE">
-<option value="FPO AP">
-<option value="GA">
-<option value="HI">
-<option value="IA">
-<option value="ID">
-<option value="IL">
-<option value="IN" selected="selected">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="MA">
-<option value="MD">
-<option value="ME">
-<option value="MI">
-<option value="MN">
-<option value="MO">
-<option value="MS">
-<option value="MT">
-<option value="NC">
-<option value="ND">
-<option value="NE">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NV">
-<option value="NY">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VA">
-<option value="VT">
-<option value="WA">
-<option value="WI">
-<option value="WV">
-<option value="WY">
-<li class="required">
-<label for="mailing_zipCode">
-<abbr title="Your zip code is a required field">
-<input name="mailing_zipCode" type="text" id="mailing_zipCode" required="required" aria-required="true" class="validate['required','%zipCode']" >
+<ul class=col two>
+<li class=required>
+<label for=email_address>
+<abbr title=your email address is a required field>
+<input type=text name=email id=email_address required=required aria-required=true class=validate[required] validate[email] >
+<li class=required>
+<label for=verify_email>
+<abbr title=please confirm your email address>
+<input type=text name=verify_email id=verify_email required=required aria-required=true class=validate[required] validate[email] validate[confirm:email_address] >
+<label for=phone_number>
+<input type=text name=phone_number id=phone_number  >
+<li class=required>
+<label for=mailing_streetaddress1>
+<abbr title=your street address is a required field>
+<input type=text name=mailing_streetaddress1 required=required aria-required=true class=validate[required] id=mailing_streetaddress1>
+<label for=mailing_streetaddress2>
+<input type=text name=mailing_streetaddress2 id=mailing_streetaddress2 >
+<ul class=col three>
+<li class=required>
+<label for=mailing_city>
+<abbr title=your city is a required field>
+<input type=text name=mailing_city id=mailing_city required=required aria-required=true class=validate[required,%city] >
+<li class=required>
+<label for=mailing_state>
+<abbr title=your state is a required field>
+<select name=mailing_state class=validate[required,%state] id=mailing_state >
+<option value=null>
+<option value=ak>
+<option value=al>
+<option value=apo aa>
+<option value=apo ae>
+<option value=apo ap>
+<option value=ar>
+<option value=az>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=dc>
+<option value=de>
+<option value=dpo aa>
+<option value=dpo ae>
+<option value=dpo ap>
+<option value=fl>
+<option value=fpo aa>
+<option value=fpo ae>
+<option value=fpo ap>
+<option value=ga>
+<option value=hi>
+<option value=ia>
+<option value=id>
+<option value=il>
+<option value=in selected=selected>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=ma>
+<option value=md>
+<option value=me>
+<option value=mi>
+<option value=mn>
+<option value=mo>
+<option value=ms>
+<option value=mt>
+<option value=nc>
+<option value=nd>
+<option value=ne>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=nv>
+<option value=ny>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=va>
+<option value=vt>
+<option value=wa>
+<option value=wi>
+<option value=wv>
+<option value=wy>
+<li class=required>
+<label for=mailing_zipcode>
+<abbr title=your zip code is a required field>
+<input name=mailing_zipcode type=text id=mailing_zipcode required=required aria-required=true class=validate[required,%zipcode] >
 <fieldset>
 <legend>
 <ol>
-<li class="required">
-<label for="subject">
-<abbr title="Please enter a subject for your message">
-<select id="subject" name="subject" class="validate['required','%subject']">
-<option label="- - Select an Issue - -" value="" selected="selected">
-<option label="Help with a Federal Agency" value="Help with a Federal Agency" class="highlight">
-<option label="Abortion" value="Abortion">
-<option label="Agriculture" value="Agriculture">
-<option label="Appropriations" value="Appropriations">
-<option label="Banking" value="Banking">
-<option label="Budget" value="Budget">
-<option label="Civil Rights" value="Civil Rights">
-<option label="Consumer Safety" value="Consumer Safety">
-<option label="Defense" value="Defense">
-<option label="Education" value="Education">
-<option label="Energy" value="Energy">
-<option label="Environment" value="Environment">
-<option label="Financial Services" value="Financial Services">
-<option label="First Amendment Rights" value="First Amendment Rights">
-<option label="Foreign Affairs" value="Foreign Affairs">
-<option label="Health Care" value="Health Care">
-<option label="Homeland Security" value="Homeland Security">
-<option label="Housing" value="Housing">
-<option label="Immigration" value="Immigration">
-<option label="Insurance" value="Insurance">
-<option label="Intelligence / Cyber-Security" value="Intelligence and Cyber Security">
-<option label="Internal Revenue Service (IRS)" value="Internal Revenue Service">
-<option label="Judiciary" value="Judiciary">
-<option label="Labor" value="Labor">
-<option label="Law Enforcement" value="Law Enforcement">
-<option label="Medicare" value="Medicare">
-<option label="Pensions" value="Pensions">
-<option label="Postal" value="Postal">
-<option label="Science and Technology" value="Science and Technology">
-<option label="Second Amendment Rights" value="Second Amendment Rights">
-<option label="Senior Citizens" value="Senior Citizens">
-<option label="Small Business" value="Small Business">
-<option label="Social Security" value="Social Security">
-<option label="Tax" value="Tax">
-<option label="Telecommunications" value="Telecommunications">
-<option label="Terrorism" value="Terrorism">
-<option label="Trade" value="Trade">
-<option label="Transportation" value="Transportation">
-<option label="Unemployment" value="Unemployment">
-<option label="Veterans" value="Veterans">
-<option label="Welfare" value="Welfare">
-<option label="Women’s Issues" value="Women’s Issues">
-<li class="required">
-<label for="comments">
-<abbr title="Please enter your message">
-<textarea id="comments" name="comments" aria-required="true" class="validate['required','%message']">
-<label for="newsletter">
-<select id="newsletter" name="newsletter">
-<option label="Yes" value="yes" selected="selected">
-<option label="No" value="no">
-<input class="button" type="submit" id="side-search-btn" value="Send" >
+<li class=required>
+<label for=subject>
+<abbr title=please enter a subject for your message>
+<select id=subject name=subject class=validate[required,%subject]>
+<option label=- - select an issue - - value= selected=selected>
+<option label=help with a federal agency value=help with a federal agency class=highlight>
+<option label=abortion value=abortion>
+<option label=agriculture value=agriculture>
+<option label=appropriations value=appropriations>
+<option label=banking value=banking>
+<option label=budget value=budget>
+<option label=civil rights value=civil rights>
+<option label=consumer safety value=consumer safety>
+<option label=defense value=defense>
+<option label=education value=education>
+<option label=energy value=energy>
+<option label=environment value=environment>
+<option label=financial services value=financial services>
+<option label=first amendment rights value=first amendment rights>
+<option label=foreign affairs value=foreign affairs>
+<option label=health care value=health care>
+<option label=homeland security value=homeland security>
+<option label=housing value=housing>
+<option label=immigration value=immigration>
+<option label=insurance value=insurance>
+<option label=intelligence / cyber-security value=intelligence and cyber security>
+<option label=internal revenue service (irs) value=internal revenue service>
+<option label=judiciary value=judiciary>
+<option label=labor value=labor>
+<option label=law enforcement value=law enforcement>
+<option label=medicare value=medicare>
+<option label=pensions value=pensions>
+<option label=postal value=postal>
+<option label=science and technology value=science and technology>
+<option label=second amendment rights value=second amendment rights>
+<option label=senior citizens value=senior citizens>
+<option label=small business value=small business>
+<option label=social security value=social security>
+<option label=tax value=tax>
+<option label=telecommunications value=telecommunications>
+<option label=terrorism value=terrorism>
+<option label=trade value=trade>
+<option label=transportation value=transportation>
+<option label=unemployment value=unemployment>
+<option label=veterans value=veterans>
+<option label=welfare value=welfare>
+<option label=women’s issues value=women’s issues>
+<li class=required>
+<label for=comments>
+<abbr title=please enter your message>
+<textarea id=comments name=comments aria-required=true class=validate[required,%message]>
+<label for=newsletter>
+<select id=newsletter name=newsletter>
+<option label=yes value=yes selected=selected>
+<option label=no value=no>
+<input class=button type=submit id=side-search-btn value=send >

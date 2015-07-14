@@ -1,272 +1,272 @@
-<form id="contactForm"  method="post"  action="/contact/email-senator-vitter"  enctype="application/x-www-form-urlencoded" onsubmit="return validate()" >
+<form id=contactform  method=post  action=/contact/email-senator-vitter  enctype=application/x-www-form-urlencoded onsubmit=return validate() >
 <fieldset>
-<label for="subject">
-<abbr title="Please enter a message topic for your message">
-<select id="subject" class="span8" name="subject" class="validate['required','%subject']" onChange="javascript:getHelp(this.value);">
-<option label="- - Select an Issue - -" value="" selected="selected">
-<option label="Academy Nominations" value="Academy Nominations">
-<option label="Agriculture" value="Agriculture">
-<option label="Budget" value="Budget">
-<option label="Border Security Caucus" value="Border Security Caucus">
-<option label="Coastal Restoration" value="Coastal Restoration">
-<option label="Corruption" value="Corruption">
-<option label="Crime and Drugs" value="Crime and Drugs">
-<option label="Economy" value="Economy">
-<option label="Education" value="Education">
-<option label="Energy" value="Energy">
-<option label="Health Care" value="Health Care">
-<option label="Homeland Security" value="Homeland Security">
-<option label="Flag Requests" value="Flag Requests">
-<option label="Housing" value="Housing">
-<option label="Immigration" value="Immigration">
-<option label="Internships" value="Internships">
-<option label="Hurricane Preparedness" value="Hurricane Preparedness">
-<option label="Life & Values" value="Life & Values">
-<option label="Medicare and Medicaid" value="Medicare and Medicaid">
-<option label="National Defense" value="National Defense">
-<option label="Passports" value="Passports">
-<option label="Social Security" value="Social Security">
-<option label="Seafood" value="Seafood">
-<option label="Second Amendment Rights" value="Second Amendment Rights">
-<option label="Small Business & Economic Development" value="Small Business & Economic Development">
-<option label="Veterans Affairs" value="Veterans Affairs">
-<option label="Taxes" value="Taxes">
-<option label="State Appropriations" value="State Appropriations">
-<option label="Visiting DC" value="Visiting DC">
-<option label="Women & Family" value="Women & Family">
-<fieldset>
-<legend>
-<label class="control-label" for="salutation">
-<abbr title="required">
-<select name="salutation" id="salutation" class="span8">
-<option label="--" value="">
-<option label="Mr." value="Mr.">
-<option label="Ms." value="Ms.">
-<option label="Mrs." value="Mrs.">
-<option label="Miss" value="Miss">
-<option label="Mr. and Mrs." value="Mr. and Mrs.">
-<option label="Dr." value="Dr.">
-<option label="Prof." value="Prof.">
-<option label="Senator" value="Senator">
-<option label="Gov." value="Gov.">
-<option label="Congressman" value="Congressman">
-<option label="Hon." value="Hon.">
-<option label="Fr." value="Fr.">
-<option label="Sister" value="Sister">
-<option label="Rabbi" value="Rabbi">
-<option label="Reverend" value="Reverend">
-<option label="Fleet Admiral" value="Fleet Admiral">
-<option label="Admiral" value="Admiral">
-<option label="Vice Admiral" value="Vice Admiral">
-<option label="Rear Admiral (upper half)" value="Rear Admiral (upper half)">
-<option label="Rear Admiral (lower half)" value="Rear Admiral (lower half)">
-<option label="Captain" value="Captain">
-<option label="Commander" value="Commander">
-<option label="Lieutenant Commander" value="Lieutenant Commander">
-<option label="Lieutenant" value="Lieutenant">
-<option label="Lieutenant, Junior Grade" value="Lieutenant, Junior Grade">
-<option label="Ensign" value="Ensign">
-<option label="Master Chief Petty Officer of the Navy" value="Master Chief Petty Officer of the Navy">
-<option label="Master Chief Petty Officer" value="Master Chief Petty Officer">
-<option label="Senior Chief Petty Officer" value="Senior Chief Petty Officer">
-<option label="Chief Petty Officer" value="Chief Petty Officer">
-<option label="Petty Officer First Class" value="Petty Officer First Class">
-<option label="Petty Officer Second Class" value="Petty Officer Second Class">
-<option label="Petty Officer Third Class" value="Petty Officer Third Class">
-<option label="Seaman" value="Seaman">
-<option label="Seaman Apprentice" value="Seaman Apprentice">
-<option label="Seaman Recruit" value="Seaman Recruit">
-<option label="Chief Warrant Officer" value="Chief Warrant Officer">
-<option label="Warrant Officer" value="Warrant Officer">
-<option label="Sgt Major Of The Corps" value="Sgt Major Of The Corps">
-<option label="Sergeant Major" value="Sergeant Major">
-<option label="Master Gunnery Sgt" value="Master Gunnery Sgt">
-<option label="First Sergeant" value="First Sergeant">
-<option label="Master Sergeant" value="Master Sergeant">
-<option label="Gunnery Sergeant" value="Gunnery Sergeant">
-<option label="Staff Sergeant" value="Staff Sergeant">
-<option label="Sergeant" value="Sergeant">
-<option label="Corporal" value="Corporal">
-<option label="Lance Corporal" value="Lance Corporal">
-<option label="Private First Class" value="Private First Class">
-<option label="Private" value="Private">
-<option label="General of the Air Force" value="General of the Air Force">
-<option label="General" value="General">
-<option label="Lieutenant General" value="Lieutenant General">
-<option label="Major General" value="Major General">
-<option label="Brigadier General" value="Brigadier General">
-<option label="Colonel" value="Colonel">
-<option label="Lieutenant Colonel" value="Lieutenant Colonel">
-<option label="Major" value="Major">
-<option label="First Lieutenant" value="First Lieutenant">
-<option label="Second Lieutenant" value="Second Lieutenant">
-<option label="Chief Master Sergeant of the Air Force" value="Chief Master Sergeant of the Air Force">
-<option label="Command  Chief Master Sergeant" value="Command  Chief Master Sergeant">
-<option label="Chief Master Sergeant" value="Chief Master Sergeant">
-<option label="Senior Master Sergeant" value="Senior Master Sergeant">
-<option label="Technical Sergeant" value="Technical Sergeant">
-<option label="Senior Airman" value="Senior Airman">
-<option label="Airman First Class" value="Airman First Class">
-<option label="Airman" value="Airman">
-<label for="fname">
-<abbr title="required">
-<input class="span8" type="text" name="fname" id="fname" aria-required="true" placeholder="Required" required>
-<label for="lname">
-<abbr title="required">
-<input class="span8" type="text" name="lname" id="lname" aria-required="true" placeholder="Required" required>
-<legend>
-<label for="mailing_streetAddress1">
-<abbr title="Your street address is a required field">
-<input class="span8" type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" aria-required="true" placeholder="Required" required>
-<label for="mailing_streetAddress2">
-<input class="span8" type="text" name="mailing_streetAddress2" id="mailing_streetAddress2">
-<label for="mailing_city">
-<abbr title="Your city is a required field">
-<input class="span3" type="text" name="mailing_city" id="mailing_city" aria-required="true" placeholder="Required" required>
-<label for="state">
-<select name="mailing_state" id="mailing_state" class="span1" onchange="disableCountyDropDown('county');if(this.options[this.selectedIndex].value == 'LA') { window.county_label.set('html', 'Parish *'); } else { window.county_label.set('html', 'County *'); }; _dropdown = 'county'; var req = new Request({ url: '/cfc_extensions/data/geographical.cfc', data: 'method=getCounties&State='+encodeURIComponent(this[this.selectedIndex].value), onSuccess: setCountiesHandler, onFailure:setCountiesErrorHandler }).send();" required="true">
-<option value="null">
-<option label="Alabama" value="AL"   >
-<option label="Alaska" value="AK"   >
-<option label="American Samoa" value="AS"   >
-<option label="Arizona" value="AZ"   >
-<option label="Arkansas" value="AR"   >
-<option label="California" value="CA"   >
-<option label="Colorado" value="CO"   >
-<option label="Commonwealth of the Northern Mariana Islands" value="MP"   >
-<option label="Connecticut" value="CT"   >
-<option label="Delaware" value="DE"   >
-<option label="District of Columbia" value="DC"   >
-<option label="Florida" value="FL"   >
-<option label="Georgia" value="GA"   >
-<option label="Guam" value="GU"   >
-<option label="Hawaii" value="HI"   >
-<option label="Idaho" value="ID"   >
-<option label="Illinois" value="IL"   >
-<option label="Indiana" value="IN"   >
-<option label="Iowa" value="IA"   >
-<option label="Kansas" value="KS"   >
-<option label="Kentucky" value="KY"   >
-<option label="Louisiana" value="LA"   selected="selected" >
-<option label="Maine" value="ME"   >
-<option label="Maryland" value="MD"   >
-<option label="Massachusetts" value="MA"   >
-<option label="Michigan" value="MI"   >
-<option label="Minnesota" value="MN"   >
-<option label="Mississippi" value="MS"   >
-<option label="Missouri" value="MO"   >
-<option label="Montana" value="MT"   >
-<option label="Nebraska" value="NE"   >
-<option label="Nevada" value="NV"   >
-<option label="New Hampshire" value="NH"   >
-<option label="New Jersey" value="NJ"   >
-<option label="New Mexico" value="NM"   >
-<option label="New York" value="NY"   >
-<option label="North Carolina" value="NC"   >
-<option label="North Dakota" value="ND"   >
-<option label="Ohio" value="OH"   >
-<option label="Oklahoma" value="OK"   >
-<option label="Oregon" value="OR"   >
-<option label="Pennsylvania" value="PA"   >
-<option label="Puerto Rico" value="PR"   >
-<option label="Rhode Island" value="RI"   >
-<option label="South Carolina" value="SC"   >
-<option label="South Dakota" value="SD"   >
-<option label="Tennessee" value="TN"   >
-<option label="Texas" value="TX"   >
-<option label="Utah" value="UT"   >
-<option label="Vermont" value="VT"   >
-<option label="Virgin Islands of the United States" value="VI"   >
-<option label="Virginia" value="VA"   >
-<option label="Washington" value="WA"   >
-<option label="West Virginia" value="WV"   >
-<option label="Wisconsin" value="WI"   >
-<option label="Wyoming" value="WY"   >
-<label id="county-label" for="parish">
-<select name="county" id="county" class="span2"  required="true">
-<option label="--" value="">
-<option label="Acadia Parish" value="Acadia Parish"  >
-<option label="Allen Parish" value="Allen Parish"  >
-<option label="Ascension Parish" value="Ascension Parish"  >
-<option label="Assumption Parish" value="Assumption Parish"  >
-<option label="Avoyelles Parish" value="Avoyelles Parish"  >
-<option label="Beauregard Parish" value="Beauregard Parish"  >
-<option label="Bienville Parish" value="Bienville Parish"  >
-<option label="Bossier Parish" value="Bossier Parish"  >
-<option label="Caddo Parish" value="Caddo Parish"  >
-<option label="Calcasieu Parish" value="Calcasieu Parish"  >
-<option label="Caldwell Parish" value="Caldwell Parish"  >
-<option label="Cameron Parish" value="Cameron Parish"  >
-<option label="Catahoula Parish" value="Catahoula Parish"  >
-<option label="Claiborne Parish" value="Claiborne Parish"  >
-<option label="Concordia Parish" value="Concordia Parish"  >
-<option label="De Soto Parish" value="De Soto Parish"  >
-<option label="East Baton Rouge Parish" value="East Baton Rouge Parish"  >
-<option label="East Carroll Parish" value="East Carroll Parish"  >
-<option label="East Feliciana Parish" value="East Feliciana Parish"  >
-<option label="Evangeline Parish" value="Evangeline Parish"  >
-<option label="Franklin Parish" value="Franklin Parish"  >
-<option label="Grant Parish" value="Grant Parish"  >
-<option label="Iberia Parish" value="Iberia Parish"  >
-<option label="Iberville Parish" value="Iberville Parish"  >
-<option label="Jackson Parish" value="Jackson Parish"  >
-<option label="Jefferson Davis Parish" value="Jefferson Davis Parish"  >
-<option label="Jefferson Parish" value="Jefferson Parish"  >
-<option label="La Salle Parish" value="La Salle Parish"  >
-<option label="Lafayette Parish" value="Lafayette Parish"  >
-<option label="Lafourche Parish" value="Lafourche Parish"  >
-<option label="Lincoln Parish" value="Lincoln Parish"  >
-<option label="Livingston Parish" value="Livingston Parish"  >
-<option label="Madison Parish" value="Madison Parish"  >
-<option label="Morehouse Parish" value="Morehouse Parish"  >
-<option label="Natchitoches Parish" value="Natchitoches Parish"  >
-<option label="Orleans Parish" value="Orleans Parish"  >
-<option label="Ouachita Parish" value="Ouachita Parish"  >
-<option label="Plaquemines Parish" value="Plaquemines Parish"  >
-<option label="Pointe Coupee Parish" value="Pointe Coupee Parish"  >
-<option label="Rapides Parish" value="Rapides Parish"  >
-<option label="Red River Parish" value="Red River Parish"  >
-<option label="Richland Parish" value="Richland Parish"  >
-<option label="Sabine Parish" value="Sabine Parish"  >
-<option label="St. Bernard Parish" value="St. Bernard Parish"  >
-<option label="St. Charles Parish" value="St. Charles Parish"  >
-<option label="St. Helena Parish" value="St. Helena Parish"  >
-<option label="St. James Parish" value="St. James Parish"  >
-<option label="St. John the Baptist Parish" value="St. John the Baptist Parish"  >
-<option label="St. Landry Parish" value="St. Landry Parish"  >
-<option label="St. Martin Parish" value="St. Martin Parish"  >
-<option label="St. Mary Parish" value="St. Mary Parish"  >
-<option label="St. Tammany Parish" value="St. Tammany Parish"  >
-<option label="Tangipahoa Parish" value="Tangipahoa Parish"  >
-<option label="Tensas Parish" value="Tensas Parish"  >
-<option label="Terrebonne Parish" value="Terrebonne Parish"  >
-<option label="Union Parish" value="Union Parish"  >
-<option label="Vermilion Parish" value="Vermilion Parish"  >
-<option label="Vernon Parish" value="Vernon Parish"  >
-<option label="Washington Parish" value="Washington Parish"  >
-<option label="Webster Parish" value="Webster Parish"  >
-<option label="West Baton Rouge Parish" value="West Baton Rouge Parish"  >
-<option label="West Carroll Parish" value="West Carroll Parish"  >
-<option label="West Feliciana Parish" value="West Feliciana Parish"  >
-<option label="Winn Parish" value="Winn Parish"  >
-<label for="mailing_zipCode">
-<abbr title="Your zip code is a required field">
-<input class="span2" type="number" name="mailing_zipCode"  id="mailing_zipCode" aria-required="true" placeholder="Required" required>
-<label for="home_phone_number">
-<input type="tel" name="home_phone_number" id="home_phone_number" class="span8">
-<label for="work_phone_number">
-<input type="tel" name="work_phone_number" id="work_phone_number" class="span8">
-<label for="email_address">
-<abbr title="Your e-mail address is a required field">
-<input type="email" name="email_address" aria-required="true" title="E-mail Address" id="email" class="span8" placeholder="Required" required>
-<label for="verify_email">
-<abbr title="Please confirm your e-mail address">
-<input type="email" name="verify_email" id="verify_email" aria-required="true" class="span8" placeholder="Required" required>
+<label for=subject>
+<abbr title=please enter a message topic for your message>
+<select id=subject class=span8 name=subject class=validate[required,%subject] onchange=javascript:gethelp(this.value);>
+<option label=- - select an issue - - value= selected=selected>
+<option label=academy nominations value=academy nominations>
+<option label=agriculture value=agriculture>
+<option label=budget value=budget>
+<option label=border security caucus value=border security caucus>
+<option label=coastal restoration value=coastal restoration>
+<option label=corruption value=corruption>
+<option label=crime and drugs value=crime and drugs>
+<option label=economy value=economy>
+<option label=education value=education>
+<option label=energy value=energy>
+<option label=health care value=health care>
+<option label=homeland security value=homeland security>
+<option label=flag requests value=flag requests>
+<option label=housing value=housing>
+<option label=immigration value=immigration>
+<option label=internships value=internships>
+<option label=hurricane preparedness value=hurricane preparedness>
+<option label=life & values value=life & values>
+<option label=medicare and medicaid value=medicare and medicaid>
+<option label=national defense value=national defense>
+<option label=passports value=passports>
+<option label=social security value=social security>
+<option label=seafood value=seafood>
+<option label=second amendment rights value=second amendment rights>
+<option label=small business & economic development value=small business & economic development>
+<option label=veterans affairs value=veterans affairs>
+<option label=taxes value=taxes>
+<option label=state appropriations value=state appropriations>
+<option label=visiting dc value=visiting dc>
+<option label=women & family value=women & family>
 <fieldset>
 <legend>
-<label for="message">
-<abbr title="Please enter your message">
-<textarea id="message" class="span8" rows="10" name="message" aria-required="true">
-<label for="response_y" class="checkbox">
-<input name="response" id="response_y" value="Y" type="checkbox" >
-<input class="btn right" type="submit"  value="Submit" >
+<label class=control-label for=salutation>
+<abbr title=required>
+<select name=salutation id=salutation class=span8>
+<option label=-- value=>
+<option label=mr. value=mr.>
+<option label=ms. value=ms.>
+<option label=mrs. value=mrs.>
+<option label=miss value=miss>
+<option label=mr. and mrs. value=mr. and mrs.>
+<option label=dr. value=dr.>
+<option label=prof. value=prof.>
+<option label=senator value=senator>
+<option label=gov. value=gov.>
+<option label=congressman value=congressman>
+<option label=hon. value=hon.>
+<option label=fr. value=fr.>
+<option label=sister value=sister>
+<option label=rabbi value=rabbi>
+<option label=reverend value=reverend>
+<option label=fleet admiral value=fleet admiral>
+<option label=admiral value=admiral>
+<option label=vice admiral value=vice admiral>
+<option label=rear admiral (upper half) value=rear admiral (upper half)>
+<option label=rear admiral (lower half) value=rear admiral (lower half)>
+<option label=captain value=captain>
+<option label=commander value=commander>
+<option label=lieutenant commander value=lieutenant commander>
+<option label=lieutenant value=lieutenant>
+<option label=lieutenant, junior grade value=lieutenant, junior grade>
+<option label=ensign value=ensign>
+<option label=master chief petty officer of the navy value=master chief petty officer of the navy>
+<option label=master chief petty officer value=master chief petty officer>
+<option label=senior chief petty officer value=senior chief petty officer>
+<option label=chief petty officer value=chief petty officer>
+<option label=petty officer first class value=petty officer first class>
+<option label=petty officer second class value=petty officer second class>
+<option label=petty officer third class value=petty officer third class>
+<option label=seaman value=seaman>
+<option label=seaman apprentice value=seaman apprentice>
+<option label=seaman recruit value=seaman recruit>
+<option label=chief warrant officer value=chief warrant officer>
+<option label=warrant officer value=warrant officer>
+<option label=sgt major of the corps value=sgt major of the corps>
+<option label=sergeant major value=sergeant major>
+<option label=master gunnery sgt value=master gunnery sgt>
+<option label=first sergeant value=first sergeant>
+<option label=master sergeant value=master sergeant>
+<option label=gunnery sergeant value=gunnery sergeant>
+<option label=staff sergeant value=staff sergeant>
+<option label=sergeant value=sergeant>
+<option label=corporal value=corporal>
+<option label=lance corporal value=lance corporal>
+<option label=private first class value=private first class>
+<option label=private value=private>
+<option label=general of the air force value=general of the air force>
+<option label=general value=general>
+<option label=lieutenant general value=lieutenant general>
+<option label=major general value=major general>
+<option label=brigadier general value=brigadier general>
+<option label=colonel value=colonel>
+<option label=lieutenant colonel value=lieutenant colonel>
+<option label=major value=major>
+<option label=first lieutenant value=first lieutenant>
+<option label=second lieutenant value=second lieutenant>
+<option label=chief master sergeant of the air force value=chief master sergeant of the air force>
+<option label=command  chief master sergeant value=command  chief master sergeant>
+<option label=chief master sergeant value=chief master sergeant>
+<option label=senior master sergeant value=senior master sergeant>
+<option label=technical sergeant value=technical sergeant>
+<option label=senior airman value=senior airman>
+<option label=airman first class value=airman first class>
+<option label=airman value=airman>
+<label for=fname>
+<abbr title=required>
+<input class=span8 type=text name=fname id=fname aria-required=true placeholder=required required>
+<label for=lname>
+<abbr title=required>
+<input class=span8 type=text name=lname id=lname aria-required=true placeholder=required required>
+<legend>
+<label for=mailing_streetaddress1>
+<abbr title=your street address is a required field>
+<input class=span8 type=text name=mailing_streetaddress1 id=mailing_streetaddress1 aria-required=true placeholder=required required>
+<label for=mailing_streetaddress2>
+<input class=span8 type=text name=mailing_streetaddress2 id=mailing_streetaddress2>
+<label for=mailing_city>
+<abbr title=your city is a required field>
+<input class=span3 type=text name=mailing_city id=mailing_city aria-required=true placeholder=required required>
+<label for=state>
+<select name=mailing_state id=mailing_state class=span1 onchange=disablecountydropdown(county);if(this.options[this.selectedindex].value == la) { window.county_label.set(html, parish *); } else { window.county_label.set(html, county *); }; _dropdown = county; var req = new request({ url: /cfc_extensions/data/geographical.cfc, data: method=getcounties&state=+encodeuricomponent(this[this.selectedindex].value), onsuccess: setcountieshandler, onfailure:setcountieserrorhandler }).send(); required=true>
+<option value=null>
+<option label=alabama value=al   >
+<option label=alaska value=ak   >
+<option label=american samoa value=as   >
+<option label=arizona value=az   >
+<option label=arkansas value=ar   >
+<option label=california value=ca   >
+<option label=colorado value=co   >
+<option label=commonwealth of the northern mariana islands value=mp   >
+<option label=connecticut value=ct   >
+<option label=delaware value=de   >
+<option label=district of columbia value=dc   >
+<option label=florida value=fl   >
+<option label=georgia value=ga   >
+<option label=guam value=gu   >
+<option label=hawaii value=hi   >
+<option label=idaho value=id   >
+<option label=illinois value=il   >
+<option label=indiana value=in   >
+<option label=iowa value=ia   >
+<option label=kansas value=ks   >
+<option label=kentucky value=ky   >
+<option label=louisiana value=la   selected=selected >
+<option label=maine value=me   >
+<option label=maryland value=md   >
+<option label=massachusetts value=ma   >
+<option label=michigan value=mi   >
+<option label=minnesota value=mn   >
+<option label=mississippi value=ms   >
+<option label=missouri value=mo   >
+<option label=montana value=mt   >
+<option label=nebraska value=ne   >
+<option label=nevada value=nv   >
+<option label=new hampshire value=nh   >
+<option label=new jersey value=nj   >
+<option label=new mexico value=nm   >
+<option label=new york value=ny   >
+<option label=north carolina value=nc   >
+<option label=north dakota value=nd   >
+<option label=ohio value=oh   >
+<option label=oklahoma value=ok   >
+<option label=oregon value=or   >
+<option label=pennsylvania value=pa   >
+<option label=puerto rico value=pr   >
+<option label=rhode island value=ri   >
+<option label=south carolina value=sc   >
+<option label=south dakota value=sd   >
+<option label=tennessee value=tn   >
+<option label=texas value=tx   >
+<option label=utah value=ut   >
+<option label=vermont value=vt   >
+<option label=virgin islands of the united states value=vi   >
+<option label=virginia value=va   >
+<option label=washington value=wa   >
+<option label=west virginia value=wv   >
+<option label=wisconsin value=wi   >
+<option label=wyoming value=wy   >
+<label id=county-label for=parish>
+<select name=county id=county class=span2  required=true>
+<option label=-- value=>
+<option label=acadia parish value=acadia parish  >
+<option label=allen parish value=allen parish  >
+<option label=ascension parish value=ascension parish  >
+<option label=assumption parish value=assumption parish  >
+<option label=avoyelles parish value=avoyelles parish  >
+<option label=beauregard parish value=beauregard parish  >
+<option label=bienville parish value=bienville parish  >
+<option label=bossier parish value=bossier parish  >
+<option label=caddo parish value=caddo parish  >
+<option label=calcasieu parish value=calcasieu parish  >
+<option label=caldwell parish value=caldwell parish  >
+<option label=cameron parish value=cameron parish  >
+<option label=catahoula parish value=catahoula parish  >
+<option label=claiborne parish value=claiborne parish  >
+<option label=concordia parish value=concordia parish  >
+<option label=de soto parish value=de soto parish  >
+<option label=east baton rouge parish value=east baton rouge parish  >
+<option label=east carroll parish value=east carroll parish  >
+<option label=east feliciana parish value=east feliciana parish  >
+<option label=evangeline parish value=evangeline parish  >
+<option label=franklin parish value=franklin parish  >
+<option label=grant parish value=grant parish  >
+<option label=iberia parish value=iberia parish  >
+<option label=iberville parish value=iberville parish  >
+<option label=jackson parish value=jackson parish  >
+<option label=jefferson davis parish value=jefferson davis parish  >
+<option label=jefferson parish value=jefferson parish  >
+<option label=la salle parish value=la salle parish  >
+<option label=lafayette parish value=lafayette parish  >
+<option label=lafourche parish value=lafourche parish  >
+<option label=lincoln parish value=lincoln parish  >
+<option label=livingston parish value=livingston parish  >
+<option label=madison parish value=madison parish  >
+<option label=morehouse parish value=morehouse parish  >
+<option label=natchitoches parish value=natchitoches parish  >
+<option label=orleans parish value=orleans parish  >
+<option label=ouachita parish value=ouachita parish  >
+<option label=plaquemines parish value=plaquemines parish  >
+<option label=pointe coupee parish value=pointe coupee parish  >
+<option label=rapides parish value=rapides parish  >
+<option label=red river parish value=red river parish  >
+<option label=richland parish value=richland parish  >
+<option label=sabine parish value=sabine parish  >
+<option label=st. bernard parish value=st. bernard parish  >
+<option label=st. charles parish value=st. charles parish  >
+<option label=st. helena parish value=st. helena parish  >
+<option label=st. james parish value=st. james parish  >
+<option label=st. john the baptist parish value=st. john the baptist parish  >
+<option label=st. landry parish value=st. landry parish  >
+<option label=st. martin parish value=st. martin parish  >
+<option label=st. mary parish value=st. mary parish  >
+<option label=st. tammany parish value=st. tammany parish  >
+<option label=tangipahoa parish value=tangipahoa parish  >
+<option label=tensas parish value=tensas parish  >
+<option label=terrebonne parish value=terrebonne parish  >
+<option label=union parish value=union parish  >
+<option label=vermilion parish value=vermilion parish  >
+<option label=vernon parish value=vernon parish  >
+<option label=washington parish value=washington parish  >
+<option label=webster parish value=webster parish  >
+<option label=west baton rouge parish value=west baton rouge parish  >
+<option label=west carroll parish value=west carroll parish  >
+<option label=west feliciana parish value=west feliciana parish  >
+<option label=winn parish value=winn parish  >
+<label for=mailing_zipcode>
+<abbr title=your zip code is a required field>
+<input class=span2 type=number name=mailing_zipcode  id=mailing_zipcode aria-required=true placeholder=required required>
+<label for=home_phone_number>
+<input type=tel name=home_phone_number id=home_phone_number class=span8>
+<label for=work_phone_number>
+<input type=tel name=work_phone_number id=work_phone_number class=span8>
+<label for=email_address>
+<abbr title=your e-mail address is a required field>
+<input type=email name=email_address aria-required=true title=e-mail address id=email class=span8 placeholder=required required>
+<label for=verify_email>
+<abbr title=please confirm your e-mail address>
+<input type=email name=verify_email id=verify_email aria-required=true class=span8 placeholder=required required>
+<fieldset>
+<legend>
+<label for=message>
+<abbr title=please enter your message>
+<textarea id=message class=span8 rows=10 name=message aria-required=true>
+<label for=response_y class=checkbox>
+<input name=response id=response_y value=y type=checkbox >
+<input class=btn right type=submit  value=submit >

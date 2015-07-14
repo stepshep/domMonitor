@@ -1,120 +1,120 @@
-<form action="/contact/" id="custom_form24" name="custom_form" class="custom_form" method="post">
+<form action=/contact/ id=custom_form24 name=custom_form class=custom_form method=post>
 <p>
 <p>
-<p style="font-weight:bold; text-align:center;">
+<p style=font-weight:bold; text-align:center;>
 <p>
 <p>
 <p>
-<p class="req">
+<p class=req>
 <fieldset>
 <legend>
-<label for="prefix">
-<select name="prefix" id="prefix" class="short">
-<option selected="" value="">
-<option value="Mr. ">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Hon.">
-<option value="Prof.">
-<option value="Rev.">
-<option value="Rabbi">
-<label for="req_firstname">
-<span title="required field">
-<input type="text" name="firstname" id="req_firstname" maxlength="100" class="text fn filled">
-<label for="req_lastname">
-<span title="required information">
-<input type="text" name="lastname" id="req_lastname" class="text ln filled" maxlength="100">
-<label for="suffix">
-<input id="suffix" type="text" name="suffix" class="text sfx" maxlength="5">
-<label for="req_street">
-<span title="required information">
-<input type="text" name="street" id="req_street" class="text str filled" maxlength="100">
-<label for="req_city">
-<span title="required information">
-<input type="text" name="city" id="req_city" class="text ct filled" maxlength="100">
-<label for="req_state">
-<span title="required information">
-<select name="state" class="short filled" id="req_state">
-<option value="">
-<option value="AK">
-<option value="AL">
-<option value="AR">
-<option value="AZ">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DC">
-<option value="DE">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="IA">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="MA">
-<option value="MD">
-<option value="ME">
-<option value="MI">
-<option value="MN">
-<option value="MO">
-<option value="MS">
-<option value="MT">
-<option value="NC" selected="selected">
-<option value="ND">
-<option value="NE">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NV">
-<option value="NY">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA">
-<option value="PR">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VA">
-<option value="VT">
-<option value="WA">
-<option value="WI">
-<option value="WV">
-<option value="WY">
-<label for="req_zip">
-<span title="required information">
-<input value="27607" class="zip z5 filled" id="req_zip" maxlength="5" name="zipcode" type="text">
-<label for="zip4">
-<input value="3815" class="zip z4 filled" id="zip4" maxlength="4" name="zipfour" type="text">
+<label for=prefix>
+<select name=prefix id=prefix class=short>
+<option selected= value=>
+<option value=mr. >
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=dr.>
+<option value=hon.>
+<option value=prof.>
+<option value=rev.>
+<option value=rabbi>
+<label for=req_firstname>
+<span title=required field>
+<input type=text name=firstname id=req_firstname maxlength=100 class=text fn filled>
+<label for=req_lastname>
+<span title=required information>
+<input type=text name=lastname id=req_lastname class=text ln filled maxlength=100>
+<label for=suffix>
+<input id=suffix type=text name=suffix class=text sfx maxlength=5>
+<label for=req_street>
+<span title=required information>
+<input type=text name=street id=req_street class=text str filled maxlength=100>
+<label for=req_city>
+<span title=required information>
+<input type=text name=city id=req_city class=text ct filled maxlength=100>
+<label for=req_state>
+<span title=required information>
+<select name=state class=short filled id=req_state>
+<option value=>
+<option value=ak>
+<option value=al>
+<option value=ar>
+<option value=az>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=dc>
+<option value=de>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=ia>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=ma>
+<option value=md>
+<option value=me>
+<option value=mi>
+<option value=mn>
+<option value=mo>
+<option value=ms>
+<option value=mt>
+<option value=nc selected=selected>
+<option value=nd>
+<option value=ne>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=nv>
+<option value=ny>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa>
+<option value=pr>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=va>
+<option value=vt>
+<option value=wa>
+<option value=wi>
+<option value=wv>
+<option value=wy>
+<label for=req_zip>
+<span title=required information>
+<input value=27607 class=zip z5 filled id=req_zip maxlength=5 name=zipcode type=text>
+<label for=zip4>
+<input value=3815 class=zip z4 filled id=zip4 maxlength=4 name=zipfour type=text>
 <small>
-<label for="req_email">
-<span title="required information">
-<input type="text" name="emailaddress" id="req_email" maxlength="100" class="text eml filled">
-<label for="phone">
-<input id="phone" type="text" name="phone" class="text phn phonemask" maxlength="20">
-<label for="phone2">
-<input id="phone2" type="text" name="phone2" class="text phn phonemask" maxlength="20">
+<label for=req_email>
+<span title=required information>
+<input type=text name=emailaddress id=req_email maxlength=100 class=text eml filled>
+<label for=phone>
+<input id=phone type=text name=phone class=text phn phonemask maxlength=20>
+<label for=phone2>
+<input id=phone2 type=text name=phone2 class=text phn phonemask maxlength=20>
 <fieldset>
 <legend>
-<label for="req_message">
-<span title="required information">
-<textarea name="message" id="req_message" class="message">
+<label for=req_message>
+<span title=required information>
+<textarea name=message id=req_message class=message>
 <label>
-<select name="response" id="response" class="filled">
-<option selected="selected" value="I would like Congressman Price to respond to my concerns.">
-<option value="I simply want Congressman Price to know my opinion. I do not need a response.">
+<select name=response id=response class=filled>
+<option selected=selected value=i would like congressman price to respond to my concerns.>
+<option value=i simply want congressman price to know my opinion. i do not need a response.>
 <fieldset>
 <legend>
-<p style="font-weight:bold">
-<input type="checkbox" name="newsletter" id="newsletter" value="subscribe" checked="checked" class="filled">
+<p style=font-weight:bold>
+<input type=checkbox name=newsletter id=newsletter value=subscribe checked=checked class=filled>
 <p>
-<input type="button" size="20" value="Send Email" id="submitButton" class="form_submit_button filled">
+<input type=button size=20 value=send email id=submitbutton class=form_submit_button filled>

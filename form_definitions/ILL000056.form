@@ -1,2 +1,66 @@
-<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://www.senatorjohnsullivan.com/" method="get">
-<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Search..." >
+<form method=post  id=userform enctype=multipart/form-data action=http://www.senatorjohnsullivan.com/index.php/contact-us>
+<table border=0>
+<tr class=rsform-block rsform-block-prefix>
+<input type=text value= size=10  name=form[prefix] id=prefix  class=rsform-input-box>
+<span id=component23 class=formnoerror>
+<tr class=rsform-block rsform-block-firstname>
+<input type=text value= size=40 maxlength=60 name=form[firstname] id=firstname  class=rsform-input-box>
+<span id=component28 class=formnoerror>
+<tr class=rsform-block rsform-block-lastname>
+<input type=text value= size=40 maxlength=60 name=form[lastname] id=lastname  class=rsform-input-box>
+<span id=component29 class=formnoerror>
+<tr class=rsform-block rsform-block-address>
+<input type=text value= size=50  name=form[address] id=address  class=rsform-input-box>
+<span id=component30 class=formnoerror>
+<tr class=rsform-block rsform-block-city>
+<input type=text value= size=60  name=form[city] id=city  class=rsform-input-box>
+<span id=component31 class=formnoerror>
+<tr class=rsform-block rsform-block-state>
+<input type=text value=il size=2  name=form[state] id=state  class=rsform-input-box>
+<span id=component32 class=formnoerror>
+<tr class=rsform-block rsform-block-zipcode>
+<input type=text value= size=11  name=form[zipcode] id=zipcode  class=rsform-input-box>
+<span id=component33 class=formnoerror>
+<tr class=rsform-block rsform-block-phone>
+<input type=text value= size=20  name=form[phone] id=phone  class=rsform-input-box>
+<span id=component34 class=formnoerror>
+<tr class=rsform-block rsform-block-email>
+<input type=text value= size=20  name=form[email] id=email  class=rsform-input-box>
+<span id=component24 class=formnoerror>
+<tr class=rsform-block rsform-block-issue>
+<select  name=form[issue][]  id=issue  class=rsform-select-box >
+<option  value=--choose a topic-->
+<option  value=2nd amendment issues>
+<option  value=agriculture>
+<option  value=budget>
+<option  value=consumer issues>
+<option  value=economic development>
+<option  value=education>
+<option  value=employment>
+<option  value=energy>
+<option  value=environment>
+<option  value=federal issues>
+<option  value=healthcare>
+<option  value=housing>
+<option  value=human rights>
+<option  value=licensing>
+<option  value=local government>
+<option  value=natural resources>
+<option  value=other>
+<option  value=pensions>
+<option  value=public safety>
+<option  value=public utilities>
+<option  value=seniors>
+<option  value=taxes>
+<option  value=transportation>
+<option  value=veterans>
+<span id=component35 class=formnoerror>
+<tr class=rsform-block rsform-block-essay1>
+<textarea cols=50 rows=5 name=form[essay1] id=essay1  class=rsform-text-box>
+<span id=component26 class=formnoerror>
+<tr class=rsform-block rsform-block-note>
+<tr class=rsform-block rsform-block-sullivan>
+<input type=text name=form[sullivan] value= id=captchatxt59 style=text-align:center;width:75px; class=rsform-captcha-box >
+<span id=component59 class=formnoerror>
+<tr class=rsform-block rsform-block-send>
+<input type=submit value=send name=form[send] id=send  class=rsform-submit-button >

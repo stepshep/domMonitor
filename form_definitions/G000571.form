@@ -1,121 +1,122 @@
+<form method=post action=/htbin/formproc/gabbard/webforms/email-me.txt&form=/gabbard/webforms/thank-you.shtml>
 <table>
 <tbody>
-<td colspan="2">
+<td colspan=2>
 <p>
-<font color="red">
-<td width="191">
-<font color="red">
-<td width="314">
-<input name="required-prefix" id="required-prefix" size="30" maxlength="60" >
-<font color="red">
-<input name="required-first" id="required-first" size="30" maxlength="60" >
-<span class="form-11">
-<input id="middle" maxlength="100" name="middle" placeholder="" >
-<font color="red">
-<input name="required-last" id="required-last" size="30" maxlength="60" >
-<input name="suffix" id="suffix" size="30" maxlength="100" >
-<font color="red">
-<input name="required-address" id="required-address" size="30" maxlength="100" >
-<font color="red">
-<input name="required-city" id="required-city" size="30" maxlength="40" >
-<font color="red">
-<input name="required-state" id="required-state" size="30" maxlength="40" value="Hawaii" >
-<font color="red">
-<input name="required-zip5" id="required-zip5" size="5" maxlength="5" >
-<input name="zip4" id="zip4" size="4" maxlength="4" >
-<font color="red">
-<input name="required-phone" id="required-phone" size="30" maxlength="40" >
-<font color="red">
-<input name="required-valid-email" id="required-valid-email" size="30" maxlength="100" >
-<font color="red">
-<select class="validate[required] is-required" id="required-issue" name="required-issue" size="1">
-<option selected="selected" value="">
-<option value="AGR">
-<option value="AN">
-<option value="ART">
-<option value="BANK">
-<option value="BUD">
-<option value="CFR">
-<option value="CONG">
-<option value="TOUR">
-<option value="DEF">
-<option value="ECON">
-<option value="EDU">
-<option value="ENE">
-<option value="ENV">
-<option value="FED">
-<option value="FR">
-<option value="GOV">
-<option value="GUN">
-<option value="HEA">
-<option value="HOM">
-<option value="HUD">
-<option value="IMM">
-<option value="INT">
-<option value="JUD">
-<option value="LAB">
-<option value="LGBT">
-<option value="NRN">
-<option value="POST">
-<option value="SCI">
-<option value="SOC">
-<option value="SENIORS">
-<option value="SSEC">
-<option value="SOC.SERVICES">
-<option value="TAX">
-<option value="TEL">
-<option value="TRA">
-<option value="TRADE">
-<option value="VET">
-<option value="WOMEN">
-<option value="WEL">
-<option value="OTHER">
-<option value="" selected="">
-<option value="AG">
-<option value="ANIMAL">
-<option value="ARTS">
-<option value="BANK">
-<option value="CHILDREN">
-<option value="CIVIL">
-<option value="DEFENSE">
-<option value="ED">
-<option value="ENERGY">
-<option value="ENVIRO">
-<option value="FEDGOV">
-<option value="FOREIGN">
-<option value="HEALTH">
-<option value="HOUSING">
-<option value="IMMIG">
-<option value="JUD">
-<option value="LABOR">
-<option value="POLITICS">
-<option value="RELIG">
-<option value="SCIENCE">
-<option value="SENIOR.INT">
-<option value="SMBUS">
-<option value="TAX">
-<option value="TELECOM">
-<option value="TRADE">
-<option value="TRANS">
-<option value="Travel and Tourism">
-<option value="VETS">
-<option value="VOLUNTEER">
-<option value="WOMEN">
-<option value="MISC">
-<font color="red">
-<input class="validate[required] is-required" id="required-subject" maxlength="100" name="required-subject" placeholder="" >
-<td valign="top">
-<font color="red">
-<textarea name="required-message" id="required-message" rows="8" cols="30">
-<td colspan="2">
+<font color=red>
+<td width=191>
+<font color=red>
+<td width=314>
+<input name=required-prefix id=required-prefix size=30 maxlength=60 >
+<font color=red>
+<input name=required-first id=required-first size=30 maxlength=60 >
+<span class=form-11>
+<input id=middle maxlength=100 name=middle placeholder= >
+<font color=red>
+<input name=required-last id=required-last size=30 maxlength=60 >
+<input name=suffix id=suffix size=30 maxlength=100 >
+<font color=red>
+<input name=required-address id=required-address size=30 maxlength=100 >
+<font color=red>
+<input name=required-city id=required-city size=30 maxlength=40 >
+<font color=red>
+<input name=required-state id=required-state size=30 maxlength=40 value=hawaii >
+<font color=red>
+<input name=required-zip5 id=required-zip5 size=5 maxlength=5 >
+<input name=zip4 id=zip4 size=4 maxlength=4 >
+<font color=red>
+<input name=required-phone id=required-phone size=30 maxlength=40 >
+<font color=red>
+<input name=required-valid-email id=required-valid-email size=30 maxlength=100 >
+<font color=red>
+<select class=validate[required] is-required id=required-issue name=required-issue size=1>
+<option selected=selected value=>
+<option value=agr>
+<option value=an>
+<option value=art>
+<option value=bank>
+<option value=bud>
+<option value=cfr>
+<option value=cong>
+<option value=tour>
+<option value=def>
+<option value=econ>
+<option value=edu>
+<option value=ene>
+<option value=env>
+<option value=fed>
+<option value=fr>
+<option value=gov>
+<option value=gun>
+<option value=hea>
+<option value=hom>
+<option value=hud>
+<option value=imm>
+<option value=int>
+<option value=jud>
+<option value=lab>
+<option value=lgbt>
+<option value=nrn>
+<option value=post>
+<option value=sci>
+<option value=soc>
+<option value=seniors>
+<option value=ssec>
+<option value=soc.services>
+<option value=tax>
+<option value=tel>
+<option value=tra>
+<option value=trade>
+<option value=vet>
+<option value=women>
+<option value=wel>
+<option value=other>
+<option value= selected=>
+<option value=ag>
+<option value=animal>
+<option value=arts>
+<option value=bank>
+<option value=children>
+<option value=civil>
+<option value=defense>
+<option value=ed>
+<option value=energy>
+<option value=enviro>
+<option value=fedgov>
+<option value=foreign>
+<option value=health>
+<option value=housing>
+<option value=immig>
+<option value=jud>
+<option value=labor>
+<option value=politics>
+<option value=relig>
+<option value=science>
+<option value=senior.int>
+<option value=smbus>
+<option value=tax>
+<option value=telecom>
+<option value=trade>
+<option value=trans>
+<option value=travel and tourism>
+<option value=vets>
+<option value=volunteer>
+<option value=women>
+<option value=misc>
+<font color=red>
+<input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject placeholder= >
+<td valign=top>
+<font color=red>
+<textarea name=required-message id=required-message rows=8 cols=30>
+<td colspan=2>
 <p>
-<input id="subscribe" name="subscribe" type="checkbox" value="Email.Optin" >
+<input id=subscribe name=subscribe type=checkbox value=email.optin >
 <p>
-<font color="red">
-<select id="required-response" name="required-response" size="1">
-<option selected="selected" value="">
-<option value="Y">
-<option value="N">
-<td colspan="2">
-<input type="submit" value="Submit" >
-<input type="reset" value="Clear" >
+<font color=red>
+<select id=required-response name=required-response size=1>
+<option selected=selected value=>
+<option value=y>
+<option value=n>
+<td colspan=2>
+<input type=submit value=submit >
+<input type=reset value=clear >

@@ -1,96 +1,96 @@
-<form id="contactForm" class="validate wsbform" action="http://jolly.house.gov/htbin/formproc.pl?/jolly/email-me.txt&amp;display=form_thank_you.html" method="post" name="contactForm">
+<form id=contactform class=validate wsbform action=http://jolly.house.gov/htbin/formproc.pl?/jolly/email-me.txt&amp;display=form_thank_you.html method=post name=contactform>
 <fieldset>
 <legend>
-<label for="prefix">
-<input id="prefix" maxlength="100" name="prefix" type="text" placeholder="Prefix">
-<label for="required-first">
-<span class="required-field" title="required information">
-<input id="required-first" class="validate[required] is-required" maxlength="100" name="required-first" type="text" placeholder="First Name">
-<label for="middle">
-<input id="middle" maxlength="100" name="middle" type="text" placeholder="Middle Initial">
-<label for="required-last">
-<span class="required-field" title="required information">
-<input id="required-last" class="validate[required] is-required" maxlength="100" name="required-last" type="text" placeholder="Last Name">
-<label for="suffix">
-<input id="suffix" maxlength="100" name="suffix" type="text" placeholder="Suffix">
-<label for="required-address">
-<span class="required-field" title="required information">
-<input id="required-address" class="validate[required] is-required" maxlength="100" name="required-address" type="text" placeholder="Street Address">
-<label for="address2">
-<input id="address2" maxlength="100" name="address2" type="text" placeholder="Street Address Continued">
-<label for="required-city">
-<span class="required-field" title="required information">
-<input id="required-city" class="validate[required] is-required" maxlength="100" name="required-city" type="text" placeholder="City">
-<label for="required-state">
-<label for="required-zip5">
-<label for="zip4">
-<label for="required-valid-email">
-<span class="required-field" title="required information">
-<input id="required-valid-email" class="validate[required,custom[email]] is-required" maxlength="100" name="required-valid-email" type="text" placeholder="Email">
+<label for=prefix>
+<input id=prefix maxlength=100 name=prefix type=text placeholder=prefix>
+<label for=required-first>
+<span class=required-field title=required information>
+<input id=required-first class=validate[required] is-required maxlength=100 name=required-first type=text placeholder=first name>
+<label for=middle>
+<input id=middle maxlength=100 name=middle type=text placeholder=middle initial>
+<label for=required-last>
+<span class=required-field title=required information>
+<input id=required-last class=validate[required] is-required maxlength=100 name=required-last type=text placeholder=last name>
+<label for=suffix>
+<input id=suffix maxlength=100 name=suffix type=text placeholder=suffix>
+<label for=required-address>
+<span class=required-field title=required information>
+<input id=required-address class=validate[required] is-required maxlength=100 name=required-address type=text placeholder=street address>
+<label for=address2>
+<input id=address2 maxlength=100 name=address2 type=text placeholder=street address continued>
+<label for=required-city>
+<span class=required-field title=required information>
+<input id=required-city class=validate[required] is-required maxlength=100 name=required-city type=text placeholder=city>
+<label for=required-state>
+<label for=required-zip5>
+<label for=zip4>
+<label for=required-valid-email>
+<span class=required-field title=required information>
+<input id=required-valid-email class=validate[required,custom[email]] is-required maxlength=100 name=required-valid-email type=text placeholder=email>
 <fieldset>
 <legend>
-<label for="required-phone">
-<span class="required-field" title="required information">
-<input id="required-phone" class="validate[required,custom[phone]] is-required" maxlength="80" name="required-phone" type="text" placeholder="Telephone Number">
-<input id="speech_0" checked="checked" name="speech" type="radio" value="Voice">
-<label class="is-inline" for="speech_0">
-<input id="speech_1" name="speech" type="radio" value="VP">
-<label class="is-inline" for="speech_1">
-<input id="speech_2" name="speech" type="radio" value="TTD">
-<label class="is-inline" for="speech_2">
+<label for=required-phone>
+<span class=required-field title=required information>
+<input id=required-phone class=validate[required,custom[phone]] is-required maxlength=80 name=required-phone type=text placeholder=telephone number>
+<input id=speech_0 checked=checked name=speech type=radio value=voice>
+<label class=is-inline for=speech_0>
+<input id=speech_1 name=speech type=radio value=vp>
+<label class=is-inline for=speech_1>
+<input id=speech_2 name=speech type=radio value=ttd>
+<label class=is-inline for=speech_2>
 <p>
 <fieldset>
 <legend>
-<label for="required-issue">
-<span class="required-field" title="required information">
-<select id="required-issue" class="validate[required] is-required" name="required-issue" size="1">
-<option selected="selected" value="">
-<option value="AGR">
-<option value="AN">
-<option value="ART">
-<option value="BANK">
-<option value="BUD">
-<option value="CFR">
-<option value="CONG">
-<option value="DEF">
-<option value="ECON">
-<option value="EDU">
-<option value="ENE">
-<option value="ENV">
-<option value="FED">
-<option value="FR">
-<option value="GOV">
-<option value="GUN">
-<option value="HEA">
-<option value="HOM">
-<option value="HUD">
-<option value="IMM">
-<option value="INT">
-<option value="JUD">
-<option value="LAB">
-<option value="LGBT">
-<option value="NRN">
-<option value="POST">
-<option value="SCI">
-<option value="SOC">
-<option value="SENIORS">
-<option value="SSEC">
-<option value="SOC.SERVICES">
-<option value="TAX">
-<option value="TEL">
-<option value="TRA">
-<option value="TRADE">
-<option value="VET">
-<option value="WOMEN">
-<option value="WEL">
-<option value="OTHER">
-<label for="required-subject">
-<span class="required-field" title="required information">
-<input id="required-subject" class="validate[required] is-required" maxlength="100" name="required-subject" type="text" placeholder="Message Subject">
-<label for="required-message">
-<span class="required-field" title="required information">
-<textarea id="required-message" class="validate[required] is-required" cols="68" name="required-message" rows="5" placeholder="Text of Message">
-<input id="subscribe" name="subscribe" type="checkbox" value="Email.Optin">
-<label class="is-inline" for="subscribe">
-<input id="submit" class="submit" name="submit" type="submit" value="Send Email">
+<label for=required-issue>
+<span class=required-field title=required information>
+<select id=required-issue class=validate[required] is-required name=required-issue size=1>
+<option selected=selected value=>
+<option value=agr>
+<option value=an>
+<option value=art>
+<option value=bank>
+<option value=bud>
+<option value=cfr>
+<option value=cong>
+<option value=def>
+<option value=econ>
+<option value=edu>
+<option value=ene>
+<option value=env>
+<option value=fed>
+<option value=fr>
+<option value=gov>
+<option value=gun>
+<option value=hea>
+<option value=hom>
+<option value=hud>
+<option value=imm>
+<option value=int>
+<option value=jud>
+<option value=lab>
+<option value=lgbt>
+<option value=nrn>
+<option value=post>
+<option value=sci>
+<option value=soc>
+<option value=seniors>
+<option value=ssec>
+<option value=soc.services>
+<option value=tax>
+<option value=tel>
+<option value=tra>
+<option value=trade>
+<option value=vet>
+<option value=women>
+<option value=wel>
+<option value=other>
+<label for=required-subject>
+<span class=required-field title=required information>
+<input id=required-subject class=validate[required] is-required maxlength=100 name=required-subject type=text placeholder=message subject>
+<label for=required-message>
+<span class=required-field title=required information>
+<textarea id=required-message class=validate[required] is-required cols=68 name=required-message rows=5 placeholder=text of message>
+<input id=subscribe name=subscribe type=checkbox value=email.optin>
+<label class=is-inline for=subscribe>
+<input id=submit class=submit name=submit type=submit value=send email>
 <p>

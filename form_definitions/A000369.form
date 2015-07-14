@@ -1,113 +1,113 @@
-<form action="/contact-us/" id="custom_form6" name="custom_form" class="custom_form" method="post">
+<form action=/contact-us/ id=custom_form6 name=custom_form class=custom_form method=post>
 <p>
-<p class="req">
+<p class=req>
 <h2>
 <p>
 <label>
-<select name="prefix" size="1" id="req_prefix">
-<option selected="" value="">
-<option value="Mr. ">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Hon.">
-<option value="Rev.">
-<option value="Rabbi">
+<select name=prefix size=1 id=req_prefix>
+<option selected= value=>
+<option value=mr. >
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=dr.>
+<option value=hon.>
+<option value=rev.>
+<option value=rabbi>
 <p>
 <label>
-<input type="text" name="firstname" id="req_firstname" maxlength="90" class="text">
+<input type=text name=firstname id=req_firstname maxlength=90 class=text>
 <p>
 <label>
-<input type="text" name="middle" class="middle" maxlength="2">
+<input type=text name=middle class=middle maxlength=2>
 <p>
 <label>
-<input type="text" name="lastname" id="req_lastname" class="text" maxlength="90">
+<input type=text name=lastname id=req_lastname class=text maxlength=90>
 <p>
 <label>
-<input type="text" name="suffix" class="middle" maxlength="5">
+<input type=text name=suffix class=middle maxlength=5>
 <p>
 <label>
-<input type="text" name="street" id="req_street" class="text" maxlength="190">
+<input type=text name=street id=req_street class=text maxlength=190>
 <p>
 <label>
-<input type="text" name="street2" class="text" maxlength="190">
+<input type=text name=street2 class=text maxlength=190>
 <p>
 <label>
-<input type="text" name="city" id="req_city" class="text" maxlength="100">
+<input type=text name=city id=req_city class=text maxlength=100>
 <p>
 <label>
-<select name="state" id="req_state">
-<option selected="" value="NV">
+<select name=state id=req_state>
+<option selected= value=nv>
 <p>
 <label>
-<input value="89501" class="zip" id="req_zip" maxlength="5" name="zipcode" type="text">
+<input value=89501 class=zip id=req_zip maxlength=5 name=zipcode type=text>
 <p>
 <label>
-<input type="text" name="emailaddress" id="req_email" maxlength="150" class="text">
+<input type=text name=emailaddress id=req_email maxlength=150 class=text>
 <p>
 <label>
-<input type="text" name="phone" id="req_phone" class="text phonemask" maxlength="14">
+<input type=text name=phone id=req_phone class=text phonemask maxlength=14>
 <p>
 <label>
-<select size="1" name="subject" id="req_subject" style="width:175px;">
-<option selected="" value="">
-<option value="ABORTION">
-<option value="AGRI">
-<option value="ANML">
-<option value="ARTS">
-<option value="BANK">
-<option value="BUD">
-<option value="BUS">
-<option value="DEF">
-<option value="EDU">
-<option value="ENR">
-<option value="ENV">
-<option value="FAFF">
-<option value="FEMA">
-<option value="GAMING">
-<option value="GOV_REF">
-<option value="GUNS">
-<option value="HLTH">
-<option value="CASE">
-<option value="HOUS">
-<option value="HSEC">
-<option value="IMM">
-<option value="JUD">
-<option value="LBR">
-<option value="MEDI">
-<option value="MINING">
-<option value="NASA">
-<option value="OTHER">
-<option value="POST">
-<option value="PUBLIC_LANDS">
-<option value="SOC">
-<option value="TAX">
-<option value="TELE">
-<option value="TOUR">
-<option value="TRANS">
-<option value="TRD">
-<option value="UNEMP">
-<option value="VALUES">
-<option value="VET">
+<select size=1 name=subject id=req_subject style=width:175px;>
+<option selected= value=>
+<option value=abortion>
+<option value=agri>
+<option value=anml>
+<option value=arts>
+<option value=bank>
+<option value=bud>
+<option value=bus>
+<option value=def>
+<option value=edu>
+<option value=enr>
+<option value=env>
+<option value=faff>
+<option value=fema>
+<option value=gaming>
+<option value=gov_ref>
+<option value=guns>
+<option value=hlth>
+<option value=case>
+<option value=hous>
+<option value=hsec>
+<option value=imm>
+<option value=jud>
+<option value=lbr>
+<option value=medi>
+<option value=mining>
+<option value=nasa>
+<option value=other>
+<option value=post>
+<option value=public_lands>
+<option value=soc>
+<option value=tax>
+<option value=tele>
+<option value=tour>
+<option value=trans>
+<option value=trd>
+<option value=unemp>
+<option value=values>
+<option value=vet>
 <p>
 <label>
-<input type="text" name="topic" id="req_topic" class="text" maxlength="90">
+<input type=text name=topic id=req_topic class=text maxlength=90>
 <p>
 <label>
-<textarea name="message" id="req_message" class="message" rows="5" cols="68" lang="en">
+<textarea name=message id=req_message class=message rows=5 cols=68 lang=en>
 <p>
 <label>
-<select size="1" name="response" id="req_response" style="width:175px;">
-<option selected="" value="">
-<option value="N">
-<option value="Y">
+<select size=1 name=response id=req_response style=width:175px;>
+<option selected= value=>
+<option value=n>
+<option value=y>
 <p>
 <label>
-<span class="align">
-<input type="radio" value="e_subscribe" name="enewssign">
-<input type="radio" value="" name="enewssign" checked="checked">
-<input type="button" size="20" value="Submit" id="submitButton" class="form_submit_button">
+<span class=align>
+<input type=radio value=e_subscribe name=enewssign>
+<input type=radio value= name=enewssign checked=checked>
+<input type=button size=20 value=submit id=submitbutton class=form_submit_button>
 <p>
 <b>
 <p>

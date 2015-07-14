@@ -1,198 +1,198 @@
-<form method="post" class="uniForm" action="">
-<fieldset class="blockLabels">
-<p class="legend">
-<label for="Prefix">
-<strong class="required">
-<select class="selectInput" name="Prefix" id="Prefix">
-<option value="">
-<option value="Mr."    >
-<option value="Mrs." >
-<option value="Ms." >
-<option value="Mr. and Mrs." >
-<option value="Dr." >
-<option value="Dr. and Mr." >
-<option value="Dr. and Mrs." >
-<option value="Reverend" >
-<option value="Sister" >
-<option value="Pastor" >
-<option value="Other" >
-<label for="PrefixOther">
-<input type="text" class="textInput" name="PrefixOther"  id="PrefixOther" >
-<p class="formHint">
-<label for="FirstName">
-<strong class="required">
-<input type="text" class="textInput" name="FirstName"  id="FirstName" >
-<label for="LastName">
-<strong class="required">
-<input type="text" class="textInput" name="LastName"  id="LastName" >
-<label for="Suffix">
-<input type="text" class="textInput" name="Suffix"  id="Suffix" >
-<label for="Rank">
-<input type="text" class="textInput" name="Rank"  id="Rank" >
-<label for="Branch">
-<input type="text" class="textInput" name="Branch"  id="Branch" >
-<label for="Address1">
-<strong class="required">
-<input type="text" class="textInput" name="Address1"  id="Address1" >
-<label for="Address2">
-<input type="text" class="textInput" name="Address2"  id="Address2" >
-<label for="City">
-<strong class="required">
-<input type="text" class="textInput" name="City"  id="City" >
-<label for="State">
-<strong class="required">
-<select class="selectInput" name="State"  id="State">
-<option value="">
-<option value="----Military----">
-<option value="AA" >
-<option value="AE" >
-<option value="AP" >
-<option value="----States----">
-<option value="AL" >
-<option value="AK" >
-<option value="AZ" >
-<option value="AR" >
-<option value="CA" >
-<option value="CO" >
-<option value="CT" >
-<option value="DE" >
-<option value="DC" >
-<option value="FL" >
-<option value="GA" >
-<option value="HI" >
-<option value="ID" >
-<option value="IL" >
-<option value="IN" >
-<option value="IA" >
-<option value="KS" >
-<option value="KY" >
-<option value="LA" >
-<option value="ME" >
-<option value="MD" >
-<option value="MA" >
-<option value="MI" >
-<option value="MN" >
-<option value="MS" >
-<option value="MO" >
-<option value="MT" >
-<option value="NE" >
-<option value="NV" >
-<option value="NH" >
-<option value="NJ" >
-<option value="NM" >
-<option value="NY" >
-<option value="NC" >
-<option value="ND" >
-<option value="OH" >
-<option value="OK" >
-<option value="OR" >
-<option value="PA" >
-<option value="RI" >
-<option value="SC" >
-<option value="SD" >
-<option value="TN" >
-<option value="TX" >
-<option value="UT" >
-<option value="VT" >
-<option value="VA" >
-<option value="WA" >
-<option value="WV" >
-<option value="WI" >
-<option value="WY" >
-<label for="ZipCode">
-<strong class="required">
-<input type="text" class="textInput" name="ZipCode"  id="ZipCode" >
-<label for="PhoneNumber">
-<input type="text" class="textInput" name="PhoneNumber"  id="PhoneNumber" >
-<label for="EmailAddress">
-<strong class="required">
-<input type="text" class="textInput" name="EmailAddress"  id="EmailAddress" >
-<fieldset class="blockLabels">
-<p class="legend">
-<label for="Topic">
-<strong class="required">
-<select class="selectInput" name="Topic" id="Topic" >
-<option value="">
-<option value="Abortion" >
-<option value="Agriculture" >
-<option value="Arts and Humanities" >
-<option value="Banking" >
-<option value="Budget" >
-<option value="Communications" >
-<option value="Crime/Law Enforcement" >
-<option value="Defense" >
-<option value="Education" >
-<option value="Election Reform" >
-<option value="Energy" >
-<option value="Environment" >
-<option value="Finance" >
-<option value="Firearms" >
-<option value="Foreign Affairs" >
-<option value="Government Operations/Affairs" >
-<option value="Healthcare" >
-<option value="Help With Federal Agencies" >
-<option value="Homeland Security" >
-<option value="Housing" >
-<option value="Immigration" >
-<option value="Interior" >
-<option value="Judiciary" >
-<option value="Labor" >
-<option value="Medicare" >
-<option value="Picture Request" >
-<option value="Religion" >
-<option value="Service Academies" >
-<option value="Small Business" >
-<option value="Social Security" >
-<option value="Taxes/Economy" >
-<option value="Texas Thursday Coffee" >
-<option value="Tour Request" >
-<option value="Trade" >
-<option value="Transportation" >
-<option value="Veterans" >
-<option value="Welfare" >
-<label for="Agency">
-<strong class="required">
-<select class="selectInput" name="Agency" id="Agency" disabled="disabled" >
-<option value="">
-<option value="Agriculture" >
-<option value="Army Corps of Engineers" >
-<option value="Banking" >
-<option value="Bureau of Alcohol, Tobacco and Firearms" >
-<option value="Customs & Border Protection" >
-<option value="Department of Defense" >
-<option value="Department of State" >
-<option value="Drug Enforcement Administration" >
-<option value="Education" >
-<option value="Federal Communications Commission" >
-<option value="Federal Emergency Management Agency" >
-<option value="Federal Trade Commission" >
-<option value="Food & Drug Administration" >
-<option value="Housing and Urban Development" >
-<option value="Internal Revenue Service" >
-<option value="Medicaid" >
-<option value="Medicare" >
-<option value="Mortgages" >
-<option value="Office of Personnel Management" >
-<option value="Other" >
-<option value="Small Business Administration" >
-<option value="Social Security" >
-<option value="Transportation" >
-<option value="Transportation Security Administration" >
-<option value="Treasury" >
-<option value="U.S. Citizenship and Immigration Services" >
-<option value="U.S. Post Office" >
-<option value="Veterans Affairs" >
-<p style="clear:both;">
-<label for="PrivacyReleaseMethod">
-<strong class="required">
-<label for="PrivacyReleaseMethod_Mail" style="width: auto;">
-<input type="radio" name="PrivacyReleaseMethod" id="PrivacyReleaseMethod_Mail" disabled="disabled"  value="Mail" >
-<label for="PrivacyReleaseMethod_Fax" style="width: auto;">
-<input type="radio" name="PrivacyReleaseMethod" id="PrivacyReleaseMethod_Fax" disabled="disabled"  value="Fax" >
-<label for="PrivacyReleaseMethod_Email" style="width: auto;">
-<input type="radio" name="PrivacyReleaseMethod" id="PrivacyReleaseMethod_Email" disabled="disabled"  value="Email" >
-<label for="Message">
-<span class="casework">
-<strong class="required">
-<textarea name="Message" id="Message" rows="10" cols="80" >
-<input type="submit" class="primaryAction" value="Submit" >
+<form method=post class=uniform action=>
+<fieldset class=blocklabels>
+<p class=legend>
+<label for=prefix>
+<strong class=required>
+<select class=selectinput name=prefix id=prefix>
+<option value=>
+<option value=mr.    >
+<option value=mrs. >
+<option value=ms. >
+<option value=mr. and mrs. >
+<option value=dr. >
+<option value=dr. and mr. >
+<option value=dr. and mrs. >
+<option value=reverend >
+<option value=sister >
+<option value=pastor >
+<option value=other >
+<label for=prefixother>
+<input type=text class=textinput name=prefixother  id=prefixother >
+<p class=formhint>
+<label for=firstname>
+<strong class=required>
+<input type=text class=textinput name=firstname  id=firstname >
+<label for=lastname>
+<strong class=required>
+<input type=text class=textinput name=lastname  id=lastname >
+<label for=suffix>
+<input type=text class=textinput name=suffix  id=suffix >
+<label for=rank>
+<input type=text class=textinput name=rank  id=rank >
+<label for=branch>
+<input type=text class=textinput name=branch  id=branch >
+<label for=address1>
+<strong class=required>
+<input type=text class=textinput name=address1  id=address1 >
+<label for=address2>
+<input type=text class=textinput name=address2  id=address2 >
+<label for=city>
+<strong class=required>
+<input type=text class=textinput name=city  id=city >
+<label for=state>
+<strong class=required>
+<select class=selectinput name=state  id=state>
+<option value=>
+<option value=----military---->
+<option value=aa >
+<option value=ae >
+<option value=ap >
+<option value=----states---->
+<option value=al >
+<option value=ak >
+<option value=az >
+<option value=ar >
+<option value=ca >
+<option value=co >
+<option value=ct >
+<option value=de >
+<option value=dc >
+<option value=fl >
+<option value=ga >
+<option value=hi >
+<option value=id >
+<option value=il >
+<option value=in >
+<option value=ia >
+<option value=ks >
+<option value=ky >
+<option value=la >
+<option value=me >
+<option value=md >
+<option value=ma >
+<option value=mi >
+<option value=mn >
+<option value=ms >
+<option value=mo >
+<option value=mt >
+<option value=ne >
+<option value=nv >
+<option value=nh >
+<option value=nj >
+<option value=nm >
+<option value=ny >
+<option value=nc >
+<option value=nd >
+<option value=oh >
+<option value=ok >
+<option value=or >
+<option value=pa >
+<option value=ri >
+<option value=sc >
+<option value=sd >
+<option value=tn >
+<option value=tx >
+<option value=ut >
+<option value=vt >
+<option value=va >
+<option value=wa >
+<option value=wv >
+<option value=wi >
+<option value=wy >
+<label for=zipcode>
+<strong class=required>
+<input type=text class=textinput name=zipcode  id=zipcode >
+<label for=phonenumber>
+<input type=text class=textinput name=phonenumber  id=phonenumber >
+<label for=emailaddress>
+<strong class=required>
+<input type=text class=textinput name=emailaddress  id=emailaddress >
+<fieldset class=blocklabels>
+<p class=legend>
+<label for=topic>
+<strong class=required>
+<select class=selectinput name=topic id=topic >
+<option value=>
+<option value=abortion >
+<option value=agriculture >
+<option value=arts and humanities >
+<option value=banking >
+<option value=budget >
+<option value=communications >
+<option value=crime/law enforcement >
+<option value=defense >
+<option value=education >
+<option value=election reform >
+<option value=energy >
+<option value=environment >
+<option value=finance >
+<option value=firearms >
+<option value=foreign affairs >
+<option value=government operations/affairs >
+<option value=healthcare >
+<option value=help with federal agencies >
+<option value=homeland security >
+<option value=housing >
+<option value=immigration >
+<option value=interior >
+<option value=judiciary >
+<option value=labor >
+<option value=medicare >
+<option value=picture request >
+<option value=religion >
+<option value=service academies >
+<option value=small business >
+<option value=social security >
+<option value=taxes/economy >
+<option value=texas thursday coffee >
+<option value=tour request >
+<option value=trade >
+<option value=transportation >
+<option value=veterans >
+<option value=welfare >
+<label for=agency>
+<strong class=required>
+<select class=selectinput name=agency id=agency disabled=disabled >
+<option value=>
+<option value=agriculture >
+<option value=army corps of engineers >
+<option value=banking >
+<option value=bureau of alcohol, tobacco and firearms >
+<option value=customs & border protection >
+<option value=department of defense >
+<option value=department of state >
+<option value=drug enforcement administration >
+<option value=education >
+<option value=federal communications commission >
+<option value=federal emergency management agency >
+<option value=federal trade commission >
+<option value=food & drug administration >
+<option value=housing and urban development >
+<option value=internal revenue service >
+<option value=medicaid >
+<option value=medicare >
+<option value=mortgages >
+<option value=office of personnel management >
+<option value=other >
+<option value=small business administration >
+<option value=social security >
+<option value=transportation >
+<option value=transportation security administration >
+<option value=treasury >
+<option value=u.s. citizenship and immigration services >
+<option value=u.s. post office >
+<option value=veterans affairs >
+<p style=clear:both;>
+<label for=privacyreleasemethod>
+<strong class=required>
+<label for=privacyreleasemethod_mail style=width: auto;>
+<input type=radio name=privacyreleasemethod id=privacyreleasemethod_mail disabled=disabled  value=mail >
+<label for=privacyreleasemethod_fax style=width: auto;>
+<input type=radio name=privacyreleasemethod id=privacyreleasemethod_fax disabled=disabled  value=fax >
+<label for=privacyreleasemethod_email style=width: auto;>
+<input type=radio name=privacyreleasemethod id=privacyreleasemethod_email disabled=disabled  value=email >
+<label for=message>
+<span class=casework>
+<strong class=required>
+<textarea name=message id=message rows=10 cols=80 >
+<input type=submit class=primaryaction value=submit >

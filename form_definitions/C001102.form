@@ -1,80 +1,78 @@
-<td class="ContentCell">
-<span id="ctl00_ctl12_ctl01_Text" class="middlecopy">
-<form class="zipform" method="post" name="contact" action="/submit-contact-iq.aspx" id="contact">
-<table cellspacing="2" cellpadding="0" align="center">
+<form class=zipform method=post name=contact action=/submit-contact-iq.aspx id=contact>
+<table cellspacing=2 cellpadding=0 align=center>
 <tbody>
-<td align="right">
-<table cellspacing="0" cellpadding="0">
+<td align=right>
+<table cellspacing=0 cellpadding=0>
 <tbody>
-<td class="">
-<input maxlength="90" size="5" type="text" name="required-prefix" required="required" class="">
-<td class="">
-<input maxlength="90" size="12" type="text" name="required-first" required="required" class="">
-<input maxlength="90" size="2" type="text" name="middle">
-<td class="">
-<input maxlength="90" size="15" type="text" name="required-last" required="required" class="">
-<select name="suffix">
+<td class=>
+<input maxlength=90 size=5 type=text name=required-prefix required=required class=>
+<td class=>
+<input maxlength=90 size=12 type=text name=required-first required=required class=>
+<input maxlength=90 size=2 type=text name=middle>
+<td class=>
+<input maxlength=90 size=15 type=text name=required-last required=required class=>
+<select name=suffix>
 <option>
-<option value="Jr.">
-<option value="Sr.">
-<option value="III">
-<option value="IV">
-<option value="Ret.">
-<option value="MD">
-<option value="PhD">
-<option value="RN">
-<option value="JD">
-<option value="DVM">
-<td align="right">
-<td class="">
-<input maxlength="190" size="60" type="text" name="required-address" required="required" class="">
-<td align="right">
-<td class="  ">
-<input maxlength="45" type="text" name="required-city" required="required" class="">
-<select name="required-state" required="required">
-<option selected="true" value="FL">
-<input type="text" size="5" name="zip5" required="required" class="">
-<td align="right">
-<td class="">
-<input maxlength="100" size="60" type="email" name="required-email" required="required" class="">
-<td align="right">
-<td class="">
-<input maxlength="100" size="15" type="text" name="phone" required="required" class="">
-<td align="right">
-<select name="required-issue" size="1" id="subject">
+<option value=jr.>
+<option value=sr.>
+<option value=iii>
+<option value=iv>
+<option value=ret.>
+<option value=md>
+<option value=phd>
+<option value=rn>
+<option value=jd>
+<option value=dvm>
+<td align=right>
+<td class=>
+<input maxlength=190 size=60 type=text name=required-address required=required class=>
+<td align=right>
+<td class=  >
+<input maxlength=45 type=text name=required-city required=required class=>
+<select name=required-state required=required>
+<option selected=true value=fl>
+<input type=text size=5 name=zip5 required=required class=>
+<td align=right>
+<td class=>
+<input maxlength=100 size=60 type=email name=required-email required=required class=>
+<td align=right>
+<td class=>
+<input maxlength=100 size=15 type=text name=phone required=required class=>
+<td align=right>
+<select name=required-issue size=1 id=subject>
 <option>
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEF">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBIMM">
-<option value="WEBINT">
-<option value="WEBJUD">
-<option value="WEBLAB">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTAX">
-<option value="WEBTEL">
-<option value="WEBTRA">
-<option value="WEBTRADE">
-<option value="WEBVET">
-<option value="WEBWEL">
-<option value="WEBOTH">
-<td valign="top" align="right">
-<td class="">
-<textarea rows="15" cols="60" name="required-message" required="required" class="">
-<td valign="top" align="right">
-<input value="response" type="checkbox" name="response">
-<td valign="top" align="right">
-<input value="subscribe" type="checkbox" name="subscribe">
+<option value=webagr>
+<option value=webbud>
+<option value=webdef>
+<option value=webedu>
+<option value=webene>
+<option value=webenv>
+<option value=webgov>
+<option value=webhea>
+<option value=webhom>
+<option value=webimm>
+<option value=webint>
+<option value=webjud>
+<option value=weblab>
+<option value=websoc>
+<option value=webssec>
+<option value=webtax>
+<option value=webtel>
+<option value=webtra>
+<option value=webtrade>
+<option value=webvet>
+<option value=webwel>
+<option value=weboth>
+<td valign=top align=right>
+<td class=>
+<textarea rows=15 cols=60 name=required-message required=required class=>
+<td valign=top align=right>
+<input value=response type=checkbox name=response>
+<td valign=top align=right>
+<input value=subscribe type=checkbox name=subscribe>
 <i>
-<td colspan="2">
-<td colspan="2">
+<td colspan=2>
+<td colspan=2>
 <center>
-<input value="Send Email" type="submit">
-<input value="Reset" type="reset">
+<input value=send email type=submit>
+<input value=reset type=reset>

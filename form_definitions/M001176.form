@@ -1,151 +1,151 @@
-<form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
+<form id=contactform  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
 <fieldset>
-<label class="control-label" for="actions">
-<abbr title="Please select an option">
-<select id="actions" class="form-control" name="actions"  onChange="javascript:getHelp(this.value);">
-<option label="- - Select an option - -" value="select" selected="selected">
-<option label="Share your opinion or comments on bills or other issues" value="opinion">
-<option label="Media Inquiries" value="media_inquires">
-<option label="Request help with a federal agency" value="federal_agency">
-<option label="Request a flag to be flown over the Capitol" value="flag">
-<fieldset>
-<legend>
-<label class="control-label" for="salutation">
-<abbr title="required">
-<select id="salutation" class="form-control" name="salutation">
-<option label="--" value="--">
-<option label="Mr." value="Mr.">
-<option label="Mrs." value="Mrs.">
-<option label="Ms." value="Ms.">
-<option label="Dr." value="Dr.">
-<label for="fname">
-<abbr title="required">
-<input class="form-control" type="text" name="fname" id="fname" aria-required="true" placeholder="Required" required>
-<label for="lname">
-<abbr title="required">
-<input class="form-control" type="text" name="lname" id="lname" aria-required="true" placeholder="Required" required>
-<legend>
-<label class="" for="mailing_streetAddress1">
-<abbr title="Your street address is a required field">
-<input class="form-control" type="text" name="mailing_streetAddress1" id="mailing_streetAddress1" aria-required="true" placeholder="Required" required>
-<label class="" for="mailing_streetAddress2">
-<input class="form-control" type="text" name="mailing_streetAddress2" id="mailing_streetAddress2">
-<label for="mailing_city">
-<abbr title="Your city is a required field">
-<input class="form-control" type="text" name="mailing_city" id="mailing_city" aria-required="true" placeholder="Required" required>
-<label for="state">
-<select name="state" id="state" class="form-control">
-<option value="null">
-<option value="AK">
-<option value="AL">
-<option value="AR">
-<option value="AZ">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DC">
-<option value="DE">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="IA">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="MA">
-<option value="MD">
-<option value="ME">
-<option value="MI">
-<option value="MN">
-<option value="MO">
-<option value="MS">
-<option value="MT">
-<option value="NC">
-<option value="ND">
-<option value="NE">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NV">
-<option value="NY">
-<option value="OH">
-<option value="OK">
-<option value="OR" selected="selected">
-<option value="PA">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VA">
-<option value="VT">
-<option value="WA">
-<option value="WI">
-<option value="WV">
-<option value="WY">
-<label for="mailing_zipCode">
-<abbr title="Your zip code is a required field">
-<input class="form-control" type="text" name="mailing_zipCode"  id="mailing_zipCode" aria-required="true" placeholder="Required" required>
-<label for="home_phone_number">
-<abbr title="Your Phone number is a required field">
-<input type="text" name="home_phone_number" id="home_phone_number" class="form-control" aria-required="true" placeholder="Required" required>
-<label for="email_address">
-<abbr title="Your e-mail address is a required field">
-<input type="text" name="email_address" aria-required="true" id="email" class="form-control" placeholder="Required" required>
-<label for="verify_email">
-<abbr title="Please confirm your e-mail address">
-<input type="text" name="verify_email" id="verify_email" aria-required="true" class="form-control" placeholder="Required" required>
+<label class=control-label for=actions>
+<abbr title=please select an option>
+<select id=actions class=form-control name=actions  onchange=javascript:gethelp(this.value);>
+<option label=- - select an option - - value=select selected=selected>
+<option label=share your opinion or comments on bills or other issues value=opinion>
+<option label=media inquiries value=media_inquires>
+<option label=request help with a federal agency value=federal_agency>
+<option label=request a flag to be flown over the capitol value=flag>
 <fieldset>
 <legend>
-<label class="control-label" for="subject">
-<abbr title="Please enter a message topic for your message">
-<select id="subject" class="form-control" name="subject">
-<option label="- - Select an Issue - -" value="" selected="selected">
-<option label="Abortion/Reproductive Rights" value="Abortion">
-<option label="Afghanistan/Iraq" value="Afghanistan">
-<option label="Agriculture" value="Agriculture">
-<option label="Animal Rights" value="Animal Rights">
-<option label="Arts and Humanities" value="Arts and Humanities">
-<option label="Banking" value="Banking">
-<option label="Budget" value="Budget">
-<option label="Campaign Finance Reform" value="Campaign Finance Reform">
-<option label="Children and Families" value="Children and Families">
-<option label="Civil Rights" value="Civil Rights">
-<option label="Crime and Drugs" value="Crime and Drugs">
-<option label="Defense" value="Defense">
-<option label="Education" value="Education">
-<option label="Elections and Congressional Affairs" value="Elections and Congressional Affairs">
-<option label="Energy" value="Energy">
-<option label="Environment and Public Works" value="Environment and Public Works">
-<option label="Foreign Affairs" value="Foreign Affairs">
-<option label="Government Shutdown" value="Government Shutdown">
-<option label="Guns" value="Guns">
-<option label="Health Care" value="Health Care">
-<option label="Housing" value="Housing">
-<option label="Help with a Government Agency / Casework" value="Casework">
-<option label="Immigration" value="Immigration">
-<option label="Indian Affairs" value="Indian Affairs">
-<option label="Insurance Health" value="Insurance Health">
-<option label="Interior/Forestry" value="Interior">
-<option label="Jobs and the Economy" value="Jobs and the Economy">
-<option label="Judiciary" value="Judiciary">
-<option label="Labor" value="Labor">
-<option label="LIHEAP" value="LIHEAP">
-<option label="LGBT Issues" value="LGBT Issues">
-<option label="Medicare/Medicaid" value="Medicare/Medicaid">
-<option label="Military, Retiree Health Care" value="Military Health Care">
-<option label="Other" value="Other">
-<option label="Small Business" value="Small Business">
-<option label="Social Security" value="Social Security">
-<option label="Taxes" value="Taxes">
-<option label="Trade" value="Trade">
-<option label="Transportation" value="Transportation">
-<option label="Veterans" value="Veterans">
-<label for="message">
-<abbr title="Please enter your message">
-<textarea id="message" class="form-control" rows="10" name="message" aria-required="true" Placeholder="Required" required>
-<input class="btn" type="submit" id="side-search-btn" value="Send" >
+<label class=control-label for=salutation>
+<abbr title=required>
+<select id=salutation class=form-control name=salutation>
+<option label=-- value=-->
+<option label=mr. value=mr.>
+<option label=mrs. value=mrs.>
+<option label=ms. value=ms.>
+<option label=dr. value=dr.>
+<label for=fname>
+<abbr title=required>
+<input class=form-control type=text name=fname id=fname aria-required=true placeholder=required required>
+<label for=lname>
+<abbr title=required>
+<input class=form-control type=text name=lname id=lname aria-required=true placeholder=required required>
+<legend>
+<label class= for=mailing_streetaddress1>
+<abbr title=your street address is a required field>
+<input class=form-control type=text name=mailing_streetaddress1 id=mailing_streetaddress1 aria-required=true placeholder=required required>
+<label class= for=mailing_streetaddress2>
+<input class=form-control type=text name=mailing_streetaddress2 id=mailing_streetaddress2>
+<label for=mailing_city>
+<abbr title=your city is a required field>
+<input class=form-control type=text name=mailing_city id=mailing_city aria-required=true placeholder=required required>
+<label for=state>
+<select name=state id=state class=form-control>
+<option value=null>
+<option value=ak>
+<option value=al>
+<option value=ar>
+<option value=az>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=dc>
+<option value=de>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=ia>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=ma>
+<option value=md>
+<option value=me>
+<option value=mi>
+<option value=mn>
+<option value=mo>
+<option value=ms>
+<option value=mt>
+<option value=nc>
+<option value=nd>
+<option value=ne>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=nv>
+<option value=ny>
+<option value=oh>
+<option value=ok>
+<option value=or selected=selected>
+<option value=pa>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=va>
+<option value=vt>
+<option value=wa>
+<option value=wi>
+<option value=wv>
+<option value=wy>
+<label for=mailing_zipcode>
+<abbr title=your zip code is a required field>
+<input class=form-control type=text name=mailing_zipcode  id=mailing_zipcode aria-required=true placeholder=required required>
+<label for=home_phone_number>
+<abbr title=your phone number is a required field>
+<input type=text name=home_phone_number id=home_phone_number class=form-control aria-required=true placeholder=required required>
+<label for=email_address>
+<abbr title=your e-mail address is a required field>
+<input type=text name=email_address aria-required=true id=email class=form-control placeholder=required required>
+<label for=verify_email>
+<abbr title=please confirm your e-mail address>
+<input type=text name=verify_email id=verify_email aria-required=true class=form-control placeholder=required required>
+<fieldset>
+<legend>
+<label class=control-label for=subject>
+<abbr title=please enter a message topic for your message>
+<select id=subject class=form-control name=subject>
+<option label=- - select an issue - - value= selected=selected>
+<option label=abortion/reproductive rights value=abortion>
+<option label=afghanistan/iraq value=afghanistan>
+<option label=agriculture value=agriculture>
+<option label=animal rights value=animal rights>
+<option label=arts and humanities value=arts and humanities>
+<option label=banking value=banking>
+<option label=budget value=budget>
+<option label=campaign finance reform value=campaign finance reform>
+<option label=children and families value=children and families>
+<option label=civil rights value=civil rights>
+<option label=crime and drugs value=crime and drugs>
+<option label=defense value=defense>
+<option label=education value=education>
+<option label=elections and congressional affairs value=elections and congressional affairs>
+<option label=energy value=energy>
+<option label=environment and public works value=environment and public works>
+<option label=foreign affairs value=foreign affairs>
+<option label=government shutdown value=government shutdown>
+<option label=guns value=guns>
+<option label=health care value=health care>
+<option label=housing value=housing>
+<option label=help with a government agency / casework value=casework>
+<option label=immigration value=immigration>
+<option label=indian affairs value=indian affairs>
+<option label=insurance health value=insurance health>
+<option label=interior/forestry value=interior>
+<option label=jobs and the economy value=jobs and the economy>
+<option label=judiciary value=judiciary>
+<option label=labor value=labor>
+<option label=liheap value=liheap>
+<option label=lgbt issues value=lgbt issues>
+<option label=medicare/medicaid value=medicare/medicaid>
+<option label=military, retiree health care value=military health care>
+<option label=other value=other>
+<option label=small business value=small business>
+<option label=social security value=social security>
+<option label=taxes value=taxes>
+<option label=trade value=trade>
+<option label=transportation value=transportation>
+<option label=veterans value=veterans>
+<label for=message>
+<abbr title=please enter your message>
+<textarea id=message class=form-control rows=10 name=message aria-required=true placeholder=required required>
+<input class=btn type=submit id=side-search-btn value=send >

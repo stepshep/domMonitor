@@ -1,2 +1,23 @@
-<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://www.senatorsilverstein.com/" method="get">
-<input id="roksearch_search_str" name="searchword" type="text" class="inputbox roksearch_search_str" placeholder="Search..." >
+<form method=post  id=userform enctype=multipart/form-data action=http://www.senatorsilverstein.com/index.php/contact-us>
+<fieldset class=formfieldset>
+<ol class=formcontainer id=rsform_4_page_0>
+<li class=rsform-block rsform-block-firstname>
+<strong class=formrequired>
+<input type=text value= size=20 maxlength=60 name=form[firstname] id=firstname  class=rsform-input-box>
+<span class=formclr>
+<span id=component38 class=formnoerror>
+<li class=rsform-block rsform-block-lastname>
+<strong class=formrequired>
+<input type=text value= size=20 maxlength=60 name=form[lastname] id=lastname  class=rsform-input-box>
+<span class=formclr>
+<span id=component39 class=formnoerror>
+<li class=rsform-block rsform-block-email>
+<strong class=formrequired>
+<input type=text value= size=20  name=form[email] id=email  class=rsform-input-box>
+<span class=formclr>
+<span id=component41 class=formnoerror>
+<li class=rsform-block rsform-block-send>
+<input type=submit value=send name=form[send] id=send  class=rsform-submit-button >
+<span class=formclr>
+<li class=rsform-block rsform-block-note>
+<span class=formclr>

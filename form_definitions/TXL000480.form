@@ -1,75 +1,75 @@
-<form name="emailForm" method="post" action="/members/member-page/email/index.php?district=53&session=84">
-<label for="name_first">
+<form name=emailform method=post action=/members/member-page/email/index.php?district=53&session=84>
+<label for=name_first>
 <em>
-<select name="prefix" value="" class="rounded">
-<option value="Mr">
-<option value="Ms">
-<option value="Miss">
-<option value="Mrs">
-<option value="Rev">
-<option value="Fr">
-<option value="Dr">
-<label for="name_first">
+<select name=prefix value= class=rounded>
+<option value=mr>
+<option value=ms>
+<option value=miss>
+<option value=mrs>
+<option value=rev>
+<option value=fr>
+<option value=dr>
+<label for=name_first>
 <em>
-<input type="text" name="name_first" size="34" value="" class="rounded">
-<label for="name_middle">
+<input type=text name=name_first size=34 value= class=rounded>
+<label for=name_middle>
 <em>
-<input type="text" name="name_middle" size="34" value="" class="rounded">
-<label for="name_last">
+<input type=text name=name_middle size=34 value= class=rounded>
+<label for=name_last>
 <em>
-<input type="text" name="name_last" size="34" value="" class="rounded">
-<label for="name_suffix">
+<input type=text name=name_last size=34 value= class=rounded>
+<label for=name_suffix>
 <em>
-<input type="text" name="name_suffix" size="5" value="" class="rounded">
-<label for="title">
+<input type=text name=name_suffix size=5 value= class=rounded>
+<label for=title>
 <em>
-<input type="text" name="title" size="34" value="" class="rounded">
-<label for="business">
+<input type=text name=title size=34 value= class=rounded>
+<label for=business>
 <em>
-<input type="text" name="business" size="34" value="" class="rounded">
-<label for="address">
+<input type=text name=business size=34 value= class=rounded>
+<label for=address>
 <em>
-<input type="text" name="address" size="44" value="" class="rounded">
-<label for="address2">
-<input type="text" name="address2" size="44" value="" class="rounded">
-<label for="city">
-<input type="text" name="city" size="44" value="" class="rounded">
-<label for="state">
-<input type="text" name="state" size="2" value="" class="rounded">
-<label for="zipcode">
-<input type="text" name="zip" size="5" value="" class="rounded">
-<label for="phone">
+<input type=text name=address size=44 value= class=rounded>
+<label for=address2>
+<input type=text name=address2 size=44 value= class=rounded>
+<label for=city>
+<input type=text name=city size=44 value= class=rounded>
+<label for=state>
+<input type=text name=state size=2 value= class=rounded>
+<label for=zipcode>
+<input type=text name=zip size=5 value= class=rounded>
+<label for=phone>
 <em>
-<input type="text" name="phonezip" size="3" maxlength="3" value="" class="rounded">
-<input type="text" name="phonenum" size="7" maxlength="7" value="" class="rounded">
-<label for="e-mail">
-<input type="text" name="email" size="44" value="" class="rounded">
-<label for="subject">
-<select name="subject" value="" class="rounded">
-<option value="Agriculture">
-<option value="Child Protective Services (CPS)">
-<option value="Child Support">
-<option value="CHIP">
-<option value="Education">
-<option value="Energy">
-<option value="Higher Education">
-<option value="Historical Commission">
-<option value="Housing/community affairs">
-<option value="Hunting/sporting issues">
-<option value="Immigration">
-<option value="Insurance">
-<option value="Licensing/regulation">
-<option value="Medicaid">
-<option value="Medical">
-<option value="Natural Resources">
-<option value="Public Safety">
-<option value="Scheduling">
-<option value="Taxes/ Appraisal district">
-<option value="TCEQ (environment)">
-<option value="Trans-Texas Corridor">
-<option value="TX Workforce/employment issues">
-<option value="TXDoT">
-<option value="Utilities">
-<label for="message">
-<textarea name="message" rows="14" cols="50" wrap="VIRTUAL" scrolling="yes" class="rounded">
-<input id="email-button" type="submit" name="Submit" value="Send Message" >
+<input type=text name=phonezip size=3 maxlength=3 value= class=rounded>
+<input type=text name=phonenum size=7 maxlength=7 value= class=rounded>
+<label for=e-mail>
+<input type=text name=email size=44 value= class=rounded>
+<label for=subject>
+<select name=subject value= class=rounded>
+<option value=agriculture>
+<option value=child protective services (cps)>
+<option value=child support>
+<option value=chip>
+<option value=education>
+<option value=energy>
+<option value=higher education>
+<option value=historical commission>
+<option value=housing/community affairs>
+<option value=hunting/sporting issues>
+<option value=immigration>
+<option value=insurance>
+<option value=licensing/regulation>
+<option value=medicaid>
+<option value=medical>
+<option value=natural resources>
+<option value=public safety>
+<option value=scheduling>
+<option value=taxes/ appraisal district>
+<option value=tceq (environment)>
+<option value=trans-texas corridor>
+<option value=tx workforce/employment issues>
+<option value=txdot>
+<option value=utilities>
+<label for=message>
+<textarea name=message rows=14 cols=50 wrap=virtual scrolling=yes class=rounded>
+<input id=email-button type=submit name=submit value=send message >

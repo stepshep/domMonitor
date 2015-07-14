@@ -1,101 +1,101 @@
-<form action="/htbin/formproc/email.txt%26display%3D/contact/email/email-sent%26nobase%26fpGetVer%3D2" class="bootstrap" id="contactForm" method="post" name="contactForm">
+<form action=/htbin/formproc/email.txt%26display%3d/contact/email/email-sent%26nobase%26fpgetver%3d2 class=bootstrap id=contactform method=post name=contactform>
 <fieldset>
 <legend>
-<label class="control-label" for="required-prefix">
-<select class="form-control" id="required-prefix" name="required-prefix" required="">
-<option disabled="disabled" selected="selected">
-<option value="Ms.">
-<option value="Miss">
-<option value="Mrs.">
-<option value="Mr.">
-<option value="Mr. and Mrs.">
-<option value="Rev.">
-<option value="Dr.">
-<option value="The Honorable">
-<option value="Rabbi">
-<label class="control-label" for="required-first">
-<input class="form-control" id="required-first" maxlength="100" name="required-first" required="" type="text">
-<label class="control-label" for="middle">
-<input class="form-control" id="middle" maxlength="1" name="middle" type="text">
-<label class="control-label" for="required-last">
-<input class="form-control" id="required-last" maxlength="100" name="required-last" required="" type="text">
-<label class="control-label" for="suffix">
-<input class="form-control" id="suffix" maxlength="15" name="suffix" type="text">
-<label class="control-label" for="required-address">
-<input class="form-control" id="required-address" maxlength="100" name="required-address" required="" type="text">
-<label class="control-label" for="address2">
-<input class="form-control" id="address2" maxlength="100" name="address2" type="text">
-<label class="control-label" for="required-city">
-<input class="form-control" id="required-city" maxlength="100" name="required-city" required="" type="text">
-<input class="col-sm-2 form-control" id="required-state" maxlength="2" name="required-state" readonly="readonly" type="text" value="PA">
-<input value="19610" class="col-sm-2 form-control" id="required-zip5" maxlength="5" name="required-zip5" readonly="readonly" type="text">
-<input value="1307" class="col-sm-2 form-control" id="zip4" maxlength="5" name="zip4" readonly="readonly" type="text">
-<label class="control-label" for="required-valid-email">
-<input class="form-control" id="required-valid-email" maxlength="100" name="required-valid-email" placeholder="your@email.com" required="" type="email">
+<label class=control-label for=required-prefix>
+<select class=form-control id=required-prefix name=required-prefix required=>
+<option disabled=disabled selected=selected>
+<option value=ms.>
+<option value=miss>
+<option value=mrs.>
+<option value=mr.>
+<option value=mr. and mrs.>
+<option value=rev.>
+<option value=dr.>
+<option value=the honorable>
+<option value=rabbi>
+<label class=control-label for=required-first>
+<input class=form-control id=required-first maxlength=100 name=required-first required= type=text>
+<label class=control-label for=middle>
+<input class=form-control id=middle maxlength=1 name=middle type=text>
+<label class=control-label for=required-last>
+<input class=form-control id=required-last maxlength=100 name=required-last required= type=text>
+<label class=control-label for=suffix>
+<input class=form-control id=suffix maxlength=15 name=suffix type=text>
+<label class=control-label for=required-address>
+<input class=form-control id=required-address maxlength=100 name=required-address required= type=text>
+<label class=control-label for=address2>
+<input class=form-control id=address2 maxlength=100 name=address2 type=text>
+<label class=control-label for=required-city>
+<input class=form-control id=required-city maxlength=100 name=required-city required= type=text>
+<input class=col-sm-2 form-control id=required-state maxlength=2 name=required-state readonly=readonly type=text value=pa>
+<input value=19610 class=col-sm-2 form-control id=required-zip5 maxlength=5 name=required-zip5 readonly=readonly type=text>
+<input value=1307 class=col-sm-2 form-control id=zip4 maxlength=5 name=zip4 readonly=readonly type=text>
+<label class=control-label for=required-valid-email>
+<input class=form-control id=required-valid-email maxlength=100 name=required-valid-email placeholder=your@email.com required= type=email>
 <fieldset>
 <legend>
-<label class="control-label" for="required-phone">
-<input class="form-control" id="required-phone" maxlength="16" name="required-phone" placeholder="e.g., 5553334444" required="" type="tel">
-<select class="form-control" id="speech" name="speech">
-<option selected="selected" title="Standard voice telephone" value="Voice">
-<option title="Videophone" value="VP">
-<option title="Text-telephone device" value="TTD">
+<label class=control-label for=required-phone>
+<input class=form-control id=required-phone maxlength=16 name=required-phone placeholder=e.g., 5553334444 required= type=tel>
+<select class=form-control id=speech name=speech>
+<option selected=selected title=standard voice telephone value=voice>
+<option title=videophone value=vp>
+<option title=text-telephone device value=ttd>
 <p>
 <fieldset>
 <legend>
-<label class="control-label" for="required-issue">
-<select class="form-control" id="required-issue" name="required-issue" required="" size="1">
-<option disabled="disabled" selected="selected" value="">
-<option value="AGR">
-<option value="AN">
-<option value="ART">
-<option value="BANK">
-<option value="BUD">
-<option value="Casework">
-<option value="CFR">
-<option value="CONG">
-<option value="DEF">
-<option value="ECON">
-<option value="EDU">
-<option value="ENE">
-<option value="ENV">
-<option value="FED">
-<option value="FR">
-<option value="GOV">
-<option value="GUN">
-<option value="HEA">
-<option value="HOM">
-<option value="HUD">
-<option value="IMM">
-<option value="INT">
-<option value="JUD">
-<option value="LAB">
-<option value="LGBT">
-<option value="NRN">
-<option value="POST">
-<option value="SCI">
-<option value="SOC">
-<option value="SENIORS">
-<option value="SSEC">
-<option value="SOC.SERVICES">
-<option value="TAX">
-<option value="TEL">
-<option value="Tours">
-<option value="TRA">
-<option value="TRADE">
-<option value="VET">
-<option value="WOMEN">
-<option value="WEL">
-<option value="OTHER">
-<label class="control-label" for="required-message">
-<textarea class="form-control" cols="68" id="required-message" name="required-message" required="" rows="5" type="text">
-<label class="control-label" for="required-response">
-<select class="form-control" id="required-response" name="required-response" required="">
-<option disabled="disabled" selected="selected">
-<option value="Y">
-<option value="N">
+<label class=control-label for=required-issue>
+<select class=form-control id=required-issue name=required-issue required= size=1>
+<option disabled=disabled selected=selected value=>
+<option value=agr>
+<option value=an>
+<option value=art>
+<option value=bank>
+<option value=bud>
+<option value=casework>
+<option value=cfr>
+<option value=cong>
+<option value=def>
+<option value=econ>
+<option value=edu>
+<option value=ene>
+<option value=env>
+<option value=fed>
+<option value=fr>
+<option value=gov>
+<option value=gun>
+<option value=hea>
+<option value=hom>
+<option value=hud>
+<option value=imm>
+<option value=int>
+<option value=jud>
+<option value=lab>
+<option value=lgbt>
+<option value=nrn>
+<option value=post>
+<option value=sci>
+<option value=soc>
+<option value=seniors>
+<option value=ssec>
+<option value=soc.services>
+<option value=tax>
+<option value=tel>
+<option value=tours>
+<option value=tra>
+<option value=trade>
+<option value=vet>
+<option value=women>
+<option value=wel>
+<option value=other>
+<label class=control-label for=required-message>
+<textarea class=form-control cols=68 id=required-message name=required-message required= rows=5 type=text>
+<label class=control-label for=required-response>
+<select class=form-control id=required-response name=required-response required=>
+<option disabled=disabled selected=selected>
+<option value=y>
+<option value=n>
 <fieldset>
 <legend>
-<label for="subscribe">
-<input id="subscribe" name="subscribe" type="checkbox" value="affl">
-<button class="btn btn-success" id="submit" type="submit">
+<label for=subscribe>
+<input id=subscribe name=subscribe type=checkbox value=affl>
+<button class=btn btn-success id=submit type=submit>

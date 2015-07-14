@@ -1,8 +1,8 @@
-<input type='text' name='885-name' id='885-name' value='' placeholder='Name:' class='text'>
-<input type='text' name='885-street-address' id='885-street-address' value='' placeholder='Street Address:' class='text'>
-<input type='text' name='885-city' id='885-city' value='' placeholder='City:' class='text'>
-<label for='885' class='select'>
-<select name='885' id='885' value='' class='select'>
+<input type=text name=885-name id=885-name value= placeholder=name: class=text>
+<input type=text name=885-street-address id=885-street-address value= placeholder=street address: class=text>
+<input type=text name=885-city id=885-city value= placeholder=city: class=text>
+<label for=885 class=select>
+<select name=885 id=885 value= class=select>
 <option>
 <option>
 <option>
@@ -54,11 +54,11 @@
 <option>
 <option>
 <option>
-<input type='text' name='885-zip' id='885-zip' value='' placeholder='ZIP:' class='text'>
-<input type='text' name='885-email' id='885-email' value='' placeholder='Email:' class='text'>
-<input type='text' name='885-phone-number' id='885-phone-number' value='' placeholder='Phone Number:' class='text'>
-<input type='checkbox' name='885-i-would-like-my-email-added-to-the-district-newsletter-mailing-list' value='Yes' class='checkbox'  >
-<label for='885-i-would-like-my-email-added-to-the-district-newsletter-mailing-list' class='checkbox'>
-<textarea name='885-message' id='contact-form-comment-885-message' placeholder='Message:' rows='14'>
-<input type='submit' value='Send' class='churchope_button'>
+<input type=text name=885-zip id=885-zip value= placeholder=zip: class=text>
+<input type=text name=885-email id=885-email value= placeholder=email: class=text>
+<input type=text name=885-phone-number id=885-phone-number value= placeholder=phone number: class=text>
+<input type=checkbox name=885-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=yes class=checkbox  >
+<label for=885-i-would-like-my-email-added-to-the-district-newsletter-mailing-list class=checkbox>
+<textarea name=885-message id=contact-form-comment-885-message placeholder=message: rows=14>
+<input type=submit value=send class=churchope_button>
 <p>

@@ -1,63 +1,61 @@
-<td class="ContentCell">
-<span id="ctl00_ctl12_ctl01_Text" class="middlecopy">
-<form name="contact" onsubmit="MM_validateForm('required-prefix','Prefix','R','required-first','First Name','R','required-last','Last Name','R','required-address','Street Address','R','required-city','City','R','required-email','Email','RisEmail','required-issue','Issue','R','required-message','Message','R');return document.MM_returnValue" action="/submit-contact.aspx" method="post">
-<table cellspacing="1" cellpadding="0" align="center">
+<form name=contact onsubmit=mm_validateform(required-prefix,prefix,r,required-first,first name,r,required-last,last name,r,required-address,street address,r,required-city,city,r,required-email,email,risemail,required-issue,issue,r,required-message,message,r);return document.mm_returnvalue action=/submit-contact.aspx method=post>
+<table cellspacing=1 cellpadding=0 align=center>
 <tbody>
-<td valign="bottom" align="right">
-<table cellspacing="0" cellpadding="0">
+<td valign=bottom align=right>
+<table cellspacing=0 cellpadding=0>
 <tbody>
 <small>
-<select name="required-prefix">
+<select name=required-prefix>
 <option>
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Dr.">
-<option value="Ms.">
-<input type="text" maxlength="90" size="12" name="required-first">
-<input type="text" maxlength="90" size="8" name="middle">
-<input type="text" maxlength="90" size="15" name="required-last">
-<input type="text" maxlength="90" size="10" name="suffix">
-<td align="right">
-<input type="text" maxlength="190" size="60" name="required-address">
-<td align="right">
-<input type="text" maxlength="45" name="required-city">
-<select name="required-state">
-<option value="TN">
-<input type="text" maxlength="5" size="5" name="zip5">
-<input type="text" maxlength="4" size="4" name="zip4">
-<td align="right">
-<input type="text" maxlength="100" size="60" name="phone">
-<td align="right">
-<input type="text" maxlength="100" size="60" name="required-email">
-<td align="right">
-<select size="1" name="required-issue">
-<option selected="selected">
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEF">
-<option value="WEBECON">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBIMM">
-<option value="WEBINT">
-<option value="WEBJUD">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTAX">
-<option value="WEBTEL">
-<option value="WEBTRA">
-<option value="WEBVET">
-<option value="WEBWEL">
-<option value="WEBOTH">
-<td valign="top" align="right">
-<textarea name="required-message" rows="15" cols="60">
-<td valign="top" align="right">
-<input type="checkbox" value="subscribe" name="subscribe">
-<td colspan="2">
+<option value=mr.>
+<option value=mrs.>
+<option value=dr.>
+<option value=ms.>
+<input type=text maxlength=90 size=12 name=required-first>
+<input type=text maxlength=90 size=8 name=middle>
+<input type=text maxlength=90 size=15 name=required-last>
+<input type=text maxlength=90 size=10 name=suffix>
+<td align=right>
+<input type=text maxlength=190 size=60 name=required-address>
+<td align=right>
+<input type=text maxlength=45 name=required-city>
+<select name=required-state>
+<option value=tn>
+<input type=text maxlength=5 size=5 name=zip5>
+<input type=text maxlength=4 size=4 name=zip4>
+<td align=right>
+<input type=text maxlength=100 size=60 name=phone>
+<td align=right>
+<input type=text maxlength=100 size=60 name=required-email>
+<td align=right>
+<select size=1 name=required-issue>
+<option selected=selected>
+<option value=webagr>
+<option value=webbud>
+<option value=webdef>
+<option value=webecon>
+<option value=webedu>
+<option value=webene>
+<option value=webenv>
+<option value=webgov>
+<option value=webhea>
+<option value=webhom>
+<option value=webimm>
+<option value=webint>
+<option value=webjud>
+<option value=websoc>
+<option value=webssec>
+<option value=webtax>
+<option value=webtel>
+<option value=webtra>
+<option value=webvet>
+<option value=webwel>
+<option value=weboth>
+<td valign=top align=right>
+<textarea name=required-message rows=15 cols=60>
+<td valign=top align=right>
+<input type=checkbox value=subscribe name=subscribe>
+<td colspan=2>
 <center>
-<input type="submit" value="Send Email">
-<input type="reset" value="Reset">
+<input type=submit value=send email>
+<input type=reset value=reset>

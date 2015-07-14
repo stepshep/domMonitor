@@ -1,78 +1,78 @@
-<form method="post" id="form_EE318397-6479-40A0-8150-1477CFD56249">
-<fieldset class="blockLabels">
+<form method=post id=form_ee318397-6479-40a0-8150-1477cfd56249>
+<fieldset class=blocklabels>
 <legend>
-<label class="control-label" for="field_87A54ABF-F5F6-4B01-B671-1FD99570D1D5">
-<input type="text" class="form-control" name="field_87A54ABF-F5F6-4B01-B671-1FD99570D1D5" id="field_87A54ABF-F5F6-4B01-B671-1FD99570D1D5" value="" >
-<label class="control-label" for="field_176655B1-15C5-4002-9C0B-A02EAACB9767">
-<strong class="required">
-<input type="text" class="form-control" name="field_176655B1-15C5-4002-9C0B-A02EAACB9767" id="field_176655B1-15C5-4002-9C0B-A02EAACB9767" value="" >
-<label class="control-label" for="field_E420FDDF-DD89-450B-8B8F-3C460D78BD29">
-<strong class="required">
-<input type="text" class="form-control" name="field_E420FDDF-DD89-450B-8B8F-3C460D78BD29" id="field_E420FDDF-DD89-450B-8B8F-3C460D78BD29" value="" >
-<label class="control-label" for="field_387D8C68-3466-4130-AF2D-D62CFBBA034E">
-<input type="text" class="form-control" name="field_387D8C68-3466-4130-AF2D-D62CFBBA034E" id="field_387D8C68-3466-4130-AF2D-D62CFBBA034E" value="" >
-<label class="control-label" for="field_B57205AF-77B7-4BEE-9849-D7C344BF55AE">
-<strong class="required">
-<input type="text" class="form-control" name="field_B57205AF-77B7-4BEE-9849-D7C344BF55AE" id="field_B57205AF-77B7-4BEE-9849-D7C344BF55AE" value="" >
-<label class="control-label" for="field_5483326F-FB71-4417-898C-3C10C42A7E93">
-<input type="text" class="form-control" name="field_5483326F-FB71-4417-898C-3C10C42A7E93" id="field_5483326F-FB71-4417-898C-3C10C42A7E93" value="" >
-<label class="control-label" for="field_B2C0A555-967B-4810-B44C-E2BEFDFD6BBF">
-<strong class="required">
-<input type="text" class="form-control" name="field_B2C0A555-967B-4810-B44C-E2BEFDFD6BBF" id="field_B2C0A555-967B-4810-B44C-E2BEFDFD6BBF" value="" >
-<label class="control-label" for="field_9855926F-23AB-4D16-9483-716FEE40110C">
-<strong class="required">
-<input type="text" class="form-control" name="field_9855926F-23AB-4D16-9483-716FEE40110C" id="field_9855926F-23AB-4D16-9483-716FEE40110C" value="" >
-<label class="control-label" for="field_4D6DD40A-D04C-47E8-A5C1-9979BDA15C42">
-<strong class="required">
-<input type="text" class="form-control" name="field_4D6DD40A-D04C-47E8-A5C1-9979BDA15C42" id="field_4D6DD40A-D04C-47E8-A5C1-9979BDA15C42" value="" >
-<fieldset class="blockLabels">
+<label class=control-label for=field_87a54abf-f5f6-4b01-b671-1fd99570d1d5>
+<input type=text class=form-control name=field_87a54abf-f5f6-4b01-b671-1fd99570d1d5 id=field_87a54abf-f5f6-4b01-b671-1fd99570d1d5 value= >
+<label class=control-label for=field_176655b1-15c5-4002-9c0b-a02eaacb9767>
+<strong class=required>
+<input type=text class=form-control name=field_176655b1-15c5-4002-9c0b-a02eaacb9767 id=field_176655b1-15c5-4002-9c0b-a02eaacb9767 value= >
+<label class=control-label for=field_e420fddf-dd89-450b-8b8f-3c460d78bd29>
+<strong class=required>
+<input type=text class=form-control name=field_e420fddf-dd89-450b-8b8f-3c460d78bd29 id=field_e420fddf-dd89-450b-8b8f-3c460d78bd29 value= >
+<label class=control-label for=field_387d8c68-3466-4130-af2d-d62cfbba034e>
+<input type=text class=form-control name=field_387d8c68-3466-4130-af2d-d62cfbba034e id=field_387d8c68-3466-4130-af2d-d62cfbba034e value= >
+<label class=control-label for=field_b57205af-77b7-4bee-9849-d7c344bf55ae>
+<strong class=required>
+<input type=text class=form-control name=field_b57205af-77b7-4bee-9849-d7c344bf55ae id=field_b57205af-77b7-4bee-9849-d7c344bf55ae value= >
+<label class=control-label for=field_5483326f-fb71-4417-898c-3c10c42a7e93>
+<input type=text class=form-control name=field_5483326f-fb71-4417-898c-3c10c42a7e93 id=field_5483326f-fb71-4417-898c-3c10c42a7e93 value= >
+<label class=control-label for=field_b2c0a555-967b-4810-b44c-e2befdfd6bbf>
+<strong class=required>
+<input type=text class=form-control name=field_b2c0a555-967b-4810-b44c-e2befdfd6bbf id=field_b2c0a555-967b-4810-b44c-e2befdfd6bbf value= >
+<label class=control-label for=field_9855926f-23ab-4d16-9483-716fee40110c>
+<strong class=required>
+<input type=text class=form-control name=field_9855926f-23ab-4d16-9483-716fee40110c id=field_9855926f-23ab-4d16-9483-716fee40110c value= >
+<label class=control-label for=field_4d6dd40a-d04c-47e8-a5c1-9979bda15c42>
+<strong class=required>
+<input type=text class=form-control name=field_4d6dd40a-d04c-47e8-a5c1-9979bda15c42 id=field_4d6dd40a-d04c-47e8-a5c1-9979bda15c42 value= >
+<fieldset class=blocklabels>
 <legend>
-<label class="control-label" for="field_992977A2-BF34-4503-96DF-54A324E6DF1F">
-<input type="text" class="form-control" name="field_992977A2-BF34-4503-96DF-54A324E6DF1F" id="field_992977A2-BF34-4503-96DF-54A324E6DF1F" value="" >
-<label class="control-label" for="field_5A943426-E34E-4F7B-BB8B-41B5E6B8BA3A">
-<select class="form-control" name="field_5A943426-E34E-4F7B-BB8B-41B5E6B8BA3A" id="field_5A943426-E34E-4F7B-BB8B-41B5E6B8BA3A" value="">
-<option value="">
-<option value="Voice">
-<option value="VP">
-<option value="TTD">
-<fieldset class="blockLabels">
+<label class=control-label for=field_992977a2-bf34-4503-96df-54a324e6df1f>
+<input type=text class=form-control name=field_992977a2-bf34-4503-96df-54a324e6df1f id=field_992977a2-bf34-4503-96df-54a324e6df1f value= >
+<label class=control-label for=field_5a943426-e34e-4f7b-bb8b-41b5e6b8ba3a>
+<select class=form-control name=field_5a943426-e34e-4f7b-bb8b-41b5e6b8ba3a id=field_5a943426-e34e-4f7b-bb8b-41b5e6b8ba3a value=>
+<option value=>
+<option value=voice>
+<option value=vp>
+<option value=ttd>
+<fieldset class=blocklabels>
 <legend>
-<label class="control-label" for="field_6D0B83A2-851E-4CF0-A7FC-F0F8A21F593E">
-<strong class="required">
-<select class="form-control" name="field_6D0B83A2-851E-4CF0-A7FC-F0F8A21F593E" id="field_6D0B83A2-851E-4CF0-A7FC-F0F8A21F593E" value="">
-<option value="">
-<option value="ABOR">
-<option value="AGR">
-<option value="BUD">
-<option value="DEF">
-<option value="ECON">
-<option value="EDU">
-<option value="ENE">
-<option value="ENV">
-<option value="FIN">
-<option value="GOV">
-<option value="HEA">
-<option value="HOM">
-<option value="IMM">
-<option value="INT">
-<option value="JUD">
-<option value="LAB">
-<option value="FEDAGENCY">
-<option value="NRN">
-<option value="GUN">
-<option value="SOC">
-<option value="SSEC">
-<option value="TAX">
-<option value="TEL">
-<option value="TRA">
-<option value="TRADE">
-<option value="VET">
-<label class="control-label" for="field_2DAD8C5E-8C69-471F-9373-03CAD2BEC5CF">
-<strong class="required">
-<input type="text" class="form-control" name="field_2DAD8C5E-8C69-471F-9373-03CAD2BEC5CF" id="field_2DAD8C5E-8C69-471F-9373-03CAD2BEC5CF" value="" >
-<label class="control-label" for="field_79A3A867-623E-4816-AE38-F10965A1B758">
-<strong class="required">
-<textarea name="field_79A3A867-623E-4816-AE38-F10965A1B758" class="form-control" id="field_79A3A867-623E-4816-AE38-F10965A1B758" >
-<label for="field_B28B2AAB-B3E0-4A6C-AD54-8345FFD25A8A_1">
-<input type="checkbox" name="field_B28B2AAB-B3E0-4A6C-AD54-8345FFD25A8A" id="field_B28B2AAB-B3E0-4A6C-AD54-8345FFD25A8A_1" value="<AFFL>
-<input type="submit" class="btn btn-primary" value="Submit" >
+<label class=control-label for=field_6d0b83a2-851e-4cf0-a7fc-f0f8a21f593e>
+<strong class=required>
+<select class=form-control name=field_6d0b83a2-851e-4cf0-a7fc-f0f8a21f593e id=field_6d0b83a2-851e-4cf0-a7fc-f0f8a21f593e value=>
+<option value=>
+<option value=abor>
+<option value=agr>
+<option value=bud>
+<option value=def>
+<option value=econ>
+<option value=edu>
+<option value=ene>
+<option value=env>
+<option value=fin>
+<option value=gov>
+<option value=hea>
+<option value=hom>
+<option value=imm>
+<option value=int>
+<option value=jud>
+<option value=lab>
+<option value=fedagency>
+<option value=nrn>
+<option value=gun>
+<option value=soc>
+<option value=ssec>
+<option value=tax>
+<option value=tel>
+<option value=tra>
+<option value=trade>
+<option value=vet>
+<label class=control-label for=field_2dad8c5e-8c69-471f-9373-03cad2bec5cf>
+<strong class=required>
+<input type=text class=form-control name=field_2dad8c5e-8c69-471f-9373-03cad2bec5cf id=field_2dad8c5e-8c69-471f-9373-03cad2bec5cf value= >
+<label class=control-label for=field_79a3a867-623e-4816-ae38-f10965a1b758>
+<strong class=required>
+<textarea name=field_79a3a867-623e-4816-ae38-f10965a1b758 class=form-control id=field_79a3a867-623e-4816-ae38-f10965a1b758 >
+<label for=field_b28b2aab-b3e0-4a6c-ad54-8345ffd25a8a_1>
+<input type=checkbox name=field_b28b2aab-b3e0-4a6c-ad54-8345ffd25a8a id=field_b28b2aab-b3e0-4a6c-ad54-8345ffd25a8a_1 value=<affl>
+<input type=submit class=btn btn-primary value=submit >

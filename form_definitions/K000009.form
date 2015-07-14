@@ -1,123 +1,123 @@
-<FORM METHOD=POST ACTION="/htbin/formproc/kaptur/webforms/issue_subscribe_file_NEW.txt&display=/kaptur/webforms/issue_subscribe_thank_you.htm">
-<table width="766" cellpadding=0 cellspacing=0>
-<td valign="top">
-<td align="left"  valign="top">
-<span class="bodytext">
-<font color="Red">
-<td align="left"  valign="top">
-<span class="bodytext">
-<font color="Red">
-<td align="left"  valign="top">
-<span class="bodytext">
-<td align="left"  valign="top">
-<span class="bodytext">
-<font color="Red">
-<td align="left"  valign="top">
-<span class="bodytext">
-<font size="1">
-<td width="129" valign="top" align="right">
-<font color="Red">
-<td width="87" align="left"  valign="top">
-<select name="required-prefix" tabindex="0">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Dr.">
-<td width="124" align="left"  valign="top">
-<span class="bodytext">
-<input name="required-first" id="first_name" tabindex="2" size="15" >
-<td width="120" align="left"  valign="top">
-<span class="bodytext">
-<input name="middle" id="middle" tabindex="3" size="15" >
-<td width="127" align="left"  valign="top">
-<span class="bodytext">
-<input name="required-last" id="last_name" tabindex="4" size="15" >
-<td width="177" align="left"  valign="top">
-<span class="bodytext">
-<input name="suffix" id="suffix" tabindex="5" size="15" >
-<td class="bodytext" align="left">
-<td colspan="5" align="left" class="bodytext">
-<td class="bodytext" align="right">
-<font color="Red">
-<td colspan="5" align="left" class="bodytext">
-<INPUT NAME="required-address" ID="street_address" TABINDEX="6" SIZE="30">
-<td class="bodytext" align="left">
-<td colspan="5" align="left" class="bodytext">
-<td class="bodytext" align="right">
-<font color="Red">
-<td colspan="5" align="left" class="bodytext">
-<INPUT NAME="required-city" ID="city" TABINDEX="7" size="20">
-<font color="Red">
-<font color="Red">
-<input name="required-zip5" id="zip" tabindex="9" size="5" maxlength="10" >
-<input name="zip4" id="zip0" tabindex="10" size="4" maxlength="10" >
-<td class="bodytext" align="left">
-<td colspan="5" align="left" class="bodytext">
-<td class="bodytext" align="right">
-<td colspan="5" align="left" class="bodytext">
-<INPUT NAME="phone" ID="phone" TABINDEX="11" SIZE="30">
-<td class="bodytext" align="left">
-<td colspan="5" align="left" class="bodytext">
-<td class="bodytext" align="right">
-<font color="Red">
-<td colspan="5" align="left" class="bodytext">
-<INPUT NAME="required-email" ID="email" TABINDEX="11" SIZE="30">
-<td valign="top">
-<td colspan="5" align="left">
-<td valign="top" align="right">
-<font color="Red">
-<td colspan="5" align="left">
-<SELECT NAME="required-subject" SIZE=1>
-<option disabled value="" selected>
-<OPTION VALUE="ABORTION">
-<OPTION VALUE="AGRI">
-<OPTION VALUE="ANML">
-<OPTION VALUE="ECON">
-<OPTION VALUE="JUD">
-<OPTION VALUE="ECON">
-<OPTION VALUE="EDU">
-<OPTION VALUE="ENR">
-<OPTION VALUE="ENV">
-<OPTION VALUE="FP">
-<OPTION VALUE="JUD">
-<OPTION VALUE="HLTH">
-<OPTION VALUE="HOUSE">
-<OPTION VALUE="IMM">
-<OPTION VALUE="LABOR">
-<OPTION VALUE="JUD">
-<OPTION VALUE="LABOR">
-<OPTION VALUE="SS">
-<OPTION VALUE="MIL">
-<OPTION VALUE="SS">
-<OPTION VALUE="TAX">
-<OPTION VALUE="TELCOM">
-<OPTION VALUE="TRADE">
-<OPTION VALUE="TRANS">
-<OPTION VALUE="MIL">
-<td class="bodytext" vAlign="top">
-<td colspan="5" align="left">
-<td class="bodytext" vAlign="top" align="right">
-<font color="Red">
-<td colspan="5" align="left">
-<textarea name="required-message" rows="8" wrap="PHYSICAL" id="message" cols="30" tabindex="13">
+<form method=post action=/htbin/formproc/kaptur/webforms/issue_subscribe_file_new.txt&display=/kaptur/webforms/issue_subscribe_thank_you.htm>
+<table width=766 cellpadding=0 cellspacing=0>
+<td valign=top>
+<td align=left  valign=top>
+<span class=bodytext>
+<font color=red>
+<td align=left  valign=top>
+<span class=bodytext>
+<font color=red>
+<td align=left  valign=top>
+<span class=bodytext>
+<td align=left  valign=top>
+<span class=bodytext>
+<font color=red>
+<td align=left  valign=top>
+<span class=bodytext>
+<font size=1>
+<td width=129 valign=top align=right>
+<font color=red>
+<td width=87 align=left  valign=top>
+<select name=required-prefix tabindex=0>
+<option value=mr.>
+<option value=mrs.>
+<option value=ms.>
+<option value=dr.>
+<td width=124 align=left  valign=top>
+<span class=bodytext>
+<input name=required-first id=first_name tabindex=2 size=15 >
+<td width=120 align=left  valign=top>
+<span class=bodytext>
+<input name=middle id=middle tabindex=3 size=15 >
+<td width=127 align=left  valign=top>
+<span class=bodytext>
+<input name=required-last id=last_name tabindex=4 size=15 >
+<td width=177 align=left  valign=top>
+<span class=bodytext>
+<input name=suffix id=suffix tabindex=5 size=15 >
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<font color=red>
+<td colspan=5 align=left class=bodytext>
+<input name=required-address id=street_address tabindex=6 size=30>
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<font color=red>
+<td colspan=5 align=left class=bodytext>
+<input name=required-city id=city tabindex=7 size=20>
+<font color=red>
+<font color=red>
+<input name=required-zip5 id=zip tabindex=9 size=5 maxlength=10 >
+<input name=zip4 id=zip0 tabindex=10 size=4 maxlength=10 >
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<td colspan=5 align=left class=bodytext>
+<input name=phone id=phone tabindex=11 size=30>
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<font color=red>
+<td colspan=5 align=left class=bodytext>
+<input name=required-email id=email tabindex=11 size=30>
+<td valign=top>
+<td colspan=5 align=left>
+<td valign=top align=right>
+<font color=red>
+<td colspan=5 align=left>
+<select name=required-subject size=1>
+<option disabled value= selected>
+<option value=abortion>
+<option value=agri>
+<option value=anml>
+<option value=econ>
+<option value=jud>
+<option value=econ>
+<option value=edu>
+<option value=enr>
+<option value=env>
+<option value=fp>
+<option value=jud>
+<option value=hlth>
+<option value=house>
+<option value=imm>
+<option value=labor>
+<option value=jud>
+<option value=labor>
+<option value=ss>
+<option value=mil>
+<option value=ss>
+<option value=tax>
+<option value=telcom>
+<option value=trade>
+<option value=trans>
+<option value=mil>
+<td class=bodytext valign=top>
+<td colspan=5 align=left>
+<td class=bodytext valign=top align=right>
+<font color=red>
+<td colspan=5 align=left>
+<textarea name=required-message rows=8 wrap=physical id=message cols=30 tabindex=13>
 <p>
 <table>
-<td valign="top">
+<td valign=top>
 <p>
-<td align="center">
+<td align=center>
 <p>
-<LABEL for="subscribe">
-<input type="radio" name="enewsletteroption" id="subscribe" value="SUBSCRIBE">
-<LABEL for="unsubscribe">
-<input type="radio" name="enewsletteroption" id="unsubscribe" value="UNSUBSCRIBE">
-<td align="center" valign="top" colspan="2">
-<td align="center" valign="top" colspan="2">
+<label for=subscribe>
+<input type=radio name=enewsletteroption id=subscribe value=subscribe>
+<label for=unsubscribe>
+<input type=radio name=enewsletteroption id=unsubscribe value=unsubscribe>
+<td align=center valign=top colspan=2>
+<td align=center valign=top colspan=2>
 <b>
-<font color="#FF0000">
+<font color=#ff0000>
 <td colspan=2>
 <center>
-<input type="submit" value="Send Email">
-<input type="reset" value="Reset">
+<input type=submit value=send email>
+<input type=reset value=reset>
 <td valign=top>
 <hr>
 <td valign=top>

@@ -1,8 +1,8 @@
-<input type='text' name='32116-name' id='32116-name' value='' placeholder='Name:' class='text'>
-<input type='text' name='32116-street-address' id='32116-street-address' value='' placeholder='Street Address:' class='text'>
-<input type='text' name='32116-city' id='32116-city' value='' placeholder='City:' class='text'>
-<label for='32116' class='select'>
-<select name='32116' id='32116' value='' class='select'>
+<input type=text name=32116-name id=32116-name value= placeholder=name: class=text>
+<input type=text name=32116-street-address id=32116-street-address value= placeholder=street address: class=text>
+<input type=text name=32116-city id=32116-city value= placeholder=city: class=text>
+<label for=32116 class=select>
+<select name=32116 id=32116 value= class=select>
 <option>
 <option>
 <option>
@@ -54,11 +54,11 @@
 <option>
 <option>
 <option>
-<input type='text' name='32116-zip' id='32116-zip' value='' placeholder='ZIP:' class='text'>
-<input type='text' name='32116-email' id='32116-email' value='' placeholder='Email:' class='text'>
-<input type='text' name='32116-phone-number' id='32116-phone-number' value='' placeholder='Phone Number:' class='text'>
-<input type='checkbox' name='32116-i-would-like-my-email-added-to-the-district-newsletter-mailing-list' value='Yes' class='checkbox'  >
-<label for='32116-i-would-like-my-email-added-to-the-district-newsletter-mailing-list' class='checkbox'>
-<textarea name='32116-message' id='contact-form-comment-32116-message' placeholder='Message:' rows='14'>
-<input type='submit' value='Send' class='churchope_button'>
+<input type=text name=32116-zip id=32116-zip value= placeholder=zip: class=text>
+<input type=text name=32116-email id=32116-email value= placeholder=email: class=text>
+<input type=text name=32116-phone-number id=32116-phone-number value= placeholder=phone number: class=text>
+<input type=checkbox name=32116-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=yes class=checkbox  >
+<label for=32116-i-would-like-my-email-added-to-the-district-newsletter-mailing-list class=checkbox>
+<textarea name=32116-message id=contact-form-comment-32116-message placeholder=message: rows=14>
+<input type=submit value=send class=churchope_button>
 <p>

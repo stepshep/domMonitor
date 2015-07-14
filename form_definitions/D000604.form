@@ -1,155 +1,155 @@
-<form method="post" class="uniForm">
-<fieldset class="blockLabels">
-<p class="legend">
-<label for="Prefix">
-<strong class="required">
-<select class="selectInput" name="Prefix" id="Prefix" value="">
-<option value="">
-<option value="Mr.">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Mr. and Mrs.">
-<option value="Dr.">
-<option value="Dr. and Mr.">
-<option value="Dr. and Mrs.">
-<option value="Dr. and Dr.">
-<option value="Rabbi">
-<option value="Reverend">
-<option value="Sister">
-<option value="Brother">
-<option value="Father">
-<option value="Pastor">
-<label for="FirstName">
-<strong class="required">
-<input type="text" class="textInput" name="FirstName" id="FirstName" value="" >
-<label for="LastName">
-<strong class="required">
-<input type="text" class="textInput" name="LastName" id="LastName" value="" >
-<label for="Address1">
-<strong class="required">
-<input type="text" class="textInput" name="Address1" id="Address1" value="" >
-<label for="Address2">
-<input type="text" class="textInput" name="Address2" id="Address2" value="" >
-<label for="City">
-<strong class="required">
-<input type="text" class="textInput" name="City" id="City" value="" >
-<label for="State">
-<strong class="required">
-<select class="selectInput" name="State" id="State">
-<option value="">
-<option value="----Military----">
-<option value="AA">
-<option value="AE">
-<option value="AP">
-<option value="----States----">
-<option value="AL">
-<option value="AK">
-<option value="AZ">
-<option value="AR">
-<option value="CA">
-<option value="CO">
-<option value="CT">
-<option value="DE">
-<option value="DC">
-<option value="FL">
-<option value="GA">
-<option value="HI">
-<option value="ID">
-<option value="IL">
-<option value="IN">
-<option value="IA">
-<option value="KS">
-<option value="KY">
-<option value="LA">
-<option value="ME">
-<option value="MD">
-<option value="MA">
-<option value="MI">
-<option value="MN">
-<option value="MS">
-<option value="MO">
-<option value="MT">
-<option value="NE">
-<option value="NV">
-<option value="NH">
-<option value="NJ">
-<option value="NM">
-<option value="NY">
-<option value="NC">
-<option value="ND">
-<option value="OH">
-<option value="OK">
-<option value="OR">
-<option value="PA" selected="selected">
-<option value="RI">
-<option value="SC">
-<option value="SD">
-<option value="TN">
-<option value="TX">
-<option value="UT">
-<option value="VT">
-<option value="VA">
-<option value="WA">
-<option value="WV">
-<option value="WI">
-<option value="WY">
-<label for="ZipCode">
-<strong class="required">
-<input type="text" class="textInput" name="ZipCode" id="ZipCode" value="" >
-<label for="PhoneNumber">
-<input type="text" class="textInput" name="PhoneNumber" id="PhoneNumber" value="" >
-<label for="EmailAddress">
-<strong class="required">
-<input type="text" class="textInput" name="EmailAddress" id="EmailAddress" value="" >
-<fieldset class="blockLabels">
-<p class="legend">
-<label for="MessageType_1" class="inlineLabel">
-<input type="radio" name="MessageType" id="MessageType_1" value="Express an opinion or share your views with me"  >
-<label for="MessageType_2" class="inlineLabel">
-<input type="radio" name="MessageType" id="MessageType_2" value="CASEWORK"  >
-<label for="Topic">
-<strong class="required">
-<select class="selectInput" name="Topic" id="Topic" value="">
-<option value="" selected="selected">
-<option value="AGRI">
-<option value="ANML">
-<option value="ARTS">
-<option value="BANK">
-<option value="BUD">
-<option value="COMM">
-<option value="CRI">
-<option value="DEF">
-<option value="ECON">
-<option value="ENR">
-<option value="ENV">
-<option value="EDU">
-<option value="CMPN">
-<option value="FAFF">
-<option value="GUNS">
-<option value="HEA">
-<option value="HOME.SEC">
-<option value="HOUS">
-<option value="IMM">
-<option value="JUD">
-<option value="LBR">
-<option value="MEDI">
-<option value="NAT_PARK">
-<option value="FAM_PRO">
-<option value="TECH">
-<option value="SNRS">
-<option value="BUS_SM">
-<option value="SOC">
-<option value="STEM">
-<option value="TAX">
-<option value="TRD">
-<option value="UNION">
-<option value="VET">
-<option value="OTHER">
-<label for="Subject">
-<strong class="required">
-<input type="text" class="textInput" name="Subject" id="Subject" value="" >
-<label for="Message">
-<strong class="required">
-<textarea name="Message" id="Message" >
-<input type="submit" class="primaryAction" value="Submit" >
+<form method=post class=uniform>
+<fieldset class=blocklabels>
+<p class=legend>
+<label for=prefix>
+<strong class=required>
+<select class=selectinput name=prefix id=prefix value=>
+<option value=>
+<option value=mr.>
+<option value=mrs.>
+<option value=ms.>
+<option value=miss>
+<option value=mr. and mrs.>
+<option value=dr.>
+<option value=dr. and mr.>
+<option value=dr. and mrs.>
+<option value=dr. and dr.>
+<option value=rabbi>
+<option value=reverend>
+<option value=sister>
+<option value=brother>
+<option value=father>
+<option value=pastor>
+<label for=firstname>
+<strong class=required>
+<input type=text class=textinput name=firstname id=firstname value= >
+<label for=lastname>
+<strong class=required>
+<input type=text class=textinput name=lastname id=lastname value= >
+<label for=address1>
+<strong class=required>
+<input type=text class=textinput name=address1 id=address1 value= >
+<label for=address2>
+<input type=text class=textinput name=address2 id=address2 value= >
+<label for=city>
+<strong class=required>
+<input type=text class=textinput name=city id=city value= >
+<label for=state>
+<strong class=required>
+<select class=selectinput name=state id=state>
+<option value=>
+<option value=----military---->
+<option value=aa>
+<option value=ae>
+<option value=ap>
+<option value=----states---->
+<option value=al>
+<option value=ak>
+<option value=az>
+<option value=ar>
+<option value=ca>
+<option value=co>
+<option value=ct>
+<option value=de>
+<option value=dc>
+<option value=fl>
+<option value=ga>
+<option value=hi>
+<option value=id>
+<option value=il>
+<option value=in>
+<option value=ia>
+<option value=ks>
+<option value=ky>
+<option value=la>
+<option value=me>
+<option value=md>
+<option value=ma>
+<option value=mi>
+<option value=mn>
+<option value=ms>
+<option value=mo>
+<option value=mt>
+<option value=ne>
+<option value=nv>
+<option value=nh>
+<option value=nj>
+<option value=nm>
+<option value=ny>
+<option value=nc>
+<option value=nd>
+<option value=oh>
+<option value=ok>
+<option value=or>
+<option value=pa selected=selected>
+<option value=ri>
+<option value=sc>
+<option value=sd>
+<option value=tn>
+<option value=tx>
+<option value=ut>
+<option value=vt>
+<option value=va>
+<option value=wa>
+<option value=wv>
+<option value=wi>
+<option value=wy>
+<label for=zipcode>
+<strong class=required>
+<input type=text class=textinput name=zipcode id=zipcode value= >
+<label for=phonenumber>
+<input type=text class=textinput name=phonenumber id=phonenumber value= >
+<label for=emailaddress>
+<strong class=required>
+<input type=text class=textinput name=emailaddress id=emailaddress value= >
+<fieldset class=blocklabels>
+<p class=legend>
+<label for=messagetype_1 class=inlinelabel>
+<input type=radio name=messagetype id=messagetype_1 value=express an opinion or share your views with me  >
+<label for=messagetype_2 class=inlinelabel>
+<input type=radio name=messagetype id=messagetype_2 value=casework  >
+<label for=topic>
+<strong class=required>
+<select class=selectinput name=topic id=topic value=>
+<option value= selected=selected>
+<option value=agri>
+<option value=anml>
+<option value=arts>
+<option value=bank>
+<option value=bud>
+<option value=comm>
+<option value=cri>
+<option value=def>
+<option value=econ>
+<option value=enr>
+<option value=env>
+<option value=edu>
+<option value=cmpn>
+<option value=faff>
+<option value=guns>
+<option value=hea>
+<option value=home.sec>
+<option value=hous>
+<option value=imm>
+<option value=jud>
+<option value=lbr>
+<option value=medi>
+<option value=nat_park>
+<option value=fam_pro>
+<option value=tech>
+<option value=snrs>
+<option value=bus_sm>
+<option value=soc>
+<option value=stem>
+<option value=tax>
+<option value=trd>
+<option value=union>
+<option value=vet>
+<option value=other>
+<label for=subject>
+<strong class=required>
+<input type=text class=textinput name=subject id=subject value= >
+<label for=message>
+<strong class=required>
+<textarea name=message id=message >
+<input type=submit class=primaryaction value=submit >

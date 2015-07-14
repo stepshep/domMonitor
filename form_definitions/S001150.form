@@ -1,12 +1,12 @@
-<form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
-<fieldset class="topicset">
+<form id=contactform  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<fieldset class=topicset>
 <h2>
-<select id="subject" class="form-control contactselector" name="subject" class="validate['required','%subject']" onChange="javascript:getHelp(this.value);">
-<option label="- - Select an Option - -" value="" selected="selected">
-<option label="Get Help" value="request">
-<option label="Federal Agency Help" value="federal_agency">
-<option label="Request a flag to be flown over the Capitol flag" value="flag">
-<option label="Request a greeting or commemorative message" value="message">
-<option label="Schedule a Meeting" value="meeting">
-<option label="Share your opinion or comments on bills or other issues" value="opinion">
-<option label="Sign Up For E-Newsletter Updates" value="newsletter">
+<select id=subject class=form-control contactselector name=subject class=validate[required,%subject] onchange=javascript:gethelp(this.value);>
+<option label=- - select an option - - value= selected=selected>
+<option label=get help value=request>
+<option label=federal agency help value=federal_agency>
+<option label=request a flag to be flown over the capitol flag value=flag>
+<option label=request a greeting or commemorative message value=message>
+<option label=schedule a meeting value=meeting>
+<option label=share your opinion or comments on bills or other issues value=opinion>
+<option label=sign up for e-newsletter updates value=newsletter>

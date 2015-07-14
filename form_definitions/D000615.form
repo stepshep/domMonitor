@@ -1,103 +1,103 @@
-<form action="/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2" class="validate wsbform" method="post" name="contactForm" id="contactForm">
+<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpgetver=2 class=validate wsbform method=post name=contactform id=contactform>
 <fieldset>
 <legend>
-<label for="prefix">
-<select class="validate[required] is-required" id="required-prefix" name="required-prefix" size="1">
-<option selected="selected" value="">
-<option value="Ms.">
-<option value="Miss">
-<option value="Mrs.">
-<option value="Mr.">
-<option value="Mr. and Mrs.">
-<option value="Rev.">
-<option value="Dr.">
-<option value="The Honorable">
-<option value="Rabbi">
-<label for="required-first">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-first" maxlength="100" name="required-first" size="15">
-<label for="middle">
-<input id="middle" maxlength="100" name="middle" size="2">
-<label for="required-last">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-last" maxlength="100" name="required-last" size="15">
-<label for="suffix">
-<input id="suffix" maxlength="100" name="suffix" size="2">
-<label for="required-address">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-address" maxlength="100" name="required-address" size="90">
-<label for="required-address">
-<input id="address2" maxlength="100" name="address2" size="90">
-<label for="required-city">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-city" maxlength="100" name="required-city" size="30">
-<label for="required-state">
-<span class="required-field" title="required information">
-<label for="required-zip5">
-<span class="required-field" title="required information">
-<label for="zip4">
-<label for="required-valid-email">
-<span class="required-field" title="required information">
-<input class="validate[required,custom[email]] is-required" id="required-valid-email" maxlength="100" name="required-valid-email" size="90">
+<label for=prefix>
+<select class=validate[required] is-required id=required-prefix name=required-prefix size=1>
+<option selected=selected value=>
+<option value=ms.>
+<option value=miss>
+<option value=mrs.>
+<option value=mr.>
+<option value=mr. and mrs.>
+<option value=rev.>
+<option value=dr.>
+<option value=the honorable>
+<option value=rabbi>
+<label for=required-first>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-first maxlength=100 name=required-first size=15>
+<label for=middle>
+<input id=middle maxlength=100 name=middle size=2>
+<label for=required-last>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-last maxlength=100 name=required-last size=15>
+<label for=suffix>
+<input id=suffix maxlength=100 name=suffix size=2>
+<label for=required-address>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-address maxlength=100 name=required-address size=90>
+<label for=required-address>
+<input id=address2 maxlength=100 name=address2 size=90>
+<label for=required-city>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-city maxlength=100 name=required-city size=30>
+<label for=required-state>
+<span class=required-field title=required information>
+<label for=required-zip5>
+<span class=required-field title=required information>
+<label for=zip4>
+<label for=required-valid-email>
+<span class=required-field title=required information>
+<input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90>
 <p>
 <fieldset>
 <legend>
-<label for="phone">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required is-inline" id="phone1" maxlength="3" name="phone1" size="5">
-<input class="validate[required] is-required is-inline" id="phone2" maxlength="3" name="phone2" size="5">
-<input class="validate[required] is-required is-inline" id="phone3" maxlength="4" name="phone3" size="10">
-<input checked="checked" class="is-inline" id="speech_0" name="speech" type="radio" value="Voice">
-<label for="speech_0">
-<input class="is-inline" id="speech_1" name="speech" type="radio" value="VP">
-<label for="speech_1">
-<input class="is-inline" id="speech_2" name="speech" type="radio" value="TTD">
-<label for="speech_2">
-<p class="small">
-<span class="stand-out">
+<label for=phone>
+<span class=required-field title=required information>
+<input class=validate[required] is-required is-inline id=phone1 maxlength=3 name=phone1 size=5>
+<input class=validate[required] is-required is-inline id=phone2 maxlength=3 name=phone2 size=5>
+<input class=validate[required] is-required is-inline id=phone3 maxlength=4 name=phone3 size=10>
+<input checked=checked class=is-inline id=speech_0 name=speech type=radio value=voice>
+<label for=speech_0>
+<input class=is-inline id=speech_1 name=speech type=radio value=vp>
+<label for=speech_1>
+<input class=is-inline id=speech_2 name=speech type=radio value=ttd>
+<label for=speech_2>
+<p class=small>
+<span class=stand-out>
 <p>
 <fieldset>
 <legend>
-<label for="required-issue">
-<span class="required-field" title="required information">
-<select class="validate[required] is-required" id="required-issue" name="required-issue" size="1">
-<option selected="selected" value="">
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEBT">
-<option value="WEBDEF">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBGAS">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBIMM">
-<option value="WEBINT">
-<option value="WEBJUD">
-<option value="WEBLAB">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTAX">
-<option value="WEBTEL">
-<option value="WEBTRA">
-<option value="WEBTRADE">
-<option value="WEBVET">
-<option value="WEBWEL">
-<option value="WEBOTH">
-<label for="required-subject">
-<span class="required-field" title="required information">
-<input class="validate[required] is-required" id="required-subject" maxlength="100" name="required-subject" size="90">
-<label for="required-message">
-<span class="required-field" title="required information">
-<textarea class="validate[required] is-required" cols="68" id="required-message" name="required-message" rows="5">
-<label for="required-response">
-<select class="validate[required] is-required" id="required-response" name="required-response" size="1">
-<option selected="selected" value="Please select a response">
-<option value="Y">
-<option value="N">
-<input class="is-inline" id="subcribe" name="subscribe" type="Checkbox" value="AFFL">
-<label for="subscribe">
-<input class="submit" id="submit" name="submit" type="submit" value="Send Email">
+<label for=required-issue>
+<span class=required-field title=required information>
+<select class=validate[required] is-required id=required-issue name=required-issue size=1>
+<option selected=selected value=>
+<option value=webagr>
+<option value=webbud>
+<option value=webdebt>
+<option value=webdef>
+<option value=webedu>
+<option value=webene>
+<option value=webenv>
+<option value=webgas>
+<option value=webgov>
+<option value=webhea>
+<option value=webhom>
+<option value=webimm>
+<option value=webint>
+<option value=webjud>
+<option value=weblab>
+<option value=websoc>
+<option value=webssec>
+<option value=webtax>
+<option value=webtel>
+<option value=webtra>
+<option value=webtrade>
+<option value=webvet>
+<option value=webwel>
+<option value=weboth>
+<label for=required-subject>
+<span class=required-field title=required information>
+<input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90>
+<label for=required-message>
+<span class=required-field title=required information>
+<textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
+<label for=required-response>
+<select class=validate[required] is-required id=required-response name=required-response size=1>
+<option selected=selected value=please select a response>
+<option value=y>
+<option value=n>
+<input class=is-inline id=subcribe name=subscribe type=checkbox value=affl>
+<label for=subscribe>
+<input class=submit id=submit name=submit type=submit value=send email>
 <p>
