@@ -1,90 +1,36 @@
-<form id= class=submit-nex-form name=nex_form action=http://governor.wyo.gov/wp-admin/admin-ajax.php method=post enctype=multipart/form-data>
-<input type=text name=company_url value= placeholder=enter company url class=form-control req>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=first_name title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=10000 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=last_name title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=address title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=city title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=state title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=zip_code title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=is_required glyphicon glyphicon-star btn-xs style=color: rgb(98, 98, 98);>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=email title= class=error_message svg_ready the_input_element text pre-format form-control required email id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message=Invalid e-mail format data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px;>
-<span class=is_required glyphicon glyphicon-star btn-xs style=color: rgb(98, 98, 98);>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=phone title= class=error_message svg_ready the_input_element text pre-format form-control required id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(0, 0, 0); outline-width: 1px; type=text maxlength=200 placeholder= value= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-minus>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<input name=subject title= class=error_message svg_ready the_input_element text pre-format form-control id=ve_text style=background: rgb(255, 255, 255); border-color: rgb(221, 221, 221); color: rgb(51, 51, 51); outline-width: 1px; outline-offset: 0px; type=text maxlength=200 placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-secondary-message= data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon-align-justify>
-<span class=field_title>
-<label class=nexf_title ve_title id=nexf_title style=outline-width: 1px; outline-offset: 0px;>
-<span class=the_label style_bold style=color: rgb(98, 98, 98);>
-<small class=sub-text style_italic style=color: rgb(153, 153, 153);>
-<textarea name=message title= class=error_message svg_ready the_input_element textarea pre-format form-control id=textarea style=background: rgb(255, 255, 255); border-color: rgb(204, 204, 204); height: 147px; color: rgb(85, 85, 85); margin-top: 0px; margin-bottom: 0px; outline-width: 1px; outline-offset: 0px; placeholder= data-original-title= data-placement=bottom data-content=Please enter a value data-drop-focus-swadow=1 data-onfocus-color=#66afe9 data-default-value= data-maxlength-show=false data-maxlength-position=bottom data-maxlength-color=label label-success>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
-<i class= glyphicon glyphicon glyphicon-send>
-<span class=field_title>
-<button title= class=nex-submit svg_ready the_input_element btn btn-primary align_right style=background: rgb(168, 7, 15); border-color: rgb(145, 9, 16); color: rgb(255, 255, 255); outline-width: 1px; outline-offset: 0px; data-original-title= data-onfocus-color=#000000>
-<small class=svg_ready>
-<i class=glyphicon glyphicon-pencil>
-<i class=glyphicon glyphicon-remove>
+<form action="https://www.docs.google.com/forms/d/1W3isJW03nRFK-lxsqyFGuQq5HoHs7WcgyZ4nF_nmeYQ/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<ol role="list" class="ss-question-list" style="padding-left: 0">
+<label class="ss-q-item-label" for="entry_1535239074">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.1535239074" value="" class="ss-q-short" id="entry_1535239074" dir="auto" aria-label="First Name:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_1880037389">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.1880037389" value="" class="ss-q-short" id="entry_1880037389" dir="auto" aria-label="Last Name:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_1553778991">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.1553778991" value="" class="ss-q-short" id="entry_1553778991" dir="auto" aria-label="Address:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_136714539">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.136714539" value="" class="ss-q-short" id="entry_136714539" dir="auto" aria-label="City:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_622234953">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.622234953" value="" class="ss-q-short" id="entry_622234953" dir="auto" aria-label="State:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_2097195641">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.2097195641" value="" class="ss-q-short" id="entry_2097195641" dir="auto" aria-label="Zip Code:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_1531306201">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="email" name="entry.1531306201" value="" class="ss-q-short" id="entry_1531306201" dir="auto" aria-label="Email:  Please enter a valid email address." aria-required="true" required="" title="Please enter a valid email address.">
+<label class="ss-q-item-label" for="entry_1246537198">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.1246537198" value="" class="ss-q-short" id="entry_1246537198" dir="auto" aria-label="Phone:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_1086040925">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<input type="text" name="entry.1086040925" value="" class="ss-q-short" id="entry_1086040925" dir="auto" aria-label="Subject:  " aria-required="true" required="" title="">
+<label class="ss-q-item-label" for="entry_1786983745">
+<label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
+<textarea name="entry.1786983745" rows="8" cols="0" class="ss-q-long" id="entry_1786983745" dir="auto" aria-label="Message:  " aria-required="true" required="">
+<table id="navigation-table">
+<tbody>
+<td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+<input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">

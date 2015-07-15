@@ -16,6 +16,15 @@
 <option value=Ms.>
 <option value=The Honorable>
 <option value=Miss>
+<option value=Mr. and Mrs.>
+<option value=Reverend>
+<option value=Father>
+<option value=Sister>
+<option value=Major General>
+<option value=General>
+<option value=Colonel>
+<option value=Secretary>
+<option value=Assistant Secretary>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl09_FirstName>
 <span class=header>
