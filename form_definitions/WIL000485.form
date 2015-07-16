@@ -1,5 +1,0 @@
-<form class="form-inline" action="/assembly/94/doyle/search-results/" method="GET">
-<input class="form-control" type="text" name="q" >
-<span class="input-group-btn" >
-<button class="btn btn-default" type="button" onclick="submit();">
-<i class="glyphicon glyphicon-search">

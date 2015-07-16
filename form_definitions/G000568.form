@@ -1,5 +1,0 @@
-<form action=/sitemap/searchresults.htm class=search-form>
-<fieldset>
-<legend>
-<input type=text placeholder=SEARCH SITE class=text tabindex=6 title=search site name=q >
-<input type=submit class=submit value=go tabindex=7 title=submit >

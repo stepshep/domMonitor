@@ -1,6 +1,0 @@
-<form action=/htbin/formproc/newsletter-signup.txt&amp;display=/contact-me/newsletter-subscribe-thankyou&amp;nobase&amp;fpGetVer=2 method=post>
-<input class=form-text search-field-fname id=edit-signup-theme-form-1 maxlength=128 name=required-prefix onfocus=this.value= size=5 title=Prefix type=text value=Prefix>
-<input class=form-text search-field-fname id=edit-signup-theme-form-1 maxlength=128 name=required-first onfocus=this.value= size=6 title=First Name type=text value=First Name>
-<input class=form-text search-field-lname id=edit-signup-theme-form-1 maxlength=128 name=required-last onfocus=this.value= size=17 title=Last Name type=text value=Last Name>
-<input class=form-text search-field-email id=edit-signup-theme-form-1 maxlength=128 name=required-valid-email onfocus=this.value= size=24 title=Enter your email address. type=text value=your@email.com>
-<input class=form-submit id=edit-submit type=submit value=submit>
