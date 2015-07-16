@@ -1,4 +1,4 @@
-<form method=post action=?zip5=01002&amp;zip4=6246 onsubmit=javascript:return WebForm_OnSubmit(); id=aspnetForm>
+<form method=post action=?zip5=01002&amp;zip4=6246 id=aspnetForm>
 <style type=text/css>
 <span id=auth-displayname>
 <span class=pageHeader>
@@ -146,8 +146,8 @@
 <label for=ctl00_ctl06_ReplyChoice_1>
 <label for=ctl00_ctl06_Subject>
 <span class=header>
-<input name=ctl00$ctl06$Subject type=text id=ctl00_ctl06_Subject style=width:30em;>
+<input name=ctl00$ctl06$Subject type=text id=ctl00_ctl06_Subject>
 <label for=ctl00_ctl06_Body>
 <span class=header>
-<textarea name=ctl00$ctl06$Body rows=15 cols=20 id=ctl00_ctl06_Body style=width:30em;>
+<textarea name=ctl00$ctl06$Body rows=15 cols=20 id=ctl00_ctl06_Body>
 <input type=submit name=ctl00$ctl06$SubmitButton value=Submit onclick=if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl06$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_ctl06_SubmitButton class=ContactForm_Submit>

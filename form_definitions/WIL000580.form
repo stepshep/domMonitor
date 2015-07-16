@@ -1,4 +1,4 @@
-<form name="aspnetForm" method="post" action="Email-Senator-Wirch.aspx" id="aspnetForm">
+<form name="aspnetForm" method="post" action="Email-Senator-Wirch.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <span class="s4-notdlg">
 <ul class="root static">
 <li class="static">

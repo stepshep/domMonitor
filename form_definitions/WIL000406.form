@@ -1,4 +1,4 @@
-<form name="aspnetForm" method="post" action="Request-Assistance.aspx" id="aspnetForm">
+<form name="aspnetForm" method="post" action="Request-Assistance.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <noscript>
 <table class="s4-titletable" cellspacing="0">
 <tbody>

@@ -101,4 +101,3 @@
 <option value=Y>
 <option value=N>
 <input class=submit id=submit name=submit role=button type=submit value=Send Email>
-<p>

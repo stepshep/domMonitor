@@ -1,4 +1,4 @@
-<form name="aspnetForm" method="post" action="contact.aspx" id="aspnetForm">
+<form name="aspnetForm" method="post" action="contact.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <script>
 <header id="brandingArea">
 <ul id="portalBarNav">
@@ -48,6 +48,7 @@
 <li class="KI-Menu-Leaf singleItem">
 <li class="KI-Menu-WithChildren">
 <li class="KI-Menu-Leaf firstItem">
+<li class="KI-Menu-Leaf">
 <li class="KI-Menu-Leaf lastItem">
 <li class="KI-Menu-Leaf  KI-Menu-Selected lastItem">
 <span id="ctl00_siteMapPath">

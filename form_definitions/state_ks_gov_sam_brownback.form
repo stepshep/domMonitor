@@ -1,4 +1,4 @@
-<form method="post" action="legislation-and-policy-issues" id="form1">
+<form method="post" action="legislation-and-policy-issues" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
 <span id="uxDateLbl">
 <fieldset id="SearchInHeader_T9D0516A5020_ctl00_ctl00_main" class="sfsearchBox">
 <input name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchTextBox" type="text" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchTextBox" class="sfsearchTxt" >
