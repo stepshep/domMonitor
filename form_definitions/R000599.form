@@ -1,0 +1,8 @@
+<form action=/htbin/formproc/newsletter-subscribe.txt%26display%3D/contact/newsletter/newsletter-subscribe-thankyou%26nobase%26fpGetVer%3D2 class=validate wsbform id=newsletter_signup_form name=newsletter_signup_form>
+<label for=required-first>
+<input class=form-text id=first maxlength=25 name=required-first required= type=text>
+<label for=required-last>
+<input class=form-text id=last maxlength=25 name=required-last required= type=text>
+<label for=signup-email>
+<input class=form-text id=signup-email maxlength=100 name=required-valid-email placeholder=your@email.com required= title=Enter your email address. type=email>
+<input class=form-submit id=submit role=button value=Sign Up type=submit>

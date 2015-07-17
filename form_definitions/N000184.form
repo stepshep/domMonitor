@@ -1,0 +1,156 @@
+<form method=post class=uniForm>
+<p class=legend>
+<fieldset class=blockLabels>
+<label for=field_0141D12F-315B-46E2-9D7B-C5B5614F144A>
+<strong class=required>
+<select class=selectInput name=field_0141D12F-315B-46E2-9D7B-C5B5614F144A id=field_0141D12F-315B-46E2-9D7B-C5B5614F144A value=>
+<option value=>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Mr. and Mrs.>
+<option value=Dr.>
+<option value=Dr. and Mr.>
+<option value=Dr. and Mrs.>
+<option value=Dr. and Dr.>
+<option value=Rabbi>
+<option value=Reverend>
+<option value=Sister>
+<option value=Brother>
+<option value=Father>
+<option value=Pastor>
+<label for=field_844CEEDB-B2E1-4444-8E26-E7C1A9866178>
+<strong class=required>
+<input type=text class=textInput name=field_844CEEDB-B2E1-4444-8E26-E7C1A9866178 id=field_844CEEDB-B2E1-4444-8E26-E7C1A9866178 value= >
+<label for=field_E0B97E0C-045A-4F5C-A80E-61F9F87A75B1>
+<strong class=required>
+<input type=text class=textInput name=field_E0B97E0C-045A-4F5C-A80E-61F9F87A75B1 id=field_E0B97E0C-045A-4F5C-A80E-61F9F87A75B1 value= >
+<label for=field_B2D27B97-C656-48F7-ADA9-D69B81580EC9>
+<strong class=required>
+<input type=text class=textInput name=field_B2D27B97-C656-48F7-ADA9-D69B81580EC9 id=field_B2D27B97-C656-48F7-ADA9-D69B81580EC9 value= >
+<label for=field_EA62F177-89B3-4094-9BE7-8CE97C00638F>
+<input type=text class=textInput name=field_EA62F177-89B3-4094-9BE7-8CE97C00638F id=field_EA62F177-89B3-4094-9BE7-8CE97C00638F value= >
+<label for=field_763A52C0-8157-43C5-AF52-0ED8FA8E51AC>
+<strong class=required>
+<input type=text class=textInput name=field_763A52C0-8157-43C5-AF52-0ED8FA8E51AC id=field_763A52C0-8157-43C5-AF52-0ED8FA8E51AC value= >
+<label for=field_2906B467-0FB7-45D0-93EC-2C9252E483A8>
+<strong class=required>
+<select class=selectInput name=field_2906B467-0FB7-45D0-93EC-2C9252E483A8 id=field_2906B467-0FB7-45D0-93EC-2C9252E483A8 value=SD>
+<option value=----Military---->
+<option value=AA>
+<option value=AE>
+<option value=AP>
+<option value=----States---->
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD selected=selected>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
+<label for=field_F4735D68-4566-4C7D-BBF4-69CCAE5B6014>
+<strong class=required>
+<input type=text class=textInput name=field_F4735D68-4566-4C7D-BBF4-69CCAE5B6014 id=field_F4735D68-4566-4C7D-BBF4-69CCAE5B6014 value= >
+<label for=field_3F07365E-CA1C-4A5A-ACC0-C60A44AE79C0>
+<strong class=required>
+<input type=text class=textInput name=field_3F07365E-CA1C-4A5A-ACC0-C60A44AE79C0 id=field_3F07365E-CA1C-4A5A-ACC0-C60A44AE79C0 value= >
+<label for=field_DBDD1ED0-E663-4E8E-B789-DF5A7621067D>
+<strong class=required>
+<input type=text class=textInput name=field_DBDD1ED0-E663-4E8E-B789-DF5A7621067D id=field_DBDD1ED0-E663-4E8E-B789-DF5A7621067D value= >
+<p class=legend>
+<fieldset class=blockLabels>
+<label for=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_1 class=inlineLabel>
+<input type=radio name=field_07C7727A-6C47-4FF9-A890-C904FA4D408F id=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_1 value=Express an opinion or share your views with me >
+<label for=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_2 class=inlineLabel>
+<input type=radio name=field_07C7727A-6C47-4FF9-A890-C904FA4D408F id=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_2 value=CASEWORK >
+<label for=field_0DD881FC-20AE-4A28-AC22-84ACEFB97844>
+<strong class=required>
+<select class=selectInput name=field_0DD881FC-20AE-4A28-AC22-84ACEFB97844 id=field_0DD881FC-20AE-4A28-AC22-84ACEFB97844 value=>
+<option value=>
+<option value=1099-CON>
+<option value=ABR>
+<option value=AGR>
+<option value=ARTS>
+<option value=BUD>
+<option value=DEF>
+<option value=ECON>
+<option value=EDU>
+<option value=ENE>
+<option value=ENV>
+<option value=FEDEMP>
+<option value=FOREIGN OIL-CON>
+<option value=GOV>
+<option value=GUNS>
+<option value=HC-REPEAL>
+<option value=HEA>
+<option value=HOM>
+<option value=IMM>
+<option value=INT>
+<option value=JOBS>
+<option value=JUD>
+<option value=LAB>
+<option value=MEDICARE>
+<option value=MISC>
+<option value=SOC>
+<option value=SPEND>
+<option value=SSEC>
+<option value=TAX>
+<option value=TEL>
+<option value=TRA>
+<option value=TRADE>
+<option value=TRI>
+<option value=VET>
+<label for=field_36631AAA-D592-41ED-B114-3C6DDE8C9719>
+<strong class=required>
+<input type=text class=textInput name=field_36631AAA-D592-41ED-B114-3C6DDE8C9719 id=field_36631AAA-D592-41ED-B114-3C6DDE8C9719 value= >
+<label for=field_9DC462DD-C8EB-40B8-AC58-337805FD6D96>
+<strong class=required>
+<textarea name=field_9DC462DD-C8EB-40B8-AC58-337805FD6D96 id=field_9DC462DD-C8EB-40B8-AC58-337805FD6D96 >
+<label for=field_C118293D-C266-4EF6-9F9D-3DD4D9DCFD7F_1 class=inlineLabel>
+<input type=checkbox name=field_C118293D-C266-4EF6-9F9D-3DD4D9DCFD7F id=field_C118293D-C266-4EF6-9F9D-3DD4D9DCFD7F_1 value=EMAIL.OPTIN checked=checked >
+<input type=submit value=Submit >

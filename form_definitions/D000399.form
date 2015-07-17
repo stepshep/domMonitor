@@ -1,0 +1,136 @@
+<form action="index.php" method="post">
+<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox" size="20" value="Site Search" onblur="if(this.value=='') this.value='Site Search';" onfocus="if(this.value=='Site Search') this.value='';" type="text">
+<input value="Search" class="button" onclick="this.form.searchword.focus();" type="submit">
+<FORM METHOD=POST 
+
+
+
+ACTION="/htbin/formproc_za/doggett/webforms/issue_parm.txt&form=/doggett/webforms/issue_subscribe_verify.htm&amp;nobase">
+<center>
+<center>
+<table cellspacing=0 cellpadding=0>
+<td colspan = 2>
+<center>
+<p>
+<td valign=bottom align=right>
+<b>
+<font size="-1">
+<u>
+<table cellspacing=0 cellpadding=0>
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<small>
+<INPUT NAME="required-prefix" type="text" value="" SIZE=10 maxlength=90 >
+<INPUT NAME="required-first" type="text" value="" SIZE=12 maxlength=90 >
+<INPUT NAME="middle" type="text" value="" SIZE=8 maxlength=90>
+<INPUT NAME="required-last" type="text" value="" SIZE=15 maxlength=90>
+<INPUT NAME="suffix" type="text" value="" SIZE=10 maxlength=90>
+<td align=right>
+<b>
+<font size="-1">
+<u>
+<INPUT NAME="required-address" type="text" value="" SIZE=60 maxlength=190>
+<td align=right>
+<b>
+<font size="-1">
+<u>
+<INPUT NAME="required-city" type="text" value="" SIZE=20 maxlength=45>
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<u>
+<INPUT NAME="zip5" type="text" value="" SIZE=5 maxlength=5>
+<b>
+<font size="-1">
+<u>
+<INPUT NAME="zip4" type="text" value="" SIZE=4 maxlength=4>
+<td align=right>
+<b>
+<font size="-1">
+<u>
+<INPUT NAME="required-valid-email" type="text" value="" SIZE=60 maxlength=100>
+<td align=right>
+<b>
+<font size="-1">
+<u>
+<INPUT NAME="required-phone" type="text" value="" SIZE=30 maxlength=100>
+<td align=right valign=top>
+<b>
+<font size="-1">
+<u>
+<SELECT NAME="required-issue" SIZE=1>
+<option value="">
+<OPTION VALUE="ab">
+<OPTION VALUE="ag">
+<OPTION VALUE="ar">
+<OPTION VALUE="arts">
+<OPTION VALUE="bank">
+<OPTION VALUE="bu">
+<OPTION VALUE="consumer">
+<OPTION VALUE="Campfgen">
+<OPTION VALUE="cr">
+<OPTION VALUE="de">
+<OPTION VALUE="tours">
+<OPTION VALUE="ta">
+<OPTION VALUE="ed">
+<OPTION VALUE="en">
+<OPTION VALUE="ev">
+<OPTION VALUE="fv">
+<OPTION VALUE="budget">
+<OPTION VALUE="fa">
+<OPTION VALUE="gv">
+<OPTION VALUE="health">
+<OPTION VALUE="hs">
+<OPTION VALUE="hg">
+<OPTION VALUE="hr">
+<OPTION VALUE="im">
+<OPTION VALUE="ju">
+<OPTION VALUE="la">
+<OPTION VALUE="hcmedicare">
+<OPTION VALUE="casework">
+<OPTION VALUE="s">
+<OPTION VALUE="se">
+<OPTION VALUE="ss">
+<OPTION VALUE="ta">
+<OPTION VALUE="te">
+<OPTION VALUE="co">
+<OPTION VALUE="tr">
+<OPTION VALUE="ts">
+<OPTION VALUE="va">
+<OPTION VALUE="de">
+<OPTION VALUE="we">
+<OPTION VALUE="gc">
+<OPTION VALUE="other">
+<font size="-1">
+<td valign=top align=right>
+<b>
+<font size="-1">
+<u>
+<TEXTAREA NAME="required-message" ROWS=15 COLS=60>
+<td width=10%>
+<td align=center>
+<td width=10%>
+<td align=center>
+<td colspan=2>
+<center>
+<INPUT TYPE="submit" VALUE="Send Email">
+<INPUT TYPE="reset" VALUE="Reset">
+<td valign=top>
+<hr>
+<td valign=top>
+<hr>
+<small>
+<u>

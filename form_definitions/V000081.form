@@ -1,0 +1,139 @@
+<FORM METHOD=POST 
+ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/velazquez/IMA/issue_subscribe_verify.shtml&nobase">
+<table width="100%" cellpadding="2" cellspacing="0">
+<td valign="bottom" align="right">
+<b>
+<font size="-1">
+<u>
+<table width="100%" cellpadding="2" cellspacing="0">
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<b>
+<font size="-1">
+<u>
+<b>
+<font size="-1">
+<small>
+<input name="required-prefix" type="text" value="" size="5" maxlength="90">
+<input name="required-first" type="text" value="" size="12" maxlength="90">
+<input name="middle" type="text" value="" size="5" maxlength="90" >
+<input name="required-last" type="text" value="" size="15" maxlength="90" >
+<input name="suffix" type="text" value="" size="5" maxlength="90" >
+<td align="right">
+<b>
+<font size="-1">
+<u>
+<input name="required-address" type="text" value="" size="60" maxlength="190" >
+<td align="right">
+<b>
+<font size="-1">
+<u>
+<input name="required-city" type="text" value="" size="20" maxlength="45" >
+<b>
+<font size="-1">
+<u>
+<select name="required-state">
+<option selected="selected">
+<b>
+<font size="-1">
+<u>
+<input name="zip5" type="text" value="" size="5" maxlength="5" >
+<input name="zip4" type="text" value="" size="4" maxlength="4" >
+<td align="right">
+<b>
+<font size="-1">
+<u>
+<input name="required-email" type="text" value="" size="30" maxlength="100" >
+<td align="right">
+<b>
+<font size="-1">
+<u>
+<select name="required-issue" size="1">
+<option value="ADMIN">
+<option value="AGRICULTURE">
+<option value="BANKING ">
+<option value="BUDGET">
+<option value="CHC">
+<option value="CNGRAT/THANK/CONDOL">
+<option value="DEFENSE">
+<option value="ECON_DEV">
+<option value="ED">
+<option value="ELECT-REFORM">
+<option value="ENERGY">
+<option value="ENVIRONMENTAL">
+<option value="ETHICS">
+<option value="FOOD AND NUTRITION">
+<option value="GAY">
+<option value="GRANTS">
+<option value="GRANTS">
+<option value="HEALTH-MCARE/CAIDE">
+<option value="HEALTH-PUBLIC">
+<option value="HOMELAND">
+<option value="HOUSE">
+<option value="IMMIGRATION">
+<option value="INIT">
+<option value="IR">
+<option value="JUD-CIVIL/CONST">
+<option value="JUD-CRIME/GUNS">
+<option value="KATRINA">
+<option value="LABOR">
+<option value="LOCAL NY 12">
+<option value="NYC AGENCY">
+<option value="SBC">
+<option value="SCI AND TECH">
+<option value="SENIOR">
+<option value="TAX_GEN">
+<option value="TELE">
+<option value="TRADE">
+<option value="TRANS">
+<option value="VETS">
+<option value="WELFARE">
+<option value="WOMEN">
+<font size="-1">
+<td valign="top" align="right">
+<b>
+<font size="-1">
+<u>
+<textarea name="required-message" rows="15" cols="40">
+<td width="10%">
+<td align="center">
+<table cellspacing="0" cellpadding="0">
+<td align="left" colspan="4">
+<b>
+<font size="-1">
+<u>
+<td align="center">
+<font size="-1">
+<td align="center">
+<font size="-1">
+<td align="center">
+<font size="-1">
+<td align="left">
+<td align="center">
+<input type="radio" name="affl1" value="" checked="checked" >
+<td align="center">
+<input type="radio" name="affl1" value="&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt;" >
+<td align="center">
+<input type="radio" name="affl1" value="&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt;" >
+<td colspan="3" align="center">
+<p>
+<input name="submit" type="submit" value="Send Email" >
+<input name="reset" type="reset" value="Reset" >
+<td colspan="2">
+<center>
+<td valign="top">
+<hr >
+<td valign="top">
+<hr >
+<small>
+<u>
+<small>
+<form action="http://search.house.gov/htbin/search" method="post" target="_blank" >
+<input type="text"  name="q"  onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" title="Search" size="15" maxlength="255" class="searchfield" style="margin-top:3px; height:18px;"  >
+<input name="submit" type="submit" value="Search">

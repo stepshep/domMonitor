@@ -1,0 +1,113 @@
+<form action=http://www.utah.gov/formprocessor/index.uii method=post name=contactForm id=contactForm>
+<p>
+<label for=senator>
+<select name=senator id=senator>
+<option value= selected>
+<option value=jsadams@le.utah.gov>
+<option value=curt@cbramble.com>
+<option value=achristensen@le.utah.gov>
+<option value=jdabakis@le.utah.gov>
+<option value=gdavis@le.utah.gov>
+<option value=mdayton@le.utah.gov>
+<option value=lescamilla@le.utah.gov>
+<option value=wharper@le.utah.gov>
+<option value=dhenderson@le.utah.gov>
+<option value=lhillyard@le.utah.gov>
+<option value=dhinkins@le.utah.gov>
+<option value=jiwamoto@le.utah.gov>
+<option value=abjackson@le.utah.gov>
+<option value=sjenkins@le.utah.gov>
+<option value=pknudson@le.utah.gov>
+<option value=mmadsen@le.utah.gov>
+<option value=kmayne@le.utah.gov>
+<option value=amillner@le.utah.gov>
+<option value=wniederhauser@le.utah.gov>
+<option value=rokerlund@le.utah.gov>
+<option value=aosmond@le.utah.gov>
+<option value=bshiozawa@le.utah.gov>
+<option value=hstephenson@le.utah.gov>
+<option value=jwstevenson@le.utah.gov>
+<option value=dthatcher@le.utah.gov>
+<option value=surquhart@le.utah.gov>
+<option value=kvantassell@le.utah.gov>
+<option value=evickers@le.utah.gov>
+<option value=tweiler@le.utah.gov>
+<p>
+<label for=name>
+<input name=name id=name type=text placeholder=Your name required autofocus>
+<p>
+<label for=yourAddress>
+<input name=yourAddress id=yourAddress type=text placeholder=Your address required>
+<p>
+<label for=city>
+<input name=city id=city type=text placeholder=Your city required>
+<p>
+<label for=state>
+<select name=state id=state required>
+<option value=>
+<option value=UT selected>
+<option value=AL>
+<option value=AK>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=VT>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
+<p>
+<label for=zip>
+<input name=zip id=zip type=text placeholder=xxxxx required>
+<p>
+<label for=phone>
+<input name=phone id=phone type=tel maxlength=12 placeholder=(xxx) xxx-xxxx required>
+<p>
+<label for=email>
+<input name=email id=email type=email placeholder=johnsmith@example.com required>
+<p>
+<label for=message>
+<textarea name=message id=message placeholder=What would you like to say?>
+<p>
+<button type=submit id=form-submit>
+<button type=reset id=form-reset class=red>

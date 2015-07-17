@@ -1,0 +1,124 @@
+<FORM METHOD=POST ACTION=/htbin/formproc/kaptur/webforms/issue_subscribe_file_NEW.txt&display=/kaptur/webforms/issue_subscribe_thank_you.htm>
+<table width=766 cellpadding=0 cellspacing=0>
+<td valign=top>
+<td align=left  valign=top>
+<span class=bodytext>
+<font color=Red>
+<td align=left  valign=top>
+<span class=bodytext>
+<font color=Red>
+<td align=left  valign=top>
+<span class=bodytext>
+<td align=left  valign=top>
+<span class=bodytext>
+<font color=Red>
+<td align=left  valign=top>
+<span class=bodytext>
+<font size=1>
+<td width=129 valign=top align=right>
+<font color=Red>
+<td width=87 align=left  valign=top>
+<select name=required-prefix tabindex=0>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Dr.>
+<td width=124 align=left  valign=top>
+<span class=bodytext>
+<input name=required-first id=first_name tabindex=2 size=15 >
+<td width=120 align=left  valign=top>
+<span class=bodytext>
+<input name=middle id=middle tabindex=3 size=15 >
+<td width=127 align=left  valign=top>
+<span class=bodytext>
+<input name=required-last id=last_name tabindex=4 size=15 >
+<td width=177 align=left  valign=top>
+<span class=bodytext>
+<input name=suffix id=suffix tabindex=5 size=15 >
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<font color=Red>
+<td colspan=5 align=left class=bodytext>
+<INPUT NAME=required-address ID=street_address TABINDEX=6 SIZE=30>
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<font color=Red>
+<td colspan=5 align=left class=bodytext>
+<INPUT NAME=required-city ID=city TABINDEX=7 size=20>
+<font color=Red>
+<font color=Red>
+<input name=required-zip5 id=zip tabindex=9 size=5 maxlength=10 >
+<input name=zip4 id=zip0 tabindex=10 size=4 maxlength=10 >
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<td colspan=5 align=left class=bodytext>
+<INPUT NAME=phone ID=phone TABINDEX=11 SIZE=30>
+<td class=bodytext align=left>
+<td colspan=5 align=left class=bodytext>
+<td class=bodytext align=right>
+<font color=Red>
+<td colspan=5 align=left class=bodytext>
+<INPUT NAME=required-email ID=email TABINDEX=11 SIZE=30>
+<td valign=top>
+<td colspan=5 align=left>
+<td valign=top align=right>
+<font color=Red>
+<td colspan=5 align=left>
+<SELECT NAME=required-subject SIZE=1>
+<option disabled value= selected>
+<OPTION VALUE=ABORTION>
+<OPTION VALUE=AGRI>
+<OPTION VALUE=ANML>
+<OPTION VALUE=ECON>
+<OPTION VALUE=JUD>
+<OPTION VALUE=ECON>
+<OPTION VALUE=EDU>
+<OPTION VALUE=ENR>
+<OPTION VALUE=ENV>
+<OPTION VALUE=FP>
+<OPTION VALUE=JUD>
+<OPTION VALUE=HLTH>
+<OPTION VALUE=HOUSE>
+<OPTION VALUE=IMM>
+<OPTION VALUE=LABOR>
+<OPTION VALUE=JUD>
+<OPTION VALUE=LABOR>
+<OPTION VALUE=SS>
+<OPTION VALUE=MIL>
+<OPTION VALUE=SS>
+<OPTION VALUE=TAX>
+<OPTION VALUE=TELCOM>
+<OPTION VALUE=TRADE>
+<OPTION VALUE=TRANS>
+<OPTION VALUE=MIL>
+<td class=bodytext vAlign=top>
+<td colspan=5 align=left>
+<td class=bodytext vAlign=top align=right>
+<font color=Red>
+<td colspan=5 align=left>
+<textarea name=required-message rows=8 wrap=PHYSICAL id=message cols=30 tabindex=13>
+<p>
+<table>
+<td valign=top>
+<p>
+<td align=center>
+<p>
+<LABEL for=subscribe>
+<input type=radio name=enewsletteroption id=subscribe value=SUBSCRIBE>
+<LABEL for=unsubscribe>
+<input type=radio name=enewsletteroption id=unsubscribe value=UNSUBSCRIBE>
+<td align=center valign=top colspan=2>
+<td align=center valign=top colspan=2>
+<b>
+<font color=#FF0000>
+<td colspan=2>
+<center>
+<input type=submit value=Send Email>
+<input type=reset value=Reset>
+<td valign=top>
+<hr>
+<td valign=top>
+<hr>

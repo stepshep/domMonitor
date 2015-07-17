@@ -1,0 +1,6 @@
+<form action=/htbin/formproc/newsletter-subscribe.txt&amp;display=/contact-me/newsletter-subscribe-thankyou&amp;nobase&amp;fpGetVer=2>
+<input class=form-text search-field maxlength=128 name=required-first onfocus=this.value= size=20 title=First name type=text value=First  Name>
+<input class=form-text search-field maxlength=128 name=required-last onfocus=this.value= size=20 title=Last name type=text value=Last  Name>
+<input value=30046 class=form-text-emailfield search-field maxlength=128 name=required-zip5 onfocus=this.value= size=20 title=Zip Code type=text>
+<input class=form-text-emailfield search-field maxlength=128 name=required-valid-email onfocus=this.value= size=15 title=Email address. type=text value=your@email.com>
+<input class=form-submit id=edit-submit type=submit value=submit>

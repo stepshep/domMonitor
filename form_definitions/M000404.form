@@ -1,0 +1,133 @@
+<form method=post action=https://forms.house.gov/htbin/formproc_za/mcdermott/webforms/new/issue_subscribe_parm.txt&form=/mcdermott/webforms/new/issue_subscribe_verify.html>
+<table cellspacing=0 cellpadding=4>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<INPUT NAME=required-first type=text value= SIZE=60 maxlength=190>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<INPUT NAME=required-last type=text value= SIZE=60 maxlength=190>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<INPUT NAME=required-email_address type=text value= SIZE=60 maxlength=100>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<INPUT NAME=required-address type=text value= SIZE=60 maxlength=190>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td width=47% valign=top>
+<INPUT NAME=required-city type=text value= SIZE=12 maxlength=45>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-state type=text value=WA SIZE=2 readonly>
+<td width=40% valign=top>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-zip5 type=text value= SIZE=4 maxlength=5>
+<INPUT NAME=zip4 type=text value= SIZE=3 maxlength=4>
+<font size=-1>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<input name=required-phone type=text value= size=60 maxlength=100 >
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<SELECT NAME=required-issue SIZE=1>
+<OPTION VALUE=AFGHANISTAN>
+<OPTION VALUE=AG>
+<OPTION VALUE=ANIMAL>
+<OPTION VALUE=ARTS>
+<OPTION VALUE=BANKING>
+<OPTION VALUE=BUDGET>
+<OPTION VALUE=CHILDREN>
+<OPTION VALUE=CIVILRIGHTS>
+<OPTION VALUE=CONGRESS>
+<OPTION VALUE=ETHICS>
+<OPTION VALUE=CRIME>
+<OPTION VALUE=DEFENSE>
+<OPTION VALUE=EAGLE>
+<OPTION VALUE=ECONOMY>
+<OPTION VALUE=EDUCATION>
+<OPTION VALUE=ELECTIONS>
+<OPTION VALUE=ENERGY>
+<OPTION VALUE=ENVIRO-GEN>
+<OPTION VALUE=ENVIRO-TIMBER>
+<OPTION VALUE=FDA>
+<OPTION VALUE=GENERAL>
+<OPTION VALUE=GUN>
+<OPTION VALUE=HEALTH>
+<OPTION VALUE=HIV/AIDS>
+<OPTION VALUE=HOMELAND SECURITY>
+<OPTION VALUE=HOUSING>
+<OPTION VALUE=HUMANRIGHTS>
+<OPTION VALUE=IMMIGRATION>
+<OPTION VALUE=INTERNET>
+<OPTION VALUE=INSURANCE>
+<OPTION VALUE=INTERNATL>
+<OPTION VALUE=IRAQ>
+<OPTION VALUE=JOB>
+<OPTION VALUE=JUDICIARY>
+<OPTION VALUE=LABOR>
+<OPTION VALUE=LESBIAN/GAY>
+<OPTION VALUE=MEDICAID>
+<OPTION VALUE=MEDICARE>
+<OPTION VALUE=MINWAGE>
+<OPTION VALUE=GENERAL>
+<OPTION VALUE=OSHA>
+<OPTION VALUE=POSTAL>
+<OPTION VALUE=RELIGION>
+<OPTION VALUE=ABORTION>
+<OPTION VALUE=SCIENCE>
+<OPTION VALUE=SOCSEC>
+<OPTION VALUE=TAX>
+<OPTION VALUE=TELECOM>
+<OPTION VALUE=TOUR>
+<OPTION VALUE=TRADE>
+<OPTION VALUE=TRANS>
+<OPTION VALUE=UNEMPLOYMENT>
+<OPTION VALUE=VETS>
+<OPTION VALUE=WELFARE>
+<OPTION VALUE=WOMEN>
+<font size=-1>
+<td valign=top align=right>
+<b>
+<font size=-1>
+<u>
+<td colspan=2>
+<TEXTAREA NAME=required-message ROWS=10 COLS=60>
+<td width=13%>
+<td colspan=2 align=center>
+<td colspan=3>
+<center>
+<INPUT TYPE=submit VALUE=Send Email>
+<INPUT TYPE=reset VALUE=Reset>
+<p>
+<p>
+<p>
+<td valign=top>
+<hr>
+<td colspan=2 valign=top>
+<hr>
+<small>
+<u>
+<small>

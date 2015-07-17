@@ -1,0 +1,188 @@
+<form id="search_form" name="googlesearch" method="get" action="/">
+<input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
+<input id="go" type="image" src="/images/clear.gif" width="20" height="20" alt="" title="" >
+<form name="thisForm" id="thisForm" action="/?p=email_senator&clear_cache=1" method="post" class="form-contact" onsubmit="return _CF_checkthisForm(this)">
+<label>
+<span class="req">
+<select name="Prefix">
+<option value="">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Mr. and Mrs.">
+<option value="Miss">
+<option value="Dr.">
+<option value="Dr. and Mrs.">
+<option value="Dr. and Mr.">
+<option value="Admiral">
+<option value="Captain">
+<option value="Chief Master Sergeant">
+<option value="Colonel">
+<option value="Commander">
+<option value="Corporal">
+<option value="Father">
+<option value="General">
+<option value="Lieutenant">
+<option value="Lieutenant Colonel">
+<option value="Major">
+<option value="Master Sergeant">
+<option value="Reverend">
+<option value="Sergeant">
+<option value="Second Lieutenant">
+<option value="ergeant Major">
+<option value="Sister">
+<option value="Technical Sergeant">
+<label>
+<span class="req">
+<input name="firstName" id="firstName"  type="text" maxlength="100"  size="30"  >
+<label>
+<span class="req">
+<input name="lastName" id="lastName"  type="text" maxlength="100"  size="30"  >
+<label>
+<span class="req">
+<input name="Address1" id="Address1"  type="text" maxlength="200"  size="50"  >
+<label>
+<span class="req">
+<input name="city" id="city"  type="text" maxlength="50"  size="40"  >
+<label>
+<span class="req">
+<select name="State">
+<option value=" ">
+<option value="AA">
+<option value="AE">
+<option value="AP">
+<option value=" ">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT" selected="selected">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<label>
+<span class="req">
+<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  >
+<label>
+<span class="req">
+<input name="phone" id="phone"  type="text" maxlength="100"  size="30"  >
+<label>
+<span class="req">
+<input name="email" id="email"  type="text" maxlength="100"  size="40"  >
+<label>
+<span class="req">
+<input name="vemail" id="vemail"  type="text" maxlength="100"  size="40"  >
+<label>
+<span class="req">
+<select name="Subject">
+<option selected="selected" value="">
+<OPTION VALUE="Abortion">
+<OPTION VALUE="Afghanistan">
+<OPTION VALUE="Agriculture">
+<OPTION VALUE="Animals">
+<OPTION VALUE="Arts and Humanities">
+<OPTION VALUE="Budget">
+<OPTION VALUE="Business">
+<OPTION VALUE="Children/Family">
+<OPTION VALUE="Civil Rights">
+<OPTION VALUE="Commerce">
+<OPTION VALUE="Communication">
+<OPTION VALUE="Economy">
+<OPTION VALUE="Education">
+<OPTION VALUE="Elections">
+<OPTION VALUE="Energy">
+<OPTION VALUE="Environment">
+<OPTION VALUE="Family">
+<OPTION VALUE="Finance">
+<OPTION VALUE="Foreign Affairs">
+<OPTION VALUE="Forest Jobs and Recreation Act">
+<OPTION VALUE="Guns">
+<OPTION VALUE="Health">
+<OPTION VALUE="Homeland Security">
+<OPTION VALUE="Housing">
+<OPTION VALUE="Indian Affairs">
+<OPTION VALUE="Internship">
+<OPTION VALUE="Immigration">
+<OPTION VALUE="Iraq">
+<OPTION VALUE="Judiciary">
+<OPTION VALUE="Labor">
+<OPTION VALUE="Law and Justice">
+<OPTION VALUE="Medicaid">
+<OPTION VALUE="Medicare">
+<OPTION VALUE="Meeting Request">
+<OPTION VALUE="Military Affairs">
+<OPTION VALUE="Page Program">
+<OPTION VALUE="Religion">
+<OPTION VALUE="Science and Technology">
+<OPTION VALUE="Seniors">
+<OPTION VALUE="Social Security">
+<OPTION VALUE="TANF">
+<OPTION VALUE="Taxes">
+<OPTION VALUE="Trade">
+<OPTION VALUE="Transportation">
+<OPTION VALUE="Tour Request">
+<OPTION VALUE="Veterans">
+<OPTION VALUE="Welfare">
+<OPTION VALUE="Wolves">
+<OPTION VALUE="Women's Issues">
+<label>
+<span class="req">
+<input name="messageSubject" id="messageSubject"  type="text" maxlength="75"  size="30"  class="input"  >
+<label>
+<span class="req">
+<TEXTAREA
+			NAME="MessageBody"
+			COLS="40"
+			ROWS="15"
+			WRAP="virtual"
+			REQUIRED="yes"
+			CLASS="textarea">
+<input class="normal-input" type="submit" value="Submit" name="Submit" >
+<input class="normal-input" onClick="javascript:document.thisForm.reset()" name="Clear" value="Clear" type="button" >
+<hr style="" >
+<form id="nl_quick" name="nl_quick" action="/?p=email_updates&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
+<input type="input" name="email" value="Your Email" class="sprites input-field nlq-email swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
+<input type="input" name="zip" value="Your ZIP Code" class="sprites input-field nlq-zip swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >

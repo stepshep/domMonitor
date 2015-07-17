@@ -1,0 +1,137 @@
+<form method=POST action=comments.asp ID=Form1>
+<table width=100% id=formtable border=0 bordercolor=green cellpadding=3 cellspacing=0>
+<td valign=top>
+<label for=firstname>
+<sup>
+<td valign=top>
+<input type=text name=firstname id=firstname size=30 maxlength=50 tabindex=1 value=>
+<td valign=top>
+<label for=lastname>
+<sup>
+<td valign=top>
+<input type=text name=lastname id=lastname size=30 maxlength=50  tabindex=2 value= >
+<td valign=top>
+<label for=address>
+<sup>
+<td valign=top>
+<input type=text name=address id=address size=50 maxlength=75 tabindex=3 value= >
+<td valign=top>
+<label for=address2>
+<td valign=top>
+<input type=text name=address2 id=address2 size=50 maxlength=75 tabindex=4 value= >
+<td valign=top>
+<label for=city>
+<sup>
+<label for=state>
+<sup>
+<label for=zip>
+<sup>
+<td valign=top>
+<input type=text name=city id=city size=25 maxlength=50 tabindex=5 value= >
+<select name=state size=1 id=state tabindex=6>
+<option value=AB >
+<option value=AK >
+<option value=AL >
+<option value=AR >
+<option value=AS >
+<option value=AZ >
+<option value=BC >
+<option value=CA >
+<option value=CO >
+<option value=CT >
+<option value=DC >
+<option value=DE >
+<option value=FL >
+<option value=FM >
+<option value=GA >
+<option value=GU >
+<option value=HI >
+<option value=IA >
+<option value=ID >
+<option value=IL >
+<option value=IN >
+<option value=KS >
+<option value=KY >
+<option value=LA >
+<option value=MA >
+<option value=MB >
+<option value=MD >
+<option value=ME >
+<option value=MH >
+<option value=MI >
+<option value=MN >
+<option value=MO >
+<option value=MP >
+<option value=MS >
+<option value=MT >
+<option value=NB >
+<option value=NC >
+<option value=ND >
+<option value=NE >
+<option value=NH  selected >
+<option value=NJ >
+<option value=NL >
+<option value=NM >
+<option value=NS >
+<option value=NT >
+<option value=NU >
+<option value=NV >
+<option value=NY >
+<option value=OH >
+<option value=OK >
+<option value=ON >
+<option value=OR >
+<option value=PA >
+<option value=PE >
+<option value=PR >
+<option value=PW >
+<option value=QC >
+<option value=RI >
+<option value=SC >
+<option value=SD >
+<option value=SK >
+<option value=TN >
+<option value=TX >
+<option value=UT >
+<option value=VA >
+<option value=VI >
+<option value=VT >
+<option value=WA >
+<option value=WI >
+<option value=WV >
+<option value=WY >
+<option value=YT >
+<input type=text name=zip id=zip size=10 maxlength=10 tabindex=7 value= >
+<td valign=top>
+<label for=phone>
+<sup>
+<td valign=top>
+<input type=text name=phone id=phone maxlength=25 size=25 tabindex=8 value= >
+<td valign=top>
+<label for=phone>
+<td valign=top>
+<input type=text name=alternatePhone id=Text1 maxlength=25 size=25 tabindex=9 value= >
+<td valign=top>
+<label for=fax>
+<td valign=top>
+<input type=text name=fax id=fax maxlength=25 size=25 tabindex=10 value= >
+<td valign=top >
+<label for=email>
+<sup>
+<td valign=top>
+<input type=text name=email id=email maxlength=80 size=50 tabindex=11 value= >
+<td valign=top >
+<label for=org>
+<td valign=top>
+<input type=text name=org id=org maxlength=100 size=50 tabindex=12  value=>
+<td valign=top>
+<label for=comments>
+<sup>
+<td valign=top>
+<noscript>
+<textarea name=comments id=comments cols=50 rows=5 tabindex=13 onkeyup=limitlength(this,800); wrap=virtual maxLength=800>
+<span id=comments_counter class=fineprintgray>
+<td valign=top colspan=3>
+<td align=center valign=top colspan=3>
+<input type=submit value=Send Comments tabindex=14 name=sendcomments ID=Submit1>
+<input type=submit value=Reset tabindex=14 name=reset ID=Submit2>

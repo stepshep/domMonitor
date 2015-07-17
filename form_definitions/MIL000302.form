@@ -1,0 +1,8 @@
+<form method=POST action= class=sd-subscribe>
+<input name=fname placeholder=First Name>
+<input name=lname placeholder=Last Name>
+<input name=email placeholder=Email Address>
+<input name=zip placeholder=Zipcode>
+<input type=submit class=submit value=Subscribe>
+<label class=subscribe-ok>
+<label class=subscribe-error>

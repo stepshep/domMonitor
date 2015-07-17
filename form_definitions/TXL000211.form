@@ -1,0 +1,16 @@
+<form id=deanslist method=post action=http://www.senate.state.tx.us/bin/NLhandler15.php class=memForm style=padding: 10px; line-height: 150%>
+<b>
+<i>
+<em>
+<input type=text name=sender id=SENDER size=40 maxlength=60 >
+<input type=text name=name id=NAME size=40 maxlength=60 >
+<em>
+<input type=text name=phone id=PHONE size=40 maxlength=15 >
+<input type=text name=address id=STREET size=40 maxlength=60 >
+<input type=text name=city id=CITY size=40 maxlength=60 >
+<input type=text name=state id=STATE size=40 maxlength=15 >
+<input type=text name=zip id=ZIPCODE size=40 maxlength=15 >
+<input type=radio name=title id=TITLE value=SUBSCRIBE TO THE DEANS LIST checked=checked >
+<input type=radio name=title id=TITLE value=** UN-SUBSCRIBE FROM THE DEANS LIST PLEASE ** >
+<input type=submit value=Submit style=font-weight: bold >
+<input type=reset value=Reset >

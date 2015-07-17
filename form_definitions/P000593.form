@@ -1,0 +1,146 @@
+<form method=post action=https://forms.house.gov/htbin/formproc_za/perlmutter/webforms/issue_subscribe_parm.txt&form=/perlmutter/webforms/issue_subscribe_verify.html>
+<table cellspacing=0 cellpadding=4>
+<td colspan=2 valign=bottom style=color:#FF0000>
+<td colspan=2 align=left valign=bottom>
+<p>
+<p>
+<ul type=disc>
+<u>
+<p>
+<p>
+<td valign=bottom align=right>
+<b>
+<font size=-1>
+<u>
+<table cellspacing=0 cellpadding=0>
+<b>
+<font size=-1>
+<u>
+<b>
+<font size=-1>
+<u>
+<b>
+<font size=-1>
+<b>
+<font size=-1>
+<u>
+<b>
+<font size=-1>
+<small>
+<SELECT NAME=required-prefix SIZE=1>
+<OPTION VALUE=>
+<OPTION VALUE=Mr.>
+<OPTION VALUE=Mrs.>
+<OPTION VALUE=Ms.>
+<OPTION VALUE=Miss>
+<OPTION VALUE=Dr.>
+<INPUT NAME=required-first type=text value= SIZE=12 maxlength=90 >
+<INPUT NAME=middle type=text value= SIZE=8 maxlength=90>
+<INPUT NAME=required-last type=text value= SIZE=15 maxlength=90>
+<INPUT NAME=suffix type=text value= SIZE=10 maxlength=90>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-address type=text value= SIZE=60 maxlength=190>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=phone type=text value= SIZE=60 maxlength=190>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-city type=text value= SIZE=20 maxlength=45>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-state type=text value=CO SIZE=20 readonly>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-zip5 type=text value= SIZE=5 maxlength=5>
+<INPUT NAME=zip4 type=text value= SIZE=4 maxlength=4>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<INPUT NAME=required-email type=text value= SIZE=60 maxlength=100>
+<td align=right>
+<b>
+<font size=-1>
+<u>
+<SELECT NAME=required-issue SIZE=1>
+<OPTION VALUE=>
+<OPTION VALUE=AGR>
+<OPTION VALUE=BUD>
+<OPTION VALUE=DEF>
+<OPTION VALUE=ECON>
+<OPTION VALUE=EDU>
+<OPTION VALUE=ENE>
+<OPTION VALUE=ENV>
+<OPTION VALUE=FIN>
+<OPTION VALUE=INT>
+<OPTION VALUE=GOV>
+<OPTION VALUE=GUN>
+<OPTION VALUE=HEA>
+<OPTION VALUE=HOM>
+<OPTION VALUE=IMM>
+<OPTION VALUE=JUD>
+<OPTION VALUE=LAB>
+<OPTION VALUE=MCARE>
+<OPTION VALUE=NAT>
+<OPTION VALUE=SB>
+<OPTION VALUE=SSEC>
+<OPTION VALUE=TOUR>
+<OPTION VALUE=TRADE>
+<OPTION VALUE=TRA>
+<OPTION VALUE=VET>
+<OPTION VALUE=WOM>
+<OPTION VALUE=&nbsp;>
+<font size=-1>
+<td valign=top align=right>
+<b>
+<font size=-1>
+<u>
+<font size=-2 color=#FF0000>
+<font size=-1>
+<input type=radio value=Yes Response name=required-response>
+<input type=radio value=No Response name=required-response>
+<td valign=top align=right>
+<b>
+<font size=-1>
+<u>
+<TEXTAREA NAME=required-message ROWS=10 COLS=60>
+<td width=10%>
+<td align=center>
+<table cellspacing=0 cellpadding=0>
+<td align=left colspan=4>
+<b>
+<font size=-1>
+<u>
+<td align=center>
+<font size=-1>
+<td align=center>
+<font size=-1>
+<td align=center>
+<font size=-1>
+<td align=left>
+<td align=center>
+<input type=radio name=affl1 value= checked>
+<td align=center>
+<input type=radio name=affl1 value=EMAIL.OPTIN>
+<td align=center>
+<input type=radio name=affl1 value=EMAIL.OPTOUT>
+<td colspan=2>
+<center>
+<INPUT TYPE=submit VALUE=Send Email>
+<INPUT TYPE=reset VALUE=Reset>
+<td valign=top>
+<hr>
+<td valign=top>
+<hr>
+<small>
+<u>
+<small>

@@ -1,0 +1,5 @@
+<form action=/htbin/formproc/newsletter-subscribe.txt%26display%3D/contact/newsletter/newsletter-subscribe-thankyou%26nobase%26fpGetVer%3D2 class=validate wsbform id=signupExtendForm name=signupExtendForm>
+<input id=required-first maxlength=100 name=required-first placeholder=First Name type=text>
+<input id=required-last maxlength=100 name=required-last placeholder=Last Name type=text>
+<input id=required-valid-email maxlength=100 name=required-valid-email placeholder=E-mail type=text>
+<input id=submit role=button type=submit value=Sign Up>

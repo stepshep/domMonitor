@@ -1,0 +1,149 @@
+<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<ul class=display>
+<li class=menu_1>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<li class=lastLi>
+<p style=margin: 0pt;>
+<span style=font-size: 13px; font-family: Arial;>
+<p style=margin: 0pt;>
+<span style=font-size: 13px; font-family: Arial;>
+<span style=font-size: 16px;>
+<span style=font-size: 13px;>
+<span style=font-size: 16px; color: #000000;>
+<em>
+<span style=font-size: 16px; color: #000000;>
+<span style=font-size: 16px;>
+<span style=color: #000000;>
+<span style=font-size: 16px;>
+<p style=margin: 0pt;>
+<span style=font-size: 12pt; font-family: Arial;>
+<p style=margin: 0pt;>
+<span style=font-size: 12pt; font-family: Arial;>
+<span style=font-size: 16px;>
+<iframe width=300 height=200 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=315+East+Market+Street,+Clearfield,+PA&amp;aq=&amp;sll=40.274811,-76.880264&amp;sspn=0.230244,0.528374&amp;ie=UTF8&amp;hq=&amp;hnear=315+E+Market+St,+Clearfield,+Pennsylvania+16830&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=41.021772,-78.435604&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<small>
+<span style=color: #000000;>
+<span style=font-size: 16px; color: #000000;>
+<span style=color: #000000;>
+<span style=font-size: 16px;>
+<span style=font-size: 16px;>
+<iframe width=300 height=200 src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3026.6602910740107!2d-78.7093699!3d40.659418200000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cb7edbdb52e8e5%3A0x6b85d6a37f635dfb!2sHaida+Ave%2C+Hastings%2C+PA+16646!5e0!3m2!1sen!2sus!4v1421960600544 frameborder=0 style=border: 0px;>
+<span style=font-size: 16px;>
+<small>
+<span style=color: #000000;>
+<span style=font-size: 16px;>
+<span style=font-size: 16px;>
+<span style=font-size: 16px;>
+<span style=font-size: 16px;>
+<span style=color: #000000;>
+<iframe width=300 height=200 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+Lingle+Street,+Osceola+Mills,+PA&amp;aq=&amp;sll=41.021772,-78.435604&amp;sspn=0.007115,0.016512&amp;ie=UTF8&amp;hq=&amp;hnear=600+Lingle+St,+Osceola+Mills,+Clearfield,+Pennsylvania+16666&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=40.851104,-78.269448&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<small>
+<span style=font-size: 16px; color: #000000;>
+<span style=font-size: 16px;>
+<span style=color: #000000;>
+<span style=font-size: 16px;>
+<span style=color: #000000;>
+<em>
+<span style=font-size: 16px; color: #000000;>
+<span id=fileSavedIndication style=color:Red;>
+<span class=required>
+<input name=ctl00$cphContent$txtFirstName type=text maxlength=100 id=ctl00_cphContent_txtFirstName DataTargets=Text:[[FirstName]] >
+<span class=required>
+<input name=ctl00$cphContent$txtLastName type=text maxlength=100 id=ctl00_cphContent_txtLastName DataTargets=Text:[[LastName]] >
+<input name=ctl00$cphContent$txtDOB type=text maxlength=50 id=ctl00_cphContent_txtDOB DataTargets=Text:[[BirthDate]] >
+<span class=required>
+<input name=ctl00$cphContent$txtHomePhone type=text maxlength=50 id=ctl00_cphContent_txtHomePhone DataTargets=Text:[[HomePhone]] >
+<span class=required>
+<input name=ctl00$cphContent$txtEmail type=text maxlength=100 id=ctl00_cphContent_txtEmail DataTargets=Text:[[Email]] >
+<span class=required>
+<input name=ctl00$cphContent$txtAddress type=text maxlength=100 id=ctl00_cphContent_txtAddress DataTargets=Text:[[Address]] >
+<span class=required>
+<input name=ctl00$cphContent$txtCity type=text maxlength=50 id=ctl00_cphContent_txtCity DataTargets=Text:[[City]] >
+<input name=ctl00$cphContent$txtCounty type=text maxlength=50 id=ctl00_cphContent_txtCounty DataTargets=Text:[[County]] >
+<span class=required>
+<select name=ctl00$cphContent$ddlStates id=ctl00_cphContent_ddlStates DataTargets=SelectedValue:[[State]]>
+<option value= - Select a State - >
+<option value=PA>
+<option value=AA>
+<option value=AE>
+<option value=AK>
+<option value=AL>
+<option value=AP>
+<option value=AR>
+<option value=AS>
+<option value=AZ>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DC>
+<option value=DE>
+<option value=FL>
+<option value=FM>
+<option value=GA>
+<option value=GU>
+<option value=HI>
+<option value=IA>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=MA>
+<option value=MD>
+<option value=ME>
+<option value=MH>
+<option value=MI>
+<option value=MN>
+<option value=MO>
+<option value=MP>
+<option value=MS>
+<option value=MT>
+<option value=NC>
+<option value=ND>
+<option value=NE>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NV>
+<option value=NY>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PA>
+<option value=PR>
+<option value=PW>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VA>
+<option value=VI>
+<option value=VT>
+<option value=WA>
+<option value=WI>
+<option value=WV>
+<option value=WY>
+<span class=required>
+<input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
+<textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
+<input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
+<p>
+<input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
+<label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
+<span class=button>
+<input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
+<input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

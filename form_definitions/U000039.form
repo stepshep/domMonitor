@@ -1,0 +1,5 @@
+<form id=nl_quick name=nl_quick action=/?p=newsletter&type=nlQuick method=post onSubmit=return nlQuick(this);>
+<input type=input name=firstName value=First Name class=swap_value >
+<input type=input name=lastName value=Last Name class=swap_value >
+<input type=input name=email value=Email class=swap_value >
+<input type=input name=zip value=ZIP class=swap_value >

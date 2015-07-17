@@ -1,0 +1,19 @@
+<form action=/htbin/formproc/newsletter-subscribe.txt%26display%3D/contact/newsletter/newsletter-subscribe-thankyou%26nobase%26fpGetVer%3D2 class=validate wsbform id=signupExtendForm name=signupExtendForm>
+<label for=required-valid-email>
+<input id=required-valid-email maxlength=100 name=required-valid-email placeholder=E-mail title=Enter your email address. type=text>
+<select class=select id=prefix name=prefix value=>
+<option value=>
+<option value=Mr.>
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Dr.>
+<option value=Rev.>
+<option value=Prof.>
+<option value=Maj.>
+<option value=Col.>
+<option value=Fr.>
+<label for=required-first>
+<input id=required-first maxlength=100 name=required-first placeholder=First Name size=8 type=text>
+<label for=required-last>
+<input id=required-last maxlength=100 name=required-last placeholder=Last Name size=8 type=text>
+<input id=submit role=button type=submit value=SIGN UP>

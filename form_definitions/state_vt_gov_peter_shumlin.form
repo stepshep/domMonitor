@@ -1,0 +1,127 @@
+<form action=/contact-us/opinion  accept-charset=UTF-8 method=post id=webform-client-form-590 class=webform-client-form enctype=multipart/form-data>
+<label for=edit-submitted-FIRST>
+<span class=form-required title=This field is required.>
+<input type=text maxlength=100 name=submitted[FIRST] id=edit-submitted-FIRST size=25 value= class=form-text required >
+<label for=edit-submitted-LAST>
+<span class=form-required title=This field is required.>
+<input type=text maxlength=100 name=submitted[LAST] id=edit-submitted-LAST size=25 value= class=form-text required >
+<label for=edit-submitted-EMAIL>
+<span class=form-required title=This field is required.>
+<input class=form-text form-email required email type=email id=edit-submitted-EMAIL name=submitted[EMAIL] size=60 >
+<label for=edit-submitted-ADDR1>
+<span class=form-required title=This field is required.>
+<input type=text maxlength=200 name=submitted[ADDR1] id=edit-submitted-ADDR1 size=50 value= class=form-text required >
+<label for=edit-submitted-ADDR2>
+<input type=text maxlength=200 name=submitted[ADDR2] id=edit-submitted-ADDR2 size=50 value= class=form-text >
+<label for=edit-submitted-CITY>
+<span class=form-required title=This field is required.>
+<input type=text maxlength=50 name=submitted[CITY] id=edit-submitted-CITY size=25 value= class=form-text required >
+<label for=edit-submitted-STATE>
+<span class=form-required title=This field is required.>
+<select name=submitted[STATE] class=form-select required id=edit-submitted-STATE >
+<option value=AL>
+<option value=AK>
+<option value=AS>
+<option value=AZ>
+<option value=AR>
+<option value=CA>
+<option value=CO>
+<option value=CT>
+<option value=DE>
+<option value=DC>
+<option value=FL>
+<option value=GA>
+<option value=GU>
+<option value=HI>
+<option value=ID>
+<option value=IL>
+<option value=IN>
+<option value=IA>
+<option value=KS>
+<option value=KY>
+<option value=LA>
+<option value=ME>
+<option value=MH>
+<option value=MD>
+<option value=MA>
+<option value=MI>
+<option value=MN>
+<option value=MS>
+<option value=MO>
+<option value=MT>
+<option value=NE>
+<option value=NV>
+<option value=NH>
+<option value=NJ>
+<option value=NM>
+<option value=NY>
+<option value=NC>
+<option value=ND>
+<option value=MP>
+<option value=OH>
+<option value=OK>
+<option value=OR>
+<option value=PW>
+<option value=PA>
+<option value=PR>
+<option value=RI>
+<option value=SC>
+<option value=SD>
+<option value=TN>
+<option value=TX>
+<option value=UT>
+<option value=VT selected=selected>
+<option value=VI>
+<option value=VA>
+<option value=WA>
+<option value=WV>
+<option value=WI>
+<option value=WY>
+<label for=edit-submitted-PHONE>
+<span class=form-required title=This field is required.>
+<input type=text maxlength=12 name=submitted[PHONE] id=edit-submitted-PHONE size=13 value= class=form-text required >
+<p>
+<label class=option for=edit-submitted-affl-1>
+<input type=checkbox name=submitted[AFFL][EMAIL.OPTIN] id=edit-submitted-affl-1 value=EMAIL.OPTIN  checked=checked  class=form-checkbox >
+<label for=edit-submitted-ISSUE>
+<span class=form-required title=This field is required.>
+<select name=submitted[ISSUE] class=form-select required id=edit-submitted-ISSUE >
+<option value= selected=selected>
+<option value=Abortion>
+<option value=Agriculture>
+<option value=ATVs>
+<option value=Broadband>
+<option value=Budget>
+<option value=Corrections>
+<option value=Courts>
+<option value=Death with Dignity>
+<option value=Economy>
+<option value=Education>
+<option value=Emergency Management>
+<option value=Energy>
+<option value=Environment>
+<option value=Flooding>
+<option value=Government Operations>
+<option value=Gun Control>
+<option value=Health Care>
+<option value=Human Services>
+<option value=Immigration>
+<option value=Marijuana>
+<option value=Natural Resources>
+<option value=Public Safety>
+<option value=Scheduling Request>
+<option value=Taxes>
+<option value=Technology>
+<option value=Thank You>
+<option value=Town Meetings>
+<option value=Transportation>
+<option value=UVM>
+<option value=Veterans>
+<option value=Wildlife>
+<option value=Wind Energy>
+<option value=Yankee Nuclear>
+<option value=Other>
+<label for=edit-submitted-MSG>
+<span class=form-required title=This field is required.>
+<textarea cols=200 rows=15 name=submitted[MSG] id=edit-submitted-MSG  class=form-textarea resizable required>
+<input type=submit name=op id=edit-submit value=Submit  class=form-submit >
