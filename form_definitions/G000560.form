@@ -62,8 +62,8 @@
 <tr class=wyr-firstname>
 <label for=ctl00_ctl11_FirstName>
 <span class=header>
-<td class=>
-<input name=ctl00$ctl11$FirstName type=text id=ctl00_ctl11_FirstName class=textBox>
+<td class= >
+<input name=ctl00$ctl11$FirstName type=text id=ctl00_ctl11_FirstName class=textBox >
 <tr class=wyr-lastname>
 <label for=ctl00_ctl11_LastName>
 <span class=header>
@@ -197,7 +197,8 @@
 <option value=18823>
 <fieldset>
 <legend>
-<span id=ctl00_ctl11_ReplyChoice>
+<table id=ctl00_ctl11_ReplyChoice>
+<tbody>
 <input id=ctl00_ctl11_ReplyChoice_0 type=radio name=ctl00$ctl11$ReplyChoice value=Respond>
 <label for=ctl00_ctl11_ReplyChoice_0>
 <input id=ctl00_ctl11_ReplyChoice_1 type=radio name=ctl00$ctl11$ReplyChoice value=Comment>
