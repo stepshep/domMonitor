@@ -51,9 +51,8 @@
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email placeholder=Email type=text>
 <fieldset>
 <legend>
-<label for=required-phone>
-<span class=required-field title=required information>
-<input class=validate[required,custom[phone]] is-required id=required-phone maxlength=80 name=required-phone placeholder=Telephone Number type=text>
+<label for=phone>
+<input id=phone maxlength=80 name=phone placeholder=Telephone Number type=text>
 <input checked=checked id=speech_0 name=speech type=radio value=Voice>
 <label class=is-inline for=speech_0>
 <input id=speech_1 name=speech type=radio value=VP>
