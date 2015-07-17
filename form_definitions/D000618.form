@@ -289,4 +289,4 @@
 <textarea id=input-ADE64E73-4040-F985-52CD-A3AB6BCD2C51 name=input_ADE64E73-4040-F985-52CD-A3AB6BCD2C51 class=validate[required]>
 <input id=input-A4E18009-4040-F985-52CD-6366A651E958 name=input_A4E18009-4040-F985-52CD-6366A651E958 type=checkbox value=A4E18009-4040-F985-52CD-6366A651E958>
 <label for=input-A4E18009-4040-F985-52CD-6366A651E958>
-<input type=submit class=btn value=Submit>
+<input type=submit class=btn hide value=Submit>
