@@ -12,12 +12,10 @@
 <span style=text-decoration: underline;>
 <span style=font-size: 11pt;>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <p style=margin: 0in 0in 0pt;>
 <p style=margin: 0in 0in 0pt;>
-<p>
 <span style=color: #333333; font-family: arial; font-size: 9pt;>
 <span style=font-size: 16px;>
 <span style=font-family: arial; font-size: 13px;>
@@ -28,10 +26,8 @@
 <span style=text-decoration: underline;>
 <span style=font-family: arial; font-size: 13px;>
 <span style=text-decoration: underline;>
-<p>
 <iframe width=300 height=230 src=http://www.google.com/maps?q=852+Village+Rd,+West+Lampeter+Township,+PA+17602&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=39.998887,-76.238337&amp;output=embed&amp;s=AARTsJqX3ePW9eRwVFyMZZpgYy_pOmrlBw frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <span style=font-family: arial; font-size: 13px;>
 <em>
 <span style=font-size: 16px; text-decoration: underline;>
@@ -122,7 +118,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

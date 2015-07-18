@@ -44,14 +44,10 @@
 <input type=text maxlength=190 name=emailaddress id=req_email onblur=emailCheck(this) class=text  >
 <fieldset>
 <legend accesskey=q>
-<p>
 <label class=contactForm for=req_issue>
 <input type=text maxlength=190 name=subject id=req_subject class=text >
-<p>
 <textarea class=message id=req_message name=msg wrap=VIRTUAL cols=50 rows=5>
-<p>
 <input type=radio value=No checked=checked name=affl1 >
 <input type=radio value=Yes name=affl1 >
-<p>
 <input id=submitButton type=submit value=Send Email>
 <input name=RESET type=reset value=Clear Form Fields>

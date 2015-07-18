@@ -10,14 +10,11 @@
 <td align="center" colspan="2" height="64">
 <input class="button" type="submit" value="Go to Form">
 <form action="/index.cfm?sectionid=2§iontree=" method="get" onsubmit="return checkformsearch(this)">
-<p>
 <input class="searchkey text" name="searchkey" onblur="iBlur(this)" onfocus="iFocus(this)" style="color: rgb(153, 153, 153);" type="text" value="Search Site">
 <input class="searchButon" type="submit" value=" ">
 <form action="/index.cfm" method="get" onsubmit="return checkformsearch(this)">
-<p>
 <label for="searchkey">
 <span class="requiredfield" id="searchkeyrequired">
-<p>
 <input type="text" name="searchkey" id="searchkey">
 <input type="radio" class="radiobutton" name="locale" value="-1" id="entire" checked="checked">
 <label for="entire">

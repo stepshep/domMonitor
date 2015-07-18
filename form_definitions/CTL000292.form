@@ -111,9 +111,7 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <input class="col-sm-3 city-state-zip" type="text" placeholder=" Zip">
 <input class="input-block-level" type="email" placeholder=" Email" required>
 <textarea class="input-block-level" rows="4" placeholder=" Message">
-<p>
 <input name="EmailUpdates" id="EmailUpdates" type="checkbox" value="yes">
-<p>
 <input type="submit" value="Submit">
 <form class="form-horizontal" action="emailup.php" method="post" name="EmailUp" id="EmailUp">
 <?php

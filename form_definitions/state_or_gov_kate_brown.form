@@ -185,9 +185,6 @@
 <textarea name="messagebody" id="messagebody" class="span4" rows="3" cols="20">
 <p class="p1">
 <p class="p1">
-<p>
-<p>
-<p>
 <input class="btn btn-primary" name="formsend" type="submit" value="Submit">
 <hr >
 <p class="p1">

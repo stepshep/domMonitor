@@ -24,10 +24,8 @@
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?hl=en&amp;q=30+W+Middle+St,+Gettysburg,+PA+17325,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=39.838398,-77.227621&amp;output=embed&amp;s=AARTsJrYsGRmFJaKEF99uf_M7qsTykbc2Q frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span id=fileSavedIndication style=color:Red;>
@@ -115,7 +113,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

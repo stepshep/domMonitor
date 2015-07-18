@@ -1,8 +1,6 @@
 <form action=/contact-form/ id=custom_form6 name=custom_form class=custom_form method=post>
-<p>
 <p class=req>
 <h2>
-<p>
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option selected= value=>
@@ -14,43 +12,31 @@
 <option value=Hon.>
 <option value=Rev.>
 <option value=Rabbi>
-<p>
 <label>
 <input type=text name=firstname id=req_firstname maxlength=90 class=text>
-<p>
 <label>
 <input type=text name=middle class=text style=width:15px; maxlength=2>
-<p>
 <label>
 <input type=text name=lastname id=req_lastname class=text maxlength=90>
-<p>
 <label>
 <input type=text name=suffix class=text1 maxlength=5>
-<p>
 <label>
 <input type=text name=street id=req_street class=text maxlength=190>
-<p>
 <label>
 <input type=text name=street2 class=text maxlength=190>
-<p>
 <label>
 <input type=text name=city id=req_city class=text maxlength=100>
-<p>
 <label>
 <select name=state id=req_state>
 <option selected= value=FL>
-<p>
 <label>
 <input value=32765 class=zip id=req_zip maxlength=5 name=zipcode type=text>
 <input value=4508 class=zip id=zip2 maxlength=4 name=zipfour type=text>
 <small>
-<p>
 <label>
 <input type=text name=emailaddress id=req_email maxlength=150 class=text>
-<p>
 <label>
 <input type=text name=phone class=text phonemask maxlength=14>
-<p>
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected= value=>
@@ -76,14 +62,11 @@
 <option value=WEBVET>
 <option value=WEBWEL>
 <option value=WEBOTH>
-<p>
 <label>
 <textarea name=message id=req_message class=message>
-<p>
 <label>
 <select size=1 name=response id=req_response>
 <option selected= value=>
 <option value=N>
 <option value=Y>
-<p>
 <input type=button size=20 value=Submit id=submitButton class=button>

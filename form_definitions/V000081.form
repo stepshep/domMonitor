@@ -122,7 +122,6 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <td align="center">
 <input type="radio" name="affl1" value="&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt;" >
 <td colspan="3" align="center">
-<p>
 <input name="submit" type="submit" value="Send Email" >
 <input name="reset" type="reset" value="Reset" >
 <td colspan="2">

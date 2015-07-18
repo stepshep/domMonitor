@@ -12,10 +12,8 @@
 <p class=sectionintro>
 <span xmlns=http://www.w3.org/1999/xhtml>
 <span xmlns=http://www.w3.org/1999/xhtml>
-<p>
 <span style=font-size: 9pt; color: #333333;>
 <span style=font-size: 16px;>
-<p>
 <span style=font-size: 16px;>
 <span style=color: #c00000;>
 <em>
@@ -25,7 +23,6 @@
 <span style=font-size: 13px;>
 <iframe width=300 height=300 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=13+West+Creamery+Rd,+Hilltown+PA+18927&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=47.838189,74.179688&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=13+W+Creamery+Rd,+Hilltown,+Bucks,+Pennsylvania+18944&amp;t=m&amp;ll=40.341834,-75.257206&amp;spn=0.019626,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
@@ -114,7 +111,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

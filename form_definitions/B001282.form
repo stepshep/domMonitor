@@ -43,7 +43,6 @@
 <label class=is-inline for=speech_1>
 <input id=speech_2 name=speech type=radio value=TTD>
 <label class=is-inline for=speech_2>
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>

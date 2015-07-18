@@ -97,8 +97,6 @@
 <td class="ms-sbLastcell">
 <span class="s4-die">
 <p class="ms-rteFontSize-4 ms-rteThemeFontFace-2 ms-rteForeColor-1" style="color:#800000">
-<p>
-<p>
 <label for="legis-cf-email" class="legis-cf-label">
 <input type="text" name="Legis-Email" id="legis-cf-email" class="legis-cf-input required email" >
 <label for="legis-cf-name" class="legis-cf-label">

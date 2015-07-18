@@ -18,18 +18,22 @@
 <tr class=wyr-firstname>
 <label for=ctl00_ctl12_FirstName>
 <span class=header>
+<td class=>
 <input name=ctl00$ctl12$FirstName type=text id=ctl00_ctl12_FirstName class=textBox>
 <tr class=wyr-lastname>
 <label for=ctl00_ctl12_LastName>
 <span class=header>
+<td class=>
 <input name=ctl00$ctl12$LastName type=text id=ctl00_ctl12_LastName class=textBox>
 <tr class=wyr-street>
 <label for=ctl00_ctl12_Street>
 <span class=header>
+<td class=>
 <input name=ctl00$ctl12$Street type=text id=ctl00_ctl12_Street class=textBox>
 <tr class=wyr-city>
 <label for=ctl00_ctl12_City>
 <span class=header>
+<td class=>
 <input name=ctl00$ctl12$City type=text id=ctl00_ctl12_City class=textBox>
 <tr class=wyr-state>
 <label for=ctl00_ctl12_State>
@@ -98,6 +102,7 @@
 <tr class=wyr-zip>
 <label for=ctl00_ctl12_Zip>
 <span class=header>
+<td class=>
 <input name=ctl00$ctl12$Zip type=text id=ctl00_ctl12_Zip class=textBox>
 <tr class=wyr-phone>
 <label for=ctl00_ctl12_Phone>
@@ -111,6 +116,7 @@
 <td width=90>
 <label for=ctl00_ctl12_Email>
 <span class=header>
+<td class=>
 <input name=ctl00$ctl12$Email type=text id=ctl00_ctl12_Email class=textBox>
 <fieldset>
 <legend>
@@ -177,8 +183,8 @@
 <label for=ctl00_ctl12_ReplyChoice_1>
 <label for=ctl00_ctl12_Subject>
 <span class=header>
-<input name=ctl00$ctl12$Subject type=text id=ctl00_ctl12_Subject>
+<input name=ctl00$ctl12$Subject type=text id=ctl00_ctl12_Subject class=>
 <label for=ctl00_ctl12_Body>
 <span class=header>
-<textarea name=ctl00$ctl12$Body rows=15 cols=20 id=ctl00_ctl12_Body>
+<textarea name=ctl00$ctl12$Body rows=15 cols=20 id=ctl00_ctl12_Body class=>
 <input type=submit name=ctl00$ctl12$SubmitButton value=Submit onclick=if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl12$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_ctl12_SubmitButton class=ContactForm_Submit>

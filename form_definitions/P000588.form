@@ -32,7 +32,6 @@
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90>
 <input class=is-inline id=enews name=enews type=checkbox value=Y>
 <label for=enews>
-<p>
 <fieldset>
 <legend>
 <label for=phone>
@@ -43,7 +42,6 @@
 <label for=speech_1>
 <input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>
@@ -91,4 +89,3 @@
 <input class=is-inline id=consent name=consent type=checkbox value=Yes>
 <label for=consent>
 <input class=submit id=submit name=submit type=submit value=Send Email>
-<p>

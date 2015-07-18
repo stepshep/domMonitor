@@ -57,7 +57,6 @@
 <option value=Casework>
 <option value=Scheduling_Requests>
 <option value=Tour_Requests>
-<p>
 <em>
 <select id=legislation_concerns name=legislation_concerns size=1 style=background-color:yellow;>
 <option selected=selected value= >

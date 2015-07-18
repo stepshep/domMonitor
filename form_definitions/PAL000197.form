@@ -5,39 +5,31 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
 <span style=font-size: 13px;>
 <span style=font-family: arial,helvetica,sans-serif;>
 <span style=font-size: 13px; font-family: arial; color: #000000;>
 <span style=font-size: 13px;>
-<p>
-<span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
+<span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 10px;>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 9pt; font-family: arial; color: #333333;>
 <span style=font-size: 16px;>
-<p>
 <span xmlns=http://www.w3.org/1999/xhtml>
 <em>
 <span style=font-size: 16px;>
 <iframe width=300 height=230 src=http://maps.google.com/maps?hl=en&amp;q=321+Main+St,+Towanda,+PA+18848,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=41.775152,-76.438923&amp;output=embed&amp;s=AARTsJppQSujE1khxVErcsify71I_yygdg frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <span xmlns=http://www.w3.org/1999/xhtml>
 <small>
-<p>
 <span xmlns=http://www.w3.org/1999/xhtml>
 <iframe width=300 height=230 src=http://maps.google.com/maps?hl=en&amp;q=106+W+Packer+Ave,+Sayre,+PA+18840,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=41.988907,-76.511278&amp;output=embed&amp;s=AARTsJpbOIT-uCraB4ZckRi5LLsjfXq2dA frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <span xmlns=http://www.w3.org/1999/xhtml>
 <small>
-<p>
 <span xmlns=http://www.w3.org/1999/xhtml>
 <span style=font-size: 13px;>
 <span style=font-size: 10px;>
@@ -45,11 +37,9 @@
 <span style=font-size: 10px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
-<p>
 <span id=fileSavedIndication style=color:Red;>
 <span class=required>
 <input name=ctl00$cphContent$txtFirstName type=text maxlength=100 id=ctl00_cphContent_txtFirstName DataTargets=Text:[[FirstName]] >
@@ -135,7 +125,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

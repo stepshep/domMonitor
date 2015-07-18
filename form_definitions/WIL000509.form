@@ -74,8 +74,6 @@
 <h4>
 <input name="ctl00$PlaceHolderLeftNavBar$ctl01$txtEmailSignUp" type="text" id="ctl00_PlaceHolderLeftNavBar_ctl01_txtEmailSignUp" class="LegisEmailSignUpTb" >
 <input type="submit" name="ctl00$PlaceHolderLeftNavBar$ctl01$btnEmailSignUp" value="Sign Up" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PlaceHolderLeftNavBar$ctl01$btnEmailSignUp&quot;, &quot;&quot;, true, &quot;LegEmailSignUp&quot;, &quot;&quot;, false, false))" id="ctl00_PlaceHolderLeftNavBar_ctl01_btnEmailSignUp" >
-<span class="ms-hide">
-<span class="breadcrumbSiteNav" HideInteriorRootNodes="true">
 <label for="legis-cf-comments" class="legis-cf-label">
 <textarea name="Legis-Comments" id="legis-cf-comments" class="legis-cf-input">
 <label for="legis-cf-email" class="legis-cf-label">

@@ -34,7 +34,6 @@
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90 type=text >
 <label for=phone>
 <input id=phone name=phone type=text >
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>
@@ -82,15 +81,10 @@
 <label for=affl1_emailoptin>
 <input checked=checked class=is-inline id=affl1_emaildecline name=affl1 type=radio value=Email.decline >
 <label for=affl1_emaildecline>
-<p>
 <fieldset>
 <legend>
 <input checked=checked class=is-inline id=response_yes name=response type=radio value=Yes >
 <label for=response_yes>
 <input class=is-inline id=response_no name=response type=radio value=No >
 <label for=response_no>
-<p>
-<p>
-<p>
 <input class=submit id=submit name=submit type=submit value=Send Email >
-<p>

@@ -91,5 +91,4 @@
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
 <input class=submit id=submit name=submit type=submit value=Send Email>
-<p>
 <span class=tel>

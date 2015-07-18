@@ -1,5 +1,4 @@
 <form action=http://www.utah.gov/formprocessor/index.uii method=post name=contactForm id=contactForm>
-<p>
 <label for=senator>
 <select name=senator id=senator>
 <option value= selected>
@@ -32,16 +31,12 @@
 <option value=kvantassell@le.utah.gov>
 <option value=evickers@le.utah.gov>
 <option value=tweiler@le.utah.gov>
-<p>
 <label for=name>
 <input name=name id=name type=text placeholder=Your name required autofocus>
-<p>
 <label for=yourAddress>
 <input name=yourAddress id=yourAddress type=text placeholder=Your address required>
-<p>
 <label for=city>
 <input name=city id=city type=text placeholder=Your city required>
-<p>
 <label for=state>
 <select name=state id=state required>
 <option value=>
@@ -96,18 +91,13 @@
 <option value=WV>
 <option value=WI>
 <option value=WY>
-<p>
 <label for=zip>
 <input name=zip id=zip type=text placeholder=xxxxx required>
-<p>
 <label for=phone>
 <input name=phone id=phone type=tel maxlength=12 placeholder=(xxx) xxx-xxxx required>
-<p>
 <label for=email>
 <input name=email id=email type=email placeholder=johnsmith@example.com required>
-<p>
 <label for=message>
 <textarea name=message id=message placeholder=What would you like to say?>
-<p>
 <button type=submit id=form-submit>
 <button type=reset id=form-reset class=red>

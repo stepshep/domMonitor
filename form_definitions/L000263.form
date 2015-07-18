@@ -59,7 +59,6 @@
 <label for=required-affll_0>
 <input class=validate[required] is-required is-inline id=required-affll_1 name=required-affll type=radio value=No>
 <label for=required-affll_1>
-<p>
 <fieldset>
 <legend>
 <label for=phone>
@@ -70,7 +69,6 @@
 <label for=speech_1>
 <input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>
@@ -101,4 +99,3 @@
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
 <input class=submit id=submit name=submit type=submit value=Send Email>
-<p>

@@ -1,17 +1,12 @@
 <form name= action=/contact-gov-scott/email-the-governor/#wpcf7-f9753-p238-o1 method=post class=wpcf7-form novalidate=novalidate>
-<p>
 <span class=wpcf7-form-control-wrap name>
 <input type=text name=name value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
-<p>
 <span class=wpcf7-form-control-wrap email>
 <input type=email name=email value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email aria-required=true aria-invalid=false >
-<p>
 <span class=wpcf7-form-control-wrap tel-295>
 <input type=tel name=tel-295 value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel aria-invalid=false >
-<p>
 <span class=wpcf7-form-control-wrap zip>
 <input type=text name=zip value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
-<p>
 <span class=wpcf7-form-control-wrap County>
 <select name=County class=wpcf7-form-control wpcf7-select wpcf7-validates-as-required id=County aria-required=true aria-invalid=false>
 <option value=Out of State>
@@ -83,11 +78,8 @@
 <option value=Wakulla>
 <option value=Walton>
 <option value=Washington>
-<p>
 <span class=wpcf7-form-control-wrap subject>
 <input type=text name=subject value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
-<p>
 <span class=wpcf7-form-control-wrap message>
 <textarea name=message cols=40 rows=10 class=wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required aria-required=true aria-invalid=false>
-<p>
 <input type=submit value=Send class=wpcf7-form-control wpcf7-submit >

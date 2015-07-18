@@ -6,7 +6,6 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
 <span style=font-family: arial;>
 <span style=font-size: 16px;>
 <span style=font-size: 16px; font-family: arial; color: #000000;>
@@ -23,7 +22,6 @@
 <iframe width=300 height=200 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=109+Indiana+Street,+Suite+3,+Punxsutawney,+PA+15767&amp;sll=41.240208,-77.171472&amp;sspn=0.011408,0.019226&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.95002,-78.967924&amp;output=embed&amp;s=AARTsJqtblQvy9T9nUmxSOxrqKLaxxA9Ew frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 13px; font-family: arial; color: #000000;>
-<p>
 <span style=font-size: 13px; font-family: arial; color: #000000;>
 <span style=font-size: 13px; font-family: arial; color: #000000;>
 <span id=fileSavedIndication style=color:Red;>
@@ -111,7 +109,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

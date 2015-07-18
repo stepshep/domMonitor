@@ -16,11 +16,8 @@
 <span style=font-size: 13px; text-decoration: underline;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px; font-family: arial,helvetica,sans-serif;>
-<p>
 <span style=font-size: 9pt; color: #333333;>
-<p>
 <span style=font-size: 16px; color: #333333;>
-<p>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 13px;>
@@ -28,7 +25,6 @@
 <iframe width=320 height=250 src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.599698693276!2d-79.53184350000001!3d40.7708283!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834a85b8c9ea60b%3A0x35c742f0a6ecc092!2s312+Ford+St%2C+Ford+City%2C+PA+16226!5e0!3m2!1sen!2sus!4v1417548089096 frameborder=0 style=border: 0px;>
 <span style=font-size: 13px;>
 <em>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
@@ -37,7 +33,6 @@
 <em>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
@@ -126,7 +121,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

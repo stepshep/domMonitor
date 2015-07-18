@@ -18,14 +18,12 @@
 <span style=font-size: 13px;>
 <span style=color: #ffffff;>
 <span style=font-size: 13px; color: #ffffff;>
-<p>
 <span style=font-size: 9pt;>
 <span style=font-size: 9pt; font-family: arial; color: #333333;>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 16px;>
 <iframe width=325 height=280 src=http://www.bing.com/maps/embed/viewer.aspx?v=3&amp;cp=41.451579~-75.179380&amp;lvl=16&amp;w=325&amp;h=280&amp;sty=r&amp;typ=d&amp;pp=&amp;ps=&amp;dir=0&amp;mkt=en-us&amp;src=SHELL&amp;form=BMEMJS frameborder=0>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span id=fileSavedIndication style=color:Red;>
@@ -113,7 +111,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

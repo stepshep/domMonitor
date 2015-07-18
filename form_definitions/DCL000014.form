@@ -15,5 +15,4 @@
 <label>
 <span class=wpcf7-form-control-wrap your-message>
 <textarea name=your-message cols=40 rows=10 class=wpcf7-form-control wpcf7-textarea aria-invalid=false>
-<p>
 <input type=submit value=Submit class=wpcf7-form-control wpcf7-submit >

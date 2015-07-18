@@ -8,24 +8,15 @@ $httprefi = getenv ("HTTP_REFERER");
 $httpagenti = getenv ("HTTP_USER_AGENT");
 ?>
 <span class="hdoheader">
-<p>
 <input name="nameis" type="text" id="nameis" size="40">
-<p>
 <input name="visitormail" type="email" required id="visitormail" size="40">
-<p>
 <input name="address" type="text" id="address" size="40">
 <table border="0">
-<p>
 <input name="city" type="text" id="city" size="25">
-<p>
 <input name="state" id="state" type="text" size="5">
-<p>
 <input name="zip" type="text" required id="zip" size="10">
-<p>
 <textarea name="comments" cols="80" rows="10" id="comments">
-<p>
 <input name="EmailUpdates" id="EmailUpdates" type="checkbox" value="yes">
-<p>
 <input type="submit" value="Submit">
 <form action="emailup.php" method="post" name="EmailUp" id="EmailUp">
 <?php
@@ -35,7 +26,6 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 ?>
 <fieldset>
 <legend>
-<p>
 <label for="firstname">
 <input name="firstname" type="text" id="firstname" size="28">
 <label for="lastname">

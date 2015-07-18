@@ -6,7 +6,6 @@
 <input name=dnn$Search1$txtSearch type=text maxlength=255 size=20 id=dnn_Search1_txtSearch class=NormalTextBox autocomplete=off placeholder=Search... >
 <h1>
 <h2>
-<nav class=top-bar hide-for-small data-topbar>
 <section class=top-bar-section>
 <ul class=left>
 <li >
@@ -26,7 +25,6 @@
 <ul class=off-canvas-list>
 <h3>
 <span id=dnn_ctr1743_dnnTITLE_titleLabel class=dnntitle>
-<p>
 <h3>
 <span id=dnn_ctr1744_dnnTITLE_titleLabel class=dnntitle>
 <fieldset class=wsFieldset>

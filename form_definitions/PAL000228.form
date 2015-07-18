@@ -16,19 +16,14 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
-<span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
+<span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <em>
-<p>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 13px;>
@@ -44,11 +39,8 @@
 <span style=font-size: 13px;>
 <iframe id=map height=200 src=http://www.bing.com/maps/embed/?lvl=15&amp;cp=41.925920400623134~-79.64135645767212&amp;sty=r&amp;draggable=true&amp;v=2&amp;dir=0&amp;where1=434+N+Center+St%2C+Corry%2C+PA+16407&amp;form=LMLTEW&amp;pp=41.92564867436886~-79.64133493602276&amp;mkt=en-us&amp;gen=false&amp;emid=378b09bd-8a80-2400-e2a6-2946410e7dae&amp;w=250&amp;h=200 frameborder=0 width=250 name=mapFrame scrolling=no>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 13px;>
@@ -149,7 +141,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

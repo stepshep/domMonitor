@@ -3,7 +3,6 @@
 <input id="searchInput" type="text" name="q" value="" >
 <input id="searchSubmit" type="submit" value="Go" >
 <form method="post" class="uniForm" action="">
-<p>
 <hr >
 <label for="field_0cb45eca-a067-4502-a126-3bf34074a15a">
 <strong class="required">

@@ -35,7 +35,6 @@
 <label for=email>
 <span class=required-field title=required information>
 <input class=validate[required,custom[email]] is-required id=email maxlength=100 name=required-valid-email size=90 type=text>
-<p>
 <fieldset>
 <legend>
 <label for=issue>
@@ -74,4 +73,3 @@
 <label for=newsletter-subscribe>
 <b>
 <input class=submit id=submit name=submit type=submit value=Submit Message>
-<p>

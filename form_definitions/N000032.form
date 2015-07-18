@@ -148,4 +148,3 @@
 <label for=Message>
 <textarea cols=68 id=Message name=Message required= rows=3>
 <input class=submit id=submit name=submit type=submit value=Submit >
-<p>

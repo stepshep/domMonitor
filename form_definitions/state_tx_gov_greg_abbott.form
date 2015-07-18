@@ -1,7 +1,5 @@
 <form method=post action=assistance.aspx id=Form1>
 <h2>
-<p>
-<p>
 <table height=539 style=WIDTH: auto>
 <tbody>
 <td height=31>
@@ -32,7 +30,6 @@
 <td width=112 colspan=1 height=30>
 <span id=Label13 style=font-size:Small;font-weight:bold;>
 <td height=30>
-<table id=RadioButtonList1 style=border-color:White;border-style:None;font-size:Small;font-weight:bold;height:16px;width:300px;>
 <tbody>
 <input id=RadioButtonList1_0 type=radio name=RadioButtonList1 value=1>
 <label for=RadioButtonList1_0>
@@ -128,6 +125,5 @@
 <td width=112>
 <span id=Label12 style=font-size:Small;font-weight:bold;>
 <textarea name=txtMessage rows=2 cols=20 id=txtMessage style=height:100px;width:300px;>
-<p>
 <p style=MARGIN: 0px 0px 0px 25px>
 <input type=submit name=Button1 value=Send Message onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;Button1&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=Button1 style=font-size:Small;height:25px;width:120px;>

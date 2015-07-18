@@ -1,16 +1,11 @@
 <form id=3572B654-E248-A5D9-D70B-8968CF7308EC action=https://takano.house.gov/contact/email-me method=post>
-<p>
 <h3 class=formheader>
 <fieldset class=intro>
 <legend>
-<p>
 <label class=control-label for=zipcode>
 <span class=required>
 <input id=zipcode name=input_36021752-DBB4-99CD-0DF8-775968CFD2C5 class=validate[required,%creativengine_forms_builder.validate.zip] type=text>
 <h3 class=formheader>
-<p>
-<p>
-<p>
 <h3 class=formheader>
 <fieldset>
 <legend>
@@ -211,8 +206,6 @@
 <option value=voice>
 <option value=VP>
 <option value=TTD>
-<p>
-<p>
 <b>
 <fieldset>
 <legend>

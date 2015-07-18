@@ -1,7 +1,6 @@
 <form action="/es/governor/" method="post">
 <fieldset>
 <legend>
-<p>
 <p class="comment">
 <label for="RSP">
 <input data-val="true" data-val-required="&#39;R S P&#39; must not be empty." id="RSP" name="RSP" type="checkbox" value="true" >
@@ -115,19 +114,15 @@
 <label for="Email">
 <input data-val="true" data-val-email="&#39;Email Address&#39; is not a valid email address." data-val-length="&#39;Email Address&#39; must be between 1 and 4000 characters." data-val-length-max="4000" data-val-length-min="1" data-val-required="&#39;Email Address&#39; should not be empty." id="Email" maxlength="50" name="Email" style="width:25em" type="text" value="" >
 <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true">
-<p>
 <label for="Addr3">
 <input data-val="true" data-val-length="Maximum length is 35 characters" data-val-length-max="35" id="Addr3" maxlength="50" name="Addr3" style="width:25em" type="text" value="" >
 <span class="field-validation-valid" data-valmsg-for="Addr3" data-valmsg-replace="true">
-<p>
 <label for="Phone">
 <input data-val="true" data-val-regex="&#39;Daytime phone&#39; is not in the correct format." data-val-regex-pattern="^(\s*|^[0-9() -x]+)$" id="Phone" maxlength="50" name="Phone" type="text" value="" >
 <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true">
-<p>
 <label for="Country">
 <input data-val="true" data-val-length="Maximum length is 35 characters" data-val-length-max="35" id="Country" maxlength="50" name="Country" style="width:25em" type="text" value="" >
 <span class="field-validation-valid" data-valmsg-for="Country" data-valmsg-replace="true">
-<p>
 <label for="SelectedSubject">
 <select data-val="true" data-val-required="&#39;Selected Subject&#39; must not be empty." id="SelectedSubject" name="SelectedSubject">
 <option value="">
@@ -169,7 +164,6 @@
 <label for="Msg">
 <textarea TextMode="MultiLine" class="richTextArea" cols="20" data-val="true" data-val-length="&#39;Message&#39; must be between 0 and 4000 characters." data-val-length-max="4000" id="Msg" name="Msg" rows="2" style="height:15.625em; width:60.5em" wrap="True">
 <span class="field-validation-valid" data-valmsg-for="Msg" data-valmsg-replace="true">
-<p>
 <input type="submit" value="Submit" >
 <input type="reset" value="Reset" >
 <h2>

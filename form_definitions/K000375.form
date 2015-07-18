@@ -74,12 +74,10 @@
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=70 >
 <label for=required-message>
 <span class=required-field style1 title=required information>
-<p>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
 <label>
 <input type=radio class=radio value=Y name=response >
 <input name=response type=radio class=radio value=N checked=checked >
 <label>
 <input type=checkbox value=EMAIL.OPTIN name=aff1 checked >
-<p>
 <input class=submit id=submit2 name=submit type=submit value=Send Email >

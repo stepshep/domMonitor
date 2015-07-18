@@ -24,8 +24,6 @@
 <li id="t-subject7">
 <li id="t-subject8">
 <li id="t-subject9">
-<input type="image" name="ctl00$ImgBtnTracker" id="ImgBtnTracker" title="Track Bill(s)" class="UtilImg" src="Images/icons/NeedleBlue.png" style="width:19px;" >
-<input type="image" name="ctl00$ImgBtnLegisFind" id="ImgBtnLegisFind" title="Find My Elected Officials" class="UtilImg" src="Images/icons/Legislator.png" style="width:19px;" >
 <input type="submit" name="ctl00$ctlContactLegislator$cmdContactCancel" value="Close" id="ctlContactLegislator_cmdContactCancel" tabindex="4" class="closebutton" >
 <table class ="Tracking-600">
 <td colspan="2">
@@ -43,7 +41,6 @@
 <h4 class="h4right">
 <h3>
 <h4 class="h4right">
-<p>
 <table  id="navSubTab" >
 <li >
 <span style="color: #000000;background-position:100% -49px;">
@@ -51,7 +48,6 @@
 <span >
 <li >
 <span >
-<p>
 <end-title>
 <table class="spco">
 <th>
@@ -61,8 +57,3 @@
 <th>
 <th>
 <h5 style="text-align:right;">
-<p>
-<p>
-<p>
-<p>
-<p>

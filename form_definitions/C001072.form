@@ -40,7 +40,6 @@
 <option selected=selected title=Standard voice telephone value=Voice>
 <option title=Videophone value=VP>
 <option title=Text-telephone device value=TTD>
-<p>
 <fieldset>
 <legend>
 <label class=control-label for=required-subject>

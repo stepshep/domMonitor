@@ -1,8 +1,6 @@
 <form action="http://ellmers.house.gov/index.cfm" method="get" onsubmit="return checkformsearch(this)">
-<p>
 <label for="searchkey">
 <span class="requiredfield" id="searchkeyrequired">
-<p>
 <input type="text" name="searchkey" id="searchkey">
 <p id="searchEntire" class="c2">
 <input type="radio" class="radiobutton" name="locale" value="-1" id="entire" checked="checked">

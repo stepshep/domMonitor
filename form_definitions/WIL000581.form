@@ -40,7 +40,6 @@ data-val="true"
 >
 <span class="field-validation-valid" data-valmsg-for="bd7b83dc-3d3b-4ac6-bd09-73c9b6aaf646" data-valmsg-replace="true">
 <h2>
-<p>
 <span class="field-validation-valid" data-valmsg-for="c0a39e30-58e5-47bf-bd61-589325dfae12" data-valmsg-replace="true">
 <input type="text" name="144ff47cfd134fa09469823abe0dbebf" >
 <input type="submit" class="btn primary" value="Submit" name="submit">

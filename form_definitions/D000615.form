@@ -39,7 +39,6 @@
 <label for=required-valid-email>
 <span class=required-field title=required information>
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90>
-<p>
 <fieldset>
 <legend>
 <label for=phone>
@@ -55,7 +54,6 @@
 <label for=speech_2>
 <p class=small>
 <span class=stand-out>
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>
@@ -100,4 +98,3 @@
 <input class=is-inline id=subcribe name=subscribe type=Checkbox value=AFFL>
 <label for=subscribe>
 <input class=submit id=submit name=submit type=submit value=Send Email>
-<p>

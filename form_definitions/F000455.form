@@ -2,31 +2,22 @@
 <style type=text/css media=all title=main css>
 <p class=req>
 <h2>
-<p>
 <label>
 <input type=text name=prefix maxlength=6 id=req_prefix class=text1>
-<p>
 <label>
 <input type=text name=firstname id=req_firstname maxlength=90 class=text>
-<p>
 <label>
 <input type=text name=middle class=text style=width:15px; maxlength=2>
-<p>
 <label>
 <input type=text name=lastname id=req_lastname class=text maxlength=90>
-<p>
 <label>
 <input type=text name=suffix class=text1 maxlength=5>
-<p>
 <label>
 <input type=text name=street id=req_street class=text maxlength=190>
-<p>
 <label>
 <input type=text name=street2 class=text maxlength=190>
-<p>
 <label>
 <input type=text name=city id=req_city class=text maxlength=100>
-<p>
 <label>
 <select name=state id=req_state>
 <option selected= value=>
@@ -82,20 +73,15 @@
 <option value=WI>
 <option value=WV>
 <option value=WY>
-<p>
 <label>
 <input value=44128 class=zip id=req_zip maxlength=5 name=zipcode type=text>
 <input value=6408 class=zip id=zip2 maxlength=4 name=zipfour type=text>
-<p>
 <label>
 <input type=text name=em-address id=req_email maxlength=150 class=text>
-<p>
 <label>
 <input type=text name=phone class=text phonemask id=req_phone maxlength=14>
-<p>
 <label>
 <input type=text name=phonebusiness class=text phonemask maxlength=14>
-<p>
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected= value=>
@@ -138,10 +124,7 @@
 <option value=TRD>
 <option value=VET>
 <option value=WELF>
-<p>
 <label>
 <textarea name=message id=req_message class=message>
 <input type=button size=20 value=Submit id=submitButton class=button>
 <h2>
-<p>
-<p>

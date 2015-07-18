@@ -70,7 +70,6 @@
 <input class=form-control type=text id=IDFormField_subject_0 name=formField_subject value=    >
 <label for=IDFormField_Comments_0>
 <textarea class=form-control id=IDFormField_Comments_0 name=formField_Comments   >
-<p>
 <noscript>
 <iframe src=http://www.google.com/recaptcha/api/noscript?k=6LfB3QQAAAAAAKYLJOyWTzJyo5wKd7GVL_8-kAzB height=300 width=500 frameborder=0>
 <textarea name=recaptcha_challenge_field rows=3 cols=40>

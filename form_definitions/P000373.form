@@ -1,9 +1,6 @@
 <form action=/htbin/formproc/issue_subscribe_file.txt&amp;display=/contact-me/legislative-contact-form/legislative-contact-form-thank-you&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=POST>
 <p class=form-info>
 <span class=required-field title=required information>
-<p>
-<p>
-<p>
 <label for=prefix>
 <input id=required-prefix maxlength=90 name=required-prefix size=3 type=TEXT >
 <label for=required-first>

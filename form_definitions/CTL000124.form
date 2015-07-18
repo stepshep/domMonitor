@@ -8,17 +8,13 @@ $httprefi = getenv ("HTTP_REFERER");
 $httpagenti = getenv ("HTTP_USER_AGENT");
 ?>
 <span class="hdoheader">
-<p>
 <label for="nameis">
 <input name="nameis" type="text" id="nameis" size="40">
-<p>
 <label for="visitormail">
 <input name="visitormail" type="text" id="visitormail" size="40">
-<p>
 <label for="address">
 <input name="address" type="text" id="address" size="40">
 <table border="0">
-<p>
 <label for="city">
 <select name="city" id="city">
 <option value="" selected="selected">
@@ -191,7 +187,6 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <option value="Woodbury">
 <option value="Woodstock">
 <option value="Other">
-<p>
 <label for="state">
 <select name="state" id="state">
 <option value="AL">
@@ -244,15 +239,11 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <option value="WV">
 <option value="WI">
 <option value="WY">
-<p>
 <label for="zip">
 <input name="zip" type="text" id="zip" size="10">
-<p>
 <label for="comments">
 <textarea name="comments" cols="80" rows="10" id="comments">
-<p>
 <input name="EmailUpdates"  id="EmailUpdates" type="checkbox" value="yes">
-<p>
 <input type="submit" value="Submit">
 <form action="emailup.php" method="post" name="EmailUp" id="EmailUp">
 <?php
@@ -262,7 +253,6 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 ?>
 <fieldset>
 <legend>
-<p>
 <label for="firstname">
 <input name="firstname" type="text" id="firstname" size="28">
 <label for="lastname">

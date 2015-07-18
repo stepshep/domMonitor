@@ -5,19 +5,16 @@
 <font face=arial color=red size=2>
 <font face=Arial>
 <input name=txtName type=text id=txtName style=background-color:LightSteelBlue;font-size:Small;width:370px; >
-<TR>
 <td align=right>
 <font face=arial size=2>
 <font face=arial color=red size=2>
 <font face=Arial>
 <input name=txtAddress type=text id=txtAddress style=background-color:LightSteelBlue;font-size:Small;width:370px; >
-<TR>
 <td align=right>
 <font face=arial size=2>
 <font face=arial color=red size=2>
 <font face=Arial>
 <input name=txtCity type=text id=txtCity style=background-color:LightSteelBlue;font-size:Small;width:370px; >
-<TR>
 <td align=right>
 <font face=arial size=2>
 <font face=arial color=red size=2>

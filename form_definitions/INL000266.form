@@ -1,5 +1,4 @@
 <form id=form name=form method=post action=index.php onsubmit=return  Validator(this)>
-<p>
 <label class=formtextRequired>
 <select class=form-control id=IDFormField_Representative_0 name=formField_Representative  >
 <option value=---- Select your Representative ------    >
@@ -148,7 +147,6 @@
 <input type=text id=IDFormField_Zip_0 name=formField_Zip value=    >
 <label class=formtext for=IDFormField_Comments_0>
 <textarea id=IDFormField_Comments_0 name=formField_Comments cols=50 rows=10 >
-<p>
 <label class=recaptcha_only_if_image for=recaptcha_response_field>
 <label class=recaptcha_only_if_audio for=recaptcha_response_field>
 <input type=text id=recaptcha_response_field name=recaptcha_response_field>

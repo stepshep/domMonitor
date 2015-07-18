@@ -209,10 +209,8 @@
 <label for=Reply class=radio>
 <input type=radio value=Yes id=Reply name=Reply class=required radio >
 <input type=radio value=No Reply id=Reply name=Reply class=required radio >
-<p>
 <i>
 <span class=blue>
-<p>
 <b>
 <fieldset>
 <label>

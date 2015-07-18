@@ -29,7 +29,6 @@
 <option label=Dr. and Mrs. value=Dr. and Mrs.>
 <option label=Dr. and Mr. value=Dr. and Mr.>
 <li class=required>
-<p>
 <label for=military_toggle class=checkbox>
 <input type=checkbox name=military_toggle id=military_toggle value=military>
 <label for=ecclesiastical_toggle class=checkbox>

@@ -2,7 +2,6 @@
 <table width=550 cellspacing=2 cellpadding=2>
 <td width=179 align=right>
 <td width=355>
-<p>
 <span class=wpcf7-form-control-wrap first_name>
 <input type=text name=first_name value= class=wpcf7-text wpcf7-validates-as-required size=20 >
 <td align=right>
@@ -48,5 +47,4 @@
 <td align=right valign=top>
 <span class=wpcf7-form-control-wrap question>
 <textarea name=question class=wpcf7-validates-as-required cols=40 rows=6>
-<p>
 <input type=submit value=SUBMIT class=wpcf7-submit button_cap_update >

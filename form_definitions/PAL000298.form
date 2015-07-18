@@ -10,10 +10,8 @@
 <em>
 <em>
 <em>
-<p>
 <em>
 <em>
-<p>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 16px;>
@@ -21,7 +19,6 @@
 <p style=text-align: left;>
 <iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=988+East+Main+Street,+Schuylkill+Haven,+PA+17972&amp;sll=37.0625,-95.677068&amp;sspn=48.822589,78.837891&amp;ie=UTF8&amp;hq=&amp;hnear=988+E+Main+St,+Schuylkill+Haven,+Schuylkill,+Pennsylvania+17972&amp;z=14&amp;ll=40.638594,-76.160095&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 16px;>
@@ -113,7 +110,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

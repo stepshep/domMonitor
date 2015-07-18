@@ -100,12 +100,9 @@
 <font color=Red>
 <td colspan=5 align=left>
 <textarea name=required-message rows=8 wrap=PHYSICAL id=message cols=30 tabindex=13>
-<p>
 <table>
 <td valign=top>
-<p>
 <td align=center>
-<p>
 <LABEL for=subscribe>
 <input type=radio name=enewsletteroption id=subscribe value=SUBSCRIBE>
 <LABEL for=unsubscribe>

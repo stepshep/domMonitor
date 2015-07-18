@@ -116,4 +116,3 @@
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message placeholder=Text of Message rows=5>
 <input class=submit id=submit name=submit role=button type=submit value=Send Email>
-<p>

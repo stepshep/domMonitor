@@ -10,9 +10,7 @@
 <p class=sectionintro style=text-align: left;>
 <span style=font-size: 13px; font-family: arial;>
 <span style=font-size: 13px; font-family: arial;>
-<p>
 <span style=font-size: 13pt; font-family: arial,helvetica,sans-serif; color: #333333;>
-<p>
 <span style=font-size: 10pt; font-family: arial;>
 <span style=font-family: arial,helvetica,sans-serif;>
 <span style=font-size: 16px;>
@@ -114,7 +112,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

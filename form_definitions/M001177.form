@@ -28,7 +28,6 @@
 <input value=95746 id=required-zip5 maxlength=5 name=required-zip5 placeholder=Zip type=text>
 <label for=zip4>
 <input value=8501 id=zip4 maxlength=5 name=zip4 placeholder=Zip+4 type=text>
-<p>
 <fieldset>
 <legend>
 <label for=required-valid-email>
@@ -43,10 +42,8 @@
 <label class=is-inline for=speech_1>
 <input id=speech_2 name=speech value=TTD type=radio>
 <label class=is-inline for=speech_2>
-<p>
 <fieldset>
 <legend>
-<p>
 <input id=affl name=affl value=EMAIL.OPTIN type=radio>
 <label for=subscribe>
 <input id=affl name=affl value=EMAIL.OPTOUT type=radio>
@@ -55,7 +52,6 @@
 <label for=noaction>
 <fieldset>
 <legend>
-<p>
 <input id=thall name=thall value=TELE.OPTIN type=radio>
 <label for=subscribe>
 <input id=thall name=thall value=TELE.OPTOUT type=radio>
@@ -64,7 +60,6 @@
 <label for=noaction>
 <fieldset>
 <legend>
-<p>
 <input name=fp_groupoptions-issues-WEBAGR value=WEBAGR type=checkbox>
 <label class=is-inline>
 <input name=fp_groupoptions-issues-WEBBUD value=WEBBUD type=checkbox>

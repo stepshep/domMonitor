@@ -1,6 +1,4 @@
 <form method=post class=uniForm>
-<p>
-<p>
 <label for=field_9444dbc2-bbe1-469d-9b8f-ab10eb838284>
 <select class=selectInput name=field_9444dbc2-bbe1-469d-9b8f-ab10eb838284 id=field_9444dbc2-bbe1-469d-9b8f-ab10eb838284 value=>
 <option value=>
@@ -86,9 +84,7 @@
 <label for=field_d065bdd9-7c1e-4d99-a50e-6a1adae8803b>
 <strong class=required>
 <input type=text class=textInput name=field_d065bdd9-7c1e-4d99-a50e-6a1adae8803b id=field_d065bdd9-7c1e-4d99-a50e-6a1adae8803b value= >
-<p>
 <em>
-<p>
 <p class=label>
 <strong class=required>
 <label for=field_302e8a41-000d-419e-991e-40c7cb96f97c_1 class=inlineLabel>

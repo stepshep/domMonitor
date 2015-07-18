@@ -249,4 +249,3 @@
 <p style=text-align: center;>
 <input name=WR_Submit title=Press Alt+S to Send Message accesskey=s type=submit value=Send Message >
 <input name=WR_Reset title=Press Alt+R to Reset Form accesskey=r type=reset value=Reset >
-<p>

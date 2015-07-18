@@ -2,7 +2,6 @@
 <table>
 <tbody>
 <td colspan=2>
-<p>
 <font color=red>
 <td width=191>
 <font color=red>
@@ -110,9 +109,7 @@
 <font color=red>
 <textarea name=required-message id=required-message rows=8 cols=30>
 <td colspan=2>
-<p>
 <input name=subscribe type=checkbox id=subscribe value=Email.Optin checked=checked >
-<p>
 <select id=required-response name=required-response size=1>
 <option selected=selected value=>
 <option value=Y>

@@ -2,7 +2,6 @@
 <style type=text/css media=all title=main css>
 <p class=req>
 <h2>
-<p>
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option value= selected=selected>
@@ -17,49 +16,34 @@
 <option value=Representative>
 <option value=Senator>
 <option value=Sister>
-<p>
 <label>
 <input type=text name=firstname id=firstname class=text>
-<p>
 <label>
 <input type=text name=middle class=text style=width:22px; maxlength=1>
-<p>
 <label>
 <input type=text name=lastname id=lastname class=text>
-<p>
 <label>
 <input type=text name=suffix class=text1>
-<p>
 <label>
 <input type=text name=street id=street class=text>
-<p>
 <label>
 <input type=text name=street2 class=text>
-<p>
 <label>
 <input type=text name=city id=city class=text>
-<p>
 <label>
 <select name=state id=state>
 <option selected=selected value=>
 <option value=NY>
-<p>
 <label>
 <input value=12305 class=zip id=zipcode name=zipcode style=width:70px; type=text>
 <input value=1905 class=zip id=zipfour name=zipfour style=width:68px; type=text>
-<p>
-<p>
-<p>
 <label>
 <input type=text name=emailaddress id=email class=text>
 <span id=emailreq>
-<p>
 <label>
 <input type=checkbox onclick=toggleReq(this);>
-<p>
 <label>
 <input type=text name=phone class=text phonemask>
-<p>
 <label>
 <select name=subject>
 <option value=>
@@ -89,13 +73,10 @@
 <option value=WEBTRAN>
 <option value=WEBVET>
 <option value=WEBOTH>
-<p>
 <label>
 <textarea name=message id=message class=message>
-<p>
 <span class=formSubmitMsg>
 <input type=checkbox name=subsc id=subsc class=filled value=SUBSCRIBE>
-<p>
 <label>
 <input class=button type=submit value=Submit onclick=this.disabled=true,this.form.submit();>
 <input class=button type=reset>

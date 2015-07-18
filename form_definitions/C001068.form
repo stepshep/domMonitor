@@ -1,9 +1,6 @@
 <form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm id=contactForm>
-<p>
-<p>
 <p class=form-info>
 <span class=required-field title=required information>
-<p>
 <fieldset>
 <legend>
 <label for=title>
@@ -47,14 +44,9 @@
 <option selected=selected value=>
 <option value=Y>
 <option value=N>
-<p>
 <fieldset>
 <legend>
 <label for=Subscribe>
 <input class=inputbox name=subscribe type=checkbox value=OPTIN.EMAIL>
-<p>
-<p>
 <input class=submit id=submit name=submit type=submit value=Send Message>
-<p>
-<p>
 <span class=tel>

@@ -1,7 +1,4 @@
 <form method=post id=contactForm action=/htbin/formproc/benniethompson/webforms/contact_form_file.txt&amp;display=/webforms/thank-you.shtml>
-<p>
-<p>
-<p>
 <u>
 <fieldset>
 <table width=100% border=0 cellpadding=2 cellspacing=0 summary=layout>
@@ -28,13 +25,11 @@
 <td bgcolor=#c0c0c0>
 <td valign=top>
 <label class=contactForm for=required-address>
-<p>
 <em>
 <input name=required-address id=required-address type=text value= maxlength=190 size=60 >
 <input type=text name=address2 id=address2 value= maxlength=190 size=60 >
 <td valign=top>
 <label class=contactForm for=required-city>
-<p>
 <em>
 <input name=required-city id=required-city type=text value= size=20 maxlength=45 >
 <label class=contactForm for=required-state>
@@ -47,28 +42,23 @@
 <label class=contactForm for=zip4>
 <input name=zip4 id=zip4 type=text value= size=4 maxlength=4 >
 <small>
-<p>
 <fieldset>
 <table width=100% border=0 cellpadding=2 cellspacing=0 summary=layout>
 <td bgcolor=#c0c0c0>
 <td valign=top>
-<p>
 <label class=contactForm for=required-email>
 <em>
 <input type=text name=required-email id=required-email value= size=40 maxlength=100 >
 <td valign=top>
-<p>
 <label class=contactForm for=required-affl>
 <em>
 <input name=required-affl type=radio value=Subscribe >
 <input name=required-affl type=radio value=Unsubscribe >
 <input name=required-affl type=radio checked=checked >
-<p>
 <fieldset>
 <table width=100% border=0 cellpadding=2 cellspacing=0 summary=layout>
 <td bgcolor=#c0c0c0>
 <td valign=top>
-<p>
 <label class=contactForm for=subject>
 <em>
 <select name=required-issue size=1 id=subject>
@@ -99,10 +89,8 @@
 <option value=WELF>
 <option value=OTHER>
 <td valign=top>
-<p>
 <label class=contactForm for=required-message>
 <em>
 <textarea name=required-message id=required-message rows=11 cols=44>
-<p>
 <input name=submit2 type=submit value=Send Email >
 <input name=reset type=reset value=Reset >

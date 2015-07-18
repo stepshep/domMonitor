@@ -9,7 +9,6 @@
 <abbr title="required">
 <select name="salutation" id="salutation" class="span12">
 <option label="" value="">
-<option label="None" value="None">
 <option label="Mr." value="Mr.">
 <option label="Mrs." value="Mrs.">
 <option label="Mr. and Mrs." value="Mr. and Mrs.">

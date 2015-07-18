@@ -145,11 +145,9 @@
 <input class=width400px data-val=true data-val-length=Must Be Less Than 200 Characters data-val-length-max=200 data-val-required=Message Subject Required id=MessageSubject name=MessageSubject type=text value= >
 <span class=required>
 <span class=field-validation-valid data-valmsg-for=MessageSubject data-valmsg-replace=true>
-<p>
 <label for=MessageBody>
 <span class=required>
 <textarea cols=62 data-val=true data-val-required=Message Required id=MessageBody name=MessageBody rows=10>
 <span class=field-validation-valid data-valmsg-for=MessageBody data-valmsg-replace=true>
-<p>
 <input type=submit value=Submit >
 <input type=reset value=Reset >

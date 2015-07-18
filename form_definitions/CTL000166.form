@@ -8,29 +8,20 @@ $httprefi = getenv ("HTTP_REFERER");
 $httpagenti = getenv ("HTTP_USER_AGENT");
 ?>
 <span class="hdoheader">
-<p>
 <label for="nameis">
 <input name="nameis" type="text" id="nameis" size="40">
-<p>
 <label for="visitormail">
 <input name="visitormail" type="email" required="required" id="visitormail" size="40">
-<p>
 <label for="address">
 <input name="address" type="text" id="address" size="40">
 <table border="0">
-<p>
 <label for="city">
 <input name="city" type="text" id="city" size="25">
-<p>
 <label for="state">
 <input name="state" id="state" type="text" size="5">
-<p>
 <label for="zip">
 <input name="zip" type="text" required="required" id="zip" size="10">
-<p>
 <label for="comments">
 <textarea name="comments" cols="80" rows="10" id="comments">
-<p>
 <input name="EmailUpdates" id="EmailUpdates" type="checkbox" value="yes">
-<p>
 <input type="submit" value="Submit">

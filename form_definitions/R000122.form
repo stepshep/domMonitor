@@ -139,7 +139,6 @@
 <option label=Navy - Seaman Apprentice value=Seaman Apprentice>
 <option label=Navy - Seaman value=Seaman>
 <option label=Navy - Seaman Recruit value=Seaman Recruit>
-<option label=None value= >
 <label for=fname>
 <abbr title=required>
 <input class=form-control type=text name=fname id=fname aria-required=true placeholder=Required required>

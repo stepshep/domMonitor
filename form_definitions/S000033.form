@@ -214,8 +214,6 @@
 <textarea id=message class=span12 required rows=10 name=message aria-required=true placeholder=Required required>
 <label for=respons_y class=checkbox>
 <input name=response id=response_y value=Y type=checkbox >
-<p>
 <input class=btn pull-right type=submit id=side-search-btn value=Send >
 <label class=checkbox>
 <input for=newsletter name=newsletter id=newsletter_y value=Y type=checkbox >
-<p>

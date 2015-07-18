@@ -137,8 +137,6 @@
 <td class="ms-sbgo ms-sbcell">
 <td class="ms-sbLastcell">
 <p class="ms-rteFontSize-3">
-<p>
-<p>
 <h4>
 <input name="ctl00$PlaceHolderLeftNavBar$ctl01$txtEmailSignUp" type="text" id="ctl00_PlaceHolderLeftNavBar_ctl01_txtEmailSignUp" class="LegisEmailSignUpTb" >
 <input type="submit" name="ctl00$PlaceHolderLeftNavBar$ctl01$btnEmailSignUp" value="Sign Up" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PlaceHolderLeftNavBar$ctl01$btnEmailSignUp&quot;, &quot;&quot;, true, &quot;LegEmailSignUp&quot;, &quot;&quot;, false, false))" id="ctl00_PlaceHolderLeftNavBar_ctl01_btnEmailSignUp" >

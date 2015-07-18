@@ -155,11 +155,10 @@
 <label for=gen-fieldid-29 class=control-label>
 <span class=req>
 <textarea class=input form-corner form-control name=MSG id=gen-fieldid-29 class=ft-textarea fld-MSG style=height:315px;width:260px;>
-<p>
 <label>
 <input type=text name=contact_email1 value=bot@bot.com>
 <label>
-<input type=text name=contact_email2 value= Symp3E8FC4 >
+<input type=text name=contact_email2 value= Symp2188 >
 <label>
 <input type=text name=contact_url value=>
 <label>

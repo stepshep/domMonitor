@@ -91,15 +91,9 @@
 <span class=form-required title=This field is required.>
 <textarea id=edit-submitted-main-content-section-message name=submitted[main_content_section][message] cols=60 rows=5 class=form-textarea required>
 <h3 style=margin-left: 0px;>
-<p>
 <h3 style=margin-left: 0px;>
-<p>
 <h3 style=margin-left: 0px;>
-<p>
 <h3 style=margin-left: 0px;>
-<p>
-<p>
-<p>
 <label for=edit-submitted-e-update-registration>
 <input type=checkbox id=edit-submitted-e-update-registration-1 name=submitted[e_update_registration][1] value=1 class=form-checkbox >
 <label class=option for=edit-submitted-e-update-registration-1>

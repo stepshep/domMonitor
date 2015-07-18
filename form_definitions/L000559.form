@@ -53,6 +53,4 @@
 <label for=response_yes>
 <input class=is-inline id=response_no name=response type=radio value=N>
 <label for=response_no>
-<p>
-<p>
 <input class=submit id=submit name=submit type=submit value=Send Email>

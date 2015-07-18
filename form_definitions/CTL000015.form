@@ -205,10 +205,8 @@
 <fieldset>
 <label for=message_text style=vertical-align: top;>
 <textarea id=message_text name=message_text style=width: 300px; height: 100px;>
-<p>
 <i>
 <span class=blue>
-<p>
 <b>
 <fieldset>
 <label>

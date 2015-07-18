@@ -1,18 +1,13 @@
 <form name=form1 method=post action=H055.aspx id=form1>
 <center>
-<p>
 <center>
 <h3>
 <center>
-<p>
 <center>
-<p>
 <center>
-<p>
 <span class=style1>
 <em>
 <center>
-<p>
 <hr align=center>
 <label for=Title>
 <input name=Title type=text size=35 id=Title >

@@ -8,19 +8,15 @@
 <p style=text-align: left;>
 <span style=font-family: arial; font-size: 13px; color: #000000;>
 <span style=font-family: arial; font-size: 13px; color: #000000;>
-<p>
 <span style=font-family: arial; color: #333333; font-size: 9pt;>
-<p>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 13px;>
-<p>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?hl=en&amp;q=237+W+Broad+St,+Tamaqua,+PA+18252,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.805494,-75.970459&amp;output=embed&amp;s=AARTsJp2hM4XXKu5RQw7haHqycNb9o7_dg frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
 <span style=font-size: 13px;>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=61+North+Third+Street,+Hamburg,+PA+19526-1501&amp;sll=37.0625,-95.677068&amp;sspn=48.956293,78.837891&amp;ie=UTF8&amp;z=14&amp;iwloc=A&amp;ll=40.564807,-75.980244&amp;output=embed frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 16px;>
@@ -110,7 +106,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

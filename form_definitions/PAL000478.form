@@ -15,25 +15,20 @@
 <span style=color: #000000; font-family: arial,helvetica,sans-serif; font-size: 13px;>
 <span style=color: #ffffff;>
 <span style=color: #ffffff;>
-<p>
 <span style=color: #333333; font-family: arial; font-size: 9pt;>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <iframe width=300 height=230 src=http://maps.google.com/maps?hl=en&amp;q=133+S+Richard+St,+Bedford,+PA+15522,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.026826,-78.497486&amp;output=embed&amp;s=AARTsJqLmNt5ORlS8CFzmKVgzBYh5y6eGg frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <iframe width=300 height=230 src=http://maps.google.com/maps?hl=en&amp;q=314+Lincoln+Way+E,+Mcconnellsburg,+PA+17233,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=39.940541,-77.992973&amp;output=embed&amp;s=AARTsJqayiYBW-EEw7xgmwHojNu6Kp_ogg frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 13px;>
@@ -123,7 +118,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

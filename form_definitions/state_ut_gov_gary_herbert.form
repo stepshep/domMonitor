@@ -10,7 +10,6 @@
 <td colspan="2" class="bodytxt-red">
 <font size="2"
  face="Arial, Helvetica, sans-serif">
-<p>
 <font class="bold">
 <td width="35%" class="bodytxt">
 <font size="2"
@@ -97,7 +96,6 @@
  face="Arial, Helvetica, sans-serif">
 <textarea cols="60" rows="10" name="subject">
 <td colspan="2" class="bodytxt">
-<p>
 <td colspan="2" class="bodytxt">
 <input
  value="Submit Feedback" name="send" type="button" onclick="validate()">

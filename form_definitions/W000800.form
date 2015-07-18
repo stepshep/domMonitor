@@ -1,5 +1,4 @@
 <form action=/email-me/ id=custom_form70 name=custom_form class=custom_form method=post>
-<p>
 <p class=req>
 <fieldset>
 <legend>
@@ -98,7 +97,6 @@
 <input type=text name=emailaddress id=req_email maxlength=100 class=text eml filled>
 <label for=phone>
 <input id=phone type=text name=phone class=text phn phonemask filled maxlength=20>
-<p>
 <fieldset>
 <legend>
 <label for=req_message>
@@ -110,6 +108,4 @@
 <span class=align>
 <input type=radio name=enewssign value=EMAIL.OPTIN id=enewsselect class=filled>
 <input type=radio name=enewssign value= checked=checked id=enewsno>
-<p>
-<p>
 <input type=button size=20 value=Send Email id=submitButton class=form_submit_button filled>

@@ -23,7 +23,6 @@
 <font color=red>
 <input name=required-EMAILADDRESS id=required-EMAILADDRESS size=40 maxlength=100 >
 <font color=red>
-<select name=required-ISSUE size=1 tabindex=13 onchange=fnShowHideText() id=required-ISSUE>
 <option value= selected=>
 <option value=AG>
 <option value=ANIMAL>

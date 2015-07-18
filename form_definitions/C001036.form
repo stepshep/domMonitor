@@ -33,12 +33,10 @@
 <label for=required-valid-email>
 <span class=required-field title=required information>
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90>
-<p>
 <fieldset>
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32>
-<p>
 <fieldset>
 <legend>
 <label for=enews>
@@ -89,12 +87,10 @@
 <option selected=selected value=>
 <option value=Y>
 <option value=N>
-<p>
 <fieldset>
 <legend>
 <input checked=checked class=is-inline id=rsp_no name=rsp type=radio value=No_Response_Required>
 <label for=resp_no>
 <input class=is-inline id=rsp_yes name=rsp type=radio value= >
 <label for=rsp_yes>
-<p>
 <input class=submit id=submit name=submit type=submit value=Send Email>

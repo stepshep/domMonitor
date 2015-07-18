@@ -72,5 +72,4 @@
 <span class=reqfield>
 <TEXTAREA NAME=form_message COLS=60 ROWS=10 WRAP=PHYSICAL TABINDEX=13>
 <INPUT TYPE=SUBMIT VALUE=Send Message>
-<p>
 <span class=reqfield>

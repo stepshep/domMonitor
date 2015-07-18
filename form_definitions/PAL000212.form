@@ -18,13 +18,10 @@
 <span style=font-size: 13px; font-family: arial; color: #ffffff;>
 <p class=sectionintro style=text-align: left;>
 <span style=font-size: 13px; font-family: arial; color: #ffffff;>
-<p>
 <span style=font-size: 9pt; color: #333333;>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 13px;>
@@ -33,7 +30,6 @@
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <iframe src=http://www.mapquest.com/embed#b/maps/m:map:12:39.873936:-75.717749::::::1:1:::::::::/l::692+Unionville+Rd:Kennett+Square:PA:19348-1704:US:39.873928:-75.717766:address::1:::/e frameborder=0 marginwidth=0 marginheight=0 scrolling=no style=height: 185px; width: 250px;>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
@@ -126,7 +122,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

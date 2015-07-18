@@ -14,22 +14,17 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
 <span style=font-family: arial; font-size: 13px;>
 <span style=color: #800000;>
 <span style=color: #800000;>
-<p>
 <span style=font-size: 16px;>
-<p>
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <iframe width=300 height=230 src=http://maps.google.com/maps?hl=en&amp;q=1515+DeKalb+Pike,+Blue+Bell,+PA+19422,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.163461,-75.298233&amp;output=embed&amp;s=AARTsJpEZ__g2NPiMS95wD_UbdjaodseYg frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
@@ -118,7 +113,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

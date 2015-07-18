@@ -80,5 +80,4 @@
 <input type=submit id=contactform_sendbutton name=sendbutton disabled=disabled value=Send >
 <input type=reset id=contactform_clear name=clear value=Clear >
 <input type=button id=contactform_cancel name=cancel value=Cancel >
-<p>
 <b>

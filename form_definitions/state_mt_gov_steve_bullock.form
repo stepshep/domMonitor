@@ -1,19 +1,5 @@
 <form method="post" action="/Home/Contact/shareopinion" id="Form" enctype="multipart/form-data">
 <\/script>
-< 10; i++) {
-					(function(igroup) {
-						
-						// TODO: better add DEPENDS? (http://stackoverflow.com/questions/3975778/jquery-validate-depend-field)
-
-						// hide all required validators - we'll handle it
-						//$('.c-form').find('.group' + igroup + '-onerequired').each(function () {
-						//	$(this).removeClass('required');
-						//});
-
-						$.validator.addMethod('group' + igroup + '-onerequired', function (value, element) {
-							var isValid = false;
-							$(element).parents('.c-form:first').find('.group' + igroup + '-onerequired').each(function () {
-								if (!isValid && $.trim($(this).val()).length >
 <script>
 <meta name="viewport" content="width=device-width">
 <link href="//template.mt.gov/resources/template/template.css" rel="stylesheet" type="text/css">
@@ -140,8 +126,5 @@
                     btn submit form-button loading btn-primary
                      btn-normal btn-info  " id="dnn7787SendNow" style="" data-validation="on" data-submiturl="/DesktopModules/AvatarSoft/ActionForm/Submit.ashx?TabId=3646&amp;language=en-US&amp;alias=governor.mt.gov&amp;mid=7787&amp;event=click&amp;b=225">
 <h2>
-<p>
 <h2>
-<p>
 <h2>
-<p>

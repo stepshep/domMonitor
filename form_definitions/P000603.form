@@ -1,7 +1,4 @@
 <form id=3572B654-E248-A5D9-D70B-8968CF7308EC action=http://www.paul.senate.gov/connect/email-rand method=post>
-<p>
-<p>
-<p>
 <fieldset>
 <legend>
 <label class=control-label for=input-35B67D45-0EE9-695F-CF75-CB73E9531F2A>
@@ -249,7 +246,6 @@
 <input id=input-3629D55A-D2E7-5DF0-4EC9-CF7353DD9A7D name=input_3629D55A-D2E7-5DF0-4EC9-CF7353DD9A7D class=validate[custom,%window.validate_3629D55A_D2E7_5DF0_4EC9_CF7353DD9A7D] type=text placeholder=Required>
 <fieldset>
 <legend>
-<p>
 <em>
 <label class=control-label for=input-F86363CE-4040-F985-52CD-25BC1B061358>
 <span class=required>
@@ -291,12 +287,10 @@
 <option value=Telecommunications>
 <option value=Transportation>
 <option value=Veterans Issues>
-<p>
 <em>
 <label class=control-label for=subject>
 <span class=required>
 <input id=subject name=input_F8813686-4040-F985-52CD-09783C7407E6 class=validate[required] type=text>
-<p>
 <em>
 <label class=control-label for=messagebody>
 <span class=required>

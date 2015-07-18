@@ -8,11 +8,8 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
 <span style=font-size: 9pt; color: #333333;>
-<p>
 <span style=font-size: 16px;>
-<p>
 <span style=font-size: 12pt;>
 <em>
 <em>
@@ -22,10 +19,8 @@
 <span style=font-size: 13px;>
 <iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=1009+Beaver+Grade+Road,+Moon+Township,+PA+15108&amp;sll=37.0625,-95.677068&amp;sspn=48.77566,78.75&amp;ie=UTF8&amp;ll=40.501373,-80.204688&amp;spn=0.034111,0.029159&amp;output=embed&amp;s=AARTsJpzJm7JDKcVMfBfVmg7-hXdhXAdgQ frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <em>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 12pt;>
 <em>
 <span style=font-size: 13px;>
@@ -114,7 +109,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

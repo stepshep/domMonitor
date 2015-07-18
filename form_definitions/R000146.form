@@ -110,7 +110,6 @@
 <li id=li--12 class=>
 <label for=cf_field_12>
 <select name=cf_field_12 id=cf_field_12 class=cformselect fldrequired >
-<option value=None>
 <option value=ABORT>
 <option value=AG>
 <option value=ANM>

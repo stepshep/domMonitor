@@ -2,9 +2,7 @@
 <table border=0 cellpadding=5 cellspacing=0 width=600>
 <tbody>
 <td align=right>
-<p>
 <label for=prefix>
-<p>
 <select name=required-prefix id=prefix>
 <option value= selected=>
 <option value=Mr.>
@@ -12,25 +10,18 @@
 <option value=Ms.>
 <option value=Miss>
 <td align=right>
-<p>
 <input value=Chester name=required-first id=firstname type=text size=20 maxlength=50>
 <td align=right>
-<p>
 <input name=middle id=middle type=text size=5 maxlength=20>
 <td align=right>
-<p>
 <input value=Tester name=required-last id=lastname type=text size=20 maxlength=50>
 <td align=right>
-<p>
 <input name=suffix id=suffix type=text size=10 maxlength=20>
 <td align=right>
-<p>
 <input name=required-address id=address type=text size=40 maxlength=200>
 <td align=right>
-<p>
 <input name=required-city id=city type=text size=25 maxlength=50>
 <td align=right>
-<p>
 <select name=required-state id=state>
 <option>
 <option>
@@ -88,13 +79,9 @@
 <option>
 <option>
 <td align=right>
-<p>
-<p>
 <td align=right>
-<p>
 <input name=required-valid-email id=email type=text size=27 maxlength=200>
 <td align=right>
-<p>
 <select name=required-issue size=1 id=topic>
 <option value= selected=>
 <option value=WEBAGR>
@@ -123,11 +110,8 @@
 <option value=WEBWEL>
 <option value=WEBOTH>
 <td align=right>
-<p>
 <textarea name=required-message id=message cols=45 rows=4>
 <td align=right>
-<p>
-<p>
 <input type=radio name=affl1 value=subscribe E-UPDATE-113-MA07 id=subscribe checked=>
 <input type=radio name=affl1 value= id=noaction>
 <td colspan=2 align=center>

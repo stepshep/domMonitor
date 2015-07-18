@@ -1,10 +1,5 @@
 <form action=/contact/ id=custom_form24 name=custom_form class=custom_form method=post>
-<p>
-<p>
 <p style=font-weight:bold; text-align:center;>
-<p>
-<p>
-<p>
 <p class=req>
 <fieldset>
 <legend>
@@ -116,5 +111,4 @@
 <legend>
 <p style=font-weight:bold>
 <input type=checkbox name=newsletter id=newsletter value=subscribe checked=checked class=filled>
-<p>
 <input type=button size=20 value=Send Email id=submitButton class=form_submit_button filled>

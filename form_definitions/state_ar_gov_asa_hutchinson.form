@@ -1,4 +1,3 @@
-<form id=form128 name=form128 class=wufoo topLabel page1 hideHeader accept-charset=UTF-8 autocomplete=off enctype=multipart/form-data method=post novalidate= action=https://arkansasgov.wufoo.com/embed/z10gjhti00fynaz/def/embedKey=z10gjhti00fynaz452275&amp;entsource=&amp;referrer=&amp;header=hide#public>
 <header id=header class=info>
 <h2>
 <li id=fo128li7 class=notranslate>
@@ -265,6 +264,5 @@
 <textarea id=Field4 name=Field4 class=field textarea large spellcheck=true rows=10 cols=50 tabindex=29 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
 <li class=buttons >
 <input id=saveForm name=saveForm class=btTxt submit type=submit value=Submit onmousedown=doSubmitEvents();>
-<li class=hide>
 <label for=comment>
 <textarea name=comment id=comment rows=1 cols=1>

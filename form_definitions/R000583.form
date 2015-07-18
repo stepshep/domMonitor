@@ -62,5 +62,4 @@
 <label for=response>
 <input id=subscribe name=subscribe type=checkbox value=Email.Optin>
 <label class=is-inline for=subscribe>
-<p>
 <input class=submit id=submit name=submit role=button type=submit value=Send Email>

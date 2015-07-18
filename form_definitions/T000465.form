@@ -1,9 +1,7 @@
 <form action=/e-mail-niki/ id=custom_form13 name=custom_form class=custom_form method=post>
 <style type=text/css media=all title=main css>
-<p>
 <p class=req>
 <h2>
-<p>
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option value=Mr. >
@@ -14,43 +12,31 @@
 <option value=Hon.>
 <option value=Rev.>
 <option value=Rabbi>
-<p>
 <label>
 <input type=text name=firstname id=req_firstname maxlength=90 class=text>
-<p>
 <label>
 <input type=text name=middle class=text style=width:15px; maxlength=2>
-<p>
 <label>
 <input type=text name=lastname id=req_lastname class=text maxlength=90>
-<p>
 <label>
 <input type=text name=suffix class=text1 maxlength=5>
-<p>
 <label>
 <input type=text name=street id=req_street class=text maxlength=190>
-<p>
 <label>
 <input type=text name=street2 class=text maxlength=190>
-<p>
 <label>
 <input type=text name=city id=req_city class=text maxlength=100>
-<p>
 <label>
 <select name=state id=req_state>
 <option selected= value=MA>
-<p>
 <label>
 <input type=text name=zip id=req_zip class=zip maxlength=5>
 <input value=5631 class=zip id=zip2 maxlength=4 name=zipfour type=text>
 <small>
-<p>
 <label>
 <input type=text name=emailaddress id=req_email maxlength=150 class=text>
-<p>
 <label>
 <input type=text name=phone class=text phonemask maxlength=14>
-<p>
 <label>
 <select size=1 name=subject id=req_subject>
 <option selected= value=>
@@ -76,10 +62,8 @@
 <option value=WEBVET>
 <option value=WEBWEL>
 <option value=WEBOTH>
-<p>
 <label>
 <textarea name=message id=req_message class=message>
-<p>
 <label>
 <select size=1 name=response id=req_response>
 <option selected= value=>

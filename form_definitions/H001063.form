@@ -28,7 +28,6 @@
 <label for=required-valid-email>
 <span class=required-field title=required information>
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90>
-<p>
 <fieldset>
 <legend>
 <label for=phone>
@@ -39,7 +38,6 @@
 <label for=speech_1>
 <input class=is-inline id=speech_2 name=speech type=radio value=TTD>
 <label for=speech_2>
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>
@@ -86,8 +84,6 @@
 <label for=required-message>
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
-<p>
 <input id=subscribe name=subscribe type=checkbox value=TRUE>
 <label class=is-inline for=subscribe>
 <input class=submit id=submit name=submit type=submit value=Send Email>
-<p>

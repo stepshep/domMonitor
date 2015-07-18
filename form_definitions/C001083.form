@@ -21,7 +21,6 @@
 <input class=validate[required] is-required id=required-last maxlength=100 name=required-last size=31 >
 <span class=formboxL>
 <input id=suffix maxlength=100 name=suffix size=4 >
-<p>
 <label for=required-address>
 <span class=required-field style1>
 <input class=validate[required] is-required id=required-address maxlength=100 name=required-address size=90 >
@@ -43,7 +42,6 @@
 <input class=validate[required,custom[email]] is-required id=required-valid-email maxlength=100 name=required-valid-email size=90 >
 <fieldset>
 <legend>
-<p>
 <legend>
 <label for=phone>
 <input id=phone maxlength=20 name=phone size=32 >
@@ -55,7 +53,6 @@
 <label for=speech_2>
 <fieldset>
 <legend>
-<p>
 <legend class=style2>
 <label for=required-issue>
 <span class=required-field title=required information>

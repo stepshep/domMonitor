@@ -7,35 +7,28 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <span style=font-size: 9pt;>
 <span style=color: #333333; font-size: 9pt;>
 <span style=font-size: 16px;>
 <span style=font-size: 16px;>
 <em>
-<p>
 <span style=font-size: 13px;>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?hl=en&amp;q=21+Kristi+Rd,+Muncy,+PA+17756,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=41.244643,-76.810484&amp;output=embed&amp;s=AARTsJq3ehZhWcT4IYrKrtwNz-GgpxTl6Q frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
-<p>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<p>
 <p style=margin: 0in 0in 0pt;>
 <p style=margin: 0in 0in 0pt;>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?hl=en&amp;q=Pennsylvania+17740,+USA&amp;ie=UTF8&amp;z=11&amp;iwloc=addr&amp;ll=41.268001,-77.211227&amp;output=embed&amp;s=AARTsJp8kJY7tqv86zjv_sCqLWICp9aoTg frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
@@ -125,7 +118,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

@@ -77,78 +77,53 @@
 <option value=WORKERS_RIGHTS>
 <option value=OTHER>
 <h2>
-<p>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <span class=go-to-it>
 <h2>
-<p>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject size=90>

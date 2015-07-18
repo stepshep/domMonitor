@@ -165,5 +165,4 @@
 <legend>
 <p style=font-weight:bold>
 <input type=checkbox name=newsletter id=newsletter value=&lt;AFFL&gt;Subscribe&lt;/AFFL&gt; checked=checked class=filled>
-<p>
 <input type=button size=20 value=Send Email id=submitButton class=form_submit_button filled>

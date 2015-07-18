@@ -23,21 +23,16 @@
 <p class=sectionintro style=text-align: left;>
 <span style=font-size: 13px; color: #ffffff;>
 <span style=font-size: 13px; color: #ffffff;>
-<p>
 <span style=font-size: 10pt;>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
-<p>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=2030+Center+Street,+Northampton,+PA+18067&amp;sll=37.0625,-95.677068&amp;sspn=48.822589,78.75&amp;ie=UTF8&amp;z=14&amp;g=2030+Center+Street,+Northampton,+PA+18067&amp;iwloc=addr&amp;ll=40.69834,-75.496674&amp;output=embed&amp;s=AARTsJppm5kpHmxjIzEww5LHfE4QvbmfMA frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
-<p>
 <span style=font-size: 13px;>
 <iframe height=230 marginheight=0 src=http://maps.google.com/maps?hl=en&amp;q=125+S+Walnut+St,+Slatington,+PA+18080,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.75896,-75.601301&amp;output=embed&amp;s=AARTsJocCyrjDbMOJAf3id9P69DLakvvZA frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
-<p>
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
@@ -127,7 +122,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

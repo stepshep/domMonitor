@@ -177,7 +177,6 @@
 <label for="ctl00_Content_chkBxReply">
 <input id="ctl00_Content_chkBxReply" type="checkbox" name="ctl00$Content$chkBxReply" >
 <td class="style1">
-<p>
 <input name="ctl00$Content$RadCaptcha1$CaptchaTextBox" type="text" maxlength="5" id="ctl00_Content_RadCaptcha1_CaptchaTextBox" >
 <label for="ctl00_Content_RadCaptcha1_CaptchaTextBox" id="ctl00_Content_RadCaptcha1_CaptchaTextBoxLabel">
 <td class="style1">

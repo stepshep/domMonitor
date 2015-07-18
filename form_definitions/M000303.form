@@ -1,8 +1,4 @@
 <form method=post class=uniForm form-horizontal id=form_5410ed49-30b0-4918-84d6-c3b8dd32dccb>
-<p>
-<p>
-<p>
-<p>
 <label class=control-label for=field_fabf1d80-94c6-4e2f-a4b6-6a1ffd08b5c4>
 <strong class=required>
 <select class=selectInput name=field_fabf1d80-94c6-4e2f-a4b6-6a1ffd08b5c4 id=field_fabf1d80-94c6-4e2f-a4b6-6a1ffd08b5c4 value=>
@@ -113,7 +109,6 @@
 <option value=FTGE>
 <option value=HEGE>
 <option value=HOGE>
-<option value=IMGE>
 <option value=INGE>
 <option value=ITGE>
 <option value=JUGE >

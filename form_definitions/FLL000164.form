@@ -23,7 +23,6 @@
 <p class=help-block redtext>
 <span class=field-validation-valid data-valmsg-for=Comment data-valmsg-replace=true>
 <h2>
-<p>
 <label for=WayToRespond class=control-label>
 <span class=required>
 <select data-val=true data-val-required=The Preferred Response by field is required. data-validation-required-message=The Preferred Response by field is required. id=WayToRespond name=WayToRespond required=required class=valid>
@@ -128,10 +127,10 @@
 <span class=field-validation-valid data-valmsg-for=Telephone data-valmsg-replace=true>
 <label for=ReceiveUpdates>
 <input id=ReceiveUpdates name=ReceiveUpdates type=checkbox checked=>
-<p>
 <label for=math-test class=control-label>
 <span class=required>
+<input class=input-small data-val=true data-val-remote=Please check your math.  Your answer was incorrect. data-val-remote-additionalfields=*.mathAnswer,*.mathAnswerEncoded data-val-remote-type=Post data-val-remote-url=/Validation/ValidateMathAnswer data-val-required=The 25 + Six field is required. data-validation-required-message=The 25 + Six field is required. id=math-test name=mathAnswer required=required type=number value=>
 <p class=help-block pad1em-left redtext>
-<p>
+<span class=field-validation-valid data-valmsg-for=mathAnswer data-valmsg-replace=true>
 <input type=submit value=Send Email class=blue buttonBig round left id=submitEmailForm>
 <input type=reset value=Reset id=reset class=blue buttonBig round right>

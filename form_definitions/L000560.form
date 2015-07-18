@@ -94,6 +94,4 @@
 <option value=Y>
 <option value=N>
 <input class=submit id=submit name=submit type=submit value=Send Email>
-<p>
-<p>
 <span class=tel>

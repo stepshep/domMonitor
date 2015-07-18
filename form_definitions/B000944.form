@@ -1,12 +1,5 @@
 <form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
 <h1>
-<p>
-<p>
-<p>
-<p>
-<p>
-<p>
-<p>
 <fieldset>
 <legend>
 <ol>

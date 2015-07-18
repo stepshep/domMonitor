@@ -5,7 +5,6 @@
 <li class=lastLi>
 <li class=lastLi>
 <li class=lastLi>
-<p>
 <span style=font-size: 13px;>
 <em>
 <span style=font-size: 13px;>
@@ -14,15 +13,12 @@
 <em>
 <em>
 <span style=text-decoration: underline;>
-<p>
 <span style=font-size: 9pt; color: #333333;>
 <em>
 <span style=font-size: 16px;>
 <em>
-<p>
 <iframe width=300 height=230 src=http://maps.google.com/maps?hl=en&amp;q=47+Market+Square,+Manheim,+PA+17545,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.171856,-76.39163&amp;output=embed&amp;s=AARTsJrguJHxx_-Oy1YBVvAVkMdLqv2BdQ frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<p>
 <iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=503+Main+Street,+Denver,+Pa+&amp;sll=37.0625,-95.677068&amp;sspn=49.089956,78.837891&amp;ie=UTF8&amp;hq=&amp;hnear=503+Main+St,+Denver,+Lancaster,+Pennsylvania+17517&amp;z=16&amp;ll=40.233822,-76.138291&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <p style=margin: 0in 0in 0pt;>
@@ -117,7 +113,6 @@
 <input name=ctl00$cphContent$txtZip type=text maxlength=10 id=ctl00_cphContent_txtZip DataTargets=Text:[[ZipCode]] >
 <textarea name=ctl00$cphContent$txtActionRequest rows=4 cols=20 id=ctl00_cphContent_txtActionRequest DataTargets=Text:[[ActionRequest]] style=width:400px;>
 <input name=ctl00$cphContent$txtOther type=text maxlength=8000 id=ctl00_cphContent_txtOther DataTargets=Text:[[Other]] style=width:400px; >
-<p>
 <input name=ctl00$cphContent$RadCaptcha1$CaptchaTextBox type=text maxlength=5 id=ctl00_cphContent_RadCaptcha1_CaptchaTextBox >
 <label for=ctl00_cphContent_RadCaptcha1_CaptchaTextBox id=ctl00_cphContent_RadCaptcha1_CaptchaTextBoxLabel>
 <span class=button>

@@ -38,7 +38,6 @@
 <label class=is-inline for=speech_1>
 <input id=speech_2 name=speech type=radio value=TTD>
 <label class=is-inline for=speech_2>
-<p>
 <fieldset>
 <legend>
 <label for=required-issue>
@@ -93,4 +92,3 @@
 <input id=subscribe name=subscribe type=checkbox value=Email.Optin>
 <label class=is-inline for=subscribe>
 <input id=submit class=submit name=submit type=submit value=Send Email>
-<p>

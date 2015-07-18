@@ -1,7 +1,6 @@
 <form onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-state,State,R,zip5,Zip Code,R,Issues,Issue,R,reqresponse,Response,R);return document.MM_returnValue action=/contact_new.aspx method=post align=left>
 <fieldset>
 <legend>
-<p>
 <em>
 <table width=100% border=0 cellspacing=3 cellpadding=1>
 <tbody>
@@ -123,7 +122,6 @@
 <td align=center valign=middle style=width: 10%;>
 <input name=newsletter id=newsletter type=checkbox value=general>
 <td style=width: 90%;>
-<p>
 <fieldset>
 <legend>
 <table width=98% border=0 cellspacing=0 cellpadding=5>

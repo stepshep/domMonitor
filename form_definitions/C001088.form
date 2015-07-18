@@ -11,10 +11,8 @@
 <input type="search" name="q" id="search-field" value="Search" onclick="this.value=''" >
 <button id="search-button" name="search-button" type="submit" title="Search" class="button">
 <form id="contactForm" action="./" method="post" enctype="application/x-www-form-urlencoded" onsubmit="return _CF_checkCFForm_1(this)">
-<p>
 <ul class="list" style="width: 45%; float: left;">
 <ul class="list" style="width: 45%; float: left;">
-<p>
 <h2>
 <fieldset>
 <legend>

@@ -1,6 +1,5 @@
 <form action=/contact-us  accept-charset=UTF-8 method=post id=webform-client-form-65 class=webform-client-form enctype=multipart/form-data>
 <h2>
-<p>
 <label for=edit-submitted-name>
 <input type=text maxlength=128 name=submitted[name] id=edit-submitted-name size=60 value= class=form-text >
 <label for=edit-submitted-subject>
@@ -10,7 +9,6 @@
 <input class=form-text form-email email type=email id=edit-submitted-e-mail-address name=submitted[e_mail_address] size=60 >
 <label for=edit-submitted-phone-number>
 <input type=text maxlength=128 name=submitted[phone_number] id=edit-submitted-phone-number size=60 value= class=form-text >
-<p>
 <label for=edit-submitted-comments>
 <span class=form-required title=This field is required.>
 <textarea cols=60 rows=5 name=submitted[comments] id=edit-submitted-comments  class=form-textarea resizable required>

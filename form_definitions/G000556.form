@@ -48,7 +48,6 @@
 <label class=is-inline for=speech_1>
 <input id=speech_2 name=speech type=radio value=TTD>
 <label class=is-inline for=speech_2>
-<p>
 <h4>
 <label for=required-issue>
 <span class=required-field title=required information>

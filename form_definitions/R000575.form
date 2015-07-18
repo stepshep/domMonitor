@@ -31,7 +31,6 @@
 <label for=email>
 <span class=required-field title=required information>
 <input class=validate[required,custom[email]] is-required id=email maxlength=100 name=required-valid-email size=90 type=text>
-<p>
 <fieldset>
 <legend>
 <label for=issue>
@@ -86,4 +85,3 @@
 <textarea cols=68 id=message name=msg rows=5>
 <input class=submit name=submit type=submit value=Submit Information>
 <input class=reset name=reset type=reset value=Clear Form>
-<p>

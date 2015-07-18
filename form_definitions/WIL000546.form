@@ -92,10 +92,6 @@
 <li class="dfwp-item">
 <li class="dfwp-item">
 <strong style="text-decoration:underline">
-<p>
-<p>
-<p>
-<p>
 <label for="legis-cf-comments" class="legis-cf-label">
 <textarea name="Legis-Comments" id="legis-cf-comments" class="legis-cf-input">
 <label for="legis-cf-email" class="legis-cf-label">

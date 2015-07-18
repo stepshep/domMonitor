@@ -71,5 +71,4 @@
 <td class="ms-toolbar" nowrap>
 <input type="button" value="Submit" name="btnFormAction" onclick="javascript: __doPostBack('ctl00$PlaceHolderMain$g_41f82e78_cd0b_4f0c_8d83_10ff5fbfb299','__commit;__redirect={thanks.aspx}')">
 <input type="button" value="Cancel" name="btnFormAction0" onclick="javascript: __doPostBack('ctl00$PlaceHolderMain$g_41f82e78_cd0b_4f0c_8d83_10ff5fbfb299','__cancel;__redirect={default.aspx}')">
-<p>
 <menu class="ms-SrvMenuUI">

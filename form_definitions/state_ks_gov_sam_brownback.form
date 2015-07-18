@@ -3,12 +3,6 @@
 <fieldset id="SearchInHeader_T9D0516A5020_ctl00_ctl00_main" class="sfsearchBox">
 <input name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchTextBox" type="text" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchTextBox" class="sfsearchTxt" >
 <input type="submit" name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchButton" class="sfsearchSubmit" >
-<DIV class="sf_cols Header">
-<DIV style="WIDTH: 100%" class="sf_colsOut sf_1col_1_100">
-<DIV id="Header_T9D0516A5001_Col00" class="sf_colsIn sf_1col_1in_100">
-<DIV class="sf_cols Menu">
-<DIV style="WIDTH: 100%" class="sf_colsOut sf_1col_1_100">
-<DIV id="Menu_T9D0516A5000_Col00" class="sf_colsIn sf_1col_1in_100">
 <ul class="rmRootGroup rmHorizontal">
 <li class="rmItem rmFirst">
 <span class="rmText">
@@ -133,7 +127,6 @@
 <span class="rtSp">
 <li class="rtLI rtLast">
 <span class="rtSp">
-<p>
 <p class="requiredNote">
 <label for="Main_Issues_uxPrefixList" id="Main_Issues_uxPrefix" class="formLabel">
 <select name="ctl00$Main$Issues$uxPrefixList" id="Main_Issues_uxPrefixList">
@@ -270,11 +263,9 @@
 <span id="Main_Issues_uxMessageLbl" class="formLabel">
 <textarea name="ctl00$Main$Issues$uxMessage" rows="5" cols="20" id="Main_Issues_uxMessage" onblur="ValidatorValidate(Main_Issues_uxMessageVldReq)" style="width:80%;">
 <label for="ctl00_Main_Issues_RadCaptcha1" id="Main_Issues_uxCaptchaLbl2" class="formLabel">
-<p>
 <input name="ctl00$Main$Issues$RadCaptcha1$CaptchaTextBox" type="text" maxlength="5" id="ctl00_Main_Issues_RadCaptcha1_CaptchaTextBox" title="Type the characters you see in the image above" >
 <label for="ctl00_Main_Issues_RadCaptcha1_CaptchaTextBox" id="ctl00_Main_Issues_RadCaptcha1_CaptchaTextBoxLabel">
 <input type="submit" name="ctl00$Main$Issues$uxSubmitBtn" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$Issues$uxSubmitBtn&quot;, &quot;&quot;, true, &quot;ISSUE&quot;, &quot;&quot;, false, false))" id="Main_Issues_uxSubmitBtn" >
-<p>
 <span id="Main_T9D0516A5019_uxTwitter" class="st_twitter_hcount" displaytext="Tweet">
 <span id="Main_T9D0516A5019_uxFacebookShare" class="st_facebook_hcount" displaytext="Facebook">
 <span id="Main_T9D0516A5019_uxEmail" class="st_email_hcount" displaytext="Email">

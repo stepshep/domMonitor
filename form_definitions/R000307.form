@@ -13,12 +13,9 @@
 <p style=font-size: 14px; font-weight: bold; text-align: center;>
 <p class=quarter_text>
 <hr >
-<p>
-<p>
 <span style=color: #000000;>
 <span style=font-weight: bold;>
 <em>
-<p>
 <span style=color: #000000;>
 <em>
 <hr >
@@ -154,7 +151,6 @@
 <label for=field_6d262f00-ebe4-49b9-ab23-0c2c3f61225c>
 <strong class=required>
 <textarea name=field_6d262f00-ebe4-49b9-ab23-0c2c3f61225c id=field_6d262f00-ebe4-49b9-ab23-0c2c3f61225c >
-<p>
 <input type=text name=captcha_56e0e9d8-904d-4c9e-81b8-19474ee968af id=captcha_56e0e9d8-904d-4c9e-81b8-19474ee968af >
 <p class=formHint id=captcha_info>
 <input type=submit class=primaryAction value=Submit >

@@ -1,8 +1,6 @@
 <form action=/contact-us/ id=custom_form6 name=custom_form class=custom_form method=post>
-<p>
 <p class=req>
 <h2>
-<p>
 <label>
 <select name=prefix size=1 id=req_prefix>
 <option selected= value=>
@@ -14,41 +12,29 @@
 <option value=Hon.>
 <option value=Rev.>
 <option value=Rabbi>
-<p>
 <label>
 <input type=text name=firstname id=req_firstname maxlength=90 class=text>
-<p>
 <label>
 <input type=text name=middle class=middle maxlength=2>
-<p>
 <label>
 <input type=text name=lastname id=req_lastname class=text maxlength=90>
-<p>
 <label>
 <input type=text name=suffix class=middle maxlength=5>
-<p>
 <label>
 <input type=text name=street id=req_street class=text maxlength=190>
-<p>
 <label>
 <input type=text name=street2 class=text maxlength=190>
-<p>
 <label>
 <input type=text name=city id=req_city class=text maxlength=100>
-<p>
 <label>
 <select name=state id=req_state>
 <option selected= value=NV>
-<p>
 <label>
 <input value=89501 class=zip id=req_zip maxlength=5 name=zipcode type=text>
-<p>
 <label>
 <input type=text name=emailaddress id=req_email maxlength=150 class=text>
-<p>
 <label>
 <input type=text name=phone id=req_phone class=text phonemask maxlength=14>
-<p>
 <label>
 <select size=1 name=subject id=req_subject style=width:175px;>
 <option selected= value=>
@@ -90,25 +76,18 @@
 <option value=UNEMP>
 <option value=VALUES>
 <option value=VET>
-<p>
 <label>
 <input type=text name=topic id=req_topic class=text maxlength=90>
-<p>
 <label>
 <textarea name=message id=req_message class=message rows=5 cols=68 lang=en>
-<p>
 <label>
 <select size=1 name=response id=req_response style=width:175px;>
 <option selected= value=>
 <option value=N>
 <option value=Y>
-<p>
 <label>
 <span class=align>
 <input type=radio value=e_subscribe name=enewssign>
 <input type=radio value= name=enewssign checked=checked>
 <input type=button size=20 value=Submit id=submitButton class=form_submit_button>
-<p>
 <b>
-<p>
-<p>

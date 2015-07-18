@@ -94,8 +94,6 @@
 <li class="first-item">
 <li class="last-item">
 <h1>
-<p>
-<p>
 <label for="ctl00_m_g_3a01d56e_b68a_485b_a7d3_43e25d8506d3_Prefix_x0020_Name" class="soiformlabel">
 <select name="ctl00$m$g_3a01d56e_b68a_485b_a7d3_43e25d8506d3$Prefix_x0020_Name" id="ctl00_m_g_3a01d56e_b68a_485b_a7d3_43e25d8506d3_Prefix_x0020_Name" class="soiformdropdown soiforminput Feedback">
 <option value="">
@@ -226,7 +224,6 @@
 <option value="">
 <option value="Support">
 <option value="Oppose">
-<option value="None">
 <label for="ctl00_m_g_3a01d56e_b68a_485b_a7d3_43e25d8506d3_Comment" class="soiformlabel soireqfield">
 <textarea name="ctl00$m$g_3a01d56e_b68a_485b_a7d3_43e25d8506d3$Comment" rows="10" cols="20" id="ctl00_m_g_3a01d56e_b68a_485b_a7d3_43e25d8506d3_Comment" class="soiforminput Feedback soiformtextarea">
 <input name="ctl00$m$g_3a01d56e_b68a_485b_a7d3_43e25d8506d3$txtChristopherRobin" type="text" id="ctl00_m_g_3a01d56e_b68a_485b_a7d3_43e25d8506d3_txtChristopherRobin" title="If 1+1=7 then enter information otherwise don't" class="Offscreen" alwaysenablesilent="true" >

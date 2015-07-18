@@ -130,7 +130,6 @@
 <span id="remChar">
 <fieldset>
 <legend>
-<p>
 <span class="spanpadtop">
 <label class="radio inline">
 <INPUT NAME="Response" TYPE="radio" value="CWM1" checked="checked">

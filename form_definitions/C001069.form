@@ -142,5 +142,4 @@
 <input type=checkbox name=newsletter2 id=newsletter2 value=ENEWS.SENIORS >
 <p style=font-weight:bold>
 <input type=checkbox name=newsletter3 id=newsletter3 value=ENEWS.GRANTS >
-<p>
 <input type=submit value=Send Email id=submitButton class=form_submit_button >

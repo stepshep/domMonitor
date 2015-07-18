@@ -3,10 +3,8 @@
 <input type="text" value="Search Site" onfocus="iFocus(this)" onblur="iBlur(this)" name="searchkey" class="searchkey text" style="color: #999999;">
 <input type="submit" value=" " class="searchButon">
 <form action="/index.cfm" method="get" onsubmit="return checkformsearch(this)">
-<p>
 <label for="searchkey">
 <span class="requiredfield" id="searchkeyrequired">
-<p>
 <input type="text" name="searchkey" id="searchkey">
 <input type="radio" class="radiobutton" name="locale" value="-1" id="entire" checked="checked">
 <label for="entire">
@@ -153,5 +151,4 @@
 <fieldset>
 <p style="font-weight:bold">
 <input type="checkbox" name="newsletter" id="newsletter" checked="checked" value="1">
-<p>
 <input type="button" size="20" value="Send Email" id="submitButton" class="form_submit_button filled">

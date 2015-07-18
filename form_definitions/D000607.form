@@ -160,7 +160,6 @@
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
 <input class=span2 required type=number name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required=>
-<p>
 <label for=phone_number>
 <abbr title=Your phone number is a required field>
 <input type=tel name=phone_number id=phone_number class=span8 required placeholder=Required>
