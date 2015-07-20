@@ -37,7 +37,7 @@
 <option value=and Family>
 <label for=required-address>
 <span class=required-field title=required information>
-<input class=validate[required] is-required id=required-address maxlength=100 name=required-address placeholder=Street Address type=text>
+<input class=validate[required] is-required id=required-address maxlength=100 name=required-address placeholder=Street Address width=20 type=text>
 <label for=address2>
 <input id=address2 maxlength=100 name=address2 placeholder=Street Address Continued type=text>
 <label for=required-city>
