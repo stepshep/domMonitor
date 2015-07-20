@@ -4,12 +4,9 @@
 <td align=right>
 <table cellspacing=0 cellpadding=0>
 <tbody>
-<td class=>
 <input type=text maxlength=90 size=5 name=required-prefix required=required class=>
-<td class=>
 <input type=text maxlength=90 size=12 name=required-first required=required class=>
 <input type=text maxlength=90 size=2 name=middle>
-<td class=>
 <input type=text maxlength=90 size=15 name=required-last required=required class=>
 <select name=suffix>
 <option>
@@ -24,7 +21,6 @@
 <option value=JD>
 <option value=DVM>
 <td align=right>
-<td class=>
 <input type=text maxlength=190 size=60 name=required-address required=required class=>
 <td align=right>
 <td class=    >
@@ -34,10 +30,8 @@
 <input type=text size=5 name=zip5 required=required class=>
 <input type=text maxlength=4 size=4 name=zip4 class=>
 <td align=right>
-<td class=>
 <input type=email maxlength=100 size=60 name=required-email required=required class=>
 <td align=right>
-<td class=>
 <input type=text maxlength=100 size=15 name=phone class=>
 <td align=right>
 <select name=required-issue size=1 id=subject>
@@ -65,7 +59,6 @@
 <option value=WEBWEL>
 <option value=WEBOTH>
 <td align=right valign=top>
-<td class=>
 <textarea rows=15 cols=60 name=required-message required=required class=>
 <td align=right valign=top>
 <input type=checkbox value=subscribe name=subscribe>

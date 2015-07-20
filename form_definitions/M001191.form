@@ -25,22 +25,18 @@
 <tr class=wyr-firstname>
 <label for=ctl00_ctl13_FirstName>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$FirstName type=text id=ctl00_ctl13_FirstName class=textBox>
 <tr class=wyr-lastname>
 <label for=ctl00_ctl13_LastName>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$LastName type=text id=ctl00_ctl13_LastName class=textBox>
 <tr class=wyr-street>
 <label for=ctl00_ctl13_Street>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$Street type=text id=ctl00_ctl13_Street class=textBox>
 <tr class=wyr-city>
 <label for=ctl00_ctl13_City>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$City type=text id=ctl00_ctl13_City class=textBox>
 <tr class=wyr-state>
 <label for=ctl00_ctl13_State>
@@ -109,12 +105,10 @@
 <tr class=wyr-zip>
 <label for=ctl00_ctl13_Zip>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$Zip type=text id=ctl00_ctl13_Zip class=textBox>
 <tr class=wyr-phone>
 <label for=ctl00_ctl13_Phone>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$Phone type=text id=ctl00_ctl13_Phone class=textBox>
 <fieldset>
 <legend>
@@ -124,7 +118,6 @@
 <td width=90>
 <label for=ctl00_ctl13_Email>
 <span class=header>
-<td class=>
 <input name=ctl00$ctl13$Email type=text id=ctl00_ctl13_Email class=textBox>
 <tr id=ctl00_ctl13_TwitterRow class=wyr-twitter>
 <label for=ctl00_ctl13_Twitter>
