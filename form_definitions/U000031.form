@@ -16,7 +16,7 @@
 <td class= >
 <input name=required-address type=text size=60 maxlength=190 class= >
 <td align=right>
-<td class=                  >
+<td class=                   >
 <input name=required-city type=text maxlength=45 class= >
 <select name=required-state>
 <option selected=selected value=MI>

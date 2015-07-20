@@ -141,7 +141,7 @@
 <option value=14897>
 <fieldset>
 <legend>
-<table id=ctl00_ctl15_ReplyChoice>
+<span id=ctl00_ctl15_ReplyChoice>
 <input id=ctl00_ctl15_ReplyChoice_0 type=radio name=ctl00$ctl15$ReplyChoice value=Respond >
 <label for=ctl00_ctl15_ReplyChoice_0>
 <input id=ctl00_ctl15_ReplyChoice_1 type=radio name=ctl00$ctl15$ReplyChoice value=Comment >
