@@ -54,7 +54,8 @@
 <span class=small>
 <select id=ddlBillFinderSession name=ddlBillFinderSession>
 <option value=80>
-<option value=79 selected=>
+<option value=81 selected=>
+<option value=79>
 <option value=76>
 <option value=78>
 <option value=77>
@@ -112,7 +113,8 @@
 <span class=small>
 <select id=ddlSearchBillTextSession name=ddlSearchBillTextSession class=text>
 <option value=80>
-<option value=79 selected=>
+<option value=81 selected=>
+<option value=79>
 <option value=76>
 <option value=78>
 <option value=77>
