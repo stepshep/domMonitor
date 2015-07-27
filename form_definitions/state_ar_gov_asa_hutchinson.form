@@ -6,7 +6,7 @@
 <select id=Field7 name=Field7 class=field select large onclick=handleInput(this); onkeyup=handleInput(this); tabindex=1>
 <option value= selected=selected>
 <option value=Agriculture>
-<option value=Arts/Museums/History>
+<option value=ArtsMuseumsHistory>
 <option value=Business and Commerce>
 <option value=Courts\Criminal Justice>
 <option value=Education>
@@ -16,13 +16,13 @@
 <option value=Governors Special Projects>
 <option value=Grants>
 <option value=Health and Human Services>
-<option value=Highways/Transportation>
+<option value=HighwaysTransportation>
 <option value=Insurance>
-<option value=Jails - City/County>
-<option value=Law Enforcement/Police>
+<option value=Jails - CityCounty>
+<option value=Law EnforcementPolice>
 <option value=Legislation>
 <option value=Licenses and Permits>
-<option value=Local Government/Community>
+<option value=Local GovernmentCommunity>
 <option value=Minority Affairs>
 <option value=Pardons>
 <option value=Policies>
@@ -31,7 +31,7 @@
 <option value=Request Letter from Governor>
 <option value=Retirement Systems>
 <option value=Science and Technology>
-<option value=Tourism/Recreation>
+<option value=TourismRecreation>
 <option value=Workforce>
 <option value=General Comments, Concerns>
 <li id=fo128li8 class=notranslate>

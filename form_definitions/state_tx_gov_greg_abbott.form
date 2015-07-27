@@ -98,7 +98,6 @@
 <option value=WY>
 <td width=112>
 <span id=lblZip style=font-size:Small;font-weight:bold;>
-<input name=txtZip type=text id=txtZip onblur=if (document.getElementById(txtZip).value != ) {if (!(validateZip(document.getElementById(txtZip)))) {document.getElementById(txtZip).value = }} style=font-size:Small;>
 <td width=112>
 <span id=lblEmail style=font-size:Small;font-weight:bold;>
 <input name=txtEmail type=text id=txtEmail style=font-size:Small;>
@@ -107,7 +106,6 @@
 <input name=txtEmail2 type=text id=txtEmail2 style=font-size:Small;>
 <td width=112>
 <span id=lblPhone style=font-size:Small;font-weight:bold;>
-<input name=txtPhone type=text id=txtPhone onblur=if (document.getElementById(txtPhone).value != ) {if (!(validatePhone(document.getElementById(txtPhone)))) {document.getElementById(txtPhone).value = }} style=font-size:Small;>
 <span id=Label1 style=display:inline-block;font-size:Small;font-weight:bold;width:144px;>
 <td width=112 height=26>
 <span id=lblIssue style=font-size:Small;font-weight:bold;>

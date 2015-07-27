@@ -1,4 +1,4 @@
-<form action=/index.php?option=com_contact method=post name=emailForm id=emailForm class=form-validate>
+<form action=index.php?option=com_contact method=post name=emailForm id=emailForm class=form-validate>
 <label for=contact_name>
 <input type=text name=name id=contact_name size=30 class=inputbox value= >
 <label id=contact_emailmsg for=contact_email>

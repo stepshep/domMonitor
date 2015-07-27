@@ -1,4 +1,4 @@
-<FORM METHOD=POST ACTION=/htbin/formproc/corrinebrown/webforms/email-me.txt&amp;display=/webforms/email-me-thankyou.shtml>
+<FORM METHOD=POST ACTION=htbinformproccorrinebrownwebformsemail-me.txt&amp;display=webformsemail-me-thankyou.shtml>
 <fieldset>
 <legend>
 <label for=required-prefix>

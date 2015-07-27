@@ -1,4 +1,4 @@
-<form action="/assembly/78/subeck/contact/" enctype="multipart/form-data" method="post">
+<form action="assembly78subeckcontact" enctype="multipartform-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="a08e9c3e-fd4b-4eef-a452-f65d285880bd" class="fieldLabel">
@@ -57,7 +57,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="9bd64f77-95d9-406b-8f1f-667bf5d530d9" data-valmsg-replace="true">
 <input type="text" name="ba304876c5fd42259f8b368d388fb3d4" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="/assembly/78/subeck/search-results/" method="GET">
+<form class="form-inline" action="assembly78subecksearch-results" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

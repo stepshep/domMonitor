@@ -1,12 +1,10 @@
-<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
 <li class=lastLi>
 <span style=font-size: 16px;>
 <span style=font-size: 16px;>
-<iframe width=300 height=200 src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3013.456179206622!2d-75.4433579!3d40.9495844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c45928fd22902d%3A0x59a9d0ffe95be07c!2s2785+PA-115%2C+Effort%2C+PA+18330!5e0!3m2!1sen!2sus!4v1422564782677 frameborder=0 style=border: 0px;>
-<iframe width=300 height=200 src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24046.524375278317!2d-75.46354055!3d41.1167193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4f1102eeaa685%3A0x633f1255a2c5d373!2sTownship+of+Tobyhanna+%3A+Board+of+Supervisors!5e0!3m2!1sen!2sus!4v1422564663167 frameborder=0 style=border: 0px;>
 <span id=fileSavedIndication style=color:Red;>
 <span class=required>
 <input name=ctl00$cphContent$txtFirstName type=text maxlength=100 id=ctl00_cphContent_txtFirstName DataTargets=Text:[[FirstName]] >
@@ -97,4 +95,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

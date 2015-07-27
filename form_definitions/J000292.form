@@ -1,4 +1,4 @@
-<form id=contactForm class=validate wsbform onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-valid-email,Email,RisEmail,required-subject,Subject,R,required-message,Message,R);return document.MM_returnValue method=post name=contactForm action=/submit-contact.aspx>
+<form id=contactForm class=validate wsbform onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-valid-email,Email,RisEmail,required-subject,Subject,R,required-message,Message,R);return document.MM_returnValue method=post name=contactForm action=submit-contact.aspx>
 <fieldset>
 <legend>
 <label for=prefix>

@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm>
+<form action=htbinformprocemail-me.txt&amp;display=contact-meemail-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=required-prefix>
@@ -58,9 +58,9 @@
 <td align=center>
 <td align=center>
 <td align=center width=33%>
-<input checked=checked name=affl21 type=radio value=&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt;>
+<input checked=checked name=affl21 type=radio value=&lt;AFFL&gt;EMAIL.OPTIN&lt;AFFL&gt;>
 <td align=center width=33%>
-<input name=affl21 type=radio value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt;>
+<input name=affl21 type=radio value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;AFFL_DEL&gt;>
 <td align=center width=33%>
 <input name=affl21 type=radio value=>
 <table cellpadding=0 cellspacing=0 width=500px>
@@ -82,7 +82,7 @@
 <label>
 <input class=input-inline name=cb5 type=checkbox value=ENVIRONMENTOPTIN>
 <label>
-<input class=input-inline name=cb6 type=checkbox value=FAITH/FAMOPTIN>
+<input class=input-inline name=cb6 type=checkbox value=FAITHFAMOPTIN>
 <label>
 <input class=input-inline name=cb7 type=checkbox value=FINANCIALOPTIN>
 <label>
@@ -90,7 +90,7 @@
 <label>
 <input class=input-inline name=cb9 type=checkbox value=GOVTREFORMOPTIN>
 <label>
-<input class=input-inline name=cb10 type=checkbox value=HEA/MEDICAREOPTIN>
+<input class=input-inline name=cb10 type=checkbox value=HEAMEDICAREOPTIN>
 <td height=270 width=250>
 <label>
 <input class=input-inline name=cb11 type=checkbox value=HOMELANDOPTIN>

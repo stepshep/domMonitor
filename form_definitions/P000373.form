@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/issue_subscribe_file.txt&amp;display=/contact-me/legislative-contact-form/legislative-contact-form-thank-you&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=POST>
+<form action=htbinformprocissue_subscribe_file.txt&amp;display=contact-melegislative-contact-formlegislative-contact-form-thank-you&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=POST>
 <p class=form-info>
 <span class=required-field title=required information>
 <label for=prefix>
@@ -69,8 +69,8 @@
 <label for=affl1>
 <input checked=checked class=is-inline id=affl1 name=affl1 type=radio value= >
 <label for=affl1>
-<input class=is-inline id=affl1 name=affl1 type=radio value=&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt; >
+<input class=is-inline id=affl1 name=affl1 type=radio value=&lt;AFFL&gt;EMAIL.OPTIN&lt;AFFL&gt; >
 <label for=affl1>
-<input class=is-inline name=affl1 type=radio value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt; >
+<input class=is-inline name=affl1 type=radio value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;AFFL_DEL&gt; >
 <label for=affl1>
 <input class=submit id=submit name=submit type=submit value=Submit Form >

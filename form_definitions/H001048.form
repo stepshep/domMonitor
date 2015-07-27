@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt&amp;display=/contact-me/email-me-thankyou&amp;nobase&amp;fpGetVer=2 id=contactForm method=post class=ideal-form novalidate=novalidate style=visibility: visible;>
+<form action=htbinformprocemail-me.txt&amp;display=contact-meemail-me-thankyou&amp;nobase&amp;fpGetVer=2 id=contactForm method=post class=ideal-form novalidate=novalidate style=visibility: visible;>
 <span class=ideal-heading first-child>
 <h2>
 <label for=required-prefix class=ideal-label style=width: 175px;>

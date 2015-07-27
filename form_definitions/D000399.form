@@ -5,7 +5,7 @@
 
 
 
-ACTION="/htbin/formproc_za/doggett/webforms/issue_parm.txt&form=/doggett/webforms/issue_subscribe_verify.htm&amp;nobase">
+ACTION="htbinformproc_zadoggettwebformsissue_parm.txt&form=doggettwebformsissue_subscribe_verify.htm&amp;nobase">
 <center>
 <center>
 <table cellspacing=0 cellpadding=0>

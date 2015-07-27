@@ -1,4 +1,4 @@
-<form action="/assembly/27/vorpagel/contact-me/" enctype="multipart/form-data" method="post">
+<form action="assembly27vorpagelcontact-me" enctype="multipartform-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="affa8598-8937-4c45-b712-e669460aab5b" class="fieldLabel">

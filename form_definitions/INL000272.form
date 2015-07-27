@@ -71,7 +71,7 @@
 <label for=IDFormField_Comments_0>
 <textarea class=form-control id=IDFormField_Comments_0 name=formField_Comments   >
 <noscript>
-<iframe src=http://www.google.com/recaptcha/api/noscript?k=6LfB3QQAAAAAAKYLJOyWTzJyo5wKd7GVL_8-kAzB height=300 width=500 frameborder=0>
+<iframe src=http:www.google.comrecaptchaapinoscript?k=6LfB3QQAAAAAAKYLJOyWTzJyo5wKd7GVL_8-kAzB height=300 width=500 frameborder=0>
 <textarea name=recaptcha_challenge_field rows=3 cols=40>
 <p style=color:red; id=captchaStatus>
 <button type=button class=btn cancel-btn pull-left alt=Cancel onclick=location.reload();>

@@ -1,4 +1,4 @@
-<form action="/assembly/81/considine/contact-me/" enctype="multipart/form-data" method="post">
+<form action="assembly81considinecontact-me" enctype="multipartform-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="5ad746a7-f0a8-44c5-ac0a-498d6c2abf75" class="fieldLabel">
@@ -52,7 +52,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="df863463-0004-43ef-933e-de34c175e499" data-valmsg-replace="true">
 <input type="text" name="2af0cc0f87844cfc985a811aef0e01b9" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="/assembly/81/considine/search-results/" method="GET">
+<form class="form-inline" action="assembly81considinesearch-results" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

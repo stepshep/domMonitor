@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -23,12 +23,11 @@
 <em>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=301+Georgian+Place,+Somerset,+PA+15501&amp;sll=37.0625,-95.677068&amp;sspn=48.822589,78.837891&amp;ie=UTF8&amp;hq=&amp;hnear=301+Georgian+Pl,+Somerset,+Pennsylvania+15501&amp;z=14&amp;ll=40.019892,-79.073073&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=301+Georgian+Place,+Somerset,+PA+15501&amp;sll=37.0625,-95.677068&amp;sspn=48.822589,78.837891&amp;ie=UTF8&amp;hq=&amp;hnear=301+Georgian+Pl,+Somerset,+Pennsylvania+15501&amp;z=14&amp;ll=40.019892,-79.073073&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
-<iframe width=300 height=200 src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.815592703145!2d-78.830629!3d40.235402199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cb053626536e3f%3A0x3c6a0e3772becd52!2s1605+Graham+Ave%2C+Windber%2C+PA+15963!5e0!3m2!1sen!2sus!4v1429112619360 frameborder=0 style=border: 0px;>
 <span style=font-size: 9pt; font-family: arial; color: #333333;>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=158+Washington+Street,+Hyndman,+PA+15545&amp;sll=40.019892,-79.073073&amp;sspn=0.011618,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=158+Washington+St,+Hyndman,+Bedford,+Pennsylvania+15545&amp;z=14&amp;ll=39.820264,-78.72004&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=158+Washington+Street,+Hyndman,+PA+15545&amp;sll=40.019892,-79.073073&amp;sspn=0.011618,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=158+Washington+St,+Hyndman,+Bedford,+Pennsylvania+15545&amp;z=14&amp;ll=39.820264,-78.72004&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 16px;>
 <em>
@@ -123,4 +122,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

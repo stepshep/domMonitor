@@ -1,9 +1,9 @@
-<form class="form-inline" action="/assembly/19/brostoff/search-results/" method="GET">
+<form class="form-inline" action="assembly19brostoffsearch-results" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">
 <i class="glyphicon glyphicon-search">
-<form action="/assembly/19/brostoff/contact-me/" enctype="multipart/form-data" method="post">
+<form action="assembly19brostoffcontact-me" enctype="multipartform-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="be1b77f9-e436-44ef-97b7-28778c66ff79" class="fieldLabel">

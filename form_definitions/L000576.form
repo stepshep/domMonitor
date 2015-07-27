@@ -1,99 +1,74 @@
-<form action="index.cfm?sectionid=2§iontree=" method="get" onsubmit="return checkformsearch(this)">
-<input class="searchkey text" name="searchkey" onblur="iBlur(this)" onfocus="iFocus(this)" type="text" value="Search Site" >
-<input class="searchButon button" type="submit" value="GO" >
-<form action="/index.cfm" method="get" onsubmit="return checkformsearch(this)">
-<label for="searchkey">
-<span class="requiredfield" id="searchkeyrequired">
-<input type="text" name="searchkey" id="searchkey"  >
-<input type="radio" class="radiobutton" name="locale" value="-1" id="entire"
-					checked="checked">
-<label for="entire">
-<input type="radio" class="radiobutton" name="locale" value="58" id="this_section"
-					>
-<label for="this_section">
-<p class="submitbutton">
-<input type="submit" value="Search">
-<form action="http://long.house.gov//index.cfm?sectionid=47&amp;sectiontree=" method="post">
-<p class="formQuestion">
-<input class="text" id="form_16_firstname" maxlength="255" name="firstname" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76); position: relative; top: 13px;" type="text" value="First Name" >
-<input class="text" id="form_16_lastname" maxlength="255" name="lastname" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76); position: relative; top: 27px;" type="text" value="Last Name" >
-<input class="text" id="form_16_email" maxlength="255" name="email" onblur="iBlur(this)" onfocus="iFocus(this);" style="color: rgb(102, 95, 76); position: relative; top: 41px;" type="text" value="E-mail Address" >
-<input class="form_submit_button" id="form_submit_button_4" name="submitform" style="top: 163px;" type="submit" value="GO" >
-<form action="http://thomas.loc.gov/cgi-bin/query" class="bykeyword" method="post" name="loc-word" target="_blank">
-<input class="text" id="phrase" maxlength="50" name="queryc112" onblur="iBlur(this)" onfocus="iFocus(this);" type="text" value="By Keyword" >
-<input class="searchbuttons" id="searchPhrase" name="Submit" type="submit" value="Go" >
-<input class="text" id="bill" maxlength="50" name="docidc112" onblur="iBlur(this)" onfocus="iFocus(this);" type="text" value="By bill #" >
-<input class="searchbuttons" id="searchBill" name="Submit" type="submit" value="GO" >
-<form action="/email-billy/" id="custom_form6" name="custom_form" class="custom_form" method="post">
+<form action=email-billy id=custom_form6 name=custom_form class=custom_form method=post>
+<body>
 <noscript>
-<style type="text/css" media="all" title="main css">
-<p class="req">
+<style type=textcss media=all title=main css>
+<p class=req>
 <h2>
 <label>
-<select name="prefix" size="1" id="req_prefix">
-<option value="Mr. ">
-<option value="Mrs.">
-<option value="Ms.">
-<option value="Miss">
-<option value="Dr.">
-<option value="Hon.">
-<option value="Rev.">
-<option value="Rabbi">
+<select name=prefix size=1 id=req_prefix>
+<option value=Mr. >
+<option value=Mrs.>
+<option value=Ms.>
+<option value=Miss>
+<option value=Dr.>
+<option value=Hon.>
+<option value=Rev.>
+<option value=Rabbi>
 <label>
-<input type="text" name="firstname" id="req_firstname" maxlength="90" class="text" >
+<input type=text name=firstname id=req_firstname maxlength=90 class=text >
 <label>
-<input type="text" name="middle" class="text" style="width:15px;" maxlength="2" >
+<input type=text name=middle class=text style=width:15px; maxlength=2 >
 <label>
-<input type="text" name="lastname" id="req_lastname" class="text" maxlength="90" >
+<input type=text name=lastname id=req_lastname class=text maxlength=90 >
 <label>
-<input type="text" name="suffix" class="text1 text" width="50px" maxlength="5" >
+<input type=text name=suffix class=text1 text width=50px maxlength=5 >
 <label>
-<input type="text" name="street" id="req_street" class="text" maxlength="190" >
+<input type=text name=street id=req_street class=text maxlength=190 >
 <label>
-<input type="text" name="street2" class="text" maxlength="190" >
+<input type=text name=street2 class=text maxlength=190 >
 <label>
-<input type="text" name="city" id="req_city" class="text" maxlength="100" >
+<input type=text name=city id=req_city class=text maxlength=100 >
 <label>
-<select name="state" id="req_state">
-<option selected="" value="MO">
+<select name=state id=req_state>
+<option selected= value=MO>
 <label>
-<input type="text" name="zipcode" id="req_zip" class="zip text" style="width:100px;" maxlength="5" >
-<input type="text" name="zipfour" id="zip2" class="zip text" style="width:100px;" maxlength="4" >
+<input type=text name=zipcode id=req_zip class=zip text style=width:100px; maxlength=5 >
+<input type=text name=zipfour id=zip2 class=zip text style=width:100px; maxlength=4 >
 <small>
 <label>
-<input type="text" name="emailaddress" id="req_email" maxlength="150" class="text" >
+<input type=text name=emailaddress id=req_email maxlength=150 class=text >
 <label>
-<input type="text" name="phone" class="text" maxlength="14" >
+<input type=text name=phone class=text maxlength=14 >
 <label>
-<select size="1" name="subject" id="req_subject">
-<option selected="" value="">
-<option value="WEBCST">
-<option value="WEBGRT">
-<option value="WEBAGR">
-<option value="WEBBUD">
-<option value="WEBDEF">
-<option value="WEBEDU">
-<option value="WEBENE">
-<option value="WEBENV">
-<option value="WEBINT">
-<option value="WEBGOV">
-<option value="WEBHEA">
-<option value="WEBHOM">
-<option value="WEBIMM">
-<option value="WEBJUD">
-<option value="WEBSOC">
-<option value="WEBSSEC">
-<option value="WEBTEL">
-<option value="WEBTAX">
-<option value="WEBTRA">
-<option value="WEBVET">
-<option value="WEBWEL">
-<option value="WEBOTH">
+<select size=1 name=subject id=req_subject>
+<option selected= value=>
+<option value=WEBCST>
+<option value=WEBGRT>
+<option value=WEBAGR>
+<option value=WEBBUD>
+<option value=WEBDEF>
+<option value=WEBEDU>
+<option value=WEBENE>
+<option value=WEBENV>
+<option value=WEBINT>
+<option value=WEBGOV>
+<option value=WEBHEA>
+<option value=WEBHOM>
+<option value=WEBIMM>
+<option value=WEBJUD>
+<option value=WEBSOC>
+<option value=WEBSSEC>
+<option value=WEBTEL>
+<option value=WEBTAX>
+<option value=WEBTRA>
+<option value=WEBVET>
+<option value=WEBWEL>
+<option value=WEBOTH>
 <label>
-<textarea name="message" id="req_message" class="message">
+<textarea name=message id=req_message class=message>
 <label>
-<select size="1" name="response" id="req_response">
-<option selected="" value="">
-<option value="N">
-<option value="Y">
-<input type="button" value="Submit" id="submitButton" class="form_submit_button" >
+<select size=1 name=response id=req_response>
+<option selected= value=>
+<option value=N>
+<option value=Y>
+<input type=button value=Submit id=submitButton class=form_submit_button >

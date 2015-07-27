@@ -127,7 +127,7 @@
 <option value="Civil Rights">
 <option value="Constituent Services">
 <option value="Constitution">
-<option value="Defense/Military">
+<option value="DefenseMilitary">
 <option value="Eagle Scouts">
 <option value="Economy">
 <option value="Education">
@@ -150,7 +150,7 @@
 <option value="Labor">
 <option value="NASA">
 <option value="Nominations">
-<option value="Science/Technology">
+<option value="ScienceTechnology">
 <option value="Small Business">
 <option value="Social Security">
 <option value="Tax">
@@ -177,8 +177,14 @@
 <input type="checkbox" name="field_aadba5e5-d87e-4e7b-b465-442eaf623555" id="field_aadba5e5-d87e-4e7b-b465-442eaf623555_3" value="RISCH_REPORT_SUB" >
 <fieldset class="inlineLabels">
 <p class="legend">
+<!--
+		var RecaptchaOptions = {
+		   theme : 'red',
+		   tabindex : 0
+		};
+	-->
 <noscript>
-<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcdUtcSAAAAAFfNhaeRjZej2VlulQNS9RJtozoo"
+<iframe src="http:www.google.comrecaptchaapinoscript?k=6LcdUtcSAAAAAFfNhaeRjZej2VlulQNS9RJtozoo"
 	       height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <input type="submit" value="Submit" >

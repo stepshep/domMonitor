@@ -1,12 +1,12 @@
-<form id="search_form" name="googlesearch" method="get" action="/">
+<form id="search_form" name="googlesearch" method="get" action="">
 <input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" >
-<input id="go" type="image" src="/images/clear.gif" width="34" height="20" alt="" title="GO" >
-<form id="newsletter_form" name="newsletter" method="get" action="/#maincontent">
+<input id="go" type="image" src="imagesclear.gif" width="34" height="20" alt="" title="GO" >
+<form id="newsletter_form" name="newsletter" method="get" action="#maincontent">
 <span id="label">
 <input id="email" type="text" name="email" size="25" value="Email" class="input-field swap_value" >
 <input id="zip" type="text" name="zip" size="25" value="ZIP" class="input-field swap_value" >
-<input id="sign_up" type="image" src="images/spacer.gif" width="39" height="22" alt="" title="GO" >
-<form id="nl_quick" name="nl_quick" action="/?p=newsletter&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
+<input id="sign_up" type="image" src="imagesspacer.gif" width="39" height="22" alt="" title="GO" >
+<form id="nl_quick" name="nl_quick" action="?p=newsletter&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
 <input type="input" name="firstName" value="First Name" class="swap_value" >
 <input type="input" name="lastName" value="Last Name" class="swap_value" >
 <input type="input" name="email" value="Email" class="swap_value" >
@@ -188,4 +188,4 @@
 			WRAP="virtual"
 			CLASS="textarea">
 <hr style="margin-top: 20px" >
-<input onClick="setValidateFormId('contact_form')" type="image" src="/images/btn-submit.gif" >
+<input onClick="setValidateFormId('contact_form')" type="image" src="imagesbtn-submit.gif" >

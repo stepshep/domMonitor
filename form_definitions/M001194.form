@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email.txt%26display%3D/contact/email/email-sent%26nobase%26fpGetVer%3D2 class=bootstrap id=contactForm method=post name=contactForm>
+<form action=htbinformprocemail.txt%26display%3Dcontactemailemail-sent%26nobase%26fpGetVer%3D2 class=bootstrap id=contactForm method=post name=contactForm>
 <fieldset>
 <legend>
 <label class=control-label for=required-prefix>
@@ -42,6 +42,7 @@
 <option title=Text-telephone device value=TTD>
 <fieldset>
 <legend>
+<span dir=ltr id=:2ue>
 <label class=control-label for=required-issue>
 <select class=form-control id=required-issue name=required-issue required= size=1>
 <option disabled=disabled selected=selected value=>

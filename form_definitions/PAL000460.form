@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -25,7 +25,7 @@
 <span style=font-size: 16px;>
 <span style=font-size: 16px;>
 <small>
-<iframe name=mapFrame width=350 height=280 id=map src=http://www.bing.com/maps/embed/?lvl=16&amp;cp=40.13147834763048~-76.31086181481933&amp;sty=r&amp;draggable=true&amp;v=2&amp;dir=0&amp;where1=1555+Highlands+Dr%2C+Lititz%2C+PA+17543&amp;form=LMLTEW&amp;pp=40.131625682115555~-76.31026066839695&amp;mkt=en-us&amp;gen=false&amp;emid=c009e114-2f48-5204-22b7-a0db9ca2085b&amp;w=350&amp;h=280 frameborder=0 scrolling=no>
+<iframe name=mapFrame width=350 height=280 id=map src=http:www.bing.commapsembed?lvl=16&amp;cp=40.13147834763048~-76.31086181481933&amp;sty=r&amp;draggable=true&amp;v=2&amp;dir=0&amp;where1=1555+Highlands+Dr%2C+Lititz%2C+PA+17543&amp;form=LMLTEW&amp;pp=40.131625682115555~-76.31026066839695&amp;mkt=en-us&amp;gen=false&amp;emid=c009e114-2f48-5204-22b7-a0db9ca2085b&amp;w=350&amp;h=280 frameborder=0 scrolling=no>
 <span style=font-size: 16px;>
 <em>
 <span id=fileSavedIndication style=color:Red;>
@@ -118,4 +118,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

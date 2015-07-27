@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-me.txt%26display%3D/contact/email-me/email-me-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
+<form action=htbinformprocemail-me.txt%26display%3Dcontactemail-meemail-me-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>
@@ -52,7 +52,7 @@
 <option value=CAMPAIGN FINANCE>
 <option value=CAMPAIGN FINANCE>
 <option value=CENSUS>
-<option value=CIVIL/HUMAN RIGHTS>
+<option value=CIVILHUMAN RIGHTS>
 <option value=CONSUMER PROTECTION>
 <option value=CRIME>
 <option value=PRIVACY>
@@ -82,9 +82,9 @@
 <option value=NATIVE AMERICANS>
 <option value=PATENTS>
 <option value=PENSIONS>
-<option value=WELFARE/POVERTY>
+<option value=WELFAREPOVERTY>
 <option value=RESOURCES>
-<option value=SCIENCE/TECH>
+<option value=SCIENCETECH>
 <option value=SMALL BUSINESS>
 <option value=SOCIAL SECURITY>
 <option value=TAXES>

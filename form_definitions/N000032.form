@@ -1,4 +1,4 @@
-<form action=/contact-bill-print class=validate wsbform id=emailForm method=post name=emailForm>
+<form action=contact-bill-print class=validate wsbform id=emailForm method=post name=emailForm>
 <fieldset>
 <h5>
 <label for=prefix>
@@ -104,7 +104,7 @@
 <input name=Issue type=radio value=Energy >
 <input name=Issue type=radio value=Environment >
 <input name=Issue type=radio value=Everglades Restoration >
-<input name=Issue type=radio value=FEMA/Natural Disasters >
+<input name=Issue type=radio value=FEMANatural Disasters >
 <input name=Issue type=radio value=Government Reform >
 <input name=Issue type=radio value=Elections >
 <input name=Issue type=radio value=Flag Requests >
@@ -120,7 +120,7 @@
 <input name=Issue type=radio value=Iraq >
 <input name=Issue type=radio value=Judicial Nominations >
 <input name=Issue type=radio value=Labor >
-<input name=Issue type=radio value=Medicare/Medicaid >
+<input name=Issue type=radio value=MedicareMedicaid >
 <input name=Issue type=radio value=National Parks >
 <input name=Issue type=radio value=Pensions >
 <input name=Issue type=radio value=Photograph Requests >
@@ -131,7 +131,7 @@
 <input name=Issue type=radio value=Military >
 <input name=Issue type=radio value=Native American Issues >
 <input name=Issue type=radio value=Social Security >
-<input name=Issue type=radio value=Social Services/Welfare >
+<input name=Issue type=radio value=Social ServicesWelfare >
 <input name=Issue type=radio value=Space >
 <input name=Issue type=radio value=Stem Cell Research >
 <input name=Issue type=radio value=Taxes >

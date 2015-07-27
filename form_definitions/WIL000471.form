@@ -1,4 +1,4 @@
-<form action="/assembly/31/loudenbeck/contact/" enctype="multipart/form-data" method="post">
+<form action="assembly31loudenbeckcontact" enctype="multipartform-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="a325d1cb-617c-4022-9341-a845e63463f0" class="fieldLabel">
@@ -54,7 +54,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="48c4d887-79f1-4ed4-8b9e-96db98ee1515" data-valmsg-replace="true">
 <input type="text" name="3342161b498340a4938a413633e31b9c" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="/assembly/31/loudenbeck/search-results/" method="GET">
+<form class="form-inline" action="assembly31loudenbecksearch-results" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

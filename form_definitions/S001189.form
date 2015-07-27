@@ -1,4 +1,4 @@
-<form action=/email-me/ id=custom_form70 name=custom_form class=custom_form method=post>
+<form action=email-me id=custom_form70 name=custom_form class=custom_form method=post>
 <p class=req>
 <fieldset>
 <legend>
@@ -101,6 +101,7 @@
 <input id=phone type=text name=phone class=text phn phonemask filled maxlength=20>
 <fieldset>
 <legend>
+<label for=issue>
 <span title=required information>
 <select id=req_issue name=issue>
 <option selected=selected value=>
@@ -134,7 +135,6 @@
 <textarea name=message id=req_message class=message filled>
 <fieldset>
 <label>
-<span title=required field style=color: red !Important;>
 <select name=response id=req_response>
 <option selected= value=>
 <option value=Y>

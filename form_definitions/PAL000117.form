@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -29,7 +29,6 @@
 <span style=font-size: 16px;>
 <span style=font-size: 13px; font-family: arial; color: #000000;>
 <span style=font-size: 13px;>
-<iframe width=600 height=450 src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3042.1990384636433!2d-76.57797077909853!3d40.31573997859195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c8a59602514c9b%3A0xe10fdf3300ece659!2s1044+E+Main+St%2C+Palmyra%2C+PA+17078!5e0!3m2!1sen!2sus!4v1416508687274 frameborder=0 style=border: 0px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
 <em>
@@ -124,4 +123,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

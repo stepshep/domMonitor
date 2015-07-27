@@ -1,4 +1,4 @@
-<form id=contactForm action=/contact/index.cfm method=post enctype=application/x-www-form-urlencoded accept-charset=utf-8 onsubmit=return _CF_checkCFForm_1(this)>
+<form id=contactForm action=contactindex.cfm method=post enctype=applicationx-www-form-urlencoded accept-charset=utf-8 onsubmit=return _CF_checkCFForm_1(this)>
 <fieldset>
 <label for=rsalutation>
 <span class=required>
@@ -167,7 +167,7 @@
 <select name=topic id=topic >
 <option label=-- Select an Issue -- value= selected=selected>
 <option label=Abortion value=ABOR>
-<option label=Aging / Seniors value=SEN>
+<option label=Aging  Seniors value=SEN>
 <option label=Agriculture value=AGR>
 <option label=Animal Rights value=ANIM>
 <option label=Appropriations value=APP>
@@ -176,20 +176,20 @@
 <option label=Budget value=BUD>
 <option label=Campaign Finance Reform value=CAMP>
 <option label=Child Abuse value=ABUSE>
-<option label=Children / Family / Adoption value=CHILD>
+<option label=Children  Family  Adoption value=CHILD>
 <option label=Civil Rights value=CIV>
-<option label=Civil Service / Postal value=POST>
+<option label=Civil Service  Postal value=POST>
 <option label=Social Issues value=SOC>
 <option label=Commerce value=COM>
 <option label=Congressional Issues value=CON>
-<option label=Crimes / Drugs / Guns value=CRIME>
-<option label=Debt / Deficit value=DEBT>
+<option label=Crimes  Drugs  Guns value=CRIME>
+<option label=Debt  Deficit value=DEBT>
 <option label=Defense value=DEF>
 <option label=Economy value=ECON>
 <option label=Education value=EDU>
-<option label=Elections / Election Reform value=ELECT>
+<option label=Elections  Election Reform value=ELECT>
 <option label=Energy value=ENE>
-<option label=Environment / Public Works value=ENV>
+<option label=Environment  Public Works value=ENV>
 <option label=Firearms value=FIREARMS>
 <option label=Foreign Relations value=FR>
 <option label=Governmental Reform value=GOV>
@@ -199,14 +199,14 @@
 <option label=Immigration value=IMM>
 <option label=Indian Affairs value=IND>
 <option label=Insurance - Other value=INSUR-OTHER>
-<option label=Interior / Forestry value=INTERI>
+<option label=Interior  Forestry value=INTERI>
 <option label=Jobs value=JOBS>
 <option label=Judiciary value=JUD>
 <option label=Labor value=LAB>
 <option label=LGBT value=LGBT>
 <option label=LIHEAP value=LIHEAP>
-<option label=Medicare / Medicaid value=MED>
-<option label=Military / Retiree Health Care value=MIL.HEA>
+<option label=Medicare  Medicaid value=MED>
+<option label=Military  Retiree Health Care value=MIL.HEA>
 <option label=NASA value=NASA>
 <option label=Nutrition value=NUT>
 <option label=Patents value=PAT>
@@ -217,12 +217,12 @@
 <option label=Social Issues value=SOC>
 <option label=Social Security value=SSEC>
 <option label=Taxes value=TAX>
-<option label=Telecommunications / Communications value=TEL>
+<option label=Telecommunications  Communications value=TEL>
 <option label=Tobacco value=TOB>
 <option label=Trade value=TRADE>
 <option label=Transportation value=TRA>
 <option label=Veterans value=VET>
-<option label=Welfare / Food Stamps value=WEL>
+<option label=Welfare  Food Stamps value=WEL>
 <label for=comment>
 <textarea cols=30 rows=20 name=comments>
-<input type=image value=submit src=http://www.shaheen.senate.gov/images/contact/send_your_comments.png alt=Send Your Comments class=rollover >
+<input type=image value=submit src=http:www.shaheen.senate.govimagescontactsend_your_comments.png alt=Send Your Comments class=rollover >

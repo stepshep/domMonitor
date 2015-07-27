@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -18,12 +18,12 @@
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=46+East+Philadelphia+Avenue,+Boyertown,+PA+19512&amp;sll=40.201576,-77.213112&amp;sspn=0.011587,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=46+E+Philadelphia+Ave,+Boyertown,+Berks,+Pennsylvania+19512&amp;z=14&amp;ll=40.333128,-75.63672&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=46+East+Philadelphia+Avenue,+Boyertown,+PA+19512&amp;sll=40.201576,-77.213112&amp;sspn=0.011587,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=46+E+Philadelphia+Ave,+Boyertown,+Berks,+Pennsylvania+19512&amp;z=14&amp;ll=40.333128,-75.63672&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=515+Old+Swede+Road,+Suite+B2,+Douglassville,+PA+19518&amp;sll=40.333128,-75.63672&amp;sspn=0.011564,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=515+Old+Swede+Rd,+Douglassville,+Berks,+Pennsylvania+19518&amp;z=14&amp;ll=40.265558,-75.72586&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=515+Old+Swede+Road,+Suite+B2,+Douglassville,+PA+19518&amp;sll=40.333128,-75.63672&amp;sspn=0.011564,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=515+Old+Swede+Rd,+Douglassville,+Berks,+Pennsylvania+19518&amp;z=14&amp;ll=40.265558,-75.72586&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <em>
 <span style=font-size: 13px;>
@@ -117,4 +117,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

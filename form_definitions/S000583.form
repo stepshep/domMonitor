@@ -1,4 +1,4 @@
-<form action=/htbin/formproc/email-lamar.txt%26display%3D/contact/email-lamar/email-lamar-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
+<form action=htbinformprocemail-lamar.txt%26display%3Dcontactemail-lamaremail-lamar-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>

@@ -1,4 +1,4 @@
-<form action="/senate/09/LeMahieu/contact-devin/" enctype="multipart/form-data" method="post">
+<form action="senate09LeMahieucontact-devin" enctype="multipartform-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="bb18d8f1-0b16-4400-a11f-b17b03269cdb" class="fieldLabel">

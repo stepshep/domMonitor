@@ -24,9 +24,7 @@
 <input type=text class=textInput name=field_87de2e22-62ae-4520-8b11-964e4d9a438b id=field_87de2e22-62ae-4520-8b11-964e4d9a438b value= style=width: 80%; >
 <label for=field_446db533-7685-4b67-bc58-a07786b68350>
 <strong class=required>
-<input type=text class=textInput name=field_446db533-7685-4b67-bc58-a07786b68350 id=field_446db533-7685-4b67-bc58-a07786b68350 value= Style=width: 100% !important; >
 <label for=field_3723b57c-d046-43d2-a885-daaea4a6b81b>
-<input type=text class=textInput name=field_3723b57c-d046-43d2-a885-daaea4a6b81b id=field_3723b57c-d046-43d2-a885-daaea4a6b81b value= Style=width: 100% !important; >
 <label for=field_6f684076-6b0b-4e2f-9b0a-556a9bf086f3>
 <strong class=required>
 <input type=text class=textInput name=field_6f684076-6b0b-4e2f-9b0a-556a9bf086f3 id=field_6f684076-6b0b-4e2f-9b0a-556a9bf086f3 value= style=width: 80%; >
@@ -139,5 +137,4 @@
 <input type=radio name=field_1f16bf7a-1773-4479-bc8f-995d37e73f17 id=field_1f16bf7a-1773-4479-bc8f-995d37e73f17_2 value=N checked=checked >
 <label for=field_8b3c545e-254e-4902-b51b-d26db60bf711>
 <strong class=required>
-<textarea name=field_8b3c545e-254e-4902-b51b-d26db60bf711 id=field_8b3c545e-254e-4902-b51b-d26db60bf711  style=width: 100% !important;>
 <input type=submit value=Submit >

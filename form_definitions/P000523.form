@@ -1,4 +1,4 @@
-<form action=/contact/ id=custom_form24 name=custom_form class=custom_form method=post>
+<form action=contact id=custom_form24 name=custom_form class=custom_form method=post>
 <p style=font-weight:bold; text-align:center;>
 <p class=req>
 <fieldset>

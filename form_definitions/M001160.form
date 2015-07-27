@@ -1,4 +1,4 @@
-<form action=/contact-form/ id=custom_form12 name=custom_form class=custom_form method=post>
+<form action=contact-form id=custom_form12 name=custom_form class=custom_form method=post>
 <b>
 <b>
 <em>
@@ -137,8 +137,8 @@
 <span title=required information>
 <textarea name=message id=req_message class=message cols=68 rows=5>
 <label>
-<input type=radio class=radio value=&lt;AFFL&gt;Subscribe&lt;/AFFL&gt; name=aff1 >
-<input type=radio class=radio value=&lt;AFFL_DEL&gt;Subscribe&lt;/AFFL_DEL&gt; name=aff1 >
+<input type=radio class=radio value=&lt;AFFL&gt;Subscribe&lt;AFFL&gt; name=aff1 >
+<input type=radio class=radio value=&lt;AFFL_DEL&gt;Subscribe&lt;AFFL_DEL&gt; name=aff1 >
 <label>
 <select size=1 name=response id=response>
 <option selected=selected value=RN>

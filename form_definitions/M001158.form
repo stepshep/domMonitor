@@ -1,4 +1,4 @@
-<form class=zipForm method=post name=contact action=/submit-contact.aspx id=contact>
+<form class=zipForm method=post name=contact action=submit-contact.aspx id=contact>
 <table cellspacing=2 cellpadding=0 align=center>
 <tbody>
 <td align=right>

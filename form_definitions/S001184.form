@@ -1,4 +1,4 @@
-<form class=iq-form action=/contact/email-me method=post id=iq-forms-contact-form accept-charset=UTF-8>
+<form class=iq-form action=contactemail-me method=post id=iq-forms-contact-form accept-charset=UTF-8>
 <fieldset class=collapsible form-wrapper id=edit-name-address>
 <legend>
 <span class=fieldset-legend>
@@ -70,7 +70,7 @@
 <option value=NAT>
 <option value=SSEC>
 <option value=POST>
-<option value=SCI/TECH>
+<option value=SCITECH>
 <option value=TAX>
 <option value=TEL>
 <option value=TRADE>

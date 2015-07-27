@@ -1,4 +1,4 @@
-<form method=post action=/?p=contact>
+<form method=post action=?p=contact>
 <label for=gen-fieldid-3 class=control-label>
 <span class=req>
 <select class=select input form-corner form-control name=PREFIX id=gen-fieldid-3 class=ft-select fld-PREFIX style=width:260px>
@@ -158,7 +158,7 @@
 <label>
 <input type=text name=contact_email1 value=bot@bot.com>
 <label>
-<input type=text name=contact_email2 value= Symp21 >
+<input type=text name=contact_email2 value= Symp3E8B >
 <label>
 <input type=text name=contact_url value=>
 <label>

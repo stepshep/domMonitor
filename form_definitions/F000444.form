@@ -104,7 +104,7 @@
 <option value=Agriculture>
 <option value=Banking and Finance>
 <option value=Commerce>
-<option value=Budget/Government Spending>
+<option value=BudgetGovernment Spending>
 <option value=Civil Rights>
 <option value=Defense and Military>
 <option value=Education>
@@ -112,7 +112,7 @@
 <option value=Environment>
 <option value=Foreign Affairs>
 <option value=Government Reform>
-<option value=Guns/Second Amendment>
+<option value=GunsSecond Amendment>
 <option value=Healthcare>
 <option value=Help with Federal Agencies>
 <option value=Homeland Security>
