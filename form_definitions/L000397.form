@@ -1,4 +1,4 @@
-<form class=zipform method=post name=contact action=/submit-contact_iq.aspx id=contact>
+<form class=zipform method=post name=contact action=submit-contact_iq.aspx id=contact>
 <table cellspacing=2 cellpadding=0 align=center>
 <tbody>
 <td align=right>
@@ -29,7 +29,7 @@
 <td align=right>
 <input maxlength=190 size=60 type=text name=required-address required=required class=>
 <td align=right>
-<td class=       >
+<td class=          >
 <input maxlength=45 type=text name=required-city required=required class=>
 <select name=required-state required=required>
 <option selected=true value=CA>

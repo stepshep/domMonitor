@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact/email  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=contactemail  enctype=applicationx-www-form-urlencoded >
 <fieldset>
 <legend>
 <label class=control-label for=salutation>
@@ -162,11 +162,11 @@
 <select id=subject class=span8 required name=subject class=validate[required,%subject]>
 <option label=- - Select an Issue - - value= selected=selected>
 <option label=Federal Agency Assistance value=Federal Agency Assistance>
-<option label=Arts/Culture/History value=Arts/Culture/History>
-<option label=Armed Services/Defense/Military Affairs value=Armed Services/Defense/Military Affairs>
+<option label=ArtsCultureHistory value=ArtsCultureHistory>
+<option label=Armed ServicesDefenseMilitary Affairs value=Armed ServicesDefenseMilitary Affairs>
 <option label=Agriculture value=Agriculture>
 <option label=Animal Welfare value=Animal Welfare>
-<option label=Civil Rights/Liberties/Minority Issues/Religion value=Civil Rights/Liberties/Minority Issues/Religion>
+<option label=Civil RightsLibertiesMinority IssuesReligion value=Civil RightsLibertiesMinority IssuesReligion>
 <option label=Congressional Procedures value=Congressional Procedures>
 <option label=Crime and Law Enforcement value=Crime and Law Enforcement>
 <option label=Economy - Banking and Finance value=Economy - Banking and Finance>
@@ -174,7 +174,7 @@
 <option label=Economy - Small Business and Job Creation value=Economy - Small Business and Job Creation>
 <option label=Economy - Taxes value=Economy - Taxes>
 <option label=Energy and Climate value=Energy and Climate>
-<option label=Environmental/Wildlife Protection value=Environmental/Wildlife Protection>
+<option label=EnvironmentalWildlife Protection value=EnvironmentalWildlife Protection>
 <option label=Foreign Affairs value=Foreign Affairs>
 <option label=Health value=Health>
 <option label=Education value=Education>
@@ -182,14 +182,14 @@
 <option label=Housing value=Housing>
 <option label=Immigration value=Immigration>
 <option label=Labor value=Labor>
-<option label=Medicare/Medicaid value=Medicare/Medicaid>
+<option label=MedicareMedicaid value=MedicareMedicaid>
 <option label=Native Hawaiians and Native Americans value=Native Hawaiians and Native Americans>
 <option label=Public Lands and National Parks value=Public Lands and National Parks>
 <option label=Reproductive Health value=Reproductive Health>
 <option label=Science and Technology value=Science and Technology>
 <option label=Social Welfare Programs value=Social Welfare Programs>
 <option label=Social Security value=Social Security>
-<option label=Telecommunications/Internet value=Telecommunications/Internet>
+<option label=TelecommunicationsInternet value=TelecommunicationsInternet>
 <option label=Trade value=Trade>
 <option label=Tourism value=Tourism>
 <option label=Veterans value=Veterans>

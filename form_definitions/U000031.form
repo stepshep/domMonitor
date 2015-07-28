@@ -1,4 +1,4 @@
-<form name=contact onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,required-issue,Issue,R,required-message,Message,R);return document.MM_returnValue action=/submit-contact.aspx method=post class=zipform activeForm submit>
+<form name=contact onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,required-issue,Issue,R,required-message,Message,R);return document.MM_returnValue action=submit-contact.aspx method=post class=zipform activeForm submit>
 <table align=center cellspacing=2 cellpadding=0>
 <tbody>
 <td align=right>
@@ -16,7 +16,7 @@
 <td class= >
 <input name=required-address type=text size=60 maxlength=190 class= >
 <td align=right>
-<td class=                  >
+<td class=                   >
 <input name=required-city type=text maxlength=45 class= >
 <select name=required-state>
 <option selected=selected value=MI>

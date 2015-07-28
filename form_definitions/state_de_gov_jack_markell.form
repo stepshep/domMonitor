@@ -1,4 +1,4 @@
-<form onsubmit=javascript:return validateFields(contact); name=contact id=contact method=post action=/cgi-bin/mailer.php>
+<form onsubmit=javascript:return validateFields(contact); name=contact id=contact method=post action=cgi-binmailer.php>
 <label for=formName class=grid1>
 <input name=formName id=formName type=text placeholder=Your Name class=grid_input>
 <label for=formAddress class=grid1>

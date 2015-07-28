@@ -123,7 +123,7 @@
 <!--- ReCaptcha Web Service to protect against automated abuse of form submissions --->
 <label for="recaptcha_challenge_field" class="control-label">
 <noscript>
-<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeWK-ASAAAAAPRN5LOKkZ5MdVbV1Ukjd88uBlJO"
+<iframe src="http:www.google.comrecaptchaapinoscript?k=6LeWK-ASAAAAAPRN5LOKkZ5MdVbV1Ukjd88uBlJO"
          height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <!--- End ReCaptcha --->
@@ -132,7 +132,7 @@
 <input name="reset_button" type="reset" value="Reset" class="inline button">
 <p class="submit">
 <td align="center" style="border-top:2px solid #000033">
-<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
+<form name="ccoptin" action="http:visitor.r20.constantcontact.comd.jsp" target="_blank" method="post" style="margin-bottom:2;">
 <font style="font-weight: normal; font-family:Times New Roman; font-size:12px; color:#000000;">
 <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
 <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">

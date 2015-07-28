@@ -1,4 +1,4 @@
-<form action=/form_process/questions-and-comments-thank-you class=fullform validate id=contactForm method=post>
+<form action=form_processquestions-and-comments-thank-you class=fullform validate id=contactForm method=post>
 <label class=required for=prefix>
 <select id=prefix name=prefix required=>
 <option value=>

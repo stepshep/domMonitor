@@ -1,4 +1,4 @@
-<form action=/index.php/contact-us method=post name=emailForm id=emailForm class=form-validate>
+<form action=index.phpcontact-us method=post name=emailForm id=emailForm class=form-validate>
 <fieldset>
 <legend>
 <label class=label-top for=contact_name>

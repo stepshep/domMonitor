@@ -1,4 +1,4 @@
-<form id=contactForm action=/contact/index.cfm method=post enctype=application/x-www-form-urlencoded accept-charset=utf-8 onsubmit=return _CF_checkCFForm_1(this)>
+<form id=contactForm action=contactindex.cfm method=post enctype=applicationx-www-form-urlencoded accept-charset=utf-8 onsubmit=return _CF_checkCFForm_1(this)>
 <fieldset>
 <legend>
 <label for=rsalutation>
@@ -176,13 +176,13 @@
 <input name=subject type=radio value=Education id=subject_Education  >
 <input name=subject type=radio value=LGBT Rights id=subject_LGBT Rights  >
 <input name=subject type=radio value=Energy id=subject_Energy  >
-<input name=subject type=radio value=Medicare/Medicaid id=subject_Medicare/Medicaid  >
+<input name=subject type=radio value=MedicareMedicaid id=subject_MedicareMedicaid  >
 <input name=subject type=radio value=Environment id=subject_Environment  >
 <input name=subject type=radio value=National Security id=subject_National Security  >
 <input name=subject type=radio value=Ethics Reform id=subject_Ethics Reform  >
 <input name=subject type=radio value=Poverty id=subject_Poverty  >
 <input name=subject type=radio value=Federal Grant Applications id=subject_Federal Grant Applications  >
-<input name=subject type=radio value=Science/Technology id=subject_Science/Technology  >
+<input name=subject type=radio value=ScienceTechnology id=subject_ScienceTechnology  >
 <input name=subject type=radio value=Financial Services id=subject_Financial Services  >
 <input name=subject type=radio value=Social Security id=subject_Social Security  >
 <input name=subject type=radio value=Foreign Relations id=subject_Foreign Relations  >
@@ -197,4 +197,4 @@
 <input name=subject type=radio value=Womens Issues id=subject_Womens Issues  >
 <label for=comment>
 <textarea cols=30 rows=20 name=comments>
-<input type=image value=submit src=http://www.gillibrand.senate.gov/images/contact/send_your_comments.png alt=Send Your Comments class=rollover >
+<input type=image value=submit src=http:www.gillibrand.senate.govimagescontactsend_your_comments.png alt=Send Your Comments class=rollover >

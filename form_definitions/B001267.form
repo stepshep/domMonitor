@@ -1,4 +1,4 @@
-<form class=-validate-form method=post action=/?p=contact name=thisForm novalidate=novalidate>
+<form class=-validate-form method=post action=?p=contact name=thisForm novalidate=novalidate>
 <label for=gen-fieldid-1 class=control-label>
 <span class=req>
 <select class=-required form-control name=Prefix id=gen-fieldid-1 class=ft-select fld-Prefix required style=width:>

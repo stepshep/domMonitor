@@ -1,4 +1,4 @@
-<form action=/contact-us/ id=custom_form6 name=custom_form class=custom_form method=post>
+<form action=contact-us id=custom_form6 name=custom_form class=custom_form method=post>
 <p class=req>
 <h2>
 <label>

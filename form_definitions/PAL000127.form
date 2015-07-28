@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -28,10 +28,10 @@
 <em>
 <span style=font-size: 16px;>
 <span style=font-size: 13px;>
-<iframe height=230 marginheight=0 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=2030+Center+Street,+Northampton,+PA+18067&amp;sll=37.0625,-95.677068&amp;sspn=48.822589,78.75&amp;ie=UTF8&amp;z=14&amp;g=2030+Center+Street,+Northampton,+PA+18067&amp;iwloc=addr&amp;ll=40.69834,-75.496674&amp;output=embed&amp;s=AARTsJppm5kpHmxjIzEww5LHfE4QvbmfMA frameborder=0 width=300 marginwidth=0 scrolling=no>
+<iframe height=230 marginheight=0 src=http:maps.google.commaps?f=q&amp;hl=en&amp;geocode=&amp;q=2030+Center+Street,+Northampton,+PA+18067&amp;sll=37.0625,-95.677068&amp;sspn=48.822589,78.75&amp;ie=UTF8&amp;z=14&amp;g=2030+Center+Street,+Northampton,+PA+18067&amp;iwloc=addr&amp;ll=40.69834,-75.496674&amp;output=embed&amp;s=AARTsJppm5kpHmxjIzEww5LHfE4QvbmfMA frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
 <span style=font-size: 13px;>
-<iframe height=230 marginheight=0 src=http://maps.google.com/maps?hl=en&amp;q=125+S+Walnut+St,+Slatington,+PA+18080,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.75896,-75.601301&amp;output=embed&amp;s=AARTsJocCyrjDbMOJAf3id9P69DLakvvZA frameborder=0 width=300 marginwidth=0 scrolling=no>
+<iframe height=230 marginheight=0 src=http:maps.google.commaps?hl=en&amp;q=125+S+Walnut+St,+Slatington,+PA+18080,+USA&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.75896,-75.601301&amp;output=embed&amp;s=AARTsJocCyrjDbMOJAf3id9P69DLakvvZA frameborder=0 width=300 marginwidth=0 scrolling=no>
 <small>
 <em>
 <span style=font-size: 16px;>
@@ -127,4 +127,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

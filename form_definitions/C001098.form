@@ -1,4 +1,4 @@
-<form method=post action=/?p=email_senator>
+<form method=post action=?p=email_senator>
 <label for=gen-fieldid-1 class=control-label>
 <span class=req>
 <select class=select input fancy-input form-fancy-input corner name=PREFIX id=gen-fieldid-1 class=ft-select fld-PREFIX style=width:>
@@ -116,18 +116,18 @@
 <option value=null>
 <option value=Agriculture>
 <option value=Animal Welfare>
-<option value=Banking/Housing>
-<option value=Budget/Appropriations>
-<option value=Campaigns/Elections>
-<option value=Constitutional/Civil Rights>
+<option value=BankingHousing>
+<option value=BudgetAppropriations>
+<option value=CampaignsElections>
+<option value=ConstitutionalCivil Rights>
 <option value=Crime>
-<option value=Defense/National Security>
-<option value=Economy/Jobs>
+<option value=DefenseNational Security>
+<option value=EconomyJobs>
 <option value=Education>
 <option value=Energy>
 <option value=Environment>
 <option value=Foreign Policy>
-<option value=Government Reform/Regulations>
+<option value=Government ReformRegulations>
 <option value=Health Care>
 <option value=Immigration>
 <option value=Judiciary>

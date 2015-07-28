@@ -1,4 +1,4 @@
-<form method="post" action="/Contact/ContactForm.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form" enctype="multipart/form-data">
+<form method="post" action="ContactContactForm.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form" enctype="multipartform-data">
 <!-- DNN UserControls -->
 <!-- Custom UserControls -->
 <!-- end:UserControls -->
@@ -15,7 +15,7 @@
 <!-- Header -->
 <h1>
 <h2>
-<!-- /#header -->
+<!-- #header -->
 <!-- End Header -->
 <!-- Nav -->
 <!-- DDRmenu v02.00.01 - mainNav template -->
@@ -65,10 +65,10 @@
 <label for="dnn_ctr2420_Main_txtAddress2" id="dnn_ctr2420_Main_lblAddress2" class="wsLabel">
 <input name="dnn$ctr2420$Main$txtAddress2" type="text" id="dnn_ctr2420_Main_txtAddress2" class="wsTextbox wide" >
 <!-- END Address 2 -->
-<!-- Your City/Town -->
+<!-- Your CityTown -->
 <label for="dnn_ctr2420_Main_txtCityTown" id="dnn_ctr2420_Main_lblCityTown" class="wsLabel required">
 <input name="dnn$ctr2420$Main$txtCityTown" type="text" id="dnn_ctr2420_Main_txtCityTown" class="wsTextbox wide" >
-<!-- END Your City/Town -->
+<!-- END Your CityTown -->
 <label for="dnn_ctr2420_Main_ddlState" id="dnn_ctr2420_Main_lblState" class="wsLabel required">
 <select name="dnn$ctr2420$Main$ddlState" id="dnn_ctr2420_Main_ddlState">
 <option value="AL">
@@ -133,10 +133,10 @@
 <label for="dnn_ctr2420_Main_txtSubject" id="dnn_ctr2420_Main_lblSubject" class="wsLabel">
 <input name="dnn$ctr2420$Main$txtSubject" type="text" id="dnn_ctr2420_Main_txtSubject" class="wsTextbox wide" >
 <!-- END Zip -->
-<!-- Comment/Question -->
+<!-- CommentQuestion -->
 <label for="dnn_ctr2420_Main_txtComments" id="dnn_ctr2420_Main_lblComments" class="wsLabel vtop required">
 <textarea name="dnn$ctr2420$Main$txtComments" rows="2" cols="20" id="dnn_ctr2420_Main_txtComments" class="wsTextArea">
-<!-- END Comment/Question -->
+<!-- END CommentQuestion -->
 <!-- Phone Number -->
 <label for="dnn_ctr2420_Main_txtPhone" id="dnn_ctr2420_Main_lblPhone" class="wsLabel required">
 <input name="dnn$ctr2420$Main$txtPhone" type="text" id="dnn_ctr2420_Main_txtPhone" class="wsTextbox" >
@@ -175,7 +175,7 @@
 <span class="fr" style="margin-top: 6px;>
 <!-- Start_Module_2448 -->
 <!-- End_Module_2448 -->
-<!-- /.row -->
+<!-- .row -->
 <!-- End Main Content -->
 <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject">
 <!--close loginGroup-->
@@ -184,5 +184,5 @@
 <ul class="social-links">
 <!-- End_Module_2453 -->
 <!-- Banner Image and Title Goes Here -->
-<!--CDF(Javascript|/Portals/_default/Skins/GOP_Red/js/foundation.min.js?cdv=108)-->
-<!--CDF(Javascript|/Portals/_default/Skins/GOP_Red/js/tweet-new.js?cdv=108)-->
+<!--CDF(Javascript|Portals_defaultSkinsGOP_Redjsfoundation.min.js?cdv=108)-->
+<!--CDF(Javascript|Portals_defaultSkinsGOP_Redjstweet-new.js?cdv=108)-->

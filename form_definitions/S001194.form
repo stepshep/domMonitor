@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
 <fieldset>
 <label class=control-label for=subject>
 <abbr title=Please enter a message topic for your message>
@@ -7,14 +7,14 @@
 <option label=Academy Nominations value=Academy Nominations>
 <option label=Agriculture value=Agriculture>
 <option label=Animal Welfare value=Animal Welfare>
-<option label=Army Corps/Public Works/Infrastructure value=Army Corps_Public Works_Infrastructure>
+<option label=Army CorpsPublic WorksInfrastructure value=Army Corps_Public Works_Infrastructure>
 <option label=Arts and Humanities value=Arts and Humanities>
 <option label=Asians and Pacific Islanders value=Asians and Pacific Islanders>
 <option label=Aviation value=Aviation>
 <option label=Banking value=Banking>
 <option label=Budget value=Budget>
 <option label=Census value=Census>
-<option label=Children/Family/Adoption value=Children/Family/Adoption>
+<option label=ChildrenFamilyAdoption value=ChildrenFamilyAdoption>
 <option label=Civil Rights value=Civil Rights>
 <option label=Consumer Affairs value=Consumer Affairs>
 <option label=Defense value=Defense>
@@ -48,7 +48,7 @@
 <option label=Small Business and Economic Development value=Small Business and Economic Development>
 <option label=Social Security value=Social Security>
 <option label=Tax value=Tax>
-<option label=Telecommunications/Internet value=Telecommunications/Internet>
+<option label=TelecommunicationsInternet value=TelecommunicationsInternet>
 <option label=Tourism value=Tourism>
 <option label=Tour Requests value=Tour Requests>
 <option label=Trade value=Trade>

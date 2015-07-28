@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
 <fieldset>
 <label class=control-label for=actions>
 <abbr title=Please select an option>
@@ -105,8 +105,8 @@
 <abbr title=Please enter a message topic for your message>
 <select id=subject class=form-control name=subject>
 <option label=- - Select an Issue - - value= selected=selected>
-<option label=Abortion/Reproductive Rights value=Abortion>
-<option label=Afghanistan/Iraq value=Afghanistan>
+<option label=AbortionReproductive Rights value=Abortion>
+<option label=AfghanistanIraq value=Afghanistan>
 <option label=Agriculture value=Agriculture>
 <option label=Animal Rights value=Animal Rights>
 <option label=Arts and Humanities value=Arts and Humanities>
@@ -126,17 +126,17 @@
 <option label=Guns value=Guns>
 <option label=Health Care value=Health Care>
 <option label=Housing value=Housing>
-<option label=Help with a Government Agency / Casework value=Casework>
+<option label=Help with a Government Agency  Casework value=Casework>
 <option label=Immigration value=Immigration>
 <option label=Indian Affairs value=Indian Affairs>
 <option label=Insurance Health value=Insurance Health>
-<option label=Interior/Forestry value=Interior>
+<option label=InteriorForestry value=Interior>
 <option label=Jobs and the Economy value=Jobs and the Economy>
 <option label=Judiciary value=Judiciary>
 <option label=Labor value=Labor>
 <option label=LIHEAP value=LIHEAP>
 <option label=LGBT Issues value=LGBT Issues>
-<option label=Medicare/Medicaid value=Medicare/Medicaid>
+<option label=MedicareMedicaid value=MedicareMedicaid>
 <option label=Military, Retiree Health Care value=Military Health Care>
 <option label=Other value=Other>
 <option label=Small Business value=Small Business>

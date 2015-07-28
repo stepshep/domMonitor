@@ -1,4 +1,4 @@
-<form action="http://hurt.house.gov/index.cfm/search" method="get">
+<form action="http:hurt.house.govindex.cfmsearch" method="get">
 <input type="text" class="text" name="q" value="Search" >
 <input type="submit" class="submit" value="Go" >
 <form method="post" class="uniForm">
@@ -86,6 +86,6 @@
 						checked="checked" 
 						value="1" >
 <input type="submit" value="Submit" >
-<form action="https://hurt.house.gov/index.cfm/newsletter-subscribe" method="GET">
+<form action="https:hurt.house.govindex.cfmnewsletter-subscribe" method="GET">
 <input type="text" name="EmailAddress" value="" >
 <input type="submit" value="Go" >

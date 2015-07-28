@@ -1,4 +1,4 @@
-<form action=/contacts class=formtastic contact id=new_contact method=post>
+<form action=contacts class=formtastic contact id=new_contact method=post>
 <fieldset>
 <legend>
 <fieldset class=inputs>

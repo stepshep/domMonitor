@@ -1,4 +1,4 @@
-<form id=contact name=contact action=http://mn.gov/gov-stat/cgi-bin/TFMail.cgi accept-charset=utf-8 method=post>
+<form id=contact name=contact action=http:mn.govgov-statcgi-binTFMail.cgi accept-charset=utf-8 method=post>
 <table>
 <tbody>
 <td width=120 class=tabletext>

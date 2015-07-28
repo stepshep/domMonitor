@@ -1,4 +1,4 @@
-<form class=webform-client-form webform-client-form-78 enctype=multipart/form-data action=/content/contact-joni method=post id=webform-client-form-78 accept-charset=UTF-8>
+<form class=webform-client-form webform-client-form-78 enctype=multipartform-data action=contentcontact-joni method=post id=webform-client-form-78 accept-charset=UTF-8>
 <span style=color: red; line-height: 1.6;>
 <span style=line-height: 1.6;>
 <fieldset class=webform-component-fieldset webform-component--constituent-information form-wrapper>
@@ -104,7 +104,7 @@
 <option value= selected=selected>
 <option value=AGR>
 <option value=ANI>
-<option value=BANKING/FINANCE>
+<option value=BANKINGFINANCE>
 <option value=BUD>
 <option value=BUS>
 <option value=Casework>
@@ -113,7 +113,7 @@
 <option value=ENE>
 <option value=ENV>
 <option value=GOV>
-<option value=GUNS/2ND AMENDMENT>
+<option value=GUNS2ND AMENDMENT>
 <option value=HEA>
 <option value=HOM>
 <option value=HOU>
@@ -121,7 +121,7 @@
 <option value=INT>
 <option value=JUD>
 <option value=LAB>
-<option value=LIFE/ABORTION>
+<option value=LIFEABORTION>
 <option value=MARRIAGE>
 <option value=MED>
 <option value=Newsletter>

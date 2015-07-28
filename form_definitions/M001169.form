@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
 <fieldset>
 <label for=topic>
 <abbr title=Please enter a message topic for your message>
@@ -14,9 +14,9 @@
 <option label=Budget value=Budget>
 <option label=Campaign Finance value=Campaign Finance>
 <option label=Casework value=Casework>
-<option label=Children/Family/Adoption value=Children/Family/Adoption>
+<option label=ChildrenFamilyAdoption value=ChildrenFamilyAdoption>
 <option label=Civil Rights value=Civil Rights>
-<option label=Commemorative/Congratulatory/Memorative value=Commemorative/Congratulatory/Memorative>
+<option label=CommemorativeCongratulatoryMemorative value=CommemorativeCongratulatoryMemorative>
 <option label=Commerce value=Commerce>
 <option label=Congressional Issues value=Congressional Issues>
 <option label=Crime value=Crime>
@@ -40,15 +40,15 @@
 <option label=Illegal Drugs value=Illegal Drugs>
 <option label=Immigration value=Immigration>
 <option label=Indian Affairs value=Indian Affairs>
-<option label=Intellectual Property/Patents value=Intellectual Property/Patents>
-<option label=Interior/Forestry value=Interior/Forestry>
+<option label=Intellectual PropertyPatents value=Intellectual PropertyPatents>
+<option label=InteriorForestry value=InteriorForestry>
 <option label=Internships & Senate Page Program value=Internships>
 <option label=Jobs value=Jobs>
 <option label=Judiciary value=Judiciary>
 <option label=Labor value=Labor>
 <option label=LIHEAP value=LIHEAP>
-<option label=Medicare/Medicaid value=Medicare/Medicaid>
-<option label=Mental/Behavioral Health value=Mental/Behavioral Health>
+<option label=MedicareMedicaid value=MedicareMedicaid>
+<option label=MentalBehavioral Health value=MentalBehavioral Health>
 <option label=Military value=Military>
 <option label=Nutrition value=Nutrition>
 <option label=Pensions value=Pensions>
@@ -65,7 +65,7 @@
 <option label=Trade value=Trade>
 <option label=Transportation value=Transportation>
 <option label=Veterans value=Veterans>
-<option label=Welfare/Food Stamps value=Welfare/Food Stamps>
+<option label=WelfareFood Stamps value=WelfareFood Stamps>
 <fieldset>
 <legend>
 <label class=control-label for=salutation>

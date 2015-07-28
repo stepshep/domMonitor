@@ -9,7 +9,7 @@
 <td class="bannerright" rowspan="2">
 <label for="txtSearch"   id="lbSearch" class="TransparentLable">
 <input name="ctl00$txtSearch" type="text" value="--Search--" id="txtSearch" accesskey="S" tabindex="5" class="searchTextBox" onkeypress="return event.keyCode != 13;" onfocus="if(this.value==&#39;--Search--&#39;){this.value=&#39;&#39;;this.style.color=&#39;#000&#39;;}else{this.select();}" >
-<input type="image" name="ctl00$btnSearch" id="btnSearch" title="Search" class="searchButton" src="images/page/searchButton.gif" alt="Click this option to view search based on your search criteria." >
+<input type="image" name="ctl00$btnSearch" id="btnSearch" title="Search" class="searchButton" src="imagespagesearchButton.gif" alt="Click this option to view search based on your search criteria." >
 <td class="wrapper_btnSearchAdvanced" rowspan="2" style="width:72px;">
 <button onclick="__doPostBack('ctl00$btnSearchAdvanced','')" id="btnSearchAdvanced" title="Search by Session and Document Type" class="btnSearchAdvanced">
 <span class="btnSearchAdvancedText">

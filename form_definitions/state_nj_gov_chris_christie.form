@@ -1,12 +1,12 @@
-<form action="http://search.state.nj.us/query.html" method="get" name="seek" id="seek">
+<form action="http:search.state.nj.usquery.html" method="get" name="seek" id="seek">
 <label for="qt" title="enter keyword here" accesskey="s">
 <select  name="qp" id="qp" class="selectbox">
 <option value="" selected="selected">
-<option value="+url:www.state.nj.us/governor/">
+<option value="+url:www.state.nj.usgovernor">
 <input name="qt" type="text" id="qt" size="8" class="searchbox" title="Enter the terms you wish to search for." >
-<input name="submit search" type="image" id="submit_search" src="/governor/assets/slices/btn_submit.jpg" alt="submit" border="0" class="submit_search" >
+<input name="submit search" type="image" id="submit_search" src="governorassetsslicesbtn_submit.jpg" alt="submit" border="0" class="submit_search" >
 <td bgcolor="#f7f7f7" valign="top">
-<form id="govmail" method="post" name="govmail" action="/cgi-bin/governor/govmail/govmail_1c_new.pl">
+<form id="govmail" method="post" name="govmail" action="cgi-bingovernorgovmailgovmail_1c_new.pl">
 <table border="0" cellspacing="0" cellpadding="0" width="100%" height="height:">
 <tbody>
 <td valign="top" width="284" align="left">
@@ -21,7 +21,7 @@
 <option value="Agriculture">
 <option value="Arts and History">
 <option value="Banking">
-<option value="Birth/Death Certificates">
+<option value="BirthDeath Certificates">
 <option value="Business">
 <option value="Children and Families">
 <option value="Child Support">
@@ -32,12 +32,12 @@
 <option value="Division on Elections">
 <option value="Education">
 <option value="Environment">
-<option value="Family Care/Medicaid">
+<option value="Family CareMedicaid">
 <option value="Health">
 <option value="Housing">
 <option value="Human Services">
 <option value="Insurance">
-<option value="Invitations/Scheduling">
+<option value="InvitationsScheduling">
 <option value="Labor">
 <option value="Law and Public Safety">
 <option value="Licensing Boards">
@@ -46,15 +46,15 @@
 <option value="Military and Veterans Affairs">
 <option value="Pensions and Retirements">
 <option value="Public Utilities">
-<option value="Requesting Proclamations / Special Letter">
-<option value="Superstorm Sandy/CDBG">
+<option value="Requesting Proclamations  Special Letter">
+<option value="Superstorm SandyCDBG">
 <option value="Taxation">
 <option value="Temporary Disability">
-<option value="Transportation / Motor Vehicles">
+<option value="Transportation  Motor Vehicles">
 <option value="Unclaimed Property">
 <option value="Unemployment">
 <td align="left">
 <input class="blue_btn_submit" value="Continue..." type="submit" name="Submit" >
-<form class="subscribe_form" name="survey" action="http://nj.gov/cgi-bin/governor/newsletter/subscribe.pl" method="post">
+<form class="subscribe_form" name="survey" action="http:nj.govcgi-bingovernornewslettersubscribe.pl" method="post">
 <input class="form_text" maxlength="100" size="25" name="email" >
 <input type="submit" value="" name="Submit" class="form_btn" alt="Submit form" >

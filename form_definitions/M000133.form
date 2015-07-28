@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
 <fieldset>
 <label class=control-label for=issue>
 <abbr title=Please enter a message topic for your message>
@@ -10,12 +10,12 @@
 <option label=Appropriations value=Appropriations>
 <option label=Banking value=Banking>
 <option label=Budget value=Budget>
-<option label=Children/Family/Adoption value=Children/Family/Adoption>
-<option label=Civil Rights/LGBT value=Civil Rights/LGBT>
-<option label=Civil Service/Postal value=Civil Service/Postal>
+<option label=ChildrenFamilyAdoption value=ChildrenFamilyAdoption>
+<option label=Civil RightsLGBT value=Civil RightsLGBT>
+<option label=Civil ServicePostal value=Civil ServicePostal>
 <option label=Clean Energy value=Clean Energy>
 <option label=Climate Change value=Climate Change>
-<option label=Commemorative/Congratulatory value=Commemorative/Congratulatory>
+<option label=CommemorativeCongratulatory value=CommemorativeCongratulatory>
 <option label=Commerce value=Commerce>
 <option label=Defense value=Defense>
 <option label=Drugs value=Drugs>
@@ -23,7 +23,7 @@
 <option label=Education K to 12 value=Education K to 12>
 <option label=Elections value=Elections>
 <option label=Energy value=Energy>
-<option label=Environment/Public Works value=Environment/Public Works>
+<option label=EnvironmentPublic Works value=EnvironmentPublic Works>
 <option label=Fisheries value=Fisheries>
 <option label=Flag Requests value=Flag Requests>
 <option label=Foreign Relations value=Foreign Relations>
@@ -38,8 +38,8 @@
 <option label=Judiciary value=Judiciary>
 <option label=Labor value=Labor>
 <option label=LIHEAP value=LIHEAP>
-<option label=Medicare/Medicaid value=Medicare/Medicaid>
-<option label=Middle East/North Africa value=Middle East/North Africa>
+<option label=MedicareMedicaid value=MedicareMedicaid>
+<option label=Middle EastNorth Africa value=Middle EastNorth Africa>
 <option label=Natural Resources value=Natural Resources>
 <option label=Nuclear Proliferation value=Nuclear Proliferation>
 <option label=Other value=Other>
@@ -47,7 +47,7 @@
 <option label=Pensions value=Pensions>
 <option label=Privacy value=Privacy>
 <option label=Public Lands and National Parks value=Public Lands and National Parks>
-<option label=Science/Space value=Science/Space>
+<option label=ScienceSpace value=ScienceSpace>
 <option label=Seniors value=Seniors>
 <option label=Small Business value=Small Business>
 <option label=Social Security value=Social Security>
@@ -58,7 +58,7 @@
 <option label=Trade value=Trade>
 <option label=Transportation value=Transportation>
 <option label=Veterans value=Veterans>
-<option label=Welfare/SNAP value=Welfare/SNAP>
+<option label=WelfareSNAP value=WelfareSNAP>
 <fieldset>
 <legend>
 <label class=control-label for=salutation>

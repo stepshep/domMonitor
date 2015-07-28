@@ -1,4 +1,4 @@
-<FORM METHOD=POST ACTION=/htbin/formproc/gabbard/webforms/email-me.txt&form=/gabbard/webforms/thank-you.shtml>
+<FORM METHOD=POST ACTION=htbinformprocgabbardwebformsemail-me.txt&form=gabbardwebformsthank-you.shtml>
 <table>
 <tbody>
 <td colspan=2>

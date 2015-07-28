@@ -1,9 +1,9 @@
 <form name="aspnetForm" method="post" action="ShareOpinion.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <table cellpadding="0" cellspacing="0" border="0" width="1005px">
 <map name="Map" id="Map">
-<area href="http://www.michigan.gov/snyder" alt='Office of the Governor of Michigan, Rick Snyder'
+<area href="http:www.michigan.govsnyder" alt='Office of the Governor of Michigan, Rick Snyder'
                             title='Office of the Governor of Michigan, Rick Snyder' shape="rect" coords="2,1,800,199" >
-<area href="http://www.michigan.gov" alt='Michigan.gov, Official Web Site for the State of Michigan'
+<area href="http:www.michigan.gov" alt='Michigan.gov, Official Web Site for the State of Michigan'
                             title='Michigan.gov, Official Web Site for the State of Michigan' shape="rect"
                             coords="799,1,1012,203" >
 <tr style="background-color: #000066;">

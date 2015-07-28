@@ -1,4 +1,4 @@
-<form id=3572B654-E248-A5D9-D70B-8968CF7308EC action=http://www.paul.senate.gov/connect/email-rand method=post>
+<form id=3572B654-E248-A5D9-D70B-8968CF7308EC action=http:www.paul.senate.govconnectemail-rand method=post>
 <fieldset>
 <legend>
 <label class=control-label for=input-35B67D45-0EE9-695F-CF75-CB73E9531F2A>
@@ -251,17 +251,17 @@
 <span class=required>
 <select id=input-F86363CE-4040-F985-52CD-25BC1B061358 name=input_F86363CE-4040-F985-52CD-25BC1B061358 class=validate[required]>
 <option value=>
-<option value=Abortion / Sanctity of Life>
+<option value=Abortion  Sanctity of Life>
 <option value=Agriculture>
 <option value=Arts>
-<option value=Banking / Finance>
+<option value=Banking  Finance>
 <option value=Border Security>
 <option value=Budget>
 <option value=Census>
-<option value=Congressional / Judicial / Investigations>
-<option value=Crime / Law Enforcement>
-<option value=Defense / National Security>
-<option value=Economic Development / Trade / Commerce>
+<option value=Congressional  Judicial  Investigations>
+<option value=Crime  Law Enforcement>
+<option value=Defense  National Security>
+<option value=Economic Development  Trade  Commerce>
 <option value=Education>
 <option value=Energy>
 <option value=Environment>
@@ -273,11 +273,11 @@
 <option value=Housing>
 <option value=Immigration>
 <option value=Internet>
-<option value=Iraq / Afghanistan>
-<option value=Medicare / Medicaid>
+<option value=Iraq  Afghanistan>
+<option value=Medicare  Medicaid>
 <option value=Labor Issues>
 <option value=Overcriminalization of Drugs>
-<option value=Science / Technology>
+<option value=Science  Technology>
 <option value=Postal>
 <option value=Retirement>
 <option value=Small Business>

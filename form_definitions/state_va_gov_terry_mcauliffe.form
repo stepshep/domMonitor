@@ -1,4 +1,4 @@
-<form action=/communityrelations/form/email method=post>
+<form action=communityrelationsformemail method=post>
 <fieldset>
 <legend>
 <label for=RequestedByTitle>

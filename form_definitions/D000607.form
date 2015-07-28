@@ -1,4 +1,4 @@
-<form id=contactForm method=post action=/contact/email-joe enctype=application/x-www-form-urlencoded novalidate=novalidate>
+<form id=contactForm method=post action=contactemail-joe enctype=applicationx-www-form-urlencoded novalidate=novalidate>
 <fieldset>
 <label for=subject>
 <abbr title=Please enter a message topic for your message>
@@ -11,13 +11,13 @@
 <option label=Animal Rights value=ANIMALS>
 <option label=Appropriations value=APPROPS>
 <option label=Banking value=FS>
-<option label=Budget/Economy value=BUD>
+<option label=BudgetEconomy value=BUD>
 <option label=Campaign Finance value=ELECTIONREFORM>
 <option label=Child Abuse value=CHILDREN>
-<option label=Children/Family/Adoption value=CHILDREN>
-<option label=Civil Rights/Humanities value=SOC>
-<option label=Civil Service/Postal value=POST>
-<option label=Congratulatory/Commemorative Letter Request value=Congrats>
+<option label=ChildrenFamilyAdoption value=CHILDREN>
+<option label=Civil RightsHumanities value=SOC>
+<option label=Civil ServicePostal value=POST>
+<option label=CongratulatoryCommemorative Letter Request value=Congrats>
 <option label=Commerce value=ECON>
 <option label=Communications value=TEL>
 <option label=Congressional Issues value=CONGRESS.EXECUTIVE>
@@ -29,7 +29,7 @@
 <option label=Education K through 12 value=ED>
 <option label=Elections value=ELECTIONREFORM>
 <option label=Energy value=EN>
-<option label=Environment/Public Works value=ENV>
+<option label=EnvironmentPublic Works value=ENV>
 <option label=Flag Requests value=Flag>
 <option label=Foreign Affairs value=IR>
 <option label=Gun Control value=JUD.GUN>
@@ -40,20 +40,20 @@
 <option label=Immigration value=IMM>
 <option label=Indian Affairs value=NATIVEAMERICAN>
 <option label=Insurance value=HE>
-<option label=Interior/Forestry value=NATRES>
+<option label=InteriorForestry value=NATRES>
 <option label=Internships value=Internships>
 <option label=Iran value=IR>
 <option label=Jobs value=JOBS>
 <option label=Judiciary value=JUD>
 <option label=Labor value=LABOR>
-<option label=Medicare/Medicaid value=HE.MEDICARE>
+<option label=MedicareMedicaid value=HE.MEDICARE>
 <option label=Military value=DEF>
 <option label=NASA value=SCI>
-<option label=Nutrition/Hunger value=AGR>
+<option label=NutritionHunger value=AGR>
 <option label=Patents value=ECON>
 <option label=Pensions value=PENSION>
 <option label=Small Business value=SMALLBUS>
-<option label=Social Security/Aging value=SS>
+<option label=Social SecurityAging value=SS>
 <option label=Taxes value=TAX>
 <option label=Trade value=Trade>
 <option label=Transportation value=TRA>

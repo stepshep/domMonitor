@@ -1,4 +1,4 @@
-<form method=post  id=userForm enctype=multipart/form-data action=http://www.senatorlightford.com/index.php/contact-us>
+<form method=post  id=userForm enctype=multipartform-data action=http:www.senatorlightford.comindex.phpcontact-us>
 <table class=formTableLayout border=0>
 <tr class=rsform-block rsform-block-prefix>
 <input type=text value= size=10  name=form[prefix] id=prefix  class=rsform-input-box>

@@ -116,7 +116,7 @@
 <label for=confirm_email>
 <input type=text id=confirm_email name=confirm_email size=50 maxlength=50 value= tabindex=12>
 <td colspan=2 >
-<style type=text/css>
+<style type=textcss>
 <em>
 <em>
 <em>

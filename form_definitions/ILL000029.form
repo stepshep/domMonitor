@@ -1,4 +1,4 @@
-<form method=post action=/Contact/ContactForm.aspx id=Form enctype=multipart/form-data>
+<form method=post action=ContactContactForm.aspx id=Form enctype=multipartform-data>
 <span class=sep>
 <ul class=social-links>
 <span id=dnn_Search1_ClassicSearch>
@@ -120,4 +120,4 @@
 <input type=text value=Last Name class=wsTextBox name=LASTNAME onclick=this.value=; >
 <input id=EMAIL type=text class=wsTextBox name=EMAIL onclick=this.value=; value=someone@somedomain.com >
 <input type=submit value=Submit name=submitprofile class=button tiny radius >
-<form target=_blank action=http://district37lahood.ilsenategop.net/mail/util.cfm?mailaction=profile method=post>
+<form target=_blank action=http:district37lahood.ilsenategop.netmailutil.cfm?mailaction=profile method=post>

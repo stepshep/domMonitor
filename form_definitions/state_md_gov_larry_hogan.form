@@ -1,4 +1,4 @@
-<form method="GET" action="http://www.maryland.gov/pages/search.aspx">
+<form method="GET" action="http:www.maryland.govpagessearch.aspx">
 <input type="text" id="searchInputBox" name="q" class="mdgov_searchInputBox"
                                                                value="Search" onblur="if(this.value=='')this.value='Search';"
                                                                onfocus="if(this.value=='Search')this.value='';" >
@@ -43,7 +43,7 @@
        tabindex="7" maxlength="75"
            value=""  >
 <label for="address3">
-<input id="suite/pobox" 
+<input id="suitepobox" 
            name="suite" 
            class="field text full addr" 
            type="text"

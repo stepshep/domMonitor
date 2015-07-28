@@ -1,4 +1,4 @@
-<form action=http://www.utah.gov/formprocessor/index.uii method=post name=contactForm id=contactForm>
+<form action=http:www.utah.govformprocessorindex.uii method=post name=contactForm id=contactForm>
 <label for=senator>
 <select name=senator id=senator>
 <option value= selected>

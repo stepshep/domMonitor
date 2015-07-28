@@ -1,4 +1,4 @@
-<form action=/email-representative-matsui/ id=custom_form24 name=custom_form class=custom_form method=post>
+<form action=email-representative-matsui id=custom_form24 name=custom_form class=custom_form method=post>
 <p class=req>
 <fieldset>
 <legend>
@@ -116,8 +116,8 @@
 <option value=CONG>
 <option value=CONSUMER>
 <option value=CRI>
-<option value=DEF/MIL>
-<option value=ECON/EMP>
+<option value=DEFMIL>
+<option value=ECONEMP>
 <option value=ED>
 <option value=EN>
 <option value=ENV>
@@ -164,5 +164,5 @@
 <fieldset>
 <legend>
 <p style=font-weight:bold>
-<input type=checkbox name=newsletter id=newsletter value=&lt;AFFL&gt;Subscribe&lt;/AFFL&gt; checked=checked class=filled>
+<input type=checkbox name=newsletter id=newsletter value=&lt;AFFL&gt;Subscribe&lt;AFFL&gt; checked=checked class=filled>
 <input type=button size=20 value=Send Email id=submitButton class=form_submit_button filled>

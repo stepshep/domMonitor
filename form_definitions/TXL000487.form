@@ -1,4 +1,4 @@
-<form style=line-height: 150% method=post action=http://www.senate.state.tx.us/bin/distemail-csrf.php class=memForm>
+<form style=line-height: 150% method=post action=http:www.senate.state.tx.usbindistemail-csrf.php class=memForm>
 <label for=sender>
 <span class=req>
 <input type=text name=sender id=sender size=40 maxlength=100 >

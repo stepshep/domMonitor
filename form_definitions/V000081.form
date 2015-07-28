@@ -1,5 +1,5 @@
 <FORM METHOD=POST 
-ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/velazquez/IMA/issue_subscribe_verify.shtml&nobase">
+ACTION="htbinformproc_za.pl?velazquezIMAissue_subscribe_parm.txt&form=velazquezIMAissue_subscribe_verify.shtml&nobase">
 <table width="100%" cellpadding="2" cellspacing="0">
 <td valign="bottom" align="right">
 <b>
@@ -60,7 +60,7 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <option value="BANKING ">
 <option value="BUDGET">
 <option value="CHC">
-<option value="CNGRAT/THANK/CONDOL">
+<option value="CNGRATTHANKCONDOL">
 <option value="DEFENSE">
 <option value="ECON_DEV">
 <option value="ED">
@@ -72,15 +72,15 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <option value="GAY">
 <option value="GRANTS">
 <option value="GRANTS">
-<option value="HEALTH-MCARE/CAIDE">
+<option value="HEALTH-MCARECAIDE">
 <option value="HEALTH-PUBLIC">
 <option value="HOMELAND">
 <option value="HOUSE">
 <option value="IMMIGRATION">
 <option value="INIT">
 <option value="IR">
-<option value="JUD-CIVIL/CONST">
-<option value="JUD-CRIME/GUNS">
+<option value="JUD-CIVILCONST">
+<option value="JUD-CRIMEGUNS">
 <option value="KATRINA">
 <option value="LABOR">
 <option value="LOCAL NY 12">
@@ -118,9 +118,9 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <td align="center">
 <input type="radio" name="affl1" value="" checked="checked" >
 <td align="center">
-<input type="radio" name="affl1" value="&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt;" >
+<input type="radio" name="affl1" value="&lt;AFFL&gt;EMAIL.OPTIN&lt;AFFL&gt;" >
 <td align="center">
-<input type="radio" name="affl1" value="&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt;" >
+<input type="radio" name="affl1" value="&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;AFFL_DEL&gt;" >
 <td colspan="3" align="center">
 <input name="submit" type="submit" value="Send Email" >
 <input name="reset" type="reset" value="Reset" >
@@ -133,6 +133,6 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <small>
 <u>
 <small>
-<form action="http://search.house.gov/htbin/search" method="post" target="_blank" >
+<form action="http:search.house.govhtbinsearch" method="post" target="_blank" >
 <input type="text"  name="q"  onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" title="Search" size="15" maxlength="255" class="searchfield" style="margin-top:3px; height:18px;"  >
 <input name="submit" type="submit" value="Search">

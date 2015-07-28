@@ -1,6 +1,6 @@
-<form id="search_form" name="googlesearch" method="get" action="/">
+<form id="search_form" name="googlesearch" method="get" action="">
 <input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" >
-<input id="go" type="image" src="/images/clear.gif" width="62" height="28" alt="" title="Search" >
+<input id="go" type="image" src="imagesclear.gif" width="62" height="28" alt="" title="Search" >
 <form name="thisForm" id="thisForm" method="post" class="form_contact" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <select name="Prefix">
@@ -127,7 +127,7 @@
 <OPTION VALUE="Budget">
 <OPTION VALUE="Child Welfare">
 <OPTION VALUE="Civil Rights">
-<OPTION VALUE="Congressional Rules/Ethics">
+<OPTION VALUE="Congressional RulesEthics">
 <OPTION VALUE="Crime">
 <OPTION VALUE="Eagle Scout Letter">
 <OPTION VALUE="Economy">
@@ -140,12 +140,12 @@
 <OPTION VALUE="Health">
 <OPTION VALUE="Immigration">
 <OPTION VALUE="Indian Affairs">
-<OPTION VALUE="Judicial Nominations/Executive Nominations">
+<OPTION VALUE="Judicial NominationsExecutive Nominations">
 <OPTION VALUE="Labor">
 <OPTION VALUE="National and Community Service">
 <OPTION VALUE="National Security">
 <OPTION VALUE="Request Copy of Bill">
-<OPTION VALUE="Space/NASA">
+<OPTION VALUE="SpaceNASA">
 <OPTION VALUE="Telecommunications">
 <OPTION VALUE="Transportation">
 <OPTION VALUE="Veterans">
@@ -171,7 +171,7 @@
 			WRAP="virtual"
 			CLASS="textarea">
 <hr style="margin-top: 20px" >
-<input class="normal-input" style="float: left; vertical-align: top; margin-left: 240px; margin-top: 0;" type="image" src="/images/btn-submit.gif" title="Submit" alt="Submit" >
+<input class="normal-input" style="float: left; vertical-align: top; margin-left: 240px; margin-top: 0;" type="image" src="imagesbtn-submit.gif" title="Submit" alt="Submit" >
 <em>
 <em>
 <script>

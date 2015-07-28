@@ -1,4 +1,4 @@
-<form action=/cgi-bin/massgovmail.cgi enctype=application/x-www-form-urlencoded method=post>
+<form action=cgi-binmassgovmail.cgi enctype=applicationx-www-form-urlencoded method=post>
 <fieldset>
 <legend>
 <table border=0 width=100%>

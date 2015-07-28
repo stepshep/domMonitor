@@ -1,4 +1,4 @@
-<form action="/assembly/98/neylon/contact/" enctype="multipart/form-data" method="post">
+<form action="assembly98neyloncontact" enctype="multipartform-data" method="post">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="7c287d3d-1690-46b5-9b7f-23087c51e661" class="fieldLabel">
 <span class="help-block">

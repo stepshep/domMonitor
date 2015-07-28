@@ -54,7 +54,7 @@
 <option value=First Lieutenant>
 <option value=First Sergeant>
 <option value=Fleet Admiral>
-<option value=Fleet/Command Master Chief Petty Officer>
+<option value=FleetCommand Master Chief Petty Officer>
 <option value=General>
 <option value=General of the Air Force>
 <option value=General of the Army>
@@ -205,7 +205,7 @@
 <option value=HEALTH>
 <option value=IMMIGRATION>
 <option value=INTELLIGENCE>
-<option value=INTERNET/RADIO/TV>
+<option value=INTERNETRADIOTV>
 <option value=INTERNSHIP>
 <option value=JUDICIAL>
 <option value=LABOR>

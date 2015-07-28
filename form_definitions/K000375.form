@@ -1,4 +1,4 @@
-<form method=post action=/htbin/formproc/keating/webforms/email-me.txt&amp;display=/webforms/thank_you.shtml>
+<form method=post action=htbinformprockeatingwebformsemail-me.txt&amp;display=webformsthank_you.shtml>
 <fieldset>
 <legend>
 <label for=prefix>

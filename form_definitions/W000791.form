@@ -1,5 +1,5 @@
-<form action=/email-greg/ id=custom_form12 name=custom_form class=custom_form method=post>
-<style type=text/css media=all title=main css>
+<form action=email-greg id=custom_form12 name=custom_form class=custom_form method=post>
+<style type=textcss media=all title=main css>
 <fieldset>
 <legend accesskey=c>
 <span style=color:red>

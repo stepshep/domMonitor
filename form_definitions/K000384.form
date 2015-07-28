@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
 <fieldset>
 <label for=topic>
 <abbr title=Please enter a message topic for your message>
@@ -39,7 +39,7 @@
 <option label=Judicial Issues & Nominations value=Judicial Issues & Nominations>
 <option label=Medicare value=Medicare>
 <option label=Mental Health value=Mental Health>
-<option label=Military/Armed Services/Defense value=Military/Armed Services/Defense>
+<option label=MilitaryArmed ServicesDefense value=MilitaryArmed ServicesDefense>
 <option label=Postal Issues value=Postal Issues>
 <option label=Public Welfare value=Public Welfare>
 <option label=Scheduling Request value=Scheduling Request>

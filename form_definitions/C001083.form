@@ -1,4 +1,4 @@
-<form method=post action=/htbin/formproc/carney/webforms/email-me.txt&amp;display=/webforms/thank-you.shtml>
+<form method=post action=htbinformproccarneywebformsemail-me.txt&amp;display=webformsthank-you.shtml>
 <fieldset>
 <legend>
 <span class=style2>

@@ -213,7 +213,7 @@
 <option value="AGING  ">
 <option value="AGRICULTURE  ">
 <option value="ANIMAL CRUELTY">
-<option value="CHILD ABUSE/CINC">
+<option value="CHILD ABUSECINC">
 <option value="CHILD CUSTODY">
 <option value="CHILD SUPPORT">
 <option value="COMMERCE  ">
@@ -249,7 +249,7 @@
 <option value="NATIONAL GUARD">
 <option value="NURSING HOME">
 <option value="OTHER  ">
-<option value="PARDON/CLEMENCY  ">
+<option value="PARDONCLEMENCY  ">
 <option value="PARKS  ">
 <option value="RACING &amp; GAMING">
 <option value="RURAL ISSUES">
