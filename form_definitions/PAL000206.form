@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -12,10 +12,10 @@
 <span style=font-size: 13px; font-family: arial; color: #333333;>
 <em>
 <span style=font-size: 13px; font-family: arial; color: #333333;>
-<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;hl=en&amp;q=Mt+Pleasant+Rd,+Mt+Pleasant,+Pennsylvania+15666&amp;sll=40.79914,-79.312554&amp;sspn=0.011468,0.019226&amp;g=Mt+Pleasant+Rd,+Mt+Pleasant,+Pennsylvania+15666&amp;ie=UTF8&amp;cd=2&amp;geocode=FRBHZAIdFStC-w&amp;z=13&amp;iwloc=addr&amp;ll=40.142271,-79.541187&amp;output=embed&amp;s=AARTsJoEcWXjOc7zo-hIO7pLbE2ebFyCuQ frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;q=Mt+Pleasant+Rd,+Mt+Pleasant,+Pennsylvania+15666&amp;sll=40.79914,-79.312554&amp;sspn=0.011468,0.019226&amp;g=Mt+Pleasant+Rd,+Mt+Pleasant,+Pennsylvania+15666&amp;ie=UTF8&amp;cd=2&amp;geocode=FRBHZAIdFStC-w&amp;z=13&amp;iwloc=addr&amp;ll=40.142271,-79.541187&amp;output=embed&amp;s=AARTsJoEcWXjOc7zo-hIO7pLbE2ebFyCuQ frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 13px; font-family: arial; color: #333333;>
-<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;hl=en&amp;geocode=&amp;q=120+East+Main+Street,+Ligonier,+PA+15658&amp;sll=40.271963,-79.492146&amp;sspn=0.011559,0.019226&amp;g=120+East+Main+Street,+Ligonier,+PA+15658&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.251363,-79.233227&amp;output=embed&amp;s=AARTsJrs-TDuH7rM8tsXgXopNikbImBknw frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=120+East+Main+Street,+Ligonier,+PA+15658&amp;sll=40.271963,-79.492146&amp;sspn=0.011559,0.019226&amp;g=120+East+Main+Street,+Ligonier,+PA+15658&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=40.251363,-79.233227&amp;output=embed&amp;s=AARTsJrs-TDuH7rM8tsXgXopNikbImBknw frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 16px;>
 <em>
@@ -115,4 +115,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

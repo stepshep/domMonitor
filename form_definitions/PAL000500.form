@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -6,8 +6,8 @@
 <li class=lastLi>
 <span style=font-size: 16px;>
 <span style=font-size: 16px;>
-<iframe width=300 height=200 id=map src=http:www.bing.commapsembed?v=2&amp;cp=40.987209~-75.189779&amp;lvl=16&amp;sty=r&amp;form=LMLTEW&amp;emid=7c0acc08-b36d-ef91-1d94-8cc3151741c4 frameborder=0 scrolling=no>
-<iframe width=300 height=200 id=map src=http:www.bing.commapsembed?v=2&amp;cp=41.170920~-75.399273&amp;lvl=15&amp;sty=r&amp;q=5580%20Municipal%20Dr%2C%20Tobyhanna%2C%20PA%2018466&amp;form=LMLTEW&amp;emid=69acf8ba-be73-894c-4d46-32b9e5abc79a frameborder=0 scrolling=no>
+<iframe width=300 height=200 id=map src=http://www.bing.com/maps/embed/?v=2&amp;cp=40.987209~-75.189779&amp;lvl=16&amp;sty=r&amp;form=LMLTEW&amp;emid=7c0acc08-b36d-ef91-1d94-8cc3151741c4 frameborder=0 scrolling=no>
+<iframe width=300 height=200 id=map src=http://www.bing.com/maps/embed/?v=2&amp;cp=41.170920~-75.399273&amp;lvl=15&amp;sty=r&amp;q=5580%20Municipal%20Dr%2C%20Tobyhanna%2C%20PA%2018466&amp;form=LMLTEW&amp;emid=69acf8ba-be73-894c-4d46-32b9e5abc79a frameborder=0 scrolling=no>
 <span id=fileSavedIndication style=color:Red;>
 <span class=required>
 <input name=ctl00$cphContent$txtFirstName type=text maxlength=100 id=ctl00_cphContent_txtFirstName DataTargets=Text:[[FirstName]] >
@@ -98,4 +98,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

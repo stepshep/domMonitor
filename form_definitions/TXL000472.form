@@ -1,4 +1,4 @@
-<form name=emailForm method=post action=membersmember-pageemailindex.php?district=137&session=84>
+<form name=emailForm method=post action=/members/member-page/email/index.php?district=137&session=84>
 <label for=name_first>
 <em>
 <select name=prefix value= class=rounded>

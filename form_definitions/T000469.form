@@ -1,5 +1,5 @@
-<form action=email-form1 id=custom_form5 name=custom_form class=custom_form method=post>
-<style type=textcss media=all title=main css>
+<form action=/email-form1/ id=custom_form5 name=custom_form class=custom_form method=post>
+<style type=text/css media=all title=main css>
 <p class=req>
 <h2>
 <label>

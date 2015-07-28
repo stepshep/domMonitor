@@ -1,12 +1,12 @@
-<form method="post" action="HomeContactshareopinion" id="Form" enctype="multipartform-data">
-<\script>
+<form method="post" action="/Home/Contact/shareopinion" id="Form" enctype="multipart/form-data">
+<\/script>
 <script>
 <meta name="viewport" content="width=device-width">
-<link href="template.mt.govresourcestemplatetemplate.css" rel="stylesheet" type="textcss">
-<link href="template.mt.govresourcesmodulesfoundationfoundation.css" rel="stylesheet" type="textcss">
-<link href="template.mt.govresourcesmodulespagemenupagemenu.css" rel="stylesheet" type="textcss">
-<link href="template.mt.govresourcesmodulespagecontentpagecontent.css" rel="stylesheet" type="textcss">
-<link href="Portals_defaultCodeGovernorall.css" rel="stylesheet" type="textcss">
+<link href="//template.mt.gov/resources/template/template.css" rel="stylesheet" type="text/css">
+<link href="//template.mt.gov/resources/modules/foundation/foundation.css" rel="stylesheet" type="text/css">
+<link href="//template.mt.gov/resources/modules/pagemenu/pagemenu.css" rel="stylesheet" type="text/css">
+<link href="//template.mt.gov/resources/modules/pagecontent/pagecontent.css" rel="stylesheet" type="text/css">
+<link href="/Portals/_default/Code/Governor/all.css" rel="stylesheet" type="text/css">
 <h2>
 <span id="dnn_ctr7757_dnnTITLE_titleLabel" class="TitleH2">
 <!-- Start_Module_7757 -->
@@ -130,7 +130,7 @@
 <!-- end ngRepeat: o in form.fields.RespondtoOpinion.options -->
 <button type="button" data-loading-text="Please wait..." class="
                     btn submit form-button loading btn-primary
-                     btn-normal btn-info  " id="dnn7787SendNow" style="" data-validation="on" data-submiturl="DesktopModulesAvatarSoftActionFormSubmit.ashx?TabId=3646&amp;language=en-US&amp;alias=governor.mt.gov&amp;mid=7787&amp;event=click&amp;b=225">
+                     btn-normal btn-info  " id="dnn7787SendNow" style="" data-validation="on" data-submiturl="/DesktopModules/AvatarSoft/ActionForm/Submit.ashx?TabId=3646&amp;language=en-US&amp;alias=governor.mt.gov&amp;mid=7787&amp;event=click&amp;b=225">
 <!-- End_Module_7787 -->
 <h2>
 <h2>

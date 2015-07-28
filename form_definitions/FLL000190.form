@@ -1,4 +1,4 @@
-<form action=_Email class=form-horizontal data-ajax=true data-ajax-method=Post data-ajax-mode=replace data-ajax-update=#emailform-modal id=update-emailform method=post novalidate=novalidate>
+<form action=/_Email class=form-horizontal data-ajax=true data-ajax-method=Post data-ajax-mode=replace data-ajax-update=#emailform-modal id=update-emailform method=post novalidate=novalidate>
 <h1 id=top>
 <span class=required>
 <label for=Topic class=control-label>

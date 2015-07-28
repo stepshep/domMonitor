@@ -1,4 +1,4 @@
-<form enctype=applicationx-www-form-urlencoded action=contact#usermessagea method=post class=cform contact-us  id=cformsform>
+<form enctype=application/x-www-form-urlencoded action=/contact#usermessagea method=post class=cform contact-us  id=cformsform>
 <ol class=cf-ol>
 <li id=li--1 class=>
 <label id=label--1 for=cf_field_1>

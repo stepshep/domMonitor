@@ -1,13 +1,13 @@
-<form action="index.phpcontact-me" method="post" class="form-inline">
+<form action="/index.php/contact-me" method="post" class="form-inline">
 <label for="mod-search-searchword" class="element-invisible">
 <input name="searchword" id="mod-search-searchword" maxlength="200" class="inputbox search-query" type="search" size="20" placeholder="Search ...">
-<form method="post" action="https:forms.house.govhtbinformprocestywebformsnewsletter-subscribe.txt&amp;display=webformsnewsletter-subscribe-thank-you.shtml">
+<form method="post" action="https://forms.house.gov/htbin/formproc/esty/webforms/newsletter-subscribe.txt&amp;display=/webforms/newsletter-subscribe-thank-you.shtml">
 <input id="first" size="14" maxlength="50" name="first" placeholder="First Name" type="text">
 <input id="last" size="14" maxlength="50" name="last" placeholder="Last Name" type="text">
 <input class="validate[required,custom[email]] is-required" id="required-valid-email" size="17" maxlength="50" name="required-valid-email" placeholder="Email" type="text">
 <input class="validate[required] is-required" id="required-zip5" size="2" maxlength="5" name="required-zip5" placeholder="Zip" type="text">
 <input id="submit" value="SUBMIT" type="submit">
-<form method="post" action="https:forms.house.govhtbinformprocestywebformsnewsletter-subscribe.txt&amp;display=webformsnewsletter-subscribe-thank-you.shtml">
+<form method="post" action="https://forms.house.gov/htbin/formproc/esty/webforms/newsletter-subscribe.txt&amp;display=/webforms/newsletter-subscribe-thank-you.shtml">
 <input id="first" alt="First Name" name="first" size="14" maxlength="50" value="First Name" onfocus="if(this.value=='First Name')this.value=''" onblur="if(this.value=='')this.value='First Name'" type="text" >
 <input id="last" alt="Last Name" name="last" size="14" maxlength="50" value="Last Name" onfocus="if(this.value=='Last Name')this.value=''" onblur="if(this.value=='')this.value='Last Name'" type="text" >
 <input name="required-valid-email" alt="Email Address" name="Email Address" size="17" maxlength="50" value="Email Address" onfocus="if(this.value=='Email Address')this.value=''" onblur="if(this.value=='')this.value='Email Address'" type="text" >

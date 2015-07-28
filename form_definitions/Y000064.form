@@ -1,5 +1,5 @@
-<form action=give-me-your-opinion id=custom_form21 name=custom_form class=custom_form method=post>
-<style media=all title=main css type=textcss>
+<form action=/give-me-your-opinion/ id=custom_form21 name=custom_form class=custom_form method=post>
+<style media=all title=main css type=text/css>
 <table width=600px>
 <tbody>
 <td colspan=5 style=vertical-align:top>

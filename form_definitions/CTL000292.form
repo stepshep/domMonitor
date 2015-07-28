@@ -1,4 +1,4 @@
-<form name="frmCGAQuick" id="frmCGAQuick" action="http:www.cga.ct.govaspcgabillstatuscgabillstatus.asp">
+<form name="frmCGAQuick" id="frmCGAQuick" action="http://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp">
 <fieldset>
 <legend>
 <p class="centerthis">
@@ -39,7 +39,7 @@
 <OPTION value=1992>
 <OPTION value=1991>
 <p class="centerthis">
-<input type="image" src="..imagesmenuGO_circle_green.png" name="SUBMIT1" value="New" onclick="document.frmCGAQuick.target='_blank'" >
+<input type="image" src="../images/menu/GO_circle_green.png" name="SUBMIT1" value="New" onclick="document.frmCGAQuick.target='_blank'" >
 <p class="centerthis">
 <form class="form-search">
 <input type="text" class="input-medium search-query">
@@ -126,7 +126,7 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <input name="visitormail" type="text" required="required"  class="input-block-level" id="visitormail" placeholder=" Email" value="" >
 <input name="zip" type="text" required="required"  class="input-block-level" id="zip" placeholder=" Zip Code" value="" >
 <input type="submit" value="Sign Up" name="submit" id="submitButton" class="btn btn-info pull-right" >
-<form name="frmCGAQuick" id="frmCGAQuick" action="http:www.cga.ct.govaspcgabillstatuscgabillstatus.asp">
+<form name="frmCGAQuick" id="frmCGAQuick" action="http://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp">
 <fieldset>
 <legend>
 <p class="centerthis">
@@ -167,5 +167,5 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <OPTION value=1992>
 <OPTION value=1991>
 <p class="centerthis">
-<input type="image" src="..imagesmenuGO_circle_green.png" name="SUBMIT1" value="New" onclick="document.frmCGAQuick.target='_blank'" >
+<input type="image" src="../images/menu/GO_circle_green.png" name="SUBMIT1" value="New" onclick="document.frmCGAQuick.target='_blank'" >
 <p class="centerthis">

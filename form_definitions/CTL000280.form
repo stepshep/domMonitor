@@ -1,4 +1,4 @@
-<form name= action=contact-doug#wpcf7-f51135-p51122-o1 method=post class=wpcf7-form enctype=multipartform-data novalidate=novalidate>
+<form name= action=/contact-doug/#wpcf7-f51135-p51122-o1 method=post class=wpcf7-form enctype=multipart/form-data novalidate=novalidate>
 <span class=wpcf7-form-control-wrap first-name>
 <input type=text name=first-name value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
 <span class=wpcf7-form-control-wrap last-name>

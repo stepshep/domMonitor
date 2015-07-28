@@ -1,4 +1,4 @@
-<form id=contactForm class=validate wsbform action=http:jolly.house.govhtbinformproc.pl?jollyemail-me.txt&amp;display=form_thank_you.html method=post name=contactForm>
+<form id=contactForm class=validate wsbform action=http://jolly.house.gov/htbin/formproc.pl?/jolly/email-me.txt&amp;display=form_thank_you.html method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=prefix>

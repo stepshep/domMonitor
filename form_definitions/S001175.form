@@ -1,5 +1,5 @@
-<FORM METHOD=POST ACTION=htbinformprocspeierwebformsemail-jackie.txt&display=thank-you.shtml>
-<style type=textcss media=all title=main css>
+<FORM METHOD=POST ACTION=/htbin/formproc/speier/webforms/email-jackie.txt&display=thank-you.shtml>
+<style type=text/css media=all title=main css>
 <u>
 <u>
 <u>
@@ -83,7 +83,7 @@
 <p align=center>
 <p align=center>
 <input type=radio name=affl1 value= checked=checked >
-<input type=radio name=affl1 value=&lt;AFFL&gt;EMAIL.OPTIN&lt;AFFL&gt; >
-<input type=radio name=affl1 value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;AFFL_DEL&gt; >
+<input type=radio name=affl1 value=&lt;AFFL&gt;EMAIL.OPTIN&lt;/AFFL&gt; >
+<input type=radio name=affl1 value=&lt;AFFL_DEL&gt;EMAIL.OPTIN&lt;/AFFL_DEL&gt; >
 <input name=submit type=submit value=Submit >
 <b>

@@ -1,4 +1,4 @@
-<form action="assembly60brookscontact-me" enctype="multipartform-data" method="post">
+<form action="/assembly/60/brooks/contact-me/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="affa8598-8937-4c45-b712-e669460aab5b" class="fieldLabel">
@@ -43,7 +43,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="b1ffdc48-eeec-4d16-8605-32d38e7ea0f9" data-valmsg-replace="true">
 <input type="text" name="144ff47cfd134fa09469823abe0dbebf" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="assembly60brookssearch-results" method="GET">
+<form class="form-inline" action="/assembly/60/brooks/search-results/" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

@@ -1,4 +1,4 @@
-<form class=webform-client-form webform-client-form-26 enctype=multipartform-data action=constituent-servicesregister-an-opinion method=post id=webform-client-form-26 accept-charset=UTF-8>
+<form class=webform-client-form webform-client-form-26 enctype=multipart/form-data action=/constituent-services/register-an-opinion method=post id=webform-client-form-26 accept-charset=UTF-8>
 <fieldset class=webform-component-fieldset webform-component--contact-information form-wrapper>
 <legend>
 <span class=fieldset-legend>
@@ -92,17 +92,17 @@
 <option value=Animal Rights>
 <option value=Birthday (80+ years)>
 <option value=Boards and Commissions>
-<option value=Child AbuseDHS>
+<option value=Child Abuse/DHS>
 <option value=Child Support>
-<option value=ChildrenFamilyAdoption>
+<option value=Children/Family/Adoption>
 <option value=Civil Rights>
-<option value=ClemencyPardon>
+<option value=Clemency/Pardon>
 <option value=Conference and Convention Letter Requests>
 <option value=Corrections>
 <option value=Drivers License>
 <option value=Drugs- Illegal>
 <option value=Drugs- Prescription>
-<option value=Eagle ScoutScouting>
+<option value=Eagle Scout/Scouting>
 <option value=Economic Development>
 <option value=Education - Higher>
 <option value=Education - K through 12>
@@ -133,14 +133,14 @@
 <option value=Medicare - Federal>
 <option value=Military Retirement Letter>
 <option value=National Guard>
-<option value=Natural ResourcesConservation>
+<option value=Natural Resources/Conservation>
 <option value=Nursing Home>
 <option value=Other>
 <option value=Public Safety>
 <option value=Revenue>
 <option value=Small Business>
 <option value=Smoking Ban>
-<option value=Social SecurityAging>
+<option value=Social Security/Aging>
 <option value=Budget>
 <option value=State Economy>
 <option value=State Employees>
@@ -154,7 +154,7 @@
 <option value=Utilities>
 <option value=Veterans>
 <option value=Wedding Anniversary (50+ Years)>
-<option value=WelfareFood Stamps>
+<option value=Welfare/Food Stamps>
 <option value=Workers Compensation>
 <label for=edit-submitted-message-message>
 <span class=form-required title=This field is required.>

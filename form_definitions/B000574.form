@@ -2,7 +2,7 @@
 
 
 
-ACTION="htbinformproc_zablumenauerwebformsissue_subscribe_parm.txt&form=blumenauerwebformsissue_subscribe_verify.htm">
+ACTION="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/blumenauer/webforms/issue_subscribe_verify.htm">
 <table>
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
 <p class="labelcell">
@@ -163,9 +163,9 @@ ACTION="htbinformproc_zablumenauerwebformsissue_subscribe_parm.txt&form=blumenau
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
 <input type="submit" value="Send Message" style="background-color: #7b1919; color: white; border: 1px solid black; font-size: 12px; font-weight: bold;">
 <td colspan="2" align="left">
-<form id="billsearch" action="http:thomas.loc.govcgi-binquery" method="post" name="billsearch">
+<form id="billsearch" action="http://thomas.loc.gov/cgi-bin/query" method="post" name="billsearch">
 <input id="bill" value="Search bill number" onfocus="if(this.value=='Search bill number')this.value=''" onblur="if(this.value=='')this.value='Search bill number'" name="docidc111" class="text" type="text" >
 <input class="button" name="Enter" type="submit" >
-<form id="billsearch" action="http:thomas.loc.govcgi-binquery" method="post" name="billsearch">
-<input id="word" value="Search wordphrase" onfocus="if(this.value=='Search wordphrase')this.value=''" onblur="if(this.value=='')this.value='Search wordphrase'" name="queryc111" class="text" type="text" >
+<form id="billsearch" action="http://thomas.loc.gov/cgi-bin/query" method="post" name="billsearch">
+<input id="word" value="Search word/phrase" onfocus="if(this.value=='Search word/phrase')this.value=''" onblur="if(this.value=='')this.value='Search word/phrase'" name="queryc111" class="text" type="text" >
 <input class="button" name="Enter" type="submit" >

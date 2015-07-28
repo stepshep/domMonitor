@@ -1,4 +1,4 @@
-<form action=http:indianahousedemocrats.orgcontact-terry-goodin?chronoform=Goodin1&event=submit method=post name=Goodin1 id=chronoform-Goodin1 class=chronoform form-horizontal>
+<form action=http://indianahousedemocrats.org/contact-terry-goodin?chronoform=Goodin1&event=submit method=post name=Goodin1 id=chronoform-Goodin1 class=chronoform form-horizontal>
 <h1 class=title>
 <label for=text1 class=control-label gcore-label-left>
 <input name=Name id=text1 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >

@@ -1,4 +1,4 @@
-<form method=post enctype=multipartform-data target=gform_ajax_frame_11 id=gform_11 action=contact#gf_11>
+<form method=post enctype=multipart/form-data target=gform_ajax_frame_11 id=gform_11 action=/contact/#gf_11>
 <h3 class=gf_progressbar_title>
 <ul id=gform_fields_11 class=gform_fields top_label form_sublabel_below description_below>
 <li id=field_11_16 class=gfield validate-zip gfield_contains_required field_sublabel_below field_description_below>

@@ -1,4 +1,4 @@
-<form name=contact class=contactForm zipform onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,required-message,Message,R);return document.MM_returnValue action=submit-contact.aspx method=post>
+<form name=contact class=contactForm zipform onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,required-message,Message,R);return document.MM_returnValue action=/submit-contact.aspx method=post>
 <table align=center cellspacing=2 cellpadding=0>
 <tbody>
 <td align=right>

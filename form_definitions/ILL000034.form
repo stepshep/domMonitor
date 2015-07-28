@@ -1,4 +1,4 @@
-<form method=post action=ContactContactForm.aspx id=Form enctype=multipartform-data>
+<form method=post action=/Contact/ContactForm.aspx id=Form enctype=multipart/form-data>
 <span class=sep>
 <ul class=social-links>
 <span id=dnn_Search1_ClassicSearch>

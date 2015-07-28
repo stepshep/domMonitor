@@ -1,4 +1,4 @@
-<form method=POST action=http:assembly.state.ny.usmemJ-Gary-Pretlowsend_mail>
+<form method=POST action=http://assembly.state.ny.us/mem/J-Gary-Pretlow/send_mail>
 <span class=reqfield>
 <INPUT TYPE=TEXT NAME=form_fname SIZE=20 MAXLENGTH=30 TABINDEX=1>
 <INPUT TYPE=TEXT NAME=form_mid SIZE=5 MAXLENGTH=1 TABINDEX=2>

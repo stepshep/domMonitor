@@ -1,4 +1,4 @@
-<form id=4873565B-4040-F985-52CD-58F5E3BCC94D action=http:www.daines.senate.govconnectemail-steve method=post>
+<form id=4873565B-4040-F985-52CD-58F5E3BCC94D action=http://www.daines.senate.gov/connect/email-steve method=post>
 <fieldset class=intro>
 <select id=actiontog name=input_AE7457DD-4040-F985-52CD-B99385041C51 class=validate[required]>
 <option value=>
@@ -243,8 +243,8 @@
 <option value=Aging>
 <option value=Agriculture>
 <option value=Animal Welfare>
-<option value=Banking  Securities>
-<option value=Budget  Appropriations>
+<option value=Banking / Securities>
+<option value=Budget / Appropriations>
 <option value=Children>
 <option value=Civil Rights>
 <option value=Congratulations>
@@ -256,7 +256,7 @@
 <option value=Education Higher>
 <option value=Education K through 12>
 <option value=Elections>
-<option value=Energy  Natural Resources>
+<option value=Energy / Natural Resources>
 <option value=Environment>
 <option value=Foreign Affairs>
 <option value=Government Reform>
@@ -267,7 +267,7 @@
 <option value=Judiciary>
 <option value=Labor>
 <option value=Life Issues>
-<option value=Medicaid  Medicare>
+<option value=Medicaid / Medicare>
 <option value=Montana Values>
 <option value=NASA>
 <option value=Nutrition>
@@ -279,7 +279,7 @@
 <option value=Social Security>
 <option value=Taxes>
 <option value=Telecommunications>
-<option value=Trade  Commerce>
+<option value=Trade / Commerce>
 <option value=Transportation>
 <option value=Veterans>
 <option value=Welfare>

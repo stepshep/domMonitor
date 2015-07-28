@@ -12,7 +12,7 @@
 <span style=color: #ff0000;>
 <table class=s4-wpTopTable border=0 cellpadding=0 cellspacing=0 width=100%>
 <td valign=top>
-<table border=0 width=100% xmlns:x=http:www.w3.org2001XMLSchema xmlns:dsp=http:schemas.microsoft.comsharepointdsp xmlns:asp=http:schemas.microsoft.comASPNET20 xmlns:__designer=http:schemas.microsoft.comWebPartsv2DataViewdesigner xmlns:SharePoint=Microsoft.SharePoint.WebControls xmlns:ddwrt2=urn:frontpage:internal>
+<table border=0 width=100% xmlns:x=http://www.w3.org/2001/XMLSchema xmlns:dsp=http://schemas.microsoft.com/sharepoint/dsp xmlns:asp=http://schemas.microsoft.com/ASPNET/20 xmlns:__designer=http://schemas.microsoft.com/WebParts/v2/DataView/designer xmlns:SharePoint=Microsoft.SharePoint.WebControls xmlns:ddwrt2=urn:frontpage:internal>
 <td class=ms-toolbar nowrap>
 <table border=0 cellspacing=5 width=100%>
 <td valign=top>

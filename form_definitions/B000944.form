@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
+<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
 <h1>
 <fieldset>
 <legend>
@@ -124,7 +124,7 @@
 <li class=required>
 <label for=mailing_state>
 <abbr title=Your state is a required field>
-<select name=mailing_state id=mailing_state onchange=disableCountyDropDown(county);_dropdown = county; var req = new Request({ url: cfc_extensionsdatageographical.cfc, data: method=getCounties&State=+encodeURIComponent(this[this.selectedIndex].value), onSuccess: setCountiesHandler, onFailure:setCountiesErrorHandler }).send();>
+<select name=mailing_state id=mailing_state onchange=disableCountyDropDown(county);_dropdown = county; var req = new Request({ url: /cfc_extensions/data/geographical.cfc, data: method=getCounties&State=+encodeURIComponent(this[this.selectedIndex].value), onSuccess: setCountiesHandler, onFailure:setCountiesErrorHandler }).send();>
 <option value=null>
 <option value=AA>
 <option value=AE>
@@ -320,7 +320,7 @@
 <option label=Immigration value=Immigration>
 <option label=Internship Information value=Internship Information>
 <option label=Internship value=Internship>
-<option label=JobsEmployment value=JobsEmployment>
+<option label=Jobs/Employment value=Jobs/Employment>
 <option label=Judiciary & Government Oversight value=Judiciary and Government Oversight>
 <option label=Labor value=Labor>
 <option label=Law Enforcement value=Law Enforcement>

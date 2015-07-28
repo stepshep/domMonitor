@@ -1,4 +1,4 @@
-<form method=post  id=userForm enctype=multipartform-data action=http:senatorhastings.comindex.phpcontact-us>
+<form method=post  id=userForm enctype=multipart/form-data action=http://senatorhastings.com/index.php/contact-us>
 <table border=0>
 <tr class=rsform-block rsform-block-prefix>
 <input type=text value= size=10  name=form[prefix] id=prefix  class=rsform-input-box>

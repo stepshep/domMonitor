@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
+<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label for=subject>
 <abbr title=Please enter a message topic for your message>
@@ -14,7 +14,7 @@
 <option label=Healthcare value=Healthcare>
 <option label=Help with Federal Agencies value=Help with Federal Agencies>
 <option label=Immigration value=Immigration>
-<option label=National Defense  Homeland Security value=National Defense  Homeland Security>
+<option label=National Defense / Homeland Security value=National Defense / Homeland Security>
 <option label=Request a Meeting value=Request a Meeting>
 <option label=Second Amendment value=Second Amendment>
 <option label=Social Security value=Social Security>

@@ -1,4 +1,4 @@
-<form method=post action=email.aspx id=form1 enctype=multipartform-data>
+<form method=post action=email.aspx id=form1 enctype=multipart/form-data>
 <table border=0 cellpadding=5px>
 <input name=txtFname type=text id=txtFname >
 <input name=txtLname type=text id=txtLname >

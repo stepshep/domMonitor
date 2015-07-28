@@ -127,7 +127,7 @@
 <option value="Civil Rights">
 <option value="Constituent Services">
 <option value="Constitution">
-<option value="DefenseMilitary">
+<option value="Defense/Military">
 <option value="Eagle Scouts">
 <option value="Economy">
 <option value="Education">
@@ -150,7 +150,7 @@
 <option value="Labor">
 <option value="NASA">
 <option value="Nominations">
-<option value="ScienceTechnology">
+<option value="Science/Technology">
 <option value="Small Business">
 <option value="Social Security">
 <option value="Tax">
@@ -182,9 +182,9 @@
 		   theme : 'red',
 		   tabindex : 0
 		};
-	-->
+	//-->
 <noscript>
-<iframe src="http:www.google.comrecaptchaapinoscript?k=6LcdUtcSAAAAAFfNhaeRjZej2VlulQNS9RJtozoo"
+<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcdUtcSAAAAAFfNhaeRjZej2VlulQNS9RJtozoo"
 	       height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <input type="submit" value="Submit" >

@@ -1,4 +1,4 @@
-<form action=appsafssafss2 id=govcontact method=post name=govcontact>
+<form action=/apps/afss/afss2 id=govcontact method=post name=govcontact>
 <fieldset>
 <legend>
 <label for=subject>
@@ -35,7 +35,7 @@
 <option value=ISDH>
 <option value=ICHE>
 <option value=Higher Education Telecommunication System, Indiana>
-<option value=HispanicLatino Affairs, Indiana Commission on>
+<option value=Hispanic/Latino Affairs, Indiana Commission on>
 <option value=Historical Bureau, Indiana>
 <option value=DHS>
 <option value=House of Representatives>

@@ -1,4 +1,4 @@
-<form action=senatorphilip-boylecontact  accept-charset=UTF-8 method=post id=nyss-contact-mail-senator>
+<form action=/senator/philip-boyle/contact  accept-charset=UTF-8 method=post id=nyss-contact-mail-senator>
 <label>
 <label for=edit-first-name>
 <span class=form-required title=This field is required.>
@@ -35,7 +35,7 @@
 <option value=Agencies>
 <option value=Aging>
 <option value=Agriculture>
-<option value=AIDSHIV>
+<option value=AIDS/HIV>
 <option value=Air or Airplane>
 <option value=Alcohol>
 <option value=Alternative Transport>
@@ -197,7 +197,7 @@
 <option value=Renewable Energy>
 <option value=Reservations>
 <option value=Rules>
-<option value=Safe Sex or Contraceptivesion>
+<option value=Safe Sex or Contraceptives/ion>
 <option value=Sales Tax>
 <option value=Sea or Boat>
 <option value=Senior Centers>
@@ -234,7 +234,7 @@
 <option value=Victims>
 <option value=Villages>
 <option value=Violations>
-<option value=Volunteersing>
+<option value=Volunteers/ing>
 <option value=Voter Protection>
 <option value=Voter Registration>
 <option value=Water>
@@ -259,6 +259,6 @@
 <fieldset class=captcha>
 <legend>
 <noscript>
-<iframe src=https:www.google.comrecaptchaapinoscript?k=6Ldq2gUAAAAAAP0Du9G7WpGjTF4aJ1omhMUo6nnX height=300 width=500 frameborder=0>
+<iframe src=https://www.google.com/recaptcha/api/noscript?k=6Ldq2gUAAAAAAP0Du9G7WpGjTF4aJ1omhMUo6nnX height=300 width=500 frameborder=0>
 <textarea name=recaptcha_challenge_field rows=3 cols=40>
 <input type=submit name=op id=edit-submit value=Send e-mail  class=form-submit >

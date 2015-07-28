@@ -273,7 +273,7 @@
 <font size="-1">
 <td bgcolor=#0080C0>
 <select name="subject">
-<option value="-- Please select from the following list of topicsissues --">
+<option value="-- Please select from the following list of topics/issues --">
 <option value="Schedule Request=SCHEDULE">
 <option value="Budget Concern=BUDGET">
 <option value="Tax Concern=TREASURY">

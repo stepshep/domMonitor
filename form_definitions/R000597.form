@@ -1,5 +1,5 @@
 <form method=post action= id=aspnetForm>
-<style type=textcss>
+<style type=text/css>
 <span id=auth-displayname>
 <span class=pageHeader>
 <span style=>
@@ -264,7 +264,7 @@
 <option value=109658>
 <fieldset>
 <legend>
-<span id=ctl00_ctl14_ReplyChoice>
+<table id=ctl00_ctl14_ReplyChoice>
 <input id=ctl00_ctl14_ReplyChoice_0 type=radio name=ctl00$ctl14$ReplyChoice value=Respond >
 <label for=ctl00_ctl14_ReplyChoice_0>
 <input id=ctl00_ctl14_ReplyChoice_1 type=radio name=ctl00$ctl14$ReplyChoice value=Comment >

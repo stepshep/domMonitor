@@ -101,12 +101,12 @@
 <option value=Defense>
 <option value=Economy>
 <option value=Education>
-<option value=EnergyGas Prices>
+<option value=Energy/Gas Prices>
 <option value=Environment>
 <option value=Foreign Relations>
-<option value=Grants~ FederalState>
-<option value=GunsFirearms>
-<option value=Health Care GeneralHospitals>
+<option value=Grants~ Federal/State>
+<option value=Guns/Firearms>
+<option value=Health Care General/Hospitals>
 <option value=Health Care Reform - Support>
 <option value=Health Care Reform - Oppose>
 <option value=Homeland Security>
@@ -115,7 +115,7 @@
 <option value=Iraq>
 <option value=Judicial Nominations>
 <option value=Labor>
-<option value=MedicareMedicaidPrescription Drugs>
+<option value=Medicare/Medicaid/Prescription Drugs>
 <option value=Postal Issues>
 <option value=Prime Hook>
 <option value=Reproductive Choice>
@@ -126,11 +126,11 @@
 <option value=Trade - Domestic>
 <option value=Trade - Foreign>
 <option value=Transportation>
-<option value=TVRadioInternetTelecommunications>
+<option value=TV/Radio/Internet/Telecommunications>
 <option value=Veterans Issues>
 <option value=Welfare>
 <option value=Other>
-<option value=Web site QuestionsConcerns>
+<option value=Web site Questions/Concerns>
 <label for=field_0aee09a6-7f4c-4afb-90a1-9ba03526fca0>
 <strong class=required>
 <textarea name=field_0aee09a6-7f4c-4afb-90a1-9ba03526fca0 id=field_0aee09a6-7f4c-4afb-90a1-9ba03526fca0 >

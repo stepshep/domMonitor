@@ -1,4 +1,4 @@
-<form action="esgovernor" method="post">
+<form action="/es/governor/" method="post">
 <fieldset>
 <legend>
 <p class="comment">
@@ -22,7 +22,7 @@
 <span class="field-validation-valid" data-valmsg-for="Addr2" data-valmsg-replace="true">
 <p class="row">
 <label for="City">
-<input data-val="true" data-val-length="&#39;City or APOFPO&#39; must be between 1 and 4000 characters." data-val-length-max="4000" data-val-length-min="1" data-val-required="&#39;City or APOFPO&#39; should not be empty." id="City" maxlength="50" name="City" style="width:24em" type="text" value="" >
+<input data-val="true" data-val-length="&#39;City or APO/FPO&#39; must be between 1 and 4000 characters." data-val-length-max="4000" data-val-length-min="1" data-val-required="&#39;City or APO/FPO&#39; should not be empty." id="City" maxlength="50" name="City" style="width:24em" type="text" value="" >
 <span class="field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true">
 <p >
 <label for="State">
@@ -108,7 +108,7 @@
 <span class="field-validation-valid" data-valmsg-for="State" data-valmsg-replace="true">
 <p class ="row">
 <label for="Zip">
-<input class="text-box single-line" data-val="true" data-val-length="&#39;Zip codePostal Code&#39; must be between 5 and 16 characters." data-val-length-max="16" data-val-length-min="5" data-val-regex="&#39;Zip codePostal Code&#39; is not in the correct format." data-val-regex-pattern="^$|^[A-Za-z0-9_ !@#,&amp;()$]+$" data-val-required="&#39;Zip codePostal Code&#39; should not be empty." id="Zip" name="Zip" type="text" value="" >
+<input class="text-box single-line" data-val="true" data-val-length="&#39;Zip code/Postal Code&#39; must be between 5 and 16 characters." data-val-length-max="16" data-val-length-min="5" data-val-regex="&#39;Zip code/Postal Code&#39; is not in the correct format." data-val-regex-pattern="^$|^[A-Za-z0-9_ !@#,&amp;()$]+$" data-val-required="&#39;Zip code/Postal Code&#39; should not be empty." id="Zip" name="Zip" type="text" value="" >
 <span class="field-validation-valid" data-valmsg-for="Zip" data-valmsg-replace="true">
 <p class="row">
 <label for="Email">
