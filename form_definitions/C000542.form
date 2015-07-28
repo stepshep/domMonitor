@@ -1,4 +1,4 @@
-<form id=contactForm action=. method=post enctype=applicationx-www-form-urlencoded onsubmit=return _CF_checkCFForm_1(this)>
+<form id=contactForm action=./ method=post enctype=application/x-www-form-urlencoded onsubmit=return _CF_checkCFForm_1(this)>
 <h2>
 <fieldset>
 <legend>
@@ -239,7 +239,7 @@
 <option label=Housing value=Housing>
 <option label=Immigration value=Immigration>
 <option label=Insurance value=Insurance>
-<option label=Intelligence  Cyber-Security value=Intelligence and Cyber Security>
+<option label=Intelligence / Cyber-Security value=Intelligence and Cyber Security>
 <option label=Internal Revenue Service (IRS) value=Internal Revenue Service>
 <option label=Judiciary value=Judiciary>
 <option label=Labor value=Labor>

@@ -1,4 +1,4 @@
-<form action="assembly58gannoncontact-me" enctype="multipartform-data" method="post">
+<form action="/assembly/58/gannon/contact-me/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="8158dc83-4143-4d5b-8770-f4d298b943ce" class="fieldLabel">
@@ -24,7 +24,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" data-valmsg-replace="true">
 <input type="text" name="821836621cbb4c8bbce3f374b03da112" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="assembly58gannonsearch-results" method="GET">
+<form class="form-inline" action="/assembly/58/gannon/search-results/" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

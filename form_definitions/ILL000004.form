@@ -1,24 +1,11 @@
-<form method="post" action="ContactContactForm.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form" enctype="multipartform-data">
-<!-- DNN UserControls -->
-<!-- Custom UserControls -->
-<!-- end:UserControls -->
-<!-- end:Twitter Feed -->
-<!-- Global Bar -->
+<form method="post" action="/Contact/ContactForm.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="Form" enctype="multipart/form-data">
 <span class="sep">
-<!-- Start_Module_2200 -->
 <ul class="social-links">
-<!-- End_Module_2200 -->
 <span id="dnn_Search1_ClassicSearch">
 <span class="searchInputContainer" data-moreresults="See More Results" data-noresult="No Results Found">
 <input name="dnn$Search1$txtSearch" type="text" maxlength="255" size="20" id="dnn_Search1_txtSearch" class="NormalTextBox" autocomplete="off" placeholder="Search..." >
-<!-- End Global Bar -->
-<!-- Header -->
 <h1>
 <h2>
-<!-- #header -->
-<!-- End Header -->
-<!-- Nav -->
-<!-- DDRmenu v02.00.01 - mainNav template -->
 <section class="top-bar-section">
 <ul class="left">
 <li >
@@ -40,40 +27,23 @@
 <nav class="tab-bar show-for-small" data-topbar>
 <aside class="left-off-canvas-menu" id="off-canvas-navigation" data-offcanvas>
 <ul class="off-canvas-list">
-<!-- End Nav -->
-<!-- Main Content -->
-<!-- Map & District Information Goes Here -->
 <h3>
 <span id="dnn_ctr2113_dnnTITLE_titleLabel" class="dnntitle">
-<!-- Start_Module_2113 -->
-<!-- End_Module_2113 -->
 <h3>
 <span id="dnn_ctr2114_dnnTITLE_titleLabel" class="dnntitle">
-<!-- Start_Module_2114 -->
-<!-- Your Name -->
 <fieldset class="wsFieldset">
 <legend>
 <em>
-<!-- First Name -->
 <label for="dnn_ctr2114_Main_txtFirstName" id="dnn_ctr2114_Main_lblFirstName" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtFirstName" type="text" id="dnn_ctr2114_Main_txtFirstName" class="wsTextbox" >
-<!-- END First Name -->
-<!-- Last Name -->
 <label for="dnn_ctr2114_Main_txtLastName" id="dnn_ctr2114_Main_lblLastName" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtLastName" type="text" id="dnn_ctr2114_Main_txtLastName" class="wsTextbox" >
-<!-- END Last Name -->
-<!-- Address -->
 <label for="dnn_ctr2114_Main_txtAddress" id="dnn_ctr2114_Main_lblAddress" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtAddress" type="text" id="dnn_ctr2114_Main_txtAddress" class="wsTextbox wide" >
-<!-- END Address -->
-<!-- Address 2 -->
 <label for="dnn_ctr2114_Main_txtAddress2" id="dnn_ctr2114_Main_lblAddress2" class="wsLabel">
 <input name="dnn$ctr2114$Main$txtAddress2" type="text" id="dnn_ctr2114_Main_txtAddress2" class="wsTextbox wide" >
-<!-- END Address 2 -->
-<!-- Your CityTown -->
 <label for="dnn_ctr2114_Main_txtCityTown" id="dnn_ctr2114_Main_lblCityTown" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtCityTown" type="text" id="dnn_ctr2114_Main_txtCityTown" class="wsTextbox wide" >
-<!-- END Your CityTown -->
 <label for="dnn_ctr2114_Main_ddlState" id="dnn_ctr2114_Main_lblState" class="wsLabel required">
 <select name="dnn$ctr2114$Main$ddlState" id="dnn_ctr2114_Main_ddlState">
 <option value="AL">
@@ -126,36 +96,21 @@
 <option value="WV">
 <option value="WI">
 <option value="WY">
-<!-- Zip -->
 <label for="dnn_ctr2114_Main_txtZip" id="dnn_ctr2114_Main_lblZip" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtZip" type="text" maxlength="11" id="dnn_ctr2114_Main_txtZip" class="wsTextbox" style="width:75px;" >
-<!-- END Zip -->
-<!-- Your Email Address -->
 <label for="dnn_ctr2114_Main_txtFrom" id="dnn_ctr2114_Main_lblFrom" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtFrom" type="text" id="dnn_ctr2114_Main_txtFrom" class="wsTextBox wide" >
-<!-- END Your Email Address -->
-<!-- Subject -->
 <label for="dnn_ctr2114_Main_txtSubject" id="dnn_ctr2114_Main_lblSubject" class="wsLabel">
 <input name="dnn$ctr2114$Main$txtSubject" type="text" id="dnn_ctr2114_Main_txtSubject" class="wsTextbox wide" >
-<!-- END Zip -->
-<!-- CommentQuestion -->
 <label for="dnn_ctr2114_Main_txtComments" id="dnn_ctr2114_Main_lblComments" class="wsLabel vtop required">
 <textarea name="dnn$ctr2114$Main$txtComments" rows="2" cols="20" id="dnn_ctr2114_Main_txtComments" class="wsTextArea">
-<!-- END CommentQuestion -->
-<!-- Phone Number -->
 <label for="dnn_ctr2114_Main_txtPhone" id="dnn_ctr2114_Main_lblPhone" class="wsLabel required">
 <input name="dnn$ctr2114$Main$txtPhone" type="text" id="dnn_ctr2114_Main_txtPhone" class="wsTextbox" >
-<!-- END Phone Number -->
 <label class="wsLabel">
 <input type="submit" name="dnn$ctr2114$Main$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;dnn$ctr2114$Main$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="dnn_ctr2114_Main_btnSubmit" >
-<!-- End_Module_2114 -->
-<!-- Sidebar Modules and Widgets -->
-<!-- Start_Module_2058 -->
 <ul id="buttons">
-<!-- End_Module_2058 -->
 <h3>
 <span id="dnn_ctr2059_dnnTITLE_titleLabel" class="dnntitle">
-<!-- Start_Module_2059 -->
 <p style="margin-top: 13px;">
 <span id="dnn_ctr2059_Survey_Label1">
 <fieldset class="wsFieldset">
@@ -175,12 +130,10 @@
 <input id="dnn_ctr2059_Survey_lstSurvey_chkOptions_0_4_0" type="checkbox" name="dnn$ctr2059$Survey$lstSurvey$ctl00$chkOptions$4" value="63" >
 <label for="dnn_ctr2059_Survey_lstSurvey_chkOptions_0_4_0">
 <span id="dnn_ctr2059_Survey_Message_Label">
-<!-- End_Module_2059 -->
 <h3>
 <span id="dnn_ctr2713_dnnTITLE_titleLabel" class="dnntitle">
-<!-- Start_Module_2713 -->
 <input id="FIRSTNAME" type="text" value="First Name" class="wsTextBox" id="FIRSTNAME" name="FIRSTNAME" onclick="this.value='';" >
 <input type="text" value="Last Name" class="wsTextBox" name="LASTNAME" onclick="this.value='';" >
 <input id="EMAIL" type="text" class="wsTextBox" name="EMAIL" onclick="this.value='';" value="someone@somedomain.com" >
 <input type="submit" value="Submit" name="submitprofile" class="button tiny radius" >
-<form target="_blank" action="http:district44brady.ilsenategop.netmailutil.cfm?mailaction=profile" method="post">
+<form target="_blank" action="http://district44brady.ilsenategop.net/mail/util.cfm?mailaction=profile" method="post">

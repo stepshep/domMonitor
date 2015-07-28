@@ -1,4 +1,4 @@
-<form name= action=senatorgronstalcontact-mesend-email#wpcf7-f6-p21-o1 method=post class=wpcf7-form novalidate=novalidate>
+<form name= action=/senator/gronstal/contact-me/send-email/#wpcf7-f6-p21-o1 method=post class=wpcf7-form novalidate=novalidate>
 <span class=wpcf7-form-control-wrap your-name>
 <input type=text name=your-name value= size=40 class=wpcf7-form-control wpcf7-text wpcf7-validates-as-required aria-required=true aria-invalid=false >
 <span class=wpcf7-form-control-wrap your-email>

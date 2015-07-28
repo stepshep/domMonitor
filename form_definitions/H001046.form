@@ -1,16 +1,16 @@
-<form id=contactForm  method=post  action=contactwrite-martin  enctype=applicationx-www-form-urlencoded >
+<form id=contactForm  method=post  action=/contact/write-martin  enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label for=topic>
 <abbr title=Please enter a message topic for your message>
 <select id=subject class=span8 name=topic class=required onChange=getHelp(this.value);>
 <option label=- - Select an Issue - - value= selected=selected>
 <option label=Academy Nominations value=Academy Nominations>
-<option label=AgricultureFood Safety value=AgricultureFood Safety>
+<option label=Agriculture/Food Safety value=Agriculture/Food Safety>
 <option label=Banking & Financial Services value=Banking and Financial Services>
 <option label=Border Security value=Border Security>
 <option label=Budget value=Budget>
-<option label=Campaign Finance ReformElections value=Campaign Finance ReformElections>
-<option label=ChildrenFamilyNutrition value=ChildrenFamilyNutrition>
+<option label=Campaign Finance Reform/Elections value=Campaign Finance Reform/Elections>
+<option label=Children/Family/Nutrition value=Children/Family/Nutrition>
 <option label=Civil Liberties value=Civil Liberties>
 <option label=Climate Change value=Climate Change>
 <option label=Commerce value=Commerce>
@@ -30,25 +30,25 @@
 <option label=Immigration value=Immigration>
 <option label=Indian Country value=Indian Country>
 <option label=Judiciary value=Judiciary>
-<option label=LaborPensions value=LaborPensions>
+<option label=Labor/Pensions value=Labor/Pensions>
 <option label=Military & Defense value=Military & Defense>
 <option label=National Labs value=National Labs>
 <option label=Postal value=Postal>
 <option label=Schedule a Meeting value=Schedule a Meeting>
-<option label=Public LandsForestry value=Public LandsForestry>
+<option label=Public Lands/Forestry value=Public Lands/Forestry>
 <option label=Reproductive Rights value=Reproductive Rights>
 <option label=Second Amendment value=Second Amendment>
 <option label=Seniors Issues value=Seniors Issues>
 <option label=Small Business value=Small Business>
-<option label=SpaceNASAScienceTechnology value=SpaceNASAScienceTechnology>
+<option label=Space/NASA/Science/Technology value=Space/NASA/Science/Technology>
 <option label=Taxes value=Taxes>
 <option label=Telecommunications value=Telecommunications>
 <option label=Trade value=Trade>
 <option label=Transportation & Infrastructure value=Transportation & Infrastructure>
 <option label=Veterans value=Veterans>
 <option label=Visiting DC value=Visiting DC>
-<option label=WelfareFood Assistance value=WelfareFood Assistance>
-<option label=WildlifeAnimal Welfare value=WildlifeAnimal Welfare>
+<option label=Welfare/Food Assistance value=Welfare/Food Assistance>
+<option label=Wildlife/Animal Welfare value=Wildlife/Animal Welfare>
 <option label=Womens Issues value=Womens Issues>
 <fieldset>
 <legend>

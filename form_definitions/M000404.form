@@ -1,4 +1,4 @@
-<form method=post action=https:forms.house.govhtbinformproc_zamcdermottwebformsnewissue_subscribe_parm.txt&form=mcdermottwebformsnewissue_subscribe_verify.html>
+<form method=post action=https://forms.house.gov/htbin/formproc_za/mcdermott/webforms/new/issue_subscribe_parm.txt&form=/mcdermott/webforms/new/issue_subscribe_verify.html>
 <table cellspacing=0 cellpadding=4>
 <td align=right>
 <b>
@@ -76,7 +76,7 @@
 <OPTION VALUE=GENERAL>
 <OPTION VALUE=GUN>
 <OPTION VALUE=HEALTH>
-<OPTION VALUE=HIVAIDS>
+<OPTION VALUE=HIV/AIDS>
 <OPTION VALUE=HOMELAND SECURITY>
 <OPTION VALUE=HOUSING>
 <OPTION VALUE=HUMANRIGHTS>
@@ -88,7 +88,7 @@
 <OPTION VALUE=JOB>
 <OPTION VALUE=JUDICIARY>
 <OPTION VALUE=LABOR>
-<OPTION VALUE=LESBIANGAY>
+<OPTION VALUE=LESBIAN/GAY>
 <OPTION VALUE=MEDICAID>
 <OPTION VALUE=MEDICARE>
 <OPTION VALUE=MINWAGE>

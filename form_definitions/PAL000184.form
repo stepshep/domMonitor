@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -12,12 +12,12 @@
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;hl=en&amp;geocode=&amp;q=160+South+Second+Street,+Clarion,+PA+16214&amp;sll=41.212164,-79.395452&amp;sspn=0.011396,0.019226&amp;g=160+South+Second+Street,+Clarion,+PA+16214&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=41.220631,-79.391241&amp;output=embed&amp;s=AARTsJqGqEBKNfJZNzlwEg-q-nTc3N3Dpw frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;q=160+South+Second+Street,+Clarion,+PA+16214&amp;sll=41.212164,-79.395452&amp;sspn=0.011396,0.019226&amp;g=160+South+Second+Street,+Clarion,+PA+16214&amp;ie=UTF8&amp;z=14&amp;iwloc=addr&amp;ll=41.220631,-79.391241&amp;output=embed&amp;s=AARTsJqGqEBKNfJZNzlwEg-q-nTc3N3Dpw frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 13px; font-family: arial; color: #333333;>
 <span style=font-size: 13px; font-family: arial; color: #333333;>
 <span style=font-size: 13px; font-family: arial; color: #333333;>
-<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=309+Saltwork+Street,+Elderton,+PA&amp;aq=&amp;sll=41.117935,-77.604698&amp;sspn=6.247457,16.688232&amp;ie=UTF8&amp;hq=&amp;hnear=309+E+Saltwork+St,+Elderton,+Pennsylvania+15736&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=40.695579,-79.339922&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=309+Saltwork+Street,+Elderton,+PA&amp;aq=&amp;sll=41.117935,-77.604698&amp;sspn=6.247457,16.688232&amp;ie=UTF8&amp;hq=&amp;hnear=309+E+Saltwork+St,+Elderton,+Pennsylvania+15736&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=40.695579,-79.339922&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 16px;>
 <em>
@@ -112,4 +112,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

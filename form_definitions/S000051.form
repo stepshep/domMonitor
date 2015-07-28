@@ -1,4 +1,4 @@
-<form action=htbinformprocemail-me.txt%26display%3Dcontactemail-meemail-me-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
+<form action=/htbin/formproc/email-me.txt%26display%3D/contact/email-me/email-me-thank-you%26nobase%26fpGetVer%3D2 class=validate wsbform id=contactForm method=post name=contactForm>
 <fieldset>
 <legend>
 <label for=required-prefix>
@@ -35,11 +35,11 @@
 <label for=required-phone>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-phone maxlength=80 name=required-phone placeholder=Telephone Number type=text>
-<input checked=checked id=speech_0 name=speech type=radio value=Voice>
+<input checked=checked id=speech_0 name=speech value=Voice type=radio>
 <label class=is-inline for=speech_0>
-<input id=speech_1 name=speech type=radio value=VP>
+<input id=speech_1 name=speech value=VP type=radio>
 <label class=is-inline for=speech_1>
-<input id=speech_2 name=speech type=radio value=TTD>
+<input id=speech_2 name=speech value=TTD type=radio>
 <label class=is-inline for=speech_2>
 <fieldset>
 <legend>
@@ -47,33 +47,36 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
-<option value=AB>
-<option value=AG>
-<option value=BA>
-<option value=BG>
-<option value=BS>
-<option value=CS>
-<option value=CO>
-<option value=CR>
-<option value=DF>
-<option value=ED>
-<option value=EN>
-<option value=EV>
-<option value=FA>
-<option value=GO>
-<option value=HL>
-<option value=HO>
-<option value=JU>
-<option value=LB>
-<option value=PO>
-<option value=SC>
-<option value=SP>
-<option value=SS>
-<option value=TX>
-<option value=TC>
-<option value=TD>
-<option value=TR>
-<option value=VA>
+<option value=AGR>
+<option value=AN>
+<option value=ARTS>
+<option value=BANK>
+<option value=BUD>
+<option value=DEF>
+<option value=EDU>
+<option value=ENE>
+<option value=ENV>
+<option value=GOV>
+<option value=GUN>
+<option value=HEA>
+<option value=HOM>
+<option value=HUD>
+<option value=IMM>
+<option value=INT>
+<option value=JUD>
+<option value=LAB>
+<option value=ENTITLE>
+<option value=ENTITLE>
+<option value=SCI>
+<option value=SOC>
+<option value=ENTITLE>
+<option value=TAX>
+<option value=TEL>
+<option value=TRA>
+<option value=TRADE>
+<option value=VET>
+<option value=WEL>
+<option value=OTHER>
 <label for=required-subject>
 <span class=required-field title=required information>
 <input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject placeholder=Message Subject type=text>
@@ -86,4 +89,4 @@
 <option selected=selected value=>
 <option value=EMAIL.OPTIN>
 <option value=N>
-<input class=submit id=submit name=submit role=button type=submit value=Send Email>
+<input class=submit id=submit name=submit role=button value=Send Email type=submit>

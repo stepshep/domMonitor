@@ -1,4 +1,4 @@
-<form action=htbinformproccontact.txt&amp;display=contact-mikeemail-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post>
+<form action=/htbin/formproc/contact.txt&amp;display=/contact-mike/email-me-thankyou&amp;nobase&amp;fpGetVer=2 class=validate wsbform method=post>
 <fieldset>
 <legend>
 <label for=prefix>

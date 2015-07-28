@@ -1,4 +1,4 @@
-<form action=appswidgetsnys-connectscontactForm.cfm method=post id=editCitizenForm accept-charset=UTF-8>
+<form action=/apps/widgets/nys-connects/contactForm.cfm method=post id=editCitizenForm accept-charset=UTF-8>
 <label for=edit-submitted-name>
 <span class=form-required title=This field is required.>
 <select name=iaddress id=iaddress size=1 class=form-select required>
@@ -91,18 +91,18 @@
 <select id=topic name=topic class=form-select required required=true>
 <option value= selected=selected>
 <option value=Agriculture>
-<option value=AlbanyUpper Hudson Valley>
+<option value=Albany/Upper Hudson Valley>
 <option value=Amtrak>
-<option value=AnimalsEndangered Species>
+<option value=Animals/Endangered Species>
 <option value=Banking>
-<option value=BinghamtonSouthern Tier>
+<option value=Binghamton/Southern Tier>
 <option value=Bioterrorism>
 <option value=Budget Suggestions>
-<option value=BuffaloWestern New York>
+<option value=Buffalo/Western New York>
 <option value=Casework>
 <option value=Childrens Issues>
 <option value=Civil Rights>
-<option value=CloningStem Cell Research>
+<option value=Cloning/Stem Cell Research>
 <option value=Correctional Services>
 <option value=Crime>
 <option value=Disability Assistance>
@@ -126,18 +126,18 @@
 <option value=New York City>
 <option value=North Country>
 <option value=Nuclear Power Plants>
-<option value=RacingLotteryLiquor license>
+<option value=Racing/Lottery/Liquor license>
 <option value=Reproductive Choice>
-<option value=RochesterFinger Lakes>
+<option value=Rochester/Finger Lakes>
 <option value=Seniors>
-<option value=SyracuseCentral New York>
+<option value=Syracuse/Central New York>
 <option value=Tax Reform>
 <option value=Telecommunications>
 <option value=Terrorism>
 <option value=Transportation>
 <option value=Unemployment Issues>
 <option value=Upstate Economy>
-<option value=UticaMohawk Valley>
+<option value=Utica/Mohawk Valley>
 <option value=Veterans Issues>
 <option value=Western Southern Tier>
 <option value=Womens Issues>

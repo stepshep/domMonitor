@@ -1,4 +1,4 @@
-<form action=email-me id=custom_form42 name=custom_form class=custom_form method=post>
+<form action=/email-me/ id=custom_form42 name=custom_form class=custom_form method=post>
 <b>
 <p class=req>
 <fieldset>

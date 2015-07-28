@@ -1,4 +1,4 @@
-<form method=post action=htbinformproc.pl?boehnerform_contact.txt&amp;display=boehnerthank_you_contact.htm>
+<form method=post action=/htbin/formproc.pl?/boehner/form_contact.txt&amp;display=/boehner/thank_you_contact.htm>
 <table border=0 cellpadding=4 cellspacing=3>
 <tbody>
 <td align=right>

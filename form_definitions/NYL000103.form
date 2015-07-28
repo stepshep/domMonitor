@@ -1,4 +1,4 @@
-<form method=Post action=http:assembly.state.ny.usmemHerman-D-Farrell-Jrsend_mail>
+<form method=Post action=http://assembly.state.ny.us/mem/Herman-D-Farrell-Jr/send_mail>
 <span class=reqfield>
 <INPUT TYPE=TEXT NAME=form_fname SIZE=20 MAXLENGTH=30 TABINDEX=1>
 <INPUT TYPE=TEXT NAME=form_mid SIZE=5 MAXLENGTH=1 TABINDEX=2>

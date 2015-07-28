@@ -1,4 +1,4 @@
-<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
+<form name=aspnetForm method=post action=/contact.aspx id=aspnetForm>
 <ul class=display>
 <li class=menu_1>
 <li class=lastLi>
@@ -11,10 +11,10 @@
 <em>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=110+North+Third+Street,+Leighton,+PA+18235&amp;sll=40.281409,-75.92171&amp;sspn=0.011573,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=110+N+3rd+St,+Lehighton,+Carbon,+Pennsylvania+18235&amp;z=14&amp;ll=40.834576,-75.712217&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=110+North+Third+Street,+Leighton,+PA+18235&amp;sll=40.281409,-75.92171&amp;sspn=0.011573,0.019248&amp;ie=UTF8&amp;hq=&amp;hnear=110+N+3rd+St,+Lehighton,+Carbon,+Pennsylvania+18235&amp;z=14&amp;ll=40.834576,-75.712217&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 13px;>
-<iframe width=300 height=230 src=http:maps.google.commaps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2681+State+Route+903,+Albrightsville,+PA&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=48.421237,78.837891&amp;ie=UTF8&amp;hq=&amp;hnear=Pennsylvania+903,+Albrightsville,+Pennsylvania+18210&amp;z=13&amp;iwloc=A&amp;ll=41.035947,-75.584232&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
+<iframe width=300 height=230 src=http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2681+State+Route+903,+Albrightsville,+PA&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=48.421237,78.837891&amp;ie=UTF8&amp;hq=&amp;hnear=Pennsylvania+903,+Albrightsville,+Pennsylvania+18210&amp;z=13&amp;iwloc=A&amp;ll=41.035947,-75.584232&amp;output=embed frameborder=0 marginwidth=0 marginheight=0 scrolling=no>
 <small>
 <span style=font-size: 16px;>
 <em>
@@ -113,4 +113,4 @@
 <span class=button>
 <input type=submit name=ctl00$cphContent$btnSubmit value=Submit onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphContent$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_cphContent_btnSubmit class=SubmitButton >
 <input name=ctl00$ctl03$txtToolboxSearchTerm type=text id=ctl00_ctl03_txtToolboxSearchTerm class=ToolBarSearchBox >
-<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=DisplayImagesToolbarToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;SearchResults.aspx&quot;, false, false)) style=border-width:0px; >
+<input type=image name=ctl00$ctl03$btnToolSearch id=ctl00_ctl03_btnToolSearch src=/Display/Images/Toolbar/ToolbarSearch.png onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl03$btnToolSearch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;/SearchResults.aspx&quot;, false, false)) style=border-width:0px; >

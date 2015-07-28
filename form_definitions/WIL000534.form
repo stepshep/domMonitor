@@ -1,4 +1,4 @@
-<form action="assembly15sanfelippocontact" enctype="multipartform-data" method="post">
+<form action="/assembly/15/sanfelippo/contact/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="7c287d3d-1690-46b5-9b7f-23087c51e661" class="fieldLabel">

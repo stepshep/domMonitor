@@ -1,4 +1,4 @@
-<form action=PBCMemberEmail150 id=mainForm method=post>
+<form action=/PBC/MemberEmail/15/0 id=mainForm method=post>
 <span class=headerText>
 <span class=validationred>
 <span class=span1 labelStreet>

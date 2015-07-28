@@ -1,10 +1,10 @@
-<form enctype=applicationx-www-form-urlencoded action=contact#usermessagea method=post class=cform contact  id=cformsform>
+<form enctype=application/x-www-form-urlencoded action=/contact#usermessagea method=post class=cform contact  id=cformsform>
 <ol class=cf-ol>
 <li id=li--1 class=>
 <label for=cf_field_1>
-<select name=cf_field_1 id=cf_field_1 class=cformselect fldrequired title=http:www.senatorboscola.comwp-adminadmin.php?page=cformscforms-options.php#>
+<select name=cf_field_1 id=cf_field_1 class=cformselect fldrequired title=http://www.senatorboscola.com/wp-admin/admin.php?page=cforms/cforms-options.php#>
 <option value=Blank>
-<option value=CitationsSchedule>
+<option value=Citations/Schedule>
 <option value=Grants>
 <option value=Legislative>
 <option value=Notary>

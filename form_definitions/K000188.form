@@ -1,5 +1,5 @@
-<form action=email-ron id=custom_form17 name=custom_form class=custom_form method=post>
-<style type=textcss media=all title=main css>
+<form action=/email-ron/ id=custom_form17 name=custom_form class=custom_form method=post>
+<style type=text/css media=all title=main css>
 <b>
 <b>
 <p class=req>
@@ -45,7 +45,6 @@
 <option value=CASE>
 <option value=AGRI>
 <option value=BUD>
-<OPTION VALUE=CAM>
 <option value=DEF>
 <option value=ECON>
 <option value=EDU>

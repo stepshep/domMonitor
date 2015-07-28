@@ -1,4 +1,4 @@
-<form action="assembly54hintzcontact-gordon" enctype="multipartform-data" method="post">
+<form action="/assembly/54/hintz/contact-gordon/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="7c287d3d-1690-46b5-9b7f-23087c51e661" class="fieldLabel">
@@ -33,7 +33,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="7d33c19d-2881-425b-a302-d59ff8102b55" data-valmsg-replace="true">
 <input type="text" name="e839dad60092489a9aad837726e1761b" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="assembly54hintzsearch-results" method="GET">
+<form class="form-inline" action="/assembly/54/hintz/search-results/" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

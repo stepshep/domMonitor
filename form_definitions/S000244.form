@@ -1,4 +1,4 @@
-<form onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-state,State,R,zip5,Zip Code,R,Issues,Issue,R,reqresponse,Response,R);return document.MM_returnValue action=contact_new.aspx method=post align=left>
+<form onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-state,State,R,zip5,Zip Code,R,Issues,Issue,R,reqresponse,Response,R);return document.MM_returnValue action=/contact_new.aspx method=post align=left>
 <fieldset>
 <legend>
 <em>
@@ -106,7 +106,6 @@
 <label for=zip5>
 <td align=left style=width: 70%;>
 <input name=zip5 type=text size=5 maxlength=5 autocomplete=OFF>
-<input maxLength=4 size=4 name=zip4>
 <td align=right style=width: 30%;>
 <label for=Email>
 <td align=left style=width: 70%;>

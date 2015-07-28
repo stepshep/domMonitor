@@ -119,7 +119,7 @@
 <option value=Banking >
 <option value=Budget >
 <option value=Communications >
-<option value=CrimeLaw Enforcement >
+<option value=Crime/Law Enforcement >
 <option value=Defense >
 <option value=Education >
 <option value=Election Reform >
@@ -128,7 +128,7 @@
 <option value=Finance >
 <option value=Firearms >
 <option value=Foreign Affairs >
-<option value=Government OperationsAffairs >
+<option value=Government Operations/Affairs >
 <option value=Healthcare >
 <option value=Help With Federal Agencies >
 <option value=Homeland Security >
@@ -143,7 +143,7 @@
 <option value=Service Academies >
 <option value=Small Business >
 <option value=Social Security >
-<option value=TaxesEconomy >
+<option value=Taxes/Economy >
 <option value=Texas Thursday Coffee >
 <option value=Tour Request >
 <option value=Trade >

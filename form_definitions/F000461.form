@@ -1,5 +1,5 @@
 <form method=post action=?zip5=76710&amp;zip4=2018 id=aspnetForm>
-<style type=textcss>
+<style type=text/css>
 <span id=auth-displayname>
 <span class=pageHeader>
 <span style=>
@@ -27,7 +27,6 @@
 <option value=Chairman>
 <option value=Senator>
 <option value=Colonel>
-<option value=Captain>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl16_FirstName>
 <span class=header>

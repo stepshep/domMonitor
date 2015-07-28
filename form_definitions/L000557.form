@@ -1,4 +1,4 @@
-<form method=post id=contactForm name=contactForm action=https:forms.house.govhtbinformproclarsoncontact_form_file.txt&amp;display=larsoncontact_thankyou.html>
+<form method=post id=contactForm name=contactForm action=https://forms.house.gov/htbin/formproc/larson/contact_form_file.txt&amp;display=/larson/contact_thankyou.html>
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
 <span style=color:#FFFFFF>
@@ -63,12 +63,10 @@
 <td valign=top>
 <label  for=subject>
 <em>
-<input type=text name=required-issue id=subject value= size=70 maxlength=50 >
 <select id=required-issue name=required-issue size=1>
 <option selected=selected value=>
 <option value=Help With Agency>
 <option value=Comment on Policy>
-<select name=required-issue size=1 id=required-issue>
 <option value= selected>
 <OPTION VALUE=Agriculture>
 <OPTION VALUE=Budget>

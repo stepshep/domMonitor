@@ -158,7 +158,7 @@
 <legend>
 <table id=ctl00_ctl21_ReplyChoice>
 <tbody>
-<input id=ctl00_ctl21_ReplyChoice_0 type=radio name=ctl00$ctl21$ReplyChoice value=Respond checked=checked>
+<input id=ctl00_ctl21_ReplyChoice_0 type=radio name=ctl00$ctl21$ReplyChoice value=Respond>
 <label for=ctl00_ctl21_ReplyChoice_0>
 <input id=ctl00_ctl21_ReplyChoice_1 type=radio name=ctl00$ctl21$ReplyChoice value=Comment>
 <label for=ctl00_ctl21_ReplyChoice_1>

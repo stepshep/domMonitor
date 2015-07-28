@@ -1,4 +1,4 @@
-<form action=http:indianahousedemocrats.orgcontact-melanie-wright?chronoform=Wright1&event=submit method=post name=Wright1 id=chronoform-Wright1 class=chronoform form-horizontal>
+<form action=http://indianahousedemocrats.org/contact-melanie-wright?chronoform=Wright1&event=submit method=post name=Wright1 id=chronoform-Wright1 class=chronoform form-horizontal>
 <h1 class=title>
 <label for=text1 class=control-label gcore-label-left>
 <input name=Name id=text1 value= placeholder= maxlength= size= class=form-control A title= style= data-inputmask= data-load-state= data-tooltip= type=text >

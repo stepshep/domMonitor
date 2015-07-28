@@ -1,4 +1,4 @@
-<form name=Sample Form id=request method=post action=http:www.maine.govcgi-binformproc-v2cntswangov_share_views>
+<form name=Sample Form id=request method=post action=http://www.maine.gov/cgi-bin/formproc-v2/cntswan/gov_share_views>
 <table width=auto border=0 class=tbstriped>
 <td class=alignrt>
 <label for=name>

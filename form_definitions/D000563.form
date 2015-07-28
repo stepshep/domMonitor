@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=contactemail  enctype=applicationx-www-form-urlencoded >
+<form id=contactForm  method=post  action=/contact/email  enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label class=control-label for=actions>
 <abbr title=Please select an option>
@@ -8,14 +8,14 @@
 <option label=Affordable Care Act Stories value=ACASTORIES>
 <option label=Agriculture value=AG00>
 <option label=Animal Rights value=AN00>
-<option label=BankingCredit value=BK00>
+<option label=Banking/Credit value=BK00>
 <option label=Budget, Federal value=BUDGET>
-<option label=BusinessCommerce value=AA005>
-<option label=Campaign FinanceElections value=CR00>
+<option label=Business/Commerce value=AA005>
+<option label=Campaign Finance/Elections value=CR00>
 <option label=Children Issues value=CF00>
 <option label=Civil Rights and Liberties value=JC00>
-<option label=CrimeDrugs value=JC00>
-<option label=DefenseMilitary value=DE00>
+<option label=Crime/Drugs value=JC00>
+<option label=Defense/Military value=DE00>
 <option label=Dietary Supplements value=DIETSUP>
 <option label=Economy value=EC00>
 <option label=Education value=ED00>
@@ -29,12 +29,12 @@
 <option label=Immigration value=IM00>
 <option label=Iraq value=FP00>
 <option label=Judicial Nominations value=JC00>
-<option label=LaborEmployment value=LA00>
-<option label=MediaTelecommunications value=TE00>
+<option label=Labor/Employment value=LA00>
+<option label=Media/Telecommunications value=TE00>
 <option label=Medicare value=HE00>
 <option label=Middle East value=FP00>
 <option label=Postal Service value=GA00>
-<option label=Social SecuritySeniors value=SS00>
+<option label=Social Security/Seniors value=SS00>
 <option label=Taxes value=TX00>
 <option label=Trade value=TR00>
 <option label=Transportation value=TN00>

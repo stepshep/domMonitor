@@ -1,4 +1,4 @@
-<form action="assembly57stuckcontact-form" enctype="multipartform-data" method="post">
+<form action="/assembly/57/stuck/contact-form/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="b3b8c0f0-ddad-4315-8f93-11b29ebe717e" class="fieldLabel">
@@ -50,7 +50,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="1e9331e9-20d4-4164-9e3d-e416446cdd9a" data-valmsg-replace="true">
 <input type="text" name="474f8de5460446e7a05cf00f0ceb2b0a" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="assembly57stucksearch-results" method="GET">
+<form class="form-inline" action="/assembly/57/stuck/search-results/" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

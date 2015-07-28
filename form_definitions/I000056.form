@@ -1,4 +1,4 @@
-<form method=post enctype=multipartform-data  id=gform_1 class=submit action=contactcontact-me>
+<form method=post enctype=multipart/form-data  id=gform_1 class=submit action=/contact/contact-me>
 <ul id=gform_fields_1 class=gform_fields right_label description_below>
 <li id=field_1_12 class=gfield               gfield_contains_required >
 <label class=gfield_label for=input_1_12>
@@ -65,27 +65,27 @@
 <option value=Agriculture >
 <option value=Banking and Insurance >
 <option value=Campaigns and Elections >
-<option value=Congressional  Governmental Reform >
+<option value=Congressional / Governmental Reform >
 <option value=Education >
 <option value=Energy >
 <option value=Environment >
 <option value=Federal Budget >
 <option value=Firearms >
 <option value=Foreign Affairs >
-<option value=Health Care  Medical and Medicaid >
+<option value=Health Care / Medical and Medicaid >
 <option value=Housing >
 <option value=Immigration >
 <option value=Interior Resources >
 <option value=Internet >
 <option value=Jobs and the Economy >
-<option value=Judicial  Constitutional Services >
+<option value=Judicial / Constitutional Services >
 <option value=Labor >
-<option value=National Security  Defense >
+<option value=National Security / Defense >
 <option value=Prescription Drugs >
 <option value=Science and Technology >
 <option value=Social, Moral and Religious Issues >
 <option value=Social Security >
-<option value=Substance Abuse  Illegal Drugs >
+<option value=Substance Abuse / Illegal Drugs >
 <option value=Taxes >
 <option value=Telecommunications >
 <option value=Trade >
@@ -109,6 +109,6 @@
 <li id=field_1_15 class=gfield >
 <label class=gfield_label for=input_1_15>
 <noscript>
-<iframe src=https:www.google.comrecaptchaapinoscript?k=6LcKgdoSAAAAALyIOl-365TVFxwUvyt638RSKVOj height=300 width=500 frameborder=0>
+<iframe src=https://www.google.com/recaptcha/api/noscript?k=6LcKgdoSAAAAALyIOl-365TVFxwUvyt638RSKVOj height=300 width=500 frameborder=0>
 <textarea name=recaptcha_challenge_field rows=3 cols=40>
 <input type=submit id=gform_submit_button_1 class=button gform_button value=Submit tabindex=17 >

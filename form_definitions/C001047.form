@@ -1,4 +1,4 @@
-<form class=webform-client-form webform-client-form-78 enctype=multipartform-data action=contentcontact-shelley method=post id=webform-client-form-78 accept-charset=UTF-8>
+<form class=webform-client-form webform-client-form-78 enctype=multipart/form-data action=/content/contact-shelley method=post id=webform-client-form-78 accept-charset=UTF-8>
 <span style=color: red; line-height: 1.6;>
 <span style=line-height: 1.6;>
 <fieldset class=webform-component-fieldset webform-component--constituent-information form-wrapper>
@@ -6,7 +6,7 @@
 <span class=fieldset-legend>
 <label for=edit-submitted-constituent-information-prefix>
 <span class=form-required title=This field is required.>
-<select required=required id=edit-submitted-constituent-information-prefix name=submitted[constituent_information][prefix] class=form-select required>
+<select id=edit-submitted-constituent-information-prefix name=submitted[constituent_information][prefix] class=form-select required>
 <option value= selected=selected>
 <option value=Mr.>
 <option value=Mrs.>
@@ -22,21 +22,21 @@
 <option value=Senator>
 <label for=edit-submitted-constituent-information-first-name>
 <span class=form-required title=This field is required.>
-<input required=required type=text id=edit-submitted-constituent-information-first-name name=submitted[constituent_information][first_name] value= size=30 maxlength=100 class=form-text required >
+<input type=text id=edit-submitted-constituent-information-first-name name=submitted[constituent_information][first_name] value= size=30 maxlength=100 class=form-text required >
 <label for=edit-submitted-constituent-information-last-name>
 <span class=form-required title=This field is required.>
-<input required=required type=text id=edit-submitted-constituent-information-last-name name=submitted[constituent_information][last_name] value= size=30 maxlength=100 class=form-text required >
+<input type=text id=edit-submitted-constituent-information-last-name name=submitted[constituent_information][last_name] value= size=30 maxlength=100 class=form-text required >
 <label for=edit-submitted-constituent-information-address-1>
 <span class=form-required title=This field is required.>
-<input required=required type=text id=edit-submitted-constituent-information-address-1 name=submitted[constituent_information][address_1] value= size=50 maxlength=200 class=form-text required >
+<input type=text id=edit-submitted-constituent-information-address-1 name=submitted[constituent_information][address_1] value= size=50 maxlength=200 class=form-text required >
 <label for=edit-submitted-constituent-information-address-2>
 <input type=text id=edit-submitted-constituent-information-address-2 name=submitted[constituent_information][address_2] value= size=50 maxlength=200 class=form-text >
 <label for=edit-submitted-constituent-information-city>
 <span class=form-required title=This field is required.>
-<input required=required type=text id=edit-submitted-constituent-information-city name=submitted[constituent_information][city] value= size=40 maxlength=50 class=form-text required >
+<input type=text id=edit-submitted-constituent-information-city name=submitted[constituent_information][city] value= size=40 maxlength=50 class=form-text required >
 <label for=edit-submitted-constituent-information-state>
 <span class=form-required title=This field is required.>
-<select required=required id=edit-submitted-constituent-information-state name=submitted[constituent_information][state] class=form-select required>
+<select id=edit-submitted-constituent-information-state name=submitted[constituent_information][state] class=form-select required>
 <option value=AA>
 <option value=AE>
 <option value=AP>
@@ -93,18 +93,18 @@
 <option value=WY>
 <label for=edit-submitted-constituent-information-zip>
 <span class=form-required title=This field is required.>
-<input required=required placeholder=12345 or 12345-1234 type=text id=edit-submitted-constituent-information-zip name=submitted[constituent_information][zip] value= size=20 maxlength=20 class=form-text required >
+<input placeholder=12345 or 12345-1234 type=text id=edit-submitted-constituent-information-zip name=submitted[constituent_information][zip] value= size=20 maxlength=20 class=form-text required >
 <label for=edit-submitted-constituent-information-phone>
 <input placeholder=123-456-7890 type=text id=edit-submitted-constituent-information-phone name=submitted[constituent_information][phone] value= size=20 maxlength=30 class=form-text >
 <label for=edit-submitted-constituent-information-email>
 <span class=form-required title=This field is required.>
-<input required=required class=email form-text form-email required placeholder=Email Format &quot;John@example.com&quot; type=email id=edit-submitted-constituent-information-email name=submitted[constituent_information][email] size=50 >
+<input class=email form-text form-email required placeholder=Email Format &quot;John@example.com&quot; type=email id=edit-submitted-constituent-information-email name=submitted[constituent_information][email] size=50 >
 <fieldset class=webform-component-fieldset webform-component--message-details form-wrapper>
 <legend>
 <span class=fieldset-legend>
 <label for=edit-submitted-message-details-topic>
 <span class=form-required title=This field is required.>
-<select required=required id=edit-submitted-message-details-topic name=submitted[message_details][topic] class=form-select required>
+<select id=edit-submitted-message-details-topic name=submitted[message_details][topic] class=form-select required>
 <option value= selected=selected>
 <option value=Abortion>
 <option value=Adoption>
@@ -165,7 +165,7 @@
 <option value=Women&#039;s Issues>
 <label for=edit-submitted-message-details-please-type-the-subject-of-your-message>
 <span class=form-required title=This field is required.>
-<input required=required type=text id=edit-submitted-message-details-please-type-the-subject-of-your-message name=submitted[message_details][please_type_the_subject_of_your_message] value= size=75 maxlength=75 class=form-text required >
+<input type=text id=edit-submitted-message-details-please-type-the-subject-of-your-message name=submitted[message_details][please_type_the_subject_of_your_message] value= size=75 maxlength=75 class=form-text required >
 <label for=edit-submitted-message-details-message>
 <textarea id=edit-submitted-message-details-message name=submitted[message_details][message] cols=50 rows=15 class=form-textarea>
 <input class=webform-submit button-primary btn btn-primary form-submit type=submit name=op value=Submit >

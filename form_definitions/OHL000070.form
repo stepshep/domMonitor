@@ -1,4 +1,4 @@
-<form name=contactFormSubmit id=contactFormSubmit action=..membersmember-contact-submission?id=41 method=post>
+<form name=contactFormSubmit id=contactFormSubmit action=../members/member-contact-submission?id=41 method=post>
 <table class=form>
 <td class=formLeft>
 <td class=formRight>
@@ -82,4 +82,4 @@
 <textarea id=tbxMessage name=tbxMessage rows=14 style=width:500px; maxlength=2000>
 <td class=formLeft>
 <td class=formRightButton>
-<input type=image name=ibtSubmit id=ibtSubmit class=formButton src=..AssetsGlobalButtonsSend.png >
+<input type=image name=ibtSubmit id=ibtSubmit class=formButton src=../Assets/Global/Buttons/Send.png >

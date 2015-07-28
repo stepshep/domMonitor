@@ -3,7 +3,6 @@
 <fieldset id="SearchInHeader_T9D0516A5020_ctl00_ctl00_main" class="sfsearchBox">
 <input name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchTextBox" type="text" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchTextBox" class="sfsearchTxt" >
 <input type="submit" name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchButton" class="sfsearchSubmit" >
-<!-- 2014.3.1209.40 -->
 <ul class="rmRootGroup rmHorizontal">
 <li class="rmItem rmFirst">
 <span class="rmText">
@@ -213,7 +212,7 @@
 <option value="AGING  ">
 <option value="AGRICULTURE  ">
 <option value="ANIMAL CRUELTY">
-<option value="CHILD ABUSECINC">
+<option value="CHILD ABUSE/CINC">
 <option value="CHILD CUSTODY">
 <option value="CHILD SUPPORT">
 <option value="COMMERCE  ">
@@ -249,7 +248,7 @@
 <option value="NATIONAL GUARD">
 <option value="NURSING HOME">
 <option value="OTHER  ">
-<option value="PARDONCLEMENCY  ">
+<option value="PARDON/CLEMENCY  ">
 <option value="PARKS  ">
 <option value="RACING &amp; GAMING">
 <option value="RURAL ISSUES">
@@ -272,7 +271,6 @@
 <span id="Main_T9D0516A5019_uxEmail" class="st_email_hcount" displaytext="Email">
 <span id="Main_T9D0516A5019_uxShareThis" class="st_sharethis_hcount" displaytext="Share">
 <span id="Main_T9D0516A5019_uxGooglePlusOne" class="st_plusone_hcount">
-<!-- <span class='st_email_hcount' displaytext='Email'>
 <span class='st_twitter_hcount' displaytext='Tweet'>
 <span class='st_facebook_hcount' displaytext='Facebook'>
 <span class='st_fblike_hcount'>

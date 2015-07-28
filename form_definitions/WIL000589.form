@@ -1,4 +1,4 @@
-<form action="senate17markleincontact" enctype="multipartform-data" method="post">
+<form action="/senate/17/marklein/contact/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="d3c70554-f566-4fc3-8bd7-e750b91bd87d" class="fieldLabel">

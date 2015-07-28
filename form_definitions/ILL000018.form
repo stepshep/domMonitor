@@ -1,4 +1,4 @@
-<form method=post  id=userForm action=http:www.donharmon.orgcontact-senator-harmon>
+<form method=post  id=userForm action=http://www.donharmon.org/contact-senator-harmon>
 <table class=formTableLayout border=0>
 <tr class=rsform-block rsform-block-prefix>
 <input type=text value= size=10  name=form[prefix] id=prefix  class=rsform-input-box>

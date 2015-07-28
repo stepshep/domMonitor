@@ -1,4 +1,4 @@
-<form name= action=senatorcontact#wpcf7-f1245-p1246-o1 method=post class=wpcf7-form novalidate=novalidate>
+<form name= action=/senatorcontact/#wpcf7-f1245-p1246-o1 method=post class=wpcf7-form novalidate=novalidate>
 <span class=wpcf7-form-control-wrap Senator>
 <select name=Senator class=wpcf7-form-control wpcf7-select wpcf7-validates-as-required aria-required=true aria-invalid=false>
 <option value=>

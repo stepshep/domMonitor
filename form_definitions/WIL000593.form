@@ -1,4 +1,4 @@
-<form action="senate21wanggaardrequest-assistance" enctype="multipartform-data" method="post">
+<form action="/senate/21/wanggaard/request-assistance/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="5e190b99-d25f-4d0a-ebd7-1a8db4458abe" class="fieldLabel">
@@ -29,7 +29,7 @@ data-val="true"
 <span class="contourIndicator">
 <input type="text" name="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" id="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" class="text" value="" maxlength="500"
 data-val="true"
- data-val-required="CityStateZip Code is mandatory"
+ data-val-required="City/State/Zip Code is mandatory"
 
 >
 <span class="field-validation-valid" data-valmsg-for="b2e9e2a2-afec-40ad-cbc8-63d8e2a6bc9e" data-valmsg-replace="true">

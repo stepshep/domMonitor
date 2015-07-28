@@ -1,4 +1,4 @@
-<form class="webform-client-form webform-client-form-987" enctype="multipartform-data" action="http:azgovernor.govgovernorformcontact-governor-ducey" method="post" id="webform-client-form-987" accept-charset="UTF-8" role="form">
+<form class="webform-client-form webform-client-form-987" enctype="multipart/form-data" action="http://azgovernor.gov/governor/form/contact-governor-ducey" method="post" id="webform-client-form-987" accept-charset="UTF-8" role="form">
 <span style="color:red">
 <label for="edit-submitted-reason">
 <label for="edit-submitted-reason-1">
@@ -125,6 +125,6 @@
 <legend class="panel-heading">
 <p class="help-block">
 <noscript>
-<iframe src="https:www.google.comrecaptchaapinoscript?k=6LeBKPwSAAAAAHtaPLtcz-iXdv7kQxpDIn7gzkiq" height="300" width="500" frameborder="0">
+<iframe src="https://www.google.com/recaptcha/api/noscript?k=6LeBKPwSAAAAAHtaPLtcz-iXdv7kQxpDIn7gzkiq" height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <input class="webform-submit button-primary form-submit btn btn-default btn-primary" type="submit" name="op" value="Send Email" >

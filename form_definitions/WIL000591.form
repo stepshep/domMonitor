@@ -1,4 +1,4 @@
-<form action="assembly59kremercontact-me" enctype="multipartform-data" method="post">
+<form action="/assembly/59/kremer/contact-me/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <span class="field-validation-valid" data-valmsg-for="62e24096-01a0-46c3-b7b6-1f4f305093c6" data-valmsg-replace="true">
@@ -61,7 +61,7 @@ data-val="true"
 <span class="field-validation-valid" data-valmsg-for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" data-valmsg-replace="true">
 <input type="text" name="821836621cbb4c8bbce3f374b03da112" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="assembly59kremersearch-results" method="GET">
+<form class="form-inline" action="/assembly/59/kremer/search-results/" method="GET">
 <input class="form-control" type="text" name="q" >
 <span class="input-group-btn" >
 <button class="btn btn-default" type="button" onclick="submit();">

@@ -1,15 +1,14 @@
-<form method="post" action="HomeContactshareopinion" id="Form" enctype="multipartform-data">
-<\script>
+<form method="post" action="/Home/Contact/shareopinion" id="Form" enctype="multipart/form-data">
+<\/script>
 <script>
 <meta name="viewport" content="width=device-width">
-<link href="template.mt.govresourcestemplatetemplate.css" rel="stylesheet" type="textcss">
-<link href="template.mt.govresourcesmodulesfoundationfoundation.css" rel="stylesheet" type="textcss">
-<link href="template.mt.govresourcesmodulespagemenupagemenu.css" rel="stylesheet" type="textcss">
-<link href="template.mt.govresourcesmodulespagecontentpagecontent.css" rel="stylesheet" type="textcss">
-<link href="Portals_defaultCodeGovernorall.css" rel="stylesheet" type="textcss">
+<link href="//template.mt.gov/resources/template/template.css" rel="stylesheet" type="text/css">
+<link href="//template.mt.gov/resources/modules/foundation/foundation.css" rel="stylesheet" type="text/css">
+<link href="//template.mt.gov/resources/modules/pagemenu/pagemenu.css" rel="stylesheet" type="text/css">
+<link href="//template.mt.gov/resources/modules/pagecontent/pagecontent.css" rel="stylesheet" type="text/css">
+<link href="/Portals/_default/Code/Governor/all.css" rel="stylesheet" type="text/css">
 <h2>
 <span id="dnn_ctr7757_dnnTITLE_titleLabel" class="TitleH2">
-<!-- Start_Module_7757 -->
 <nav id="pagemenu">
 <ul class="nav-bar" id="SiteMenu">
 <li data-menu="menu1" id="menu1">
@@ -21,11 +20,9 @@
 <li data-menu="menu7" id="menu7">
 <li class="nav-bar-last" data-menu="menu8" id="menu8">
 <h2 id="AgencyName">
-<!-- End_Module_7757 -->
 <h2 id="PageTitle">
 <h2>
 <span id="dnn_ctr7787_dnnTITLE_titleLabel" class="TitleH2">
-<!-- Start_Module_7787 -->
 <span id="dnn_ctr7787_Main_lblContent" class="bstrap30">
 <p name="dnn7787ContactInformation" data-fieldid="195" data-af-field="ContactInformation" data-ng-model="form.fields.ContactInformation.value" class="value-node ng-pristine ng-valid ng-binding" data-ng-bind-html="$sce.trustAsHtml(form.fields.ContactInformation.value)">
 <h3>
@@ -119,19 +116,15 @@
 <label for="dnn7787Comments" class="control-label af-slide form-label " style="">
 <textarea rows="10" class="form-control  ng-valid ng-animate ng-pristine-remove ng-pristine-remove-active ng-dirty" id="dnn7787Comments" name="dnn7787Comments" data-fieldid="217" data-af-field="Comments" data-ng-model="form.fields.Comments.value" data-ng-keyup="form.fields.Comments.touched = true;" placeholder="" style="">
 <label for="dnn7787RespondtoOpinion" class="control-label af-slide form-label " style="">
-<!-- ngRepeat: o in form.fields.RespondtoOpinion.options -->
 <label>
 <input type="radio" name="dnn7787RespondtoOpinion" class="normalCheckBox  ng-valid ng-dirty" data-ng-model="form.fields.RespondtoOpinion.value" data-ng-truevalue="o.value" value="Yes" data-ng-click="form.fields.RespondtoOpinion.touched = true;">
 <span data-ng-bind-html="$sce.trustAsHtml(o.text)" class="ng-binding">
-<!-- end ngRepeat: o in form.fields.RespondtoOpinion.options -->
 <label>
 <input type="radio" name="dnn7787RespondtoOpinion" class="normalCheckBox  ng-pristine ng-valid" data-ng-model="form.fields.RespondtoOpinion.value" data-ng-truevalue="o.value" value="No" data-ng-click="form.fields.RespondtoOpinion.touched = true;">
 <span data-ng-bind-html="$sce.trustAsHtml(o.text)" class="ng-binding">
-<!-- end ngRepeat: o in form.fields.RespondtoOpinion.options -->
 <button type="button" data-loading-text="Please wait..." class="
                     btn submit form-button loading btn-primary
-                     btn-normal btn-info  " id="dnn7787SendNow" style="" data-validation="on" data-submiturl="DesktopModulesAvatarSoftActionFormSubmit.ashx?TabId=3646&amp;language=en-US&amp;alias=governor.mt.gov&amp;mid=7787&amp;event=click&amp;b=225">
-<!-- End_Module_7787 -->
+                     btn-normal btn-info  " id="dnn7787SendNow" style="" data-validation="on" data-submiturl="/DesktopModules/AvatarSoft/ActionForm/Submit.ashx?TabId=3646&amp;language=en-US&amp;alias=governor.mt.gov&amp;mid=7787&amp;event=click&amp;b=225">
 <h2>
 <h2>
 <h2>

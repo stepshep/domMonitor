@@ -1,4 +1,4 @@
-<form onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-state,State,R,required-email,Email,RisEmail,zip5,Zip Code,R,required-issue,Issue,R);return document.MM_returnValue action=contact.aspx method=post>
+<form onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-state,State,R,required-email,Email,RisEmail,zip5,Zip Code,R,required-issue,Issue,R);return document.MM_returnValue action=/contact.aspx method=post>
 <table cellspacing=0 cellpadding=0 border=0 style=background-color: #ffffff;>
 <tbody>
 <td colspan=2>

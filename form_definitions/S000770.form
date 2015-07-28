@@ -1,6 +1,6 @@
-<form id="search_form" name="googlesearch" method="get" action="">
+<form id="search_form" name="googlesearch" method="get" action="/">
 <input id="s" title="search" type="text" name="q" size="25" value="Search" class="input-field swap_value" >
-<input id="go" type="image" src="imagesclear.gif" width="1" height="1" alt="" title="Search" >
+<input id="go" type="image" src="/images/clear.gif" width="1" height="1" alt="" title="Search" >
 <form name="thisForm" id="thisForm" method="post" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <span class="req">
@@ -103,4 +103,4 @@
 			WRAP="virtual"
 			CLASS="input-textarea">
 <hr style="margin-top: 20px" >
-<input id="sf-submit" type="image" src="imagesbtn-submit.gif" width="87" height="41" alt="" title="Submit my information" >
+<input id="sf-submit" type="image" src="/images/btn-submit.gif" width="87" height="41" alt="" title="Submit my information" >

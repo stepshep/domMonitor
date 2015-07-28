@@ -1,5 +1,4 @@
-<FORM METHOD=POST ACTION=htbinformprocnealwebformscontact.txt&display=webformsContact_Form_Thank_You.shtml>
-<p style=color:#FF0000>
+<FORM METHOD=POST ACTION=/htbin/formproc/neal/webforms/contact.txt&display=/webforms/Contact_Form_Thank_You.shtml>
 <table cellspacing=0 cellpadding=4>
 <td valign=bottom align=right>
 <b>

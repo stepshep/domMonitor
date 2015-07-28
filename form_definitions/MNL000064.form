@@ -1,4 +1,4 @@
-<FORM NAME=Emailform ACTION=membersmember_emailform.php?mem_id=1151&amp;ls=89 METHOD=post>
+<FORM NAME=Emailform ACTION=/members/member_emailform.php?mem_id=1151&amp;ls=89 METHOD=post>
 <table cellPadding=0 cellSpacing=0 width=100% id=bio>
 <td style=vertical-align:top;>
 <td style=vertical-align:top;>

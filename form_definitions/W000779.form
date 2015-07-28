@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=contact  enctype=applicationx-www-form-urlencoded >
+<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
 <fieldset>
 <legend>
 <ol>
@@ -224,15 +224,15 @@
 <option label=International Trade value=International Trade>
 <option label=Internet, Technology, Broadband value=Internet, Technology, Broadband>
 <option label=Judicial Nominations value=Judicial Nominations>
-<option label=Medicare Medicaid value=Medicare Medicaid>
+<option label=Medicare/ Medicaid value=Medicare/ Medicaid>
 <option label=Native American Issues value=Native American Issues>
-<option label=Natural Resources (forestry, land management, oceanfisheries, wilderness) value=Natural Resources (forestry, land management, oceanfisheries, wilderness)>
+<option label=Natural Resources (forestry, land management, ocean/fisheries, wilderness) value=Natural Resources (forestry, land management, ocean/fisheries, wilderness)>
 <option label=Outsourcing value=Outsourcing>
 <option label=Pensions (Federal) value=Pensions (Federal)>
 <option label=Pension (Military) value=Pension (Military)>
 <option label=Postal Service value=Postal Service>
 <option label=Prescription Drugs value=Prescription Drugs>
-<option label=Reproductive Rights Family Planning value=Reproductive Rights Family Planning>
+<option label=Reproductive Rights/ Family Planning value=Reproductive Rights/ Family Planning>
 <option label=Science value=Science>
 <option label=Senior Issues value=Senior Issues>
 <option label=Small Business value=Small Business>

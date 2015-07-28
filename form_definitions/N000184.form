@@ -104,7 +104,6 @@
 <input type=text class=textInput name=field_DBDD1ED0-E663-4E8E-B789-DF5A7621067D id=field_DBDD1ED0-E663-4E8E-B789-DF5A7621067D value= >
 <p class=legend>
 <fieldset class=blockLabels>
-<span class=required style=color: #800000;>
 <label for=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_1 class=inlineLabel>
 <input type=radio name=field_07C7727A-6C47-4FF9-A890-C904FA4D408F id=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_1 value=Express an opinion or share your views with me >
 <label for=field_07C7727A-6C47-4FF9-A890-C904FA4D408F_2 class=inlineLabel>

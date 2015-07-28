@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=contactemail-senator-vitter  enctype=applicationx-www-form-urlencoded onsubmit=return validate() >
+<form id=contactForm  method=post  action=/contact/email-senator-vitter  enctype=application/x-www-form-urlencoded onsubmit=return validate() >
 <fieldset>
 <label for=subject>
 <abbr title=Please enter a message topic for your message>
@@ -124,7 +124,7 @@
 <abbr title=Your city is a required field>
 <input class=span3 type=text name=mailing_city id=mailing_city aria-required=true placeholder=Required required>
 <label for=state>
-<select name=mailing_state id=mailing_state class=span1 onchange=disableCountyDropDown(county);if(this.options[this.selectedIndex].value == LA) { window.county_label.set(html, Parish *); } else { window.county_label.set(html, County *); }; _dropdown = county; var req = new Request({ url: cfc_extensionsdatageographical.cfc, data: method=getCounties&State=+encodeURIComponent(this[this.selectedIndex].value), onSuccess: setCountiesHandler, onFailure:setCountiesErrorHandler }).send(); required=true>
+<select name=mailing_state id=mailing_state class=span1 onchange=disableCountyDropDown(county);if(this.options[this.selectedIndex].value == LA) { window.county_label.set(html, Parish *); } else { window.county_label.set(html, County *); }; _dropdown = county; var req = new Request({ url: /cfc_extensions/data/geographical.cfc, data: method=getCounties&State=+encodeURIComponent(this[this.selectedIndex].value), onSuccess: setCountiesHandler, onFailure:setCountiesErrorHandler }).send(); required=true>
 <option value=null>
 <option label=Alabama value=AL   >
 <option label=Alaska value=AK   >
