@@ -106,6 +106,7 @@
 <label for=zip5>
 <td align=left style=width: 70%;>
 <input name=zip5 type=text size=5 maxlength=5 autocomplete=OFF>
+<input maxLength=4 size=4 name=zip4>
 <td align=right style=width: 30%;>
 <label for=Email>
 <td align=left style=width: 70%;>

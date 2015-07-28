@@ -211,7 +211,7 @@
 						maxlength="100"
 						value=""
 						validate="regular_expression"
-						pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us)$"
+						pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us|link|coop)$"
 						required
 						placeholder="Please enter your email address and verify below."
 						title="Please enter your email address and verify below.">
@@ -226,7 +226,7 @@
 						maxlength="100"
 						value=""
 						validate="regular_expression"
-						pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us)$"
+						pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us|link|coop)$"
 						required
 						placeholder="Please verify your email address."
 						title="Please verify your valid email address.">
@@ -238,6 +238,7 @@
 							required
 							title="Please select the topic of your message.">
 <option selected="selected" value="">
+<OPTION value="Academy Nominations">
 <OPTION value="Agriculture and Nutrition">
 <OPTION value="Animal Welfare">
 <OPTION value="Armed Services">

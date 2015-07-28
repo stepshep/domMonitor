@@ -72,4 +72,5 @@
 <option value=Utilities>
 <label for=message>
 <textarea name=message rows=14 cols=50 wrap=VIRTUAL scrolling=yes class=rounded>
+<label for=message>
 <input id=email-button type=submit name=Submit value=Send Message >

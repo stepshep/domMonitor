@@ -1,5 +1,7 @@
 <form method="post" action="frmMain.aspx?pid=sponpage&amp;tab=subject6&amp;id=Young02&amp;stab=01&amp;ys=2015RS&amp;poptype=contact&amp;popid=Young02" id="form1" onsubmit="return ValidateBillNum();">
 <li class="header">
+<!-- [Begin] Top Heading Box Container -->
+<!-- banner includes table with links to other state agencies, search box, print icon, MGA label and background image -->
 <table id="bannertable">
 <td class="bannerright" colspan="3">
 <span id="lblSkipMaster">
@@ -15,6 +17,10 @@
 <td class="bannerprinter" rowspan="2">
 <li class="header">
 <h1 class="bannerleftup">
+<!-- [End] Top Heading Box Container -->
+<!-- [Begin] Tabbed Subjects  -->
+<!-- This will be dynamically generated based on a database table -->
+<!-- [End] Tabbed Subjects -->
 <li id="t-home">
 <li id="t-subject2">
 <li id="t-subject3">
@@ -24,6 +30,10 @@
 <li id="t-subject7">
 <li id="t-subject8">
 <li id="t-subject9">
+<!-- [Begin] Utility ribbon (on or off depending on page) -->
+<!-- Image Button handles click  -->
+<!-- [End] Utility ribbon (on or off depending on page) -->
+<!—[Begin] MasterPage User Controls -->
 <input type="submit" name="ctl00$ctlContactLegislator$cmdContactCancel" value="Close" id="ctlContactLegislator_cmdContactCancel" tabindex="4" class="closebutton" >
 <table class ="Tracking-600">
 <td colspan="2">
@@ -36,10 +46,20 @@
 <table id="ctlContactLegislator_tblJSoff" class="Tracking-600">
 <td colspan="2">
 <span id="ctlContactLegislator_lblContactJSoff" style="color:Red;">
+<!—[End] MasterPage User Controls -->
+<!-- [Begin] websource content -->
+<!-- skip position for skiplink to when the homepage is NOT displayed -->
+<!-- Begin page -->
 <table class="sponsorheader">
 <h2>
+<!--Sample: Senator John C. Astle -->
+<!--Template: #Sponsor Code goes here# -->
+<!--Sample: 2012 Regular Session -->
+<!--Template: #Session Year and Type# -->
 <h4 class="h4right">
 <h3>
+<!--Sample: District 30, Anne Arundel County, Howard County -->
+<!--Template: District 3A, Frederick County -->
 <h4 class="h4right">
 <table  id="navSubTab" >
 <li >
@@ -48,6 +68,7 @@
 <span >
 <li >
 <span >
+<!-- <start-title>
 <end-title>
 <table class="spco">
 <th>
@@ -57,3 +78,5 @@
 <th>
 <th>
 <h5 style="text-align:right;">
+<!-- End page -->
+<!-- [End] websource content  -->

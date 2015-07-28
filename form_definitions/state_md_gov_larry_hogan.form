@@ -191,6 +191,7 @@
     id="pickSubject" 
     name="pickSubject"
     tabindex="24"  >
+<!--<option value="Newsletter Only">
 <option value="">
 <option value="8">
 <option value="6">

@@ -177,12 +177,15 @@
 <label for="ctl00_Content_chkBxReply">
 <input id="ctl00_Content_chkBxReply" type="checkbox" name="ctl00$Content$chkBxReply" >
 <td class="style1">
+<!-- 2014.3.1024.35 -->
 <input name="ctl00$Content$RadCaptcha1$CaptchaTextBox" type="text" maxlength="5" id="ctl00_Content_RadCaptcha1_CaptchaTextBox" >
 <label for="ctl00_Content_RadCaptcha1_CaptchaTextBox" id="ctl00_Content_RadCaptcha1_CaptchaTextBoxLabel">
 <td class="style1">
 <input type="submit" name="ctl00$Content$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Content$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_Content_btnSubmit" style="font-weight:bold;width:86px;" >
 <table width="100%" border="0" cellpadding="5">
 <td align="middle">
+<!-- agyHorizontalLinks BOTTOM_NAV_LINKS -->
+<!-- agyHorizontalLinks POLICY_NAV_LINKS -->
 <span class='linkdivider'>
 <span class='linkdivider'>
 <span class='linkdivider'>

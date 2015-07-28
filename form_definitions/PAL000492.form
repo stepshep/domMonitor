@@ -7,10 +7,8 @@
 <span style=font-size: 16px;>
 <em>
 <span style=font-size: 16px;>
-<iframe width=300 height=200 src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3040.3914655037756!2d-80.1303987!3d40.3558435!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88345797eac6443d%3A0xfdbb24c47d29f899!2s275+Millers+Run+Rd%2C+Bridgeville%2C+PA+15017!5e0!3m2!1sen!2sus!4v1421849322460 frameborder=0 style=border: 0px;>
 <span style=font-size: 13px;>
 <span style=font-size: 13px;>
-<iframe width=300 height=200 src=https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3038.8456220745625!2d-80.44448500000001!3d40.390114!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88344896a7a6fbe7%3A0x3c023ed1abac1a33!2sBurgettstown+Senior+Citizens!5e0!3m2!1sen!2sus!4v1425409014981 frameborder=0 style=border: 0px;>
 <span id=fileSavedIndication style=color:Red;>
 <span class=required>
 <input name=ctl00$cphContent$txtFirstName type=text maxlength=100 id=ctl00_cphContent_txtFirstName DataTargets=Text:[[FirstName]] >

@@ -95,4 +95,3 @@
 <label for=wb_All class=checkbox_label>
 <input class=field_checkbox type=checkbox id=wb_Building_a_Sustainable_Future name=field540[1] value=Building a Sustainable Future >
 <label for=wb_Building_a_Sustainable_Future class=checkbox_label>
-<input type=submit name=submit value=Send Email to the Governor! >

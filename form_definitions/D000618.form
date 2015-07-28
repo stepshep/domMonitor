@@ -284,9 +284,12 @@
 <option value=Veterans>
 <option value=Welfare>
 <option value=Womens Issues>
+<label class=control-label for=input-ECE20855-5056-A066-6081-CC976AA10A50>
+<span class=required>
+<input id=input-ECE20855-5056-A066-6081-CC976AA10A50 name=input_ECE20855-5056-A066-6081-CC976AA10A50 class=validate[required] type=text placeholder=Subject Line>
 <label class=control-label for=input-ADE64E73-4040-F985-52CD-A3AB6BCD2C51>
 <span class=required>
 <textarea id=input-ADE64E73-4040-F985-52CD-A3AB6BCD2C51 name=input_ADE64E73-4040-F985-52CD-A3AB6BCD2C51 class=validate[required]>
-<input id=input-A4E18009-4040-F985-52CD-6366A651E958 name=input_A4E18009-4040-F985-52CD-6366A651E958 type=checkbox value=A4E18009-4040-F985-52CD-6366A651E958>
+<input id=input-A4E18009-4040-F985-52CD-6366A651E958 name=input_A4E18009-4040-F985-52CD-6366A651E958 type=checkbox value=Subscribe>
 <label for=input-A4E18009-4040-F985-52CD-6366A651E958>
 <input type=submit class=btn value=Submit>

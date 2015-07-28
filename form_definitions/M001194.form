@@ -42,6 +42,7 @@
 <option title=Text-telephone device value=TTD>
 <fieldset>
 <legend>
+<span dir=ltr id=:2ue>
 <label class=control-label for=required-issue>
 <select class=form-control id=required-issue name=required-issue required= size=1>
 <option disabled=disabled selected=selected value=>

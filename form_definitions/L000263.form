@@ -21,6 +21,7 @@
 <label for=required-city>
 <span class=required-field title=required information>
 <input id=required-city maxlength=100 name=required-city size=20 type=text>
+<select class=validate[required] is-required id=required-city maxlength=100 name=required-city>
 <option selected=selected value=>
 <option value=Center Line>
 <option value=Clinton Township>

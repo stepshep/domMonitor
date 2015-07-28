@@ -27,6 +27,7 @@
 <option value=Chairman>
 <option value=Senator>
 <option value=Colonel>
+<option value=Captain>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl16_FirstName>
 <span class=header>

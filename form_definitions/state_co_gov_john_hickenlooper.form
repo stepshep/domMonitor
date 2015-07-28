@@ -1,296 +1,296 @@
-<form id="j_id0:j_id2" name="j_id0:j_id2" method="post" action="/Correspondence/WebformPage" enctype="application/x-www-form-urlencoded">
+<form id=j_id0:j_id2 name=j_id0:j_id2 method=post action=/Correspondence/WebformPage enctype=application/x-www-form-urlencoded>
 <script>
 <script>
-<table class="detailList" border="0" cellpadding="0" cellspacing="0">
-<td class="data2Col  first " colSpan="2">
-<table bgcolor="#21599C" style="padding-left:10px;" width="700">
-<td width="700">
-<span class="webform_title">
-<td class="data2Col " colSpan="2">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id7:mesaj">
-<table bgcolor="#ffffff" width="700">
-<td width="700">
-<font color="red">
-<td class="data2Col " colSpan="2">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id11:j_id12" style="background: #ffffff;">
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<select name="j_id0:j_id2:j_id3:j_id4:j_id11:j_id16" size="1" onchange="A4J.AJAX.Submit('j_id0:j_id2',event,{'similarityGroupingId':'j_id0:j_id2:j_id3:j_id4:j_id11:j_id18','parameters':{'j_id0:j_id2:j_id3:j_id4:j_id11:j_id18':'j_id0:j_id2:j_id3:j_id4:j_id11:j_id18'} } )">
-<option value="">
-<option value="AG">
-<option value="CDA">
-<option value="CDE">
-<option value="CDHE">
-<option value="CDHS">
-<option value="CDLE">
-<option value="CDOT">
-<option value="CDPHE">
-<option value="CEO">
-<option value="DMVA">
-<option value="DNR">
-<option value="DOC">
-<option value="DOLA">
-<option value="DOR">
-<option value="DORA">
-<option value="DPA">
-<option value="DPS">
-<option value="Federal">
-<option value="HCPF">
-<option value="Immigration">
-<option value="Judicial">
-<option value="Lieutenant Governor">
-<option value="OEDIT">
-<option value="OIT">
-<option value="OSPB">
-<option value="Other">
-<option value="SoS">
-<option value="Treasury">
-<td class="data2Col " colSpan="2">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id20:j_id21" style="background:#ffffff;">
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id20:topicsectionitem">
-<select name="j_id0:j_id2:j_id3:j_id4:j_id20:j_id25" size="1" disabled="disabled">
-<option value="">
-<td class="data2Col " colSpan="2">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id39:j_id40">
-<table bgcolor="#ffffff" width="700">
-<td height="15" width="750">
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:0:j_id44" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:0:j_id48" maxlength="255" name="j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:0:j_id48" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id44" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<textarea  id="j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48" maxlength="32000" name="j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48" onchange="handleTextAreaElementChangeWithByteCheck('j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48', 32000, 0, 'remaining', 'over limit');" onclick="handleTextAreaElementChangeWithByteCheck('j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48', 32000, 0, 'remaining', 'over limit');" onkeydown="handleTextAreaElementChangeWithByteCheck('j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48', 32000, 0, 'remaining', 'over limit');" onkeyup="handleTextAreaElementChangeWithByteCheck('j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48', 32000, 0, 'remaining', 'over limit');" onmousedown="handleTextAreaElementChangeWithByteCheck('j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48', 32000, 0, 'remaining', 'over limit');" type="text" wrap="soft">
-<td class="data2Col " colSpan="2">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id62">
-<table bgcolor="#ffffff" width="700">
-<td height="20" width="750">
-<span style="font-size:1.25em; font-family:Arial,Helvetica,sans-serif; font-weight:bold; color:#17418a; padding-left:10px;">
+<table class=detailList border=0 cellpadding=0 cellspacing=0>
+<td class=data2Col  first  colSpan=2>
+<table bgcolor=#21599C style=padding-left:10px; width=700>
+<td width=700>
+<span class=webform_title>
+<td class=data2Col  colSpan=2>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id7:mesaj>
+<table bgcolor=#ffffff width=700>
+<td width=700>
+<font color=red>
+<td class=data2Col  colSpan=2>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id11:j_id12 style=background: #ffffff;>
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<select name=j_id0:j_id2:j_id3:j_id4:j_id11:j_id16 size=1 onchange=A4J.AJAX.Submit(j_id0:j_id2,event,{similarityGroupingId:j_id0:j_id2:j_id3:j_id4:j_id11:j_id18,parameters:{j_id0:j_id2:j_id3:j_id4:j_id11:j_id18:j_id0:j_id2:j_id3:j_id4:j_id11:j_id18} } )>
+<option value=>
+<option value=AG>
+<option value=CDA>
+<option value=CDE>
+<option value=CDHE>
+<option value=CDHS>
+<option value=CDLE>
+<option value=CDOT>
+<option value=CDPHE>
+<option value=CEO>
+<option value=DMVA>
+<option value=DNR>
+<option value=DOC>
+<option value=DOLA>
+<option value=DOR>
+<option value=DORA>
+<option value=DPA>
+<option value=DPS>
+<option value=Federal>
+<option value=HCPF>
+<option value=Immigration>
+<option value=Judicial>
+<option value=Lieutenant Governor>
+<option value=OEDIT>
+<option value=OIT>
+<option value=OSPB>
+<option value=Other>
+<option value=SoS>
+<option value=Treasury>
+<td class=data2Col  colSpan=2>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id20:j_id21 style=background:#ffffff;>
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id20:topicsectionitem>
+<select name=j_id0:j_id2:j_id3:j_id4:j_id20:j_id25 size=1 disabled=disabled>
+<option value=>
+<td class=data2Col  colSpan=2>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id39:j_id40>
+<table bgcolor=#ffffff width=700>
+<td height=15 width=750>
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:0:j_id44 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:0:j_id48 maxlength=255 name=j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:0:j_id48 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id44 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<textarea  id=j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48 maxlength=32000 name=j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48 onchange=handleTextAreaElementChangeWithByteCheck(j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48, 32000, 0, remaining, over limit); onclick=handleTextAreaElementChangeWithByteCheck(j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48, 32000, 0, remaining, over limit); onkeydown=handleTextAreaElementChangeWithByteCheck(j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48, 32000, 0, remaining, over limit); onkeyup=handleTextAreaElementChangeWithByteCheck(j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48, 32000, 0, remaining, over limit); onmousedown=handleTextAreaElementChangeWithByteCheck(j_id0:j_id2:j_id3:j_id4:j_id39:j_id42:1:j_id48, 32000, 0, remaining, over limit); type=text wrap=soft>
+<td class=data2Col  colSpan=2>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id62>
+<table bgcolor=#ffffff width=700>
+<td height=20 width=750>
+<span style=font-size:1.25em; font-family:Arial,Helvetica,sans-serif; font-weight:bold; color:#17418a; padding-left:10px;>
 <hr >
-<table bgcolor="#ffffff" width="700">
-<td height="15" width="750">
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:0:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:0:j_id70" maxlength="40" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:0:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:1:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:1:j_id70" maxlength="80" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:1:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:2:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:2:j_id70" maxlength="80" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:2:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:3:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:3:j_id70" maxlength="40" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:3:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:4:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:4:j_id70" maxlength="255" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:4:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:5:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:5:j_id70" maxlength="255" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:5:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:6:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:6:j_id70" maxlength="80" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:6:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:7:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<select  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:7:j_id70" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:7:j_id70">
-<option value="">
-<option value="Alabama">
-<option value="Alaska">
-<option value="American Samoa">
-<option value="Arizona">
-<option value="Arkansas">
-<option value="California">
-<option value="Colorado" selected="selected">
-<option value="Connecticut">
-<option value="Delaware">
-<option value="District of Columbia">
-<option value="Florida">
-<option value="Georgia">
-<option value="Guam">
-<option value="Hawaii">
-<option value="Idaho">
-<option value="Illinois">
-<option value="Indiana">
-<option value="Iowa">
-<option value="Kansas">
-<option value="Kentucky">
-<option value="Louisiana">
-<option value="Maine">
-<option value="Maryland">
-<option value="Massachusetts">
-<option value="Michigan">
-<option value="Minnesota">
-<option value="Mississippi">
-<option value="Missouri">
-<option value="Montana">
-<option value="Nebraska">
-<option value="Nevada">
-<option value="New Hampshire">
-<option value="New Jersey">
-<option value="New Mexico">
-<option value="New York">
-<option value="North Carolina">
-<option value="North Dakota">
-<option value="Northern Marianas Islands">
-<option value="Ohio">
-<option value="Oklahoma">
-<option value="Oregon">
-<option value="Pennsylvania">
-<option value="Puerto Rico">
-<option value="Rhode Island">
-<option value="South Carolina">
-<option value="South Dakota">
-<option value="Tennessee">
-<option value="Texas">
-<option value="Utah">
-<option value="Vermont">
-<option value="Virginia">
-<option value="Virgin Islands">
-<option value="Washington">
-<option value="West Virginia">
-<option value="Wisconsin">
-<option value="Wyoming">
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:8:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:8:j_id70" maxlength="5" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:8:j_id70" size="20" type="text" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:9:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<label style="color:red;" class="field_label">
-<td width="250">
-<select  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:9:j_id70" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:9:j_id70">
-<option value="">
-<option value="Out of State">
-<option value="Adams">
-<option value="Alamosa">
-<option value="Arapahoe">
-<option value="Archuleta">
-<option value="Baca">
-<option value="Bent">
-<option value="Boulder">
-<option value="Broomfield">
-<option value="Chaffee">
-<option value="Cheyenne">
-<option value="Clear Creek">
-<option value="Conejos">
-<option value="Costilla">
-<option value="Crowley">
-<option value="Custer">
-<option value="Delta">
-<option value="Denver">
-<option value="Dolores">
-<option value="Douglas">
-<option value="Eagle">
-<option value="El Paso">
-<option value="Elbert">
-<option value="Fremont">
-<option value="Garfield">
-<option value="Gilpin">
-<option value="Grand">
-<option value="Gunnison">
-<option value="Hinsdale">
-<option value="Huerfano">
-<option value="Jackson">
-<option value="Jefferson">
-<option value="Kiowa">
-<option value="Kit Carson">
-<option value="La Plata">
-<option value="Lake">
-<option value="Larimer">
-<option value="Las Animas">
-<option value="Lincoln">
-<option value="Logan">
-<option value="Mesa">
-<option value="Mineral">
-<option value="Moffat">
-<option value="Montezuma">
-<option value="Montrose">
-<option value="Morgan">
-<option value="Otero">
-<option value="Ouray">
-<option value="Park">
-<option value="Phillips">
-<option value="Pitkin">
-<option value="Prowers">
-<option value="Pueblo">
-<option value="Rio Blanco">
-<option value="Rio Grande">
-<option value="Routt">
-<option value="Saguache">
-<option value="San Juan">
-<option value="San Miguel">
-<option value="Sedgwick">
-<option value="Summit">
-<option value="Teller">
-<option value="Washington">
-<option value="Weld">
-<option value="Yuma">
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:10:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:10:j_id70" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:10:j_id70" type="checkbox" value="1" >
-<table bgcolor="#ffffff" width="700">
-<td width="150">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:11:j_id66" style="background: #ffffff;">
-<label class="field_label">
-<td width="250">
-<input  id="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:11:j_id70" name="j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:11:j_id70" type="checkbox" value="1" >
-<td class="data2Col  last " colSpan="2">
-<span id="j_id0:j_id2:j_id3:j_id4:j_id72:j_id73">
-<table bgcolor="#ffffff" width="700">
-<td style="padding-left:20px; padding-right:20px;" width="750">
-<span class="confidentiality_text">
+<table bgcolor=#ffffff width=700>
+<td height=15 width=750>
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:0:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:0:j_id70 maxlength=40 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:0:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:1:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:1:j_id70 maxlength=80 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:1:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:2:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:2:j_id70 maxlength=80 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:2:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:3:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:3:j_id70 maxlength=40 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:3:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:4:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:4:j_id70 maxlength=255 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:4:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:5:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:5:j_id70 maxlength=255 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:5:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:6:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:6:j_id70 maxlength=80 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:6:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:7:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<select  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:7:j_id70 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:7:j_id70>
+<option value=>
+<option value=Alabama>
+<option value=Alaska>
+<option value=American Samoa>
+<option value=Arizona>
+<option value=Arkansas>
+<option value=California>
+<option value=Colorado selected=selected>
+<option value=Connecticut>
+<option value=Delaware>
+<option value=District of Columbia>
+<option value=Florida>
+<option value=Georgia>
+<option value=Guam>
+<option value=Hawaii>
+<option value=Idaho>
+<option value=Illinois>
+<option value=Indiana>
+<option value=Iowa>
+<option value=Kansas>
+<option value=Kentucky>
+<option value=Louisiana>
+<option value=Maine>
+<option value=Maryland>
+<option value=Massachusetts>
+<option value=Michigan>
+<option value=Minnesota>
+<option value=Mississippi>
+<option value=Missouri>
+<option value=Montana>
+<option value=Nebraska>
+<option value=Nevada>
+<option value=New Hampshire>
+<option value=New Jersey>
+<option value=New Mexico>
+<option value=New York>
+<option value=North Carolina>
+<option value=North Dakota>
+<option value=Northern Marianas Islands>
+<option value=Ohio>
+<option value=Oklahoma>
+<option value=Oregon>
+<option value=Pennsylvania>
+<option value=Puerto Rico>
+<option value=Rhode Island>
+<option value=South Carolina>
+<option value=South Dakota>
+<option value=Tennessee>
+<option value=Texas>
+<option value=Utah>
+<option value=Vermont>
+<option value=Virginia>
+<option value=Virgin Islands>
+<option value=Washington>
+<option value=West Virginia>
+<option value=Wisconsin>
+<option value=Wyoming>
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:8:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:8:j_id70 maxlength=5 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:8:j_id70 size=20 type=text >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:9:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<label style=color:red; class=field_label>
+<td width=250>
+<select  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:9:j_id70 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:9:j_id70>
+<option value=>
+<option value=Out of State>
+<option value=Adams>
+<option value=Alamosa>
+<option value=Arapahoe>
+<option value=Archuleta>
+<option value=Baca>
+<option value=Bent>
+<option value=Boulder>
+<option value=Broomfield>
+<option value=Chaffee>
+<option value=Cheyenne>
+<option value=Clear Creek>
+<option value=Conejos>
+<option value=Costilla>
+<option value=Crowley>
+<option value=Custer>
+<option value=Delta>
+<option value=Denver>
+<option value=Dolores>
+<option value=Douglas>
+<option value=Eagle>
+<option value=El Paso>
+<option value=Elbert>
+<option value=Fremont>
+<option value=Garfield>
+<option value=Gilpin>
+<option value=Grand>
+<option value=Gunnison>
+<option value=Hinsdale>
+<option value=Huerfano>
+<option value=Jackson>
+<option value=Jefferson>
+<option value=Kiowa>
+<option value=Kit Carson>
+<option value=La Plata>
+<option value=Lake>
+<option value=Larimer>
+<option value=Las Animas>
+<option value=Lincoln>
+<option value=Logan>
+<option value=Mesa>
+<option value=Mineral>
+<option value=Moffat>
+<option value=Montezuma>
+<option value=Montrose>
+<option value=Morgan>
+<option value=Otero>
+<option value=Ouray>
+<option value=Park>
+<option value=Phillips>
+<option value=Pitkin>
+<option value=Prowers>
+<option value=Pueblo>
+<option value=Rio Blanco>
+<option value=Rio Grande>
+<option value=Routt>
+<option value=Saguache>
+<option value=San Juan>
+<option value=San Miguel>
+<option value=Sedgwick>
+<option value=Summit>
+<option value=Teller>
+<option value=Washington>
+<option value=Weld>
+<option value=Yuma>
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:10:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:10:j_id70 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:10:j_id70 type=checkbox value=1 >
+<table bgcolor=#ffffff width=700>
+<td width=150>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:11:j_id66 style=background: #ffffff;>
+<label class=field_label>
+<td width=250>
+<input  id=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:11:j_id70 name=j_id0:j_id2:j_id3:j_id4:j_id61:j_id64:11:j_id70 type=checkbox value=1 >
+<td class=data2Col  last  colSpan=2>
+<span id=j_id0:j_id2:j_id3:j_id4:j_id72:j_id73>
+<table bgcolor=#ffffff width=700>
+<td style=padding-left:20px; padding-right:20px; width=750>
+<span class=confidentiality_text>
 <center>
-<input class="btn" id="j_id0:j_id2:j_id3:j_id4:j_id72:j_id75" name="j_id0:j_id2:j_id3:j_id4:j_id72:j_id75" onclick="A4J.AJAX.Submit('j_id0:j_id2',event,{'similarityGroupingId':'j_id0:j_id2:j_id3:j_id4:j_id72:j_id75','parameters':{'j_id0:j_id2:j_id3:j_id4:j_id72:j_id75':'j_id0:j_id2:j_id3:j_id4:j_id72:j_id75'} } );return false;" value="Submit" type="button" >
+<input class=btn id=j_id0:j_id2:j_id3:j_id4:j_id72:j_id75 name=j_id0:j_id2:j_id3:j_id4:j_id72:j_id75 onclick=A4J.AJAX.Submit(j_id0:j_id2,event,{similarityGroupingId:j_id0:j_id2:j_id3:j_id4:j_id72:j_id75,parameters:{j_id0:j_id2:j_id3:j_id4:j_id72:j_id75:j_id0:j_id2:j_id3:j_id4:j_id72:j_id75} } );return false; value=Submit type=button >

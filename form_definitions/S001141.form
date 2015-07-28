@@ -119,7 +119,6 @@
 <option value="JOBS">
 <option value="LABOR">
 <option value="MEDICARE">
-<option value="MEETING REQUEST">
 <option value="ACADEMY">
 <option value="NASA">
 <option value="POSTAL">
@@ -142,9 +141,4 @@
 <script>
 <fieldset class="inlineLabels">
 <legend>
-<span class="help-block">
-<noscript>
-<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdqftYSAAAAAMcQ9ns2GSNcmQG7CiX-8kMyxMnJ"
-	       height="300" width="500" frameborder="0">
-<textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <input type="submit" class="btn btn-primary" value="Submit" >

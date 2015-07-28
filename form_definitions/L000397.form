@@ -29,7 +29,7 @@
 <td align=right>
 <input maxlength=190 size=60 type=text name=required-address required=required class=>
 <td align=right>
-<td class=        >
+<td class=       >
 <input maxlength=45 type=text name=required-city required=required class=>
 <select name=required-state required=required>
 <option selected=true value=CA>

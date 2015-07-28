@@ -25,6 +25,8 @@
 <option value=Colonel>
 <option value=Secretary>
 <option value=Assistant Secretary>
+<option value=Mayor>
+<option value=Governor>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl09_FirstName>
 <span class=header>

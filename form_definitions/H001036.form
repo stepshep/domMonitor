@@ -124,22 +124,37 @@
 <legend>
 <select name=ctl00$ctl20$IssuesList id=ctl00_ctl20_IssuesList>
 <option value=>
-<option value=3455>
 <option value=3456>
-<option value=3457>
+<option value=120812>
+<option value=120813>
+<option value=120814>
+<option value=120815>
+<option value=120816>
+<option value=120817>
+<option value=120818>
+<option value=120819>
+<option value=120820>
+<option value=120821>
 <option value=3458>
+<option value=120822>
+<option value=120823>
 <option value=3459>
 <option value=3460>
-<option value=3461>
-<option value=3462>
+<option value=120832>
+<option value=120824>
+<option value=120825>
 <option value=3463>
+<option value=120826>
 <option value=3464>
+<option value=120827>
+<option value=120828>
+<option value=120829>
 <option value=3465>
+<option value=120831>
 <option value=3466>
 <option value=3467>
 <option value=3468>
 <option value=3469>
-<option value=3470>
 <fieldset>
 <legend>
 <table id=ctl00_ctl20_ReplyChoice>

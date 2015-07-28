@@ -113,6 +113,7 @@
 <textarea name=required-message id=message cols=45 rows=4>
 <td align=right>
 <input type=radio name=affl1 value=subscribe E-UPDATE-113-MA07 id=subscribe checked=>
+<input type=radio name=affl1 value=unsubscribe E-UPDATE-113-MA07 id=unsubscribe>
 <input type=radio name=affl1 value= id=noaction>
 <td colspan=2 align=center>
 <input name=Submit type=submit value=Send my message>

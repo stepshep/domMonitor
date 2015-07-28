@@ -116,6 +116,12 @@
 <input type="checkbox" name="field_B85F3D7D-F945-4F0F-9F46-D4CC41AB055D" id="field_B85F3D7D-F945-4F0F-9F46-D4CC41AB055D_1" value="SUBSCRIBE.WEEKLYNEWS" >
 <fieldset class="inlineLabels">
 <p class="legend">
+<!--
+		var RecaptchaOptions = {
+		   theme : 'red',
+		   tabindex : 0
+		};
+	//-->
 <noscript>
 <iframe src="https://www.google.com/recaptcha/api/noscript?k=6LciZM4SAAAAAM5yL1iZvOoX97m3Ghw_Pxc8jILC"
 	       height="300" width="500" frameborder="0">

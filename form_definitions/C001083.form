@@ -58,6 +58,7 @@
 <span class=required-field title=required information>
 <select class=validate[required] is-required id=required-issue name=required-issue size=1>
 <option selected=selected value=>
+<option value=CW-General>
 <option value=--->
 <option value=AGR>
 <option value=BUD>
