@@ -162,25 +162,25 @@
 <legend>
 <label for=subject>
 <input name=subject type=radio value=Afghanistan id=subject_Afghanistan  >
-<input name=subject type=radio value=Immigration Reform id=subject_Immigration Reform  >
-<input name=subject type=radio value=Agriculture id=subject_Agriculture  >
 <input name=subject type=radio value=Iraq id=subject_Iraq  >
-<input name=subject type=radio value=Animals Rights id=subject_Animals Rights  >
+<input name=subject type=radio value=Agriculture id=subject_Agriculture  >
 <input name=subject type=radio value=Israel id=subject_Israel  >
-<input name=subject type=radio value=Civil Rights id=subject_Civil Rights  >
-<input name=subject type=radio value=Job Creation id=subject_Job Creation  >
-<input name=subject type=radio value=Crime and Public Safety id=subject_Crime and Public Safety  >
+<input name=subject type=radio value=Animal Welfare id=subject_Animal Welfare  >
 <input name=subject type=radio value=Judiciary id=subject_Judiciary  >
-<input name=subject type=radio value=Economy id=subject_Economy  >
+<input name=subject type=radio value=Civil Rights id=subject_Civil Rights  >
 <input name=subject type=radio value=Labor and Pensions id=subject_Labor and Pensions  >
-<input name=subject type=radio value=Education id=subject_Education  >
+<input name=subject type=radio value=Crime and Public Safety id=subject_Crime and Public Safety  >
 <input name=subject type=radio value=LGBT Rights id=subject_LGBT Rights  >
-<input name=subject type=radio value=Energy id=subject_Energy  >
+<input name=subject type=radio value=Economy id=subject_Economy  >
 <input name=subject type=radio value=Medicare/Medicaid id=subject_Medicare/Medicaid  >
-<input name=subject type=radio value=Environment id=subject_Environment  >
+<input name=subject type=radio value=Education id=subject_Education  >
 <input name=subject type=radio value=National Security id=subject_National Security  >
-<input name=subject type=radio value=Ethics Reform id=subject_Ethics Reform  >
+<input name=subject type=radio value=Energy id=subject_Energy  >
+<input name=subject type=radio value=Nutrition id=subject_Nutrition  >
+<input name=subject type=radio value=Public Benefits id=subject_Public Benefits  >
+<input name=subject type=radio value=Environment id=subject_Environment  >
 <input name=subject type=radio value=Poverty id=subject_Poverty  >
+<input name=subject type=radio value=Ethics Reform id=subject_Ethics Reform  >
 <input name=subject type=radio value=Federal Grant Applications id=subject_Federal Grant Applications  >
 <input name=subject type=radio value=Science/Technology id=subject_Science/Technology  >
 <input name=subject type=radio value=Financial Services id=subject_Financial Services  >
@@ -195,6 +195,8 @@
 <input name=subject type=radio value=Veterans id=subject_Veterans  >
 <input name=subject type=radio value=Housing id=subject_Housing  >
 <input name=subject type=radio value=Womens Issues id=subject_Womens Issues  >
+<input name=subject type=radio value=Immigration Reform id=subject_Immigration Reform  >
+<input name=subject type=radio value=Other id=subject_Other  >
 <label for=comment>
 <textarea cols=30 rows=20 name=comments>
 <input type=image value=submit src=http://www.gillibrand.senate.gov/images/contact/send_your_comments.png alt=Send Your Comments class=rollover >
