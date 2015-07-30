@@ -65,7 +65,7 @@
 <select name=field493[] id=field493 size=  class=select>
 <option value=Please Choose One...>
 <option value=Administration>
-<option value=Choose Respect - Ending Domestic Violence and Sexual Assault in Alaska>
+<option value=Building a Sustainable Future>
 <option value=Corrections>
 <option value=Economic Growth / Opportunity>
 <option value=Education>
@@ -75,6 +75,7 @@
 <option value=Jobs>
 <option value=Kids>
 <option value=Labor>
+<option value=Medicaid Reform and Expansion>
 <option value=Military Affairs>
 <option value=Natural Resources>
 <option value=Oil and Gas>
@@ -91,7 +92,9 @@
 <textarea name=field494 id=field494 class=textarea cols=25 rows=5>
 <td colspan=2>
 <h4>
-<input class=field_checkbox type=checkbox id=wb_All name=field540[0] value=All >
-<label for=wb_All class=checkbox_label>
-<input class=field_checkbox type=checkbox id=wb_Building_a_Sustainable_Future name=field540[1] value=Building a Sustainable Future >
+<input class=field_checkbox type=checkbox id=wb_All_Newsletters name=field540[0] value=All Newsletters >
+<label for=wb_All_Newsletters class=checkbox_label>
+<input class=field_checkbox type=checkbox id=wb_Medicaid_Reform_and_Expansion name=field540[1] value=Medicaid Reform and Expansion >
+<label for=wb_Medicaid_Reform_and_Expansion class=checkbox_label>
+<input class=field_checkbox type=checkbox id=wb_Building_a_Sustainable_Future name=field540[2] value=Building a Sustainable Future >
 <label for=wb_Building_a_Sustainable_Future class=checkbox_label>
