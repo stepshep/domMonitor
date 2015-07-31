@@ -150,6 +150,7 @@
 <option value=VETS>
 <option value=WELF>
 <option value=WOMENS>
+<option value=Civil Rights>
 <label for=field_250a9cb8-13dc-40f7-94fb-d301593db4c9>
 <strong class=required>
 <input type=text class=textInput name=field_250a9cb8-13dc-40f7-94fb-d301593db4c9 id=field_250a9cb8-13dc-40f7-94fb-d301593db4c9 value= >

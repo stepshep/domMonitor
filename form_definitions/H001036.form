@@ -19,6 +19,9 @@
 <option value=SSGT>
 <option value=SMSgt.>
 <option value=CAPT>
+<option value=COL>
+<option value=MAJ>
+<option value=GEN>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl20_FirstName>
 <span class=header>
