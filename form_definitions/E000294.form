@@ -27,7 +27,7 @@
 <input class=form-control id=address2 maxlength=100 name=address2 type=text>
 <label class=control-label for=required-city>
 <input class=form-control id=required-city maxlength=100 name=required-city required= type=text>
-<input class=col-sm-2 form-control id=required-state maxlength=2 name=required-state readonly=readonly value=MN type=text>
+<input class=col-sm-2 form-control id=required-state maxlength=2 name=required-state readonly=readonly type=text value=MN>
 <input value=56387 class=col-sm-2 form-control id=required-zip5 maxlength=5 name=required-zip5 readonly=readonly type=text>
 <input value=1313 class=col-sm-2 form-control id=zip4 maxlength=5 name=zip4 readonly=readonly type=text>
 <label class=control-label for=required-valid-email>
@@ -42,55 +42,10 @@
 <option title=Text-telephone device value=TTD>
 <fieldset>
 <legend>
-<label class=control-label for=required-issue>
-<select class=form-control id=required-issue name=required-issue required= size=1>
-<option disabled=disabled selected=selected value=>
-<option value=AGR>
-<option value=AW>
-<option value=ART>
-<option value=BANK>
-<option value=BUD>
-<option value=Casework>
-<option value=CONG>
-<option value=DEF>
-<option value=ECON>
-<option value=EDU>
-<option value=ENE>
-<option value=ENV>
-<option value=FED>
-<option value=FA>
-<option value=GOV>
-<option value=GUN>
-<option value=HEA>
-<option value=HOM>
-<option value=HUD>
-<option value=IMM>
-<option value=JUD>
-<option value=LAB>
-<option value=NA>
-<option value=NRN>
-<option value=POST>
-<option value=SCI>
-<option value=SOC>
-<option value=SENIORS>
-<option value=SSEC>
-<option value=TAX>
-<option value=TEL>
-<option value=TRA>
-<option value=TRADE>
-<option value=VET>
-<option value=WOMEN>
-<option value=WEL>
-<option value=OTHER>
 <label class=control-label for=required-message>
 <textarea class=form-control cols=68 id=required-message name=required-message required= rows=5 type=text>
-<label class=control-label for=required-response>
-<select class=form-control id=required-response name=required-response required=>
-<option disabled=disabled selected=selected>
-<option value=Y>
-<option value=N>
 <fieldset>
 <legend>
 <label for=subscribe>
-<input id=subscribe name=subscribe value=affl type=checkbox>
+<input id=subscribe name=subscribe type=checkbox value=affl>
 <button class=btn btn-success id=submit type=submit>

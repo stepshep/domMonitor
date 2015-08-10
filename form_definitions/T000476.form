@@ -220,6 +220,7 @@
 <input type=text class=form-control name=field_F35EA2FD-C92A-4FFC-9CE0-637B8AEECB54 id=field_F35EA2FD-C92A-4FFC-9CE0-637B8AEECB54 value= >
 <span class=help-inline>
 <label class=control-label for=field_64322B9D-7F15-47DA-B656-9843D7D04866>
+<strong class=required>
 <input type=text class=form-control name=field_64322B9D-7F15-47DA-B656-9843D7D04866 id=field_64322B9D-7F15-47DA-B656-9843D7D04866 value= >
 <span class=help-inline>
 <label class=control-label for=field_5C0C729A-D702-46F1-9821-7DD7E565E136>

@@ -27,7 +27,7 @@
 <input class=form-control id=address2 maxlength=100 name=address2 type=text>
 <label class=control-label for=required-city>
 <input class=form-control id=required-city maxlength=100 name=required-city required= type=text>
-<input class=col-sm-2 form-control id=required-state maxlength=2 name=required-state readonly=readonly value=MI type=text>
+<input class=col-sm-2 form-control id=required-state maxlength=2 name=required-state readonly=readonly type=text value=MI>
 <input value=48226 class=col-sm-2 form-control id=required-zip5 maxlength=5 name=required-zip5 readonly=readonly type=text>
 <input value=2944 class=col-sm-2 form-control id=zip4 maxlength=5 name=zip4 readonly=readonly type=text>
 <label class=control-label for=required-valid-email>
@@ -96,5 +96,5 @@
 <fieldset>
 <legend>
 <label for=subscribe>
-<input id=subscribe name=subscribe value=Y type=checkbox>
+<input id=subscribe name=subscribe type=checkbox value=AFFL>
 <button class=btn btn-success id=submit type=submit>

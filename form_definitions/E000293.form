@@ -87,9 +87,8 @@
 <option value=WOMEN>
 <option value=WEL>
 <option value=OTHER>
-<label for=required-subject aria-invalid=false>
-<span style=color:#FF0000>
-<input class=validate[required] is-required id=required-subject maxlength=100 name=required-subject placeholder=Message Subject type=text>
+<label for=subject>
+<input class= id=subject maxlength=100 name=subject placeholder=Message Subject type=text>
 <label for=required-message aria-invalid=false>
 <span style=color:#FF0000>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message placeholder=Text of Message rows=5>

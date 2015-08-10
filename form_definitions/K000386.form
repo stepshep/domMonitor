@@ -16,6 +16,8 @@
 <option value=Ms.>
 <option value=Senator>
 <option value=Mr. and Mrs.>
+<option value=Major General>
+<option value=Col.>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl09_FirstName>
 <span class=header>

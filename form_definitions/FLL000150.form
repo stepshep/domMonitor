@@ -1,6 +1,9 @@
 <form name=aspnetForm method=post action=emailrepresentative.aspx?MemberId=4527&amp;LegislativeTermId=86 id=aspnetForm>
 <h1>
 <ul id=masterpage_navlist>
+<p class=marqueetitletext>
+<span id=ctrlContentBox_lblSessionLaterToday class=textLargerSessionText>
+<span class=textLargerSessionText>
 <ul class=breadcrumb>
 <h1 class=ribbon>
 <span id=ctl00_ContentPlaceHolder1_lblPrefix class=white>

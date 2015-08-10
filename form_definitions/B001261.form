@@ -94,6 +94,8 @@
 <input type=text class=textInput name=field_d2bb608a-1c26-41f5-aa6d-7bb9ae611ce1 id=field_d2bb608a-1c26-41f5-aa6d-7bb9ae611ce1 value= >
 <label class=control-label for=field_56ca3f1a-e63a-4082-8816-a227344636d5>
 <input type=text class=textInput name=field_56ca3f1a-e63a-4082-8816-a227344636d5 id=field_56ca3f1a-e63a-4082-8816-a227344636d5 value= >
+<label class=control-label for=field_f205fb87-9817-40f7-9aea-77457a98d328>
+<input type=text class=textInput name=field_f205fb87-9817-40f7-9aea-77457a98d328 id=field_f205fb87-9817-40f7-9aea-77457a98d328 value= >
 <label class=control-label for=field_ff59bb0a-1685-421f-81b4-6299b34bf028>
 <strong class=required>
 <input type=text class=textInput name=field_ff59bb0a-1685-421f-81b4-6299b34bf028 id=field_ff59bb0a-1685-421f-81b4-6299b34bf028 value= >
@@ -125,6 +127,7 @@
 <option value=Environment>
 <option value=Federal Debt>
 <option value=Flag Request>
+<option value=Foreign Relations>
 <option value=Government>
 <option value=Healthcare>
 <option value=Human Rights>

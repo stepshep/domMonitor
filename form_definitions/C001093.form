@@ -90,7 +90,7 @@
 <option value=WY>
 <label for=req_zip>
 <span title=required information>
-<input value=30577 class=zip z5 filled id=req_zip maxlength=5 name=zipcode type=text>
+<input value=30501 class=zip z5 filled id=req_zip maxlength=5 name=zipcode type=text>
 <label for=req_email>
 <span title=required information>
 <input type=text name=emailaddress id=req_email maxlength=100 class=text eml filled>
