@@ -18,6 +18,7 @@
 <option value=Lt. Col.>
 <option value=Maj. Gen.>
 <option value=RADM>
+<option value=Mr. &amp; Mrs.>
 <tr class=wyr-firstname>
 <label for=ctl00_ctl14_FirstName>
 <span class=header>

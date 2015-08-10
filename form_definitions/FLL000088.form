@@ -2,8 +2,7 @@
 <h1>
 <ul id=masterpage_navlist>
 <p class=marqueetitletext>
-<span id=ctrlContentBox_lblSessionLaterToday class=textLargerSessionText>
-<span class=textLargerSessionText>
+<span id=ctrlContentBox_lblSessionAdjournedMsg class=textLargerSessionText>
 <ul class=breadcrumb>
 <h1 class=ribbon>
 <span id=ctl00_ContentPlaceHolder1_lblPrefix class=white>

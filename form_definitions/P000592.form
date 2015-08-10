@@ -86,4 +86,6 @@
 <option value=>
 <option value=N>
 <option value=Y>
+<fieldset class=inlineLabels>
+<legend>
 <input type=submit class=btn btn-primary value=Submit >
