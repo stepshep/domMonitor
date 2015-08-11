@@ -96,7 +96,7 @@
 <span class=s4-die>
 <h2 class=SiteRed>
 <label for=legis-cf-eUpdateSignUp>
-<input type=radio value=Yes name=Legis-eUpdateSignUp id=legis-cf-eUpdateSignUp  >
+<input type=radio value=Yes name=Legis-eUpdateSignUp id=legis-cf-eUpdateSignUp >
 <label for=legis-cf-name-first class=legis-cf-label>
 <input type=text name=Legis-Name-First id=legis-cf-name-first class=legis-cf-input required minlength=2 >
 <label for=legis-cf-name-last class=legis-cf-label>
@@ -114,7 +114,7 @@
 <label for=legis-cf-email class=legis-cf-label>
 <input type=text name=Legis-Email id=legis-cf-email class=legis-cf-input email >
 <label for=legis-cf-subject class=legis-cf-label>
-<input type=text name=Legis-subject id=legis-cf-subject class=legis-cf-input  >
+<input type=text name=Legis-subject id=legis-cf-subject class=legis-cf-input >
 <label for=legis-cf-message class=legis-cf-label>
 <textarea name=Legis-Message id=legis-cf-message class=legis-cf-input cols=50 rows=10>
 <input type=submit name=ctl00$PlaceHolderMain$ctl03$btnSubmit value=Submit Contact onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PlaceHolderMain$ctl03$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_PlaceHolderMain_ctl03_btnSubmit class=legis-email-submit-btn >

@@ -41,7 +41,7 @@
 <input type=text name=phone id=req_phone onfocus=formatPhone(this) class=text maxlength=14 >
 <td align=right class=tabletext>
 <label for=req_email>
-<input type=text maxlength=190 name=emailaddress id=req_email onblur=emailCheck(this) class=text  >
+<input type=text maxlength=190 name=emailaddress id=req_email onblur=emailCheck(this) class=text >
 <fieldset>
 <legend accesskey=q>
 <label class=contactForm for=req_issue>

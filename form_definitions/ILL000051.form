@@ -9,6 +9,6 @@
 <input type=text name=subject id=contact_subject size=30 class=inputbox value= >
 <label class=label-top for=contact_text>
 <textarea cols=50 rows=10 name=text id=contact_text class=inputbox required>
-<input type=checkbox name=email_copy id=contact_email_copy value=1  >
+<input type=checkbox name=email_copy id=contact_email_copy value=1 >
 <label for=contact_email_copy>
 <button class=button validate type=submit>

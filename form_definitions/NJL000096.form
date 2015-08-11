@@ -59,7 +59,7 @@
 <option value=CRIMINAL PROCEDURES>
 <option value=DOMESTIC RELATIONS>
 <option value=DOMESTIC RELATIONS - CHILD CUSTODY AND VISITATION>
-<option value=DOMESTIC RELATIONS - DIVORCE,  ALIMONY AND SPOUSAL SUPPORT>
+<option value=DOMESTIC RELATIONS - DIVORCE, ALIMONY AND SPOUSAL SUPPORT>
 <option value=DOMESTIC RELATIONS - MARRIAGE AND CIVIL UNIONS>
 <option value=DOMESTIC VIOLENCE>
 <option value=ECONOMIC DEVELOPMENT - INTERNATIONAL, STATE AND REGIONAL>
@@ -424,7 +424,7 @@
 <font size=1>
 <font color=810541 face=Verdana, Arial, Helvetica, sans-serif>
 <b>
-<input type=submit value=  Send   id=sendinfo name=sendinfo-->
+<input type=submit value= Send id=sendinfo name=sendinfo-->
 <center>
 <input type=button value=Submit Email id=senddata name=senddata onclick=validateForm()>
 <input type=reset value=Start Over name=reset>

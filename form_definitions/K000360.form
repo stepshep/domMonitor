@@ -3,8 +3,7 @@
 <input id="go" type="image" src="/images/clear.gif" width="20" height="20" alt="" title="Search" >
 <form id="nl_quick" name="nl_quick" action="/?p=newsletter&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
 <input type="input" name="email" value="Email" class="input-field nlq-email swap_value" >
-<input 
-		type="input" name="zip" value="ZIP" class="input-field nlq-zip swap_value" >
+<input type="input" name="zip" value="ZIP" class="input-field nlq-zip swap_value" >
 <form name="thisForm" id="thisForm" action="/?p=comment_on_legislation&clear_cache=1" method="post" class="form-contact" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <span class="req">
@@ -35,19 +34,19 @@
 <option value="Technical Sergeant">
 <label>
 <span class="req">
-<input name="firstName" id="firstName"  type="text" maxlength="100"  size="30"  >
+<input name="firstName" id="firstName" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="lastName" id="lastName"  type="text" maxlength="100"  size="30"  >
+<input name="lastName" id="lastName" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="Address1" id="Address1"  type="text" maxlength="200"  size="50"  >
+<input name="Address1" id="Address1" type="text" maxlength="200" size="50" >
 <label>
 <span class="req">
-<input name="Address2" id="Address2"  type="text" maxlength="200"  size="50"  >
+<input name="Address2" id="Address2" type="text" maxlength="200" size="50" >
 <label>
 <span class="req">
-<input name="city" id="city"  type="text" maxlength="50"  size="40"  >
+<input name="city" id="city" type="text" maxlength="50" size="40" >
 <label>
 <span class="req">
 <select name="State">
@@ -109,16 +108,16 @@
 <option value="WY">
 <label>
 <span class="req">
-<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  >
+<input name="zip" id="zip" type="text" maxlength="10" size="10" >
 <label>
 <span class="req">
-<input name="phone" id="phone"  type="text" maxlength="100"  size="30"  >
+<input name="phone" id="phone" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="email" id="email"  type="text" maxlength="100"  size="40"  >
+<input name="email" id="email" type="text" maxlength="100" size="40" >
 <label>
 <span class="req">
-<input name="vemail" id="vemail"  type="text" maxlength="100"  size="40"  >
+<input name="vemail" id="vemail" type="text" maxlength="100" size="40" >
 <label>
 <span class="req">
 <select name="Subject">
@@ -164,16 +163,10 @@
 <OPTION VALUE="Women's Issues">
 <label>
 <span class="req">
-<input name="messageSubject" id="messageSubject"  type="text" maxlength="75"  size="30"  class="input"  >
+<input name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" class="input" >
 <label>
 <span class="req">
-<TEXTAREA
-			NAME="MessageBody"
-			COLS="40"
-			ROWS="15"
-			WRAP="virtual"
-			REQUIRED="yes"
-			CLASS="textarea">
+<TEXTAREA NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" REQUIRED="yes" CLASS="textarea">
 <input class="normal-input" type="submit" value="Submit" name="Submit" >
 <input class="normal-input" onClick="javascript:document.thisForm.reset()" name="Clear" value="Clear" type="button" >
 <hr style="" >

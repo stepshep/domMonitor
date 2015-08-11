@@ -105,9 +105,9 @@
 <fieldset class=blockLabels>
 <p class=legend>
 <label for=MessageType_1 class=inlineLabel>
-<input type=radio name=MessageType id=MessageType_1 value=Express an opinion or share your views with me  >
+<input type=radio name=MessageType id=MessageType_1 value=Express an opinion or share your views with me >
 <label for=MessageType_2 class=inlineLabel>
-<input type=radio name=MessageType id=MessageType_2 value=CASEWORK  >
+<input type=radio name=MessageType id=MessageType_2 value=CASEWORK >
 <label for=Topic>
 <strong class=required>
 <select class=selectInput name=Topic id=Topic value=>

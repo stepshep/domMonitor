@@ -66,7 +66,7 @@
 <option label=First Lieutenant value=First Lieutenant>
 <option label=Second Lieutenant value=Second Lieutenant>
 <option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
-<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Command Chief Master Sergeant value=Command Chief Master Sergeant>
 <option label=Chief Master Sergeant value=Chief Master Sergeant>
 <option label=Senior Master Sergeant value=Senior Master Sergeant>
 <option label=Technical Sergeant value=Technical Sergeant>
@@ -77,18 +77,18 @@
 <option label=Attorney value=Attorney>
 <label for=first_name>
 <span class=required>
-<input name=first_name type=text id=first_name  >
+<input name=first_name type=text id=first_name >
 <label for=last_name>
 <span class=required>
-<input name=last_name type=text id=last_name  >
+<input name=last_name type=text id=last_name >
 <label for=street_address>
 <span class=required>
-<input name=street_address type=text id=street_address  >
+<input name=street_address type=text id=street_address >
 <label for=street_address_2>
-<input name=street_address_2 type=text id=street_address_2  >
+<input name=street_address_2 type=text id=street_address_2 >
 <label for=city>
 <span class=required>
-<input name=city type=text id=city  >
+<input name=city type=text id=city >
 <label for=state class=state>
 <span class=required>
 <select name=state id=state>
@@ -149,19 +149,19 @@
 <option value=WY>
 <label for=zip>
 <span class=required>
-<input name=zip type=text id=zip  >
+<input name=zip type=text id=zip >
 <label for=home_phone>
 <span class=required>
-<input name=home_phone type=text id=home_phone  >
+<input name=home_phone type=text id=home_phone >
 <label for=work_phone>
-<input name=work_phone type=text id=work_phone  >
+<input name=work_phone type=text id=work_phone >
 <label for=email>
 <span class=required>
-<input name=email type=text id=email  >
+<input name=email type=text id=email >
 <label for=verify_email>
 <span class=required>
-<input name=verify_email type=text id=verify_email  >
-<input name=newsletter type=checkbox value=newsletter id=newsletter  checked=checked  >
+<input name=verify_email type=text id=verify_email >
+<input name=newsletter type=checkbox value=newsletter id=newsletter checked=checked >
 <span class=internallabel>
 <label for=subject>
 <select name=topic id=topic >

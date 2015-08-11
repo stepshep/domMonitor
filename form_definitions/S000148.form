@@ -1,8 +1,8 @@
-<form id=contactForm  method=post  action=/contact/email-chuck  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact/email-chuck enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label class=control-label for=actions>
 <abbr title=Please select an option>
-<select id=actions class=form-control name=actions  onChange=javascript:getHelp(this.value);>
+<select id=actions class=form-control name=actions onChange=javascript:getHelp(this.value);>
 <option label=- - Select an option - - value=select selected=selected>
 <option label=Share your opinion or comments on bills or other issues value=opinion>
 <option label=Request a flag to be flown over the Capitol value=flag>
@@ -88,7 +88,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=form-control type=text name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=form-control type=text name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=home_phone_number>
 <abbr title=Your Phone number is a required field>
 <input type=text name=home_phone_number id=home_phone_number class=form-control aria-required=true placeholder=Required required>

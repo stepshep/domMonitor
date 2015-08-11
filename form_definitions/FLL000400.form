@@ -2,8 +2,6 @@
 <h1>
 <ul id=masterpage_navlist>
 <p class=marqueetitletext>
-<span id=ctrlContentBox_lblFutureMessage class=textLargerSessionText>
-<span id=ctrlContentBox_lblFutureDate class=textLargerSessionText>
 <ul class=breadcrumb>
 <h1 class=ribbon>
 <span id=ctl00_ContentPlaceHolder1_lblPrefix class=white>

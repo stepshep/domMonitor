@@ -1,4 +1,4 @@
-<form id=contactForm class=collapse  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm class=collapse method=post action=/contact enctype=application/x-www-form-urlencoded >
 <fieldset>
 <legend>
 <label class=control-label for=salutation>
@@ -237,7 +237,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=form-control type=text name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=form-control type=text name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=email_address>
 <abbr title=Your e-mail address is a required field>
 <input type=text name=email_address aria-required=true id=email class=form-control placeholder=Required required>

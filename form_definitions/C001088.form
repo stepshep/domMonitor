@@ -73,7 +73,7 @@
 <option label=First Lieutenant value=First Lieutenant>
 <option label=Second Lieutenant value=Second Lieutenant>
 <option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
-<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Command Chief Master Sergeant value=Command Chief Master Sergeant>
 <option label=Chief Master Sergeant value=Chief Master Sergeant>
 <option label=Senior Master Sergeant value=Senior Master Sergeant>
 <option label=Technical Sergeant value=Technical Sergeant>
@@ -84,7 +84,7 @@
 <label for=fname>
 <input type=text name=fname id=fname required=yes message=You must enter a first name to continue. placeholder=First Name class=validate[required] >
 <label for=lname>
-<input type=text name=lname id=lname required=yes message=You must enter a last name to continue. placeholder=Last Name  class=validate[required]>
+<input type=text name=lname id=lname required=yes message=You must enter a last name to continue. placeholder=Last Name class=validate[required]>
 <fieldset>
 <legend>
 <ol>
@@ -96,7 +96,7 @@
 <label for=phone_number>
 <input type=text name=phone_number validate=telephone id=phone_number required=no message=You must enter a phone number to continue. placeholder=(302) 555-1234 >
 <label for=mailing_streetAddress1>
-<input type=text name=mailing_streetAddress1 id=mailing_streetAddress1 required=yes message=You must enter a mailing address to continue. placeholder=Street Address  class=validate[required] >
+<input type=text name=mailing_streetAddress1 id=mailing_streetAddress1 required=yes message=You must enter a mailing address to continue. placeholder=Street Address class=validate[required] >
 <label for=mailing_streetAddress2>
 <input type=text name=mailing_streetAddress2 id=mailing_streetAddress2 placeholder=Street Address continued. >
 <ul class=col three>

@@ -81,10 +81,7 @@
 <strong class="required">
 <textarea name="field_59E68B70-1F23-4B9A-A19C-E40156896A9B" id="field_59E68B70-1F23-4B9A-A19C-E40156896A9B" >
 <label>
-<input type="checkbox" 
-						name="frontrunner_connect_optin"
-						checked="checked" 
-						value="1" >
+<input type="checkbox" name="frontrunner_connect_optin" checked="checked" value="1" >
 <input type="submit" value="Submit" >
 <form action="https://hurt.house.gov/index.cfm/newsletter-subscribe" method="GET">
 <input type="text" name="EmailAddress" value="" >

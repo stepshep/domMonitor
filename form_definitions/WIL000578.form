@@ -2,25 +2,13 @@
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="8158dc83-4143-4d5b-8770-f4d298b943ce" class="fieldLabel">
-<input type="text" name="8158dc83-4143-4d5b-8770-f4d298b943ce" id="8158dc83-4143-4d5b-8770-f4d298b943ce" class="text" value="" maxlength="500"
-data-val="true"
- data-val-required="Name is mandatory"
-
->
+<input type="text" name="8158dc83-4143-4d5b-8770-f4d298b943ce" id="8158dc83-4143-4d5b-8770-f4d298b943ce" class="text" value="" maxlength="500" data-val="true" data-val-required="Name is mandatory" >
 <span class="field-validation-valid" data-valmsg-for="8158dc83-4143-4d5b-8770-f4d298b943ce" data-valmsg-replace="true">
 <label for="f52f77ed-db9a-4e02-b619-77ea64543f39" class="fieldLabel">
-<input type="text" name="f52f77ed-db9a-4e02-b619-77ea64543f39" id="f52f77ed-db9a-4e02-b619-77ea64543f39" class="text" value="" maxlength="500"
-data-val="true"
- data-val-required="Email is mandatory"
-
->
+<input type="text" name="f52f77ed-db9a-4e02-b619-77ea64543f39" id="f52f77ed-db9a-4e02-b619-77ea64543f39" class="text" value="" maxlength="500" data-val="true" data-val-required="Email is mandatory" >
 <span class="field-validation-valid" data-valmsg-for="f52f77ed-db9a-4e02-b619-77ea64543f39" data-valmsg-replace="true">
 <label for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" class="fieldLabel">
-<textarea name="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" id="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" rows="2" cols="20"
-data-val="true"
- data-val-required="Message is mandatory"
-
->
+<textarea name="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" id="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" rows="2" cols="20" data-val="true" data-val-required="Message is mandatory" >
 <span class="field-validation-valid" data-valmsg-for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" data-valmsg-replace="true">
 <input type="text" name="821836621cbb4c8bbce3f374b03da112" >
 <input type="submit" class="btn primary" value="Submit" name="submit">
@@ -33,11 +21,7 @@ data-val="true"
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="c9204231-7756-4e10-cb50-60870fb4bb73" class="fieldLabel">
-<input type="text" name="c9204231-7756-4e10-cb50-60870fb4bb73" id="c9204231-7756-4e10-cb50-60870fb4bb73" class="text" value="" maxlength="500"
-
-
-
->
+<input type="text" name="c9204231-7756-4e10-cb50-60870fb4bb73" id="c9204231-7756-4e10-cb50-60870fb4bb73" class="text" value="" maxlength="500" >
 <span class="field-validation-valid" data-valmsg-for="c9204231-7756-4e10-cb50-60870fb4bb73" data-valmsg-replace="true">
 <input type="text" name="b1fb451d7e5e4f34a5191a9e2e43be99" >
 <input type="submit" class="btn primary" value="Submit" name="submit">

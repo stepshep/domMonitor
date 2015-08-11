@@ -1,8 +1,8 @@
 <form id="site-search" role="search" method="get" action="/search" class="form-search pull-right">
-<input type="search" id="search-field" name="q" placeholder="Type here to search&hellip;" value="Type here to search&hellip;"  onclick="this.value='';" >
+<input type="search" id="search-field" name="q" placeholder="Type here to search&hellip;" value="Type here to search&hellip;" onclick="this.value='';" >
 <button type="submit" class="btn">
 <i class="icon-search icon-white">
-<form id="contactForm"  method="post"  action="/contact"  enctype="application/x-www-form-urlencoded" >
+<form id="contactForm" method="post" action="/contact" enctype="application/x-www-form-urlencoded" >
 <fieldset>
 <legend>
 <label class="control-label" for="salutation">
@@ -177,9 +177,7 @@
 <option label="OH" value="OH" >
 <option label="OK" value="OK" >
 <option label="OR" value="OR" >
-<option label="PA" value="PA" 
-	
-selected="selected" >
+<option label="PA" value="PA" selected="selected" >
 <option label="RI" value="RI" >
 <option label="SC" value="SC" >
 <option label="SD" value="SD" >
@@ -194,78 +192,78 @@ selected="selected" >
 <option label="WY" value="WY" >
 <label id="county-label" for="parish">
 <span class="disappear">
-<select name="mailing_county" id="mailing_county" class="span12"  required="true">
+<select name="mailing_county" id="mailing_county" class="span12" required="true">
 <option label="--" value="">
-<option label="Adams" value="Adams"  >
-<option label="Allegheny" value="Allegheny"  >
-<option label="Armstrong" value="Armstrong"  >
-<option label="Beaver" value="Beaver"  >
-<option label="Bedford" value="Bedford"  >
-<option label="Berks" value="Berks"  >
-<option label="Blair" value="Blair"  >
-<option label="Bradford" value="Bradford"  >
-<option label="Bucks" value="Bucks"  >
-<option label="Butler" value="Butler"  >
-<option label="Cambria" value="Cambria"  >
-<option label="Cameron" value="Cameron"  >
-<option label="Carbon" value="Carbon"  >
-<option label="Centre" value="Centre"  >
-<option label="Chester" value="Chester"  >
-<option label="Clarion" value="Clarion"  >
-<option label="Clearfield" value="Clearfield"  >
-<option label="Clinton" value="Clinton"  >
-<option label="Columbia" value="Columbia"  >
-<option label="Crawford" value="Crawford"  >
-<option label="Cumberland" value="Cumberland"  >
-<option label="Dauphin" value="Dauphin"  >
-<option label="Delaware" value="Delaware"  >
-<option label="Elk" value="Elk"  >
-<option label="Erie" value="Erie"  >
-<option label="Fayette" value="Fayette"  >
-<option label="Forest" value="Forest"  >
-<option label="Franklin" value="Franklin"  >
-<option label="Fulton" value="Fulton"  >
-<option label="Greene" value="Greene"  >
-<option label="Huntingdon" value="Huntingdon"  >
-<option label="Indiana" value="Indiana"  >
-<option label="Jefferson" value="Jefferson"  >
-<option label="Juniata" value="Juniata"  >
-<option label="Lackawanna" value="Lackawanna"  >
-<option label="Lancaster" value="Lancaster"  >
-<option label="Lawrence" value="Lawrence"  >
-<option label="Lebanon" value="Lebanon"  >
-<option label="Lehigh" value="Lehigh"  >
-<option label="Luzerne" value="Luzerne"  >
-<option label="Lycoming" value="Lycoming"  >
-<option label="McKean" value="McKean"  >
-<option label="Mercer" value="Mercer"  >
-<option label="Mifflin" value="Mifflin"  >
-<option label="Monroe" value="Monroe"  >
-<option label="Montgomery" value="Montgomery"  >
-<option label="Montour" value="Montour"  >
-<option label="Northampton" value="Northampton"  >
-<option label="Northumberland" value="Northumberland"  >
-<option label="Perry" value="Perry"  >
-<option label="Philadelphia" value="Philadelphia"  >
-<option label="Pike" value="Pike"  >
-<option label="Potter" value="Potter"  >
-<option label="Schuylkill" value="Schuylkill"  >
-<option label="Snyder" value="Snyder"  >
-<option label="Somerset" value="Somerset"  >
-<option label="Sullivan" value="Sullivan"  >
-<option label="Susquehanna" value="Susquehanna"  >
-<option label="Tioga" value="Tioga"  >
-<option label="Union" value="Union"  >
-<option label="Venango" value="Venango"  >
-<option label="Warren" value="Warren"  >
-<option label="Washington" value="Washington"  >
-<option label="Wayne" value="Wayne"  >
-<option label="Westmoreland" value="Westmoreland"  >
-<option label="Wyoming" value="Wyoming"  >
-<option label="York" value="York"  >
+<option label="Adams" value="Adams" >
+<option label="Allegheny" value="Allegheny" >
+<option label="Armstrong" value="Armstrong" >
+<option label="Beaver" value="Beaver" >
+<option label="Bedford" value="Bedford" >
+<option label="Berks" value="Berks" >
+<option label="Blair" value="Blair" >
+<option label="Bradford" value="Bradford" >
+<option label="Bucks" value="Bucks" >
+<option label="Butler" value="Butler" >
+<option label="Cambria" value="Cambria" >
+<option label="Cameron" value="Cameron" >
+<option label="Carbon" value="Carbon" >
+<option label="Centre" value="Centre" >
+<option label="Chester" value="Chester" >
+<option label="Clarion" value="Clarion" >
+<option label="Clearfield" value="Clearfield" >
+<option label="Clinton" value="Clinton" >
+<option label="Columbia" value="Columbia" >
+<option label="Crawford" value="Crawford" >
+<option label="Cumberland" value="Cumberland" >
+<option label="Dauphin" value="Dauphin" >
+<option label="Delaware" value="Delaware" >
+<option label="Elk" value="Elk" >
+<option label="Erie" value="Erie" >
+<option label="Fayette" value="Fayette" >
+<option label="Forest" value="Forest" >
+<option label="Franklin" value="Franklin" >
+<option label="Fulton" value="Fulton" >
+<option label="Greene" value="Greene" >
+<option label="Huntingdon" value="Huntingdon" >
+<option label="Indiana" value="Indiana" >
+<option label="Jefferson" value="Jefferson" >
+<option label="Juniata" value="Juniata" >
+<option label="Lackawanna" value="Lackawanna" >
+<option label="Lancaster" value="Lancaster" >
+<option label="Lawrence" value="Lawrence" >
+<option label="Lebanon" value="Lebanon" >
+<option label="Lehigh" value="Lehigh" >
+<option label="Luzerne" value="Luzerne" >
+<option label="Lycoming" value="Lycoming" >
+<option label="McKean" value="McKean" >
+<option label="Mercer" value="Mercer" >
+<option label="Mifflin" value="Mifflin" >
+<option label="Monroe" value="Monroe" >
+<option label="Montgomery" value="Montgomery" >
+<option label="Montour" value="Montour" >
+<option label="Northampton" value="Northampton" >
+<option label="Northumberland" value="Northumberland" >
+<option label="Perry" value="Perry" >
+<option label="Philadelphia" value="Philadelphia" >
+<option label="Pike" value="Pike" >
+<option label="Potter" value="Potter" >
+<option label="Schuylkill" value="Schuylkill" >
+<option label="Snyder" value="Snyder" >
+<option label="Somerset" value="Somerset" >
+<option label="Sullivan" value="Sullivan" >
+<option label="Susquehanna" value="Susquehanna" >
+<option label="Tioga" value="Tioga" >
+<option label="Union" value="Union" >
+<option label="Venango" value="Venango" >
+<option label="Warren" value="Warren" >
+<option label="Washington" value="Washington" >
+<option label="Wayne" value="Wayne" >
+<option label="Westmoreland" value="Westmoreland" >
+<option label="Wyoming" value="Wyoming" >
+<option label="York" value="York" >
 <label for="mailing_zipCode">
 <abbr title="Your zip code is a required field">
-<input class="span12 required" type="text" name="mailing_zipCode"  id="mailing_zipCode" aria-required="true" placeholder="Required" required>
+<input class="span12 required" type="text" name="mailing_zipCode" id="mailing_zipCode" aria-required="true" placeholder="Required" required>
 <label for="email_address">
 <abbr title="Your e-mail address is a required field">
 <input type="email" name="email" aria-required="true" title="E-mail Address" id="email" class="span12 required email" placeholder="Required" required>

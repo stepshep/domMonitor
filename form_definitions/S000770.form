@@ -4,19 +4,19 @@
 <form name="thisForm" id="thisForm" method="post" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <span class="req">
-<input name="firstName" id="firstName"  type="text" maxlength="100"  size="30"  class="input-text"  >
+<input name="firstName" id="firstName" type="text" maxlength="100" size="30" class="input-text" >
 <label>
 <span class="req">
-<input name="lastName" id="lastName"  type="text" maxlength="100"  size="30"  class="input-text"  >
+<input name="lastName" id="lastName" type="text" maxlength="100" size="30" class="input-text" >
 <label>
 <span class="req">
-<input name="Address1" id="Address1"  type="text" maxlength="200"  size="50"  class="input-text"  >
+<input name="Address1" id="Address1" type="text" maxlength="200" size="50" class="input-text" >
 <label>
 <span class="req">
-<input name="Address2" id="Address2"  type="text" maxlength="200"  size="50"  class="input-text"  >
+<input name="Address2" id="Address2" type="text" maxlength="200" size="50" class="input-text" >
 <label>
 <span class="req">
-<input name="city" id="city"  type="text" maxlength="50"  size="40"  class="input-text"  >
+<input name="city" id="city" type="text" maxlength="50" size="40" class="input-text" >
 <label>
 <span class="req">
 <select class="input-select" name="State">
@@ -78,29 +78,22 @@
 <option value="WY">
 <label>
 <span class="req">
-<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  class="input-text"  >
+<input name="zip" id="zip" type="text" maxlength="10" size="10" class="input-text" >
 <label>
 <span class="req">
-<input name="phone" id="phone"  type="text" maxlength="100"  size="30"  class="input-text"  >
+<input name="phone" id="phone" type="text" maxlength="100" size="30" class="input-text" >
 <label>
 <span class="req">
-<input name="homePhone" id="homePhone"  type="text" maxlength="100"  size="30"  class="input-text"  >
+<input name="homePhone" id="homePhone" type="text" maxlength="100" size="30" class="input-text" >
 <label>
 <span class="req">
-<input name="email" id="email"  type="text" maxlength="100"  size="40"  class="input-text"  >
+<input name="email" id="email" type="text" maxlength="100" size="40" class="input-text" >
 <label>
 <span class="req">
-<input name="messageSubject" id="messageSubject"  type="text" maxlength="75"  size="30"  class="input-text"  >
+<input name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" class="input-text" >
 <label>
 <span class="req">
 <span class="req">
-<TEXTAREA
-			NAME="MessageBody"
-			COLS="50"
-			ROWS="15" 
-			REQUIRED="yes"
-			MESSAGE="Please enter a message."
-			WRAP="virtual"
-			CLASS="input-textarea">
+<TEXTAREA NAME="MessageBody" COLS="50" ROWS="15" REQUIRED="yes" MESSAGE="Please enter a message." WRAP="virtual" CLASS="input-textarea">
 <hr style="margin-top: 20px" >
 <input id="sf-submit" type="image" src="/images/btn-submit.gif" width="87" height="41" alt="" title="Submit my information" >

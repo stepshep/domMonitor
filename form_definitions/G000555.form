@@ -15,7 +15,7 @@
 <option label=Chief Petty Officer value=Chief Petty Officer>
 <option label=Chief Warrant Officer value=Chief Warrant Officer>
 <option label=Colonel value=Colonel>
-<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Command Chief Master Sergeant value=Command Chief Master Sergeant>
 <option label=Commander value=Commander>
 <option label=Congressman value=Congressman>
 <option label=Congresswoman value=Congresswoman>
@@ -76,18 +76,18 @@
 <option label=Warrant Officer value=Warrant Officer>
 <label for=requestor-fname>
 <span class=required>
-<input name=fname type=text id=fname  >
+<input name=fname type=text id=fname >
 <label for=requestor-lname>
 <span class=required>
-<input name=lname type=text id=last_name  >
+<input name=lname type=text id=last_name >
 <label for=requestor-address1>
 <span class=required>
-<input name=mailing_streetAddress1 type=text id=mailing_streetAddress1  >
+<input name=mailing_streetAddress1 type=text id=mailing_streetAddress1 >
 <label for=requestor-address2>
-<input name=mailing_streetAddress2 type=text id=mailing_streetAddress2  >
+<input name=mailing_streetAddress2 type=text id=mailing_streetAddress2 >
 <label for=requestor-city>
 <span class=required>
-<input name=mailing_city type=text id=mailing_city  >
+<input name=mailing_city type=text id=mailing_city >
 <label for=requestor-state class=state>
 <span class=required>
 <select name=state id=state>
@@ -145,58 +145,58 @@
 <option value=WY>
 <label for=requestor-zip>
 <span class=required>
-<input name=mailing_zipcode type=text id=mailing_zipcode  >
+<input name=mailing_zipcode type=text id=mailing_zipcode >
 <label for=requestor-phone>
-<input name=home_phone_number type=text id=home_phone_number  >
+<input name=home_phone_number type=text id=home_phone_number >
 <label for=requestor-phone>
-<input name=work_phone_number type=text id=work_phone_number  >
+<input name=work_phone_number type=text id=work_phone_number >
 <label for=requestor-email>
 <span class=required>
-<input name=email type=text id=email_address  >
+<input name=email type=text id=email_address >
 <label for=requestor-email>
 <span class=required>
-<input name=verify_email type=text id=verify_email  >
-<input name=newsletter type=checkbox value=newsletter id=newsletter  checked=checked  >
+<input name=verify_email type=text id=verify_email >
+<input name=newsletter type=checkbox value=newsletter id=newsletter checked=checked >
 <span class=internallabel>
 <fieldset>
 <legend>
 <label for=subject>
-<input name=subject type=radio value=Afghanistan id=subject_Afghanistan  >
-<input name=subject type=radio value=Iraq id=subject_Iraq  >
-<input name=subject type=radio value=Agriculture id=subject_Agriculture  >
-<input name=subject type=radio value=Israel id=subject_Israel  >
-<input name=subject type=radio value=Animal Welfare id=subject_Animal Welfare  >
-<input name=subject type=radio value=Judiciary id=subject_Judiciary  >
-<input name=subject type=radio value=Civil Rights id=subject_Civil Rights  >
-<input name=subject type=radio value=Labor and Pensions id=subject_Labor and Pensions  >
-<input name=subject type=radio value=Crime and Public Safety id=subject_Crime and Public Safety  >
-<input name=subject type=radio value=LGBT Rights id=subject_LGBT Rights  >
-<input name=subject type=radio value=Economy id=subject_Economy  >
-<input name=subject type=radio value=Medicare/Medicaid id=subject_Medicare/Medicaid  >
-<input name=subject type=radio value=Education id=subject_Education  >
-<input name=subject type=radio value=National Security id=subject_National Security  >
-<input name=subject type=radio value=Energy id=subject_Energy  >
-<input name=subject type=radio value=Nutrition id=subject_Nutrition  >
-<input name=subject type=radio value=Public Benefits id=subject_Public Benefits  >
-<input name=subject type=radio value=Environment id=subject_Environment  >
-<input name=subject type=radio value=Poverty id=subject_Poverty  >
-<input name=subject type=radio value=Ethics Reform id=subject_Ethics Reform  >
-<input name=subject type=radio value=Federal Grant Applications id=subject_Federal Grant Applications  >
-<input name=subject type=radio value=Science/Technology id=subject_Science/Technology  >
-<input name=subject type=radio value=Financial Services id=subject_Financial Services  >
-<input name=subject type=radio value=Social Security id=subject_Social Security  >
-<input name=subject type=radio value=Foreign Relations id=subject_Foreign Relations  >
-<input name=subject type=radio value=Taxes id=subject_Taxes  >
-<input name=subject type=radio value=Gun Violence id=subject_Gun Violence  >
-<input name=subject type=radio value=Telecommunications id=subject_Telecommunications  >
-<input name=subject type=radio value=Health Care id=subject_Health Care  >
-<input name=subject type=radio value=tours id=subject_tours  >
-<input name=subject type=radio value=Homeland Security id=subject_Homeland Security  >
-<input name=subject type=radio value=Veterans id=subject_Veterans  >
-<input name=subject type=radio value=Housing id=subject_Housing  >
-<input name=subject type=radio value=Womens Issues id=subject_Womens Issues  >
-<input name=subject type=radio value=Immigration Reform id=subject_Immigration Reform  >
-<input name=subject type=radio value=Other id=subject_Other  >
+<input name=subject type=radio value=Afghanistan id=subject_Afghanistan >
+<input name=subject type=radio value=Iraq id=subject_Iraq >
+<input name=subject type=radio value=Agriculture id=subject_Agriculture >
+<input name=subject type=radio value=Israel id=subject_Israel >
+<input name=subject type=radio value=Animal Welfare id=subject_Animal Welfare >
+<input name=subject type=radio value=Judiciary id=subject_Judiciary >
+<input name=subject type=radio value=Civil Rights id=subject_Civil Rights >
+<input name=subject type=radio value=Labor and Pensions id=subject_Labor and Pensions >
+<input name=subject type=radio value=Crime and Public Safety id=subject_Crime and Public Safety >
+<input name=subject type=radio value=LGBT Rights id=subject_LGBT Rights >
+<input name=subject type=radio value=Economy id=subject_Economy >
+<input name=subject type=radio value=Medicare/Medicaid id=subject_Medicare/Medicaid >
+<input name=subject type=radio value=Education id=subject_Education >
+<input name=subject type=radio value=National Security id=subject_National Security >
+<input name=subject type=radio value=Energy id=subject_Energy >
+<input name=subject type=radio value=Nutrition id=subject_Nutrition >
+<input name=subject type=radio value=Public Benefits id=subject_Public Benefits >
+<input name=subject type=radio value=Environment id=subject_Environment >
+<input name=subject type=radio value=Poverty id=subject_Poverty >
+<input name=subject type=radio value=Ethics Reform id=subject_Ethics Reform >
+<input name=subject type=radio value=Federal Grant Applications id=subject_Federal Grant Applications >
+<input name=subject type=radio value=Science/Technology id=subject_Science/Technology >
+<input name=subject type=radio value=Financial Services id=subject_Financial Services >
+<input name=subject type=radio value=Social Security id=subject_Social Security >
+<input name=subject type=radio value=Foreign Relations id=subject_Foreign Relations >
+<input name=subject type=radio value=Taxes id=subject_Taxes >
+<input name=subject type=radio value=Gun Violence id=subject_Gun Violence >
+<input name=subject type=radio value=Telecommunications id=subject_Telecommunications >
+<input name=subject type=radio value=Health Care id=subject_Health Care >
+<input name=subject type=radio value=tours id=subject_tours >
+<input name=subject type=radio value=Homeland Security id=subject_Homeland Security >
+<input name=subject type=radio value=Veterans id=subject_Veterans >
+<input name=subject type=radio value=Housing id=subject_Housing >
+<input name=subject type=radio value=Womens Issues id=subject_Womens Issues >
+<input name=subject type=radio value=Immigration Reform id=subject_Immigration Reform >
+<input name=subject type=radio value=Other id=subject_Other >
 <label for=comment>
 <textarea cols=30 rows=20 name=comments>
 <input type=image value=submit src=http://www.gillibrand.senate.gov/images/contact/send_your_comments.png alt=Send Your Comments class=rollover >

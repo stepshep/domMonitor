@@ -78,9 +78,9 @@
 <blockquote>
 <hr>
 <label for=legis-es-requestmtg class=legis-es-label>
-<input name=Legis-RequestMtg-Check id=legis-es-requestmtg  type=checkbox value=Requests-Meeting  >
+<input name=Legis-RequestMtg-Check id=legis-es-requestmtg type=checkbox value=Requests-Meeting >
 <label for=legis-es-requestcall class=legis-es-label>
-<input name=Legis-RequestCall-Check id=legis-es-requestcall  type=checkbox value=Requests-Call  >
+<input name=Legis-RequestCall-Check id=legis-es-requestcall type=checkbox value=Requests-Call >
 <hr>
 <label for=legis-es-email class=legis-es-label>
 <input type=text name=Legis-Email id=legis-es-email class=legis-es-input required email >
@@ -93,7 +93,7 @@
 <label for=legis-es-phone class=legis-es-label>
 <input type=text name=Legis-Phone id=legis-es-phone class=legis-es-input phoneUS >
 <label for=legis-es-subject class=legis-es-label>
-<input type=text name=Legis-Subject id=legis-es-subject class=legis-es-input  >
+<input type=text name=Legis-Subject id=legis-es-subject class=legis-es-input >
 <label for=legis-es-message class=legis-es-label>
 <textarea name=Legis-message cols=55 rows=10>
 <input type=submit name=ctl00$PlaceHolderMain$ctl03$btnSubmit value=Send onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PlaceHolderMain$ctl03$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_PlaceHolderMain_ctl03_btnSubmit class=legis-email-submit-btn >

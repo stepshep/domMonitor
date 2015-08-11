@@ -110,7 +110,7 @@
 <label style=font-weight: 700;color:#000 for=legis-cf-bestphone class=legis-cf-label>
 <input type=text name=Legis-BestPhone id=legis-cf-bestphone class=legis-cf-half phoneUS required >
 <label style=color: #000; for=legis-cf-phone-1-type class=legis-cf-label>
-<select  name=Legis-BestPhoneType id=legis-cf-phone-1-type>
+<select name=Legis-BestPhoneType id=legis-cf-phone-1-type>
 <option>
 <option>
 <option>
@@ -120,7 +120,7 @@
 <label for=legis-cf-phone-2 class=legis-cf-label>
 <input type=text name=Legis-Phone-2 id=legis-cf-phone-2 class=legis-cf-half phoneUS >
 <label for=legis-cf-phone-2-type class=legis-cf-label>
-<select  name=Legis-Phone2Type id=legis-cf-phone-2-type>
+<select name=Legis-Phone2Type id=legis-cf-phone-2-type>
 <option>
 <option>
 <option>
@@ -129,7 +129,7 @@
 <label for=legis-cf-phone-3 class=legis-cf-label>
 <input type=text name=Legis-Phone-3 id=legis-cf-phone-3 class=legis-cf-half phoneUS >
 <label for=legis-cf-phone-3-type class=legis-cf-label>
-<select  name=Legis-Phone3Type id=legis-cf-phone-3-type>
+<select name=Legis-Phone3Type id=legis-cf-phone-3-type>
 <option>
 <option>
 <option>

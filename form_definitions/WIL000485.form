@@ -2,54 +2,25 @@
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
 <label for="7c287d3d-1690-46b5-9b7f-23087c51e661" class="fieldLabel">
 <span class="help-block">
-<input type="text" name="7c287d3d-1690-46b5-9b7f-23087c51e661" id="7c287d3d-1690-46b5-9b7f-23087c51e661" class="text" value="" maxlength="500"
-data-val="true"
- data-val-required="Name is required"
-
->
+<input type="text" name="7c287d3d-1690-46b5-9b7f-23087c51e661" id="7c287d3d-1690-46b5-9b7f-23087c51e661" class="text" value="" maxlength="500" data-val="true" data-val-required="Name is required" >
 <span class="field-validation-valid" data-valmsg-for="7c287d3d-1690-46b5-9b7f-23087c51e661" data-valmsg-replace="true">
 <label for="a62f7c9f-72c1-4129-c9d1-590127e13505" class="fieldLabel">
-<input type="text" name="a62f7c9f-72c1-4129-c9d1-590127e13505" id="a62f7c9f-72c1-4129-c9d1-590127e13505" class="text" value="" maxlength="500"
-
-
-
->
+<input type="text" name="a62f7c9f-72c1-4129-c9d1-590127e13505" id="a62f7c9f-72c1-4129-c9d1-590127e13505" class="text" value="" maxlength="500" >
 <span class="field-validation-valid" data-valmsg-for="a62f7c9f-72c1-4129-c9d1-590127e13505" data-valmsg-replace="true">
 <label for="369f1bf2-4bfd-4d18-9640-d8bcffccf1ed" class="fieldLabel">
-<input type="text" name="369f1bf2-4bfd-4d18-9640-d8bcffccf1ed" id="369f1bf2-4bfd-4d18-9640-d8bcffccf1ed" class="text" value="" maxlength="500"
-
-
-
->
+<input type="text" name="369f1bf2-4bfd-4d18-9640-d8bcffccf1ed" id="369f1bf2-4bfd-4d18-9640-d8bcffccf1ed" class="text" value="" maxlength="500" >
 <span class="field-validation-valid" data-valmsg-for="369f1bf2-4bfd-4d18-9640-d8bcffccf1ed" data-valmsg-replace="true">
 <label for="274a00a3-373f-431e-ac2c-7bd150172ecf" class="fieldLabel">
-<input type="text" name="274a00a3-373f-431e-ac2c-7bd150172ecf" id="274a00a3-373f-431e-ac2c-7bd150172ecf" class="text" value="" maxlength="500"
-
-
-
->
+<input type="text" name="274a00a3-373f-431e-ac2c-7bd150172ecf" id="274a00a3-373f-431e-ac2c-7bd150172ecf" class="text" value="" maxlength="500" >
 <span class="field-validation-valid" data-valmsg-for="274a00a3-373f-431e-ac2c-7bd150172ecf" data-valmsg-replace="true">
 <label for="94d97197-549e-4ca5-a91c-e04884d02f0e" class="fieldLabel">
-<input type="email" name="94d97197-549e-4ca5-a91c-e04884d02f0e" id="94d97197-549e-4ca5-a91c-e04884d02f0e" class="text" value="" maxlength="500"
-data-val="true"
- data-val-required="Email is mandatory"
-
->
+<input type="email" name="94d97197-549e-4ca5-a91c-e04884d02f0e" id="94d97197-549e-4ca5-a91c-e04884d02f0e" class="text" value="" maxlength="500" data-val="true" data-val-required="Email is mandatory" >
 <span class="field-validation-valid" data-valmsg-for="94d97197-549e-4ca5-a91c-e04884d02f0e" data-valmsg-replace="true">
 <label for="8412a36e-a01b-4310-e385-1cf1ea3f593d" class="fieldLabel">
-<input type="tel" name="8412a36e-a01b-4310-e385-1cf1ea3f593d" id="8412a36e-a01b-4310-e385-1cf1ea3f593d" class="text" data-rule-phoneUS="true" pattern='[\(]?\d{3}[\)]?[\-. ]?\d{3}[\-. ]?\d{4}' value="" maxlength="500"
-    
-
-
-    title ="Phone Number is not valid"
->
+<input type="tel" name="8412a36e-a01b-4310-e385-1cf1ea3f593d" id="8412a36e-a01b-4310-e385-1cf1ea3f593d" class="text" data-rule-phoneUS="true" pattern='[\(]?\d{3}[\)]?[\-. ]?\d{3}[\-. ]?\d{4}' value="" maxlength="500" title ="Phone Number is not valid" >
 <span class="field-validation-valid" data-valmsg-for="8412a36e-a01b-4310-e385-1cf1ea3f593d" data-valmsg-replace="true">
 <label for="7d33c19d-2881-425b-a302-d59ff8102b55" class="fieldLabel">
-<textarea name="7d33c19d-2881-425b-a302-d59ff8102b55" id="7d33c19d-2881-425b-a302-d59ff8102b55" rows="2" cols="20"
-data-val="true"
- data-val-required="Comments is mandatory"
-
->
+<textarea name="7d33c19d-2881-425b-a302-d59ff8102b55" id="7d33c19d-2881-425b-a302-d59ff8102b55" rows="2" cols="20" data-val="true" data-val-required="Comments is mandatory" >
 <span class="field-validation-valid" data-valmsg-for="7d33c19d-2881-425b-a302-d59ff8102b55" data-valmsg-replace="true">
 <input type="text" name="e839dad60092489a9aad837726e1761b" >
 <input type="submit" class="btn primary" value="Submit" name="submit">

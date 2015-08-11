@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact/write-martin  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact/write-martin enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label for=topic>
 <abbr title=Please enter a message topic for your message>
@@ -122,7 +122,7 @@
 <option label=First Lieutenant value=First Lieutenant>
 <option label=Second Lieutenant value=Second Lieutenant>
 <option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
-<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Command Chief Master Sergeant value=Command Chief Master Sergeant>
 <option label=Chief Master Sergeant value=Chief Master Sergeant>
 <option label=Senior Master Sergeant value=Senior Master Sergeant>
 <option label=Technical Sergeant value=Technical Sergeant>
@@ -201,7 +201,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=span2 required type=text name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=span2 required type=text name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=phone_number>
 <input type=tel name=phone_number id=phone_number class=span8>
 <label for=email>
@@ -220,4 +220,4 @@
 <textarea id=message class=span8 required rows=10 name=message aria-required=true>
 <label for=newsletter class=checkbox clearfix>
 <input type=checkbox name=newsletter value=Yes checked=checked>
-<input class=btn pull-right type=submit  value=Submit >
+<input class=btn pull-right type=submit value=Submit >

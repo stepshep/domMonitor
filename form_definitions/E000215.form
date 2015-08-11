@@ -5,8 +5,7 @@
 <form class="searchform" action="http://eshoo.house.gov" method="get">
 <input type="search" name="s" placeholder="Search for..." class="user-success">
 <input type="submit" alt="Submit Form" value="" >
-<form name="myForm"  id="atform" method="post"  onsubmit="storeValues(this);" 
-                    action='/htbin/formproc.pl?/eshoo/wp-content/themes/Eshoo/formfiles/contact.txt&amp;display=/eshoo/wp-content/themes/Eshoo/formfiles/redirect.html&amp;nobase&amp;fpGetVer=2'				>
+<form name="myForm" id="atform" method="post" onsubmit="storeValues(this);" action='/htbin/formproc.pl?/eshoo/wp-content/themes/Eshoo/formfiles/contact.txt&amp;display=/eshoo/wp-content/themes/Eshoo/formfiles/redirect.html&amp;nobase&amp;fpGetVer=2' >
 <fieldset>
 <h2>
 <label>

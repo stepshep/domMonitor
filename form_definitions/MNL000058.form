@@ -29,7 +29,7 @@
 <LABEL FOR=form_title>
 <td style=vertical-align:top;color:red;font-weight:bold;>
 <td style=vertical-align:top; class=detail>
-<select  name=form_title>
+<select name=form_title>
 <option value=>
 <option value=Mr.>
 <option value=Miss>

@@ -1,6 +1,6 @@
 <form action="http://search.state.nj.us/query.html" method="get" name="seek" id="seek">
 <label for="qt" title="enter keyword here" accesskey="s">
-<select  name="qp" id="qp" class="selectbox">
+<select name="qp" id="qp" class="selectbox">
 <option value="" selected="selected">
 <option value="+url:www.state.nj.us/governor/">
 <input name="qt" type="text" id="qt" size="8" class="searchbox" title="Enter the terms you wish to search for." >

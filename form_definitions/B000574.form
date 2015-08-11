@@ -1,8 +1,4 @@
-<FORM METHOD=POST 
-
-
-
-ACTION="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/blumenauer/webforms/issue_subscribe_verify.htm">
+<FORM METHOD=POST ACTION="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/blumenauer/webforms/issue_subscribe_verify.htm">
 <table>
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
 <p class="labelcell">
@@ -18,7 +14,7 @@ ACTION="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/bl
 <input type="text" id="middle" name="middle" size="5" maxlength="5" class="inputbox" >
 <td class=" labelcell ">
 <label for="name_last">
-<INPUT  TYPE=TEXT id="name_last" NAME="required-last" size="30" maxlength=50 class="inputbox">
+<INPUT TYPE=TEXT id="name_last" NAME="required-last" size="30" maxlength=50 class="inputbox">
 <td class=" labelcell ">
 <label for="suffix">
 <input type="text" id="suffix" name="suffix" size="5" maxlength="5" class="inputbox" >
@@ -89,7 +85,7 @@ ACTION="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/bl
 <option class="inputbox" value="AP">
 <td class=" labelcell ">
 <label for="zip">
-<input type=TEXT id="required-zip5" NAME="required-zip5"  SIZE="5" maxlength="5" class="inputbox">
+<input type=TEXT id="required-zip5" NAME="required-zip5" SIZE="5" maxlength="5" class="inputbox">
 <input type=TEXT NAME="zip4" SIZE="4" maxlength="4" class="inputbox" value="">
 <td class=" labelcell ">
 <label for="email">

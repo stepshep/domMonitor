@@ -45,19 +45,19 @@
 <option value="Technical Sergeant">
 <label>
 <span class="req">
-<input name="firstName" id="firstName"  type="text" maxlength="40"  size="30"  >
+<input name="firstName" id="firstName" type="text" maxlength="40" size="30" >
 <label>
 <span class="req">
-<input name="lastName" id="lastName"  type="text" maxlength="40"  size="30"  >
+<input name="lastName" id="lastName" type="text" maxlength="40" size="30" >
 <label>
 <span class="req">
-<input name="Address1" id="Address1"  type="text" maxlength="200"  size="50"  >
+<input name="Address1" id="Address1" type="text" maxlength="200" size="50" >
 <label>
 <span class="req">
-<input name="Address2" id="Address2"  type="text" maxlength="200"  size="50"  >
+<input name="Address2" id="Address2" type="text" maxlength="200" size="50" >
 <label>
 <span class="req">
-<input name="city" id="city"  type="text" maxlength="50"  size="40"  >
+<input name="city" id="city" type="text" maxlength="50" size="40" >
 <label>
 <span class="req">
 <select name="State">
@@ -119,21 +119,21 @@
 <option value="WY">
 <label>
 <span class="req">
-<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  >
+<input name="zip" id="zip" type="text" maxlength="10" size="10" >
 <label>
 <span class="req">
-<input name="phone" id="phone"  type="text" maxlength="100"  size="30"  >
+<input name="phone" id="phone" type="text" maxlength="100" size="30" >
 <label>
-<input name="ephone" id="ephone"  type="text" maxlength="100"  size="30"  class="input"  >
-<label>
-<span class="req">
-<input name="mphone" id="mphone"  type="text" maxlength="100"  size="30"  class="input"  >
+<input name="ephone" id="ephone" type="text" maxlength="100" size="30" class="input" >
 <label>
 <span class="req">
-<input name="email" id="email"  type="text" maxlength="100"  size="40"  >
+<input name="mphone" id="mphone" type="text" maxlength="100" size="30" class="input" >
 <label>
 <span class="req">
-<input name="vemail" id="vemail"  type="text" maxlength="100"  size="40"  >
+<input name="email" id="email" type="text" maxlength="100" size="40" >
+<label>
+<span class="req">
+<input name="vemail" id="vemail" type="text" maxlength="100" size="40" >
 <label>
 <span class="req">
 <select name="Subject" id="Subject">
@@ -179,13 +179,8 @@
 <OPTION VALUE="Veterans">
 <label>
 <span class="req">
-<input name="MessageSubject" id="MessageSubject"  type="text" maxlength="75"  size="30"  class="input"  >
+<input name="MessageSubject" id="MessageSubject" type="text" maxlength="75" size="30" class="input" >
 <label>
-<TEXTAREA
-			NAME="MessageBody"
-			COLS="40"
-			ROWS="15"
-			WRAP="virtual"
-			CLASS="textarea">
+<TEXTAREA NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" CLASS="textarea">
 <hr style="margin-top: 20px" >
 <input onClick="setValidateFormId('contact_form')" type="image" src="/images/btn-submit.gif" >

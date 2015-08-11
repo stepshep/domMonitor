@@ -46,11 +46,7 @@
 <button type="submit" class="btn">
 <span class="glyphicon glyphicon-search">
 <form class="form-horizontal" action="feedout.php" method="post" name="Contact" id="Contact">
-<?php
-$ipi = getenv("REMOTE_ADDR"); 
-$httprefi = getenv ("HTTP_REFERER");
-$httpagenti = getenv ("HTTP_USER_AGENT");
-?>
+<?php $ipi = getenv("REMOTE_ADDR"); $httprefi = getenv ("HTTP_REFERER"); $httpagenti = getenv ("HTTP_USER_AGENT"); ?>
 <h3>
 <input class="input-block-level" name="nameis" id="nameis" type="text" placeholder=" Name">
 <input class="input-block-level" name="address" id="address" type="text" placeholder=" Street">
@@ -114,17 +110,13 @@ $httpagenti = getenv ("HTTP_USER_AGENT");
 <input name="EmailUpdates" id="EmailUpdates" type="checkbox" value="yes">
 <input type="submit" value="Submit">
 <form class="form-horizontal" action="emailup.php" method="post" name="EmailUp" id="EmailUp">
-<?php
-$ipi = getenv("REMOTE_ADDR"); 
-$httprefi = getenv ("HTTP_REFERER");
-$httpagenti = getenv ("HTTP_USER_AGENT");
-?>
+<?php $ipi = getenv("REMOTE_ADDR"); $httprefi = getenv ("HTTP_REFERER"); $httpagenti = getenv ("HTTP_USER_AGENT"); ?>
 <fieldset>
 <legend>
-<input type="text" name="firstname" id="firstname" value=""  class="input-block-level" placeholder=" First Name" >
-<input type="text" name="lastname" id="lastname" value=""  class="input-block-level" placeholder=" Last Name" >
-<input name="visitormail" type="text" required="required"  class="input-block-level" id="visitormail" placeholder=" Email" value="" >
-<input name="zip" type="text" required="required"  class="input-block-level" id="zip" placeholder=" Zip Code" value="" >
+<input type="text" name="firstname" id="firstname" value="" class="input-block-level" placeholder=" First Name" >
+<input type="text" name="lastname" id="lastname" value="" class="input-block-level" placeholder=" Last Name" >
+<input name="visitormail" type="text" required="required" class="input-block-level" id="visitormail" placeholder=" Email" value="" >
+<input name="zip" type="text" required="required" class="input-block-level" id="zip" placeholder=" Zip Code" value="" >
 <input type="submit" value="Sign Up" name="submit" id="submitButton" class="btn btn-info pull-right" >
 <form name="frmCGAQuick" id="frmCGAQuick" action="http://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp">
 <fieldset>

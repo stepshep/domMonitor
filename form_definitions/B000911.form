@@ -36,12 +36,12 @@
 <textarea name=required-message cols=44 rows=11 id=required-message class=validate[required]>
 <font size=-1>
 <span class=Apple-converted-space>
-<input type=radio value=WEB.NRN name=required-response checked=checked style=padding-top: 3px; padding-right: 5px; padding-bottom: 3px; padding-left: 5px; font-family: Times New Roman, Times, serif; font-size: 16px;  >
+<input type=radio value=WEB.NRN name=required-response checked=checked style=padding-top: 3px; padding-right: 5px; padding-bottom: 3px; padding-left: 5px; font-family: Times New Roman, Times, serif; font-size: 16px; >
 <span class=Apple-converted-space>
-<input type=radio value=WEB.RN name=required-response style=padding-top: 3px; padding-right: 5px; padding-bottom: 3px; padding-left: 5px; font-family: Times New Roman, Times, serif; font-size: 16px;  >
+<input type=radio value=WEB.RN name=required-response style=padding-top: 3px; padding-right: 5px; padding-bottom: 3px; padding-left: 5px; font-family: Times New Roman, Times, serif; font-size: 16px; >
 <font size=-1>
 <span class=Apple-converted-space>
-<input type=radio value= name=affl1 checked=checked style=padding-top: 3px; padding-right: 5px; padding-bottom: 3px; padding-left: 5px; font-family: Times New Roman, Times, serif; font-size: 16px;  >
+<input type=radio value= name=affl1 checked=checked style=padding-top: 3px; padding-right: 5px; padding-bottom: 3px; padding-left: 5px; font-family: Times New Roman, Times, serif; font-size: 16px; >
 <span class=Apple-converted-space>
 <input type=radio value=<AFFL>
 <input type=submit id=Submit value=Send Email name=submit2 >

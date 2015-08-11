@@ -49,7 +49,7 @@
 <td width=329>
 <input type=text name=subjectline id=req_subjectline class=text >
 <td valign=top align=right>
-<textarea name=message id=req_message class=message cols=50 rows=5  style=margin:0; border:1px solid #ccc;>
+<textarea name=message id=req_message class=message cols=50 rows=5 style=margin:0; border:1px solid #ccc;>
 <p class=spanit style=margin:10px 0 10px 27%; padding:0 0 0 5px;>
 <input type=checkbox name=enews value=enews class=enews >
 <p align=center>

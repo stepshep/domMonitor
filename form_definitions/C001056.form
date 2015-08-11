@@ -5,7 +5,7 @@
 <strong class=required>
 <select class=selectInput name=Prefix id=Prefix>
 <option value=>
-<option value=Mr.    >
+<option value=Mr. >
 <option value=Mrs. >
 <option value=Ms. >
 <option value=Mr. and Mrs. >
@@ -17,31 +17,31 @@
 <option value=Pastor >
 <option value=Other >
 <label for=PrefixOther>
-<input type=text class=textInput name=PrefixOther  id=PrefixOther >
+<input type=text class=textInput name=PrefixOther id=PrefixOther >
 <p class=formHint>
 <label for=FirstName>
 <strong class=required>
-<input type=text class=textInput name=FirstName  id=FirstName >
+<input type=text class=textInput name=FirstName id=FirstName >
 <label for=LastName>
 <strong class=required>
-<input type=text class=textInput name=LastName  id=LastName >
+<input type=text class=textInput name=LastName id=LastName >
 <label for=Suffix>
-<input type=text class=textInput name=Suffix  id=Suffix >
+<input type=text class=textInput name=Suffix id=Suffix >
 <label for=Rank>
-<input type=text class=textInput name=Rank  id=Rank >
+<input type=text class=textInput name=Rank id=Rank >
 <label for=Branch>
-<input type=text class=textInput name=Branch  id=Branch >
+<input type=text class=textInput name=Branch id=Branch >
 <label for=Address1>
 <strong class=required>
-<input type=text class=textInput name=Address1  id=Address1 >
+<input type=text class=textInput name=Address1 id=Address1 >
 <label for=Address2>
-<input type=text class=textInput name=Address2  id=Address2 >
+<input type=text class=textInput name=Address2 id=Address2 >
 <label for=City>
 <strong class=required>
-<input type=text class=textInput name=City  id=City >
+<input type=text class=textInput name=City id=City >
 <label for=State>
 <strong class=required>
-<select class=selectInput name=State  id=State>
+<select class=selectInput name=State id=State>
 <option value=>
 <option value=----Military---->
 <option value=AA >
@@ -101,12 +101,12 @@
 <option value=WY >
 <label for=ZipCode>
 <strong class=required>
-<input type=text class=textInput name=ZipCode  id=ZipCode >
+<input type=text class=textInput name=ZipCode id=ZipCode >
 <label for=PhoneNumber>
-<input type=text class=textInput name=PhoneNumber  id=PhoneNumber >
+<input type=text class=textInput name=PhoneNumber id=PhoneNumber >
 <label for=EmailAddress>
 <strong class=required>
-<input type=text class=textInput name=EmailAddress  id=EmailAddress >
+<input type=text class=textInput name=EmailAddress id=EmailAddress >
 <fieldset class=blockLabels>
 <p class=legend>
 <label for=Topic>
@@ -186,11 +186,11 @@
 <label for=PrivacyReleaseMethod>
 <strong class=required>
 <label for=PrivacyReleaseMethod_Mail style=width: auto;>
-<input type=radio name=PrivacyReleaseMethod id=PrivacyReleaseMethod_Mail disabled=disabled  value=Mail >
+<input type=radio name=PrivacyReleaseMethod id=PrivacyReleaseMethod_Mail disabled=disabled value=Mail >
 <label for=PrivacyReleaseMethod_Fax style=width: auto;>
-<input type=radio name=PrivacyReleaseMethod id=PrivacyReleaseMethod_Fax disabled=disabled  value=Fax >
+<input type=radio name=PrivacyReleaseMethod id=PrivacyReleaseMethod_Fax disabled=disabled value=Fax >
 <label for=PrivacyReleaseMethod_Email style=width: auto;>
-<input type=radio name=PrivacyReleaseMethod id=PrivacyReleaseMethod_Email disabled=disabled  value=Email >
+<input type=radio name=PrivacyReleaseMethod id=PrivacyReleaseMethod_Email disabled=disabled value=Email >
 <label for=Message>
 <span class=casework>
 <strong class=required>

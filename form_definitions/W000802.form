@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact enctype=application/x-www-form-urlencoded >
 <fieldset>
 <legend>
 <ol>
@@ -70,7 +70,7 @@
 <option label=First Lieutenant value=First Lieutenant>
 <option label=Second Lieutenant value=Second Lieutenant>
 <option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
-<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Command Chief Master Sergeant value=Command Chief Master Sergeant>
 <option label=Chief Master Sergeant value=Chief Master Sergeant>
 <option label=Senior Master Sergeant value=Senior Master Sergeant>
 <option label=Technical Sergeant value=Technical Sergeant>
@@ -81,11 +81,11 @@
 <li class=required>
 <label for=contactfname>
 <abbr title=Your first name is a required field>
-<input type=text name=fname id=contactfname  class=validate[required,%firstName] >
+<input type=text name=fname id=contactfname class=validate[required,%firstName] >
 <li class=required>
 <label for=contactlname>
 <abbr title=Your last name is a required field>
-<input type=text name=lname id=contactlname  class=validate[required,%lastName] >
+<input type=text name=lname id=contactlname class=validate[required,%lastName] >
 <label for=company>
 <input type=text name=company id=company>
 <fieldset>
@@ -94,14 +94,14 @@
 <li class=required>
 <label for=mailing_streetAddress1>
 <abbr title=Your street address is a required field>
-<input type=text name=mailing_streetAddress1  id=mailing_streetAddress1 class=validate[required] >
+<input type=text name=mailing_streetAddress1 id=mailing_streetAddress1 class=validate[required] >
 <label for=mailing_streetAddress2>
 <input type=text name=mailing_streetAddress2 id=mailing_streetAddress2 >
 <ul class=col three>
 <li class=required>
 <label for=mailing_city>
 <abbr title=Your city is a required field>
-<input type=text name=mailing_city id=mailing_city  class=validate[required,%city] >
+<input type=text name=mailing_city id=mailing_city class=validate[required,%city] >
 <li class=required>
 <label for=state>
 <abbr title=Your state is a required field>
@@ -161,7 +161,7 @@
 <li class=required>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input name=mailing_zipCode type=text id=mailing_zipCode  class=validate[required,%zipCode] >
+<input name=mailing_zipCode type=text id=mailing_zipCode class=validate[required,%zipCode] >
 <li class=required>
 <ul class=col two>
 <li class=required>
@@ -171,18 +171,18 @@
 <li class=required>
 <label for=verify_email>
 <abbr>
-<input type=text name=verify_email id=verify_email   class=validate[confirm:email_address] >
+<input type=text name=verify_email id=verify_email class=validate[confirm:email_address] >
 <li class=required>
 <label for=phone_number>
 <abbr title=Please enter a valid Phone Number>
-<input type=text name=phone_number id=phone_number  class=validate[required] validate[phone] >
+<input type=text name=phone_number id=phone_number class=validate[required] validate[phone] >
 <fieldset>
 <legend>
 <ol>
 <li class=required>
 <label for=subject>
 <abbr title=Please enter a message topic for your message>
-<input type=text name=subject id=subject  class=validate[required]>
+<input type=text name=subject id=subject class=validate[required]>
 <li class=required>
 <label for=comments>
 <abbr title=Please enter your message>

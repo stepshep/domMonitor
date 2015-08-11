@@ -177,14 +177,8 @@
 <input type="checkbox" name="field_aadba5e5-d87e-4e7b-b465-442eaf623555" id="field_aadba5e5-d87e-4e7b-b465-442eaf623555_3" value="RISCH_REPORT_SUB" >
 <fieldset class="inlineLabels">
 <p class="legend">
-<!--
-		var RecaptchaOptions = {
-		   theme : 'red',
-		   tabindex : 0
-		};
-	//-->
+<!-- var RecaptchaOptions = { theme : 'red', tabindex : 0 }; //-->
 <noscript>
-<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcdUtcSAAAAAFfNhaeRjZej2VlulQNS9RJtozoo"
-	       height="300" width="500" frameborder="0">
+<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LcdUtcSAAAAAFfNhaeRjZej2VlulQNS9RJtozoo" height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <input type="submit" value="Submit" >

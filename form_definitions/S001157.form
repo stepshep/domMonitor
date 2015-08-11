@@ -29,9 +29,9 @@
 <td align=right>
 <select name=required-issue size=1>
 <option selected=selected>
-<option value=AB	>
+<option value=AB >
 <option value=ADOPT>
-<option value=AG	>
+<option value=AG >
 <option value=ANIMALS>
 <option value=ART>
 <option value=BANKING>
@@ -78,7 +78,7 @@
 <option value=SCI>
 <option value=SSA>
 <option value=TAX>
-<option value=THANKS	>
+<option value=THANKS >
 <option value=TOUR>
 <option value=TRAN>
 <option value=VET>

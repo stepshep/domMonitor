@@ -10,7 +10,7 @@
 <td class=ms-sbLastcell>
 <span class=s4-help>
 <table class=titletable cellspacing=0 cellpadding=0 >
-<td align=left valign=top  style=background:; width: 530px;>
+<td align=left valign=top style=background:; width: 530px;>
 <span id=onetidPageTitleSeparator class=s4-nothome s4-bcsep s4-titlesep>
 <td class=s4-socialdata-notif valign=middle>
 <ul class=root static>
@@ -127,7 +127,7 @@
 <label for=legis-es-phone class=legis-es-label>
 <input type=text name=Legis-Phone id=legis-es-phone class=legis-es-input phoneUS >
 <label for=legis-es-subject class=legis-es-label>
-<input type=text name=Legis-Subject id=legis-es-subject class=legis-es-input  >
+<input type=text name=Legis-Subject id=legis-es-subject class=legis-es-input >
 <label for=legis-es-message class=legis-es-label>
 <textarea name=Legis-message cols=72 rows=10>
 <input type=submit name=ctl00$PlaceHolderMain$ctl03$btnSubmit value=Send onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PlaceHolderMain$ctl03$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_PlaceHolderMain_ctl03_btnSubmit class=legis-email-submit-btn >

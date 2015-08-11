@@ -2,34 +2,34 @@
 <ol role="list" class="ss-question-list" style="padding-left: 0">
 <label class="ss-q-item-label" for="entry_1535239074">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.1535239074" value="" class="ss-q-short" id="entry_1535239074" dir="auto" aria-label="First Name:  " aria-required="true" required="" title="">
+<input type="text" name="entry.1535239074" value="" class="ss-q-short" id="entry_1535239074" dir="auto" aria-label="First Name: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_1880037389">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.1880037389" value="" class="ss-q-short" id="entry_1880037389" dir="auto" aria-label="Last Name:  " aria-required="true" required="" title="">
+<input type="text" name="entry.1880037389" value="" class="ss-q-short" id="entry_1880037389" dir="auto" aria-label="Last Name: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_1553778991">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.1553778991" value="" class="ss-q-short" id="entry_1553778991" dir="auto" aria-label="Address:  " aria-required="true" required="" title="">
+<input type="text" name="entry.1553778991" value="" class="ss-q-short" id="entry_1553778991" dir="auto" aria-label="Address: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_136714539">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.136714539" value="" class="ss-q-short" id="entry_136714539" dir="auto" aria-label="City:  " aria-required="true" required="" title="">
+<input type="text" name="entry.136714539" value="" class="ss-q-short" id="entry_136714539" dir="auto" aria-label="City: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_622234953">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.622234953" value="" class="ss-q-short" id="entry_622234953" dir="auto" aria-label="State:  " aria-required="true" required="" title="">
+<input type="text" name="entry.622234953" value="" class="ss-q-short" id="entry_622234953" dir="auto" aria-label="State: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_2097195641">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.2097195641" value="" class="ss-q-short" id="entry_2097195641" dir="auto" aria-label="Zip Code:  " aria-required="true" required="" title="">
+<input type="text" name="entry.2097195641" value="" class="ss-q-short" id="entry_2097195641" dir="auto" aria-label="Zip Code: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_1531306201">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="email" name="entry.1531306201" value="" class="ss-q-short" id="entry_1531306201" dir="auto" aria-label="Email:  Please enter a valid email address." aria-required="true" required="" title="Please enter a valid email address.">
+<input type="email" name="entry.1531306201" value="" class="ss-q-short" id="entry_1531306201" dir="auto" aria-label="Email: Please enter a valid email address." aria-required="true" required="" title="Please enter a valid email address.">
 <label class="ss-q-item-label" for="entry_1246537198">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.1246537198" value="" class="ss-q-short" id="entry_1246537198" dir="auto" aria-label="Phone:  " aria-required="true" required="" title="">
+<input type="text" name="entry.1246537198" value="" class="ss-q-short" id="entry_1246537198" dir="auto" aria-label="Phone: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_1086040925">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<input type="text" name="entry.1086040925" value="" class="ss-q-short" id="entry_1086040925" dir="auto" aria-label="Subject:  " aria-required="true" required="" title="">
+<input type="text" name="entry.1086040925" value="" class="ss-q-short" id="entry_1086040925" dir="auto" aria-label="Subject: " aria-required="true" required="" title="">
 <label class="ss-q-item-label" for="entry_1786983745">
 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)">
-<textarea name="entry.1786983745" rows="8" cols="0" class="ss-q-long" id="entry_1786983745" dir="auto" aria-label="Message:  " aria-required="true" required="">
+<textarea name="entry.1786983745" rows="8" cols="0" class="ss-q-long" id="entry_1786983745" dir="auto" aria-label="Message: " aria-required="true" required="">
 <table id="navigation-table">
 <tbody>
 <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">

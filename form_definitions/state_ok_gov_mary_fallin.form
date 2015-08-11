@@ -29,7 +29,7 @@
 <label for=State>
 <span style=color: red;>
 <select id=State name=State size=1 tabindex=6>
-<OPTION value=  selected >
+<OPTION value= selected >
 <OPTION value=AA >
 <OPTION value=AE >
 <OPTION value=AK >
@@ -108,7 +108,7 @@
 <td colspan=2 class=formbuilder_both >
 <label for=Reply_requested>
 <span style=color: red;>
-<select   id=Reply_requested name=Reply_requested size=1 tabindex=10>
+<select id=Reply_requested name=Reply_requested size=1 tabindex=10>
 <option value=>
 <option value=Yes>
 <option value=No>

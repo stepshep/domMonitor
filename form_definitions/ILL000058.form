@@ -10,7 +10,7 @@
 <label id="contact_textmsg" for="contact_text">
 <textarea cols="50" rows="10" name="text" id="contact_text" class="inputbox required">
 <input class="inputbox required" type="text" id="jsCaptchaValue" name="jsCaptchaValue" size="20" value="" >
-<input type="checkbox" name="email_copy" id="contact_email_copy" value="1"  >
+<input type="checkbox" name="email_copy" id="contact_email_copy" value="1" >
 <label for="contact_email_copy">
 <span class="readon1-m">
 <span class="readon1-r">

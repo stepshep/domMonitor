@@ -210,14 +210,14 @@
 <select name="ctl00$Main$Issues$uxIssueList" id="Main_Issues_uxIssueList">
 <option selected="selected" value="">
 <option value="ABORTION">
-<option value="AGING  ">
-<option value="AGRICULTURE  ">
+<option value="AGING ">
+<option value="AGRICULTURE ">
 <option value="ANIMAL CRUELTY">
 <option value="CHILD ABUSE/CINC">
 <option value="CHILD CUSTODY">
 <option value="CHILD SUPPORT">
-<option value="COMMERCE  ">
-<option value="CORRECTIONS  ">
+<option value="COMMERCE ">
+<option value="CORRECTIONS ">
 <option value="DCF">
 <option value="DEATH PENALTY">
 <option value="DRUGS- ILLEGAL">
@@ -225,41 +225,41 @@
 <option value="EDUCATION K-12">
 <option value="EDUCATION- HIGHER ED">
 <option value="EDUCATION-GENERAL">
-<option value="ENERGY  ">
-<option value="ENVIRONMENT  ">
+<option value="ENERGY ">
+<option value="ENVIRONMENT ">
 <option value="FEDERAL ISSUES">
-<option value="HEALTH  ">
-<option value="HOUSING  ">
+<option value="HEALTH ">
+<option value="HOUSING ">
 <option value="HUNTING LICENSE">
 <option value="IMMIGRATION">
-<option value="INSURANCE  ">
+<option value="INSURANCE ">
 <option value="KANCARE">
 <option value="KIDS LETTERS">
-<option value="KPERS  ">
+<option value="KPERS ">
 <option value="KS BUDGET">
 <option value="KS HOUSE BILLS">
 <option value="KS SENATE BILLS">
-<option value="LEGAL  ">
+<option value="LEGAL ">
 <option value="LEGISLATION- GENERAL">
 <option value="LOCAL ISSUES">
-<option value="LOTTERY KS">
+<option value="LOTTERY KS">
 <option value="MEDICAID REFORM">
 <option value="MEDICAID- GENERAL">
 <option value="MENTAL HEALTH">
 <option value="NATIONAL GUARD">
 <option value="NURSING HOME">
-<option value="OTHER  ">
-<option value="PARDON/CLEMENCY  ">
-<option value="PARKS  ">
+<option value="OTHER ">
+<option value="PARDON/CLEMENCY ">
+<option value="PARKS ">
 <option value="RACING &amp; GAMING">
 <option value="RURAL ISSUES">
 <option value="STATE EMPLOYEES">
 <option value="TAX REFORM">
 <option value="TAXES- GENERAL">
-<option value="TRANSPORTATION  ">
-<option value="UNEMPLOYMENT  ">
-<option value="UTILITIES  ">
-<option value="VETERANS  ">
+<option value="TRANSPORTATION ">
+<option value="UNEMPLOYMENT ">
+<option value="UTILITIES ">
+<option value="VETERANS ">
 <option value="WORKERS COMPENSATION">
 <span id="Main_Issues_uxMessageLbl" class="formLabel">
 <textarea name="ctl00$Main$Issues$uxMessage" rows="5" cols="20" id="Main_Issues_uxMessage" onblur="ValidatorValidate(Main_Issues_uxMessageVldReq)" style="width:80%;">
@@ -279,8 +279,7 @@
 <span class='st_plusone_hcount'>
 <span class='st_sharethis_hcount' displaytext='Share'>
 <span class='st_twitter_button' displaytext='Tweet'>
-<span class='st_facebook_button'
-    displaytext='Facebook'>
+<span class='st_facebook_button' displaytext='Facebook'>
 <span class='st_email_button' displaytext='Email'>
 <span class='st_sharethis_button' displaytext='ShareThis'>
 <span class='st_fblike_hcount'>

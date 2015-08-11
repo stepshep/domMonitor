@@ -1,9 +1,9 @@
-<form method=post enctype=multipart/form-data  id=gform_1 class=submit action=/contact/contact-me>
+<form method=post enctype=multipart/form-data id=gform_1 class=submit action=/contact/contact-me>
 <ul id=gform_fields_1 class=gform_fields right_label description_below>
-<li id=field_1_12 class=gfield               gfield_contains_required >
+<li id=field_1_12 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_12>
 <span class=gfield_required>
-<select name=input_12 id=input_1_12  class=medium gfield_select tabindex=1 >
+<select name=input_12 id=input_1_12 class=medium gfield_select tabindex=1 >
 <option value=-Select a Prefix- >
 <option value=Mr. >
 <option value=Mrs. >
@@ -18,47 +18,47 @@
 <option value=The Honorable >
 <option value=Representative >
 <option value=Senator >
-<li id=field_1_1 class=gfield               gfield_contains_required >
+<li id=field_1_1 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_1>
 <span class=gfield_required>
-<input name=input_1 id=input_1_1 type=text value= class=medium  tabindex=2  >
-<li id=field_1_2 class=gfield               gfield_contains_required >
+<input name=input_1 id=input_1_1 type=text value= class=medium tabindex=2 >
+<li id=field_1_2 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_2>
 <span class=gfield_required>
-<input name=input_2 id=input_1_2 type=text value= class=medium  tabindex=3  >
-<li id=field_1_3 class=gfield               gfield_contains_required >
+<input name=input_2 id=input_1_2 type=text value= class=medium tabindex=3 >
+<li id=field_1_3 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_3>
 <span class=gfield_required>
-<input name=input_3 id=input_1_3 type=text value= class=medium  tabindex=4  >
+<input name=input_3 id=input_1_3 type=text value= class=medium tabindex=4 >
 <li id=field_1_4 class=gfield >
 <label class=gfield_label for=input_1_4>
-<input name=input_4 id=input_1_4 type=text value= class=medium  tabindex=5  >
-<li id=field_1_5 class=gfield               gfield_contains_required >
+<input name=input_4 id=input_1_4 type=text value= class=medium tabindex=5 >
+<li id=field_1_5 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_5>
 <span class=gfield_required>
-<input name=input_5 id=input_1_5 type=text value= class=medium  tabindex=6  >
-<li id=field_1_6 class=gfield               gfield_contains_required >
+<input name=input_5 id=input_1_5 type=text value= class=medium tabindex=6 >
+<li id=field_1_6 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_6>
 <span class=gfield_required>
-<input name=input_6 id=input_1_6 type=text value= class=medium  tabindex=7  >
-<li id=field_1_7 class=gfield    validate-zip           gfield_contains_required >
+<input name=input_6 id=input_1_6 type=text value= class=medium tabindex=7 >
+<li id=field_1_7 class=gfield validate-zip gfield_contains_required >
 <label class=gfield_label for=input_1_7>
 <span class=gfield_required>
-<input name=input_7 id=input_1_7 type=text value= class=medium  tabindex=8  >
+<input name=input_7 id=input_1_7 type=text value= class=medium tabindex=8 >
 <li id=field_1_8 class=gfield >
 <label class=gfield_label for=input_1_8>
-<input name=input_8 id=input_1_8 type=text value= class=medium  tabindex=9  >
-<li id=field_1_9 class=gfield               gfield_contains_required >
+<input name=input_8 id=input_1_8 type=text value= class=medium tabindex=9 >
+<li id=field_1_9 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_9>
 <span class=gfield_required>
-<input name=input_9 id=input_1_9 type=text value= class=medium  tabindex=10  >
+<input name=input_9 id=input_1_9 type=text value= class=medium tabindex=10 >
 <li id=field_1_14 class=gfield >
 <label class=gfield_label for=input_1_14>
-<input name=input_14 id=input_1_14 type=text value= class=medium  tabindex=11  >
-<li id=field_1_10 class=gfield               gfield_contains_required >
+<input name=input_14 id=input_1_14 type=text value= class=medium tabindex=11 >
+<li id=field_1_10 class=gfield gfield_contains_required >
 <label class=gfield_label for=input_1_10>
 <span class=gfield_required>
-<select name=input_10 id=input_1_10  class=medium gfield_select tabindex=12 >
+<select name=input_10 id=input_1_10 class=medium gfield_select tabindex=12 >
 <option value=-Please Select- >
 <option value=Scheduling Request >
 <option value=Abortion >
@@ -98,14 +98,14 @@
 <label class=gfield_label>
 <ul class=gfield_radio id=input_1_17>
 <li class=gchoice_17_0>
-<input name=input_17 type=radio value=Yes  id=choice_17_0 tabindex=13    >
+<input name=input_17 type=radio value=Yes id=choice_17_0 tabindex=13 >
 <label for=choice_17_0>
 <li class=gchoice_17_1>
-<input name=input_17 type=radio value=No  id=choice_17_1 tabindex=14    >
+<input name=input_17 type=radio value=No id=choice_17_1 tabindex=14 >
 <label for=choice_17_1>
 <li id=field_1_16 class=gfield >
 <label class=gfield_label for=input_1_16>
-<textarea name=input_16 id=input_1_16 class=textarea small tabindex=15  rows=10 cols=50>
+<textarea name=input_16 id=input_1_16 class=textarea small tabindex=15 rows=10 cols=50>
 <li id=field_1_15 class=gfield >
 <label class=gfield_label for=input_1_15>
 <noscript>

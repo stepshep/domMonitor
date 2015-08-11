@@ -32,19 +32,19 @@
 <option value="Technical Sergeant">
 <label>
 <span class="req">
-<input name="firstName" id="firstName"  type="text" maxlength="100"  size="30"  >
+<input name="firstName" id="firstName" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="lastName" id="lastName"  type="text" maxlength="100"  size="30"  >
+<input name="lastName" id="lastName" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="Address1" id="Address1"  type="text" maxlength="200"  size="50"  >
+<input name="Address1" id="Address1" type="text" maxlength="200" size="50" >
 <label>
 <span class="req">
-<input name="Address2" id="Address2"  type="text" maxlength="200"  size="50"  >
+<input name="Address2" id="Address2" type="text" maxlength="200" size="50" >
 <label>
 <span class="req">
-<input name="city" id="city"  type="text" maxlength="50"  size="40"  >
+<input name="city" id="city" type="text" maxlength="50" size="40" >
 <label>
 <span class="req">
 <select name="State">
@@ -106,16 +106,16 @@
 <option value="WY">
 <label>
 <span class="req">
-<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  >
+<input name="zip" id="zip" type="text" maxlength="10" size="10" >
 <label>
 <span class="req">
-<input name="phone" id="phone"  type="text" maxlength="100"  size="30"  >
+<input name="phone" id="phone" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="email" id="email"  type="text" maxlength="100"  size="40"  >
+<input name="email" id="email" type="text" maxlength="100" size="40" >
 <label>
 <span class="req">
-<input name="vemail" id="vemail"  type="text" maxlength="100"  size="40"  >
+<input name="vemail" id="vemail" type="text" maxlength="100" size="40" >
 <label>
 <span class="req">
 <select id="Subject" name="Subject" onChange="contactForm.setSubSubject(document.getElementById('SubSubject'), this[this.selectedIndex].value)">
@@ -154,22 +154,16 @@
 <select id="SubSubject" name="SubSubject">
 <option selected="" value=" ">
 <label>
-<input name="noResponseNeeded" id="noResponseNeeded"  type="checkbox" class="normal-input"  >
+<input name="noResponseNeeded" id="noResponseNeeded" type="checkbox" class="normal-input" >
 <label>
-<input name="receiveUpdates" id="receiveUpdates"  type="checkbox" value="yes" checked="checked"  class="normal-input"  >
+<input name="receiveUpdates" id="receiveUpdates" type="checkbox" value="yes" checked="checked" class="normal-input" >
 <label for="receiveUpdates">
 <label>
 <span class="req">
-<input name="messageSubject" id="messageSubject"  type="text" maxlength="75"  size="30"  class="input"  >
+<input name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" class="input" >
 <label>
 <span class="req">
-<TEXTAREA
-			REQUIRED="yes"
-			NAME="MessageBody"
-			COLS="40"
-			ROWS="15"
-			WRAP="virtual"
-			CLASS="textarea">
+<TEXTAREA REQUIRED="yes" NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" CLASS="textarea">
 <hr style="margin-top: 20px" >
 <input class="normal-input" style="float: left; vertical-align: top; margin-left: 240px; margin-top: 0;" type="image" src="/images/btn-submit.gif" title="Submit" alt="Submit" >
 <em>

@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact enctype=application/x-www-form-urlencoded >
 <h1>
 <fieldset>
 <legend>
@@ -102,7 +102,7 @@
 <li class=required>
 <label for=fname>
 <abbr title=Your first name is a required field>
-<input type=text name=fname id=fname  class=validate[required,%firstName] >
+<input type=text name=fname id=fname class=validate[required,%firstName] >
 <li class=required>
 <label for=lname>
 <abbr title=Your last name is a required field>
@@ -285,9 +285,9 @@
 <li class=required>
 <label for=verify_email>
 <abbr>
-<input type=text name=verify_email id=verify_email  class=validate[confirm:email_address] >
+<input type=text name=verify_email id=verify_email class=validate[confirm:email_address] >
 <label for=phone_number>
-<input type=text name=phone_number id=phone_number  >
+<input type=text name=phone_number id=phone_number >
 <fieldset>
 <legend>
 <ol>

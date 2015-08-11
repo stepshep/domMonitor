@@ -1,5 +1,4 @@
-<FORM METHOD=POST 
-ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/velazquez/IMA/issue_subscribe_verify.shtml&nobase">
+<FORM METHOD=POST ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/velazquez/IMA/issue_subscribe_verify.shtml&nobase">
 <table width="100%" cellpadding="2" cellspacing="0">
 <td valign="bottom" align="right">
 <b>
@@ -134,5 +133,5 @@ ACTION="/htbin/formproc_za.pl?/velazquez/IMA/issue_subscribe_parm.txt&form=/vela
 <u>
 <small>
 <form action="http://search.house.gov/htbin/search" method="post" target="_blank" >
-<input type="text"  name="q"  onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" title="Search" size="15" maxlength="255" class="searchfield" style="margin-top:3px; height:18px;"  >
+<input type="text" name="q" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" title="Search" size="15" maxlength="255" class="searchfield" style="margin-top:3px; height:18px;" >
 <input name="submit" type="submit" value="Search">

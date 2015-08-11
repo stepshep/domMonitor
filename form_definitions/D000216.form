@@ -30,7 +30,7 @@
 <font size=-1 face=verdana>
 <td colspan=2>
 <input type=Text name=required-hcity style=width:320>
-<SELECT NAME=required-hstate  style=width:100>
+<SELECT NAME=required-hstate style=width:100>
 <OPTION VALUE=CT SELECTED>
 <input type=text name=required-hzip size=5 maxlength=5>
 <td colspan=2>

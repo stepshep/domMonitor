@@ -3,51 +3,51 @@
 <th bgcolor=#344756>
 <span style=color:#FFFFFF>
 <td valign=top>
-<label  for=required-prefix>
+<label for=required-prefix>
 <em>
-<input  name=required-prefix id=required-prefix type=text value= size=2 maxlength=90 >
-<label  for=required-first>
+<input name=required-prefix id=required-prefix type=text value= size=2 maxlength=90 >
+<label for=required-first>
 <em>
-<input  name=required-first id=required-first type=text value= size=10 maxlength=90 >
+<input name=required-first id=required-first type=text value= size=10 maxlength=90 >
 <label for=middle>
 <input name=middle id=middle type=text value= size=1 maxlength=90 >
-<label  for=required-last>
+<label for=required-last>
 <em>
 <input name=required-last id=required-last type=text value= size=10 maxlength=90 >
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
 <span style=color:#FFFFFF>
 <td valign=top>
-<label  for=required-address>
+<label for=required-address>
 <em>
 <input name=required-address id=required-address type=text value= maxlength=190 size=60 >
 <em>
 <input type=text name=address2 id=address2 value= maxlength=190 size=60 >
 <td valign=top>
-<label  for=required-city>
+<label for=required-city>
 <em>
 <input name=required-city id=required-city type=text value= size=10 maxlength=45 >
-<label  for=required-state>
+<label for=required-state>
 <em>
 <input name=required-state id=required-state value=CT readonly=readonly size=2>
-<label  for=zip5>
+<label for=zip5>
 <em>
 <input name=required-zip5 id=zip5 type=text value= size=5 maxlength=5 >
-<label  for=zip4>
+<label for=zip4>
 <input name=zip4 id=zip4 type=text value= size=4 maxlength=4 >
 <small>
 <table border=0 cellpadding=2 cellspacing=0 summary=layout width=100%>
 <th bgcolor=#344756>
 <span style=color:#FFFFFF>
 <td valign=top>
-<label  for=required-email>
+<label for=required-email>
 <em>
 <input type=text name=required-email id=required-email value= size=40 maxlength=100 >
 <td valign=top>
-<label  for=phone>
+<label for=phone>
 <input name=phone id=phone type=text value= size=20 maxlength=20 >
 <td valign=top>
-<label  for=required-affl>
+<label for=required-affl>
 <em>
 <input name=affl type=radio value=EMAIL.OPTIN >
 <input name=affl type=radio value=EMAIL.OPTOUT >
@@ -61,7 +61,7 @@
 <th bgcolor=#344756>
 <span style=color:#FFFFFF>
 <td valign=top>
-<label  for=subject>
+<label for=subject>
 <em>
 <input type=text name=required-issue id=subject value= size=70 maxlength=50 >
 <select id=required-issue name=required-issue size=1>
@@ -93,7 +93,7 @@
 <OPTION VALUE=Welfare>
 <OPTION VALUE=Other>
 <td valign=top>
-<label  for=required-message>
+<label for=required-message>
 <em>
 <textarea name=required-message id=required-message rows=11 cols=65>
 <input name=submit2 type=submit value=Send Email >

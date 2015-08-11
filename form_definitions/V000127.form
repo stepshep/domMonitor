@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact/email-senator-vitter  enctype=application/x-www-form-urlencoded onsubmit=return validate() >
+<form id=contactForm method=post action=/contact/email-senator-vitter enctype=application/x-www-form-urlencoded onsubmit=return validate() >
 <fieldset>
 <label for=subject>
 <abbr title=Please enter a message topic for your message>
@@ -101,7 +101,7 @@
 <option label=First Lieutenant value=First Lieutenant>
 <option label=Second Lieutenant value=Second Lieutenant>
 <option label=Chief Master Sergeant of the Air Force value=Chief Master Sergeant of the Air Force>
-<option label=Command  Chief Master Sergeant value=Command  Chief Master Sergeant>
+<option label=Command Chief Master Sergeant value=Command Chief Master Sergeant>
 <option label=Chief Master Sergeant value=Chief Master Sergeant>
 <option label=Senior Master Sergeant value=Senior Master Sergeant>
 <option label=Technical Sergeant value=Technical Sergeant>
@@ -126,132 +126,132 @@
 <label for=state>
 <select name=mailing_state id=mailing_state class=span1 onchange=disableCountyDropDown(county);if(this.options[this.selectedIndex].value == LA) { window.county_label.set(html, Parish *); } else { window.county_label.set(html, County *); }; _dropdown = county; var req = new Request({ url: /cfc_extensions/data/geographical.cfc, data: method=getCounties&State=+encodeURIComponent(this[this.selectedIndex].value), onSuccess: setCountiesHandler, onFailure:setCountiesErrorHandler }).send(); required=true>
 <option value=null>
-<option label=Alabama value=AL   >
-<option label=Alaska value=AK   >
-<option label=American Samoa value=AS   >
-<option label=Arizona value=AZ   >
-<option label=Arkansas value=AR   >
-<option label=California value=CA   >
-<option label=Colorado value=CO   >
-<option label=Commonwealth of the Northern Mariana Islands value=MP   >
-<option label=Connecticut value=CT   >
-<option label=Delaware value=DE   >
-<option label=District of Columbia value=DC   >
-<option label=Florida value=FL   >
-<option label=Georgia value=GA   >
-<option label=Guam value=GU   >
-<option label=Hawaii value=HI   >
-<option label=Idaho value=ID   >
-<option label=Illinois value=IL   >
-<option label=Indiana value=IN   >
-<option label=Iowa value=IA   >
-<option label=Kansas value=KS   >
-<option label=Kentucky value=KY   >
-<option label=Louisiana value=LA   selected=selected >
-<option label=Maine value=ME   >
-<option label=Maryland value=MD   >
-<option label=Massachusetts value=MA   >
-<option label=Michigan value=MI   >
-<option label=Minnesota value=MN   >
-<option label=Mississippi value=MS   >
-<option label=Missouri value=MO   >
-<option label=Montana value=MT   >
-<option label=Nebraska value=NE   >
-<option label=Nevada value=NV   >
-<option label=New Hampshire value=NH   >
-<option label=New Jersey value=NJ   >
-<option label=New Mexico value=NM   >
-<option label=New York value=NY   >
-<option label=North Carolina value=NC   >
-<option label=North Dakota value=ND   >
-<option label=Ohio value=OH   >
-<option label=Oklahoma value=OK   >
-<option label=Oregon value=OR   >
-<option label=Pennsylvania value=PA   >
-<option label=Puerto Rico value=PR   >
-<option label=Rhode Island value=RI   >
-<option label=South Carolina value=SC   >
-<option label=South Dakota value=SD   >
-<option label=Tennessee value=TN   >
-<option label=Texas value=TX   >
-<option label=Utah value=UT   >
-<option label=Vermont value=VT   >
-<option label=Virgin Islands of the United States value=VI   >
-<option label=Virginia value=VA   >
-<option label=Washington value=WA   >
-<option label=West Virginia value=WV   >
-<option label=Wisconsin value=WI   >
-<option label=Wyoming value=WY   >
+<option label=Alabama value=AL >
+<option label=Alaska value=AK >
+<option label=American Samoa value=AS >
+<option label=Arizona value=AZ >
+<option label=Arkansas value=AR >
+<option label=California value=CA >
+<option label=Colorado value=CO >
+<option label=Commonwealth of the Northern Mariana Islands value=MP >
+<option label=Connecticut value=CT >
+<option label=Delaware value=DE >
+<option label=District of Columbia value=DC >
+<option label=Florida value=FL >
+<option label=Georgia value=GA >
+<option label=Guam value=GU >
+<option label=Hawaii value=HI >
+<option label=Idaho value=ID >
+<option label=Illinois value=IL >
+<option label=Indiana value=IN >
+<option label=Iowa value=IA >
+<option label=Kansas value=KS >
+<option label=Kentucky value=KY >
+<option label=Louisiana value=LA selected=selected >
+<option label=Maine value=ME >
+<option label=Maryland value=MD >
+<option label=Massachusetts value=MA >
+<option label=Michigan value=MI >
+<option label=Minnesota value=MN >
+<option label=Mississippi value=MS >
+<option label=Missouri value=MO >
+<option label=Montana value=MT >
+<option label=Nebraska value=NE >
+<option label=Nevada value=NV >
+<option label=New Hampshire value=NH >
+<option label=New Jersey value=NJ >
+<option label=New Mexico value=NM >
+<option label=New York value=NY >
+<option label=North Carolina value=NC >
+<option label=North Dakota value=ND >
+<option label=Ohio value=OH >
+<option label=Oklahoma value=OK >
+<option label=Oregon value=OR >
+<option label=Pennsylvania value=PA >
+<option label=Puerto Rico value=PR >
+<option label=Rhode Island value=RI >
+<option label=South Carolina value=SC >
+<option label=South Dakota value=SD >
+<option label=Tennessee value=TN >
+<option label=Texas value=TX >
+<option label=Utah value=UT >
+<option label=Vermont value=VT >
+<option label=Virgin Islands of the United States value=VI >
+<option label=Virginia value=VA >
+<option label=Washington value=WA >
+<option label=West Virginia value=WV >
+<option label=Wisconsin value=WI >
+<option label=Wyoming value=WY >
 <label id=county-label for=parish>
-<select name=county id=county class=span2  required=true>
+<select name=county id=county class=span2 required=true>
 <option label=-- value=>
-<option label=Acadia Parish value=Acadia Parish  >
-<option label=Allen Parish value=Allen Parish  >
-<option label=Ascension Parish value=Ascension Parish  >
-<option label=Assumption Parish value=Assumption Parish  >
-<option label=Avoyelles Parish value=Avoyelles Parish  >
-<option label=Beauregard Parish value=Beauregard Parish  >
-<option label=Bienville Parish value=Bienville Parish  >
-<option label=Bossier Parish value=Bossier Parish  >
-<option label=Caddo Parish value=Caddo Parish  >
-<option label=Calcasieu Parish value=Calcasieu Parish  >
-<option label=Caldwell Parish value=Caldwell Parish  >
-<option label=Cameron Parish value=Cameron Parish  >
-<option label=Catahoula Parish value=Catahoula Parish  >
-<option label=Claiborne Parish value=Claiborne Parish  >
-<option label=Concordia Parish value=Concordia Parish  >
-<option label=De Soto Parish value=De Soto Parish  >
-<option label=East Baton Rouge Parish value=East Baton Rouge Parish  >
-<option label=East Carroll Parish value=East Carroll Parish  >
-<option label=East Feliciana Parish value=East Feliciana Parish  >
-<option label=Evangeline Parish value=Evangeline Parish  >
-<option label=Franklin Parish value=Franklin Parish  >
-<option label=Grant Parish value=Grant Parish  >
-<option label=Iberia Parish value=Iberia Parish  >
-<option label=Iberville Parish value=Iberville Parish  >
-<option label=Jackson Parish value=Jackson Parish  >
-<option label=Jefferson Davis Parish value=Jefferson Davis Parish  >
-<option label=Jefferson Parish value=Jefferson Parish  >
-<option label=La Salle Parish value=La Salle Parish  >
-<option label=Lafayette Parish value=Lafayette Parish  >
-<option label=Lafourche Parish value=Lafourche Parish  >
-<option label=Lincoln Parish value=Lincoln Parish  >
-<option label=Livingston Parish value=Livingston Parish  >
-<option label=Madison Parish value=Madison Parish  >
-<option label=Morehouse Parish value=Morehouse Parish  >
-<option label=Natchitoches Parish value=Natchitoches Parish  >
-<option label=Orleans Parish value=Orleans Parish  >
-<option label=Ouachita Parish value=Ouachita Parish  >
-<option label=Plaquemines Parish value=Plaquemines Parish  >
-<option label=Pointe Coupee Parish value=Pointe Coupee Parish  >
-<option label=Rapides Parish value=Rapides Parish  >
-<option label=Red River Parish value=Red River Parish  >
-<option label=Richland Parish value=Richland Parish  >
-<option label=Sabine Parish value=Sabine Parish  >
-<option label=St. Bernard Parish value=St. Bernard Parish  >
-<option label=St. Charles Parish value=St. Charles Parish  >
-<option label=St. Helena Parish value=St. Helena Parish  >
-<option label=St. James Parish value=St. James Parish  >
-<option label=St. John the Baptist Parish value=St. John the Baptist Parish  >
-<option label=St. Landry Parish value=St. Landry Parish  >
-<option label=St. Martin Parish value=St. Martin Parish  >
-<option label=St. Mary Parish value=St. Mary Parish  >
-<option label=St. Tammany Parish value=St. Tammany Parish  >
-<option label=Tangipahoa Parish value=Tangipahoa Parish  >
-<option label=Tensas Parish value=Tensas Parish  >
-<option label=Terrebonne Parish value=Terrebonne Parish  >
-<option label=Union Parish value=Union Parish  >
-<option label=Vermilion Parish value=Vermilion Parish  >
-<option label=Vernon Parish value=Vernon Parish  >
-<option label=Washington Parish value=Washington Parish  >
-<option label=Webster Parish value=Webster Parish  >
-<option label=West Baton Rouge Parish value=West Baton Rouge Parish  >
-<option label=West Carroll Parish value=West Carroll Parish  >
-<option label=West Feliciana Parish value=West Feliciana Parish  >
-<option label=Winn Parish value=Winn Parish  >
+<option label=Acadia Parish value=Acadia Parish >
+<option label=Allen Parish value=Allen Parish >
+<option label=Ascension Parish value=Ascension Parish >
+<option label=Assumption Parish value=Assumption Parish >
+<option label=Avoyelles Parish value=Avoyelles Parish >
+<option label=Beauregard Parish value=Beauregard Parish >
+<option label=Bienville Parish value=Bienville Parish >
+<option label=Bossier Parish value=Bossier Parish >
+<option label=Caddo Parish value=Caddo Parish >
+<option label=Calcasieu Parish value=Calcasieu Parish >
+<option label=Caldwell Parish value=Caldwell Parish >
+<option label=Cameron Parish value=Cameron Parish >
+<option label=Catahoula Parish value=Catahoula Parish >
+<option label=Claiborne Parish value=Claiborne Parish >
+<option label=Concordia Parish value=Concordia Parish >
+<option label=De Soto Parish value=De Soto Parish >
+<option label=East Baton Rouge Parish value=East Baton Rouge Parish >
+<option label=East Carroll Parish value=East Carroll Parish >
+<option label=East Feliciana Parish value=East Feliciana Parish >
+<option label=Evangeline Parish value=Evangeline Parish >
+<option label=Franklin Parish value=Franklin Parish >
+<option label=Grant Parish value=Grant Parish >
+<option label=Iberia Parish value=Iberia Parish >
+<option label=Iberville Parish value=Iberville Parish >
+<option label=Jackson Parish value=Jackson Parish >
+<option label=Jefferson Davis Parish value=Jefferson Davis Parish >
+<option label=Jefferson Parish value=Jefferson Parish >
+<option label=La Salle Parish value=La Salle Parish >
+<option label=Lafayette Parish value=Lafayette Parish >
+<option label=Lafourche Parish value=Lafourche Parish >
+<option label=Lincoln Parish value=Lincoln Parish >
+<option label=Livingston Parish value=Livingston Parish >
+<option label=Madison Parish value=Madison Parish >
+<option label=Morehouse Parish value=Morehouse Parish >
+<option label=Natchitoches Parish value=Natchitoches Parish >
+<option label=Orleans Parish value=Orleans Parish >
+<option label=Ouachita Parish value=Ouachita Parish >
+<option label=Plaquemines Parish value=Plaquemines Parish >
+<option label=Pointe Coupee Parish value=Pointe Coupee Parish >
+<option label=Rapides Parish value=Rapides Parish >
+<option label=Red River Parish value=Red River Parish >
+<option label=Richland Parish value=Richland Parish >
+<option label=Sabine Parish value=Sabine Parish >
+<option label=St. Bernard Parish value=St. Bernard Parish >
+<option label=St. Charles Parish value=St. Charles Parish >
+<option label=St. Helena Parish value=St. Helena Parish >
+<option label=St. James Parish value=St. James Parish >
+<option label=St. John the Baptist Parish value=St. John the Baptist Parish >
+<option label=St. Landry Parish value=St. Landry Parish >
+<option label=St. Martin Parish value=St. Martin Parish >
+<option label=St. Mary Parish value=St. Mary Parish >
+<option label=St. Tammany Parish value=St. Tammany Parish >
+<option label=Tangipahoa Parish value=Tangipahoa Parish >
+<option label=Tensas Parish value=Tensas Parish >
+<option label=Terrebonne Parish value=Terrebonne Parish >
+<option label=Union Parish value=Union Parish >
+<option label=Vermilion Parish value=Vermilion Parish >
+<option label=Vernon Parish value=Vernon Parish >
+<option label=Washington Parish value=Washington Parish >
+<option label=Webster Parish value=Webster Parish >
+<option label=West Baton Rouge Parish value=West Baton Rouge Parish >
+<option label=West Carroll Parish value=West Carroll Parish >
+<option label=West Feliciana Parish value=West Feliciana Parish >
+<option label=Winn Parish value=Winn Parish >
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=span2 type=number name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=span2 type=number name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=home_phone_number>
 <input type=tel name=home_phone_number id=home_phone_number class=span8>
 <label for=work_phone_number>
@@ -269,4 +269,4 @@
 <textarea id=message class=span8 rows=10 name=message aria-required=true>
 <label for=response_y class=checkbox>
 <input name=response id=response_y value=Y type=checkbox >
-<input class=btn right type=submit  value=Submit >
+<input class=btn right type=submit value=Submit >

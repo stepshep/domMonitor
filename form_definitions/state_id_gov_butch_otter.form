@@ -123,8 +123,7 @@
 <!--- ReCaptcha Web Service to protect against automated abuse of form submissions --->
 <label for="recaptcha_challenge_field" class="control-label">
 <noscript>
-<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeWK-ASAAAAAPRN5LOKkZ5MdVbV1Ukjd88uBlJO"
-         height="300" width="500" frameborder="0">
+<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeWK-ASAAAAAPRN5LOKkZ5MdVbV1Ukjd88uBlJO" height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
 <!--- End ReCaptcha --->
 <p class="submit">

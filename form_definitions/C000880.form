@@ -40,15 +40,15 @@
 <OPTION VALUE="Representative">
 <OPTION VALUE="Senator">
 <label class="control-label" for="firstName">
-<input name="firstName" id="firstName"  type="text" maxlength="30"  size="30"  class="required"  >
+<input name="firstName" id="firstName" type="text" maxlength="30" size="30" class="required" >
 <label class="control-label" for="lastName">
-<input name="lastName" id="lastName"  type="text" maxlength="30"  size="30"  class="required"  >
+<input name="lastName" id="lastName" type="text" maxlength="30" size="30" class="required" >
 <label class="control-label" for="Address1">
-<input name="Address1" id="Address1"  type="text" maxlength="50"  size="30"  class="required"  >
+<input name="Address1" id="Address1" type="text" maxlength="50" size="30" class="required" >
 <label class="control-label" for="Address2">
-<input name="Address2" id="Address2"  type="text" maxlength="50"  size="30"  >
+<input name="Address2" id="Address2" type="text" maxlength="50" size="30" >
 <label class="control-label" for="city">
-<input name="city" id="city"  type="text" maxlength="40"  size="30"  class="required"  >
+<input name="city" id="city" type="text" maxlength="40" size="30" class="required" >
 <label class="control-label" for="State">
 <SELECT NAME="State" class="required">
 <OPTION VALUE=" ">
@@ -108,24 +108,19 @@
 <OPTION VALUE="WI">
 <OPTION VALUE="WY">
 <label class="control-label" for="zip">
-<input name="zip" id="zip"  type="text" maxlength="10"  size="10"  class="required"  >
+<input name="zip" id="zip" type="text" maxlength="10" size="10" class="required" >
 <label class="control-label" for="homePhone">
-<input name="homePhone" id="homePhone"  type="text" maxlength="30"  size="30"  >
+<input name="homePhone" id="homePhone" type="text" maxlength="30" size="30" >
 <label class="control-label" for="workPhone">
-<input name="workPhone" id="workPhone"  type="text" maxlength="30"  size="30"  >
+<input name="workPhone" id="workPhone" type="text" maxlength="30" size="30" >
 <label class="control-label" for="email">
-<input name="email" id="email"  type="text" maxlength="40"  size="30"  class="required"  >
+<input name="email" id="email" type="text" maxlength="40" size="30" class="required" >
 <fieldset>
 <legend>
 <label class="control-label" for="messageSubject">
-<input name="messageSubject" id="messageSubject"  type="text" maxlength="75"  size="30"  class="required"  >
+<input name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" class="required" >
 <label class="control-label">
-<TEXTAREA
-					NAME="MessageBody"
-					ROWS="10"
-					WRAP="virtual"
-					CLASS="textarea span5 required"
-					onkeyup="textCounter(this,'remChar',5000)">
+<TEXTAREA NAME="MessageBody" ROWS="10" WRAP="virtual" CLASS="textarea span5 required" onkeyup="textCounter(this,'remChar',5000)">
 <small>
 <span id="remChar">
 <fieldset>
@@ -151,7 +146,7 @@
 <legend>
 <small class="text-center">
 <label class="control-label" for="captcha_code">
-<input name="captcha_code" id="captcha_code"  type="text" class="span2 required"  >
+<input name="captcha_code" id="captcha_code" type="text" class="span2 required" >
 <small>
 <INPUT TYPE="submit" VALUE="Submit Information" class="btn btn-primary">
 <INPUT TYPE="reset" VALUE="Reset Form" class="btn">

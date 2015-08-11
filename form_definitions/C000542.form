@@ -130,7 +130,7 @@
 <abbr title=Please confirm your email address>
 <input type=text name=verify_email id=verify_email required=required aria-required=true class=validate[required] validate[email] validate[confirm:email_address] >
 <label for=phone_number>
-<input type=text name=phone_number id=phone_number  >
+<input type=text name=phone_number id=phone_number >
 <li class=required>
 <label for=mailing_streetAddress1>
 <abbr title=Your street address is a required field>

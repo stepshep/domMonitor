@@ -143,7 +143,7 @@
 <label for=legis-cf-phone class=legis-cf-label>
 <input type=text name=Legis-Phone id=legis-cf-phone class=legis-cf-input phoneUS >
 <label for=legis-cf-subject class=legis-cf-label>
-<input type=text name=Legis-Subject id=legis-cf-subject class=legis-cf-input  minlength=2 >
+<input type=text name=Legis-Subject id=legis-cf-subject class=legis-cf-input minlength=2 >
 <label for=legis-cf-message class=legis-cf-label>
 <textarea name=Legis-Message id=legis-cf-message class=legis-cf-input cols=35 rows=25>
 <input type=submit name=ctl00$PlaceHolderMain$ctl05$btnSubmit value=Send onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$PlaceHolderMain$ctl05$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_PlaceHolderMain_ctl05_btnSubmit class=legis-email-submit-btn >

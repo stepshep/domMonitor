@@ -1,23 +1,23 @@
 <form id=standard_form onSubmit=return validateStandardForm(this) method=post action=/?p=submit>
 <label>
 <span class=req>
-<input  type=text id=prefix name=prefix value= class=input-text required  maxlength=30 >
+<input type=text id=prefix name=prefix value= class=input-text required maxlength=30 >
 <label>
 <span class=req>
-<input  type=text id=firstname name=firstname value= class=input-text required  maxlength=30 >
+<input type=text id=firstname name=firstname value= class=input-text required maxlength=30 >
 <label>
 <span class=req>
-<input  type=text id=lastname name=lastname value= class=input-text required  maxlength=30 >
+<input type=text id=lastname name=lastname value= class=input-text required maxlength=30 >
 <label>
-<input  type=text id=suffix name=suffix value= class=input-text  maxlength=30 >
-<label>
-<span class=req>
-<input  type=text id=address1 name=address1 value= class=input-text required  maxlength=50 >
-<label>
-<input  type=text id=address2 name=address2 value= class=input-text  maxlength=50 >
+<input type=text id=suffix name=suffix value= class=input-text maxlength=30 >
 <label>
 <span class=req>
-<input  type=text id=city name=city value= class=input-text required  maxlength=35 >
+<input type=text id=address1 name=address1 value= class=input-text required maxlength=50 >
+<label>
+<input type=text id=address2 name=address2 value= class=input-text maxlength=50 >
+<label>
+<span class=req>
+<input type=text id=city name=city value= class=input-text required maxlength=35 >
 <label>
 <span class=req>
 <select id=state name=state class=input-select required>
@@ -81,14 +81,14 @@
 <option value=WY>
 <label>
 <span class=req>
-<input  type=text id=zip name=zip value= class=input-text required  maxlength=10 >
+<input type=text id=zip name=zip value= class=input-text required maxlength=10 >
 <label>
-<input  type=text id=homephone name=homephone value= class=input-text  maxlength=20 >
+<input type=text id=homephone name=homephone value= class=input-text maxlength=20 >
 <label>
-<input  type=text id=workphone name=workphone value= class=input-text  maxlength=20 >
+<input type=text id=workphone name=workphone value= class=input-text maxlength=20 >
 <label>
 <span class=req>
-<input  type=text id=email name=email value= class=input-text required email  maxlength=50 >
+<input type=text id=email name=email value= class=input-text required email maxlength=50 >
 <label>
 <span class=req>
 <em>
@@ -133,12 +133,12 @@
 <label>
 <span class=req>
 <em>
-<input  type=text id=subject name=subject value= class=input-text required >
+<input type=text id=subject name=subject value= class=input-text required >
 <label>
 <em>
 <textarea id=messagebody name=messagebody class=input-textarea rows=5 cols=40 wrap=VIRTUAL>
 <label>
 <span class=req>
-<input title= class=input-radio siblings-newsletteraction siblings-2 required name=newsletteraction id=newsletteraction  checked=true  type=radio value=subscribe>
-<input title= class=input-radio siblings-newsletteraction siblings-2 required name=newsletteraction id=newsletteraction  type=radio value=unsubscribe>
+<input title= class=input-radio siblings-newsletteraction siblings-2 required name=newsletteraction id=newsletteraction checked=true type=radio value=subscribe>
+<input title= class=input-radio siblings-newsletteraction siblings-2 required name=newsletteraction id=newsletteraction type=radio value=unsubscribe>
 <input class=input-button type=submit name=submit value=Submit Information >

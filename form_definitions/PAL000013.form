@@ -1,4 +1,4 @@
-<form enctype=multipart/form-data action=/contact#usermessage2a method=post class=cform contact-larry  id=cforms2form>
+<form enctype=multipart/form-data action=/contact#usermessage2a method=post class=cform contact-larry id=cforms2form>
 <ol class=cf-ol>
 <li id=li-2-1 class=>
 <label for=cf2_field_1>

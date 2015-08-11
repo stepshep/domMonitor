@@ -1,9 +1,9 @@
-<form id=contactForm  method=post  action=/contact/email  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact/email enctype=application/x-www-form-urlencoded >
 <h1>
 <fieldset class=topicset>
 <label class=control-label sr-only for=actions>
 <abbr title=Please select an option>
-<select id=actions class=form-control name=actions  onChange=javascript:getHelp(this.value);>
+<select id=actions class=form-control name=actions onChange=javascript:getHelp(this.value);>
 <option label=- - Select an option - - value=select selected=selected>
 <option label=Send an email to comment on legislation value=opinion>
 <option label=Help with a Federal Agency value=Help with a Federal Agency>
@@ -230,7 +230,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=form-control type=text name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=form-control type=text name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=home_phone_number>
 <abbr title=Your Phone number is a required field>
 <input type=text name=home_phone_number id=home_phone_number class=form-control aria-required=true placeholder=Required required>

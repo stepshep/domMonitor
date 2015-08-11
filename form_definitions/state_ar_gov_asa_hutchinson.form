@@ -69,26 +69,26 @@
 <li id=fo128li9 class=notranslate>
 <label class=desc id=title9 for=Field9>
 <span id=req_9 class=req>
-<input id=Field9 name=Field9 type=text class=field text large value= maxlength=255 tabindex=3 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
-<li id=fo128li10 class=notranslate      >
+<input id=Field9 name=Field9 type=text class=field text large value= maxlength=255 tabindex=3 onkeyup=handleInput(this); onchange=handleInput(this); required=>
+<li id=fo128li10 class=notranslate >
 <label class=desc id=title10 for=Field10>
-<input id=Field10 name=Field10 type=text class=field text large value= maxlength=255 tabindex=4 onkeyup=handleInput(this);  onchange=handleInput(this);>
+<input id=Field10 name=Field10 type=text class=field text large value= maxlength=255 tabindex=4 onkeyup=handleInput(this); onchange=handleInput(this);>
 <li id=fo128li11 class=notranslate>
 <label class=desc id=title11 for=Field11>
 <span id=req_11 class=req>
-<input id=Field11 name=Field11 type=text class=field text large value= maxlength=255 tabindex=5 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
-<li id=fo128li12 class=notranslate      >
+<input id=Field11 name=Field11 type=text class=field text large value= maxlength=255 tabindex=5 onkeyup=handleInput(this); onchange=handleInput(this); required=>
+<li id=fo128li12 class=notranslate >
 <label class=desc id=title12 for=Field12>
-<input id=Field12 name=Field12 type=text class=field text small value= maxlength=255 tabindex=6 onkeyup=handleInput(this);  onchange=handleInput(this);>
+<input id=Field12 name=Field12 type=text class=field text small value= maxlength=255 tabindex=6 onkeyup=handleInput(this); onchange=handleInput(this);>
 <li id=fo128li13 class=notranslate>
 <label class=desc id=title13 for=Field13>
 <span id=req_13 class=req>
-<input id=Field13 name=Field13 type=text class=field text large value= maxlength=255 tabindex=7 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
+<input id=Field13 name=Field13 type=text class=field text large value= maxlength=255 tabindex=7 onkeyup=handleInput(this); onchange=handleInput(this); required=>
 <li id=fo128li14 class=notranslate>
 <label class=desc id=title14 for=Field14>
 <span id=req_14 class=req>
-<input id=Field14 name=Field14 type=text class=field text large value= maxlength=255 tabindex=8 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
-<li id=fo128li25 class=notranslate        focused>
+<input id=Field14 name=Field14 type=text class=field text large value= maxlength=255 tabindex=8 onkeyup=handleInput(this); onchange=handleInput(this); required=>
+<li id=fo128li25 class=notranslate focused>
 <label class=desc id=title25 for=Field25>
 <span id=req_25 class=req>
 <select id=Field25 name=Field25 class=field select small onclick=handleInput(this); onkeyup=handleInput(this); tabindex=9>
@@ -146,7 +146,7 @@
 <li id=fo128li16 class=notranslate>
 <label class=desc id=title16 for=Field16>
 <span id=req_16 class=req>
-<input id=Field16 name=Field16 type=text class=field text medium value= maxlength=255 tabindex=10 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
+<input id=Field16 name=Field16 type=text class=field text medium value= maxlength=255 tabindex=10 onkeyup=handleInput(this); onchange=handleInput(this); required=>
 <li id=fo128li3 class=notranslate>
 <label class=desc id=title3 for=Field3>
 <span id=req_3 class=req>
@@ -162,7 +162,7 @@
 <span class=symbol>
 <input id=Field17-2 name=Field17-2 type=tel class=field text value= size=4 maxlength=4 tabindex=14 onkeyup=handleInput(this); onchange=handleInput(this); required=>
 <label for=Field17-2>
-<li id=fo128li29 class=phone notranslate      >
+<li id=fo128li29 class=phone notranslate >
 <label class=desc id=title29 for=Field29>
 <input id=Field29 name=Field29 type=tel class=field text value= size=3 maxlength=3 tabindex=15 onkeyup=handleInput(this); onchange=handleInput(this);>
 <label for=Field29>
@@ -172,16 +172,16 @@
 <span class=symbol>
 <input id=Field29-2 name=Field29-2 type=tel class=field text value= size=4 maxlength=4 tabindex=17 onkeyup=handleInput(this); onchange=handleInput(this);>
 <label for=Field29-2>
-<li id=fo128li18 class=notranslate      >
+<li id=fo128li18 class=notranslate >
 <label class=desc id=title18 for=Field18>
-<input id=Field18 name=Field18 type=text class=field text large value= maxlength=255 tabindex=18 onkeyup=handleInput(this);  onchange=handleInput(this);>
-<li id=fo128li19 class=notranslate      >
+<input id=Field18 name=Field18 type=text class=field text large value= maxlength=255 tabindex=18 onkeyup=handleInput(this); onchange=handleInput(this);>
+<li id=fo128li19 class=notranslate >
 <label class=desc id=title19 for=Field19>
-<input id=Field19 name=Field19 type=text class=field text large value= maxlength=255 tabindex=19 onkeyup=handleInput(this);  onchange=handleInput(this);>
-<li id=fo128li20 class=notranslate      >
+<input id=Field19 name=Field19 type=text class=field text large value= maxlength=255 tabindex=19 onkeyup=handleInput(this); onchange=handleInput(this);>
+<li id=fo128li20 class=notranslate >
 <label class=desc id=title20 for=Field20>
-<input id=Field20 name=Field20 type=text class=field text large value= maxlength=255 tabindex=20 onkeyup=handleInput(this);  onchange=handleInput(this);>
-<li id=fo128li26 class=notranslate       >
+<input id=Field20 name=Field20 type=text class=field text large value= maxlength=255 tabindex=20 onkeyup=handleInput(this); onchange=handleInput(this);>
+<li id=fo128li26 class=notranslate >
 <label class=desc id=title26 for=Field26>
 <select id=Field26 name=Field26 class=field select small onclick=handleInput(this); onkeyup=handleInput(this); tabindex=21>
 <option value= selected=selected>
@@ -235,10 +235,10 @@
 <option value=WV>
 <option value=WI>
 <option value=WY>
-<li id=fo128li22 class=notranslate      >
+<li id=fo128li22 class=notranslate >
 <label class=desc id=title22 for=Field22>
-<input id=Field22 name=Field22 type=text class=field text small value= maxlength=255 tabindex=22 onkeyup=handleInput(this);  onchange=handleInput(this);>
-<li id=fo128li24 class=phone notranslate      >
+<input id=Field22 name=Field22 type=text class=field text small value= maxlength=255 tabindex=22 onkeyup=handleInput(this); onchange=handleInput(this);>
+<li id=fo128li24 class=phone notranslate >
 <label class=desc id=title24 for=Field24>
 <input id=Field24 name=Field24 type=tel class=field text value= size=3 maxlength=3 tabindex=23 onkeyup=handleInput(this); onchange=handleInput(this);>
 <label for=Field24>
@@ -248,7 +248,7 @@
 <span class=symbol>
 <input id=Field24-2 name=Field24-2 type=tel class=field text value= size=4 maxlength=4 tabindex=25 onkeyup=handleInput(this); onchange=handleInput(this);>
 <label for=Field24-2>
-<li id=fo128li28 class=phone notranslate      >
+<li id=fo128li28 class=phone notranslate >
 <label class=desc id=title28 for=Field28>
 <input id=Field28 name=Field28 type=tel class=field text value= size=3 maxlength=3 tabindex=26 onkeyup=handleInput(this); onchange=handleInput(this);>
 <label for=Field28>
@@ -261,7 +261,7 @@
 <li id=fo128li4 class=notranslate>
 <label class=desc id=title4 for=Field4>
 <span id=req_4 class=req>
-<textarea id=Field4 name=Field4 class=field textarea large spellcheck=true rows=10 cols=50 tabindex=29 onkeyup=handleInput(this);  onchange=handleInput(this); required=>
+<textarea id=Field4 name=Field4 class=field textarea large spellcheck=true rows=10 cols=50 tabindex=29 onkeyup=handleInput(this); onchange=handleInput(this); required=>
 <li class=buttons >
 <input id=saveForm name=saveForm class=btTxt submit type=submit value=Submit onmousedown=doSubmitEvents();>
 <label for=comment>

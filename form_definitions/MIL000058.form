@@ -57,7 +57,7 @@
 <input type=text name=837-zip id=837-zip value= placeholder=ZIP: class=text>
 <input type=text name=837-email id=837-email value= placeholder=Email: class=text>
 <input type=text name=837-phone-number id=837-phone-number value= placeholder=Phone Number: class=text>
-<input type=checkbox name=837-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=Yes class=checkbox  >
+<input type=checkbox name=837-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=Yes class=checkbox >
 <label for=837-i-would-like-my-email-added-to-the-district-newsletter-mailing-list class=checkbox>
 <textarea name=837-message id=contact-form-comment-837-message placeholder=Message: rows=14>
 <input type=submit value=Send class=churchope_button>

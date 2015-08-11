@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label class=control-label contact id=contactdropdownlabelfor=actions>
 <abbr title=Please select an option>
@@ -222,7 +222,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=form-control type=text name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=form-control type=text name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=home_phone_number>
 <input type=text name=home_phone_number id=home_phone_number class=form-control>
 <label for=work_phone_number>
@@ -289,5 +289,5 @@
 <label class=checkbox>
 <input for=newsletter name=newsletter id=newsletter_y value=Y type=checkbox >
 <label for=respons_y class=checkbox>
-<input name=response id=response_y value=Y type=checkbox  checked=checked>
+<input name=response id=response_y value=Y type=checkbox checked=checked>
 <input class=btn type=submit id=side-search-btn value=Send >

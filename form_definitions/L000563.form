@@ -4,7 +4,7 @@
 <h2>
 <label>
 <select name=prefix size=1 id=req_prefix>
-<option value=  disabled=  selected= >
+<option value= disabled= selected= >
 <option value=Mr. >
 <option value=Mrs.>
 <option value=Ms.>

@@ -72,6 +72,6 @@
 <label for=required-message>
 <span class=required-field title=required information>
 <textarea class=validate[required] is-required cols=68 id=required-message name=required-message rows=5>
-<input class=is-inline id=subscribe  name=subscribe type=checkbox value=EMAIL.OPTIN >
+<input class=is-inline id=subscribe name=subscribe type=checkbox value=EMAIL.OPTIN >
 <label for=subscribe>
 <input class=submit id=submit name=submit type=submit value=Send Email >

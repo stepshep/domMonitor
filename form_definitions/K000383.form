@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact enctype=application/x-www-form-urlencoded >
 <fieldset>
 <legend>
 <label for=salutation>
@@ -21,10 +21,10 @@
 <option label=Reverend value=Reverend>
 <label for=fname>
 <abbr title=required>
-<input class=span3  required type=text name=fname id=fname aria-required=true placeholder=Required required>
+<input class=span3 required type=text name=fname id=fname aria-required=true placeholder=Required required>
 <label for=lname>
 <abbr title=required>
-<input class=span3  required type=text name=lname id=lname aria-required=true placeholder=Required required>
+<input class=span3 required type=text name=lname id=lname aria-required=true placeholder=Required required>
 <fieldset>
 <legend>
 <label for=mailing_streetAddress1>
@@ -100,7 +100,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=span2 required type=text name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=span2 required type=text name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for=home_phone_number>
 <abbr title=Your phone number is a required field>
 <input type=tel name=home_phone_number id=home_phone_number class=span8 aria-required=true placeholder=Required required>

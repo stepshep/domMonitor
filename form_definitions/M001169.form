@@ -1,4 +1,4 @@
-<form id=contactForm  method=post  action=/contact  enctype=application/x-www-form-urlencoded >
+<form id=contactForm method=post action=/contact enctype=application/x-www-form-urlencoded >
 <fieldset>
 <label for=topic>
 <abbr title=Please enter a message topic for your message>
@@ -81,7 +81,7 @@
 <label for=fname>
 <abbr title=required>
 <input class=span12 required type=text name=fname id=fname aria-required=true placeholder=Required required>
-<label  class= for=mname>
+<label class= for=mname>
 <input class=span12 type=text name=mname id=mname aria-required=true placeholder= >
 <label class= for=lname>
 <abbr title=required>
@@ -150,7 +150,7 @@
 <option value=WY>
 <label for=mailing_zipCode>
 <abbr title=Your zip code is a required field>
-<input class=span12 type=number name=mailing_zipCode  id=mailing_zipCode aria-required=true placeholder=Required required>
+<input class=span12 type=number name=mailing_zipCode id=mailing_zipCode aria-required=true placeholder=Required required>
 <label for= phone_number>
 <input type=tel name=phone_number id=phone_number class=span12 placeholder=>
 <label for=email_address>
@@ -169,5 +169,5 @@
 <textarea id=message class=span12 rows=10 name=message aria-required=true required >
 <h6 class=muted>
 <label for=respons_y class=checkbox>
-<input  name=response id=response_y value=N type=checkbox >
+<input name=response id=response_y value=N type=checkbox >
 <input class=btn type=submit id=side-search-btn value=Send >

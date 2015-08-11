@@ -1,38 +1,38 @@
 <FORM METHOD=POST ACTION=/htbin/formproc/kaptur/webforms/issue_subscribe_file_NEW.txt&display=/kaptur/webforms/issue_subscribe_thank_you.htm>
 <table width=766 cellpadding=0 cellspacing=0>
 <td valign=top>
-<td align=left  valign=top>
+<td align=left valign=top>
 <span class=bodytext>
 <font color=Red>
-<td align=left  valign=top>
+<td align=left valign=top>
 <span class=bodytext>
 <font color=Red>
-<td align=left  valign=top>
+<td align=left valign=top>
 <span class=bodytext>
-<td align=left  valign=top>
+<td align=left valign=top>
 <span class=bodytext>
 <font color=Red>
-<td align=left  valign=top>
+<td align=left valign=top>
 <span class=bodytext>
 <font size=1>
 <td width=129 valign=top align=right>
 <font color=Red>
-<td width=87 align=left  valign=top>
+<td width=87 align=left valign=top>
 <select name=required-prefix tabindex=0>
 <option value=Mr.>
 <option value=Mrs.>
 <option value=Ms.>
 <option value=Dr.>
-<td width=124 align=left  valign=top>
+<td width=124 align=left valign=top>
 <span class=bodytext>
 <input name=required-first id=first_name tabindex=2 size=15 >
-<td width=120 align=left  valign=top>
+<td width=120 align=left valign=top>
 <span class=bodytext>
 <input name=middle id=middle tabindex=3 size=15 >
-<td width=127 align=left  valign=top>
+<td width=127 align=left valign=top>
 <span class=bodytext>
 <input name=required-last id=last_name tabindex=4 size=15 >
-<td width=177 align=left  valign=top>
+<td width=177 align=left valign=top>
 <span class=bodytext>
 <input name=suffix id=suffix tabindex=5 size=15 >
 <td class=bodytext align=left>
