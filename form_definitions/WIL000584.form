@@ -1,34 +1,29 @@
 <form action="/assembly/78/subeck/contact/" enctype="multipart/form-data" method="post">
 <h4 class="contourPageName">
 <fieldset class="contourFieldSet" id="00000000-0000-0000-0000-000000000000">
-<label for="a08e9c3e-fd4b-4eef-a452-f65d285880bd" class="fieldLabel">
-<input type="text" name="a08e9c3e-fd4b-4eef-a452-f65d285880bd" id="a08e9c3e-fd4b-4eef-a452-f65d285880bd" class="text" value="" maxlength="500" data-val="true" data-val-required="Name is mandatory" >
+<label class="fieldLabel" for="a08e9c3e-fd4b-4eef-a452-f65d285880bd">
+<input class="text" type="text" name="a08e9c3e-fd4b-4eef-a452-f65d285880bd" id="a08e9c3e-fd4b-4eef-a452-f65d285880bd" value maxlength="500" data-val="true" data-val-required="Name is mandatory">
 <span class="field-validation-valid" data-valmsg-for="a08e9c3e-fd4b-4eef-a452-f65d285880bd" data-valmsg-replace="true">
-<label for="9b1ef8ae-7dbc-49d2-9321-81946bb348e2" class="fieldLabel">
-<input type="text" name="9b1ef8ae-7dbc-49d2-9321-81946bb348e2" id="9b1ef8ae-7dbc-49d2-9321-81946bb348e2" class="text" value="" maxlength="500" data-val="true" data-val-required="Address is mandatory" >
+<label class="fieldLabel" for="9b1ef8ae-7dbc-49d2-9321-81946bb348e2">
+<input class="text" type="text" name="9b1ef8ae-7dbc-49d2-9321-81946bb348e2" id="9b1ef8ae-7dbc-49d2-9321-81946bb348e2" value maxlength="500" data-val="true" data-val-required="Address is mandatory">
 <span class="field-validation-valid" data-valmsg-for="9b1ef8ae-7dbc-49d2-9321-81946bb348e2" data-valmsg-replace="true">
-<label for="db85b45f-4c9c-4269-81d9-182db12e6e72" class="fieldLabel">
-<input type="text" name="db85b45f-4c9c-4269-81d9-182db12e6e72" id="db85b45f-4c9c-4269-81d9-182db12e6e72" class="text" value="" maxlength="500" data-val="true" data-val-required="City is mandatory" >
+<label class="fieldLabel" for="db85b45f-4c9c-4269-81d9-182db12e6e72">
+<input class="text" type="text" name="db85b45f-4c9c-4269-81d9-182db12e6e72" id="db85b45f-4c9c-4269-81d9-182db12e6e72" value maxlength="500" data-val="true" data-val-required="City is mandatory">
 <span class="field-validation-valid" data-valmsg-for="db85b45f-4c9c-4269-81d9-182db12e6e72" data-valmsg-replace="true">
-<label for="cead964a-05c9-4665-a9ec-061ca923c340" class="fieldLabel">
-<input type="text" name="cead964a-05c9-4665-a9ec-061ca923c340" id="cead964a-05c9-4665-a9ec-061ca923c340" class="text" value="" maxlength="500" data-val="true" data-val-required="Zip Code is mandatory" >
+<label class="fieldLabel" for="cead964a-05c9-4665-a9ec-061ca923c340">
+<input class="text" type="text" name="cead964a-05c9-4665-a9ec-061ca923c340" id="cead964a-05c9-4665-a9ec-061ca923c340" value maxlength="500" data-val="true" data-val-required="Zip Code is mandatory">
 <span class="field-validation-valid" data-valmsg-for="cead964a-05c9-4665-a9ec-061ca923c340" data-valmsg-replace="true">
-<label for="26e21136-96ed-44a5-87c4-d4c8c20f002f" class="fieldLabel">
-<input type="text" name="26e21136-96ed-44a5-87c4-d4c8c20f002f" id="26e21136-96ed-44a5-87c4-d4c8c20f002f" class="text" value="" maxlength="500" data-val="true" data-val-required="Email is mandatory" >
+<label class="fieldLabel" for="26e21136-96ed-44a5-87c4-d4c8c20f002f">
+<input class="text" type="text" name="26e21136-96ed-44a5-87c4-d4c8c20f002f" id="26e21136-96ed-44a5-87c4-d4c8c20f002f" value maxlength="500" data-val="true" data-val-required="Email is mandatory">
 <span class="field-validation-valid" data-valmsg-for="26e21136-96ed-44a5-87c4-d4c8c20f002f" data-valmsg-replace="true">
-<label for="5974fdb2-cfdc-4d9b-b176-cf489936257b" class="fieldLabel">
-<input type="text" name="5974fdb2-cfdc-4d9b-b176-cf489936257b" id="5974fdb2-cfdc-4d9b-b176-cf489936257b" class="text" value="" maxlength="500" >
+<label class="fieldLabel" for="5974fdb2-cfdc-4d9b-b176-cf489936257b">
+<input class="text" type="text" name="5974fdb2-cfdc-4d9b-b176-cf489936257b" id="5974fdb2-cfdc-4d9b-b176-cf489936257b" value maxlength="500">
 <span class="field-validation-valid" data-valmsg-for="5974fdb2-cfdc-4d9b-b176-cf489936257b" data-valmsg-replace="true">
-<label for="2c3d1886-f9b1-4873-8b52-398816338709" class="fieldLabel">
-<textarea name="2c3d1886-f9b1-4873-8b52-398816338709" id="2c3d1886-f9b1-4873-8b52-398816338709" rows="2" cols="20" >
+<label class="fieldLabel" for="2c3d1886-f9b1-4873-8b52-398816338709">
+<textarea name="2c3d1886-f9b1-4873-8b52-398816338709" id="2c3d1886-f9b1-4873-8b52-398816338709" rows="2" cols="20">
 <span class="field-validation-valid" data-valmsg-for="2c3d1886-f9b1-4873-8b52-398816338709" data-valmsg-replace="true">
-<label for="9bd64f77-95d9-406b-8f1f-667bf5d530d9" class="fieldLabel">
-<input type="checkbox" name="9bd64f77-95d9-406b-8f1f-667bf5d530d9" id="9bd64f77-95d9-406b-8f1f-667bf5d530d9" >
+<label class="fieldLabel" for="9bd64f77-95d9-406b-8f1f-667bf5d530d9">
+<input type="checkbox" name="9bd64f77-95d9-406b-8f1f-667bf5d530d9" id="9bd64f77-95d9-406b-8f1f-667bf5d530d9">
 <span class="field-validation-valid" data-valmsg-for="9bd64f77-95d9-406b-8f1f-667bf5d530d9" data-valmsg-replace="true">
-<input type="text" name="ba304876c5fd42259f8b368d388fb3d4" >
-<input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="/assembly/78/subeck/search-results/" method="GET">
-<input class="form-control" type="text" name="q" >
-<span class="input-group-btn" >
-<button class="btn btn-default" type="button" onclick="submit();">
-<i class="glyphicon glyphicon-search">
+<input type="text" name="ba304876c5fd42259f8b368d388fb3d4">
+<input class="btn primary" type="submit" value="Submit" name="submit">

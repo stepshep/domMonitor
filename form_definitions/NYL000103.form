@@ -1,75 +1,75 @@
-<form method=Post action=http://assembly.state.ny.us/mem/Herman-D-Farrell-Jr/send_mail>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_fname SIZE=20 MAXLENGTH=30 TABINDEX=1>
-<INPUT TYPE=TEXT NAME=form_mid SIZE=5 MAXLENGTH=1 TABINDEX=2>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_lname SIZE=20 MAXLENGTH=50 TABINDEX=3>
-<INPUT TYPE=TEXT NAME=form_org SIZE=50 MAXLENGTH=500 TABINDEX=4>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_addr1 SIZE=50 MAXLENGTH=255 TABINDEX=5>
-<INPUT TYPE=TEXT NAME=form_addr2 SIZE=50 MAXLENGTH=255 TABINDEX=6>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_city SIZE=50 MAXLENGTH=255 TABINDEX=7>
-<span class=reqfield>
-<SELECT NAME=form_state TABINDEX=8>
-<OPTION VALUE=New York SELECTED>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<OPTION>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_zip SIZE=10 MAXLENGTH=10 TABINDEX=9>
-<INPUT TYPE=TEXT NAME=form_phone SIZE=50 MAXLENGTH=255 TABINDEX=10>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_email SIZE=50 MAXLENGTH=255 TABINDEX=11>
-<span class=reqfield>
-<INPUT TYPE=TEXT NAME=form_subject SIZE=50 MAXLENGTH=255 TABINDEX=12>
-<span class=reqfield>
-<TEXTAREA NAME=form_message COLS=60 ROWS=10 WRAP=PHYSICAL TABINDEX=13>
-<INPUT TYPE=SUBMIT VALUE=Send Message>
-<span class=reqfield>
+<form method="Post" action="http://assembly.state.ny.us/mem/Herman-D-Farrell-Jr/send_mail">
+<span class="reqfield">
+<input type="TEXT" name="form_fname" size="20" maxlength="30" tabindex="1" >
+<input type="TEXT" name="form_mid" size="5" maxlength="1" tabindex="2" >
+<span class="reqfield">
+<input type="TEXT" name="form_lname" size="20" maxlength="50" tabindex="3" >
+<input type="TEXT" name="form_org" size="50" maxlength="500" tabindex="4" >
+<span class="reqfield">
+<input type="TEXT" name="form_addr1" size="50" maxlength="255" tabindex="5" >
+<input type="TEXT" name="form_addr2" size="50" maxlength="255" tabindex="6" >
+<span class="reqfield">
+<input type="TEXT" name="form_city" size="50" maxlength="255" tabindex="7" >
+<span class="reqfield">
+<select name="form_state" tabindex="8">
+<option value="New York" selected>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<option>
+<span class="reqfield">
+<input type="TEXT" name="form_zip" size="10" maxlength="10" tabindex="9" >
+<input type="TEXT" name="form_phone" size="50" maxlength="255" tabindex="10" >
+<span class="reqfield">
+<input type="TEXT" name="form_email" size="50" maxlength="255" tabindex="11" >
+<span class="reqfield">
+<input type="TEXT" name="form_subject" size="50" maxlength="255" tabindex="12" >
+<span class="reqfield">
+<textarea name="form_message" cols="60" rows="10" wrap="PHYSICAL" tabindex="13">
+<input type="SUBMIT" value="Send Message" >
+<span class="reqfield">

@@ -1,72 +1,72 @@
-<form action=/contact-form/ id=custom_form16 name=custom_form class=custom_form method=post>
-<style type=text/css media=all title=main css>
-<p class=req>
+<form class="custom_form" action="/contact-form/" id="custom_form16" name="custom_form" method="post">
+<style type="text/css" media="all" title="main css">
+<p class="req">
 <h2>
 <label>
-<select name=prefix size=1 id=req_prefix>
-<option selected=selected value=>
-<option value=Mr. >
-<option value=Mrs.>
-<option value=Ms.>
-<option value=Miss>
-<option value=Dr.>
-<option value=Hon.>
-<option value=Rev.>
-<option value=Rabbi>
+<select name="prefix" size="1" id="req_prefix">
+<option selected="selected" value>
+<option value="Mr. ">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Miss">
+<option value="Dr.">
+<option value="Hon.">
+<option value="Rev.">
+<option value="Rabbi">
 <label>
-<input type=text name=firstname id=req_firstname maxlength=90 class=text>
+<input class="text" type="text" name="firstname" id="req_firstname" maxlength="90" >
 <label>
-<input type=text name=middle class=text style=width:15px; maxlength=2>
+<input class="text" style="width:15px;" type="text" name="middle" maxlength="2" >
 <label>
-<input type=text name=lastname id=req_lastname class=text maxlength=90>
+<input class="text" type="text" name="lastname" id="req_lastname" maxlength="90" >
 <label>
-<input type=text name=suffix class=text1 maxlength=5>
+<input class="text1" type="text" name="suffix" maxlength="5" >
 <label>
-<input type=text name=street id=req_street class=text maxlength=190>
+<input class="text" type="text" name="street" id="req_street" maxlength="190" >
 <label>
-<input type=text name=street2 class=text maxlength=190>
+<input class="text" type="text" name="street2" maxlength="190" >
 <label>
-<input type=text name=city id=req_city class=text maxlength=100>
+<input class="text" type="text" name="city" id="req_city" maxlength="100" >
 <label>
-<select name=state id=req_state>
-<option selected= value=MO>
+<select name="state" id="req_state">
+<option selected value="MO">
 <label>
-<input type=text name=zip id=req_zip class=zip maxlength=5>
-<input value=1449 class=zip id=zip2 maxlength=4 name=zipfour type=text>
+<input class="zip" type="text" name="zip" id="req_zip" maxlength="5" >
+<input class="zip" value="1449" id="zip2" maxlength="4" name="zipfour" type="text" >
 <small>
 <label>
-<input type=text name=emailaddress id=req_email maxlength=150 class=text>
+<input class="text" type="text" name="emailaddress" id="req_email" maxlength="150" >
 <label>
-<input type=text name=phone class=text phonemask maxlength=14>
+<input class="text phonemask" type="text" name="phone" maxlength="14" >
 <label>
-<select size=1 name=subject id=req_subject>
-<option selected=selected value=>
-<option selected=selected value=Agriculture>
-<option value=Budget>
-<option value=Defense>
-<option value=Economy>
-<option value=EducationandLabor>
-<option value=Energy>
-<option value=Environmental>
-<option value=GovernmentReform>
-<option value=Health>
-<option value=HomelandSecurity>
-<option value=Immigration>
-<option value=InternationalRelations>
-<option value=Judicial>
-<option value=SocialIssues>
-<option value=SocialSecurity>
-<option value=TaxesandTrade>
-<option value=Telecommunications>
-<option value=Transportation>
-<option value=Veterans>
-<option value=Welfare>
-<option value=Other>
+<select size="1" name="subject" id="req_subject">
+<option selected="selected" value>
+<option selected="selected" value="Agriculture">
+<option value="Budget">
+<option value="Defense">
+<option value="Economy">
+<option value="EducationandLabor">
+<option value="Energy">
+<option value="Environmental">
+<option value="GovernmentReform">
+<option value="Health">
+<option value="HomelandSecurity">
+<option value="Immigration">
+<option value="InternationalRelations">
+<option value="Judicial">
+<option value="SocialIssues">
+<option value="SocialSecurity">
+<option value="TaxesandTrade">
+<option value="Telecommunications">
+<option value="Transportation">
+<option value="Veterans">
+<option value="Welfare">
+<option value="Other">
 <label>
-<textarea name=message id=req_message class=message>
+<textarea class="message" name="message" id="req_message">
 <label>
-<select size=1 name=response id=req_response>
-<option selected= value=>
-<option value=N>
-<option value=Y>
-<input type=button size=20 value=Submit id=submitButton class=form_submit_button>
+<select size="1" name="response" id="req_response">
+<option selected value>
+<option value="N">
+<option value="Y">
+<input class="form_submit_button" type="button" size="20" value="Submit" id="submitButton" >

@@ -1,53 +1,54 @@
-<form action=/email-greg/ id=custom_form12 name=custom_form class=custom_form method=post>
-<style type=text/css media=all title=main css>
+<form class="custom_form" action="/email-greg/" id="custom_form12" name="custom_form" method="post">
+<style type="text/css" media="all" title="main css">
 <fieldset>
-<legend accesskey=c>
-<span style=color:red>
-<table border=0 cellpadding=4 cellspacing=3>
-<td align=right class=tabletext style=width:42%>
+<legend accesskey="c">
+<span style="color:red">
+<table border="0" cellpadding="4" cellspacing="3">
+<tbody>
+<td class="tabletext" style="width:42%" align="right">
 <label>
-<input type=text maxlength=90 name=prefix id=req_prefix class=text1 >
-<td align=right class=tabletext>
+<input class="text1" type="text" maxlength="90" name="prefix" id="req_prefix" >
+<td class="tabletext" align="right">
 <label>
-<input type=text maxlength=90 name=firstname id=req_firstname class=text >
-<td align=right class=tabletext>
-<label class=inline>
-<input type=text name=middle class=text style=width:22px; maxlength=1 >
-<td align=right class=tabletext>
+<input class="text" type="text" maxlength="90" name="firstname" id="req_firstname" >
+<td class="tabletext" align="right">
+<label class="inline">
+<input class="text" style="width:22px;" type="text" name="middle" maxlength="1" >
+<td class="tabletext" align="right">
 <label>
-<input type=text maxlength=90 name=lastname id=req_lastname class=text >
-<td align=right class=tabletext>
-<label class=inline>
-<input type=text maxlength=5 name=suffix class=text1 style=width:30px >
-<td align=right class=tabletext>
-<label for=street>
-<input type=text maxlength=190 name=street id=req_street class=text >
-<td align=right class=tabletext>
-<label for=street2>
-<input type=text maxlength=190 name=street2 class=text >
-<td align=right class=tabletext>
-<label for=req_city>
-<input type=text maxlength=90 name=city id=req_city class=text >
-<td align=right class=tabletext>
-<label for=req-state>
-<select name=state id=req-state>
-<option selected=selected>
-<td align=right class=tabletext>
-<label for=req_zipcode>
-<input type=text maxlength=5 name=zipcode id=req_zipcode class=zip style=width:70px; onfocus=onlyNumbers(this); >
-<input type=text maxlength=4 name=zipfour id=zipfour class=zip style=width:30px; >
-<td align=right class=tabletext>
-<label for=phone>
-<input type=text name=phone id=req_phone onfocus=formatPhone(this) class=text maxlength=14 >
-<td align=right class=tabletext>
-<label for=req_email>
-<input type=text maxlength=190 name=emailaddress id=req_email onblur=emailCheck(this) class=text >
+<input class="text" type="text" maxlength="90" name="lastname" id="req_lastname" >
+<td class="tabletext" align="right">
+<label class="inline">
+<input class="text1" style="width:30px" type="text" maxlength="5" name="suffix" >
+<td class="tabletext" align="right">
+<label for="street">
+<input class="text" type="text" maxlength="190" name="street" id="req_street" >
+<td class="tabletext" align="right">
+<label for="street2">
+<input class="text" type="text" maxlength="190" name="street2" >
+<td class="tabletext" align="right">
+<label for="req_city">
+<input class="text" type="text" maxlength="90" name="city" id="req_city" >
+<td class="tabletext" align="right">
+<label for="req-state">
+<select name="state" id="req-state">
+<option selected="selected">
+<td class="tabletext" align="right">
+<label for="req_zipcode">
+<input class="zip" style="width:70px;" type="text" maxlength="5" name="zipcode" id="req_zipcode" onfocus="onlyNumbers(this);" >
+<input class="zip" style="width:30px;" type="text" maxlength="4" name="zipfour" id="zipfour" >
+<td class="tabletext" align="right">
+<label for="phone">
+<input class="text" type="text" name="phone" id="req_phone" onfocus="formatPhone(this)" maxlength="14" >
+<td class="tabletext" align="right">
+<label for="req_email">
+<input class="text" type="text" maxlength="190" name="emailaddress" id="req_email" onblur="emailCheck(this)" >
 <fieldset>
-<legend accesskey=q>
-<label class=contactForm for=req_issue>
-<input type=text maxlength=190 name=subject id=req_subject class=text >
-<textarea class=message id=req_message name=msg wrap=VIRTUAL cols=50 rows=5>
-<input type=radio value=No checked=checked name=affl1 >
-<input type=radio value=Yes name=affl1 >
-<input id=submitButton type=submit value=Send Email>
-<input name=RESET type=reset value=Clear Form Fields>
+<legend accesskey="q">
+<label class="contactForm" for="req_issue">
+<input class="text" type="text" maxlength="190" name="subject" id="req_subject" >
+<textarea class="message" id="req_message" name="msg" wrap="VIRTUAL" cols="50" rows="5">
+<input type="radio" value="No" checked="checked" name="affl1" >
+<input type="radio" value="Yes" name="affl1" >
+<input id="submitButton" type="submit" value="Send Email" >
+<input name="RESET" type="reset" value="Clear Form Fields" >

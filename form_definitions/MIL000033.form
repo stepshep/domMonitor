@@ -1,61 +1,64 @@
-<form name="crm" action="ima_form_post.asp" method="POST" onSubmit="return f_check_required()">
-<table align=center border=0>
-<td valign=bottom align=right bgcolor=white>
+<form name="crm" action="ima_form_post.asp" method="POST" onsubmit="return f_check_required()">
+<table align="center" border="0">
+<tbody>
+<td valign="bottom" align="right" bgcolor="white">
 <b>
 <font size="-1">
-<table border=0 cellspacing=0 cellpadding=0 width=100% bgcolor=white>
-<table border=0 cellspacing=0 cellpadding=0>
-<tr bgcolor=white>
-<b>
-<font size="-1">
-<b>
-<font size="-1">
-<i>
-<font face=Arial color=red size=-1>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="white">
+<tbody>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr bgcolor="white">
 <b>
 <font size="-1">
 <b>
 <font size="-1">
 <i>
-<font color=red>
+<font face="Arial" color="red" size="-1">
 <b>
 <font size="-1">
-<font size=-1>
-<tr bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="prefix" type="text" SIZE=10 maxlength=90 value="">
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="first_name" type="text" value="" SIZE=12 maxlength=90 >
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="middle_name" type="text" value="" SIZE=8 maxlength=90>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="last_name" type="text" value="" SIZE=15 maxlength=90>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="suffix" type="text" value="" SIZE=8 maxlength=90>
-<td align=right bgcolor=white>
-<b>
-<font size="-1">
-<td bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="title" type="text" value="" SIZE=60 maxlength=190>
-<td align=right bgcolor=white>
-<b>
-<font size="-1">
-<td bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="organization" type="text" value="" SIZE=60 maxlength=190>
-<td align=right bgcolor=white>
 <b>
 <font size="-1">
 <i>
-<font color=red>
-<td bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="street_address" type="text" value="" SIZE=60 maxlength=190>
-<td align=right bgcolor=white>
+<font color="red">
+<b>
+<font size="-1">
+<font size="-1">
+<tr bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="prefix" size="10" maxlength="90" value>
+<input onblur="f_sc(this);" type="TEXT" name="first_name" value size="12" maxlength="90">
+<input onblur="f_sc(this);" type="TEXT" name="middle_name" value size="8" maxlength="90">
+<input onblur="f_sc(this);" type="TEXT" name="last_name" value size="15" maxlength="90">
+<input onblur="f_sc(this);" type="TEXT" name="suffix" value size="8" maxlength="90">
+<td align="right" bgcolor="white">
+<b>
+<font size="-1">
+<td bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="title" value size="60" maxlength="190">
+<td align="right" bgcolor="white">
+<b>
+<font size="-1">
+<td bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="organization" value size="60" maxlength="190">
+<td align="right" bgcolor="white">
 <b>
 <font size="-1">
 <i>
-<font color=red>
-<td bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="city" type="text" value="" SIZE=22 maxlength=45>
+<font color="red">
+<td bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="street_address" value size="60" maxlength="190">
+<td align="right" bgcolor="white">
 <b>
 <font size="-1">
 <i>
-<font color=red>
-<select onChange="f_sc_dd('state',this.options[this.selectedIndex].value);" NAME="state">
+<font color="red">
+<td bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="city" value size="22" maxlength="45">
+<b>
+<font size="-1">
+<i>
+<font color="red">
+<select onchange="f_sc_dd('state',this.options[this.selectedIndex].value);" name="state">
 <option value="Michigan=MI">
 <option value="Alaska=AK">
 <option value="Alabama=AL">
@@ -118,27 +121,27 @@
 <b>
 <font size="-1">
 <i>
-<font color=red>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="zip_5" type="text" value="" SIZE=5 maxlength=5>
+<font color="red">
+<input onblur="f_sc(this);" type="TEXT" name="zip_5" value size="5" maxlength="5">
 <b>
 <font size="-1">
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="zip_4" type="text" value="" SIZE=4 maxlength=4>
-<td bgcolor=white align=right>
+<input onblur="f_sc(this);" type="TEXT" name="zip_4" value size="4" maxlength="4">
+<td bgcolor="white" align="right">
 <b>
 <font size="-1">
-<td bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="phone" type="text" value="" SIZE=60 maxlength=100>
-<td bgcolor=white align=right>
+<td bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="phone" value size="60" maxlength="100">
+<td bgcolor="white" align="right">
 <b>
 <font size="-1">
 <i>
-<font color=red>
-<td bgcolor=#0080C0>
-<INPUT onBlur="f_sc(this);" TYPE=TEXT NAME="email" type="text" value="" SIZE=60 maxlength=100>
-<td bgcolor=white align=right>
+<font color="red">
+<td bgcolor="#0080C0">
+<input onblur="f_sc(this);" type="TEXT" name="email" value size="60" maxlength="100">
+<td bgcolor="white" align="right">
 <b>
 <font size="-1">
-<td bgcolor=#0080C0>
+<td bgcolor="#0080C0">
 <select name="subject">
 <option value="Budget Issue=BUDGET">
 <option value="Education Issue=EDU">
@@ -147,12 +150,12 @@
 <option value="Miscellaneous Issue=MISC">
 <option value="Scheduling Request=SCHEDULING">
 <option value="State Department Concern=STATE DEPT. CONCERN">
-<td bgcolor=white align=right valign=top>
+<td bgcolor="white" align="right" valign="top">
 <b>
 <font size="-1">
 <b>
-<td bgcolor=#0080C0>
-<textarea wrap NAME="message" cols=70 rows=10 rows="1" cols="20" >
-<td colspan=3 align=center bgcolor=white >
-<INPUT TYPE="submit" name="submit" VALUE="Submit Form">
-<INPUT TYPE="submit" name="submit" VALUE="Cancel" onClick="document.crm.button_action.value='CANCEL'">
+<td bgcolor="#0080C0">
+<textarea wrap name="message" cols="70" rows="10">
+<td colspan="3" align="center" bgcolor="white">
+<input type="submit" name="submit" value="Submit Form">
+<input type="submit" name="submit" value="Cancel" onclick="document.crm.button_action.value='CANCEL'">

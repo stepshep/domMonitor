@@ -1,153 +1,153 @@
-<form action=/communityrelations/form/email method=post>
+<form action="/communityrelations/form/email" method="post">
 <fieldset>
 <legend>
-<label for=RequestedByTitle>
-<input class=width50px id=RequestedByTitle name=RequestedByTitle type=text value= >
-<span class=field-validation-valid data-valmsg-for=RequestedByTitle data-valmsg-replace=true>
-<label for=RequestedByFirstName>
-<input class=width200px data-val=true data-val-length=Must Be Less Than 50 Characters data-val-length-max=50 data-val-required=First Name Required id=RequestedByFirstName name=RequestedByFirstName type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByFirstName data-valmsg-replace=true>
-<label for=RequestedByMiddleName>
-<input class=width200px data-val=true data-val-length=Must Be Less Than 50 Characters data-val-length-max=50 id=RequestedByMiddleName name=RequestedByMiddleName type=text value= >
-<span class=field-validation-valid data-valmsg-for=RequestedByMiddleName data-valmsg-replace=true>
-<label for=RequestedByLastName>
-<input class=width200px data-val=true data-val-length=Must Be Less Than 50 Characters data-val-length-max=50 data-val-required=Last Name Required id=RequestedByLastName name=RequestedByLastName type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByLastName data-valmsg-replace=true>
-<label for=RequestedBySuffix>
-<input class=width50px data-val=true data-val-length=Must Be Less Than 10 Characters data-val-length-max=10 id=RequestedBySuffix name=RequestedBySuffix type=text value= >
-<span class=field-validation-valid data-valmsg-for=RequestedBySuffix data-valmsg-replace=true>
-<label for=RequestedByStreetAddress>
-<input class=width300px data-val=true data-val-length=Must Be Less Than 250 Characters data-val-length-max=250 data-val-required=Street Address Required id=RequestedByStreetAddress name=RequestedByStreetAddress type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByStreetAddress data-valmsg-replace=true>
-<label for=RequestedByCity>
-<input class=width200px data-val=true data-val-length=Must Be Less Than 80 Characters data-val-length-max=80 data-val-required=City Required id=RequestedByCity name=RequestedByCity type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByCity data-valmsg-replace=true>
-<label for=RequestedByState>
-<select data-val=true data-val-required=State Required id=RequestedByState name=RequestedByState>
-<option value=Alabama>
-<option value=Alaska>
-<option value=American Samoa>
-<option value=Arizona>
-<option value=Arkansas>
-<option value=California>
-<option value=Colorado>
-<option value=Connecticut>
-<option value=Delaware>
-<option value=District of Columbia>
-<option value=Florida>
-<option value=Georgia>
-<option value=Guam>
-<option value=Hawaii>
-<option value=Idaho>
-<option value=Illinois>
-<option value=Indiana>
-<option value=Iowa>
-<option value=Kansas>
-<option value=Kentucky>
-<option value=Louisiana>
-<option value=Maine>
-<option value=Maryland>
-<option value=Massachusetts>
-<option value=Michigan>
-<option value=Minnesota>
-<option value=Mississippi>
-<option value=Missouri>
-<option value=Montana>
-<option value=Nebraska>
-<option value=Nevada>
-<option value=New Hampshire>
-<option value=New Jersey>
-<option value=New Mexico>
-<option value=New York>
-<option value=North Carolina>
-<option value=North Dakota>
-<option value=Northern Marianas Islands>
-<option value=Ohio>
-<option value=Oklahoma>
-<option value=Oregon>
-<option value=Pennsylvania>
-<option value=Puerto Rico>
-<option value=Rhode Island>
-<option value=South Carolina>
-<option value=South Dakota>
-<option value=Tennessee>
-<option value=Texas>
-<option value=Utah>
-<option value=Vermont>
-<option selected=selected value=Virginia>
-<option value=Virgin Islands>
-<option value=Washington>
-<option value=West Virginia>
-<option value=Wisconsin>
-<option value=Wyoming>
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByState data-valmsg-replace=true>
-<label for=RequestedByZipCode>
-<input class=width75px data-val=true data-val-length=Must Be Less Than 20 Characters data-val-length-max=20 data-val-required=Zip Code Required id=RequestedByZipCode name=RequestedByZipCode type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByZipCode data-valmsg-replace=true>
-<label for=RequestedByPhone>
-<input class=width125px data-val=true data-val-length=Must Be Less Than 50 Characters data-val-length-max=50 id=RequestedByPhone name=RequestedByPhone type=text value= >
-<span class=field-validation-valid data-valmsg-for=RequestedByPhone data-valmsg-replace=true>
-<label for=RequestedByEmail>
-<input class=width300px data-val=true data-val-email=E-mail address is not valid data-val-length=Must Be Less Than 100 Characters data-val-length-max=100 data-val-required=E-mail Address Required id=RequestedByEmail name=RequestedByEmail type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=RequestedByEmail data-valmsg-replace=true>
-<label for=Organization>
-<input class=width400px data-val=true data-val-length=Must Be Less Than 1000 Characters data-val-length-max=1000 id=Organization name=Organization type=text value= >
-<span class=field-validation-valid data-valmsg-for=Organization data-valmsg-replace=true>
-<label for=Affiliation>
-<select data-val=true data-val-required=Affiliation Required id=Affiliation name=Affiliation>
-<option value=PrivateCitizen>
-<option value=ArmedForcesMember>
-<option value=VirginiaResident>
-<option value=ForeignCitizen>
-<option value=PoliticalAdvocate>
-<option value=Professional>
-<option value=SmallBusinessOwnerOrEmployee>
-<option value=SeniorCitizen>
-<option value=StateGovernmentEmployee>
-<option value=StudentCollegeOrUniversity>
-<option value=Veteran>
-<option value=VisitorToTheState>
-<option value=YoungPersonUnder18YearsOfAge>
-<option value=Other>
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=Affiliation data-valmsg-replace=true>
+<label for="RequestedByTitle">
+<input class="width50px" id="RequestedByTitle" name="RequestedByTitle" type="text" value>
+<span class="field-validation-valid" data-valmsg-for="RequestedByTitle" data-valmsg-replace="true">
+<label for="RequestedByFirstName">
+<input class="width200px" data-val="true" data-val-length="Must Be Less Than 50 Characters" data-val-length-max="50" data-val-required="First Name Required" id="RequestedByFirstName" name="RequestedByFirstName" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByFirstName" data-valmsg-replace="true">
+<label for="RequestedByMiddleName">
+<input class="width200px" data-val="true" data-val-length="Must Be Less Than 50 Characters" data-val-length-max="50" id="RequestedByMiddleName" name="RequestedByMiddleName" type="text" value>
+<span class="field-validation-valid" data-valmsg-for="RequestedByMiddleName" data-valmsg-replace="true">
+<label for="RequestedByLastName">
+<input class="width200px" data-val="true" data-val-length="Must Be Less Than 50 Characters" data-val-length-max="50" data-val-required="Last Name Required" id="RequestedByLastName" name="RequestedByLastName" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByLastName" data-valmsg-replace="true">
+<label for="RequestedBySuffix">
+<input class="width50px" data-val="true" data-val-length="Must Be Less Than 10 Characters" data-val-length-max="10" id="RequestedBySuffix" name="RequestedBySuffix" type="text" value>
+<span class="field-validation-valid" data-valmsg-for="RequestedBySuffix" data-valmsg-replace="true">
+<label for="RequestedByStreetAddress">
+<input class="width300px" data-val="true" data-val-length="Must Be Less Than 250 Characters" data-val-length-max="250" data-val-required="Street Address Required" id="RequestedByStreetAddress" name="RequestedByStreetAddress" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByStreetAddress" data-valmsg-replace="true">
+<label for="RequestedByCity">
+<input class="width200px" data-val="true" data-val-length="Must Be Less Than 80 Characters" data-val-length-max="80" data-val-required="City Required" id="RequestedByCity" name="RequestedByCity" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByCity" data-valmsg-replace="true">
+<label for="RequestedByState">
+<select data-val="true" data-val-required="State Required" id="RequestedByState" name="RequestedByState">
+<option value="Alabama">
+<option value="Alaska">
+<option value="American Samoa">
+<option value="Arizona">
+<option value="Arkansas">
+<option value="California">
+<option value="Colorado">
+<option value="Connecticut">
+<option value="Delaware">
+<option value="District of Columbia">
+<option value="Florida">
+<option value="Georgia">
+<option value="Guam">
+<option value="Hawaii">
+<option value="Idaho">
+<option value="Illinois">
+<option value="Indiana">
+<option value="Iowa">
+<option value="Kansas">
+<option value="Kentucky">
+<option value="Louisiana">
+<option value="Maine">
+<option value="Maryland">
+<option value="Massachusetts">
+<option value="Michigan">
+<option value="Minnesota">
+<option value="Mississippi">
+<option value="Missouri">
+<option value="Montana">
+<option value="Nebraska">
+<option value="Nevada">
+<option value="New Hampshire">
+<option value="New Jersey">
+<option value="New Mexico">
+<option value="New York">
+<option value="North Carolina">
+<option value="North Dakota">
+<option value="Northern Marianas Islands">
+<option value="Ohio">
+<option value="Oklahoma">
+<option value="Oregon">
+<option value="Pennsylvania">
+<option value="Puerto Rico">
+<option value="Rhode Island">
+<option value="South Carolina">
+<option value="South Dakota">
+<option value="Tennessee">
+<option value="Texas">
+<option value="Utah">
+<option value="Vermont">
+<option selected="selected" value="Virginia">
+<option value="Virgin Islands">
+<option value="Washington">
+<option value="West Virginia">
+<option value="Wisconsin">
+<option value="Wyoming">
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByState" data-valmsg-replace="true">
+<label for="RequestedByZipCode">
+<input class="width75px" data-val="true" data-val-length="Must Be Less Than 20 Characters" data-val-length-max="20" data-val-required="Zip Code Required" id="RequestedByZipCode" name="RequestedByZipCode" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByZipCode" data-valmsg-replace="true">
+<label for="RequestedByPhone">
+<input class="width125px" data-val="true" data-val-length="Must Be Less Than 50 Characters" data-val-length-max="50" id="RequestedByPhone" name="RequestedByPhone" type="text" value>
+<span class="field-validation-valid" data-valmsg-for="RequestedByPhone" data-valmsg-replace="true">
+<label for="RequestedByEmail">
+<input class="width300px" data-val="true" data-val-email="E-mail address is not valid" data-val-length="Must Be Less Than 100 Characters" data-val-length-max="100" data-val-required="E-mail Address Required" id="RequestedByEmail" name="RequestedByEmail" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="RequestedByEmail" data-valmsg-replace="true">
+<label for="Organization">
+<input class="width400px" data-val="true" data-val-length="Must Be Less Than 1000 Characters" data-val-length-max="1000" id="Organization" name="Organization" type="text" value>
+<span class="field-validation-valid" data-valmsg-for="Organization" data-valmsg-replace="true">
+<label for="Affiliation">
+<select data-val="true" data-val-required="Affiliation Required" id="Affiliation" name="Affiliation">
+<option value="PrivateCitizen">
+<option value="ArmedForcesMember">
+<option value="VirginiaResident">
+<option value="ForeignCitizen">
+<option value="PoliticalAdvocate">
+<option value="Professional">
+<option value="SmallBusinessOwnerOrEmployee">
+<option value="SeniorCitizen">
+<option value="StateGovernmentEmployee">
+<option value="StudentCollegeOrUniversity">
+<option value="Veteran">
+<option value="VisitorToTheState">
+<option value="YoungPersonUnder18YearsOfAge">
+<option value="Other">
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="Affiliation" data-valmsg-replace="true">
 <fieldset>
 <legend>
-<label for=IssueCode>
-<select id=IssueCode name=IssueCode>
-<option selected=selected value=>
-<option value=CT>
-<option value=EDU>
-<option value=FIN>
-<option value=HHR>
-<option value=NR>
-<option value=PSHS>
-<option value=AD>
-<option value=AGR>
-<option value=SOC>
-<option value=TECH>
-<option value=TRAN>
-<option value=VDA>
-<span class=field-validation-valid data-valmsg-for=IssueCode data-valmsg-replace=true>
-<label for=ResponseRequired>
-<input checked=checked id=ResponseRequired name=ResponseRequired type=radio value=No >
-<input id=ResponseRequired name=ResponseRequired type=radio value=Yes >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=ResponseRequired data-valmsg-replace=true>
-<label for=MessageSubject>
-<input class=width400px data-val=true data-val-length=Must Be Less Than 200 Characters data-val-length-max=200 data-val-required=Message Subject Required id=MessageSubject name=MessageSubject type=text value= >
-<span class=required>
-<span class=field-validation-valid data-valmsg-for=MessageSubject data-valmsg-replace=true>
-<label for=MessageBody>
-<span class=required>
-<textarea cols=62 data-val=true data-val-required=Message Required id=MessageBody name=MessageBody rows=10>
-<span class=field-validation-valid data-valmsg-for=MessageBody data-valmsg-replace=true>
-<input type=submit value=Submit >
-<input type=reset value=Reset >
+<label for="IssueCode">
+<select id="IssueCode" name="IssueCode">
+<option selected="selected" value>
+<option value="CT">
+<option value="EDU">
+<option value="FIN">
+<option value="HHR">
+<option value="NR">
+<option value="PSHS">
+<option value="AD">
+<option value="AGR">
+<option value="SOC">
+<option value="TECH">
+<option value="TRAN">
+<option value="VDA">
+<span class="field-validation-valid" data-valmsg-for="IssueCode" data-valmsg-replace="true">
+<label for="ResponseRequired">
+<input checked="checked" id="ResponseRequired" name="ResponseRequired" type="radio" value="No">
+<input id="ResponseRequired" name="ResponseRequired" type="radio" value="Yes">
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="ResponseRequired" data-valmsg-replace="true">
+<label for="MessageSubject">
+<input class="width400px" data-val="true" data-val-length="Must Be Less Than 200 Characters" data-val-length-max="200" data-val-required="Message Subject Required" id="MessageSubject" name="MessageSubject" type="text" value>
+<span class="required">
+<span class="field-validation-valid" data-valmsg-for="MessageSubject" data-valmsg-replace="true">
+<label for="MessageBody">
+<span class="required">
+<textarea cols="62" data-val="true" data-val-required="Message Required" id="MessageBody" name="MessageBody" rows="10">
+<span class="field-validation-valid" data-valmsg-for="MessageBody" data-valmsg-replace="true">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">

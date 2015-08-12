@@ -1,50 +1,51 @@
-<form action=/contact-kissel/#wpcf7-f9-p668-o1 method=post class=wpcf7-form>
-<table width=550 cellspacing=2 cellpadding=2>
-<td width=179 align=right>
-<td width=355>
-<span class=wpcf7-form-control-wrap first_name>
-<input type=text name=first_name value= class=wpcf7-text size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap last_name>
-<input type=text name=last_name value= class=wpcf7-text size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap email_witkos>
-<input type=text name=email_witkos value= class=wpcf7-text wpcf7-validates-as-email size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap phone>
-<input type=text name=phone value= class=wpcf7-text size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap mailing_address>
-<input type=text name=mailing_address value= class=wpcf7-text size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap town>
-<input type=text name=town value= class=wpcf7-text wpcf7-validates-as-required size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap zip>
-<input type=text name=zip value= class=wpcf7-text size=20 >
-<td align=right>
-<span class=wpcf7-form-control-wrap issue>
-<select name=issue class=wpcf7-select>
-<option value=>
-<option value=Education>
-<option value=Environment>
-<option value=Invitation to a Local Event>
-<option value=Jobs and the Economy>
-<option value=Public Safety>
-<option value=State Budget>
-<option value=Taxes>
-<option value=Other>
-<option value=Specific Bill (indicate below)>
-<td align=right>
-<span class=wpcf7-form-control-wrap bill>
-<input type=text name=bill value= class=wpcf7-text size=4 >
-<td align=left colspan=2>
-<span class=wpcf7-form-control-wrap email-updates>
-<span class=wpcf7-checkbox>
-<span class=wpcf7-list-item>
-<input type=checkbox name=email-updates[] value=Yes checked=checked >
-<span class=wpcf7-list-item-label>
-<td align=right valign=top>
-<span class=wpcf7-form-control-wrap question>
-<textarea name=question class=wpcf7-validates-as-required cols=40 rows=6>
-<input type=submit value=SUBMIT class=wpcf7-submit button_cap_update >
+<form class="wpcf7-form" action="/contact-kissel/#wpcf7-f9-p668-o1" method="post">
+<table width="550" cellspacing="2" cellpadding="2">
+<tbody>
+<td width="179" align="right">
+<td width="355">
+<span class="wpcf7-form-control-wrap first_name">
+<input class="wpcf7-text" type="text" name="first_name" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap last_name">
+<input class="wpcf7-text" type="text" name="last_name" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap email_witkos">
+<input class="wpcf7-text wpcf7-validates-as-email" type="text" name="email_witkos" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap phone">
+<input class="wpcf7-text" type="text" name="phone" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap mailing_address">
+<input class="wpcf7-text" type="text" name="mailing_address" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap town">
+<input class="wpcf7-text wpcf7-validates-as-required" type="text" name="town" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap zip">
+<input class="wpcf7-text" type="text" name="zip" value size="20">
+<td align="right">
+<span class="wpcf7-form-control-wrap issue">
+<select class="wpcf7-select" name="issue">
+<option value>
+<option value="Education">
+<option value="Environment">
+<option value="Invitation to a Local Event">
+<option value="Jobs and the Economy">
+<option value="Public Safety">
+<option value="State Budget">
+<option value="Taxes">
+<option value="Other">
+<option value="Specific Bill (indicate below)">
+<td align="right">
+<span class="wpcf7-form-control-wrap bill">
+<input class="wpcf7-text" type="text" name="bill" value size="4">
+<td align="left" colspan="2">
+<span class="wpcf7-form-control-wrap email-updates">
+<span class="wpcf7-checkbox">
+<span class="wpcf7-list-item">
+<input type="checkbox" name="email-updates[]" value="Yes" checked="checked">
+<span class="wpcf7-list-item-label">
+<td align="right" valign="top">
+<span class="wpcf7-form-control-wrap question">
+<textarea class="wpcf7-validates-as-required" name="question" cols="40" rows="6">
+<input class="wpcf7-submit button_cap_update" type="submit" value="SUBMIT">

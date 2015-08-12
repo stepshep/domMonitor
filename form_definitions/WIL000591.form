@@ -6,35 +6,30 @@
 <span class="field-validation-valid" data-valmsg-for="200318eb-47de-45e0-b6d6-c7c111805a7d" data-valmsg-replace="true">
 <span class="field-validation-valid" data-valmsg-for="ac0c1bff-f280-4e54-dfae-c414e8a28275" data-valmsg-replace="true">
 <span class="field-validation-valid" data-valmsg-for="29c96074-e18d-402d-eae6-a44edf6393fe" data-valmsg-replace="true">
-<label for="8158dc83-4143-4d5b-8770-f4d298b943ce" class="fieldLabel">
-<input type="text" name="8158dc83-4143-4d5b-8770-f4d298b943ce" id="8158dc83-4143-4d5b-8770-f4d298b943ce" class="text" value="" maxlength="500" data-val="true" data-val-required="Name is mandatory" >
+<label class="fieldLabel" for="8158dc83-4143-4d5b-8770-f4d298b943ce">
+<input class="text" type="text" name="8158dc83-4143-4d5b-8770-f4d298b943ce" id="8158dc83-4143-4d5b-8770-f4d298b943ce" value maxlength="500" data-val="true" data-val-required="Name is mandatory">
 <span class="field-validation-valid" data-valmsg-for="8158dc83-4143-4d5b-8770-f4d298b943ce" data-valmsg-replace="true">
-<label for="61a58e75-0ec7-421b-fe10-e454d498d803" class="fieldLabel">
+<label class="fieldLabel" for="61a58e75-0ec7-421b-fe10-e454d498d803">
 <span class="help-block">
-<input type="text" name="61a58e75-0ec7-421b-fe10-e454d498d803" id="61a58e75-0ec7-421b-fe10-e454d498d803" class="text" value="" maxlength="500" data-val="true" data-val-required="Please enter your phone number." >
+<input class="text" type="text" name="61a58e75-0ec7-421b-fe10-e454d498d803" id="61a58e75-0ec7-421b-fe10-e454d498d803" value maxlength="500" data-val="true" data-val-required="Please enter your phone number.">
 <span class="field-validation-valid" data-valmsg-for="61a58e75-0ec7-421b-fe10-e454d498d803" data-valmsg-replace="true">
-<label for="f52f77ed-db9a-4e02-b619-77ea64543f39" class="fieldLabel">
-<input type="email" name="f52f77ed-db9a-4e02-b619-77ea64543f39" id="f52f77ed-db9a-4e02-b619-77ea64543f39" class="text" value="" maxlength="500" data-val="true" data-val-required="Email is mandatory" >
+<label class="fieldLabel" for="f52f77ed-db9a-4e02-b619-77ea64543f39">
+<input class="text" type="email" name="f52f77ed-db9a-4e02-b619-77ea64543f39" id="f52f77ed-db9a-4e02-b619-77ea64543f39" value maxlength="500" data-val="true" data-val-required="Email is mandatory">
 <span class="field-validation-valid" data-valmsg-for="f52f77ed-db9a-4e02-b619-77ea64543f39" data-valmsg-replace="true">
-<label for="ea343b07-a918-4f99-ecf2-a8bd80667606" class="fieldLabel">
+<label class="fieldLabel" for="ea343b07-a918-4f99-ecf2-a8bd80667606">
 <span class="help-block">
-<input type="text" name="ea343b07-a918-4f99-ecf2-a8bd80667606" id="ea343b07-a918-4f99-ecf2-a8bd80667606" class="text" value="" maxlength="500" data-val="true" data-val-required="Please enter your address" >
+<input class="text" type="text" name="ea343b07-a918-4f99-ecf2-a8bd80667606" id="ea343b07-a918-4f99-ecf2-a8bd80667606" value maxlength="500" data-val="true" data-val-required="Please enter your address">
 <span class="field-validation-valid" data-valmsg-for="ea343b07-a918-4f99-ecf2-a8bd80667606" data-valmsg-replace="true">
-<label for="39f98741-51a6-4aaa-afa8-4498998663df" class="fieldLabel">
+<label class="fieldLabel" for="39f98741-51a6-4aaa-afa8-4498998663df">
 <span class="help-block">
-<input type="text" name="39f98741-51a6-4aaa-afa8-4498998663df" id="39f98741-51a6-4aaa-afa8-4498998663df" class="text" value="" maxlength="500" data-val="true" data-val-required="Please enter your city." >
+<input class="text" type="text" name="39f98741-51a6-4aaa-afa8-4498998663df" id="39f98741-51a6-4aaa-afa8-4498998663df" value maxlength="500" data-val="true" data-val-required="Please enter your city.">
 <span class="field-validation-valid" data-valmsg-for="39f98741-51a6-4aaa-afa8-4498998663df" data-valmsg-replace="true">
-<label for="3f3aae8f-034b-4365-aedd-f7b3887e0722" class="fieldLabel">
+<label class="fieldLabel" for="3f3aae8f-034b-4365-aedd-f7b3887e0722">
 <span class="help-block">
-<input type="text" name="3f3aae8f-034b-4365-aedd-f7b3887e0722" id="3f3aae8f-034b-4365-aedd-f7b3887e0722" class="text" value="" maxlength="500" data-val="true" data-val-required="Please enter your zip code." >
+<input class="text" type="text" name="3f3aae8f-034b-4365-aedd-f7b3887e0722" id="3f3aae8f-034b-4365-aedd-f7b3887e0722" value maxlength="500" data-val="true" data-val-required="Please enter your zip code.">
 <span class="field-validation-valid" data-valmsg-for="3f3aae8f-034b-4365-aedd-f7b3887e0722" data-valmsg-replace="true">
-<label for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" class="fieldLabel">
-<textarea name="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" id="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" rows="2" cols="20" data-val="true" data-val-required="Message is mandatory" >
+<label class="fieldLabel" for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22">
+<textarea name="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" id="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" rows="2" cols="20" data-val="true" data-val-required="Message is mandatory">
 <span class="field-validation-valid" data-valmsg-for="e21fc7b8-a9e9-47e9-a0b9-33e07f659c22" data-valmsg-replace="true">
-<input type="text" name="821836621cbb4c8bbce3f374b03da112" >
-<input type="submit" class="btn primary" value="Submit" name="submit">
-<form class="form-inline" action="/assembly/59/kremer/search-results/" method="GET">
-<input class="form-control" type="text" name="q" >
-<span class="input-group-btn" >
-<button class="btn btn-default" type="button" onclick="submit();">
-<i class="glyphicon glyphicon-search">
+<input type="text" name="821836621cbb4c8bbce3f374b03da112">
+<input class="btn primary" type="submit" value="Submit" name="submit">

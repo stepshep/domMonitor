@@ -1,65 +1,65 @@
-<form action=/email-john2/ id=custom_form41 name=custom_form class=custom_form method=post>
-<style type=text/css media=all title=main css>
-<p style=font-size:14pt;font-style:bold>
-<p class=req>
+<form class="custom_form" action="/email-john2/" id="custom_form41" name="custom_form" method="post">
+<style type="text/css" media="all" title="main css">
+<p style="font-size:14pt;font-style:bold">
+<p class="req">
 <label>
-<input type=text name=prefix class=text1 filled maxlength=5>
+<input class="text1 filled" type="text" name="prefix" maxlength="5" >
 <label>
-<input type=text name=firstname id=req_firstname class=text filled maxlength=90>
+<input class="text filled" type="text" name="firstname" id="req_firstname" maxlength="90" >
 <label>
-<input type=text name=middle class=text style=width:22px; maxlength=1>
+<input class="text" style="width:22px;" type="text" name="middle" maxlength="1" >
 <label>
-<input type=text name=lastname id=req_lastname class=text filled maxlength=90>
+<input class="text filled" type="text" name="lastname" id="req_lastname" maxlength="90" >
 <label>
-<input type=text name=suffix class=text1 maxlength=5>
+<input class="text1" type="text" name="suffix" maxlength="5" >
 <label>
-<input type=text name=street id=req_street class=text filled maxlength=190>
+<input class="text filled" type="text" name="street" id="req_street" maxlength="190" >
 <label>
-<input type=text name=street2 class=text maxlength=190>
+<input class="text" type="text" name="street2" maxlength="190" >
 <label>
-<input type=text name=city id=req_city class=text filled maxlength=100>
+<input class="text filled" type="text" name="city" id="req_city" maxlength="100" >
 <label>
-<select name=state id=req_state class=filled>
-<option selected=selected value=TX>
+<select class="filled" name="state" id="req_state">
+<option selected="selected" value="TX">
 <label>
-<input value=76502 class=zip filled id=req_zipcode maxlength=5 name=zipcode onfocus=onlyNumbers(this); style=width:45px; type=text>
+<input class="zip filled" style="width:45px;" value="76502" id="req_zipcode" maxlength="5" name="zipcode" onfocus="onlyNumbers(this);" type="text" >
 <label>
-<input type=text name=emailaddress id=req_email class=text filled maxlength=150>
+<input class="text filled" type="text" name="emailaddress" id="req_email" maxlength="150" >
 <label>
-<input id=fnum type=text name=phone class=text phonemask filled maxlength=14>
+<input class="text phonemask filled" id="fnum" type="text" name="phone" maxlength="14" >
 <label>
-<select name=subject id=req_subject>
-<option value=>
-<option value=2ND-AME>
-<option value=AGRI>
-<option value=ANML>
-<option value=ARTS>
-<option value=BUD>
-<option value=CORPS-ENG>
-<option value=DEF>
-<option value=EDU>
-<option value=ENR>
-<option value=ENV>
-<option value=FAFF>
-<option value=GOV>
-<option value=HLTH>
-<option value=HOMELANDSECURITY>
-<option value=HOUS>
-<option value=IMM>
-<option value=LAB>
-<option value=MARR-ISSUES>
-<option value=PROLIFE-ISSUES>
-<option value=PROP>
-<option value=REG-REF>
-<option value=SCI>
-<option value=SMBUS>
-<option value=SOC>
-<option value=TAX>
-<option value=TRANS>
-<option value=VET>
-<option value=WOM>
-<option value=OTH>
+<select name="subject" id="req_subject">
+<option value>
+<option value="2ND-AME">
+<option value="AGRI">
+<option value="ANML">
+<option value="ARTS">
+<option value="BUD">
+<option value="CORPS-ENG">
+<option value="DEF">
+<option value="EDU">
+<option value="ENR">
+<option value="ENV">
+<option value="FAFF">
+<option value="GOV">
+<option value="HLTH">
+<option value="HOMELANDSECURITY">
+<option value="HOUS">
+<option value="IMM">
+<option value="LAB">
+<option value="MARR-ISSUES">
+<option value="PROLIFE-ISSUES">
+<option value="PROP">
+<option value="REG-REF">
+<option value="SCI">
+<option value="SMBUS">
+<option value="SOC">
+<option value="TAX">
+<option value="TRANS">
+<option value="VET">
+<option value="WOM">
+<option value="OTH">
 <label>
-<textarea name=message id=message class=message filled>
-<input type=button size=20 value=Submit id=submitButton class=form_submit_button filled>
-<input type=reset value=Reset class=form_submit_button filled>
+<textarea class="message filled" name="message" id="message">
+<input class="form_submit_button filled" type="button" size="20" value="Submit" id="submitButton" >
+<input class="form_submit_button filled" type="reset" value="Reset" >

@@ -1,28 +1,28 @@
-<form action=/htbin/formproc.pl?/capuano/contact/contact_file.txt&amp;display=/capuano/contact/contact_thank_you.htm&amp;nobase method=post>
-<table border=0 cellpadding=5 cellspacing=0 width=600>
+<form action="/htbin/formproc.pl?/capuano/contact/contact_file.txt&display=/capuano/contact/contact_thank_you.htm&nobase" method="post">
+<table border="0" cellpadding="5" cellspacing="0" width="600">
 <tbody>
-<td align=right>
-<label for=prefix>
-<select name=required-prefix id=prefix>
-<option value= selected=>
-<option value=Mr.>
-<option value=Mrs.>
-<option value=Ms.>
-<option value=Miss>
-<td align=right>
-<input value=Chester name=required-first id=firstname type=text size=20 maxlength=50>
-<td align=right>
-<input name=middle id=middle type=text size=5 maxlength=20>
-<td align=right>
-<input value=Tester name=required-last id=lastname type=text size=20 maxlength=50>
-<td align=right>
-<input name=suffix id=suffix type=text size=10 maxlength=20>
-<td align=right>
-<input name=required-address id=address type=text size=40 maxlength=200>
-<td align=right>
-<input name=required-city id=city type=text size=25 maxlength=50>
-<td align=right>
-<select name=required-state id=state>
+<td align="right">
+<label for="prefix">
+<select name="required-prefix" id="prefix">
+<option value selected>
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Miss">
+<td align="right">
+<input value="Chester" name="required-first" id="firstname" type="text" size="20" maxlength="50">
+<td align="right">
+<input name="middle" id="middle" type="text" size="5" maxlength="20">
+<td align="right">
+<input value="Tester" name="required-last" id="lastname" type="text" size="20" maxlength="50">
+<td align="right">
+<input name="suffix" id="suffix" type="text" size="10" maxlength="20">
+<td align="right">
+<input name="required-address" id="address" type="text" size="40" maxlength="200">
+<td align="right">
+<input name="required-city" id="city" type="text" size="25" maxlength="50">
+<td align="right">
+<select name="required-state" id="state">
 <option>
 <option>
 <option>
@@ -44,7 +44,7 @@
 <option>
 <option>
 <option>
-<option selected=>
+<option selected>
 <option>
 <option>
 <option>
@@ -78,44 +78,43 @@
 <option>
 <option>
 <option>
-<td align=right>
-<td align=right>
-<input name=required-valid-email id=email type=text size=27 maxlength=200>
-<td align=right>
-<select name=required-issue size=1 id=topic>
-<option value= selected=>
-<option value=WEBAGR>
-<option value=WEBBUD>
-<option value=WEBDEF>
-<option value=WEBEDU>
-<option value=WEBENE>
-<option value=WEBENV>
-<option value=WEBINT>
-<option value=WEBGOV>
-<option value=WEBHEA>
-<option value=WEBHOM>
-<option value=WEBHUD>
-<option value=WEBIMM>
-<option value=WEBJUD>
-<option value=WEBLABOR>
-<option value=WEBRSC>
-<option value=WEBSCI>
-<option value=WEBSBUS>
-<option value=WEBSOC>
-<option value=WEBSSEC>
-<option value=WEBTEL>
-<option value=WEBTAX>
-<option value=WEBTRA>
-<option value=WEBVET>
-<option value=WEBWEL>
-<option value=WEBOTH>
-<td align=right>
-<textarea name=required-message id=message cols=45 rows=4>
-<td align=right>
-<input type=radio name=affl1 value=subscribe E-UPDATE-113-MA07 id=subscribe checked=>
-<input type=radio name=affl1 value=unsubscribe E-UPDATE-113-MA07 id=unsubscribe>
-<input type=radio name=affl1 value= id=noaction>
-<td colspan=2 align=center>
-<input name=Submit type=submit value=Send my message>
-<input name=Reset type=reset value=Clear form>
-<td align=right>
+<td align="right">
+<td align="right">
+<input name="required-valid-email" id="email" type="text" size="27" maxlength="200">
+<td align="right">
+<select name="required-issue" size="1" id="topic">
+<option value selected>
+<option value="WEBAGR">
+<option value="WEBBUD">
+<option value="WEBDEF">
+<option value="WEBEDU">
+<option value="WEBENE">
+<option value="WEBENV">
+<option value="WEBINT">
+<option value="WEBGOV">
+<option value="WEBHEA">
+<option value="WEBHOM">
+<option value="WEBHUD">
+<option value="WEBIMM">
+<option value="WEBJUD">
+<option value="WEBLABOR">
+<option value="WEBRSC">
+<option value="WEBSCI">
+<option value="WEBSBUS">
+<option value="WEBSOC">
+<option value="WEBSSEC">
+<option value="WEBTEL">
+<option value="WEBTAX">
+<option value="WEBTRA">
+<option value="WEBVET">
+<option value="WEBWEL">
+<option value="WEBOTH">
+<td align="right">
+<textarea name="required-message" id="message" cols="45" rows="4">
+<td align="right">
+<input type="radio" name="affl1" value="subscribe E-UPDATE-113-MA07" id="subscribe" checked>
+<input type="radio" name="affl1" value id="noaction">
+<td colspan="2" align="center">
+<input name="Submit" type="submit" value="Send my message">
+<input name="Reset" type="reset" value="Clear form">
+<td align="right">

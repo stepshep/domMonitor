@@ -1,33 +1,35 @@
-<FORM METHOD=POST ACTION="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/blumenauer/webforms/issue_subscribe_verify.htm">
+<form method="POST" action="/htbin/formproc_za/blumenauer/webforms/issue_subscribe_parm.txt&form=/blumenauer/webforms/issue_subscribe_verify.htm">
 <table>
+<tbody>
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
 <p class="labelcell">
 <table width="98%" cellpadding="0" cellspacing="0" id="signup">
-<td width="24%" class="labelcell">
-<td width="76%" class="fieldcell">
-<INPUT TYPE=TEXT id="prefix" NAME="prefix" size="30" maxlength=50 class="inputbox" >
-<td class=" labelcell ">
+<tbody>
+<td class="labelcell" width="24%">
+<td class="fieldcell" width="76%">
+<input class="inputbox" type="TEXT" id="prefix" name="prefix" size="30" maxlength="50">
+<td class="labelcell">
 <label for="middle">
-<INPUT TYPE=TEXT id="name_first" NAME="required-first" size="30" maxlength=50 class="inputbox" >
-<td class=" labelcell ">
+<input class="inputbox" type="TEXT" id="name_first" name="required-first" size="30" maxlength="50">
+<td class="labelcell">
 <label for="middle">
-<input type="text" id="middle" name="middle" size="5" maxlength="5" class="inputbox" >
-<td class=" labelcell ">
+<input class="inputbox" type="text" id="middle" name="middle" size="5" maxlength="5">
+<td class="labelcell">
 <label for="name_last">
-<INPUT TYPE=TEXT id="name_last" NAME="required-last" size="30" maxlength=50 class="inputbox">
-<td class=" labelcell ">
+<input class="inputbox" type="TEXT" id="name_last" name="required-last" size="30" maxlength="50">
+<td class="labelcell">
 <label for="suffix">
-<input type="text" id="suffix" name="suffix" size="5" maxlength="5" class="inputbox" >
-<td class=" labelcell ">
+<input class="inputbox" type="text" id="suffix" name="suffix" size="5" maxlength="5">
+<td class="labelcell">
 <label for="address">
-<INPUT TYPE=TEXT id="address" NAME="required-address" size="30" maxlength="150" class="inputbox">
-<td class=" labelcell ">
+<input class="inputbox" type="TEXT" id="address" name="required-address" size="30" maxlength="150">
+<td class="labelcell">
 <label for="city">
-<INPUT TYPE=TEXT id="city" NAME="required-city" size="30" maxlength="50" class="inputbox">
+<input class="inputbox" type="TEXT" id="city" name="required-city" size="30" maxlength="50">
 <td class="labelcell">
 <label for="state">
 <select name="required-state">
-<option class="inputbox" value="">
+<option class="inputbox" value>
 <option class="inputbox" value="AL">
 <option class="inputbox" value="AK">
 <option class="inputbox" value="AZ">
@@ -83,85 +85,80 @@
 <option class="inputbox" value="AA">
 <option class="inputbox" value="AE">
 <option class="inputbox" value="AP">
-<td class=" labelcell ">
+<td class="labelcell">
 <label for="zip">
-<input type=TEXT id="required-zip5" NAME="required-zip5" SIZE="5" maxlength="5" class="inputbox">
-<input type=TEXT NAME="zip4" SIZE="4" maxlength="4" class="inputbox" value="">
-<td class=" labelcell ">
+<input class="inputbox" type="TEXT" id="required-zip5" name="required-zip5" size="5" maxlength="5">
+<input class="inputbox" type="TEXT" name="zip4" size="4" maxlength="4" value>
+<td class="labelcell">
 <label for="email">
-<INPUT TYPE=TEXT id="email" NAME="required-valid-email" size="30" maxlength="50" class="inputbox">
-<td class=" labelcell ">
+<input class="inputbox" type="TEXT" id="email" name="required-valid-email" size="30" maxlength="50">
+<td class="labelcell">
 <label for="phone">
-<INPUT TYPE=TEXT id="phone" NAME="phone" size="30" maxlength="12" class="inputbox">
-<td class=" labelcell ">
+<input class="inputbox" type="TEXT" id="phone" name="phone" size="30" maxlength="12">
+<td class="labelcell">
 <label for="topic">
-<select name="required-issue" class="inputbox">
-<option name="topics[]" value="">
-<option value="CASE" >
-<option value="IRQ" >
-<option value="AG" >
-<option value="BU" >
-<option value="LIB" >
-<option value="EDU" >
-<option value="EV" >
-<option value="FA" >
-<option value="REF" >
-<option value="GUN_SAFETY" >
-<option value="HE" >
-<option value="LIV" >
-<option value="NA" >
-<option value="TRD" >
-<option value="TRAN" >
-<option value="VET" >
+<select class="inputbox" name="required-issue">
+<option name="topics[]" value>
+<option value="CASE">
+<option value="IRQ">
+<option value="AG">
+<option value="BU">
+<option value="LIB">
+<option value="EDU">
+<option value="EV">
+<option value="FA">
+<option value="REF">
+<option value="GUN_SAFETY">
+<option value="HE">
+<option value="LIV">
+<option value="NA">
+<option value="TRD">
+<option value="TRAN">
+<option value="VET">
 <option value="OTH">
-<td class=" labelcell ">
+<td class="labelcell">
 <label for="message">
-<TEXTAREA id="message" NAME="required-message" ROWS=10 COLS=70 class="inputbox">
-<td colspan="2" class="labelcell">
+<textarea class="inputbox" id="message" name="required-message" rows="10" cols="70">
+<td class="labelcell" colspan="2">
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
 <td class="labelcell">
 <td class="fieldcellboxrad">
-<input type="checkbox" class="inputbox" name="subscribe" value="Y" style="vertical-align: middle;" >
-<td colspan="2" class="labelcell">
+<input class="inputbox" style="vertical-align: middle;" type="checkbox" name="subscribe" value="Y">
+<td class="labelcell" colspan="2">
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
 <tr valign="top">
 <td colspan="2">
 <table width="100%">
+<tbody>
 <tr valign="top">
-<td width="50%" class="topics">
-<input type="checkbox" value="AGRICULTURE" name="issues22" style="vertical-align: middle;" >
-<input type="checkbox" value="BUDGET" name="issues23" style="vertical-align: middle;" >
-<input type="checkbox" value="CIVIL_LIBERTIES" name="issues24" style="vertical-align: middle;" >
-<input type="checkbox" value="DEFENSE" name="issues30" style="vertical-align: middle;" >
-<input type="checkbox" value="ECONOMY" name="issues44" style="vertical-align: middle;" id="issues44" >
-<input type="checkbox" value="EDUCATION" name="issues25" style="vertical-align: middle;" >
-<input type="checkbox" value="ENVIRONMENTAL" name="issues26" style="vertical-align: middle;" >
-<input type="checkbox" value="ENERGY" name="issues40" style="vertical-align: middle;" >
-<input type="checkbox" value="GLOBAL_WARMING" name="issues41" style="vertical-align: middle;" >
-<input type="checkbox" value="GUN_SAFETY" name="issues46" style="vertical-align: middle;" >
-<input type="checkbox" value="IMMIGRATION" name="issues37" style="vertical-align: middle;" >
-<input type="checkbox" value="JUDICIAL" name="issues38" style="vertical-align: middle;" >
-<input type="checkbox" value="FOREIGN_AFFAIRS" name="issues27" style="vertical-align: middle;" >
-<input type="checkbox" value="GOVERNMENT_REFORM" name="issues28" style="vertical-align: middle;" >
-<td width="50%" class="topics">
-<input type="checkbox" value="HEALTH_CARE" name="issues29" style="vertical-align: middle;" >
-<input type="checkbox" value="LIVABLE_COMMUNITIES" name="issues31" style="vertical-align: middle;" >
-<input type="checkbox" value="MEDICARE" name="issues42" style="vertical-align: middle;" >
-<input type="checkbox" value="NATIVE_AMERICANS" name="issues32" style="vertical-align: middle;" >
-<input type="checkbox" value="SOCIAL_SECURITY" name="issues43" style="vertical-align: middle;" >
-<input type="checkbox" value="TAXES" name="issues36" style="vertical-align: middle;" >
-<input type="checkbox" value="TECHNOLOGY" name="issues39" style="vertical-align: middle;" >
-<input type="checkbox" value="TRADE" name="issues33" style="vertical-align: middle;" >
-<input type="checkbox" value="TRANSPORTATION" name="issues34" style="vertical-align: middle;" >
-<input type="checkbox" value="VETERANS" name="issues35" style="vertical-align: middle;" >
-<input type="checkbox" value="WOMEN" name="issues45" style="vertical-align: middle;" >
+<td class="topics" width="50%">
+<input style="vertical-align: middle;" type="checkbox" value="AGRICULTURE" name="issues22">
+<input style="vertical-align: middle;" type="checkbox" value="BUDGET" name="issues23">
+<input style="vertical-align: middle;" type="checkbox" value="CIVIL_LIBERTIES" name="issues24">
+<input style="vertical-align: middle;" type="checkbox" value="DEFENSE" name="issues30">
+<input style="vertical-align: middle;" type="checkbox" value="ECONOMY" name="issues44" id="issues44">
+<input style="vertical-align: middle;" type="checkbox" value="EDUCATION" name="issues25">
+<input style="vertical-align: middle;" type="checkbox" value="ENVIRONMENTAL" name="issues26">
+<input style="vertical-align: middle;" type="checkbox" value="ENERGY" name="issues40">
+<input style="vertical-align: middle;" type="checkbox" value="GLOBAL_WARMING" name="issues41">
+<input style="vertical-align: middle;" type="checkbox" value="GUN_SAFETY" name="issues46">
+<input style="vertical-align: middle;" type="checkbox" value="IMMIGRATION" name="issues37">
+<input style="vertical-align: middle;" type="checkbox" value="JUDICIAL" name="issues38">
+<input style="vertical-align: middle;" type="checkbox" value="FOREIGN_AFFAIRS" name="issues27">
+<input style="vertical-align: middle;" type="checkbox" value="GOVERNMENT_REFORM" name="issues28">
+<td class="topics" width="50%">
+<input style="vertical-align: middle;" type="checkbox" value="HEALTH_CARE" name="issues29">
+<input style="vertical-align: middle;" type="checkbox" value="LIVABLE_COMMUNITIES" name="issues31">
+<input style="vertical-align: middle;" type="checkbox" value="MEDICARE" name="issues42">
+<input style="vertical-align: middle;" type="checkbox" value="NATIVE_AMERICANS" name="issues32">
+<input style="vertical-align: middle;" type="checkbox" value="SOCIAL_SECURITY" name="issues43">
+<input style="vertical-align: middle;" type="checkbox" value="TAXES" name="issues36">
+<input style="vertical-align: middle;" type="checkbox" value="TECHNOLOGY" name="issues39">
+<input style="vertical-align: middle;" type="checkbox" value="TRADE" name="issues33">
+<input style="vertical-align: middle;" type="checkbox" value="TRANSPORTATION" name="issues34">
+<input style="vertical-align: middle;" type="checkbox" value="VETERANS" name="issues35">
+<input style="vertical-align: middle;" type="checkbox" value="WOMEN" name="issues45">
 <td colspan="2" align="center">
 <h2 style="text-align: left; color: #7b1919; padding-bottom: 5px;">
-<input type="submit" value="Send Message" style="background-color: #7b1919; color: white; border: 1px solid black; font-size: 12px; font-weight: bold;">
+<input style="background-color: #7b1919; color: white; border: 1px solid black; font-size: 12px; font-weight: bold;" type="submit" value="Send Message">
 <td colspan="2" align="left">
-<form id="billsearch" action="http://thomas.loc.gov/cgi-bin/query" method="post" name="billsearch">
-<input id="bill" value="Search bill number" onfocus="if(this.value=='Search bill number')this.value=''" onblur="if(this.value=='')this.value='Search bill number'" name="docidc111" class="text" type="text" >
-<input class="button" name="Enter" type="submit" >
-<form id="billsearch" action="http://thomas.loc.gov/cgi-bin/query" method="post" name="billsearch">
-<input id="word" value="Search word/phrase" onfocus="if(this.value=='Search word/phrase')this.value=''" onblur="if(this.value=='')this.value='Search word/phrase'" name="queryc111" class="text" type="text" >
-<input class="button" name="Enter" type="submit" >

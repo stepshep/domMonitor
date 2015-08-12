@@ -1,11 +1,8 @@
-<form id="search_form" name="googlesearch" method="get" action="/">
-<input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
-<input id="go" type="image" src="/images/clear.gif" width="20" height="20" alt="" title="" >
-<form name="thisForm" id="thisForm" action="/?p=email_senator&clear_cache=1" method="post" class="form-contact" onsubmit="return _CF_checkthisForm(this)">
+<form class="form-contact" name="thisForm" id="thisForm" action="/?p=email_senator&clear_cache=1" method="post" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <span class="req">
 <select name="Prefix">
-<option value="">
+<option value>
 <option value="Mr.">
 <option value="Mrs.">
 <option value="Ms.">
@@ -118,65 +115,62 @@
 <label>
 <span class="req">
 <select name="Subject">
-<option selected="selected" value="">
-<OPTION VALUE="Abortion">
-<OPTION VALUE="Afghanistan">
-<OPTION VALUE="Agriculture">
-<OPTION VALUE="Animals">
-<OPTION VALUE="Arts and Humanities">
-<OPTION VALUE="Budget">
-<OPTION VALUE="Business">
-<OPTION VALUE="Children/Family">
-<OPTION VALUE="Civil Rights">
-<OPTION VALUE="Commerce">
-<OPTION VALUE="Communication">
-<OPTION VALUE="Economy">
-<OPTION VALUE="Education">
-<OPTION VALUE="Elections">
-<OPTION VALUE="Energy">
-<OPTION VALUE="Environment">
-<OPTION VALUE="Family">
-<OPTION VALUE="Finance">
-<OPTION VALUE="Foreign Affairs">
-<OPTION VALUE="Forest Jobs and Recreation Act">
-<OPTION VALUE="Guns">
-<OPTION VALUE="Health">
-<OPTION VALUE="Homeland Security">
-<OPTION VALUE="Housing">
-<OPTION VALUE="Indian Affairs">
-<OPTION VALUE="Internship">
-<OPTION VALUE="Immigration">
-<OPTION VALUE="Iraq">
-<OPTION VALUE="Judiciary">
-<OPTION VALUE="Labor">
-<OPTION VALUE="Law and Justice">
-<OPTION VALUE="Medicaid">
-<OPTION VALUE="Medicare">
-<OPTION VALUE="Meeting Request">
-<OPTION VALUE="Military Affairs">
-<OPTION VALUE="Page Program">
-<OPTION VALUE="Religion">
-<OPTION VALUE="Science and Technology">
-<OPTION VALUE="Seniors">
-<OPTION VALUE="Social Security">
-<OPTION VALUE="TANF">
-<OPTION VALUE="Taxes">
-<OPTION VALUE="Trade">
-<OPTION VALUE="Transportation">
-<OPTION VALUE="Tour Request">
-<OPTION VALUE="Veterans">
-<OPTION VALUE="Welfare">
-<OPTION VALUE="Wolves">
-<OPTION VALUE="Women's Issues">
+<option selected="selected" value>
+<option value="Abortion">
+<option value="Afghanistan">
+<option value="Agriculture">
+<option value="Animals">
+<option value="Arts and Humanities">
+<option value="Budget">
+<option value="Business">
+<option value="Children/Family">
+<option value="Civil Rights">
+<option value="Commerce">
+<option value="Communication">
+<option value="Economy">
+<option value="Education">
+<option value="Elections">
+<option value="Energy">
+<option value="Environment">
+<option value="Family">
+<option value="Finance">
+<option value="Foreign Affairs">
+<option value="Forest Jobs and Recreation Act">
+<option value="Guns">
+<option value="Health">
+<option value="Homeland Security">
+<option value="Housing">
+<option value="Indian Affairs">
+<option value="Internship">
+<option value="Immigration">
+<option value="Iraq">
+<option value="Judiciary">
+<option value="Labor">
+<option value="Law and Justice">
+<option value="Medicaid">
+<option value="Medicare">
+<option value="Meeting Request">
+<option value="Military Affairs">
+<option value="Page Program">
+<option value="Religion">
+<option value="Science and Technology">
+<option value="Seniors">
+<option value="Social Security">
+<option value="TANF">
+<option value="Taxes">
+<option value="Trade">
+<option value="Transportation">
+<option value="Tour Request">
+<option value="Veterans">
+<option value="Welfare">
+<option value="Wolves">
+<option value="Women's Issues">
 <label>
 <span class="req">
-<input name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" class="input" >
+<input class="input" name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" >
 <label>
 <span class="req">
-<TEXTAREA NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" REQUIRED="yes" CLASS="textarea">
+<textarea class="textarea" name="MessageBody" cols="40" rows="15" wrap="virtual" required="yes">
 <input class="normal-input" type="submit" value="Submit" name="Submit" >
-<input class="normal-input" onClick="javascript:document.thisForm.reset()" name="Clear" value="Clear" type="button" >
-<hr style="" >
-<form id="nl_quick" name="nl_quick" action="/?p=email_updates&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
-<input type="input" name="email" value="Your Email" class="sprites input-field nlq-email swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
-<input type="input" name="zip" value="Your ZIP Code" class="sprites input-field nlq-zip swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
+<input class="normal-input" onclick="javascript:document.thisForm.reset()" name="Clear" value="Clear" type="button" >
+<hr style >

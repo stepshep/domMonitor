@@ -1,23 +1,23 @@
-<form action=email.php method=post name=govContact id=govContact onsubmit=return formValidator()>
+<form action="email.php" method="post" name="govContact" id="govContact" onsubmit="return formValidator()">
 <label>
-<span class=req>
+<span class="req">
 <fieldset>
-<input id=firstname name=firstname type=text size=16 required=required >
-<label id=first for=firstname>
+<input id="firstname" name="firstname" type="text" size="16" required="required">
+<label id="first" for="firstname">
 <fieldset>
-<input id=lastname name=lastname type=text size=25 required=required >
-<label id=last for=lastname>
+<input id="lastname" name="lastname" type="text" size="25" required="required">
+<label id="last" for="lastname">
 <label>
-<span class=req>
-<input id=email name=email type=text size=50 required=required >
+<span class="req">
+<input id="email" name="email" type="text" size="50" required="required">
 <label>
-<span class=req>
-<input id=area name=area type=text size=3 maxlength=3 required=required >
-<input id=exchange name=exchange type=text size=3 maxlength=3 required=required >
-<input id=phnum name=phnum type=text size=4 maxlength=4 required=required >
+<span class="req">
+<input id="area" name="area" type="text" size="3" maxlength="3" required="required">
+<input id="exchange" name="exchange" type="text" size="3" maxlength="3" required="required">
+<input id="phnum" name="phnum" type="text" size="4" maxlength="4" required="required">
 <label>
-<input id=zip name=zip type=text size=5 maxlength=5 >
+<input id="zip" name="zip" type="text" size="5" maxlength="5">
 <label>
-<span class=req>
-<textarea id=message name=message cols=50 rows=10 required=required>
-<input id=submitcontact type=submit value=Submit >
+<span class="req">
+<textarea id="message" name="message" cols="50" rows="10" required="required">
+<input id="submitcontact" type="submit" value="Submit">

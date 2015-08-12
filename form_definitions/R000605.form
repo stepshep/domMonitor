@@ -1,6 +1,2 @@
-<form id="sitesearch" role="search" method="get" action="/search" class="form-inline">
-<input type="search" id="search-field" name="q" placeholder="SEARCH">
-<button type="submit">
-<form id="sitesearch" role="search" method="get" action="/search" class="form-inline">
-<input type="search" id="search-field" name="q" placeholder="SEARCH">
-<button type="submit">
+<form class="form-inline" id="sitesearch" role="search" method="get" action="/search">
+<form class="form-inline" id="sitesearch" role="search" method="get" action="/search">

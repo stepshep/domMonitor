@@ -1,21 +1,8 @@
-<form id="search_form" name="googlesearch" method="get" action="/">
-<input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" >
-<input id="go" type="image" src="/images/clear.gif" width="34" height="20" alt="" title="GO" >
-<form id="newsletter_form" name="newsletter" method="get" action="/#maincontent">
-<span id="label">
-<input id="email" type="text" name="email" size="25" value="Email" class="input-field swap_value" >
-<input id="zip" type="text" name="zip" size="25" value="ZIP" class="input-field swap_value" >
-<input id="sign_up" type="image" src="images/spacer.gif" width="39" height="22" alt="" title="GO" >
-<form id="nl_quick" name="nl_quick" action="/?p=newsletter&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
-<input type="input" name="firstName" value="First Name" class="swap_value" >
-<input type="input" name="lastName" value="Last Name" class="swap_value" >
-<input type="input" name="email" value="Email" class="swap_value" >
-<input type="input" name="zip" value="ZIP" class="swap_value" >
-<form id="contact_form" method="post" class="form-contact" onsubmit="return _CF_checkCFForm_1(this)">
+<form class="form-contact" id="contact_form" method="post" onsubmit="return _CF_checkCFForm_1(this)">
 <label>
 <span class="req">
 <select name="Prefix">
-<option value="">
+<option value>
 <option value="Mr.">
 <option value="Mrs.">
 <option value="Ms.">
@@ -124,10 +111,10 @@
 <span class="req">
 <input name="phone" id="phone" type="text" maxlength="100" size="30" >
 <label>
-<input name="ephone" id="ephone" type="text" maxlength="100" size="30" class="input" >
+<input class="input" name="ephone" id="ephone" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
-<input name="mphone" id="mphone" type="text" maxlength="100" size="30" class="input" >
+<input class="input" name="mphone" id="mphone" type="text" maxlength="100" size="30" >
 <label>
 <span class="req">
 <input name="email" id="email" type="text" maxlength="100" size="40" >
@@ -137,50 +124,50 @@
 <label>
 <span class="req">
 <select name="Subject" id="Subject">
-<option selected="selected" value="">
-<OPTION VALUE="Agriculture">
-<OPTION VALUE="Animals">
-<OPTION VALUE="Arts and Humanities">
-<OPTION VALUE="Banking &amp; Finance">
-<OPTION VALUE="Budget &amp; Taxes">
-<OPTION VALUE="Campaign Finance &amp; Election Reform">
-<OPTION VALUE="Civil Liberties">
-<OPTION VALUE="Defense &amp; Military">
-<OPTION VALUE="Education">
-<OPTION VALUE="E-mail Newsletters">
-<OPTION VALUE="Energy &amp; Global Warming">
-<OPTION VALUE="Environment &amp; Conservation">
-<OPTION VALUE="Family Planning">
-<OPTION VALUE="Federal Employees">
-<OPTION VALUE="Foreign Relations">
-<OPTION VALUE="Health Care">
-<OPTION VALUE="Homeland Security">
-<OPTION VALUE="Housing">
-<OPTION VALUE="Indian Country">
-<OPTION VALUE="Immigration &amp; Border Security">
-<OPTION VALUE="Jobs &amp; Economy">
-<OPTION VALUE="Judiciary">
-<OPTION VALUE="Labor">
-<OPTION VALUE="Law Enforcement">
-<OPTION VALUE="LGBT Issues">
-<OPTION VALUE="National Labs">
-<OPTION VALUE="Postal Service">
-<OPTION VALUE="Religion">
-<OPTION VALUE="Retirement">
-<OPTION VALUE="Science and Technology">
-<OPTION VALUE="Second Amendment Rights">
-<OPTION VALUE="Small Business">
-<OPTION VALUE="Social Security">
-<OPTION VALUE="State Issues">
-<OPTION VALUE="Taxes">
-<OPTION VALUE="Telecommunications">
-<OPTION VALUE="Trade">
-<OPTION VALUE="Transportation">
-<OPTION VALUE="Veterans">
+<option selected="selected" value>
+<option value="Agriculture">
+<option value="Animals">
+<option value="Arts and Humanities">
+<option value="Banking & Finance">
+<option value="Budget & Taxes">
+<option value="Campaign Finance & Election Reform">
+<option value="Civil Liberties">
+<option value="Defense & Military">
+<option value="Education">
+<option value="E-mail Newsletters">
+<option value="Energy & Global Warming">
+<option value="Environment & Conservation">
+<option value="Family Planning">
+<option value="Federal Employees">
+<option value="Foreign Relations">
+<option value="Health Care">
+<option value="Homeland Security">
+<option value="Housing">
+<option value="Indian Country">
+<option value="Immigration & Border Security">
+<option value="Jobs & Economy">
+<option value="Judiciary">
+<option value="Labor">
+<option value="Law Enforcement">
+<option value="LGBT Issues">
+<option value="National Labs">
+<option value="Postal Service">
+<option value="Religion">
+<option value="Retirement">
+<option value="Science and Technology">
+<option value="Second Amendment Rights">
+<option value="Small Business">
+<option value="Social Security">
+<option value="State Issues">
+<option value="Taxes">
+<option value="Telecommunications">
+<option value="Trade">
+<option value="Transportation">
+<option value="Veterans">
 <label>
 <span class="req">
-<input name="MessageSubject" id="MessageSubject" type="text" maxlength="75" size="30" class="input" >
+<input class="input" name="MessageSubject" id="MessageSubject" type="text" maxlength="75" size="30" >
 <label>
-<TEXTAREA NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" CLASS="textarea">
+<textarea class="textarea" name="MessageBody" cols="40" rows="15" wrap="virtual">
 <hr style="margin-top: 20px" >
-<input onClick="setValidateFormId('contact_form')" type="image" src="/images/btn-submit.gif" >
+<input onclick="setValidateFormId('contact_form')" type="image" src="/images/btn-submit.gif" >

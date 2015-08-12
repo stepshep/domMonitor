@@ -1,14 +1,10 @@
-<form id="site-search" role="search" method="get" action="/search" class="form-search pull-right">
-<input type="search" id="search-field" name="q" placeholder="Type here to search&hellip;" value="Type here to search&hellip;" onclick="this.value='';" >
-<button type="submit" class="btn">
-<i class="icon-search icon-white">
-<form id="contactForm" method="post" action="/contact" enctype="application/x-www-form-urlencoded" >
+<form id="contactForm" method="post" action="/contact" enctype="application/x-www-form-urlencoded">
 <fieldset>
 <legend>
 <label class="control-label" for="salutation">
 <abbr title="required">
-<select name="salutation" id="salutation" class="span12">
-<option label="" value="">
+<select class="span12" name="salutation" id="salutation">
+<option label value>
 <option label="Mr." value="Mr.">
 <option label="Mrs." value="Mrs.">
 <option label="Mr. and Mrs." value="Mr. and Mrs.">
@@ -129,155 +125,155 @@
 <input class="span12 required" type="text" name="mailing_city" id="mailing_city" aria-required="true" placeholder="Required" required>
 <label for="state">
 <span class="disappear">
-<select id="mailing_state" class="span12 required" name="mailing_state" required>
-<option label="AL" value="AL" >
-<option label="AK" value="AK" >
-<option label="APO AA" value="APO AA" >
-<option label="APO AE" value="APO AE" >
-<option label="APO AP" value="APO AP" >
-<option label="AR" value="AR" >
-<option label="AZ" value="AZ" >
-<option label="CA" value="CA" >
-<option label="CO" value="CO" >
-<option label="CT" value="CT" >
-<option label="DC" value="DC" >
-<option label="DE" value="DE" >
-<option label="DPO AA" value="DPO AA" >
-<option label="DPO AE" value="DPO AE" >
-<option label="DPO AP" value="DPO AP" >
-<option label="FL" value="FL" >
-<option label="FPO AA" value="FPO AA" >
-<option label="FPO AE" value="FPO AE" >
-<option label="FPO AP" value="FPO AP" >
-<option label="GA" value="GA" >
-<option label="HI" value="HI" >
-<option label="IA" value="IA" >
-<option label="ID" value="ID" >
-<option label="IL" value="IL" >
-<option label="IN" value="IN" >
-<option label="KS" value="KS" >
-<option label="KY" value="KY" >
-<option label="LA" value="LA" >
-<option label="MA" value="MA" >
-<option label="MD" value="MD" >
-<option label="ME" value="ME" >
-<option label="MI" value="MI" >
-<option label="MN" value="MN" >
-<option label="MO" value="MO" >
-<option label="MS" value="MS" >
-<option label="MT" value="MT" >
-<option label="NC" value="NC" >
-<option label="ND" value="ND" >
-<option label="NE" value="NE" >
-<option label="NH" value="NH" >
-<option label="NJ" value="NJ" >
-<option label="NM" value="NM" >
-<option label="NV" value="NV" >
-<option label="NY" value="NY" >
-<option label="OH" value="OH" >
-<option label="OK" value="OK" >
-<option label="OR" value="OR" >
-<option label="PA" value="PA" selected="selected" >
-<option label="RI" value="RI" >
-<option label="SC" value="SC" >
-<option label="SD" value="SD" >
-<option label="TN" value="TN" >
-<option label="TX" value="TX" >
-<option label="UT" value="UT" >
-<option label="VA" value="VA" >
-<option label="VT" value="VT" >
-<option label="WA" value="WA" >
-<option label="WI" value="WI" >
-<option label="WV" value="WV" >
-<option label="WY" value="WY" >
+<select class="span12 required" id="mailing_state" name="mailing_state" required>
+<option label="AL" value="AL">
+<option label="AK" value="AK">
+<option label="APO AA" value="APO AA">
+<option label="APO AE" value="APO AE">
+<option label="APO AP" value="APO AP">
+<option label="AR" value="AR">
+<option label="AZ" value="AZ">
+<option label="CA" value="CA">
+<option label="CO" value="CO">
+<option label="CT" value="CT">
+<option label="DC" value="DC">
+<option label="DE" value="DE">
+<option label="DPO AA" value="DPO AA">
+<option label="DPO AE" value="DPO AE">
+<option label="DPO AP" value="DPO AP">
+<option label="FL" value="FL">
+<option label="FPO AA" value="FPO AA">
+<option label="FPO AE" value="FPO AE">
+<option label="FPO AP" value="FPO AP">
+<option label="GA" value="GA">
+<option label="HI" value="HI">
+<option label="IA" value="IA">
+<option label="ID" value="ID">
+<option label="IL" value="IL">
+<option label="IN" value="IN">
+<option label="KS" value="KS">
+<option label="KY" value="KY">
+<option label="LA" value="LA">
+<option label="MA" value="MA">
+<option label="MD" value="MD">
+<option label="ME" value="ME">
+<option label="MI" value="MI">
+<option label="MN" value="MN">
+<option label="MO" value="MO">
+<option label="MS" value="MS">
+<option label="MT" value="MT">
+<option label="NC" value="NC">
+<option label="ND" value="ND">
+<option label="NE" value="NE">
+<option label="NH" value="NH">
+<option label="NJ" value="NJ">
+<option label="NM" value="NM">
+<option label="NV" value="NV">
+<option label="NY" value="NY">
+<option label="OH" value="OH">
+<option label="OK" value="OK">
+<option label="OR" value="OR">
+<option label="PA" value="PA" selected="selected">
+<option label="RI" value="RI">
+<option label="SC" value="SC">
+<option label="SD" value="SD">
+<option label="TN" value="TN">
+<option label="TX" value="TX">
+<option label="UT" value="UT">
+<option label="VA" value="VA">
+<option label="VT" value="VT">
+<option label="WA" value="WA">
+<option label="WI" value="WI">
+<option label="WV" value="WV">
+<option label="WY" value="WY">
 <label id="county-label" for="parish">
 <span class="disappear">
-<select name="mailing_county" id="mailing_county" class="span12" required="true">
-<option label="--" value="">
-<option label="Adams" value="Adams" >
-<option label="Allegheny" value="Allegheny" >
-<option label="Armstrong" value="Armstrong" >
-<option label="Beaver" value="Beaver" >
-<option label="Bedford" value="Bedford" >
-<option label="Berks" value="Berks" >
-<option label="Blair" value="Blair" >
-<option label="Bradford" value="Bradford" >
-<option label="Bucks" value="Bucks" >
-<option label="Butler" value="Butler" >
-<option label="Cambria" value="Cambria" >
-<option label="Cameron" value="Cameron" >
-<option label="Carbon" value="Carbon" >
-<option label="Centre" value="Centre" >
-<option label="Chester" value="Chester" >
-<option label="Clarion" value="Clarion" >
-<option label="Clearfield" value="Clearfield" >
-<option label="Clinton" value="Clinton" >
-<option label="Columbia" value="Columbia" >
-<option label="Crawford" value="Crawford" >
-<option label="Cumberland" value="Cumberland" >
-<option label="Dauphin" value="Dauphin" >
-<option label="Delaware" value="Delaware" >
-<option label="Elk" value="Elk" >
-<option label="Erie" value="Erie" >
-<option label="Fayette" value="Fayette" >
-<option label="Forest" value="Forest" >
-<option label="Franklin" value="Franklin" >
-<option label="Fulton" value="Fulton" >
-<option label="Greene" value="Greene" >
-<option label="Huntingdon" value="Huntingdon" >
-<option label="Indiana" value="Indiana" >
-<option label="Jefferson" value="Jefferson" >
-<option label="Juniata" value="Juniata" >
-<option label="Lackawanna" value="Lackawanna" >
-<option label="Lancaster" value="Lancaster" >
-<option label="Lawrence" value="Lawrence" >
-<option label="Lebanon" value="Lebanon" >
-<option label="Lehigh" value="Lehigh" >
-<option label="Luzerne" value="Luzerne" >
-<option label="Lycoming" value="Lycoming" >
-<option label="McKean" value="McKean" >
-<option label="Mercer" value="Mercer" >
-<option label="Mifflin" value="Mifflin" >
-<option label="Monroe" value="Monroe" >
-<option label="Montgomery" value="Montgomery" >
-<option label="Montour" value="Montour" >
-<option label="Northampton" value="Northampton" >
-<option label="Northumberland" value="Northumberland" >
-<option label="Perry" value="Perry" >
-<option label="Philadelphia" value="Philadelphia" >
-<option label="Pike" value="Pike" >
-<option label="Potter" value="Potter" >
-<option label="Schuylkill" value="Schuylkill" >
-<option label="Snyder" value="Snyder" >
-<option label="Somerset" value="Somerset" >
-<option label="Sullivan" value="Sullivan" >
-<option label="Susquehanna" value="Susquehanna" >
-<option label="Tioga" value="Tioga" >
-<option label="Union" value="Union" >
-<option label="Venango" value="Venango" >
-<option label="Warren" value="Warren" >
-<option label="Washington" value="Washington" >
-<option label="Wayne" value="Wayne" >
-<option label="Westmoreland" value="Westmoreland" >
-<option label="Wyoming" value="Wyoming" >
-<option label="York" value="York" >
+<select class="span12" name="mailing_county" id="mailing_county" required="true">
+<option label="--" value>
+<option label="Adams" value="Adams">
+<option label="Allegheny" value="Allegheny">
+<option label="Armstrong" value="Armstrong">
+<option label="Beaver" value="Beaver">
+<option label="Bedford" value="Bedford">
+<option label="Berks" value="Berks">
+<option label="Blair" value="Blair">
+<option label="Bradford" value="Bradford">
+<option label="Bucks" value="Bucks">
+<option label="Butler" value="Butler">
+<option label="Cambria" value="Cambria">
+<option label="Cameron" value="Cameron">
+<option label="Carbon" value="Carbon">
+<option label="Centre" value="Centre">
+<option label="Chester" value="Chester">
+<option label="Clarion" value="Clarion">
+<option label="Clearfield" value="Clearfield">
+<option label="Clinton" value="Clinton">
+<option label="Columbia" value="Columbia">
+<option label="Crawford" value="Crawford">
+<option label="Cumberland" value="Cumberland">
+<option label="Dauphin" value="Dauphin">
+<option label="Delaware" value="Delaware">
+<option label="Elk" value="Elk">
+<option label="Erie" value="Erie">
+<option label="Fayette" value="Fayette">
+<option label="Forest" value="Forest">
+<option label="Franklin" value="Franklin">
+<option label="Fulton" value="Fulton">
+<option label="Greene" value="Greene">
+<option label="Huntingdon" value="Huntingdon">
+<option label="Indiana" value="Indiana">
+<option label="Jefferson" value="Jefferson">
+<option label="Juniata" value="Juniata">
+<option label="Lackawanna" value="Lackawanna">
+<option label="Lancaster" value="Lancaster">
+<option label="Lawrence" value="Lawrence">
+<option label="Lebanon" value="Lebanon">
+<option label="Lehigh" value="Lehigh">
+<option label="Luzerne" value="Luzerne">
+<option label="Lycoming" value="Lycoming">
+<option label="McKean" value="McKean">
+<option label="Mercer" value="Mercer">
+<option label="Mifflin" value="Mifflin">
+<option label="Monroe" value="Monroe">
+<option label="Montgomery" value="Montgomery">
+<option label="Montour" value="Montour">
+<option label="Northampton" value="Northampton">
+<option label="Northumberland" value="Northumberland">
+<option label="Perry" value="Perry">
+<option label="Philadelphia" value="Philadelphia">
+<option label="Pike" value="Pike">
+<option label="Potter" value="Potter">
+<option label="Schuylkill" value="Schuylkill">
+<option label="Snyder" value="Snyder">
+<option label="Somerset" value="Somerset">
+<option label="Sullivan" value="Sullivan">
+<option label="Susquehanna" value="Susquehanna">
+<option label="Tioga" value="Tioga">
+<option label="Union" value="Union">
+<option label="Venango" value="Venango">
+<option label="Warren" value="Warren">
+<option label="Washington" value="Washington">
+<option label="Wayne" value="Wayne">
+<option label="Westmoreland" value="Westmoreland">
+<option label="Wyoming" value="Wyoming">
+<option label="York" value="York">
 <label for="mailing_zipCode">
 <abbr title="Your zip code is a required field">
 <input class="span12 required" type="text" name="mailing_zipCode" id="mailing_zipCode" aria-required="true" placeholder="Required" required>
 <label for="email_address">
 <abbr title="Your e-mail address is a required field">
-<input type="email" name="email" aria-required="true" title="E-mail Address" id="email" class="span12 required email" placeholder="Required" required>
+<input class="span12 required email" type="email" name="email" aria-required="true" title="E-mail Address" id="email" placeholder="Required" required>
 <label for="verify_email">
 <abbr title="Please confirm your e-mail address">
-<input type="email" name="verify_email" id="verify_email" aria-required="true" class="span12 required email" placeholder="Required" required>
+<input class="span12 required email" type="email" name="verify_email" id="verify_email" aria-required="true" placeholder="Required" required>
 <label for="phone_number">
-<input type="tel" name="phone_number" id="phone_number" class="span12">
+<input class="span12" type="tel" name="phone_number" id="phone_number">
 <fieldset>
 <legend>
 <label for="subject">
 <abbr title="Please enter a message topic for your message">
-<select id="subject" class="span12 required" name="subject" class="validate['required','%subject']"">
-<option label="- - Select an Issue - -" value="" selected="selected">
+<select class="span12 required" id="subject" name="subject" ">
+<option label="- - Select an Issue - -" value selected="selected">
 <option label="Abortion and Family Planning" value="Abortion">
 <option label="Aging" value="Aging">
 <option label="Animals" value="Agriculture">
@@ -334,5 +330,5 @@
 <option label="Veterans" value="Veterans">
 <label for="comments">
 <abbr title="Please enter your message">
-<textarea id="comments" class="span12 required" row-fluids="10" name="comments" aria-required="true">
-<input class="btn" type="submit" id="side-search-btn" value="Send" >
+<textarea class="span12 required" id="comments" row-fluids="10" name="comments" aria-required="true">
+<input class="btn" type="submit" id="side-search-btn" value="Send">

@@ -1,66 +1,67 @@
-<form method=post id=userForm enctype=multipart/form-data action=http://senatorstadelman.com/index.php/contact-us>
-<table class=formTableLayout border=0>
-<tr class=rsform-block rsform-block-prefix>
-<input type=text value= size=10 name=form[prefix] id=prefix class=rsform-input-box>
-<span id=component35 class=formNoError>
-<tr class=rsform-block rsform-block-firstname>
-<input type=text value= size=40 maxlength=60 name=form[firstName] id=firstName class=rsform-input-box>
-<span id=component30 class=formNoError>
-<tr class=rsform-block rsform-block-lastname>
-<input type=text value= size=40 maxlength=60 name=form[lastName] id=lastName class=rsform-input-box>
-<span id=component29 class=formNoError>
-<tr class=rsform-block rsform-block-address>
-<input type=text value= size=50 name=form[address] id=address class=rsform-input-box>
-<span id=component28 class=formNoError>
-<tr class=rsform-block rsform-block-city>
-<input type=text value= size=60 name=form[city] id=city class=rsform-input-box>
-<span id=component27 class=formNoError>
-<tr class=rsform-block rsform-block-state>
-<input type=text value=IL size=2 name=form[state] id=state class=rsform-input-box>
-<span id=component26 class=formNoError>
-<tr class=rsform-block rsform-block-zipcode>
-<input type=text value= size=11 name=form[zipCode] id=zipCode class=rsform-input-box>
-<span id=component25 class=formNoError>
-<tr class=rsform-block rsform-block-phone>
-<input type=text value= size=20 name=form[phone] id=phone class=rsform-input-box>
-<span id=component24 class=formNoError>
-<tr class=rsform-block rsform-block-email>
-<input type=text value= size=20 name=form[email] id=email class=rsform-input-box>
-<span id=component34 class=formNoError>
-<tr class=rsform-block rsform-block-issue>
-<select name=form[issue][] id=issue class=rsform-select-box >
-<option value=--Choose a topic-->
-<option value=2nd Amendment Issues>
-<option value=Agriculture>
-<option value=Budget>
-<option value=Consumer Issues>
-<option value=Economic Development>
-<option value=Education>
-<option value=Employment>
-<option value=Energy>
-<option value=Environment>
-<option value=Federal Issues>
-<option value=Healthcare>
-<option value=Housing>
-<option value=Human Rights>
-<option value=Licensing>
-<option value=Local Government>
-<option value=Natural Resources>
-<option value=Other>
-<option value=Pensions>
-<option value=Public Safety>
-<option value=Public Utilities>
-<option value=Seniors>
-<option value=Taxes>
-<option value=Transportation>
-<option value=Veterans>
-<span id=component23 class=formNoError>
-<tr class=rsform-block rsform-block-essay1>
-<textarea cols=50 rows=20 name=form[essay1] id=essay1 class=rsform-text-box>
-<span id=component32 class=formNoError>
-<tr class=rsform-block rsform-block-note>
-<tr class=rsform-block rsform-block-stadelman>
-<input type=text name=form[stadelman] value= id=captchaTxt36 style=text-align:center;width:75px; class=rsform-captcha-box >
-<span id=component36 class=formNoError>
-<tr class=rsform-block rsform-block-send>
-<input type=submit value=Send name=form[Send] id=Send class=rsform-submit-button >
+<form method="post" id="userForm" enctype="multipart/form-data" action="http://senatorstadelman.com/index.php/contact-us">
+<table class="formTableLayout" border="0">
+<tbody>
+<tr class="rsform-block rsform-block-prefix">
+<input class="rsform-input-box" type="text" value size="10" name="form[prefix]" id="prefix" >
+<span class="formNoError" id="component35">
+<tr class="rsform-block rsform-block-firstname">
+<input class="rsform-input-box" type="text" value size="40" maxlength="60" name="form[firstName]" id="firstName" >
+<span class="formNoError" id="component30">
+<tr class="rsform-block rsform-block-lastname">
+<input class="rsform-input-box" type="text" value size="40" maxlength="60" name="form[lastName]" id="lastName" >
+<span class="formNoError" id="component29">
+<tr class="rsform-block rsform-block-address">
+<input class="rsform-input-box" type="text" value size="50" name="form[address]" id="address" >
+<span class="formNoError" id="component28">
+<tr class="rsform-block rsform-block-city">
+<input class="rsform-input-box" type="text" value size="60" name="form[city]" id="city" >
+<span class="formNoError" id="component27">
+<tr class="rsform-block rsform-block-state">
+<input class="rsform-input-box" type="text" value="IL" size="2" name="form[state]" id="state" >
+<span class="formNoError" id="component26">
+<tr class="rsform-block rsform-block-zipcode">
+<input class="rsform-input-box" type="text" value size="11" name="form[zipCode]" id="zipCode" >
+<span class="formNoError" id="component25">
+<tr class="rsform-block rsform-block-phone">
+<input class="rsform-input-box" type="text" value size="20" name="form[phone]" id="phone" >
+<span class="formNoError" id="component24">
+<tr class="rsform-block rsform-block-email">
+<input class="rsform-input-box" type="text" value size="20" name="form[email]" id="email" >
+<span class="formNoError" id="component34">
+<tr class="rsform-block rsform-block-issue">
+<select class="rsform-select-box" name="form[issue][]" id="issue">
+<option value="--Choose a topic--">
+<option value="2nd Amendment Issues">
+<option value="Agriculture">
+<option value="Budget">
+<option value="Consumer Issues">
+<option value="Economic Development">
+<option value="Education">
+<option value="Employment">
+<option value="Energy">
+<option value="Environment">
+<option value="Federal Issues">
+<option value="Healthcare">
+<option value="Housing">
+<option value="Human Rights">
+<option value="Licensing">
+<option value="Local Government">
+<option value="Natural Resources">
+<option value="Other">
+<option value="Pensions">
+<option value="Public Safety">
+<option value="Public Utilities">
+<option value="Seniors">
+<option value="Taxes">
+<option value="Transportation">
+<option value="Veterans">
+<span class="formNoError" id="component23">
+<tr class="rsform-block rsform-block-essay1">
+<textarea class="rsform-text-box" cols="50" rows="20" name="form[essay1]" id="essay1">
+<span class="formNoError" id="component32">
+<tr class="rsform-block rsform-block-note">
+<tr class="rsform-block rsform-block-stadelman">
+<input class="rsform-captcha-box" style="text-align:center;width:75px;" type="text" name="form[stadelman]" value id="captchaTxt36" >
+<span class="formNoError" id="component36">
+<tr class="rsform-block rsform-block-send">
+<input class="rsform-submit-button" type="submit" value="Send" name="form[Send]" id="Send" >

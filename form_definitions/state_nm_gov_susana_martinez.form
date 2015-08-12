@@ -1,86 +1,86 @@
-<form method=post action= id=form1>
+<form method="post" action onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
 <table>
 <tbody>
-<span id=lblError style=color:Red;font-weight:bold;>
+<span style="color:Red;font-weight:bold;" id="lblError">
 <table>
 <tbody>
-<table id=rblMessageType>
+<table id="rblMessageType">
 <tbody>
-<input id=rblMessageType_0 type=radio name=rblMessageType value=I am registering my opinion (no response needed) checked=checked>
-<label for=rblMessageType_0>
-<input id=rblMessageType_1 type=radio name=rblMessageType value=I Require Assistance>
-<label for=rblMessageType_1>
-<select name=ddlPrefix id=ddlPrefix>
-<option value=MS>
-<option value=MRS>
-<option value=MR>
-<option value=DR>
-<input name=txtFName type=text id=txtFName class=textBoxClass>
-<input name=txtLName type=text id=txtLName class=textBoxClass>
-<input name=txtTitle type=text id=txtTitle class=textBoxClass>
-<input name=txtOrg type=text id=txtOrg class=textBoxClass>
-<input name=txtAddress type=text id=txtAddress class=textBoxClass>
-<input name=txtSAddress type=text id=txtSAddress class=textBoxClass>
-<input name=txtCity type=text id=txtCity class=textBoxClass>
-<select name=txtState id=txtState>
-<option value=AL>
-<option value=AK>
-<option value=AZ>
-<option value=AR>
-<option value=CA>
-<option value=CO>
-<option value=CT>
-<option value=DC>
-<option value=DE>
-<option value=FL>
-<option value=GA>
-<option value=HI>
-<option value=ID>
-<option value=IL>
-<option value=IN>
-<option value=IA>
-<option value=KS>
-<option value=KY>
-<option value=LA>
-<option value=ME>
-<option value=MD>
-<option value=MA>
-<option value=MI>
-<option value=MN>
-<option value=MS>
-<option value=MO>
-<option value=MT>
-<option value=NE>
-<option value=NV>
-<option value=NH>
-<option value=NJ>
-<option selected=selected value=NM>
-<option value=NY>
-<option value=NC>
-<option value=ND>
-<option value=OH>
-<option value=OK>
-<option value=OR>
-<option value=PA>
-<option value=RI>
-<option value=SC>
-<option value=SD>
-<option value=TN>
-<option value=TX>
-<option value=UT>
-<option value=VT>
-<option value=VA>
-<option value=WA>
-<option value=WV>
-<option value=WI>
-<option value=WY>
-<input name=txtZip type=text id=txtZip class=textBoxClass>
-<input name=txtEmail type=text id=txtEmail class=textBoxClass>
-<input name=txtHPhone type=text id=txtHPhone class=textBoxClass>
-<input name=txtWPhone type=text id=txtWPhone class=textBoxClass>
-<input name=txtCPhone type=text id=txtCPhone class=textBoxClass>
-<input name=txtSubject type=text id=txtSubject class=textBoxClass>
-<textarea name=txtMessage rows=2 cols=20 id=txtMessage class=textareaClass>
+<input id="rblMessageType_0" type="radio" name="rblMessageType" value="I am registering my opinion (no response needed)" checked="checked" >
+<label for="rblMessageType_0">
+<input id="rblMessageType_1" type="radio" name="rblMessageType" value="I Require Assistance" >
+<label for="rblMessageType_1">
+<select name="ddlPrefix" id="ddlPrefix">
+<option value="MS">
+<option value="MRS">
+<option value="MR">
+<option value="DR">
+<input class="textBoxClass" name="txtFName" type="text" id="txtFName" >
+<input class="textBoxClass" name="txtLName" type="text" id="txtLName" >
+<input class="textBoxClass" name="txtTitle" type="text" id="txtTitle" >
+<input class="textBoxClass" name="txtOrg" type="text" id="txtOrg" >
+<input class="textBoxClass" name="txtAddress" type="text" id="txtAddress" >
+<input class="textBoxClass" name="txtSAddress" type="text" id="txtSAddress" >
+<input class="textBoxClass" name="txtCity" type="text" id="txtCity" >
+<select name="txtState" id="txtState">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DC">
+<option value="DE">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option selected="selected" value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<input class="textBoxClass" name="txtZip" type="text" id="txtZip" >
+<input class="textBoxClass" name="txtEmail" type="text" id="txtEmail" >
+<input class="textBoxClass" name="txtHPhone" type="text" id="txtHPhone" >
+<input class="textBoxClass" name="txtWPhone" type="text" id="txtWPhone" >
+<input class="textBoxClass" name="txtCPhone" type="text" id="txtCPhone" >
+<input class="textBoxClass" name="txtSubject" type="text" id="txtSubject" >
+<textarea class="textareaClass" name="txtMessage" rows="2" cols="20" id="txtMessage">
 <table>
 <tbody>
-<input type=submit name=btnSubmit value=Submit onclick=if (typeof(Page_ClientValidate) == function) { var oldPage_IsValid = Page_IsValid; var oldPage_BlockSubmit = Page_BlockSubmit;if (Page_ClientValidate(grpComponents) == false) { Page_IsValid = oldPage_IsValid; Page_BlockSubmit = oldPage_BlockSubmit; return false; }} this.value = Processing...;this.disabled = true;__doPostBack(btnSubmit,);return true;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;btnSubmit&quot;, &quot;&quot;, true, &quot;grpComponents&quot;, &quot;&quot;, false, false)) id=btnSubmit>
+<input type="submit" name="btnSubmit" value="Submit" onclick='if (typeof(Page_ClientValidate) == &#39;function&#39;) { var oldPage_IsValid = Page_IsValid; var oldPage_BlockSubmit = Page_BlockSubmit;if (Page_ClientValidate(&#39;grpComponents&#39;) == false) { Page_IsValid = oldPage_IsValid; Page_BlockSubmit = oldPage_BlockSubmit; return false; }} this.value = &#39;Processing...&#39;;this.disabled = true;__doPostBack(&#39;btnSubmit&#39;,&#39;&#39;);return true;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("btnSubmit", "", true, "grpComponents", "", false, false))' id="btnSubmit" >

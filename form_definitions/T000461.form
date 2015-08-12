@@ -1,168 +1,168 @@
-<form method=post action=/?p=contact>
-<label for=gen-fieldid-3 class=control-label>
-<span class=req>
-<select class=select input form-corner form-control name=PREFIX id=gen-fieldid-3 class=ft-select fld-PREFIX style=width:260px>
-<option value=Mr.>
-<option value=Mrs.>
-<option value=Ms.>
-<option value=Mr. and Mrs.>
-<option value=Miss>
-<option value=Dr.>
-<option value=Dr. and Mrs.>
-<option value=Dr. and Mr.>
-<option value=Admiral>
-<option value=Captain>
-<option value=Chief Master Sergeant>
-<option value=Colonel>
-<option value=Commander>
-<option value=Corporal>
-<option value=Father>
-<option value=Lieutenant>
-<option value=Lieutenant Colonel>
-<option value=Master Sergeant>
-<option value=Rabbi>
-<option value=Reverend>
-<option value=Sergeant>
-<option value=Second Lieutenant>
-<option value=Sergeant Major>
-<option value=Sister>
-<option value=Technical Sergeant>
-<label for=gen-fieldid-5 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=FIRST id=gen-fieldid-5 class=ft-text fld-FIRST style=width:260px; value= >
-<label for=gen-fieldid-7 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=LAST id=gen-fieldid-7 class=ft-text fld-LAST style=width:260px; value= >
-<label for=gen-fieldid-9 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=ADDR1 id=gen-fieldid-9 class=ft-text fld-ADDR1 style=width:260px; value= >
-<label for=gen-fieldid-11 class=control-label>
-<input class=input form-corner form-control type=text name=ADDR2 id=gen-fieldid-11 class=ft-text fld-ADDR2 style=width:260px; value= >
-<label for=gen-fieldid-13 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=CITY id=gen-fieldid-13 class=ft-text fld-CITY style=width:260px; value= >
-<label for=gen-fieldid-15 class=control-label>
-<span class=req>
-<select class=select input form-corner form-control name=STATE id=gen-fieldid-15 class=ft-select fld-STATE style=width:260px>
-<option value=AA>
-<option value=AE>
-<option value=AP>
-<option value=AL>
-<option value=AK>
-<option value=AZ>
-<option value=AR>
-<option value=CA>
-<option value=CO>
-<option value=CT>
-<option value=DE>
-<option value=DC>
-<option value=FL>
-<option value=GA>
-<option value=HI>
-<option value=ID>
-<option value=IL>
-<option value=IN>
-<option value=IA>
-<option value=KS>
-<option value=KY>
-<option value=LA>
-<option value=ME>
-<option value=MD>
-<option value=MA>
-<option value=MI>
-<option value=MN>
-<option value=MS>
-<option value=MO>
-<option value=MT>
-<option value=NE>
-<option value=NV>
-<option value=NH>
-<option value=NJ>
-<option value=NM>
-<option value=NY>
-<option value=NC>
-<option value=ND>
-<option value=OH>
-<option value=OK>
-<option value=OR>
-<option value=PA selected=selected>
-<option value=RI>
-<option value=SC>
-<option value=SD>
-<option value=TN>
-<option value=TX>
-<option value=UT>
-<option value=VT>
-<option value=VA>
-<option value=WA>
-<option value=WV>
-<option value=WI>
-<option value=WY>
-<label for=gen-fieldid-17 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=ZIP id=gen-fieldid-17 class=ft-text fld-ZIP style=width:260px; value= >
-<label for=gen-fieldid-19 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=PHONE id=gen-fieldid-19 class=ft-text fld-PHONE style=width:260px; value= >
-<label for=gen-fieldid-21 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=EMAIL id=gen-fieldid-21 class=ft-text fld-EMAIL style=width:260px; value= >
-<label for=gen-fieldid-23 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=vemail id=gen-fieldid-23 class=ft-text fld-vemail style=width:260px; value= >
-<label for=gen-fieldid-25 class=control-label>
-<span class=req>
-<select class=select input form-corner form-control name=TOPIC id=gen-fieldid-25 class=ft-select fld-TOPIC style=width:260px>
-<option value=null>
-<option value=Academy Nominations>
-<option value=Agriculture and Nutrition>
-<option value=Animal Welfare>
-<option value=Armed Services>
-<option value=Banking and Financial Services>
-<option value=Budget>
-<option value=Census>
-<option value=Children>
-<option value=Consumer Protection>
-<option value=Economy>
-<option value=Education>
-<option value=Energy>
-<option value=Environment>
-<option value=Ethics>
-<option value=Foreign Relations>
-<option value=Grants>
-<option value=Guns and Crime>
-<option value=Healthcare>
-<option value=Help with Federal Government>
-<option value=Housing>
-<option value=Immigration>
-<option value=Jobs and Labor>
-<option value=Judiciary Issues>
-<option value=Marriage and Family>
-<option value=Medicaid>
-<option value=National Security>
-<option value=Postal Service>
-<option value=Science and Technology>
-<option value=Social Security and Medicare>
-<option value=Taxes>
-<option value=Telecommunications>
-<option value=Tour Request>
-<option value=Trade>
-<option value=Transportation>
-<option value=Veterans>
-<label for=gen-fieldid-27 class=control-label>
-<span class=req>
-<input class=input form-corner form-control type=text name=msgsubject id=gen-fieldid-27 class=ft-text fld-msgsubject style=width:260px; value= >
-<label for=gen-fieldid-29 class=control-label>
-<span class=req>
-<textarea class=input form-corner form-control name=MSG id=gen-fieldid-29 class=ft-textarea fld-MSG style=height:315px;width:260px;>
+<form method="post" action="/?p=contact">
+<label class="control-label" for="gen-fieldid-3">
+<span class="req">
+<select class="select input form-corner form-control" style="width:260px" name="PREFIX" id="gen-fieldid-3">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Mr. and Mrs.">
+<option value="Miss">
+<option value="Dr.">
+<option value="Dr. and Mrs.">
+<option value="Dr. and Mr.">
+<option value="Admiral">
+<option value="Captain">
+<option value="Chief Master Sergeant">
+<option value="Colonel">
+<option value="Commander">
+<option value="Corporal">
+<option value="Father">
+<option value="Lieutenant">
+<option value="Lieutenant Colonel">
+<option value="Master Sergeant">
+<option value="Rabbi">
+<option value="Reverend">
+<option value="Sergeant">
+<option value="Second Lieutenant">
+<option value="Sergeant Major">
+<option value="Sister">
+<option value="Technical Sergeant">
+<label class="control-label" for="gen-fieldid-5">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="FIRST" id="gen-fieldid-5" value>
+<label class="control-label" for="gen-fieldid-7">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="LAST" id="gen-fieldid-7" value>
+<label class="control-label" for="gen-fieldid-9">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="ADDR1" id="gen-fieldid-9" value>
+<label class="control-label" for="gen-fieldid-11">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="ADDR2" id="gen-fieldid-11" value>
+<label class="control-label" for="gen-fieldid-13">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="CITY" id="gen-fieldid-13" value>
+<label class="control-label" for="gen-fieldid-15">
+<span class="req">
+<select class="select input form-corner form-control" style="width:260px" name="STATE" id="gen-fieldid-15">
+<option value="AA">
+<option value="AE">
+<option value="AP">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA" selected="selected">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<label class="control-label" for="gen-fieldid-17">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="ZIP" id="gen-fieldid-17" value>
+<label class="control-label" for="gen-fieldid-19">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="PHONE" id="gen-fieldid-19" value>
+<label class="control-label" for="gen-fieldid-21">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="EMAIL" id="gen-fieldid-21" value>
+<label class="control-label" for="gen-fieldid-23">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="vemail" id="gen-fieldid-23" value>
+<label class="control-label" for="gen-fieldid-25">
+<span class="req">
+<select class="select input form-corner form-control" style="width:260px" name="TOPIC" id="gen-fieldid-25">
+<option value="null">
+<option value="Academy Nominations">
+<option value="Agriculture and Nutrition">
+<option value="Animal Welfare">
+<option value="Armed Services">
+<option value="Banking and Financial Services">
+<option value="Budget">
+<option value="Census">
+<option value="Children">
+<option value="Consumer Protection">
+<option value="Economy">
+<option value="Education">
+<option value="Energy">
+<option value="Environment">
+<option value="Ethics">
+<option value="Foreign Relations">
+<option value="Grants">
+<option value="Guns and Crime">
+<option value="Healthcare">
+<option value="Help with Federal Government">
+<option value="Housing">
+<option value="Immigration">
+<option value="Jobs and Labor">
+<option value="Judiciary Issues">
+<option value="Marriage and Family">
+<option value="Medicaid">
+<option value="National Security">
+<option value="Postal Service">
+<option value="Science and Technology">
+<option value="Social Security and Medicare">
+<option value="Taxes">
+<option value="Telecommunications">
+<option value="Tour Request">
+<option value="Trade">
+<option value="Transportation">
+<option value="Veterans">
+<label class="control-label" for="gen-fieldid-27">
+<span class="req">
+<input class="input form-corner form-control" style="width:260px;" type="text" name="msgsubject" id="gen-fieldid-27" value>
+<label class="control-label" for="gen-fieldid-29">
+<span class="req">
+<textarea class="input form-corner form-control" style="height:315px;width:260px;" name="MSG" id="gen-fieldid-29">
 <label>
-<input type=text name=contact_email1 value=bot@bot.com>
+<input type="text" name="contact_email1" value="bot@bot.com">
 <label>
-<input type=text name=contact_email2 value= Symp228A >
+<input type="text" name="contact_email2" value=" Symp228C ">
 <label>
-<input type=text name=contact_url value=>
+<input type="text" name="contact_url" value>
 <label>
-<input type=checkbox name=contact_subscribe value=1>
+<input type="checkbox" name="contact_subscribe" value="1">
 <label>
-<input type=checkbox name=contact_remember_info value=1>
-<input class=btn btn-primary type=submit value=Submit name=formaction>
+<input type="checkbox" name="contact_remember_info" value="1">
+<input class="btn btn-primary" type="submit" value="Submit" name="formaction">

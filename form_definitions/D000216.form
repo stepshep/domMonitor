@@ -1,89 +1,90 @@
-<form method=post action=https://forms.house.gov/htbin/formproc/delauro/webforms/contact_form_email_file.txt&display=/webforms/contact_thanks.shtml>
-<table border=0 width=50%>
-<td colspan=2>
-<font size=-1 face=verdana>
-<font size=-1 face=verdana>
-<td colspan=2>
-<select name=required-prefix style=width:55>
-<option value=Mr.>
-<option value=Mrs.>
-<option value=Miss>
-<option value=Ms.>
-<input type=Text name=required-firstname style=width:438>
-<td colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<input type=Text name=middlename style=width:500>
-<td width=450>
-<font size=-1 face=verdana>
-<td width=57>
-<font size=-1 face=verdana>
-<td width=450>
-<input type=Text name=required-lastname style=width:440>
-<td width=57>
-<input type=text name=suffix size=5 style=width:45>
-<td valign=top colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<textarea name=required-address cols=53 rows=3 wrap=PHYSICAL style=width:500>
-<td colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<input type=Text name=required-hcity style=width:320>
-<SELECT NAME=required-hstate style=width:100>
-<OPTION VALUE=CT SELECTED>
-<input type=text name=required-hzip size=5 maxlength=5>
-<td colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<input type=Text name=phone_home style=width:500>
-<td colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<input type=Text name=required-email style=width:500>
-<td colspan=3>
-<td valign=top colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<SELECT NAME=required-subject>
-<OPTION VALUE=Not listed SELECTED>
-<OPTION VALUE=Agriculture>
-<OPTION VALUE=Animal Rights>
-<OPTION VALUE=Budget>
-<OPTION VALUE=Civil Rights>
-<OPTION VALUE=Commerce>
-<OPTION VALUE=Crime>
-<OPTION VALUE=Defense>
-<OPTION VALUE=Disability>
-<OPTION VALUE=Economy>
-<OPTION VALUE=Education>
-<OPTION VALUE=Employment>
-<OPTION VALUE=Energy>
-<OPTION VALUE=Environment>
-<OPTION VALUE=Federal Issues>
-<OPTION VALUE=Foreign Affairs>
-<OPTION VALUE=Government>
-<OPTION VALUE=Gun Violence Prevention>
-<OPTION VALUE=Health Care>
-<OPTION VALUE=Housing>
-<OPTION VALUE=Human Rights>
-<OPTION VALUE=Immigration>
-<OPTION VALUE=Labor>
-<OPTION VALUE=Legislation>
-<OPTION VALUE=Public Lands>
-<OPTION VALUE=Social Issues>
-<OPTION VALUE=Senior Citizens>
-<OPTION VALUE=Taxes>
-<OPTION VALUE=Technology>
-<OPTION VALUE=Trade>
-<OPTION VALUE=Transportation>
-<OPTION VALUE=Veterans>
-<OPTION VALUE=Welfare>
-<td valign=top colspan=2>
-<font size=-1 face=verdana>
-<td colspan=2>
-<textarea name=required-comments cols=53 rows=6 wrap=PHYSICAL style=width:500>
-<td colspan=2>
-<td colspan=2>
-<input type=submit name=submit value=Submit>
-<font face=verdana size=-2>
+<form method="post" action="https://forms.house.gov/htbin/formproc/delauro/webforms/contact_form_email_file.txt&display=/webforms/contact_thanks.shtml">
+<table border="0" width="50%">
+<tbody>
+<td colspan="2">
+<font size="-1" face="verdana">
+<font size="-1" face="verdana">
+<td colspan="2">
+<select style="width:55" name="required-prefix">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Miss">
+<option value="Ms.">
+<input style="width:438" type="Text" name="required-firstname" >
+<td colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<input style="width:500" type="Text" name="middlename" >
+<td width="450">
+<font size="-1" face="verdana">
+<td width="57">
+<font size="-1" face="verdana">
+<td width="450">
+<input style="width:440" type="Text" name="required-lastname" >
+<td width="57">
+<input style="width:45" type="text" name="suffix" size="5" >
+<td valign="top" colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<textarea style="width:500" name="required-address" cols="53" rows="3" wrap="PHYSICAL">
+<td colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<input style="width:320" type="Text" name="required-hcity" >
+<select style="width:100" name="required-hstate">
+<option value="CT" selected>
+<input type="text" name="required-hzip" size="5" maxlength="5" >
+<td colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<input style="width:500" type="Text" name="phone_home" >
+<td colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<input style="width:500" type="Text" name="required-email" >
+<td colspan="3">
+<td valign="top" colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<select name="required-subject">
+<option value="Not listed" selected>
+<option value="Agriculture">
+<option value="Animal Rights">
+<option value="Budget">
+<option value="Civil Rights">
+<option value="Commerce">
+<option value="Crime">
+<option value="Defense">
+<option value="Disability">
+<option value="Economy">
+<option value="Education">
+<option value="Employment">
+<option value="Energy">
+<option value="Environment">
+<option value="Federal Issues">
+<option value="Foreign Affairs">
+<option value="Government">
+<option value="Gun Violence Prevention">
+<option value="Health Care">
+<option value="Housing">
+<option value="Human Rights">
+<option value="Immigration">
+<option value="Labor">
+<option value="Legislation">
+<option value="Public Lands">
+<option value="Social Issues">
+<option value="Senior Citizens">
+<option value="Taxes">
+<option value="Technology">
+<option value="Trade">
+<option value="Transportation">
+<option value="Veterans">
+<option value="Welfare">
+<td valign="top" colspan="2">
+<font size="-1" face="verdana">
+<td colspan="2">
+<textarea style="width:500" name="required-comments" cols="53" rows="6" wrap="PHYSICAL">
+<td colspan="2">
+<td colspan="2">
+<input type="submit" name="submit" value="Submit" >
+<font face="verdana" size="-2">

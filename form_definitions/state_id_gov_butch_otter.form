@@ -2,8 +2,8 @@
 <fieldset>
 <legend>
 <label class="inline" for="prefix">
-<select name="prefix" size="1" class="clsfields">
-<option value="Mr." selected >
+<select class="clsfields" name="prefix" size="1">
+<option value="Mr." selected>
 <option value="Mrs.">
 <option value="Ms.">
 <option value="Dr.">
@@ -79,7 +79,7 @@
 <label for="zip">
 <span class="required">
 <input type="text" size="21" maxlength="21" name="zip" >
-<label for="">
+<label for>
 <label class="inlinephone" for="contactphoneac">
 <input type="text" size="3" maxlength="3" name="contactPhoneAC" >
 <label class="inlinephone" for="contactphonepre">
@@ -120,18 +120,11 @@
 <label for="messagebody">
 <span class="required">
 <textarea cols="52" name="messagebody" rows="6">
-<!--- ReCaptcha Web Service to protect against automated abuse of form submissions --->
-<label for="recaptcha_challenge_field" class="control-label">
+<label class="control-label" for="recaptcha_challenge_field">
 <noscript>
 <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LeWK-ASAAAAAPRN5LOKkZ5MdVbV1Ukjd88uBlJO" height="300" width="500" frameborder="0">
 <textarea name="recaptcha_challenge_field" rows="3" cols="40">
-<!--- End ReCaptcha --->
 <p class="submit">
-<input name="submit_button" type="submit" value="Submit" class="inline button" >
-<input name="reset_button" type="reset" value="Reset" class="inline button">
+<input class="inline button" name="submit_button" type="submit" value="Submit" >
+<input class="inline button" name="reset_button" type="reset" value="Reset" >
 <p class="submit">
-<td align="center" style="border-top:2px solid #000033">
-<form name="ccoptin" action="http://visitor.r20.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
-<font style="font-weight: normal; font-family:Times New Roman; font-size:12px; color:#000000;">
-<input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
-<input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">

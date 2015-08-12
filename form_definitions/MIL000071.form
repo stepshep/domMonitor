@@ -1,8 +1,8 @@
-<input type=text name=772-name id=772-name value= placeholder=Name: class=text>
-<input type=text name=772-street-address id=772-street-address value= placeholder=Street Address: class=text>
-<input type=text name=772-city id=772-city value= placeholder=City: class=text>
-<label for=772 class=select>
-<select name=772 id=772 value= class=select>
+<input class="text" type="text" name="772-name" id="772-name" value placeholder="Name:">
+<input class="text" type="text" name="772-street-address" id="772-street-address" value placeholder="Street Address:">
+<input class="text" type="text" name="772-city" id="772-city" value placeholder="City:">
+<label class="select" for="772">
+<select class="select" name="772" id="772" value>
 <option>
 <option>
 <option>
@@ -54,10 +54,10 @@
 <option>
 <option>
 <option>
-<input type=text name=772-zip id=772-zip value= placeholder=ZIP: class=text>
-<input type=text name=772-email id=772-email value= placeholder=Email: class=text>
-<input type=text name=772-phone-number id=772-phone-number value= placeholder=Phone Number: class=text>
-<input type=checkbox name=772-i-would-like-my-email-added-to-the-district-newsletter-mailing-list value=Yes class=checkbox >
-<label for=772-i-would-like-my-email-added-to-the-district-newsletter-mailing-list class=checkbox>
-<textarea name=772-message id=contact-form-comment-772-message placeholder=Message: rows=14>
-<input type=submit value=Send class=churchope_button>
+<input class="text" type="text" name="772-zip" id="772-zip" value placeholder="ZIP:">
+<input class="text" type="text" name="772-email" id="772-email" value placeholder="Email:">
+<input class="text" type="text" name="772-phone-number" id="772-phone-number" value placeholder="Phone Number:">
+<input class="checkbox" type="checkbox" name="772-i-would-like-my-email-added-to-the-district-newsletter-mailing-list" value="Yes">
+<label class="checkbox" for="772-i-would-like-my-email-added-to-the-district-newsletter-mailing-list">
+<textarea name="772-message" id="contact-form-comment-772-message" placeholder="Message:" rows="14">
+<input class="churchope_button" type="submit" value="Send">

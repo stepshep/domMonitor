@@ -1,10 +1,7 @@
-<form id="search_form" name="googlesearch" method="get" action="/">
-<input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" >
-<input id="go" type="image" src="/images/clear.gif" width="62" height="28" alt="" title="Search" >
-<form name="thisForm" id="thisForm" method="post" class="form_contact" onsubmit="return _CF_checkthisForm(this)">
+<form class="form_contact" name="thisForm" id="thisForm" method="post" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <select name="Prefix">
-<option value="">
+<option value>
 <option value="Mr.">
 <option value="Mrs.">
 <option value="Ms.">
@@ -118,52 +115,52 @@
 <input name="vemail" id="vemail" type="text" maxlength="100" size="40" >
 <label>
 <span class="req">
-<select id="Subject" name="Subject" onChange="contactForm.setSubSubject(document.getElementById('SubSubject'), this[this.selectedIndex].value)">
-<option selected="selected" value="" >
-<OPTION VALUE="Abortion">
-<OPTION VALUE="Agriculture">
-<OPTION VALUE="Animal Welfare">
-<OPTION VALUE="Arts">
-<OPTION VALUE="Budget">
-<OPTION VALUE="Child Welfare">
-<OPTION VALUE="Civil Rights">
-<OPTION VALUE="Congressional Rules/Ethics">
-<OPTION VALUE="Crime">
-<OPTION VALUE="Eagle Scout Letter">
-<OPTION VALUE="Economy">
-<OPTION VALUE="Education">
-<OPTION VALUE="Elections">
-<OPTION VALUE="Energy">
-<OPTION VALUE="Environment">
-<OPTION VALUE="Foreign Relations">
-<OPTION VALUE="Gun Control">
-<OPTION VALUE="Health">
-<OPTION VALUE="Immigration">
-<OPTION VALUE="Indian Affairs">
-<OPTION VALUE="Judicial Nominations/Executive Nominations">
-<OPTION VALUE="Labor">
-<OPTION VALUE="National and Community Service">
-<OPTION VALUE="National Security">
-<OPTION VALUE="Request Copy of Bill">
-<OPTION VALUE="Space/NASA">
-<OPTION VALUE="Telecommunications">
-<OPTION VALUE="Transportation">
-<OPTION VALUE="Veterans">
+<select id="Subject" name="Subject" onchange="contactForm.setSubSubject(document.getElementById('SubSubject'), this[this.selectedIndex].value)">
+<option selected="selected" value>
+<option value="Abortion">
+<option value="Agriculture">
+<option value="Animal Welfare">
+<option value="Arts">
+<option value="Budget">
+<option value="Child Welfare">
+<option value="Civil Rights">
+<option value="Congressional Rules/Ethics">
+<option value="Crime">
+<option value="Eagle Scout Letter">
+<option value="Economy">
+<option value="Education">
+<option value="Elections">
+<option value="Energy">
+<option value="Environment">
+<option value="Foreign Relations">
+<option value="Gun Control">
+<option value="Health">
+<option value="Immigration">
+<option value="Indian Affairs">
+<option value="Judicial Nominations/Executive Nominations">
+<option value="Labor">
+<option value="National and Community Service">
+<option value="National Security">
+<option value="Request Copy of Bill">
+<option value="Space/NASA">
+<option value="Telecommunications">
+<option value="Transportation">
+<option value="Veterans">
 <label>
 <span class="req">
 <select id="SubSubject" name="SubSubject">
-<option selected="" value=" ">
+<option selected value=" ">
 <label>
-<input name="noResponseNeeded" id="noResponseNeeded" type="checkbox" class="normal-input" >
+<input class="normal-input" name="noResponseNeeded" id="noResponseNeeded" type="checkbox" >
 <label>
-<input name="receiveUpdates" id="receiveUpdates" type="checkbox" value="yes" checked="checked" class="normal-input" >
+<input class="normal-input" name="receiveUpdates" id="receiveUpdates" type="checkbox" value="yes" checked="checked" >
 <label for="receiveUpdates">
 <label>
 <span class="req">
-<input name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" class="input" >
+<input class="input" name="messageSubject" id="messageSubject" type="text" maxlength="75" size="30" >
 <label>
 <span class="req">
-<TEXTAREA REQUIRED="yes" NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" CLASS="textarea">
+<textarea class="textarea" required="yes" name="MessageBody" cols="40" rows="15" wrap="virtual">
 <hr style="margin-top: 20px" >
 <input class="normal-input" style="float: left; vertical-align: top; margin-left: 240px; margin-top: 0;" type="image" src="/images/btn-submit.gif" title="Submit" alt="Submit" >
 <em>

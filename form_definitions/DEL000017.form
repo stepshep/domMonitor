@@ -1,26 +1,27 @@
-<form enctype=multipart/form-data action=http://www.weebly.com/weebly/apps/formSubmit.php method=POST id=form-150418663645238004>
-<ul class=formlist id=150418663645238004-form-list>
-<h2 class=wsite-content-title style=text-align:left;>
-<label class=wsite-form-label for=input-717742365827267502>
-<span class=form-required>
-<input id=input-717742365827267502 class=wsite-form-input wsite-input type=text name=_u717742365827267502[first] >
-<label class=wsite-form-sublabel for=input-717742365827267502>
-<input id=input-717742365827267502-1 class=wsite-form-input wsite-input type=text name=_u717742365827267502[last] >
-<label class=wsite-form-sublabel for=input-717742365827267502-1>
-<label class=wsite-form-label for=input-736364492542026449>
-<span class=form-required>
-<input id=input-736364492542026449 class=wsite-form-input wsite-input wsite-input-width-370px type=text name=_u736364492542026449 >
-<label class=wsite-form-label for=input-441881191416571471>
-<span class=form-required>
-<input id=input-441881191416571471 class=wsite-form-input wsite-input wsite-input-width-370px type=text name=_u441881191416571471 >
-<label class=wsite-form-label for=input-712108805948887301>
-<span class=form-required>
-<textarea id=input-712108805948887301 class=wsite-form-input wsite-input wsite-input-width-370px name=_u712108805948887301 style=height: 200px>
-<label class=wsite-form-label for=input-526959855282196703>
-<span class=form-required>
-<select name=_u526959855282196703 class=form-select>
-<option value=I prefer not to receive email from the Senate Democrats at this time>
-<font size=2>
-<input type=text name=wsite_subject >
-<input type=submit style=position:absolute;top:0;left:-9999px;width:1px;height:1px >
-<span class=wsite-button-inner>
+<form enctype="multipart/form-data" action="http://www.weebly.com/weebly/apps/formSubmit.php" method="POST" id="form-150418663645238004">
+<ul class="formlist" id="150418663645238004-form-list">
+<h2 class="wsite-content-title" style="text-align:left;">
+<label class="wsite-form-label" for="input-717742365827267502">
+<span class="form-required">
+<input class="wsite-form-input wsite-input" id="input-717742365827267502" type="text" name="_u717742365827267502[first]">
+<label class="wsite-form-sublabel" for="input-717742365827267502">
+<input class="wsite-form-input wsite-input" id="input-717742365827267502-1" type="text" name="_u717742365827267502[last]">
+<label class="wsite-form-sublabel" for="input-717742365827267502-1">
+<label class="wsite-form-label" for="input-736364492542026449">
+<span class="form-required">
+<input class="wsite-form-input wsite-input wsite-input-width-370px" id="input-736364492542026449" type="text" name="_u736364492542026449">
+<label class="wsite-form-label" for="input-441881191416571471">
+<span class="form-required">
+<input class="wsite-form-input wsite-input wsite-input-width-370px" id="input-441881191416571471" type="text" name="_u441881191416571471">
+<label class="wsite-form-label" for="input-712108805948887301">
+<span class="form-required">
+<textarea class="wsite-form-input wsite-input wsite-input-width-370px" style="height: 200px" id="input-712108805948887301" name="_u712108805948887301">
+<label class="wsite-form-label" for="input-526959855282196703">
+<span class="form-required">
+<select class="form-select" name="_u526959855282196703">
+<option value="Yes, please sign me up for Caucus emails!">
+<option value="I prefer not to receive email from the Senate Democrats at this time">
+<font size="2">
+<input type="text" name="wsite_subject">
+<input style="position:absolute;top:0;left:-9999px;width:1px;height:1px" type="submit">
+<span class="wsite-button-inner">

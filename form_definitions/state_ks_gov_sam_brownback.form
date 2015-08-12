@@ -1,85 +1,84 @@
 <form method="post" action="legislation-and-policy-issues" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
 <span id="uxDateLbl">
-<fieldset id="SearchInHeader_T9D0516A5020_ctl00_ctl00_main" class="sfsearchBox">
-<input name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchTextBox" type="text" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchTextBox" class="sfsearchTxt" >
-<input type="submit" name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchButton" class="sfsearchSubmit" >
-<!-- 2014.3.1209.40 -->
+<fieldset class="sfsearchBox" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_main">
+<input class="sfsearchTxt" name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchTextBox" type="text" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchTextBox" >
+<input class="sfsearchSubmit" type="submit" name="ctl00$SearchInHeader$T9D0516A5020$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="SearchInHeader_T9D0516A5020_ctl00_ctl00_searchButton" >
 <ul class="rmRootGroup rmHorizontal">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <ul class="rmVertical rmGroup rmLevel1">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <li class="rmItem rmLast">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <ul class="rmVertical rmGroup rmLevel1">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <li class="rmItem rmLast">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <ul class="rmVertical rmGroup rmLevel1">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <li class="rmItem rmLast">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <ul class="rmVertical rmGroup rmLevel1">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <li class="rmItem rmLast">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <ul class="rmVertical rmGroup rmLevel1">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <li class="rmItem rmLast">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <ul class="rmVertical rmGroup rmLevel1">
 <li class="rmItem rmFirst">
 <span class="rmText">
-<li class="rmItem ">
+<li class="rmItem">
 <span class="rmText">
 <li class="rmItem rmLast">
 <span class="rmText">
@@ -129,25 +128,25 @@
 <li class="rtLI rtLast">
 <span class="rtSp">
 <p class="requiredNote">
-<label for="Main_Issues_uxPrefixList" id="Main_Issues_uxPrefix" class="formLabel">
+<label class="formLabel" for="Main_Issues_uxPrefixList" id="Main_Issues_uxPrefix">
 <select name="ctl00$Main$Issues$uxPrefixList" id="Main_Issues_uxPrefixList">
-<option selected="selected" value="">
+<option selected="selected" value>
 <option value="Mr.">
 <option value="Mrs.">
 <option value="Ms.">
 <option value="Miss">
-<label for="Main_Issues_uxFirstName" id="Main_Issues_uxFirstNameLbl" class="formLabel">
-<input name="ctl00$Main$Issues$uxFirstName" type="text" maxlength="50" id="Main_Issues_uxFirstName" style="width:80%;" >
-<label for="Main_Issues_uxLastName" id="Main_Issues_uxLastNameLbl" class="formLabel">
-<input name="ctl00$Main$Issues$uxLastName" type="text" maxlength="50" id="Main_Issues_uxLastName" style="width:80%;" >
-<label for="Main_Issues_uxEmail" id="Main_Issues_uxEmailLbl" class="formLabel">
-<input name="ctl00$Main$Issues$uxEmail" type="text" maxlength="150" id="Main_Issues_uxEmail" style="width:80%;" >
-<label for="Main_Issues_uxAddress1" id="Main_Issues_uxAddressLbl" class="formLabel">
-<input name="ctl00$Main$Issues$uxAddress1" type="text" maxlength="200" id="Main_Issues_uxAddress1" style="width:80%;" >
-<input name="ctl00$Main$Issues$uxAddress2" type="text" maxlength="200" id="Main_Issues_uxAddress2" style="width:80%;margin-top: 5px;" >
-<label for="Main_Issues_uxCity" id="Main_Issues_uxCityLbl" class="formLabel">
-<input name="ctl00$Main$Issues$uxCity" type="text" id="Main_Issues_uxCity" style="width:80%;" >
-<label for="Main_Issues_uxStateList" id="Main_Issues_uxStateLbl" class="formLabel">
+<label class="formLabel" for="Main_Issues_uxFirstName" id="Main_Issues_uxFirstNameLbl">
+<input style="width:80%;" name="ctl00$Main$Issues$uxFirstName" type="text" maxlength="50" id="Main_Issues_uxFirstName" >
+<label class="formLabel" for="Main_Issues_uxLastName" id="Main_Issues_uxLastNameLbl">
+<input style="width:80%;" name="ctl00$Main$Issues$uxLastName" type="text" maxlength="50" id="Main_Issues_uxLastName" >
+<label class="formLabel" for="Main_Issues_uxEmail" id="Main_Issues_uxEmailLbl">
+<input style="width:80%;" name="ctl00$Main$Issues$uxEmail" type="text" maxlength="150" id="Main_Issues_uxEmail" >
+<label class="formLabel" for="Main_Issues_uxAddress1" id="Main_Issues_uxAddressLbl">
+<input style="width:80%;" name="ctl00$Main$Issues$uxAddress1" type="text" maxlength="200" id="Main_Issues_uxAddress1" >
+<input style="width:80%;margin-top: 5px;" name="ctl00$Main$Issues$uxAddress2" type="text" maxlength="200" id="Main_Issues_uxAddress2" >
+<label class="formLabel" for="Main_Issues_uxCity" id="Main_Issues_uxCityLbl">
+<input style="width:80%;" name="ctl00$Main$Issues$uxCity" type="text" id="Main_Issues_uxCity" >
+<label class="formLabel" for="Main_Issues_uxStateList" id="Main_Issues_uxStateLbl">
 <select name="ctl00$Main$Issues$uxStateList" id="Main_Issues_uxStateList">
 <option value="AL">
 <option value="AK">
@@ -200,15 +199,15 @@
 <option value="WV">
 <option value="WI">
 <option value="WY">
-<label for="ctl00_Main_Issues_uxZip" id="Main_Issues_uxZipLbl" class="formLabel">
-<span id="ctl00_Main_Issues_uxZip_wrapper" class="riSingle RadInput RadInput_Default" style="width:160px;">
-<input id="ctl00_Main_Issues_uxZip" name="ctl00$Main$Issues$uxZip" type="text" size="20" class="riTextBox riEnabled" value="_____-____" >
-<label for="ctl00_Main_Issues_uxPhone" id="Main_Issues_uxPhoneLbl" class="formLabel">
-<span id="ctl00_Main_Issues_uxPhone_wrapper" class="riSingle RadInput RadInput_Default" style="width:;">
-<input id="ctl00_Main_Issues_uxPhone" name="ctl00$Main$Issues$uxPhone" type="text" size="35" class="riTextBox riEnabled" value="(___) ___-____" >
-<label for="Main_Issues_uxIssueList" id="Main_Issues_uxIssueListLbl" class="formLabel">
+<label class="formLabel" for="ctl00_Main_Issues_uxZip" id="Main_Issues_uxZipLbl">
+<span class="riSingle RadInput RadInput_Default" style="width:160px;" id="ctl00_Main_Issues_uxZip_wrapper">
+<input class="riTextBox riEnabled" id="ctl00_Main_Issues_uxZip" name="ctl00$Main$Issues$uxZip" type="text" size="20" value="_____-____" >
+<label class="formLabel" for="ctl00_Main_Issues_uxPhone" id="Main_Issues_uxPhoneLbl">
+<span class="riSingle RadInput RadInput_Default" style="width:;" id="ctl00_Main_Issues_uxPhone_wrapper">
+<input class="riTextBox riEnabled" id="ctl00_Main_Issues_uxPhone" name="ctl00$Main$Issues$uxPhone" type="text" size="35" value="(___) ___-____" >
+<label class="formLabel" for="Main_Issues_uxIssueList" id="Main_Issues_uxIssueListLbl">
 <select name="ctl00$Main$Issues$uxIssueList" id="Main_Issues_uxIssueList">
-<option selected="selected" value="">
+<option selected="selected" value>
 <option value="ABORTION">
 <option value="AGING ">
 <option value="AGRICULTURE ">
@@ -251,7 +250,7 @@
 <option value="OTHER ">
 <option value="PARDON/CLEMENCY ">
 <option value="PARKS ">
-<option value="RACING &amp; GAMING">
+<option value="RACING & GAMING">
 <option value="RURAL ISSUES">
 <option value="STATE EMPLOYEES">
 <option value="TAX REFORM">
@@ -261,26 +260,14 @@
 <option value="UTILITIES ">
 <option value="VETERANS ">
 <option value="WORKERS COMPENSATION">
-<span id="Main_Issues_uxMessageLbl" class="formLabel">
-<textarea name="ctl00$Main$Issues$uxMessage" rows="5" cols="20" id="Main_Issues_uxMessage" onblur="ValidatorValidate(Main_Issues_uxMessageVldReq)" style="width:80%;">
-<label for="ctl00_Main_Issues_RadCaptcha1" id="Main_Issues_uxCaptchaLbl2" class="formLabel">
+<span class="formLabel" id="Main_Issues_uxMessageLbl">
+<textarea style="width:80%;" name="ctl00$Main$Issues$uxMessage" rows="5" cols="20" id="Main_Issues_uxMessage" onblur="ValidatorValidate(Main_Issues_uxMessageVldReq)">
+<label class="formLabel" for="ctl00_Main_Issues_RadCaptcha1" id="Main_Issues_uxCaptchaLbl2">
 <input name="ctl00$Main$Issues$RadCaptcha1$CaptchaTextBox" type="text" maxlength="5" id="ctl00_Main_Issues_RadCaptcha1_CaptchaTextBox" title="Type the characters you see in the image above" >
 <label for="ctl00_Main_Issues_RadCaptcha1_CaptchaTextBox" id="ctl00_Main_Issues_RadCaptcha1_CaptchaTextBoxLabel">
-<input type="submit" name="ctl00$Main$Issues$uxSubmitBtn" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$Main$Issues$uxSubmitBtn&quot;, &quot;&quot;, true, &quot;ISSUE&quot;, &quot;&quot;, false, false))" id="Main_Issues_uxSubmitBtn" >
-<span id="Main_T9D0516A5019_uxTwitter" class="st_twitter_hcount" displaytext="Tweet">
-<span id="Main_T9D0516A5019_uxFacebookShare" class="st_facebook_hcount" displaytext="Facebook">
-<span id="Main_T9D0516A5019_uxEmail" class="st_email_hcount" displaytext="Email">
-<span id="Main_T9D0516A5019_uxShareThis" class="st_sharethis_hcount" displaytext="Share">
-<span id="Main_T9D0516A5019_uxGooglePlusOne" class="st_plusone_hcount">
-<!-- <span class='st_email_hcount' displaytext='Email'>
-<span class='st_twitter_hcount' displaytext='Tweet'>
-<span class='st_facebook_hcount' displaytext='Facebook'>
-<span class='st_fblike_hcount'>
-<span class='st_plusone_hcount'>
-<span class='st_sharethis_hcount' displaytext='Share'>
-<span class='st_twitter_button' displaytext='Tweet'>
-<span class='st_facebook_button' displaytext='Facebook'>
-<span class='st_email_button' displaytext='Email'>
-<span class='st_sharethis_button' displaytext='ShareThis'>
-<span class='st_fblike_hcount'>
-<span class='st_plusone_button'>
+<input type="submit" name="ctl00$Main$Issues$uxSubmitBtn" value="Submit" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$Main$Issues$uxSubmitBtn", "", true, "ISSUE", "", false, false))' id="Main_Issues_uxSubmitBtn" >
+<span class="st_twitter_hcount" id="Main_T9D0516A5019_uxTwitter" displaytext="Tweet">
+<span class="st_facebook_hcount" id="Main_T9D0516A5019_uxFacebookShare" displaytext="Facebook">
+<span class="st_email_hcount" id="Main_T9D0516A5019_uxEmail" displaytext="Email">
+<span class="st_sharethis_hcount" id="Main_T9D0516A5019_uxShareThis" displaytext="Share">
+<span class="st_plusone_hcount" id="Main_T9D0516A5019_uxGooglePlusOne">

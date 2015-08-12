@@ -1,85 +1,123 @@
-<form name=aspnetForm method=post action=contact.aspx id=aspnetForm>
+<form name="aspnetForm" method="post" action="contact.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <h1>
-<fieldset class=salutation>
+<fieldset class="salutation">
 <label>
-<select name=ctl00$ContentPlaceHolder1$PREFIX id=ctl00_ContentPlaceHolder1_PREFIX>
-<option value=Select Prefix:>
-<option value=Mr.>
-<option value=Ms.>
-<option value=Mrs.>
-<option value=Dr.>
-<fieldset class=first-name>
+<select name="ctl00$ContentPlaceHolder1$PREFIX" id="ctl00_ContentPlaceHolder1_PREFIX">
+<option value="Select Prefix:">
+<option value="Mr.">
+<option value="Ms.">
+<option value="Mrs.">
+<option value="Dr.">
+<fieldset class="first-name">
 <label>
-<input name=ctl00$ContentPlaceHolder1$FIRST_NAME type=text id=ctl00_ContentPlaceHolder1_FIRST_NAME >
-<fieldset class=last-name>
+<input name="ctl00$ContentPlaceHolder1$FIRST_NAME" type="text" id="ctl00_ContentPlaceHolder1_FIRST_NAME">
+<fieldset class="last-name">
 <label>
-<input name=ctl00$ContentPlaceHolder1$LAST_NAME type=text id=ctl00_ContentPlaceHolder1_LAST_NAME >
-<fieldset class=suffix>
+<input name="ctl00$ContentPlaceHolder1$LAST_NAME" type="text" id="ctl00_ContentPlaceHolder1_LAST_NAME">
+<fieldset class="suffix">
 <label>
-<select name=ctl00$ContentPlaceHolder1$SUFFIX id=ctl00_ContentPlaceHolder1_SUFFIX>
-<option value=>
-<option value=Jr.>
-<option value=Sr.>
-<option value=II>
-<option value=III>
-<option value=MD>
-<option value=PhD>
-<fieldset class=email-address>
+<select name="ctl00$ContentPlaceHolder1$SUFFIX" id="ctl00_ContentPlaceHolder1_SUFFIX">
+<option value>
+<option value="Jr.">
+<option value="Sr.">
+<option value="II">
+<option value="III">
+<option value="MD">
+<option value="PhD">
+<fieldset class="email-address">
 <label>
-<input name=ctl00$ContentPlaceHolder1$EMAILADDR type=text id=ctl00_ContentPlaceHolder1_EMAILADDR >
-<fieldset class=phone>
+<input name="ctl00$ContentPlaceHolder1$EMAILADDR" type="text" id="ctl00_ContentPlaceHolder1_EMAILADDR">
+<fieldset class="phone">
 <label>
-<span class=sep>
-<input name=ctl00$ContentPlaceHolder1$PHONE1 type=text size=3 id=ctl00_ContentPlaceHolder1_PHONE1 style=width:41px; >
-<span class=sep>
-<input name=ctl00$ContentPlaceHolder1$PHONE2 type=text size=3 id=ctl00_ContentPlaceHolder1_PHONE2 style=width:41px; >
-<span class=sep>
-<input name=ctl00$ContentPlaceHolder1$PHONE3 type=text size=4 id=ctl00_ContentPlaceHolder1_PHONE3 style=width:61px; >
-<fieldset class=street-address>
+<span class="sep">
+<input style="width:41px;" name="ctl00$ContentPlaceHolder1$PHONE1" type="text" size="3" id="ctl00_ContentPlaceHolder1_PHONE1">
+<span class="sep">
+<input style="width:41px;" name="ctl00$ContentPlaceHolder1$PHONE2" type="text" size="3" id="ctl00_ContentPlaceHolder1_PHONE2">
+<span class="sep">
+<input style="width:61px;" name="ctl00$ContentPlaceHolder1$PHONE3" type="text" size="4" id="ctl00_ContentPlaceHolder1_PHONE3">
+<fieldset class="street-address">
 <label>
-<input name=ctl00$ContentPlaceHolder1$STREET_ADDRESS type=text id=ctl00_ContentPlaceHolder1_STREET_ADDRESS style=width:401px; >
-<fieldset class=city>
+<input style="width:401px;" name="ctl00$ContentPlaceHolder1$STREET_ADDRESS" type="text" id="ctl00_ContentPlaceHolder1_STREET_ADDRESS">
+<fieldset class="city">
 <label>
-<input name=ctl00$ContentPlaceHolder1$CITY type=text id=ctl00_ContentPlaceHolder1_CITY >
-<fieldset class=state>
+<input name="ctl00$ContentPlaceHolder1$CITY" type="text" id="ctl00_ContentPlaceHolder1_CITY">
+<fieldset class="state">
 <label>
-<input name=ctl00$ContentPlaceHolder1$STATE type=text id=ctl00_ContentPlaceHolder1_STATE style=width:100px; >
-<fieldset class=zip-code>
+<input style="width:100px;" name="ctl00$ContentPlaceHolder1$STATE" type="text" id="ctl00_ContentPlaceHolder1_STATE">
+<fieldset class="zip-code">
 <label>
-<input name=ctl00$ContentPlaceHolder1$ZIP_CODE type=text id=ctl00_ContentPlaceHolder1_ZIP_CODE style=width:100px; >
-<fieldset class=subject>
+<input style="width:100px;" name="ctl00$ContentPlaceHolder1$ZIP_CODE" type="text" id="ctl00_ContentPlaceHolder1_ZIP_CODE">
+<fieldset class="subject">
 <label>
-<select name=ctl00$ContentPlaceHolder1$EMAIL_ISSUE id=ctl00_ContentPlaceHolder1_EMAIL_ISSUE>
-<option value=Select Issue:>
-<option value=CONSERVATION>
-<option value=DHR>
-<option value=DISASTER>
-<option value=ALEA-DRIVER LICENSE>
-<option value=BUD>
-<option value=EDU-GENERAL>
-<option value=ENVIRONMENT>
-<option value=HC-GENERAL>
-<option value=ISSUE-IMMIGRATION>
-<option value=INSURANCE-GENERAL>
-<option value=LABOR>
-<option value=LS2011>
-<option value=MILITARY>
-<option value=NRA>
-<option value=PARDONS &amp;PAROLES>
-<option value=FLAG>
-<option value=REQUEST FOR FUNDING>
-<option value=LETTERS - CEREMONIAL>
-<option value=REQUEST FOR ITEMS>
-<option value=SENIOR SERVICES-GEN>
-<option value=DOT>
-<option value=MISCELLANEOUS>
-<asp:ListItem value=LETTERS- PROC. & CER>
-<asp:ListItem value=LETTERS- PROC. &amp; CER>
-<fieldset class=comments>
+<select name="ctl00$ContentPlaceHolder1$EMAIL_ISSUE" id="ctl00_ContentPlaceHolder1_EMAIL_ISSUE">
+<option value="Select Issue:">
+<option value="CONSERVATION">
+<option value="DHR">
+<option value="DISASTER">
+<option value="ALEA-DRIVER LICENSE">
+<option value="BUD">
+<option value="EDU-GENERAL">
+<option value="ENVIRONMENT">
+<option value="HC-GENERAL">
+<option value="ISSUE-IMMIGRATION">
+<option value="INSURANCE-GENERAL">
+<option value="LABOR">
+<option value="LS2011">
+<option value="MILITARY">
+<option value="NRA">
+<option value="PARDONS &PAROLES">
+<option value="FLAG">
+<option value="REQUEST FOR FUNDING">
+<option value="LETTERS - CEREMONIAL">
+<option value="REQUEST FOR ITEMS">
+<option value="SENIOR SERVICES-GEN">
+<option value="DOT">
+<option value="MISCELLANEOUS">
+<fieldset class="comments">
 <label>
-<textarea name=ctl00$ContentPlaceHolder1$COMMENTS rows=2 cols=20 id=ctl00_ContentPlaceHolder1_COMMENTS style=height:131px;width:477px;>
+<textarea style="height:131px;width:477px;" name="ctl00$ContentPlaceHolder1$COMMENTS" rows="2" cols="20" id="ctl00_ContentPlaceHolder1_COMMENTS">
 <b>
 <noscript>
-<iframe src=http://www.google.com/recaptcha/api/noscript?k=6LfJFcISAAAAAEHQJsRKCkGDlVCLj24n7J4ATP9a width=500 height=300 frameborder=0>
-<textarea name=recaptcha_challenge_field rows=3 cols=40>
-<input type=submit name=ctl00$ContentPlaceHolder1$btnEmail value=Email This Form onclick=javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnEmail&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_ContentPlaceHolder1_btnEmail >
+<iframe src="http://www.google.com/recaptcha/api/noscript?k=6LfJFcISAAAAAEHQJsRKCkGDlVCLj24n7J4ATP9a" width="500" height="300" frameborder="0">
+<textarea name="recaptcha_challenge_field" rows="3" cols="40">
+<input type="submit" name="ctl00$ContentPlaceHolder1$btnEmail" value="Email This Form" onclick='javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ContentPlaceHolder1$btnEmail", "", true, "", "", false, false))' id="ctl00_ContentPlaceHolder1_btnEmail">
+<footer class="footer" role="contentinfo">
+<i class="ss-facebook ss-social-circle">
+<i class="ss-youtube ss-social-circle">
+<i class="ss-twitter ss-social-circle">
+<i class="ss-flickr ss-social-circle">
+<i class="ss-navigateup ss-standard">
+<nav class="footer-nav" id="offCanvasMenu">
+<h3>
+<ul class="menu" id="menu-footer-governor">
+<li class="menu-about-the-governor">
+<li class="menu-cabinet">
+<li class="menu-public-records">
+<li class="menu-staff">
+<li class="menu-contact">
+<h3>
+<ul class="menu" id="menu-footer-first-lady">
+<li class="menu-first-lady">
+<li class="menu-first-ladys-blog">
+<li class="menu-facebook">
+<li class="menu-twitter">
+<h3>
+<ul class="menu" id="menu-footer-newsroom">
+<li class="menu-press-releases">
+<li class="menu-proclamations">
+<li class="menu-executive-orders">
+<li class="menu-speeches">
+<li class="menu-media-clips">
+<h3>
+<ul class="menu" id="menu-footer-galleries">
+<li class="menu-photos">
+<li class="menu-videos">
+<h3>
+<ul class="menu" id="menu-footer-state-resources">
+<li class="right menu-alabama-gov">
+<li class="right menu-alabama-travel">
+<li class="right menu-madeinalabama-com">
+<li class="menu-government-directory">
+<li class="menu-media">
+<li class="menu-alerts">
+<li class="menu-rss-feed">

@@ -1,29 +1,22 @@
-<form name="" action="/contact/#wpcf7-f8-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-<span class="wpcf7-form-control-wrap your-email">
-<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter Email Address" >
-<input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit" >
-<form class="searchform" action="http://eshoo.house.gov" method="get">
-<input type="search" name="s" placeholder="Search for..." class="user-success">
-<input type="submit" alt="Submit Form" value="" >
-<form name="myForm" id="atform" method="post" onsubmit="storeValues(this);" action='/htbin/formproc.pl?/eshoo/wp-content/themes/Eshoo/formfiles/contact.txt&amp;display=/eshoo/wp-content/themes/Eshoo/formfiles/redirect.html&amp;nobase&amp;fpGetVer=2' >
+<form name="myForm" id="atform" method="post" onsubmit="storeValues(this);" action="/htbin/formproc.pl?/eshoo/wp-content/themes/Eshoo/formfiles/contact.txt&display=/eshoo/wp-content/themes/Eshoo/formfiles/redirect.html&nobase&fpGetVer=2">
 <fieldset>
 <h2>
 <label>
-<input type="text" size="32" name="salutation" value="" required>
+<input type="text" size="32" name="salutation" value required>
 <label>
-<input type="text" size="32" name="first_name" value="" required>
+<input type="text" size="32" name="first_name" value required>
 <label>
-<input type="text" size="32" name="middle_name" value="" >
+<input type="text" size="32" name="middle_name" value>
 <label>
-<input type="text" size="32" name="last_name" value="" required>
+<input type="text" size="32" name="last_name" value required>
 <label>
-<input type="text" size="32" name="suffix" value="" >
+<input type="text" size="32" name="suffix" value>
 <label>
-<input type="text" size="32" name="street_address" value="" required>
+<input type="text" size="32" name="street_address" value required>
 <label>
-<input type="text" size="32" name="street_address2" value="">
+<input type="text" size="32" name="street_address2" value>
 <label>
-<input type="text" size="32" name="city" value="" required>
+<input type="text" size="32" name="city" value required>
 <label>
 <select name="state">
 <option value="AL">
@@ -78,17 +71,17 @@
 <option value="WI">
 <option value="WY">
 <label>
-<input type="text" size="32" name="zip_code" value="" required>
+<input type="text" size="32" name="zip_code" value required>
 <label>
-<input type="text" size="32" name="primary_phone" value="" required>
+<input type="text" size="32" name="primary_phone" value required>
 <label>
-<input type="text" size="32" id="email" name="email" value="" required>
+<input type="text" size="32" id="email" name="email" value required>
 <label>
-<input type="text" size="32" name="verify_email" value="" required>
+<input type="text" size="32" name="verify_email" value required>
 <h2>
 <label>
 <select name="con_issue" required>
-<option selected="selected" value="">
+<option selected="selected" value>
 <option value="AGRICULTURE">
 <option value="ANIMALS">
 <option value="APPOINTMENTS">
@@ -139,21 +132,8 @@
 <option value="WOMEN">
 <option value="MISCELLANEOUS">
 <label>
-<textarea type="text" size="32" name="con_message" value="" required>
+<textarea type="text" size="32" name="con_message" value required>
 <h3>
 <label>
-<input type="checkbox" class="con_signup" name="con_signup" value="EMAIL.OPTIN">
+<input class="con_signup" type="checkbox" name="con_signup" value="EMAIL.OPTIN">
 <input type="submit" value="Submit">
-<form name="" action="/contact/#wpcf7-f8-o2" method="post" class="wpcf7-form" novalidate="novalidate">
-<span class="wpcf7-form-control-wrap your-email">
-<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Enter Email Address" >
-<input type="submit" value="Submit" class="wpcf7-form-control wpcf7-submit" >
-<form class="searchform clearfix" action="http://thomas.loc.gov/cgi-bin/query" method="post" name="loc-word" target="_blank">
-<input type="search" id="text1" name="queryc113" placeholder="Search By Keyword" >
-<input type="submit" alt="Submit Form" value="" >
-<form class="searchform clearfix" action="http://thomas.loc.gov/cgi-bin/query" method="post" name="loc-number" target="_blank">
-<input type="search" id="text2" name="docidc113" placeholder="Search By Bill Number" >
-<input type="submit" class="billnum" alt="Submit Form" value="" >
-<form class="searchform clearfix" action="http://eshoo.house.gov" method="get">
-<input type="search" name="s" placeholder="Search" class="user-success">
-<input type="submit" alt="Submit Form" value="" >

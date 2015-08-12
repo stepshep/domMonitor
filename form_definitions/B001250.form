@@ -1,26 +1,26 @@
-<form action=/submit-contact.aspx method=post>
-<table cellpadding=0 cellspacing=0 align=center>
+<form action="/submit-contact.aspx" method="post">
+<table cellpadding="0" cellspacing="0" align="center">
 <tbody>
-<td align=right valign=bottom style=width: 23%;>
-<span style=text-decoration: underline;>
-<td style=width: 77%;>
-<input maxlength=90 name=required-first required=required >
-<td style=width: 0%;>
-<td align=right style=width: 23%;>
-<span style=text-decoration: underline;>
-<input maxlength=90 name=required-last required=required >
-<td align=right style=width: 23%;>
-<input maxlength=190 name=required-address required=required >
-<td align=right style=width: 23%;>
-<span style=text-decoration: underline;>
-<input maxlength=45 name=required-city required=required >
-<td align=right style=width: 23%;>
-<span style=text-decoration: underline;>
-<input maxlength=5 size=5 name=zip5 required=required >
-<input maxlength=4 size=4 name=zip4 >
-<td align=right style=width: 23%;>
-<span style=text-decoration: underline;>
-<select name=required-state required=required>
+<td style="width: 23%;" align="right" valign="bottom">
+<span style="text-decoration: underline;">
+<td style="width: 77%;">
+<input maxlength="90" name="required-first" required="required" >
+<td style="width: 0%;">
+<td style="width: 23%;" align="right">
+<span style="text-decoration: underline;">
+<input maxlength="90" name="required-last" required="required" >
+<td style="width: 23%;" align="right">
+<input maxlength="190" name="required-address" required="required" >
+<td style="width: 23%;" align="right">
+<span style="text-decoration: underline;">
+<input maxlength="45" name="required-city" required="required" >
+<td style="width: 23%;" align="right">
+<span style="text-decoration: underline;">
+<input maxlength="5" size="5" name="zip5" required="required" >
+<input maxlength="4" size="4" name="zip4" >
+<td style="width: 23%;" align="right">
+<span style="text-decoration: underline;">
+<select name="required-state" required="required">
 <option>
 <option>
 <option>
@@ -68,7 +68,7 @@
 <option>
 <option>
 <option>
-<option selected=selected>
+<option selected="selected">
 <option>
 <option>
 <option>
@@ -76,46 +76,46 @@
 <option>
 <option>
 <option>
-<td align=right style=width: 23%;>
-<span style=text-decoration: underline;>
-<input maxlength=100 size=25 name=required-email required=required >
-<td align=right style=width: 23%;>
-<input maxlength=25 size=25 name=phone >
-<td align=right>
-<span style=text-decoration: underline;>
-<select size=1 name=required-issue required=required>
-<option value=webAg selected=selected>
-<option value=webBud>
-<option value=webCMRC>
-<option value=webCrime>
-<option value=webDef>
-<option value=webEd>
-<option value=webEN>
-<option value=webEnv>
-<option value=webHea>
-<option value=webHud>
-<option value=webIMM>
-<option value=webIntl>
-<option value=webIraq>
-<option value=webJud>
-<option value=webLab>
-<option value=webMisc>
-<option value=webSci>
-<option value=webSSA>
-<option value=webTax>
-<option value=webTran>
-<option value=webTrd>
-<option value=webVet>
-<option value=webWelf>
-<td colspan=2 align=left valign=top>
-<span style=text-decoration: underline;>
-<textarea name=required-message rows=8 cols=30 style=width: 95%; required=required>
-<td valign=top colspan=2>
-<input type=radio name=rsp value=yes >
-<input type=radio name=rsp value=no >
-<td valign=top colspan=2>
-<input type=checkbox name=subscribe value=subscribe >
-<td colspan=2>
+<td style="width: 23%;" align="right">
+<span style="text-decoration: underline;">
+<input maxlength="100" size="25" name="required-email" required="required" >
+<td style="width: 23%;" align="right">
+<input maxlength="25" size="25" name="phone" >
+<td align="right">
+<span style="text-decoration: underline;">
+<select size="1" name="required-issue" required="required">
+<option value="webAg" selected="selected">
+<option value="webBud">
+<option value="webCMRC">
+<option value="webCrime">
+<option value="webDef">
+<option value="webEd">
+<option value="webEN">
+<option value="webEnv">
+<option value="webHea">
+<option value="webHud">
+<option value="webIMM">
+<option value="webIntl">
+<option value="webIraq">
+<option value="webJud">
+<option value="webLab">
+<option value="webMisc">
+<option value="webSci">
+<option value="webSSA">
+<option value="webTax">
+<option value="webTran">
+<option value="webTrd">
+<option value="webVet">
+<option value="webWelf">
+<td colspan="2" align="left" valign="top">
+<span style="text-decoration: underline;">
+<textarea style="width: 95%;" name="required-message" rows="8" cols="30" required="required">
+<td valign="top" colspan="2">
+<input type="radio" name="rsp" value="yes" >
+<input type="radio" name="rsp" value="no" >
+<td valign="top" colspan="2">
+<input type="checkbox" name="subscribe" value="subscribe" >
+<td colspan="2">
 <center>
-<input value=Send Email type=submit >
-<input value=Reset type=reset >
+<input value="Send Email" type="submit" >
+<input value="Reset" type="reset" >

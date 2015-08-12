@@ -1,150 +1,150 @@
-<form action=/contact-bill-print class=validate wsbform id=emailForm method=post name=emailForm>
+<form class="validate wsbform" action="/contact-bill-print" id="emailForm" method="post" name="emailForm">
 <fieldset>
 <h5>
-<label for=prefix>
-<select id=prefix name=Prefix required=>
-<option value=>
-<option value=Mr.>
-<option value=Mr. and Mrs.>
-<option value=Mrs.>
-<option value=Ms.>
-<option value=Dr.>
-<label for=first>
-<input id=first maxlength=100 name=First required= type=text >
-<label for=last>
-<input id=Last maxlength=100 name=Last required= type=text >
-<label for=address>
-<input id=address maxlength=100 name=Addr1 required= type=text >
-<label for=address2>
-<input id=address2 maxlength=100 name=Addr2 type=text >
-<label for=city>
-<input id=city maxlength=100 name=City required= type=text >
-<label for=state>
-<select name=State required=>
-<option value=AL>
-<option value=AK>
-<option value=APO>
-<option value=AZ>
-<option value=AR>
-<option value=CA>
-<option value=CO>
-<option value=CT>
-<option value=DE>
-<option value=DC>
-<option selected=selected value=FL>
-<option value=GA>
-<option value=HI>
-<option value=ID>
-<option value=IL>
-<option value=IN>
-<option value=IA>
-<option value=KS>
-<option value=KY>
-<option value=LA>
-<option value=ME>
-<option value=MD>
-<option value=MA>
-<option value=MI>
-<option value=MN>
-<option value=MS>
-<option value=MO>
-<option value=MT>
-<option value=NE>
-<option value=NV>
-<option value=NH>
-<option value=NJ>
-<option value=NM>
-<option value=NY>
-<option value=NC>
-<option value=ND>
-<option value=OH>
-<option value=OK>
-<option value=OR>
-<option value=PA>
-<option value=RI>
-<option value=SC>
-<option value=SD>
-<option value=TN>
-<option value=TX>
-<option value=UT>
-<option value=VT>
-<option value=VA>
-<option value=WA>
-<option value=WV>
-<option value=WI>
-<option value=WY>
-<label for=zip5>
-<input id=required-zip5 maxlength=5 minlength=5 name=Zip required= type=text >
-<label for=phone>
-<input id=phone maxlength=100 name=Phone type=text >
-<label for=Email>
-<input id=Email maxlength=100 name=Email required= type=email >
+<label for="prefix">
+<select id="prefix" name="Prefix" required>
+<option value>
+<option value="Mr.">
+<option value="Mr. and Mrs.">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Dr.">
+<label for="first">
+<input id="first" maxlength="100" name="First" required type="text">
+<label for="last">
+<input id="Last" maxlength="100" name="Last" required type="text">
+<label for="address">
+<input id="address" maxlength="100" name="Addr1" required type="text">
+<label for="address2">
+<input id="address2" maxlength="100" name="Addr2" type="text">
+<label for="city">
+<input id="city" maxlength="100" name="City" required type="text">
+<label for="state">
+<select name="State" required>
+<option value="AL">
+<option value="AK">
+<option value="APO">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option selected="selected" value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<label for="zip5">
+<input id="required-zip5" maxlength="5" minlength="5" name="Zip" required type="text">
+<label for="phone">
+<input id="phone" maxlength="100" name="Phone" type="text">
+<label for="Email">
+<input id="Email" maxlength="100" name="Email" required type="email">
 <h5>
 <label>
-<input name=Issue required= type=radio value=Abortion >
-<input name=Issue type=radio value=Academy >
-<input name=Issue type=radio value=Aging >
-<input name=Issue type=radio value=Agriculture >
-<input name=Issue type=radio value=Animal Welfare >
-<input name=Issue type=radio value=Arts >
-<input name=Issue type=radio value=Banking >
-<input name=Issue type=radio value=Broadcast Regulations >
-<input name=Issue type=radio value=Budget >
-<input name=Issue type=radio value=Business >
-<input name=Issue type=radio value=Casework >
-<input name=Issue type=radio value=Childrens Health Insurance >
-<input name=Issue type=radio value=Constitutional Issues >
-<input name=Issue type=radio value=Consumer Protection >
-<input name=Issue type=radio value=Courts >
-<input name=Issue type=radio value=Crime >
-<input name=Issue type=radio value=Defense >
-<input name=Issue type=radio value=Domestic Wiretaps >
-<input name=Issue type=radio value=Economy >
-<input name=Issue type=radio value=Education >
-<input name=Issue type=radio value=Energy >
-<input name=Issue type=radio value=Environment >
-<input name=Issue type=radio value=Everglades Restoration >
-<input name=Issue type=radio value=FEMA/Natural Disasters >
-<input name=Issue type=radio value=Government Reform >
-<input name=Issue type=radio value=Elections >
-<input name=Issue type=radio value=Flag Requests >
-<input name=Issue type=radio value=Foreign Relations >
-<input name=Issue type=radio value=Gun Control >
-<input name=Issue type=radio value=Health >
-<input name=Issue type=radio value=Homeland Security >
-<input name=Issue type=radio value=Housing >
-<input name=Issue type=radio value=Immigration >
-<input name=Issue type=radio value=Import Safety >
-<input name=Issue type=radio value=Intelligence >
-<input name=Issue type=radio value=Invitations >
-<input name=Issue type=radio value=Iraq >
-<input name=Issue type=radio value=Judicial Nominations >
-<input name=Issue type=radio value=Labor >
-<input name=Issue type=radio value=Medicare/Medicaid >
-<input name=Issue type=radio value=National Parks >
-<input name=Issue type=radio value=Pensions >
-<input name=Issue type=radio value=Photograph Requests >
-<input name=Issue type=radio value=Port Security >
-<input name=Issue type=radio value=Prescription Drugs >
-<input name=Issue type=radio value=Privacy >
-<input name=Issue type=radio value=Property Insurance >
-<input name=Issue type=radio value=Military >
-<input name=Issue type=radio value=Native American Issues >
-<input name=Issue type=radio value=Social Security >
-<input name=Issue type=radio value=Social Services/Welfare >
-<input name=Issue type=radio value=Space >
-<input name=Issue type=radio value=Stem Cell Research >
-<input name=Issue type=radio value=Taxes >
-<input name=Issue type=radio value=Telecommunications >
-<input name=Issue type=radio value=Tour Request >
-<input name=Issue type=radio value=Trade >
-<input name=Issue type=radio value=Transportation >
-<input name=Issue type=radio value=Veterans >
-<input name=Issue type=radio value=Womens Issues >
-<input name=Issue type=radio value=Other >
-<label for=subject>
-<span class=subject>
-<input id=subject maxlength=100 name=sendSubject required= type=text >
-<label for=Message>
-<textarea cols=68 id=Message name=Message required= rows=3>
-<input class=submit id=submit name=submit type=submit value=Submit >
+<input name="Issue" required type="radio" value="Abortion">
+<input name="Issue" type="radio" value="Academy">
+<input name="Issue" type="radio" value="Aging">
+<input name="Issue" type="radio" value="Agriculture">
+<input name="Issue" type="radio" value="Animal Welfare">
+<input name="Issue" type="radio" value="Arts">
+<input name="Issue" type="radio" value="Banking">
+<input name="Issue" type="radio" value="Broadcast Regulations">
+<input name="Issue" type="radio" value="Budget">
+<input name="Issue" type="radio" value="Business">
+<input name="Issue" type="radio" value="Casework">
+<input name="Issue" type="radio" value="Children's Health Insurance">
+<input name="Issue" type="radio" value="Constitutional Issues">
+<input name="Issue" type="radio" value="Consumer Protection">
+<input name="Issue" type="radio" value="Courts">
+<input name="Issue" type="radio" value="Crime">
+<input name="Issue" type="radio" value="Defense">
+<input name="Issue" type="radio" value="Domestic Wiretaps">
+<input name="Issue" type="radio" value="Economy">
+<input name="Issue" type="radio" value="Education">
+<input name="Issue" type="radio" value="Energy">
+<input name="Issue" type="radio" value="Environment">
+<input name="Issue" type="radio" value="Everglades Restoration">
+<input name="Issue" type="radio" value="FEMA/Natural Disasters">
+<input name="Issue" type="radio" value="Government Reform">
+<input name="Issue" type="radio" value="Elections">
+<input name="Issue" type="radio" value="Flag Requests">
+<input name="Issue" type="radio" value="Foreign Relations">
+<input name="Issue" type="radio" value="Gun Control">
+<input name="Issue" type="radio" value="Health">
+<input name="Issue" type="radio" value="Homeland Security">
+<input name="Issue" type="radio" value="Housing">
+<input name="Issue" type="radio" value="Immigration">
+<input name="Issue" type="radio" value="Import Safety">
+<input name="Issue" type="radio" value="Intelligence">
+<input name="Issue" type="radio" value="Invitations">
+<input name="Issue" type="radio" value="Iraq">
+<input name="Issue" type="radio" value="Judicial Nominations">
+<input name="Issue" type="radio" value="Labor">
+<input name="Issue" type="radio" value="Medicare/Medicaid">
+<input name="Issue" type="radio" value="National Parks">
+<input name="Issue" type="radio" value="Pensions">
+<input name="Issue" type="radio" value="Photograph Requests">
+<input name="Issue" type="radio" value="Port Security">
+<input name="Issue" type="radio" value="Prescription Drugs">
+<input name="Issue" type="radio" value="Privacy">
+<input name="Issue" type="radio" value="Property Insurance">
+<input name="Issue" type="radio" value="Military">
+<input name="Issue" type="radio" value="Native American Issues">
+<input name="Issue" type="radio" value="Social Security">
+<input name="Issue" type="radio" value="Social Services/Welfare">
+<input name="Issue" type="radio" value="Space">
+<input name="Issue" type="radio" value="Stem Cell Research">
+<input name="Issue" type="radio" value="Taxes">
+<input name="Issue" type="radio" value="Telecommunications">
+<input name="Issue" type="radio" value="Tour Request">
+<input name="Issue" type="radio" value="Trade">
+<input name="Issue" type="radio" value="Transportation">
+<input name="Issue" type="radio" value="Veterans">
+<input name="Issue" type="radio" value="Womens Issues">
+<input name="Issue" type="radio" value="Other">
+<label for="subject">
+<span class="subject">
+<input id="subject" maxlength="100" name="sendSubject" required type="text">
+<label for="Message">
+<textarea cols="68" id="Message" name="Message" required rows="3">
+<input class="submit" id="submit" name="submit" type="submit" value="Submit">

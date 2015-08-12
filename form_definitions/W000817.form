@@ -1,7 +1,4 @@
-<form id="search_form" class="search" name="googlesearch" method="get" action="/">
-<input id="s" type="text" name="q" size="25" value="Search" class="input-field swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
-<input class="sprites" id="go" type="image" src="/images/clear.gif" width="20" height="20" alt="" title="" >
-<form name="thisForm" id="thisForm" action="/?p=email_senator&clear_cache=1" method="post" class="form-contact" onsubmit="return _CF_checkthisForm(this)">
+<form class="form-contact" name="thisForm" id="thisForm" action="/?p=email_senator&clear_cache=1" method="post" onsubmit="return _CF_checkthisForm(this)">
 <label>
 <select name="Prefix">
 <option value="-">
@@ -98,75 +95,72 @@
 <label>
 <span class="req">
 <select name="Subject">
-<option selected="selected" value="">
-<OPTION VALUE="Abortion">
-<OPTION VALUE="Adoption/Foster Care">
-<OPTION VALUE="Aging">
-<OPTION VALUE="Agriculture">
-<OPTION VALUE="Animal Welfare">
-<OPTION VALUE="Antitrust/Competition">
-<OPTION VALUE="Appropriations">
-<OPTION VALUE="Arts and Culture">
-<OPTION VALUE="Banking">
-<OPTION VALUE="Budget">
-<OPTION VALUE="Campaign Finance">
-<OPTION VALUE="Child Care/Child Welfare">
-<OPTION VALUE="Civil Rights">
-<OPTION VALUE="Commerce">
-<OPTION VALUE="Consumer Protection">
-<OPTION VALUE="Crime And Justice">
-<OPTION VALUE="Defense and Military">
-<OPTION VALUE="Disability">
-<OPTION VALUE="Domestic Violence">
-<OPTION VALUE="Drugs (Illegal)">
-<OPTION VALUE="Economy">
-<OPTION VALUE="Education - Early Childhood">
-<OPTION VALUE="Education - Elementary and Secondary">
-<OPTION VALUE="Education - Post-Secondary">
-<OPTION VALUE="Energy">
-<OPTION VALUE="Environment">
-<OPTION VALUE="Flag Requests">
-<OPTION VALUE="Food Safety">
-<OPTION VALUE="Foreign Affairs">
-<OPTION VALUE="Grants">
-<OPTION VALUE="Guns">
-<OPTION VALUE="Health">
-<OPTION VALUE="Historical Preservation">
-<OPTION VALUE="Homeland Security">
-<OPTION VALUE="Housing">
-<OPTION VALUE="Immigration">
-<OPTION VALUE="Intellectual Property">
-<OPTION VALUE="Job Training">
-<OPTION VALUE="Judicial Nominations">
-<OPTION VALUE="Judiciary">
-<OPTION VALUE="Labor and Unions">
-<OPTION VALUE="Medicaid/Medicare">
-<OPTION VALUE="Municipal and State Government">
-<OPTION VALUE="Native Americans">
-<OPTION VALUE="Natural Disasters">
-<OPTION VALUE="Pensions and Retirement">
-<OPTION VALUE="Postal Issues">
-<OPTION VALUE="Science/Technology/Space">
-<OPTION VALUE="Small Business">
-<OPTION VALUE="Social Security">
-<OPTION VALUE="Start-Ups and Entrepreneurs">
-<OPTION VALUE="TANF and Low-Income Benefits">
-<OPTION VALUE="Taxes">
-<OPTION VALUE="Telecommunications">
-<OPTION VALUE="Tour Request">
-<OPTION VALUE="Trade">
-<OPTION VALUE="Transportation and Infrastructure">
-<OPTION VALUE="Unemployment Insurance">
-<OPTION VALUE="Veterans">
-<OPTION VALUE="Women's Issues">
+<option selected="selected" value>
+<option value="Abortion">
+<option value="Adoption/Foster Care">
+<option value="Aging">
+<option value="Agriculture">
+<option value="Animal Welfare">
+<option value="Antitrust/Competition">
+<option value="Appropriations">
+<option value="Arts and Culture">
+<option value="Banking">
+<option value="Budget">
+<option value="Campaign Finance">
+<option value="Child Care/Child Welfare">
+<option value="Civil Rights">
+<option value="Commerce">
+<option value="Consumer Protection">
+<option value="Crime And Justice">
+<option value="Defense and Military">
+<option value="Disability">
+<option value="Domestic Violence">
+<option value="Drugs (Illegal)">
+<option value="Economy">
+<option value="Education - Early Childhood">
+<option value="Education - Elementary and Secondary">
+<option value="Education - Post-Secondary">
+<option value="Energy">
+<option value="Environment">
+<option value="Flag Requests">
+<option value="Food Safety">
+<option value="Foreign Affairs">
+<option value="Grants">
+<option value="Guns">
+<option value="Health">
+<option value="Historical Preservation">
+<option value="Homeland Security">
+<option value="Housing">
+<option value="Immigration">
+<option value="Intellectual Property">
+<option value="Job Training">
+<option value="Judicial Nominations">
+<option value="Judiciary">
+<option value="Labor and Unions">
+<option value="Medicaid/Medicare">
+<option value="Municipal and State Government">
+<option value="Native Americans">
+<option value="Natural Disasters">
+<option value="Pensions and Retirement">
+<option value="Postal Issues">
+<option value="Science/Technology/Space">
+<option value="Small Business">
+<option value="Social Security">
+<option value="Start-Ups and Entrepreneurs">
+<option value="TANF and Low-Income Benefits">
+<option value="Taxes">
+<option value="Telecommunications">
+<option value="Tour Request">
+<option value="Trade">
+<option value="Transportation and Infrastructure">
+<option value="Unemployment Insurance">
+<option value="Veterans">
+<option value="Women's Issues">
 <label>
 <span class="req">
-<input name="messageSubject" id="messageSubject" type="text" maxlength="1000" size="70" class="input" >
+<input class="input" name="messageSubject" id="messageSubject" type="text" maxlength="1000" size="70" >
 <label>
 <span class="req">
-<TEXTAREA NAME="MessageBody" COLS="40" ROWS="15" WRAP="virtual" REQUIRED="yes" CLASS="textarea">
+<textarea class="textarea" name="MessageBody" cols="40" rows="15" wrap="virtual" required="yes">
 <input class="normal-input" type="submit" value="Submit" name="Submit" >
-<input class="normal-input" onClick="javascript:document.thisForm.reset()" name="Clear" value="Clear" type="button" >
-<form id="nl_quick" name="nl_quick" action="/?p=email_updates&type=nlQuick" method="post" onSubmit="return nlQuick(this);">
-<input type="email" name="email" value="Email" class="input-field nlq-email swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
-<input type="tel" name="zip" value="ZIP" class="input-field nlq-zip swap_value" onfocus="if(this.value==this.defaultValue)this.value=''" onblur="if(this.value=='')this.value=this.defaultValue" >
+<input class="normal-input" onclick="javascript:document.thisForm.reset()" name="Clear" value="Clear" type="button" >

@@ -1,113 +1,113 @@
-<form method=post action=/send/ onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,R,required-message,Message,R);return document.MM_returnValue name=contact class=zipform>
-<table cellspacing=2 cellpadding=0 align=center>
+<form class="zipform" method="post" action="/send/" onsubmit="MM_validateForm('required-first','First Name','R','required-last','Last Name','R','required-address','Street Address','R','required-city','City','R','required-email','Email','RisEmail','R','required-message','Message','R');return document.MM_returnValue" name="contact">
+<table cellspacing="2" cellpadding="0" align="center">
 <tbody>
-<td align=right>
-<table cellspacing=0 cellpadding=0>
+<td align="right">
+<table cellspacing="0" cellpadding="0">
 <tbody>
 <small>
-<input type=text name=required-prefix size=10 maxlength=90>
-<input type=text name=required-first size=12 maxlength=90>
-<input type=text name=required-last size=15 maxlength=90>
-<input type=text name=suffix size=10 maxlength=90>
-<td align=right>
-<input type=text name=title size=60 maxlength=190>
-<td align=right>
-<input type=text name=org size=60 maxlength=190>
-<td align=right>
-<input type=text name=required-address size=60 maxlength=190>
-<td align=right>
-<input type=text name=required-city maxlength=45>
-<select name=required-state>
-<option selected=true>
-<td align=right>
-<input type=text name=phone size=60 maxlength=100>
-<td align=right>
-<input type=text name=required-email size=60 maxlength=100>
-<td align=right>
-<select name=required-issue size=1>
-<option value=AG>
-<option value=BD>
-<option value=BK>
-<option value=BN>
-<option value=CM>
-<option value=CR>
-<option value=DF>
-<option value=ED>
-<option value=EG>
-<option value=EN>
-<option value=FA>
-<option value=HE>
-<option value=HS>
-<option value=HO>
-<option value=IM>
-<option value=JD>
-<option value=LB>
-<option value=SC>
-<option value=SI>
-<option value=SS>
-<option value=TX>
-<option value=TD>
-<option value=TP>
-<option value=VT>
-<select name=required-issue size=1>
-<option value=AG>
-<option value=BD>
-<option value=BK>
-<option value=BN>
-<option value=CM>
-<option value=CR>
-<option value=DF>
-<option value=ED>
-<option value=EG>
-<option value=EN>
-<option value=FA>
-<option value=HE>
-<option value=HS>
-<option value=HO>
-<option value=IM>
-<option value=JD>
-<option value=LB>
-<option value=SC>
-<option value=SI>
-<option value=SS>
-<option value=TX>
-<option value=TD>
-<option value=TP>
-<option value=VT>
-<select name=required-issue size=1>
-<option value=AG>
-<option value=BD>
-<option value=BK>
-<option value=BN>
-<option value=CM>
-<option value=CR>
-<option value=DF>
-<option value=ED>
-<option value=EG>
-<option value=EN>
-<option value=FA>
-<option value=HE>
-<option value=HS>
-<option value=HO>
-<option value=IM>
-<option value=JD>
-<option value=LB>
-<option value=SC>
-<option value=SI>
-<option value=SS>
-<option value=TX>
-<option value=TD>
-<option value=TP>
-<option value=VT>
+<input type="text" name="required-prefix" size="10" maxlength="90">
+<input type="text" name="required-first" size="12" maxlength="90">
+<input type="text" name="required-last" size="15" maxlength="90">
+<input type="text" name="suffix" size="10" maxlength="90">
+<td align="right">
+<input type="text" name="title" size="60" maxlength="190">
+<td align="right">
+<input type="text" name="org" size="60" maxlength="190">
+<td align="right">
+<input type="text" name="required-address" size="60" maxlength="190">
+<td align="right">
+<input type="text" name="required-city" maxlength="45">
+<select name="required-state">
+<option selected="true">
+<td align="right">
+<input type="text" name="phone" size="60" maxlength="100">
+<td align="right">
+<input type="text" name="required-email" size="60" maxlength="100">
+<td align="right">
+<select name="required-issue" size="1">
+<option value="AG">
+<option value="BD">
+<option value="BK">
+<option value="BN">
+<option value="CM">
+<option value="CR">
+<option value="DF">
+<option value="ED">
+<option value="EG">
+<option value="EN">
+<option value="FA">
+<option value="HE">
+<option value="HS">
+<option value="HO">
+<option value="IM">
+<option value="JD">
+<option value="LB">
+<option value="SC">
+<option value="SI">
+<option value="SS">
+<option value="TX">
+<option value="TD">
+<option value="TP">
+<option value="VT">
+<select name="required-issue" size="1">
+<option value="AG">
+<option value="BD">
+<option value="BK">
+<option value="BN">
+<option value="CM">
+<option value="CR">
+<option value="DF">
+<option value="ED">
+<option value="EG">
+<option value="EN">
+<option value="FA">
+<option value="HE">
+<option value="HS">
+<option value="HO">
+<option value="IM">
+<option value="JD">
+<option value="LB">
+<option value="SC">
+<option value="SI">
+<option value="SS">
+<option value="TX">
+<option value="TD">
+<option value="TP">
+<option value="VT">
+<select name="required-issue" size="1">
+<option value="AG">
+<option value="BD">
+<option value="BK">
+<option value="BN">
+<option value="CM">
+<option value="CR">
+<option value="DF">
+<option value="ED">
+<option value="EG">
+<option value="EN">
+<option value="FA">
+<option value="HE">
+<option value="HS">
+<option value="HO">
+<option value="IM">
+<option value="JD">
+<option value="LB">
+<option value="SC">
+<option value="SI">
+<option value="SS">
+<option value="TX">
+<option value="TD">
+<option value="TP">
+<option value="VT">
 <b>
-<td valign=top align=right>
-<textarea cols=60 rows=15 name=required-message>
-<td valign=top align=right>
-<input type=radio name=rsp value=yes>
-<input type=radio name=rsp value=no>
-<td valign=top align=right>
-<input type=checkbox name=subscribe value=subscribe>
-<td colspan=2>
+<td valign="top" align="right">
+<textarea cols="60" rows="15" name="required-message">
+<td valign="top" align="right">
+<input type="radio" name="rsp" value="yes">
+<input type="radio" name="rsp" value="no">
+<td valign="top" align="right">
+<input type="checkbox" name="subscribe" value="subscribe">
+<td colspan="2">
 <center>
-<input type=submit value=Send Email>
-<input type=reset value=Reset>
+<input type="submit" value="Send Email">
+<input type="reset" value="Reset">

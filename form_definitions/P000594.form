@@ -1,62 +1,62 @@
-<form action=/contact-me/ id=custom_form55 name=custom_form class=custom_form method=post>
-<span class=req>
+<form class="custom_form" action="/contact-me/" id="custom_form55" name="custom_form" method="post">
+<span class="req">
 <h2>
 <label>
-<input type=text name=firstname id=req_firstname maxlength=90 class=text >
+<input class="text" type="text" name="firstname" id="req_firstname" maxlength="90" >
 <label>
-<input type=text name=middle class=text maxlength=90 >
+<input class="text" type="text" name="middle" maxlength="90" >
 <label>
-<input type=text name=lastname id=req_lastname class=text maxlength=90 >
+<input class="text" type="text" name="lastname" id="req_lastname" maxlength="90" >
 <label>
-<input type=text name=suffix class=text1 maxlength=5 >
+<input class="text1" type="text" name="suffix" maxlength="5" >
 <label>
-<input type=text name=street id=req_street class=text maxlength=190 >
+<input class="text" type="text" name="street" id="req_street" maxlength="190" >
 <label>
-<input type=text name=street2 class=text maxlength=190 >
+<input class="text" type="text" name="street2" maxlength="190" >
 <label>
-<input type=text name=city id=req_city class=text maxlength=100 >
+<input class="text" type="text" name="city" id="req_city" maxlength="100" >
 <label>
-<select name=state id=req_state>
-<option selected= value=MN>
+<select name="state" id="req_state">
+<option selected value="MN">
 <label>
-<input type=text name=zip id=req_zip class=zip maxlength=5 >
-<input type=text name=zipfour id=zip2 class=zipfour text maxlength=4 >
+<input class="zip" type="text" name="zip" id="req_zip" maxlength="5" >
+<input class="zipfour text" type="text" name="zipfour" id="zip2" maxlength="4" >
 <small>
 <label>
-<input type=text name=emailaddress id=req_email maxlength=150 class=text >
+<input class="text" type="text" name="emailaddress" id="req_email" maxlength="150" >
 <label>
-<input type=text name=phone class=text maxlength=14 >
+<input class="text" type="text" name="phone" maxlength="14" >
 <label>
-<select size=1 name=subject id=req_subject>
-<option selected= value=>
-<option value=CASEWORK>
-<option value=AGRI>
-<option value=BUD>
-<option value=DEF>
-<option value=ECON>
-<option value=EDU>
-<option value=ENR>
-<option value=ENV>
-<option value=GOV>
-<option value=HLTH>
-<option value=HOM>
-<option value=IMM>
-<option value=IR>
-<option value=JOBS>
-<option value=JUD>
-<option value=LAB>
-<option value=SMBUS>
-<option value=SOC>
-<option value=SSEC>
-<option value=TAX>
-<option value=TELE>
-<option value=TRD>
-<option value=TOURS>
-<option value=TRANS>
-<option value=VET>
-<option value=WEL>
-<option value=WOM>
-<option value=OTH>
+<select size="1" name="subject" id="req_subject">
+<option selected value>
+<option value="CASEWORK">
+<option value="AGRI">
+<option value="BUD">
+<option value="DEF">
+<option value="ECON">
+<option value="EDU">
+<option value="ENR">
+<option value="ENV">
+<option value="GOV">
+<option value="HLTH">
+<option value="HOM">
+<option value="IMM">
+<option value="IR">
+<option value="JOBS">
+<option value="JUD">
+<option value="LAB">
+<option value="SMBUS">
+<option value="SOC">
+<option value="SSEC">
+<option value="TAX">
+<option value="TELE">
+<option value="TRD">
+<option value="TOURS">
+<option value="TRANS">
+<option value="VET">
+<option value="WEL">
+<option value="WOM">
+<option value="OTH">
 <label>
-<textarea name=message id=req_message class=message>
-<input type=button value=Submit id=submitButton class=form_submit_button >
+<textarea class="message" name="message" id="req_message">
+<input class="form_submit_button" type="button" value="Submit" id="submitButton" >

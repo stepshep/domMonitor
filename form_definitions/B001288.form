@@ -1,22 +1,7 @@
-<form id="top-search-form" class="navbar-form navbar-right" role="search" name="googlesearch" method="get" action="/">
-<button class="-toggle btn btn-primary pull-right btn-sm">
-<span class="glyphicon glyphicon-envelope glyphicon-inverse">
-<input required="yes" class="-form-control-search form-control input-sm" id="top_search_input" type="text" name="q" value="" placeholder="Search this site" >
-<span class="input-group-btn">
-<button class="btn btn-primary btn-sm">
-<span class="glyphicon glyphicon-chevron-right glyphicon-inverse">
-<form id="top-nl-form" class="navbar-form navbar-right" role="newsletter" name="nl_quick" action="/?p=email_updates&type=nlQuick" method="post">
-<button class="-toggle btn btn-primary pull-right btn-sm">
-<span class="glyphicon glyphicon-search glyphicon-inverse">
-<input required="yes" class="-form-control-email form-control form-control-email input-sm" type="text" name="email" value="" placeholder="Email" >
-<input required="yes" class="form-control form-control-zip input-sm" type="text" name="zip" value="" placeholder="ZIP" >
-<span class="input-group-btn">
-<button class="btn btn-primary btn-sm">
-<span class="glyphicon glyphicon-chevron-right glyphicon-inverse">
-<FORM class="-validate-form form-contact" method="post" ACTION="/?p=contact&clear_cache=1" name="thisForm">
-<label for="" class="col-sm-3 control-label">
+<form class="-validate-form form-contact" method="post" action="/?p=contact&clear_cache=1" name="thisForm">
+<label class="col-sm-3 control-label" for>
 <span class="req">
-<select name="Prefix" class="-required form-control" id="Prefix" required title="Please select a prefix">
+<select class="-required form-control" name="Prefix" id="Prefix" required title="Please select a prefix">
 <option value="Mr.">
 <option value="Mrs.">
 <option value="Ms.">
@@ -41,23 +26,23 @@
 <option value="ergeant Major">
 <option value="Sister">
 <option value="Technical Sergeant">
-<label for="firstName" class="col-sm-3 control-label">
+<label class="col-sm-3 control-label" for="firstName">
 <span class="req">
-<input type="text" name="firstName" class="-required form-control" id="firstName" size="30" maxlength="100" value="" required placeholder="Please enter your first name." title="Please enter your first name.">
-<label for="lastName" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="firstName" id="firstName" size="30" maxlength="100" value required placeholder="Please enter your first name." title="Please enter your first name.">
+<label class="col-sm-3 control-label" for="lastName">
 <span class="req">
-<input type="text" name="lastName" class="-required form-control" id="lastName" size="30" maxlength="100" value="" required placeholder="Please enter your last name." title="Please enter your last name.">
-<label for="Address1" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="lastName" id="lastName" size="30" maxlength="100" value required placeholder="Please enter your last name." title="Please enter your last name.">
+<label class="col-sm-3 control-label" for="Address1">
 <span class="req">
-<input type="text" name="Address1" class="-required form-control" id="Address1" size="50" maxlength="200" value="" required placeholder="Please enter your street address." title="Please enter your street address.">
-<label for="Address2" class="col-sm-3 control-label">
-<input type="text" name="Address2" class="input form-control" id="Address2" size="50" maxlength="200" value="" placeholder="Please enter the second line of your street address." title="Please enter the second line of your street address.">
-<label for="city" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="Address1" id="Address1" size="50" maxlength="200" value required placeholder="Please enter your street address." title="Please enter your street address.">
+<label class="col-sm-3 control-label" for="Address2">
+<input class="input form-control" type="text" name="Address2" id="Address2" size="50" maxlength="200" value placeholder="Please enter the second line of your street address." title="Please enter the second line of your street address.">
+<label class="col-sm-3 control-label" for="city">
 <span class="req">
-<input type="text" name="city" class="-required form-control" id="city" size="40" maxlength="50" value="" required placeholder="Please enter your city." title="Please enter your city.">
-<label for="State" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="city" id="city" size="40" maxlength="50" value required placeholder="Please enter your city." title="Please enter your city.">
+<label class="col-sm-3 control-label" for="State">
 <span class="req">
-<select name="State" class="-required form-control" id="State" required title="Please select your state.">
+<select class="-required form-control" name="State" id="State" required title="Please select your state.">
 <option value=" ">
 <option value="AA">
 <option value="AE">
@@ -114,62 +99,62 @@
 <option value="WV">
 <option value="WI">
 <option value="WY">
-<label for="zip" class="col-sm-3 control-label">
+<label class="col-sm-3 control-label" for="zip">
 <span class="req">
-<input type="text" name="zip" class="-required form-control" id="zip" size="10" maxlength="10" value="" validate="zipcode" required placeholder="Please format as: xxxxx-xxxx" title="Please enter your zip code in the format 12345 or 12345-1234.">
-<label for="phone" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="zip" id="zip" size="10" maxlength="10" value validate="zipcode" required placeholder="Please format as: xxxxx-xxxx" title="Please enter your zip code in the format 12345 or 12345-1234.">
+<label class="col-sm-3 control-label" for="phone">
 <span class="req">
-<input type="text" name="phone" class="-required form-control" id="phone" size="30" maxlength="100" value="" required placeholder="Please format as: (xxx) xxx-xxxx" title="Please format as: (xxx) xxx-xxxx">
-<label for="email" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="phone" id="phone" size="30" maxlength="100" value required placeholder="Please format as: (xxx) xxx-xxxx" title="Please format as: (xxx) xxx-xxxx">
+<label class="col-sm-3 control-label" for="email">
 <span class="req">
-<input type="text" name="email" class="-required form-control" id="email" size="40" maxlength="100" value="" validate="regular_expression" pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us|link|coop)$" required placeholder="Please enter your email address and verify below." title="Please enter your email address and verify below.">
-<label for="vemail" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="email" id="email" size="40" maxlength="100" value validate="regular_expression" pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us|link|coop)$" required placeholder="Please enter your email address and verify below." title="Please enter your email address and verify below.">
+<label class="col-sm-3 control-label" for="vemail">
 <span class="req">
-<input type="text" name="vemail" class="-required form-control" id="vemail" size="40" maxlength="100" value="" validate="regular_expression" pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us|link|coop)$" required placeholder="Please verify your email address." title="Please verify your valid email address.">
-<label for="Subject" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="vemail" id="vemail" size="40" maxlength="100" value validate="regular_expression" pattern="^[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|edu|gov|mil|biz|info|mobi|name|aero|asia|jobs|museum|us|link|coop)$" required placeholder="Please verify your email address." title="Please verify your valid email address.">
+<label class="col-sm-3 control-label" for="Subject">
 <span class="req">
-<select name="Subject" class="-required form-control" required title="Please select the topic of your message.">
-<option selected="selected" value="">
-<OPTION value="Academy Nominations">
-<OPTION value="Agriculture and Nutrition">
-<OPTION value="Animal Welfare">
-<OPTION value="Armed Services">
-<OPTION value="Banking and Financial Services">
-<OPTION value="Budget">
-<OPTION value="Census">
-<OPTION value="Children">
-<OPTION value="Consumer Protection">
-<OPTION value="Economy">
-<OPTION value="Education">
-<OPTION value="Energy">
-<OPTION value="Environment">
-<OPTION value="Ethics">
-<OPTION value="Flag Requests">
-<OPTION value="Foreign Relations">
-<OPTION value="Grants">
-<OPTION value="Guns and Crime">
-<OPTION value="Healthcare">
-<OPTION value="Housing">
-<OPTION value="Immigration">
-<OPTION value="Jobs and Labor">
-<OPTION value="Judiciary Issues">
-<OPTION value="Letter Requests">
-<OPTION value="Marriage and Family">
-<OPTION value="Medicaid">
-<OPTION value="National Security">
-<OPTION value="Postal Service">
-<OPTION value="Science and Technology">
-<OPTION value="Social Security and Medicare">
-<OPTION value="Taxes">
-<OPTION value="Telecommunications">
-<OPTION value="Tour Request">
-<OPTION value="Trade">
-<OPTION value="Transportation">
-<OPTION value="Veterans">
-<label for="messageSubject" class="col-sm-3 control-label">
+<select class="-required form-control" name="Subject" required title="Please select the topic of your message.">
+<option selected="selected" value>
+<option value="Academy Nominations">
+<option value="Agriculture and Nutrition">
+<option value="Animal Welfare">
+<option value="Armed Services">
+<option value="Banking and Financial Services">
+<option value="Budget">
+<option value="Census">
+<option value="Children">
+<option value="Consumer Protection">
+<option value="Economy">
+<option value="Education">
+<option value="Energy">
+<option value="Environment">
+<option value="Ethics">
+<option value="Flag Requests">
+<option value="Foreign Relations">
+<option value="Grants">
+<option value="Guns and Crime">
+<option value="Healthcare">
+<option value="Housing">
+<option value="Immigration">
+<option value="Jobs and Labor">
+<option value="Judiciary Issues">
+<option value="Letter Requests">
+<option value="Marriage and Family">
+<option value="Medicaid">
+<option value="National Security">
+<option value="Postal Service">
+<option value="Science and Technology">
+<option value="Social Security and Medicare">
+<option value="Taxes">
+<option value="Telecommunications">
+<option value="Tour Request">
+<option value="Trade">
+<option value="Transportation">
+<option value="Veterans">
+<label class="col-sm-3 control-label" for="messageSubject">
 <span class="req">
-<input type="text" name="messageSubject" class="-required form-control" id="messageSubject" size="30" maxlength="75" value="" required placeholder="Please enter the subject of your message." title="Please enter the subject of your message.">
-<label for="MessageBody" class="col-sm-3 control-label">
+<input class="-required form-control" type="text" name="messageSubject" id="messageSubject" size="30" maxlength="75" value required placeholder="Please enter the subject of your message." title="Please enter the subject of your message.">
+<label class="col-sm-3 control-label" for="MessageBody">
 <span class="req">
-<textarea name="MessageBody" class="-required form-control" id="MessageBody" cols="40" rows="15" wrap="virtual" required placeholder="Please enter your message." title="Please enter your message.">
-<input class="btn btn-primary" type="submit" value="Send" name="Submit" >
+<textarea class="-required form-control" name="MessageBody" id="MessageBody" cols="40" rows="15" wrap="virtual" required placeholder="Please enter your message." title="Please enter your message.">
+<input class="btn btn-primary" type="submit" value="Send" name="Submit">

@@ -1,229 +1,231 @@
-<form method=post action= id=aspnetForm>
-<style type=text/css>
-<span id=auth-displayname>
-<span class=pageHeader>
-<span style=>
+<form method="post" action id="aspnetForm">
+<style type="text/css">
+<span id="auth-displayname">
+<span class="pageHeader">
+<span style>
 <fieldset>
 <legend>
-<table cellpadding=3 cellspacing=0 border=0>
-<tr class=wyr-prefix>
-<td width=90>
-<label for=ctl00_ctl14_PrefixList>
-<span class=header>
-<select name=ctl00$ctl14$PrefixList id=ctl00_ctl14_PrefixList>
-<option value=Mr.>
-<option value=Mrs.>
-<option value=Miss>
-<option value=Ms.>
-<option value=Mr. &amp; Mrs.>
-<option value=Dr.>
-<option value=The Reverend>
-<option value=Dr. &amp; Mrs.>
-<option value=Mr. &amp; Dr.>
-<option value=The Honorable>
-<option value=1LT>
-<option value=1SG>
-<option value=1st Lt>
-<option value=1stSgt>
-<option value=2d Lt>
-<option value=A1C>
-<option value=AB>
-<option value=ADM>
-<option value=Amn>
-<option value=BG.>
-<option value=BGen>
-<option value=Brig Gen>
-<option value=Brother>
-<option value=CAPT>
-<option value=Capt>
-<option value=CDR>
-<option value=Chaplain>
-<option value=Chief>
-<option value=CMSAF>
-<option value=CMSgt>
-<option value=Col>
-<option value=COL>
-<option value=CPL>
-<option value=Cpl>
-<option value=CPO>
-<option value=CPT>
-<option value=CSM>
-<option value=CW2>
-<option value=CW3>
-<option value=CW4>
-<option value=CW5>
-<option value=CWO-1>
-<option value=CWO2>
-<option value=CWO-2>
-<option value=CWO3>
-<option value=CWO-3>
-<option value=CWO4>
-<option value=CWO-4>
-<option value=CWO-5>
-<option value=Dean>
-<option value=Drs.>
-<option value=Elder>
-<option value=ENS>
-<option value=Father>
-<option value=Gen>
-<option value=GEN>
-<option value=GySgt>
-<option value=LCDR>
-<option value=LCpl>
-<option value=LT>
-<option value=Lt Col>
-<option value=SPC>
-<tr class=wyr-firstname>
-<label for=ctl00_ctl14_FirstName>
-<span class=header>
-<input name=ctl00$ctl14$FirstName type=text id=ctl00_ctl14_FirstName class=textBox >
-<tr class=wyr-lastname>
-<label for=ctl00_ctl14_LastName>
-<span class=header>
-<input name=ctl00$ctl14$LastName type=text id=ctl00_ctl14_LastName class=textBox >
-<tr class=wyr-street>
-<label for=ctl00_ctl14_Street>
-<span class=header>
-<input name=ctl00$ctl14$Street type=text id=ctl00_ctl14_Street class=textBox >
-<tr class=wyr-city>
-<label for=ctl00_ctl14_City>
-<span class=header>
-<input name=ctl00$ctl14$City type=text id=ctl00_ctl14_City class=textBox >
-<tr class=wyr-state>
-<label for=ctl00_ctl14_State>
-<span class=header>
-<select name=ctl00$ctl14$State id=ctl00_ctl14_State>
-<option value=AL>
-<option value=AK>
-<option value=AZ>
-<option value=AR>
-<option value=CA>
-<option value=CO>
-<option value=CT>
-<option value=DE>
-<option value=DC>
-<option value=FL>
-<option value=GA>
-<option value=HI>
-<option value=ID>
-<option value=IL>
-<option value=IN>
-<option value=IA>
-<option value=KS>
-<option value=KY>
-<option value=LA>
-<option value=ME>
-<option value=MD>
-<option value=MA>
-<option value=MI>
-<option value=MN>
-<option value=MS>
-<option value=MO>
-<option value=MT>
-<option value=NE>
-<option value=NV>
-<option value=NH>
-<option value=NJ>
-<option value=NM>
-<option value=NY>
-<option value=NC>
-<option value=ND>
-<option value=OH>
-<option value=OK>
-<option value=OR>
-<option value=PA>
-<option value=RI>
-<option selected=selected value=SC>
-<option value=SD>
-<option value=TN>
-<option value=TX>
-<option value=UT>
-<option value=VT>
-<option value=VA>
-<option value=WA>
-<option value=WV>
-<option value=WI>
-<option value=WY>
-<option value=AA>
-<option value=AE>
-<option value=AP>
-<option value=FM>
-<option value=GU>
-<option value=MH>
-<option value=MP>
-<option value=PR>
-<option value=VI>
-<tr class=wyr-zip>
-<label for=ctl00_ctl14_Zip>
-<span class=header>
-<input name=ctl00$ctl14$Zip type=text id=ctl00_ctl14_Zip class=textBox >
-<tr class=wyr-phone>
-<label for=ctl00_ctl14_Phone>
-<span class=header>
-<input name=ctl00$ctl14$Phone type=text id=ctl00_ctl14_Phone class=textBox >
+<table cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr class="wyr-prefix">
+<td width="90">
+<label for="ctl00_ctl14_PrefixList">
+<span class="header">
+<select name="ctl00$ctl14$PrefixList" id="ctl00_ctl14_PrefixList">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Miss">
+<option value="Ms.">
+<option value="Mr. & Mrs.">
+<option value="Dr.">
+<option value="The Reverend">
+<option value="Dr. & Mrs.">
+<option value="Mr. & Dr.">
+<option value="The Honorable">
+<option value="1LT">
+<option value="1SG">
+<option value="1st Lt">
+<option value="1stSgt">
+<option value="2d Lt">
+<option value="A1C">
+<option value="AB">
+<option value="ADM">
+<option value="Amn">
+<option value="BG.">
+<option value="BGen">
+<option value="Brig Gen">
+<option value="Brother">
+<option value="CAPT">
+<option value="Capt">
+<option value="CDR">
+<option value="Chaplain">
+<option value="Chief">
+<option value="CMSAF">
+<option value="CMSgt">
+<option value="Col">
+<option value="COL">
+<option value="CPL">
+<option value="Cpl">
+<option value="CPO">
+<option value="CPT">
+<option value="CSM">
+<option value="CW2">
+<option value="CW3">
+<option value="CW4">
+<option value="CW5">
+<option value="CWO-1">
+<option value="CWO2">
+<option value="CWO-2">
+<option value="CWO3">
+<option value="CWO-3">
+<option value="CWO4">
+<option value="CWO-4">
+<option value="CWO-5">
+<option value="Dean">
+<option value="Drs.">
+<option value="Elder">
+<option value="ENS">
+<option value="Father">
+<option value="Gen">
+<option value="GEN">
+<option value="GySgt">
+<option value="LCDR">
+<option value="LCpl">
+<option value="LT">
+<option value="Lt Col">
+<option value="SPC">
+<tr class="wyr-firstname">
+<label for="ctl00_ctl14_FirstName">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$FirstName" type="text" id="ctl00_ctl14_FirstName">
+<tr class="wyr-lastname">
+<label for="ctl00_ctl14_LastName">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$LastName" type="text" id="ctl00_ctl14_LastName">
+<tr class="wyr-street">
+<label for="ctl00_ctl14_Street">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$Street" type="text" id="ctl00_ctl14_Street">
+<tr class="wyr-city">
+<label for="ctl00_ctl14_City">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$City" type="text" id="ctl00_ctl14_City">
+<tr class="wyr-state">
+<label for="ctl00_ctl14_State">
+<span class="header">
+<select name="ctl00$ctl14$State" id="ctl00_ctl14_State">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option selected="selected" value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<option value="AA">
+<option value="AE">
+<option value="AP">
+<option value="FM">
+<option value="GU">
+<option value="MH">
+<option value="MP">
+<option value="PR">
+<option value="VI">
+<tr class="wyr-zip">
+<label for="ctl00_ctl14_Zip">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$Zip" type="text" id="ctl00_ctl14_Zip">
+<tr class="wyr-phone">
+<label for="ctl00_ctl14_Phone">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$Phone" type="text" id="ctl00_ctl14_Phone">
 <fieldset>
 <legend>
-<table cellpadding=3 cellspacing=0 border=0>
-<tr class=wyr-email>
-<td width=90>
-<label for=ctl00_ctl14_Email>
-<span class=header>
-<input name=ctl00$ctl14$Email type=text id=ctl00_ctl14_Email class=textBox >
-<tr id=ctl00_ctl14_TwitterRow class=wyr-twitter>
-<label for=ctl00_ctl14_Twitter>
-<span class=header>
-<input name=ctl00$ctl14$Twitter type=text value=@ id=ctl00_ctl14_Twitter placeholder=@ >
+<table cellpadding="3" cellspacing="0" border="0">
+<tbody>
+<tr class="wyr-email">
+<td width="90">
+<label for="ctl00_ctl14_Email">
+<span class="header">
+<input class="textBox" name="ctl00$ctl14$Email" type="text" id="ctl00_ctl14_Email">
+<tr class="wyr-twitter" id="ctl00_ctl14_TwitterRow">
+<label for="ctl00_ctl14_Twitter">
+<span class="header">
+<input name="ctl00$ctl14$Twitter" type="text" value="@" id="ctl00_ctl14_Twitter" placeholder="@">
 <fieldset>
 <legend>
-<input id=ctl00_ctl14_SubscribeChoice type=checkbox name=ctl00$ctl14$SubscribeChoice >
-<span class=ContactForm_Subscribe>
+<input id="ctl00_ctl14_SubscribeChoice" type="checkbox" name="ctl00$ctl14$SubscribeChoice">
+<span class="ContactForm_Subscribe">
 <fieldset>
 <legend>
-<select name=ctl00$ctl14$IssuesList id=ctl00_ctl14_IssuesList>
-<option value=>
-<option value=110205>
-<option value=110200>
-<option value=110170>
-<option value=110143>
-<option value=110127>
-<option value=110109>
-<option value=110087>
-<option value=110074>
-<option value=110048>
-<option value=110204>
-<option value=110015>
-<option value=110006>
-<option value=109645>
-<option value=109975>
-<option value=109965>
-<option value=114197>
-<option value=109948>
-<option value=109934>
-<option value=110203>
-<option value=109839>
-<option value=109825>
-<option value=109795>
-<option value=109779>
-<option value=109761>
-<option value=109754>
-<option value=109739>
-<option value=109715>
-<option value=109707>
-<option value=109701>
-<option value=109693>
-<option value=110202>
-<option value=109658>
+<select name="ctl00$ctl14$IssuesList" id="ctl00_ctl14_IssuesList">
+<option value>
+<option value="110205">
+<option value="110200">
+<option value="110170">
+<option value="110143">
+<option value="110127">
+<option value="110109">
+<option value="110087">
+<option value="110074">
+<option value="110048">
+<option value="110204">
+<option value="110015">
+<option value="110006">
+<option value="109645">
+<option value="109975">
+<option value="109965">
+<option value="114197">
+<option value="109948">
+<option value="109934">
+<option value="110203">
+<option value="109839">
+<option value="109825">
+<option value="109795">
+<option value="109779">
+<option value="109761">
+<option value="109754">
+<option value="109739">
+<option value="109715">
+<option value="109707">
+<option value="109701">
+<option value="109693">
+<option value="110202">
+<option value="109658">
 <fieldset>
 <legend>
-<span id=ctl00_ctl14_ReplyChoice>
-<input id=ctl00_ctl14_ReplyChoice_0 type=radio name=ctl00$ctl14$ReplyChoice value=Respond >
-<label for=ctl00_ctl14_ReplyChoice_0>
-<input id=ctl00_ctl14_ReplyChoice_1 type=radio name=ctl00$ctl14$ReplyChoice value=Comment >
-<label for=ctl00_ctl14_ReplyChoice_1>
-<label for=ctl00_ctl14_Subject>
-<span class=header>
-<input name=ctl00$ctl14$Subject type=text id=ctl00_ctl14_Subject >
-<label for=ctl00_ctl14_Body>
-<span class=header>
-<textarea name=ctl00$ctl14$Body rows=15 cols=20 id=ctl00_ctl14_Body>
-<input type=submit name=ctl00$ctl14$SubmitButton value=Submit onclick=if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl14$SubmitButton&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false)) id=ctl00_ctl14_SubmitButton class=ContactForm_Submit >
+<span id="ctl00_ctl14_ReplyChoice">
+<input id="ctl00_ctl14_ReplyChoice_0" type="radio" name="ctl00$ctl14$ReplyChoice" value="Respond">
+<label for="ctl00_ctl14_ReplyChoice_0">
+<input id="ctl00_ctl14_ReplyChoice_1" type="radio" name="ctl00$ctl14$ReplyChoice" value="Comment">
+<label for="ctl00_ctl14_ReplyChoice_1">
+<label for="ctl00_ctl14_Subject">
+<span class="header">
+<input name="ctl00$ctl14$Subject" type="text" id="ctl00_ctl14_Subject">
+<label for="ctl00_ctl14_Body">
+<span class="header">
+<textarea name="ctl00$ctl14$Body" rows="15" cols="20" id="ctl00_ctl14_Body">
+<input class="ContactForm_Submit" type="submit" name="ctl00$ctl14$SubmitButton" value="Submit" onclick='if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ctl14$SubmitButton", "", true, "", "", false, false))' id="ctl00_ctl14_SubmitButton">

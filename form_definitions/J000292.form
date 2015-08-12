@@ -1,87 +1,87 @@
-<form id=contactForm class=validate wsbform onsubmit=MM_validateForm(required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-valid-email,Email,RisEmail,required-subject,Subject,R,required-message,Message,R);return document.MM_returnValue method=post name=contactForm action=/submit-contact.aspx>
+<form class="validate wsbform" id="contactForm" onsubmit="MM_validateForm('required-first','First Name','R','required-last','Last Name','R','required-address','Street Address','R','required-city','City','R','required-valid-email','Email','RisEmail','required-subject','Subject','R','required-message','Message','R');return document.MM_returnValue" method="post" name="contactForm" action="/submit-contact.aspx">
 <fieldset>
 <legend>
-<label for=prefix>
-<input type=text id=prefix maxlength=100 size=2 name=prefix>
-<label for=required-first>
-<span class=required-field title=required information>
-<input type=text id=required-first class=validate[required] is-required maxlength=100 size=26 name=required-first>
-<label for=middle>
-<input type=text id=middle maxlength=100 size=2 name=middle>
-<label for=required-last>
-<span class=required-field title=required information>
-<input type=text id=required-last class=validate[required] is-required maxlength=100 size=31 name=required-last>
-<label for=suffix>
-<input type=text id=suffix maxlength=100 size=2 name=suffix>
-<label for=required-address>
-<span class=required-field title=required information>
-<input type=text id=required-address class=validate[required] is-required maxlength=100 size=90 name=required-address>
-<label for=required-address>
-<input type=text id=address2 maxlength=100 size=90 name=address2>
-<label for=required-city>
-<span class=required-field title=required information>
-<input type=text id=required-city class=validate[required] is-required maxlength=100 size=47 name=required-city>
-<label for=required-state>
-<span class=required-field title=required information>
-<input type=text disabled=true value=Ohio size=7>
-<label for=required-zip5>
-<span class=required-field title=required information>
-<input type=text id=required-zip5 maxlength=5 size=6 name=required-zip5>
-<label for=zip4>
-<input type=text id=zip4 maxlength=4 size=5 name=zip4>
-<label for=required-valid-email>
-<span class=required-field title=required information>
-<input type=text id=required-valid-email class=validate[required,custom[email]] is-required maxlength=100 size=90 name=required-valid-email>
+<label for="prefix">
+<input type="text" id="prefix" maxlength="100" size="2" name="prefix" >
+<label for="required-first">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" type="text" id="required-first" maxlength="100" size="26" name="required-first" >
+<label for="middle">
+<input type="text" id="middle" maxlength="100" size="2" name="middle" >
+<label for="required-last">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" type="text" id="required-last" maxlength="100" size="31" name="required-last" >
+<label for="suffix">
+<input type="text" id="suffix" maxlength="100" size="2" name="suffix" >
+<label for="required-address">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" type="text" id="required-address" maxlength="100" size="90" name="required-address" >
+<label for="required-address">
+<input type="text" id="address2" maxlength="100" size="90" name="address2" >
+<label for="required-city">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" type="text" id="required-city" maxlength="100" size="47" name="required-city" >
+<label for="required-state">
+<span class="required-field" title="required information">
+<input type="text" disabled="true" value="Ohio" size="7" >
+<label for="required-zip5">
+<span class="required-field" title="required information">
+<input type="text" id="required-zip5" maxlength="5" size="6" name="required-zip5" >
+<label for="zip4">
+<input type="text" id="zip4" maxlength="4" size="5" name="zip4" >
+<label for="required-valid-email">
+<span class="required-field" title="required information">
+<input class="validate[required,custom[email]] is-required" type="text" id="required-valid-email" maxlength="100" size="90" name="required-valid-email" >
 <fieldset>
 <legend>
-<label for=phone>
-<input type=text id=phone maxlength=20 size=32 name=phone>
-<input type=radio id=speech_0 class=is-inline value=Voice checked=true name=speech>
-<label for=speech_0>
-<input type=radio id=speech_1 class=is-inline value=VP name=speech>
-<label for=speech_1>
-<input type=radio id=speech_2 class=is-inline value=TTD name=speech>
-<label for=speech_2>
+<label for="phone">
+<input type="text" id="phone" maxlength="20" size="32" name="phone" >
+<input class="is-inline" type="radio" id="speech_0" value="Voice" checked="true" name="speech" >
+<label for="speech_0">
+<input class="is-inline" type="radio" id="speech_1" value="VP" name="speech" >
+<label for="speech_1">
+<input class="is-inline" type="radio" id="speech_2" value="TTD" name="speech" >
+<label for="speech_2">
 <fieldset>
 <legend>
-<label for=required-issue>
-<span class=required-field title=required information>
-<select id=required-issue class=validate[required] is-required size=1 name=required-issue required=required>
-<option selected=true>
-<option value=AG>
-<option value=ART>
-<option value=BANK>
-<option value=BUD>
-<option value=CONG>
-<option value=DEF>
-<option value=ED>
-<option value=EN>
-<option value=ENV>
-<option value=FED>
-<option value=FA>
-<option value=HEA>
-<option value=IM>
-<option value=JUD>
-<option value=LAB>
-<option value=SCI>
-<option value=SS>
-<option value=TAX>
-<option value=TEL>
-<option value=TRANS>
-<option value=TRADE>
-<option value=VET>
-<option value=WOMEN>
-<option value=CASEWORK>
-<option value=OTHER>
-<label for=required-subject>
-<span class=required-field title=required information>
-<input type=text id=required-subject class=validate[required] is-required maxlength=100 size=90 name=required-subject>
-<label for=required-message>
-<span class=required-field title=required information>
-<textarea id=required-message class=validate[required] is-required rows=5 cols=68 name=required-message>
-<input type=checkbox style=display: inline; id=noresponse value=Response Not Required name=noresponse>
-<label for=noresponse>
+<label for="required-issue">
+<span class="required-field" title="required information">
+<select class="validate[required] is-required" id="required-issue" size="1" name="required-issue" required="required">
+<option selected="true">
+<option value="AG">
+<option value="ART">
+<option value="BANK">
+<option value="BUD">
+<option value="CONG">
+<option value="DEF">
+<option value="ED">
+<option value="EN">
+<option value="ENV">
+<option value="FED">
+<option value="FA">
+<option value="HEA">
+<option value="IM">
+<option value="JUD">
+<option value="LAB">
+<option value="SCI">
+<option value="SS">
+<option value="TAX">
+<option value="TEL">
+<option value="TRANS">
+<option value="TRADE">
+<option value="VET">
+<option value="WOMEN">
+<option value="CASEWORK">
+<option value="OTHER">
+<label for="required-subject">
+<span class="required-field" title="required information">
+<input class="validate[required] is-required" type="text" id="required-subject" maxlength="100" size="90" name="required-subject" >
+<label for="required-message">
+<span class="required-field" title="required information">
+<textarea class="validate[required] is-required" id="required-message" rows="5" cols="68" name="required-message">
+<input style="display: inline;" type="checkbox" id="noresponse" value="Response Not Required" name="noresponse" >
+<label for="noresponse">
 <u>
-<input type=checkbox style=display: inline; id=subscribe value=subscribe name=subscribe>
-<label for=subscribe>
-<input type=submit id=submit class=submit value=Send Email name=submit>
+<input style="display: inline;" type="checkbox" id="subscribe" value="subscribe" name="subscribe" >
+<label for="subscribe">
+<input class="submit" type="submit" id="submit" value="Send Email" name="submit" >

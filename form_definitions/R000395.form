@@ -1,52 +1,52 @@
-<form name=contact class=contactForm zipform onsubmit=MM_validateForm(required-prefix,Prefix,R,required-first,First Name,R,required-last,Last Name,R,required-address,Street Address,R,required-city,City,R,required-email,Email,RisEmail,required-message,Message,R);return document.MM_returnValue action=/submit-contact.aspx method=post>
-<table align=center cellspacing=2 cellpadding=0>
+<form class="contactForm zipform" name="contact" onsubmit="MM_validateForm('required-prefix','Prefix','R','required-first','First Name','R','required-last','Last Name','R','required-address','Street Address','R','required-city','City','R','required-email','Email','RisEmail','required-message','Message','R');return document.MM_returnValue" action="/submit-contact.aspx" method="post">
+<table align="center" cellspacing="2" cellpadding="0">
 <tbody>
-<td align=right>
-<table cellspacing=0 cellpadding=0>
+<td align="right">
+<table cellspacing="0" cellpadding="0">
 <tbody>
 <small>
-<select name=required-prefix>
-<option selected=selected>
-<option value=Mr.>
-<option value=Mrs.>
-<option value=Miss.>
-<option value=Ms.>
-<option value=Mr. and Mrs.>
-<option value=Dr.>
-<option value=Rev.>
-<input name=required-first type=text size=12 maxlength=90 >
-<input name=middle type=text size=1 maxlength=90 >
-<input name=required-last type=text size=15 maxlength=90 >
-<input name=suffix type=text size=4 maxlength=90 >
-<td align=right>
-<input name=required-address type=text size=33 maxlength=190 >
-<td align=right>
-<input name=required-city type=text maxlength=33 >
-<select name=required-state>
-<option selected=selected>
-<input name=zip5 onkeydown=f(this) onkeyup=f(this) type=text size=5 maxlength=5 >
-<td align=right>
-<input name=phone type=text size=33 maxlength=100 >
-<td align=right>
-<input name=required-email type=text size=33 maxlength=100 >
-<td align=right>
-<select name=required-issue size=1>
-<option selected=selected>
-<option value=ECON>
-<option value=ED>
-<option value=HE>
-<option value=CRIME.DRUG>
-<option value=SS>
-<option value=TAX>
-<option value=TRAN>
-<option value=DHS>
-<option value=BUD>
-<option value=OTHER>
-<td align=right valign=top>
-<textarea name=required-message rows=15 cols=60>
-<td align=right valign=top>
-<input name=subscribe type=checkbox value=subscribe >
-<td colspan=2>
+<select name="required-prefix">
+<option selected="selected">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Miss.">
+<option value="Ms.">
+<option value="Mr. and Mrs.">
+<option value="Dr.">
+<option value="Rev.">
+<input name="required-first" type="text" size="12" maxlength="90" >
+<input name="middle" type="text" size="1" maxlength="90" >
+<input name="required-last" type="text" size="15" maxlength="90" >
+<input name="suffix" type="text" size="4" maxlength="90" >
+<td align="right">
+<input name="required-address" type="text" size="33" maxlength="190" >
+<td align="right">
+<input name="required-city" type="text" maxlength="33" >
+<select name="required-state">
+<option selected="selected">
+<input name="zip5" onkeydown="f(this)" onkeyup="f(this)" type="text" size="5" maxlength="5" >
+<td align="right">
+<input name="phone" type="text" size="33" maxlength="100" >
+<td align="right">
+<input name="required-email" type="text" size="33" maxlength="100" >
+<td align="right">
+<select name="required-issue" size="1">
+<option selected="selected">
+<option value="ECON">
+<option value="ED">
+<option value="HE">
+<option value="CRIME.DRUG">
+<option value="SS">
+<option value="TAX">
+<option value="TRAN">
+<option value="DHS">
+<option value="BUD">
+<option value="OTHER">
+<td align="right" valign="top">
+<textarea name="required-message" rows="15" cols="60">
+<td align="right" valign="top">
+<input name="subscribe" type="checkbox" value="subscribe" >
+<td colspan="2">
 <center>
-<input type=submit value=Send Email >
-<input type=reset value=Reset >
+<input type="submit" value="Send Email" >
+<input type="reset" value="Reset" >

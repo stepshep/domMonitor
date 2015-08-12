@@ -1,75 +1,75 @@
-<form method=POST action= class=sd-contact>
-<label for=name>
-<input id=fname type=text name=fname class=fname required=>
-<label for=name>
-<input id=lname type=text name=lname class=lname required=>
-<label for=email>
-<input id=email type=email name=email class=email required=>
-<label for=address>
-<input id=address type=text name=address class=address required=>
-<label for=city>
-<input id=city type=text name=city class=city required=>
-<label for=state>
-<select name=state id=state class=state required=>
-<option value=AL>
-<option value=AK>
-<option value=AZ>
-<option value=AR>
-<option value=CA>
-<option value=CO>
-<option value=CT>
-<option value=DE>
-<option value=DC>
-<option value=FL>
-<option value=GA>
-<option value=HI>
-<option value=ID>
-<option value=IL>
-<option value=IN>
-<option value=IA>
-<option value=KS>
-<option value=KY>
-<option value=LA>
-<option value=ME>
-<option value=MD>
-<option value=MA>
-<option value=MI selected=selected>
-<option value=MN>
-<option value=MS>
-<option value=MO>
-<option value=MT>
-<option value=NE>
-<option value=NV>
-<option value=NH>
-<option value=NJ>
-<option value=NM>
-<option value=NY>
-<option value=NC>
-<option value=ND>
-<option value=OH>
-<option value=OK>
-<option value=OR>
-<option value=PA>
-<option value=RI>
-<option value=SC>
-<option value=SD>
-<option value=TN>
-<option value=TX>
-<option value=UT>
-<option value=VT>
-<option value=VA>
-<option value=WA>
-<option value=WV>
-<option value=WI>
-<option value=WY>
-<label for=zip>
-<input id=zip type=zip name=zip class=zip required=>
-<label for=phone>
-<input id=phone type=phone name=phone class=phone>
-<label for=subject>
-<input id=subject type=text name=subject class=subject required=>
-<label for=message>
-<textarea id=message name=message class=message required=>
-<input type=checkbox id=subscribe name=subscribe checked>
-<label for=subscribe>
-<input type=submit class=submit alignright value=Send>
+<form class="sd-contact" method="POST" action>
+<label for="name">
+<input class="fname" id="fname" type="text" name="fname" required>
+<label for="name">
+<input class="lname" id="lname" type="text" name="lname" required>
+<label for="email">
+<input class="email" id="email" type="email" name="email" required>
+<label for="address">
+<input class="address" id="address" type="text" name="address" required>
+<label for="city">
+<input class="city" id="city" type="text" name="city" required>
+<label for="state">
+<select class="state" name="state" id="state" required>
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DE">
+<option value="DC">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI" selected="selected">
+<option value="MN">
+<option value="MS">
+<option value="MO">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ">
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<label for="zip">
+<input class="zip" id="zip" type="zip" name="zip" required>
+<label for="phone">
+<input class="phone" id="phone" type="phone" name="phone">
+<label for="subject">
+<input class="subject" id="subject" type="text" name="subject" required>
+<label for="message">
+<textarea class="message" id="message" name="message" required>
+<input type="checkbox" id="subscribe" name="subscribe" checked>
+<label for="subscribe">
+<input class="submit alignright" type="submit" value="Send">
