@@ -1,3 +1,89 @@
+<style media="all">
+<style media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+<style media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+<style media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+<style media="all and (min-width: 1220px)">
+<header class="section section-header" id="section-header">
+<section class="block block-menu-block block-congress-main-menu-superfish block-menu-block-congress-main-menu-superfish odd" id="block-menu-block-congress-main-menu-superfish">
+<h2 class="block-title">
+<ul class="main-menu sf-menu sf-style-default sf-js-enabled">
+<li class="first expanded menu-mlid-907 menu-about">
+<li class="first leaf menu-mlid-1011">
+<li class="leaf menu-mlid-920">
+<li class="last leaf menu-mlid-1006">
+<li class="expanded active-trail menu-mlid-908 menu-contact">
+<li class="first leaf menu-mlid-1007">
+<li class="leaf has-children menu-mlid-1008">
+<li class="leaf active-trail active menu-mlid-1368">
+<li class="leaf menu-mlid-1013">
+<li class="leaf menu-mlid-2790">
+<li class="leaf menu-mlid-2799">
+<li class="last leaf menu-mlid-2710">
+<li class="expanded menu-mlid-909 menu-services">
+<li class="first leaf menu-mlid-1047">
+<li class="leaf menu-mlid-1080">
+<li class="leaf menu-mlid-1114">
+<li class="leaf has-children menu-mlid-1084">
+<li class="leaf has-children menu-mlid-1099">
+<li class="leaf menu-mlid-1112">
+<li class="leaf menu-mlid-1105">
+<li class="leaf menu-mlid-2792">
+<li class="leaf menu-mlid-2791">
+<li class="last leaf has-children menu-mlid-1071">
+<li class="expanded menu-mlid-901 menu-media-center">
+<li class="first leaf menu-mlid-1565">
+<li class="leaf menu-mlid-1086">
+<li class="leaf menu-mlid-1108">
+<li class="leaf menu-mlid-2788">
+<li class="last leaf menu-mlid-2789">
+<li class="expanded menu-mlid-910 menu-legislation">
+<li class="first leaf menu-mlid-1096">
+<li class="leaf menu-mlid-1097">
+<li class="leaf menu-mlid-1092">
+<li class="last leaf has-children menu-mlid-1093">
+<li class="expanded menu-mlid-902 menu-issues">
+<li class="first leaf menu-mlid-903">
+<li class="leaf menu-mlid-906">
+<li class="leaf menu-mlid-1048">
+<li class="leaf menu-mlid-1814">
+<li class="leaf menu-mlid-1051">
+<li class="leaf menu-mlid-1053">
+<li class="leaf menu-mlid-1054">
+<li class="leaf menu-mlid-1055">
+<li class="leaf menu-mlid-1056">
+<li class="leaf menu-mlid-1057">
+<li class="last leaf menu-mlid-1813">
+<li class="expanded menu-mlid-1065 menu-resources">
+<li class="first leaf menu-mlid-1062">
+<li class="leaf menu-mlid-1063">
+<li class="leaf menu-mlid-1066">
+<li class="leaf menu-mlid-1067">
+<li class="leaf menu-mlid-1068">
+<li class="leaf menu-mlid-1069">
+<li class="leaf has-children menu-mlid-1070">
+<li class="last leaf has-children menu-mlid-1551">
+<li class="last leaf menu-mlid-2800">
+<form action="http://adams.house.gov/contact/offices" method="post" id="search-block-form" accept-charset="UTF-8">
+<h2 class="element-invisible">
+<label class="element-invisible" for="edit-search-block-form--2">
+<input class="form-control form-text" title="Search" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value size="15" maxlength="128">
+<input class="btn fa-input form-submit" type="submit" id="edit-submit" name="op" value="ï€‚">
+<h2 class="site-name element-invisible">
+<h6 class="site-slogan element-invisible">
+<section class="block block-boxes block-boxes-simple cong-sm-icon-medium block-cng-social-media-fa-medium block-boxes-cng-social-media-fa-medium odd" id="block-boxes-cng-social-media-fa-medium">
+<h2 class="block-title">
+<section class="section section-content" id="section-content">
+<nav class="breadcrumb-wrapper clearfix" role="navigation">
+<h2 class="element-invisible">
+<ol class="clearfix" id="crumbs">
+<li class="crumb crumb-first">
+<li class="crumb crumb-last">
+<span class="crumb-separator">
+<h1 class="title" id="page-title">
+<span id="ctl00_PageLink">
+<table width="100%">
+<tbody>
+<td id="ctl00_ContentCell">
 <form method="post" action="?zip5=27405&zip4=6854" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <span class="pageHeader">
 <span style>
@@ -155,3 +241,55 @@
 <span class="header">
 <textarea style="width:30em;" name="ctl00$ctl24$Body" rows="15" cols="20" id="ctl00_ctl24_Body">
 <input class="ContactForm_Submit" type="submit" name="ctl00$ctl24$SubmitButton" value="Submit" onclick='if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ctl24$SubmitButton", "", true, "", "", false, false))' id="ctl00_ctl24_SubmitButton">
+<aside class="grid-8 region region-sidebar-first" id="region-sidebar-first">
+<section class="block block-menu-block block-section-menu block-menu-block-section-menu odd" id="block-menu-block-section-menu">
+<h2 class="block-title">
+<ul class="menu">
+<li class="first leaf menu-mlid-1007">
+<li class="leaf has-children menu-mlid-1008">
+<li class="leaf active-trail active menu-mlid-1368">
+<li class="leaf menu-mlid-1013">
+<li class="leaf menu-mlid-2790">
+<li class="leaf menu-mlid-2799">
+<li class="last leaf menu-mlid-2710">
+<section class="block block-boxes block-boxes-simple block-social-media-large block-boxes-social-media-large odd" id="block-boxes-social-media-large">
+<h2 class="block-title">
+<footer class="section section-footer" id="section-footer">
+<section class="block block-menu block-menu-congress-footer-utility block-menu-menu-congress-footer-utility odd" id="block-menu-menu-congress-footer-utility">
+<h2 class="block-title">
+<ul class="menu">
+<li class="first leaf">
+<li class="leaf">
+<li class="leaf">
+<li class="last leaf">
+<section class="block block-boxes block-boxes-simple cong-sm-icon-small block-cng-social-media-fa-small block-boxes-cng-social-media-fa-small odd" id="block-boxes-cng-social-media-fa-small">
+<h2 class="block-title">
+<section class="block block-views block-congress-offices-footer-offices block-views-congress-offices-footer-offices odd" id="block-views-congress-offices-footer-offices">
+<h2 class="block-title">
+<ul class="slides" style="width: 1000%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-750px, 0, 0);">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<li class="flex-active-slide" style="width: 750px; float: left; display: block;">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<li style="width: 750px; float: left; display: block;">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<li style="width: 750px; float: left; display: block;">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<button type="button" id="cboxPrevious">
+<button type="button" id="cboxNext">
+<button id="cboxSlideshow">
