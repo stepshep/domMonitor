@@ -6,8 +6,8 @@
 <label for="dnf_class_values_communication__primary_constituent__0__prefix_">
 <span class="req-indicator">
 <td class="widgetcol colspan_1 first" colspan="1">
-<input class="input-text" style="width:270px" type="text" id="8e4c8690cb53766fce0a7609daab5355_prefix" name="8e4c8690cb53766fce0a7609daab5355_prefix" value>
-<select style="width:270px;" size="1" onchange="document.getElementById('8e4c8690cb53766fce0a7609daab5355_prefix').value=this.options[this.selectedIndex].innerHTML;this.value='';" name="prefix_textorpick_selectlist" id="prefix_textorpick_selectlist">
+<input class="input-text" style="width:270px" type="text" id="cf777bd3254d06c40df2ee036d743363_prefix" name="cf777bd3254d06c40df2ee036d743363_prefix" value>
+<select style="width:270px;" size="1" onchange="document.getElementById('cf777bd3254d06c40df2ee036d743363_prefix').value=this.options[this.selectedIndex].innerHTML;this.value='';" name="prefix_textorpick_selectlist" id="prefix_textorpick_selectlist">
 <option value>
 <option value="Miss">
 <option value="Mr.">

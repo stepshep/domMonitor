@@ -129,6 +129,6 @@
 <label class="control-label" for="field_4D8403A8-273C-4280-AE1E-3D764FE53D83">
 <strong class="required">
 <textarea class="form-control" name="field_4D8403A8-273C-4280-AE1E-3D764FE53D83" id="field_4D8403A8-273C-4280-AE1E-3D764FE53D83">
-<input type="text" name="captcha_28F3334F-5551-4423-A1B9-B5F136DAB92D" id="captcha_28F3334F-5551-4423-A1B9-B5F136DAB92D">
-<p class="formHint" id="captcha_info">
+<fieldset class="inlineLabels">
+<legend>
 <input class="btn btn-primary" type="submit" value="Submit">

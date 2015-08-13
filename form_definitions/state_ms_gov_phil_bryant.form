@@ -1,2 +1,97 @@
+<header class="container clearfix">
+<h1>
 <form class="searchform" role="search" method="get" id="searchform" action="http://www.governorbryant.com/">
+<label class="screen-reader-text" for="s">
+<input type="text" value name="s" id="s">
+<input type="submit" id="searchsubmit" value="Search">
+<nav class="main sixteen columns">
+<ul class="clearfix sf-menu" id="menu-main_menu_new">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-478">
+<span class="title">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom" id="menu-item-1926">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-477">
+<span class="title">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-801">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-2650">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-802">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-977">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-993">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-1192">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-753">
+<span class="title">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category" id="menu-item-630">
+<span class="title">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-553">
+<span class="title">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-798">
+<li class="menu-item menu-item-type-post_type menu-item-object-page" id="menu-item-800">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8 current_page_item" id="menu-item-479">
+<span class="title">
+<h1>
 <form class="wpcf7-form" action="/contact/#wpcf7-f622-p8-o1" method="post" novalidate="novalidate">
+<label>
+<span class="wpcf7-form-control-wrap your-name">
+<input class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" type="text" name="your-name" value size="40" aria-required="true">
+<label>
+<span class="wpcf7-form-control-wrap your-email">
+<input class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" type="email" name="your-email" value size="40" aria-required="true">
+<label>
+<span class="wpcf7-form-control-wrap your-subject">
+<input class="wpcf7-form-control wpcf7-text" type="text" name="your-subject" value size="40">
+<label>
+<span class="wpcf7-form-control-wrap your-message">
+<textarea class="wpcf7-form-control wpcf7-textarea" name="your-message" cols="40" rows="10">
+<input class="wpcf7-form-control wpcf7-submit" type="submit" value="Send">
+<li class="widget">
+<h3>
+<li class="widget">
+<h3>
+<ul class="really_simple_twitter_widget">
+<span class="rstw_comma">
+<span class="twitter-timestamp" title="2015/08/13 19:18">
+<span class="rstw_comma">
+<span class="twitter-timestamp" title="2015/08/13 18:46">
+<span class="rstw_comma">
+<span class="twitter-timestamp" title="2015/08/11 18:02">
+<span class="rstw_comma">
+<span class="twitter-timestamp" title="2015/08/07 15:28">
+<span class="rstw_comma">
+<span class="twitter-timestamp" title="2015/08/06 21:19">
+<li class="widget">
+<h3>
+<footer>
+<ul class="widgets container unstyled">
+<li class="widget four columns">
+<h5>
+<ul class="menu" id="menu-main_menu_new-1">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-478" id="menu-item-478">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1926" id="menu-item-1926">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-477" id="menu-item-477">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-801" id="menu-item-801">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2650" id="menu-item-2650">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-802" id="menu-item-802">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-977" id="menu-item-977">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-993" id="menu-item-993">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1192" id="menu-item-1192">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-753" id="menu-item-753">
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-630" id="menu-item-630">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-553" id="menu-item-553">
+<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-798" id="menu-item-798">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-800" id="menu-item-800">
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8 current_page_item menu-item-479" id="menu-item-479">
+<li class="widget four columns">
+<h5>
+<li class="widget four columns">
+<h5>
+<h5>
+<li class="widget four columns">
+<h5>
+<p id="socialfooter">
+<p id="socialfooter">
+<p id="socialfooter">

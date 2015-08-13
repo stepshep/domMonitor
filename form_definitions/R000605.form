@@ -1,2 +1,70 @@
+<button class="close" type="button" data-dismiss="modal">
+<span class="sr-only">
+<ul class="nav nav-pills nav-stacked" id="main-nav">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="selected dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="selected dropdown no-descriptions">
+<ul class="dropdown-menu">
+<span class="glyphicon glyphicon-menu-hamburger">
+<span class="menulabel">
+<span class="glyphicon glyphicon-search">
+<ul class="list-inline social-list">
+<span class="socicon socicon-facebook">
+<span class="socicon socicon-twitter">
+<span class="socicon socicon-youtube">
+<span class="glyphicon glyphicon-envelope visible-xs">
 <form class="form-inline" id="sitesearch" role="search" method="get" action="/search">
+<input type="search" id="search-field" name="q" placeholder="SEARCH">
+<button type="submit">
+<ul class="list-inline social-list">
+<span class="socicon socicon-facebook">
+<span class="socicon socicon-twitter">
+<span class="socicon socicon-youtube">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="dropdown no-descriptions">
+<ul class="dropdown-menu">
+<li class="selected dropdown no-descriptions">
+<ul class="dropdown-menu">
+<span class="glyphicon glyphicon-menu-hamburger">
+<span class="menulabel">
 <form class="form-inline" id="sitesearch" role="search" method="get" action="/search">
+<input type="search" id="search-field" name="q" placeholder="SEARCH">
+<button type="submit">
+<span class="name">
+<span class="title">
+<span class="state">
+<script>
+<ol class="list-inline">
+<h1 class="main_page_title">
+<footer class="footer">
+<ul class="list-unstyled list-inline footer-nav">
+<ul class="list-inline social-list">
+<span class="socicon socicon-facebook">
+<span class="socicon socicon-twitter">
+<span class="socicon socicon-youtube">
+<span class="glyphicon glyphicon-envelope visible-xs">
+<footer class="Subfooter">
+<ul class="list-unstyled list-inline footernav">
+<script>
+<script>

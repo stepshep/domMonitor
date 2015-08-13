@@ -66,14 +66,6 @@
 <td style="FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-FAMILY: Arial; TEXT-ALIGN: left">
 <select style="width: 425px;" name="IssueListBox" size="1" id="IssueListBox" tabindex="13" onchange="issueListChange();">
 <option value=" ">
-<option value="32398">
-<option value="31677">
-<option value="31437">
-<option value="31497">
-<option value="31380">
-<option value="31377">
-<option value="31378">
-<option value="31678">
 <tr align="center" width="100%">
 <td style="FONT-WEIGHT: normal; FONT-SIZE: 10pt; FONT-FAMILY: Arial; COLOR: #2a415d; HEIGHT: 15px; text-align: left;" colspan="2">
 <span style="FONT-WEIGHT: normal; FONT-SIZE: 8pt; COLOR: red; FONT-FAMILY: sans-serif; vertical-align: top;">

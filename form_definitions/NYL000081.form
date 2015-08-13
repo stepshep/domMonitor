@@ -1,4 +1,4 @@
-<form method="POST" action="http://assembly.state.ny.us/mem/Kevin-A-Cahill/send_mail">
+<form method="POST" action="http://assembly.state.ny.us/mem/Diana-C-Richardson/send_mail">
 <span class="reqfield">
 <input type="TEXT" name="form_fname" size="20" maxlength="30" tabindex="1">
 <input type="TEXT" name="form_mid" size="5" maxlength="1" tabindex="2">

@@ -1,1 +1,60 @@
 <form method="post" action="frmMain.aspx?pid=sponpage&tab=subject6&id=Norman&stab=01&ys=2015RS&poptype=contact&popid=Norman" id="form1" onsubmit="return ValidateBillNum();">
+<li class="header">
+<table id="bannertable">
+<tbody>
+<td class="bannerright" colspan="3">
+<span id="lblSkipMaster">
+<h1 class="bannerGA">
+<td class="bannerright" rowspan="2">
+<label class="TransparentLable" for="txtSearch" id="lbSearch">
+<input class="searchTextBox" name="ctl00$txtSearch" type="text" value="--Search--" id="txtSearch" accesskey="S" tabindex="5" onkeypress="return event.keyCode != 13;" onfocus="if(this.value=='--Search--'){this.value='';this.style.color='#000';}else{this.select();}">
+<input class="searchButton" type="image" name="ctl00$btnSearch" id="btnSearch" title="Search" src="images/page/searchButton.gif" alt="Click this option to view search based on your search criteria.">
+<td class="wrapper_btnSearchAdvanced" style="width:72px;" rowspan="2">
+<button class="btnSearchAdvanced" onclick="__doPostBack('ctl00$btnSearchAdvanced','')" id="btnSearchAdvanced" title="Search by Session and Document Type">
+<span class="btnSearchAdvancedText">
+<span class="btnSearchAdvancedText">
+<td class="bannerprinter" rowspan="2">
+<li class="header">
+<h1 class="bannerleftup">
+<li id="t-home">
+<li id="t-subject2">
+<li id="t-subject3">
+<li id="t-subject4">
+<li id="t-subject5">
+<li id="t-subject6">
+<li id="t-subject7">
+<li id="t-subject8">
+<li id="t-subject9">
+<input class="closebutton" type="submit" name="ctl00$ctlContactLegislator$cmdContactCancel" value="Close" id="ctlContactLegislator_cmdContactCancel" tabindex="4">
+<table class="Tracking-600">
+<tbody>
+<td colspan="2">
+<h2>
+<span id="ctlContactLegislator_lblContactInfo">
+<td class="style1" colspan="2">
+<span id="ctlContactLegislator_lblLegislators">
+<td class="style1" colspan="2">
+<td class="style1" colspan="2">
+<table class="Tracking-600" id="ctlContactLegislator_tblJSoff">
+<tbody>
+<td colspan="2">
+<span style="color:Red;" id="ctlContactLegislator_lblContactJSoff">
+<table class="sponsorheader">
+<tbody>
+<h2>
+<h4 class="h4right">
+<h3>
+<h4 class="h4right">
+<table id="navSubTab">
+<tbody>
+<span style="color: #000000;background-position:100% -49px;">
+<table class="spco">
+<tbody>
+<th>
+<th>
+<th>
+<th>
+<th>
+<th>
+<h5 style="text-align:right;">
+<script>

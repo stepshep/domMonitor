@@ -1,3 +1,114 @@
+<header class="section section-header" id="section-header">
+<section class="block block-boxes block-boxes-simple cong-sm-icon-medium block-cng-social-media-fa-medium block-boxes-cng-social-media-fa-medium odd" id="block-boxes-cng-social-media-fa-medium">
+<h2 class="block-title">
+<i class="fa fa-3x fa-twitter" title="Visit MaxineWaters on Twitter">
+<i class="fa fa-3x fa-facebook" title="Visit Maxine Waters on Facebook">
+<i class="fa fa-3x fa-youtube" title="Visit MaxineWaters on YouTube">
+<i class="fa fa-3x fa-instagram" title="Visit repmaxinewaters on Instagram">
+<i class="fa fa-3x fa-rss" title="Subscribe to RSS">
+<section class="block block-boxes block-boxes-simple newsletter-signup-simple block-congress-newsletter-signup block-boxes-congress-newsletter-signup odd" id="block-boxes-congress-newsletter-signup">
+<h2 class="block-title">
 <form class="validate wsbform" action="/htbin/formproc/contact/newsletter%26pass" id="newsletter_signup_form" name="newsletter_signup_form">
+<label for="signup-email">
+<input class="form-text" id="signup-email" maxlength="100" name="signup-email" placeholder="subscribe to my newsletter" title="Enter your email address." type="email">
+<input class="form-submit" id="submit" role="button" type="submit" value="Sign Up">
+<section class="block block-boxes block-boxes-simple translate block-ten-waters block-boxes-ten-waters odd" id="block-boxes-ten-waters">
+<h2 class="block-title">
 <form action="/contact" method="post" id="search-block-form" accept-charset="UTF-8">
+<h2 class="element-invisible">
+<label class="element-invisible" for="edit-search-block-form--2">
+<input class="form-control form-text" title="Search" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value size="15" maxlength="128">
+<input class="btn fa-input form-submit" type="submit" id="edit-submit" name="op" value="">
+<h2 class="site-name element-invisible">
+<h6 class="site-slogan element-invisible">
+<section class="block block-boxes block-boxes-simple block-home-button block-boxes-home-button odd" id="block-boxes-home-button">
+<h2 class="block-title">
+<ul class="main-menu sf-menu sf-style-default">
+<li class="first leaf menu-mlid-2575 menu-home">
+<i class="fa fa-home fa-lg">
+<li class="expanded menu-mlid-907 menu-about">
+<ul class="menu">
+<li class="first leaf menu-mlid-3158 remove">
+<li class="leaf menu-mlid-1011">
+<li class="last leaf menu-mlid-1092">
+<li class="expanded menu-mlid-920 menu-legislation">
+<ul class="menu">
+<li class="first last leaf menu-mlid-3333">
+<li class="expanded menu-mlid-909 menu-services">
+<ul class="menu">
+<li class="first leaf menu-mlid-3160 remove">
+<li class="leaf menu-mlid-1047">
+<li class="leaf has-children menu-mlid-2938">
+<li class="leaf menu-mlid-1080">
+<li class="leaf menu-mlid-1084">
+<li class="leaf has-children menu-mlid-1099">
+<li class="leaf menu-mlid-1105">
+<li class="leaf has-children menu-mlid-2744">
+<li class="last leaf has-children menu-mlid-1065">
+<li class="expanded menu-mlid-3157 menu-issues">
+<ul class="menu">
+<li class="first leaf menu-mlid-3161 remove">
+<li class="leaf has-children menu-mlid-2655">
+<li class="leaf menu-mlid-3209">
+<li class="leaf menu-mlid-3175">
+<li class="leaf menu-mlid-3223">
+<li class="leaf menu-mlid-3224">
+<li class="leaf menu-mlid-3225">
+<li class="leaf menu-mlid-3221">
+<li class="leaf menu-mlid-3228">
+<li class="leaf menu-mlid-3227">
+<li class="leaf menu-mlid-3226">
+<li class="leaf menu-mlid-3229">
+<li class="last leaf menu-mlid-3230">
+<li class="expanded menu-mlid-901 menu-media-center">
+<ul class="menu">
+<li class="first leaf menu-mlid-3162 remove">
+<li class="leaf menu-mlid-2723">
+<li class="leaf menu-mlid-3164">
+<li class="leaf menu-mlid-1565">
+<li class="leaf menu-mlid-3166">
+<li class="leaf menu-mlid-3165">
+<li class="leaf menu-mlid-2495">
+<li class="last leaf menu-mlid-1566">
+<li class="last expanded active-trail active menu-mlid-908 menu-contact">
+<ul class="menu">
+<li class="first leaf active-trail active menu-mlid-3163 remove">
+<li class="leaf menu-mlid-1007">
+<li class="leaf has-children menu-mlid-1008">
+<li class="leaf menu-mlid-1368">
+<li class="leaf has-children menu-mlid-2743">
+<li class="last leaf menu-mlid-1013">
+<section class="section section-content" id="section-content">
+<h1 class="title" id="page-title">
+<h1>
 <form class="bootstrap" action="/htbin/formproc_za/zip-auth.txt%26form%3D/contact/email/email-zip-authenticated%26nobase%26fpGetVer%3D2" id="emailForm" method="post" name="emailForm">
+<i class="fa fa-asterisk">
+<label class="control-label" for="required-zip5">
+<input class="form-control" id="required-zip5" maxlength="5" name="required-zip5" pattern="\d{5,5}" required title="5 digit zip code" type="text">
+<label class="control-label" for="zip4">
+<input class="form-control" id="zip4" maxlength="4" name="zip4" pattern="\d{4,4}" title="4 digit extension">
+<button class="btn btn-success" id="submit" type="submit">
+<aside class="grid-7 region region-sidebar-first" id="region-sidebar-first">
+<section class="block block-menu-block block-section-menu block-menu-block-section-menu odd" id="block-menu-block-section-menu">
+<h2 class="block-title">
+<ul class="menu">
+<li class="first leaf active-trail active menu-mlid-3163">
+<li class="leaf menu-mlid-1007">
+<li class="leaf has-children menu-mlid-1008">
+<li class="leaf menu-mlid-1368">
+<li class="leaf has-children menu-mlid-2743">
+<li class="last leaf menu-mlid-1013">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<h3>
+<span class="locality">
+<span class="state">
+<span class="postal-code">
+<footer class="section section-footer" id="section-footer">
+<ul class="menu">
+<li class="first leaf">
+<li class="leaf">
+<li class="leaf">
+<li class="last leaf">

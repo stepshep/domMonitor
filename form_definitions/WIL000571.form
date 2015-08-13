@@ -4,6 +4,15 @@
 <label class="fieldLabel" for="8158dc83-4143-4d5b-8770-f4d298b943ce">
 <input class="text" type="text" name="8158dc83-4143-4d5b-8770-f4d298b943ce" id="8158dc83-4143-4d5b-8770-f4d298b943ce" value maxlength="500" data-val="true" data-val-required="Name is mandatory">
 <span class="field-validation-valid" data-valmsg-for="8158dc83-4143-4d5b-8770-f4d298b943ce" data-valmsg-replace="true">
+<label class="fieldLabel" for="1bd61504-e50f-4d53-af91-fbcdc41168c6">
+<input class="text" type="text" name="1bd61504-e50f-4d53-af91-fbcdc41168c6" id="1bd61504-e50f-4d53-af91-fbcdc41168c6" value maxlength="500" data-val="true" data-val-required="Address is mandatory">
+<span class="field-validation-valid" data-valmsg-for="1bd61504-e50f-4d53-af91-fbcdc41168c6" data-valmsg-replace="true">
+<label class="fieldLabel" for="b6e9f6ae-32b0-4a92-a53c-54ecac3f385b">
+<input class="text" type="text" name="b6e9f6ae-32b0-4a92-a53c-54ecac3f385b" id="b6e9f6ae-32b0-4a92-a53c-54ecac3f385b" value maxlength="500" data-val="true" data-val-required="City is mandatory">
+<span class="field-validation-valid" data-valmsg-for="b6e9f6ae-32b0-4a92-a53c-54ecac3f385b" data-valmsg-replace="true">
+<label class="fieldLabel" for="b60256a7-3262-4035-abc9-f206c440a65e">
+<input class="text" type="tel" name="b60256a7-3262-4035-abc9-f206c440a65e" id="b60256a7-3262-4035-abc9-f206c440a65e" data-rule-phoneus="true" pattern="[\(]?\d{3}[\)]?[\-. ]?\d{3}[\-. ]?\d{4}" value maxlength="500" data-val="true" required data-val-required="Phone Number is mandatory" title="Phone Number is not valid">
+<span class="field-validation-valid" data-valmsg-for="b60256a7-3262-4035-abc9-f206c440a65e" data-valmsg-replace="true">
 <label class="fieldLabel" for="f52f77ed-db9a-4e02-b619-77ea64543f39">
 <input class="text" type="text" name="f52f77ed-db9a-4e02-b619-77ea64543f39" id="f52f77ed-db9a-4e02-b619-77ea64543f39" value maxlength="500" data-val="true" data-val-required="Email is mandatory">
 <span class="field-validation-valid" data-valmsg-for="f52f77ed-db9a-4e02-b619-77ea64543f39" data-valmsg-replace="true">
