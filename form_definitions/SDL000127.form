@@ -1,4 +1,4 @@
-<form method="post" action="LegislatorEmail.aspx?MemberID=797&Session=2015" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<form method="post" action="LegislatorEmail.aspx?MemberID=797&Session=2015" id="form1">
 <header>
 <span id="sdleg">
 <span id="lrctext">

@@ -6,27 +6,27 @@
 <tbody>
 <small>
 <input name="required-prefix" type="text" size="3" maxlength="90">
-<td class="parent-active">
-<input class="text-active" name="required-first" type="text" size="12" maxlength="90">
+<td class="">
+<input class="" name="required-first" type="text" size="12" maxlength="90">
 <input name="middle" type="text" size="2" maxlength="90">
-<td class="parent-active">
-<input class="text-active" name="required-last" type="text" size="15" maxlength="90">
+<td class="">
+<input class="" name="required-last" type="text" size="15" maxlength="90">
 <input name="suffix" type="text" size="5" maxlength="90">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" name="required-address" type="text" size="60" maxlength="190">
+<td class="">
+<input class="" name="required-address" type="text" size="60" maxlength="190">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" name="required-city" type="text" maxlength="45">
+<td class="">
+<input class="" name="required-city" type="text" maxlength="45">
 <select name="required-state">
 <option selected="selected" value="MI">
-<input class="text-active" name="zip5" onkeydown="f(this)" onkeyup="f(this)" type="text" size="5" maxlength="5">
-<input class="text-active" name="zip4" onkeydown="f(this)" onkeyup="f(this)" type="text" size="4" maxlength="4">
+<input class="" name="zip5" onkeydown="f(this)" onkeyup="f(this)" type="text" size="5" maxlength="5">
+<input class="" name="zip4" onkeydown="f(this)" onkeyup="f(this)" type="text" size="4" maxlength="4">
 <td align="right">
 <input name="phone" type="text" size="60" maxlength="100">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" name="required-email" type="text" size="60" maxlength="100">
+<td class="">
+<input class="" name="required-email" type="text" size="60" maxlength="100">
 <td align="right">
 <select name="required-issue" size="1">
 <option selected="selected">
@@ -48,8 +48,8 @@
 <option value="CT">
 <option value="VA">
 <td align="right" valign="top">
-<td class="parent-active">
-<textarea class="text-active" name="required-message" rows="15" cols="60">
+<td class="">
+<textarea class="" name="required-message" rows="15" cols="60">
 <td align="right" valign="top">
 <input name="subscribe" type="checkbox" value="subscribe">
 <td colspan="2">

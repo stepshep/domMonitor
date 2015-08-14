@@ -1,4 +1,4 @@
-<form name="form1" method="post" action="H043.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<form name="form1" method="post" action="H043.aspx" id="form1">
 <center>
 <center>
 <h3>

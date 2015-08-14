@@ -1,4 +1,4 @@
-<form method="post" action="contact.aspx?websiteid=26" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'bSubmit')" id="form1">
+<form method="post" action="contact.aspx?websiteid=26" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'bSubmit')" id="form1">
 <table>
 <tbody>
 <table style="padding:10px;" id="decorated">

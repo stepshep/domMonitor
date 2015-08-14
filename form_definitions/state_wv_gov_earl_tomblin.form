@@ -1,4 +1,4 @@
-<form name="aspnetForm" method="post" action="SubmitaCommenttotheGovernor.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<form name="aspnetForm" method="post" action="SubmitaCommenttotheGovernor.aspx" id="aspnetForm">
 <noscript>
 <input class="GoogleSearchTextBox" onclick="javascript:SearchClear(this);" onkeypress="javascript:OverrrideForms(this);" type="text" id="GoogleSearch" value="Search governor.wv.gov" size="25" >
 <input class="searchBtn" name="btnG" onclick="javascript:SearchGoogleAlternate();return false;" type="submit" value alt="Search" align="top" >

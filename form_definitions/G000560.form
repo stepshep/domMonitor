@@ -1,4 +1,4 @@
-<form method="post" action="?zip5=30161&zip4=3149" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<form method="post" action="?zip5=30161&zip4=3149" id="aspnetForm">
 <span class="pageHeader">
 <span style>
 <fieldset>
@@ -198,8 +198,8 @@
 <label for="ctl00_ctl18_ReplyChoice_1">
 <label for="ctl00_ctl18_Subject">
 <span class="header">
-<input style="width:30em;" name="ctl00$ctl18$Subject" type="text" id="ctl00_ctl18_Subject" >
+<input name="ctl00$ctl18$Subject" type="text" id="ctl00_ctl18_Subject" >
 <label for="ctl00_ctl18_Body">
 <span class="header">
-<textarea style="width:30em;" name="ctl00$ctl18$Body" rows="15" cols="20" id="ctl00_ctl18_Body">
+<textarea name="ctl00$ctl18$Body" rows="15" cols="20" id="ctl00_ctl18_Body">
 <input class="ContactForm_Submit" type="submit" name="ctl00$ctl18$SubmitButton" value="Submit" onclick='if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ctl18$SubmitButton", "", true, "", "", false, false))' id="ctl00_ctl18_SubmitButton" >

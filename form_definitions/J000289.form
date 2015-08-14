@@ -6,32 +6,32 @@
 <table cellspacing="0" cellpadding="0">
 <tbody>
 <small>
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="90" size="10" name="required-prefix">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="90" size="12" name="required-first">
+<td class="">
+<input class="" type="text" maxlength="90" size="10" name="required-prefix">
+<td class="">
+<input class="" type="text" maxlength="90" size="12" name="required-first">
 <input type="text" maxlength="90" size="8" name="middle">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="90" size="15" name="required-last">
+<td class="">
+<input class="" type="text" maxlength="90" size="15" name="required-last">
 <input type="text" maxlength="90" size="10" name="suffix">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="190" size="60" name="required-address">
+<td class="">
+<input class="" type="text" maxlength="190" size="60" name="required-address">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="45" name="required-city">
+<td class="">
+<input class="" type="text" maxlength="45" name="required-city">
 <select name="required-state">
 <option selected="true">
-<input class="text-active" type="text" maxlength="5" size="5" name="zip5">
-<input class="text-active" type="text" maxlength="4" size="4" name="zip4">
+<input class="" type="text" maxlength="5" size="5" name="zip5">
+<input class="" type="text" maxlength="4" size="4" name="zip4">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="100" size="60" name="phone">
+<td class="">
+<input class="" type="text" maxlength="100" size="60" name="phone">
 <td align="right">
 <input type="text" maxlength="100" size="60" name="cell">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="100" size="60" name="required-email">
+<td class="">
+<input class="" type="text" maxlength="100" size="60" name="required-email">
 <td align="right">
 <select size="1" name="required-issue">
 <option>
@@ -62,8 +62,8 @@
 <option value="VET">
 <option value="GEN">
 <td valign="top" align="right">
-<td class="parent-active">
-<textarea class="text-active" name="required-message" rows="15" cols="60">
+<td class="">
+<textarea class="" name="required-message" rows="15" cols="60">
 <input type="radio" name="affl1" value="yes" id="subscribe">
 <label for="subscribe">
 <input type="radio" name="affl1" value="no" id="unsubscribe">

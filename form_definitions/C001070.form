@@ -272,8 +272,7 @@
 <legend>
 <label for="subject">
 <abbr title="Please enter a message topic for your message">
-<select class="span12 required" id="subject" name="subject" ">
-<option label="- - Select an Issue - -" value selected="selected">
+<select class="span12 required" id="subject" name="subject" <option label="- - Select an Issue - -" value selected="selected">
 <option label="Abortion and Family Planning" value="Abortion">
 <option label="Aging" value="Aging">
 <option label="Animals" value="Agriculture">

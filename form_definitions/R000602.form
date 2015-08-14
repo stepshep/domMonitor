@@ -4,13 +4,13 @@
 <td align="right">
 <table cellspacing="0" cellpadding="0">
 <tbody>
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="90" size="5" name="required-prefix" required="required">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="90" size="12" name="required-first" required="required">
+<td class="">
+<input class="" type="text" maxlength="90" size="5" name="required-prefix" required="required">
+<td class="">
+<input class="" type="text" maxlength="90" size="12" name="required-first" required="required">
 <input type="text" maxlength="90" size="2" name="middle">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="90" size="15" name="required-last" required="required">
+<td class="">
+<input class="" type="text" maxlength="90" size="15" name="required-last" required="required">
 <select name="suffix">
 <option>
 <option value="Jr.">
@@ -24,21 +24,21 @@
 <option value="JD">
 <option value="DVM">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="190" size="60" name="required-address" required="required">
+<td class="">
+<input class="" type="text" maxlength="190" size="60" name="required-address" required="required">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="45" name="required-city" required="required">
+<td class="">
+<input class="" type="text" maxlength="45" name="required-city" required="required">
 <select name="required-state" required="required">
 <option selected="true" value="NY">
-<input class="text-active" type="text" size="5" name="zip5" required="required">
-<input class="text-active" type="text" maxlength="4" size="4" name="zip4">
+<input class="" type="text" size="5" name="zip5" required="required">
+<input class="" type="text" maxlength="4" size="4" name="zip4">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="email" maxlength="100" size="60" name="required-email" required="required">
+<td class="">
+<input class="" type="email" maxlength="100" size="60" name="required-email" required="required">
 <td align="right">
-<td class="parent-active">
-<input class="text-active" type="text" maxlength="100" size="15" name="phone">
+<td class="">
+<input class="" type="text" maxlength="100" size="15" name="phone">
 <td align="right">
 <select name="required-issue" size="1" id="subject">
 <option>
@@ -65,8 +65,8 @@
 <option value="WEBWEL">
 <option value="WEBOTH">
 <td align="right" valign="top">
-<td class="parent-active">
-<textarea class="text-active" rows="15" cols="60" name="required-message" required="required">
+<td class="">
+<textarea class="" rows="15" cols="60" name="required-message" required="required">
 <td align="right" valign="top">
 <input type="checkbox" value="subscribe" name="subscribe">
 <i>

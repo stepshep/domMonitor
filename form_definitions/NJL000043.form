@@ -1,708 +1,429 @@
-<table width="100%" border="0" cellspacing="0">
-<tbody>
-<td rowspan="2" width="8%">
-<td rowspan="2" height="41" width="37%" valign="center">
-<td colspan="2" height="41" align="right" valign="top">
-<form id="jump" name="jump" action="redirect.asp" method="post">
-<table width="75%" border="0" cellspacing="0" cellpadding="0" height="30">
-<tbody>
-<td valign="bottom" bgcolor="#fede7e" width="48%">
-<td bgcolor="#fede7e" width="45%" valign="top">
-<select style="FONT-SIZE: xx-small; FONT-FAMILY: arial" name="menu" language="javascript" onchange="return menu_onchange()">
-<option selected>
-<option value="http://www.app.com/">
-<option value="http://www.pressofatlanticcity.com">
-<option value="http://www.northjersey.com/">
-<option value="http://www.phillyburbs.com/burlingtoncountytimes/">
-<option value="http://www.c-n.com">
-<option value="http://www.courierpostonline.com">
-<option value="http://www.dailyrecord.com">
-<option value="http://www.thnt.com/">
-<option value="http://www.njherald.com">
-<option value="http://www.nytimes.com">
-<option value="http://www.nytimes.com/yr/mo/day/front/">
-<option value="http://www.philly.com/mld/inquirer">
-<option value="http://www.pacpub.com">
-<option value="http://www.nj.com/starledger/">
-<option value="http://www.nj.com/times/">
-<option value="http://www.nj.com/archive/index.ssf?archive/times.html">
-<option value="http://www.trentonian.com">
-<td width="7%" valign="top" bgcolor="#fede7e">
-<td width="51%" valign="baseline">
-<td width="4%">
-<tr bgcolor="#fede7e">
-<td colspan="4" height="18">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<tr bgcolor="#230069">
-<td colspan="4" height="31">
-<table width="100%" border="0" bordercolor="#230069" cellspacing="2" cellpadding="1" height="100%" bgcolor="#230069">
-<tbody>
-<tr bgcolor="#230069">
-<td width="1%" height="31">
-<td width="9%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="12%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="13%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="7%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="8%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="9%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="12%" height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#ffffff">
-<b>
-<td width="6%" height="31">
-<table width="100%" border="0" cellpadding="0" cellspacing="0" height="1018">
-<tbody>
-<td rowspan="4" width="1">
-<td height="40" width="128">
-<td height="40" width="11">
-<td height="40" colspan="2" width="848">
-<td rowspan="4" valign="top" width="128">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<b>
-<b>
-<b>
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<b>
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<b>
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<b>
-<b>
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<font size="1" face="Verdana, Arial, Helvetica, sans-serif">
-<b>
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<b>
-<font face="Arial, Helvetica, sans-serif" color="#333300" size="1">
-<b>
-<b>
-<b>
-<b>
-<b>
-<td valign="top" rowspan="4" align="right" width="11">
-<td valign="top" colspan="2" height="850">
-<table border="0" width="100%" height="51">
-<tbody>
-<td align="left" height="53">
-<b>
-<form name="forminfo" id="forminfo" method="Post" action="SelectMun.asp">
-<table border="0" bgcolor="#fede7e" align="center" width="450" height="50">
+<form name="forminfo" id="forminfo" method="Post" action="RepEmail.asp">
+<table border="0" bgcolor="#fede7e" align="center" width="585" height="544">
 <tbody>
 <td align="center" colspan="2">
+<font size="2" color="000000" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font size="2" color="#003366" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<font size="1" color="#003366" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<select style="WIDTH: 300px; FONT-SIZE: xx-small" id="SubjectDD" name="SubjectDD" value>
+<option value>
+<option value="ABORTION">
+<option value="AGRICULTURE">
+<option value="AGRICULTURE - FARMLAND PRESERVATION">
+<option value="ALCOHOLIC BEVERAGES">
+<option value="ANIMALS">
+<option value="ANIMALS - CONTROL AND LICENSING">
+<option value="ANIMALS - CRUELTY AND WELFARE">
+<option value="ARTS AND CULTURE">
+<option value="AUTHORITIES - INTERSTATE">
+<option value="AUTHORITIES - LOCAL">
+<option value="AUTHORITIES - STATE AND REGIONAL">
+<option value="AVIATION">
+<option value="BANKING AND FINANCE">
+<option value="BANKING AND FINANCE - CONSUMER FINANCE">
+<option value="BOATS AND BOAT SAFETY">
+<option value="BONDS">
+<option value="CHARITIES AND NON PROFIT ORGANIZATIONS">
+<option value="CHILD SUPPORT">
+<option value="CHILDREN">
+<option value="CHILDREN - ADOPTION">
+<option value="CHILDREN - CHILD ABUSE">
+<option value="CIVIL ACTIONS">
+<option value="CIVIL ACTIONS - CHARITABLE IMMUNITY">
+<option value="CIVIL ACTIONS - PERSONAL INJURY">
+<option value="CIVIL RIGHTS">
+<option value="CIVIL SERVICE">
+<option value="COMMEMORATIONS">
+<option value="COMMERCE">
+<option value="COMMISSIONS">
+<option value="COMMUNICATIONS">
+<option value="COMMUNICATIONS - CONSUMER RIGHTS AND PRIVACY">
+<option value="COMMUNICATIONS - INTERNET REGULATION">
+<option value="COMMUNICATIONS - TELEPHONE">
+<option value="COMMUNICATIONS - TELEVISION">
+<option value="COMMUNITY DEVELOPMENT">
+<option value="CONSTITUTIONAL AMENDMENTS">
+<option value="CONSUMER AFFAIRS">
+<option value="CONSUMER AFFAIRS - CONSUMER PROTECTION">
+<option value="CONSUMER AFFAIRS - PRODUCT SAFETY">
+<option value="CORPORATIONS">
+<option value="CORRECTIONS">
+<option value="CRIME VICTIMS">
+<option value="CRIMES AND PENALTIES">
+<option value="CRIMINAL PROCEDURES">
+<option value="DOMESTIC RELATIONS">
+<option value="DOMESTIC RELATIONS - CHILD CUSTODY AND VISITATION">
+<option value="DOMESTIC RELATIONS - DIVORCE, ALIMONY AND SPOUSAL SUPPORT">
+<option value="DOMESTIC RELATIONS - MARRIAGE AND CIVIL UNIONS">
+<option value="DOMESTIC VIOLENCE">
+<option value="ECONOMIC DEVELOPMENT - INTERNATIONAL, STATE AND REGIONAL">
+<option value="EDUCATION">
+<option value="EDUCATION - CURRICULA">
+<option value="EDUCATION - FINANCE">
+<option value="EDUCATION - HEALTH">
+<option value="EDUCATION - SCHOOL BOARDS AND DISTRICTS">
+<option value="EDUCATION - SCHOOL FACILITIES">
+<option value="EDUCATION - SCHOOL TRANSPORTATION">
+<option value="EDUCATION - TEACHERS AND SCHOOL EMPLOYEES">
+<option value="ELECTIONS">
+<option value="ELECTIONS - CAMPAIGN FINANCE">
+<option value="ENERGY">
+<option value="ENERGY - CONSERVATION">
+<option value="ENVIRONMENT">
+<option value="ENVIRONMENT - AIR, NOISE AND WATER POLLUTION">
+<option value="ENVIRONMENT - BEACHES AND SHORES">
+<option value="ENVIRONMENT - FISH AND WILDLIFE">
+<option value="ENVIRONMENT - FLOODING, DAMS AND LAKES">
+<option value="ENVIRONMENT - HAZARDOUS AND TOXIC SUBSTANCES">
+<option value="ENVIRONMENT - HIGHLANDS AND PINELANDS">
+<option value="ENVIRONMENT - PARKS, FORESTS AND OPEN SPACE">
+<option value="ENVIRONMENT - SITE REMEDIATION AND BROWNFIELDS">
+<option value="ENVIRONMENT - SOLID WASTE AND RECYCLING">
+<option value="ENVIRONMENT - WASTEWATER AND STORMWATER">
+<option value="ENVIRONMENT - WATER SUPPLY">
+<option value="ETHICS">
+<option value="ETHICS - LOCAL ETHICS">
+<option value="FEDERAL RELATIONS">
+<option value="FEDERAL RELATIONS - MEMORIALIZATIONS">
+<option value="FOOD">
+<option value="GAMBLING">
+<option value="GAMBLING - CASINOS">
+<option value="GAMBLING - HORSE RACING">
+<option value="GAMBLING - LOTTERIES">
+<option value="GOVERNOR">
+<option value="HEALTH">
+<option value="HEALTH - DISEASE">
+<option value="HEALTH - EMERGENCY MEDICAL SERVICES">
+<option value="HEALTH - FACILITIES">
+<option value="HEALTH - FINANCE">
+<option value="HEALTH - PAAD AND SENIOR GOLD">
+<option value="HEALTH - PHARMACEUTICALS">
+<option value="HEALTH - PROFESSIONALS">
+<option value="HIGHER EDUCATION">
+<option value="HISTORIC PRESERVATION">
+<option value="HOUSING">
+<option value="HOUSING - AFFORDABLE HOUSING">
+<option value="HOUSING - CONDOMINIUMS, COOPERATIVES AND MOBILE HOMES">
+<option value="HOUSING - CONSTRUCTION CODES">
+<option value="HOUSING - FINANCE">
+<option value="HOUSING - HOTELS AND MULTIPLE DWELLINGS">
+<option value="HOUSING - LANDLORD AND TENANT">
+<option value="HUMAN SERVICES">
+<option value="HUMAN SERVICES - DEVELOPMENTAL DISABILITIES">
+<option value="HUMAN SERVICES - DISABLED">
+<option value="HUMAN SERVICES - DRUG AND ALCOHOL ABUSE">
+<option value="HUMAN SERVICES - MEDICAID AND MEDICARE">
+<option value="HUMAN SERVICES - MENTAL HEALTH">
+<option value="HUMAN SERVICES - PUBLIC ASSISTANCE">
+<option value="INITIATIVE AND REFERENDUM">
+<option value="INSURANCE">
+<option value="INSURANCE - AUTOMOBILE INSURANCE">
+<option value="INSURANCE - HEALTH INSURANCE">
+<option value="INTERNATIONAL AFFAIRS">
+<option value="INTERSTATE RELATIONS">
+<option value="JUDICIARY">
+<option value="JUDICIARY - COURT ADMINISTRATION">
+<option value="JUDICIARY - JUDGES">
+<option value="JUVENILE JUSTICE">
+<option value="LABOR">
+<option value="LABOR - TEMPORARY DISABILITY">
+<option value="LABOR - UNEMPLOYMENT COMPENSATION">
+<option value="LABOR - WAGES AND BENEFITS">
+<option value="LABOR - WORKERS COMPENSATION">
+<option value="LAND USE, PLANNING AND ZONING">
+<option value="LEGISLATURE">
+<option value="LIBRARIES">
+<option value="LOBBYING">
+<option value="LOCAL BUDGET AND FINANCE">
+<option value="LOCAL GOVERNMENT">
+<option value="LOCAL GOVERNMENT - COUNTIES">
+<option value="LOCAL GOVERNMENT - INSURANCE PLANS">
+<option value="LOCAL GOVERNMENT - MUNICIPALITIES">
+<option value="LOCAL GOVERNMENT - STATE AID">
+<option value="LOCAL OFFICERS AND EMPLOYEES">
+<option value="MINORITY AND ETHNIC AFFAIRS">
+<option value="MOTOR VEHICLES">
+<option value="MOTOR VEHICLES - COMMERCIAL">
+<option value="MOTOR VEHICLES - DUI">
+<option value="MOTOR VEHICLES - OFFENSES">
+<option value="MOTOR VEHICLES - REGULATION">
+<option value="MOTOR VEHICLES - TRAFFIC SAFETY">
+<option value="NEW JERSEY - HISTORY AND SYMBOLS">
+<option value="PAROLE">
+<option value="PENSIONS">
+<option value="PENSIONS - POLICE AND FIREFIGHTERS">
+<option value="PENSIONS - PUBLIC EMPLOYEES">
+<option value="PENSIONS - TEACHERS">
+<option value="PROBATION">
+<option value="PROPERTY">
+<option value="PROPERTY - EMINENT DOMAIN">
+<option value="PROPERTY - LOCAL">
+<option value="PROPERTY - PUBLIC">
+<option value="PROSECUTORS">
+<option value="PUBLIC ADVOCATE">
+<option value="PUBLIC CONTRACTS - DISCLOSURES">
+<option value="PUBLIC CONTRACTS - LOCAL">
+<option value="PUBLIC CONTRACTS - STATE">
+<option value="PUBLIC EMPLOYEES">
+<option value="PUBLIC EMPLOYEES - BENEFITS">
+<option value="PUBLIC FEES">
+<option value="PUBLIC RECORDS, NOTICE AND MEETINGS">
+<option value="PUBLIC SAFETY">
+<option value="PUBLIC SAFETY - EMERGENCY MANAGEMENT">
+<option value="PUBLIC SAFETY - FIREFIGHTERS">
+<option value="PUBLIC SAFETY - HOMELAND SECURITY">
+<option value="PUBLIC SAFETY - POLICE">
+<option value="PUBLIC SAFETY - SEX OFFENDERS">
+<option value="PUBLIC SAFETY - WEAPONS">
+<option value="PUBLIC UTILITIES">
+<option value="REGULATED PROFESSIONS">
+<option value="REGULATORY OVERSIGHT">
+<option value="SCIENCE AND TECHNOLOGY">
+<option value="SENIOR CITIZENS">
+<option value="SMOKING AND TOBACCO">
+<option value="SPECIAL LEGISLATION">
+<option value="SPORTS AND RECREATION">
+<option value="STATE BUDGET AND FINANCE">
+<option value="STATE BUDGET AND FINANCE - SUPPLEMENTAL APPROPRIATIONS">
+<option value="STATE GOVERNMENT">
+<option value="STATE GOVERNMENT - DEPARTMENTS AND AGENCIES">
+<option value="STATE GOVERNMENT - OFFICERS AND EMPLOYEES">
+<option value="TAXATION">
+<option value="TAXATION - ALCOHOL, GASOLINE AND TOBACCO TAXES">
+<option value="TAXATION - BUSINESS TAXES">
+<option value="TAXATION - PERSONAL INCOME TAX">
+<option value="TAXATION - PROPERTY TAX">
+<option value="TAXATION - PUBLIC UTILITIES TAX">
+<option value="TAXATION - SALES TAX">
+<option value="TRANSPORTATION">
+<option value="TRANSPORTATION - FREIGHT RAIL">
+<option value="TRANSPORTATION - HIGHWAYS, ROADS AND BRIDGES">
+<option value="TRANSPORTATION - PLANNING, FINANCE AND ECONOMIC DEVELOPMENT">
+<option value="TRANSPORTATION - PUBLIC TRANSIT">
+<option value="VETERANS AND MILITARY">
+<option value="WILLS, TRUSTS AND ESTATES">
+<option value="WOMEN">
+<font size="2">
+<label>
+<input id="CheckBxSubject" color="#003366" type="checkbox" name="CheckBxSubject" value="off" onclick="return CheckBxSubject_onclick(this)">
+<font size="2" color="000000" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font size="2" color="#003366" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<font size="2" color="#003366" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<select name="Prefix" maxlength="15">
+<option value>
+<option value="Captain">
+<option value="Chief">
+<option value="Commissioner">
+<option value="Councilman">
+<option value="Councilwoman">
+<option value="Dame">
+<option value="Doctor">
+<option value="Dr.">
+<option value="Dr. and Mr.">
+<option value="Dr. and Mrs.">
+<option value="Father">
+<option value="Friend">
+<option value="Friends">
+<option value="Miss">
+<option value="Monsignor">
+<option value="Mr.">
+<option value="Mr. and Mrs.">
+<option value="Mrs.">
+<option value="Ms.">
+<option value="Pastor">
+<option value="Rabbi">
+<option value="Rev.">
+<option value="Reverend">
+<option value="Sir">
+<option value="Sister">
+<option value="The Honorable">
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<label>
+<input name="FirstName" maxlength="25" size="17">
 <font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
 <b>
 <label>
-<td align="center">
-<select style="WIDTH: 240px; FONT-VARIANT: small-caps" id="DistrictDD" name="DistrictDD">
-<option value>
-<option value="13Aberdeen">
-<option value="2Absecon">
-<option value="23Alexandria">
-<option value="24Allamuchy">
-<option value="40Allendale">
-<option value="11Allenhurst">
-<option value="12Allentown">
-<option value="3Alloway">
-<option value="23Alpha">
-<option value="37Alpine">
-<option value="24Andover Borough">
-<option value="24Andover Township">
-<option value="11Asbury Park">
-<option value="2Atlantic City">
-<option value="13Atlantic Highlands">
-<option value="5Audubon">
-<option value="5Audubon Park">
-<option value="1Avalon">
-<option value="30Avon-by-the-Sea">
-<option value="9Barnegat">
-<option value="9Barnegat Light">
-<option value="5Barrington">
-<option value="9Bass River">
-<option value="10Bay Head">
-<option value="31Bayonne">
-<option value="9Beach Haven">
-<option value="9Beachwood">
-<option value="23Bedminster">
-<option value="29Belleville">
-<option value="5Bellmawr">
-<option value="30Belmar">
-<option value="24Belvidere">
-<option value="38Bergenfield">
-<option value="9Berkeley">
-<option value="21Berkeley Heights">
-<option value="8Berlin Borough">
-<option value="6Berlin Township">
-<option value="21Bernards">
-<option value="25Bernardsville">
-<option value="23Bethlehem">
-<option value="7Beverly">
-<option value="24Blairstown">
-<option value="28Bloomfield">
-<option value="39Bloomingdale">
-<option value="23Bloomsbury">
-<option value="37Bogota">
-<option value="25Boonton">
-<option value="25Boonton Township">
-<option value="7Bordentown">
-<option value="7Bordentown Township">
-<option value="23Bound Brook">
-<option value="30Bradley Beach">
-<option value="16Branchburg">
-<option value="24Branchville">
-<option value="10Brick">
-<option value="3Bridgeton">
-<option value="23Bridgewater">
-<option value="30Brielle">
-<option value="2Brigantine">
-<option value="5Brooklawn">
-<option value="2Buena">
-<option value="2Buena Vista">
-<option value="7Burlington">
-<option value="7Burlington Township">
-<option value="26Butler">
-<option value="24Byram">
-<option value="27Caldwell">
-<option value="23Califon">
-<option value="5Camden">
-<option value="1Cape May">
-<option value="1Cape May Point">
-<option value="36Carlstadt">
-<option value="3Carneys Point">
-<option value="19Carteret">
-<option value="40Cedar Grove">
-<option value="21Chatham Borough">
-<option value="27Chatham Township">
-<option value="6Cherry Hill">
-<option value="4Chesilhurst">
-<option value="25Chester Borough">
-<option value="25Chester Township">
-<option value="12Chesterfield">
-<option value="7Cinnaminson">
-<option value="22Clark">
-<option value="3Clayton">
-<option value="4Clementon">
-<option value="36Cliffside Park">
-<option value="34Clifton">
-<option value="23Clinton">
-<option value="23Clinton Township">
-<option value="39Closter">
-<option value="6Collingswood">
-<option value="11Colts Neck">
-<option value="1Commercial">
-<option value="1Corbin City">
-<option value="14Cranbury">
-<option value="21Cranford">
-<option value="37Cresskill">
-<option value="11Deal">
-<option value="3Deerfield">
-<option value="7Delanco">
-<option value="16Delaware">
-<option value="7Delran">
-<option value="39Demarest">
-<option value="1Dennis">
-<option value="25Denville">
-<option value="5Deptford">
-<option value="25Dover">
-<option value="1Downe">
-<option value="39Dumont">
-<option value="22Dunellen">
-<option value="9Eagleswood">
-<option value="15East Amwell">
-<option value="18East Brunswick">
-<option value="3East Greenwich">
-<option value="27East Hanover">
-<option value="32East Newark">
-<option value="34East Orange">
-<option value="36East Rutherford">
-<option value="14East Windsor">
-<option value="8Eastampton">
-<option value="11Eatontown">
-<option value="32Edgewater">
-<option value="7Edgewater Park">
-<option value="18Edison">
-<option value="2Egg Harbor City">
-<option value="2Egg Harbor Township">
-<option value="20Elizabeth">
-<option value="3Elk">
-<option value="3Elmer">
-<option value="35Elmwood Park">
-<option value="3Elsinboro">
-<option value="39Emerson">
-<option value="37Englewood">
-<option value="37Englewood Cliffs">
-<option value="12Englishtown">
-<option value="27Essex Fells">
-<option value="1Estell Manor">
-<option value="8Evesham">
-<option value="15Ewing">
-<option value="13Fair Haven">
-<option value="38Fair Lawn">
-<option value="1Fairfield (Cumberland)">
-<option value="26Fairfield (Essex)">
-<option value="32Fairview">
-<option value="22Fanwood">
-<option value="21Far Hills">
-<option value="30Farmingdale">
-<option value="7Fieldsboro">
-<option value="16Flemington">
-<option value="7Florence">
-<option value="27Florham Park">
-<option value="2Folsom">
-<option value="37Fort Lee">
-<option value="24Frankford">
-<option value="3Franklin (Gloucester)">
-<option value="23Franklin (Hunterdon)">
-<option value="17Franklin (Somerset)">
-<option value="24Franklin (Sussex)">
-<option value="23Franklin (Warren)">
-<option value="40Franklin Lakes">
-<option value="24Fredon">
-<option value="11Freehold Borough">
-<option value="11Freehold Township">
-<option value="24Frelinghuysen">
-<option value="23Frenchtown">
-<option value="9Galloway">
-<option value="35Garfield">
-<option value="21Garwood">
-<option value="6Gibbsboro">
-<option value="3Glassboro">
-<option value="23Glen Gardner">
-<option value="28Glen Ridge">
-<option value="38Glen Rock">
-<option value="5Gloucester City">
-<option value="4Gloucester Township">
-<option value="24Green">
-<option value="22Green Brook">
-<option value="1Greenwich (Cumberland)">
-<option value="3Greenwich (Gloucester)">
-<option value="23Greenwich (Warren)">
-<option value="32Guttenberg">
-<option value="37Hackensack">
-<option value="23Hackettstown">
-<option value="6Haddon">
-<option value="5Haddon Heights">
-<option value="6Haddonfield">
-<option value="8Hainesport">
-<option value="35Haledon">
-<option value="24Hamburg">
-<option value="2Hamilton (Atlantic)">
-<option value="14Hamilton (Mercer)">
-<option value="8Hammonton">
-<option value="23Hampton (Hunterdon)">
-<option value="24Hampton (Sussex)">
-<option value="27Hanover">
-<option value="27Harding">
-<option value="24Hardwick">
-<option value="24Hardyston">
-<option value="23Harmony">
-<option value="39Harrington Park">
-<option value="5Harrison (Gloucester)">
-<option value="32Harrison (Hudson)">
-<option value="9Harvey Cedars">
-<option value="38Hasbrouck Heights">
-<option value="39Haworth">
-<option value="38Hawthorne">
-<option value="13Hazlet">
-<option value="18Helmetta">
-<option value="6Hi-Nella">
-<option value="23High Bridge">
-<option value="18Highland Park">
-<option value="13Highlands">
-<option value="14Hightstown">
-<option value="16Hillsborough">
-<option value="39Hillsdale">
-<option value="20Hillside">
-<option value="40Ho-Ho-Kus">
-<option value="33Hoboken">
-<option value="23Holland">
-<option value="13Holmdel">
-<option value="24Hopatcong">
-<option value="24Hope">
-<option value="1Hopewell (Cumberland)">
-<option value="15Hopewell Borough (Mercer)">
-<option value="15Hopewell Township (Mercer)">
-<option value="30Howell">
-<option value="24Independence">
-<option value="11Interlaken">
-<option value="28Irvington">
-<option value="10Island Heights">
-<option value="12Jackson">
-<option value="14Jamesburg">
-<option value="26Jefferson">
-<option value="31Jersey City">
-<option value="33Jersey City">
-<option value="13Keansburg">
-<option value="32Kearny">
-<option value="21Kenilworth">
-<option value="13Keyport">
-<option value="23Kingwood">
-<option value="26Kinnelon">
-<option value="24Knowlton">
-<option value="9Lacey">
-<option value="24Lafayette">
-<option value="30Lake Como">
-<option value="10Lakehurst">
-<option value="30Lakewood">
-<option value="15Lambertville">
-<option value="4Laurel Springs">
-<option value="10Lavallette">
-<option value="5Lawnside">
-<option value="1Lawrence (Cumberland)">
-<option value="15Lawrence (Mercer)">
-<option value="23Lebanon Borough">
-<option value="23Lebanon Township">
-<option value="37Leonia">
-<option value="24Liberty">
-<option value="26Lincoln Park">
-<option value="22Linden">
-<option value="4Lindenwold">
-<option value="2Linwood">
-<option value="9Little Egg Harbor">
-<option value="40Little Falls">
-<option value="36Little Ferry">
-<option value="13Little Silver">
-<option value="27Livingston">
-<option value="11Loch Arbour">
-<option value="38Lodi">
-<option value="3Logan">
-<option value="9Long Beach">
-<option value="11Long Branch">
-<option value="21Long Hill">
-<option value="2Longport">
-<option value="23Lopatcong">
-<option value="1Lower">
-<option value="3Lower Alloways Creek">
-<option value="8Lumberton">
-<option value="36Lyndhurst">
-<option value="27Madison">
-<option value="5Magnolia">
-<option value="39Mahwah">
-<option value="12Manalapan">
-<option value="30Manasquan">
-<option value="10Manchester">
-<option value="3Mannington">
-<option value="8Mansfield (Burlington)">
-<option value="23Mansfield (Warren)">
-<option value="10Mantoloking">
-<option value="5Mantua">
-<option value="16Manville">
-<option value="6Maple Shade">
-<option value="27Maplewood">
-<option value="2Margate City">
-<option value="13Marlboro">
-<option value="12Matawan">
-<option value="1Maurice River">
-<option value="38Maywood">
-<option value="8Medford">
-<option value="8Medford Lakes">
-<option value="25Mendham Borough">
-<option value="25Mendham Township">
-<option value="6Merchantville">
-<option value="18Metuchen">
-<option value="1Middle">
-<option value="22Middlesex">
-<option value="13Middletown">
-<option value="40Midland Park">
-<option value="23Milford">
-<option value="27Millburn">
-<option value="12Millstone (Monmouth)">
-<option value="16Millstone (Somerset)">
-<option value="17Milltown">
-<option value="1Millville">
-<option value="25Mine Hill">
-<option value="13Monmouth Beach">
-<option value="4Monroe (Gloucester)">
-<option value="14Monroe (Middlesex)">
-<option value="24Montague">
-<option value="34Montclair">
-<option value="16Montgomery">
-<option value="39Montvale">
-<option value="26Montville">
-<option value="36Moonachie">
-<option value="7Moorestown">
-<option value="25Morris">
-<option value="26Morris Plains">
-<option value="25Morristown">
-<option value="25Mount Arlington">
-<option value="5Mount Ephraim">
-<option value="8Mount Holly">
-<option value="7Mount Laurel">
-<option value="24Mount Olive">
-<option value="25Mountain Lakes">
-<option value="21Mountainside">
-<option value="2Mullica">
-<option value="3National Park">
-<option value="11Neptune">
-<option value="11Neptune Township">
-<option value="25Netcong">
-<option value="17New Brunswick">
-<option value="12New Hanover">
-<option value="38New Milford">
-<option value="21New Providence">
-<option value="28Newark">
-<option value="29Newark">
-<option value="3Newfield">
-<option value="24Newton">
-<option value="36North Arlington">
-<option value="32North Bergen">
-<option value="17North Brunswick">
-<option value="26North Caldwell">
-<option value="35North Haledon">
-<option value="12North Hanover">
-<option value="22North Plainfield">
-<option value="1North Wildwood">
-<option value="2Northfield">
-<option value="37Northvale">
-<option value="39Norwood">
-<option value="28Nutley">
-<option value="39Oakland">
-<option value="6Oaklyn">
-<option value="1Ocean City">
-<option value="9Ocean Gate">
-<option value="11Ocean Township (Monmouth)">
-<option value="9Ocean Township (Ocean)">
-<option value="13Oceanport">
-<option value="24Ogdensburg">
-<option value="12Old Bridge">
-<option value="39Old Tappan">
-<option value="3Oldmans">
-<option value="38Oradell">
-<option value="34Orange">
-<option value="24Oxford">
-<option value="37Palisades Park">
-<option value="7Palmyra">
-<option value="38Paramus">
-<option value="39Park Ridge">
-<option value="26Parsippany-Troy Hills">
-<option value="36Passaic">
-<option value="35Paterson">
-<option value="3Paulsboro">
-<option value="23Peapack-Gladstone">
-<option value="8Pemberton Borough">
-<option value="8Pemberton Township">
-<option value="15Pennington">
-<option value="3Penns Grove">
-<option value="6Pennsauken">
-<option value="3Pennsville">
-<option value="40Pequannock">
-<option value="19Perth Amboy">
-<option value="23Phillipsburg">
-<option value="3Pilesgrove">
-<option value="9Pine Beach">
-<option value="8Pine Hill">
-<option value="8Pine Valley">
-<option value="17Piscataway">
-<option value="4Pitman">
-<option value="3Pittsgrove">
-<option value="22Plainfield">
-<option value="14Plainsboro">
-<option value="2Pleasantville">
-<option value="12Plumsted">
-<option value="23Pohatcong">
-<option value="30Point Pleasant">
-<option value="10Point Pleasant Beach">
-<option value="40Pompton Lakes">
-<option value="9Port Republic">
-<option value="16Princeton">
-<option value="35Prospect Park">
-<option value="3Quinton">
-<option value="22Rahway">
-<option value="39Ramsey">
-<option value="25Randolph">
-<option value="16Raritan (Hunterdon)">
-<option value="23Raritan (Somerset)">
-<option value="16Readington">
-<option value="11Red Bank">
-<option value="36Ridgefield">
-<option value="36Ridgefield Park">
-<option value="40Ridgewood">
-<option value="39Ringwood">
-<option value="38River Edge">
-<option value="39River Vale">
-<option value="40Riverdale">
-<option value="7Riverside">
-<option value="7Riverton">
-<option value="14Robbinsville">
-<option value="38Rochelle Park">
-<option value="25Rockaway Borough">
-<option value="26Rockaway Township">
-<option value="37Rockleigh">
-<option value="16Rocky Hill">
-<option value="12Roosevelt">
-<option value="27Roseland">
-<option value="20Roselle">
-<option value="21Roselle Park">
-<option value="25Roxbury">
-<option value="13Rumson">
-<option value="5Runnemede">
-<option value="36Rutherford">
-<option value="38Saddle Brook">
-<option value="39Saddle River">
-<option value="3Salem">
-<option value="24Sandyston">
-<option value="19Sayreville">
-<option value="22Scotch Plains">
-<option value="13Sea Bright">
-<option value="30Sea Girt">
-<option value="1Sea Isle City">
-<option value="10Seaside Heights">
-<option value="9Seaside Park">
-<option value="32Secaucus">
-<option value="8Shamong">
-<option value="1Shiloh">
-<option value="9Ship Bottom">
-<option value="11Shrewsbury Borough">
-<option value="11Shrewsbury Township">
-<option value="6Somerdale">
-<option value="2Somers Point">
-<option value="16Somerville">
-<option value="19South Amboy">
-<option value="23South Bound Brook">
-<option value="16South Brunswick">
-<option value="36South Hackensack">
-<option value="3South Harrison">
-<option value="27South Orange">
-<option value="18South Plainfield">
-<option value="18South River">
-<option value="9South Toms River">
-<option value="8Southampton">
-<option value="24Sparta">
-<option value="14Spotswood">
-<option value="30Spring Lake">
-<option value="30Spring Lake Heights">
-<option value="8Springfield (Burlington)">
-<option value="21Springfield (Union)">
-<option value="9Stafford">
-<option value="24Stanhope">
-<option value="24Stillwater">
-<option value="16Stockton">
-<option value="1Stone Harbor">
-<option value="1Stow Creek">
-<option value="6Stratford">
-<option value="21Summit">
-<option value="9Surf City">
-<option value="24Sussex">
-<option value="3Swedesboro">
-<option value="9Tabernacle">
-<option value="6Tavistock">
-<option value="37Teaneck">
-<option value="37Tenafly">
-<option value="36Teterboro">
-<option value="23Tewksbury">
-<option value="11Tinton Falls">
-<option value="10Toms River">
-<option value="40Totowa">
-<option value="15Trenton">
-<option value="9Tuckerton">
-<option value="23Union (Hunterdon)">
-<option value="20Union (Union)">
-<option value="13Union Beach">
-<option value="33Union City">
-<option value="1Upper">
-<option value="3Upper Deerfield">
-<option value="12Upper Freehold">
-<option value="3Upper Pittsgrove">
-<option value="39Upper Saddle River">
-<option value="2Ventnor City">
-<option value="24Vernon">
-<option value="26Verona">
-<option value="25Victory Gardens">
-<option value="1Vineland">
-<option value="6Voorhees">
-<option value="40Waldwick">
-<option value="30Wall">
-<option value="36Wallington">
-<option value="24Walpack">
-<option value="39Wanaque">
-<option value="24Wantage">
-<option value="21Warren">
-<option value="39Washington (Bergen)">
-<option value="9Washington (Burlington)">
-<option value="4Washington (Gloucester)">
-<option value="25Washington (Morris)">
-<option value="23Washington Borough (Warren)">
-<option value="23Washington Township (Warren)">
-<option value="21Watchung">
-<option value="8Waterford">
-<option value="40Wayne">
-<option value="33Weehawken">
-<option value="5Wenonah">
-<option value="15West Amwell">
-<option value="26West Caldwell">
-<option value="1West Cape May">
-<option value="3West Deptford">
-<option value="11West Long Branch">
-<option value="26West Milford">
-<option value="32West New York">
-<option value="27West Orange">
-<option value="1West Wildwood">
-<option value="15West Windsor">
-<option value="8Westampton">
-<option value="21Westfield">
-<option value="5Westville">
-<option value="39Westwood">
-<option value="1Weymouth">
-<option value="25Wharton">
-<option value="24White">
-<option value="1Wildwood">
-<option value="1Wildwood Crest">
-<option value="7Willingboro">
-<option value="22Winfield">
-<option value="4Winslow">
-<option value="36Wood-Ridge">
-<option value="1Woodbine">
-<option value="19Woodbridge">
-<option value="5Woodbury">
-<option value="3Woodbury Heights">
-<option value="39Woodcliff Lake">
-<option value="8Woodland">
-<option value="40Woodland Park">
-<option value="5Woodlynne">
-<option value="3Woodstown">
-<option value="3Woolwich">
-<option value="12Wrightstown">
-<option value="40Wyckoff">
-<center>
-<input style="WIDTH: 160px" type="button" value="Find Representative(s)" id="senddata" name="senddata" onclick="validateForm()">
-<center>
-<td colspan='2"'>
-<td colspan="2" height="26">
-<font face="Verdana, Arial, Helvetica, sans-serif">
-<font size="3" face="Arial, Helvetica, sans-serif">
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
 <b>
-<td height="31" width="1">
-<td height="31">
-<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
-<form name="GoToBills" id="GoToBills" action="/bills/bills0001.asp" method="Post">
-<form name="GoToRoster" id="GoToRoster" action="/members/roster.asp" method="Post">
-<form name="GoToNominations" id="GoToNominations" action="/SenateNominations/SenateNominations.asp" method="Post">
+<input name="MiddleName" maxlength="1" size="1">
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<label>
+<input name="LastName" maxlength="25" size="17">
+<select name="Suffix" maxlength="10">
+<option value>
+<option value="Esq.">
+<option value="Jr.">
+<option value="Sr.">
+<option value="P.h.D.">
+<option value="D.V.M.">
+<option value="D.D.S.">
+<option value="O.D.">
+<option value="R.N.">
+<option value="III">
+<option value="II">
+<option value="L.L.D.">
+<option value="M.B.A.">
+<option value="Family">
+<font size="2" color="000000" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<input name="Address" maxlength="30" size="30">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<label>
+<input name="POBox" maxlength="20" size="30">
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<label>
+<input maxlength="25" size="21" name="City">
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<label>
+<select name="state">
+<option value="NJ">
+<option value="DE">
+<option value="NY">
+<option value="PA">
+<option value="AL">
+<option value="AK">
+<option value="AZ">
+<option value="AR">
+<option value="CA">
+<option value="CO">
+<option value="CT">
+<option value="DC">
+<option value="DE">
+<option value="FL">
+<option value="GA">
+<option value="HI">
+<option value="ID">
+<option value="IL">
+<option value="IN">
+<option value="IA">
+<option value="KS">
+<option value="KY">
+<option value="LA">
+<option value="ME">
+<option value="MD">
+<option value="MA">
+<option value="MI">
+<option value="MN">
+<option value="MO">
+<option value="MS">
+<option value="MT">
+<option value="NE">
+<option value="NV">
+<option value="NH">
+<option value="NJ" selected>
+<option value="NM">
+<option value="NY">
+<option value="NC">
+<option value="ND">
+<option value="OH">
+<option value="OK">
+<option value="OR">
+<option value="PA">
+<option value="RI">
+<option value="SC">
+<option value="SD">
+<option value="TN">
+<option value="TX">
+<option value="UT">
+<option value="VT">
+<option value="VA">
+<option value="WA">
+<option value="WV">
+<option value="WI">
+<option value="WY">
+<option value="AS">
+<option value="FM">
+<option value="GU">
+<option value="MH">
+<option value="MP">
+<option value="PR">
+<option value="VI">
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<label>
+<input name="ZipCode" maxlength="5" size="5">
+<input maxlength="4" size="4" name="ZipCode1">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="#333333">
+<input name="Phone1" maxlength="3" size="3">
+<input maxlength="3" size="3" name="Phone2">
+<input maxlength="4" size="4" name="Phone3">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<label>
+<input name="email" size="40" maxlength="50">
+<td width="40%">
+<font size="2" color="000000" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<td width="60%" colspan="2">
+<font size="2" color="000000" face="Verdana, Arial, Helvetica, sans-serif">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<input name="Group" size="30" maxlength="30">
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<font size="1" align="left" color="#810541" face="Verdana, Arial, Helvetica, sans-serif">
+<font color="#333333">
+<input name="Relation" size="30" maxlength="30">
+<font size="2" color="000000" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font size="2" color="#15317e" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<label>
+<input name="ESubject" id="ESubject" size="30" maxlength="30">
+<td valign="top">
+<font size="2" color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<font color="660000">
+<label>
+<textarea style="WIDTH: 300px; HEIGHT: 150px" id="Message" name="Message" rows="4" cols="40">
+<td align="center" colspan="2">
+<font size="1">
+<font color="810541" face="Verdana, Arial, Helvetica, sans-serif">
+<b>
+<center>
+<input type="button" value="Submit Email" id="senddata" name="senddata" onclick="validateForm()">
+<input type="reset" value="Start Over" name="reset">

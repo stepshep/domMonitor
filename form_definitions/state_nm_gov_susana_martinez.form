@@ -1,4 +1,4 @@
-<form method="post" action onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<form method="post" action id="form1">
 <table>
 <tbody>
 <span style="color:Red;font-weight:bold;" id="lblError">

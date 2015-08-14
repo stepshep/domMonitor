@@ -2,7 +2,16 @@
 <fieldset>
 <legend>
 <label for="prefix">
-<input id="prefix" maxlength="100" name="prefix" size="2">
+<select name="prefix">
+<option value>
+<option value="Ms.">
+<option value="Mr.">
+<option value="Mrs.">
+<option value="Mr. and Mrs.">
+<option value="Dr.">
+<option value="Rev.">
+<option value="Hon.">
+<option value="Rabbi">
 <label for="required-first">
 <span class="required-field" title="required information">
 <input class="validate[required] is-required" id="required-first" maxlength="100" name="required-first" size="15">
@@ -12,7 +21,15 @@
 <span class="required-field" title="required information">
 <input class="validate[required] is-required" id="required-last" maxlength="100" name="required-last" size="31">
 <label for="suffix">
-<input id="suffix" maxlength="100" name="suffix" size="2">
+<select name="suffix">
+<option value>
+<option value="Jr..">
+<option value="Sr.">
+<option value="II">
+<option value="III">
+<option value="IV">
+<option value="M.D.">
+<option value="Ph.D.">
 <label for="required-address">
 <span class="required-field" title="required information">
 <input class="validate[required] is-required" id="required-address" maxlength="100" name="required-address" size="90">

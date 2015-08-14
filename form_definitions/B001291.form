@@ -1,4 +1,4 @@
-<form method="post" action="?zip5=77630&zip4=5803" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<form method="post" action="?zip5=77630&zip4=5803" id="aspnetForm">
 <span class="pageHeader">
 <span style>
 <fieldset>
@@ -17,23 +17,23 @@
 <tr class="wyr-firstname">
 <label class="label-active" for="ctl00_ctl13_FirstName">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$FirstName" type="text" id="ctl00_ctl13_FirstName">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$FirstName" type="text" id="ctl00_ctl13_FirstName">
 <tr class="wyr-lastname">
 <label class="label-active" for="ctl00_ctl13_LastName">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$LastName" type="text" id="ctl00_ctl13_LastName">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$LastName" type="text" id="ctl00_ctl13_LastName">
 <tr class="wyr-street">
 <label class="label-active" for="ctl00_ctl13_Street">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$Street" type="text" id="ctl00_ctl13_Street">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$Street" type="text" id="ctl00_ctl13_Street">
 <tr class="wyr-city">
 <label class="label-active" for="ctl00_ctl13_City">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$City" type="text" id="ctl00_ctl13_City">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$City" type="text" id="ctl00_ctl13_City">
 <tr class="wyr-state">
 <label for="ctl00_ctl13_State">
 <span class="header">
@@ -101,13 +101,13 @@
 <tr class="wyr-zip">
 <label class="label-active" for="ctl00_ctl13_Zip">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$Zip" type="text" id="ctl00_ctl13_Zip">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$Zip" type="text" id="ctl00_ctl13_Zip">
 <tr class="wyr-phone">
 <label class="label-active" for="ctl00_ctl13_Phone">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$Phone" type="text" id="ctl00_ctl13_Phone">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$Phone" type="text" id="ctl00_ctl13_Phone">
 <fieldset>
 <legend>
 <table cellpadding="3" cellspacing="0" border="0">
@@ -116,8 +116,8 @@
 <td width="90">
 <label class="label-active" for="ctl00_ctl13_Email">
 <span class="header">
-<td class="parent-active">
-<input class="textBox" name="ctl00$ctl13$Email" type="text" id="ctl00_ctl13_Email">
+<td class="">
+<input class="textBox " name="ctl00$ctl13$Email" type="text" id="ctl00_ctl13_Email">
 <fieldset>
 <legend>
 <input id="ctl00_ctl13_SubscribeChoice" type="checkbox" name="ctl00$ctl13$SubscribeChoice">
@@ -172,8 +172,8 @@
 <label for="ctl00_ctl13_ReplyChoice_1">
 <label class="label-active" for="ctl00_ctl13_Subject">
 <span class="header">
-<input class="text-active" style="width:30em;" name="ctl00$ctl13$Subject" type="text" id="ctl00_ctl13_Subject">
+<input class="" name="ctl00$ctl13$Subject" type="text" id="ctl00_ctl13_Subject">
 <label class="label-active" for="ctl00_ctl13_Body">
 <span class="header">
-<textarea class="text-active" style="width:30em;" name="ctl00$ctl13$Body" rows="15" cols="20" id="ctl00_ctl13_Body">
+<textarea class="" name="ctl00$ctl13$Body" rows="15" cols="20" id="ctl00_ctl13_Body">
 <input class="ContactForm_Submit" type="submit" name="ctl00$ctl13$SubmitButton" value="Submit" onclick='if(blockClicks) {return false;}; submitWasClicked=true; ;WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$ctl13$SubmitButton", "", true, "", "", false, false))' id="ctl00_ctl13_SubmitButton">

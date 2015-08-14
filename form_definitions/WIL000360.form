@@ -1,4 +1,4 @@
-<form name="aspnetForm" method="post" action="Contact-Me.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<form name="aspnetForm" method="post" action="Contact-Me.aspx" id="aspnetForm">
 <span class="s4-notdlg">
 <table class="topNav zz1_GlobalNav_2" id="zz1_GlobalNav" cellpadding="0" cellspacing="0" border="0">
 <tbody>
